@@ -28,7 +28,8 @@
     skos:exactMatch <https://w3id.org/mlca/glossary/carpobalsamum> ;
     skos:related <https://w3id.org/hector/commodity/balsamum> ;
     la:equivalent wd:Q15543125 ;
-    hector:attestationCount 1 .
+    hector:attestationCount 1 ;
+    hector:taxation <https://w3id.org/hector/commodity/carpobalsamum#rate-1558-inward-326> .
 
 aat:300011868 a crm:E55_Type ;
     rdfs:label "fruit" .
@@ -39,6 +40,9 @@ aat:300375600 a crm:E55_Type ;
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
 
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
@@ -47,6 +51,22 @@ wd:Q15543125 a crm:E55_Type ;
 
 <https://w3id.org/hector/commodity/balsamum> a crm:E55_Type ;
     rdfs:label "balsamum" .
+
+<https://w3id.org/hector/commodity/carpobalsamum#rate-1558-inward-326> a hector:Rate ;
+    rdfs:label "1558 inward: Cappe balsanum the pounde 2s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "2s" ;
+            hector:valueInPence 24.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 326 (transcribed by Stuart Jenks): 'Cappe balsanum the pounde' 2s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/unit/pound> a crm:E58_Measurement_Unit ;
+    rdfs:label "pound" .
 
 <https://w3id.org/mlca/glossary/carpobalsamum> a crm:E55_Type ;
     rdfs:label "carpobalsamum (London Customs Accounts glossary)" .

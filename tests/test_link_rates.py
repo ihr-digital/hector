@@ -13,6 +13,8 @@ ENTRIES = {
     "pan": {"f": [{"t": "pans"}]},
     "pan_2": {"f": [{"t": "pans"}]},                       # one spelling, two concepts
     "wax": {"f": [{"t": "wax"}]},
+    "lantern": {"f": [{"t": "lantorns"}]},
+    "hatchet": {"f": [{"t": "hatchettes"}]},
 }
 
 
@@ -27,6 +29,14 @@ def test_the_goods_at_the_head_win_over_a_word_later_on():
     assert (key, how) == ("buckram", "head")
     key, *_ = linked("Corke made in barrelles the laste")
     assert key == "cork"                                   # not the barrel it came in
+
+
+def test_a_material_or_purpose_away_from_the_head_is_not_the_goods():
+    # "Hornes for lantorns": the horns are the goods; lanterns are what they are for
+    key, _s, _q, how = linked("Hornes for lantorns the 1000")
+    assert key is None and how.startswith("only a material, purpose or container")
+    assert linked("Axes or hatchettes the dossen")[0] == "hatchet"     # CONTROL: "or" names the goods
+    assert linked("Lantorns of horne")[0] == "lantern"                 # CONTROL: at the head it links
 
 
 def test_an_ambiguous_spelling_is_never_used():

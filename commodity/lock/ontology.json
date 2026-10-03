@@ -467,46 +467,6 @@
       ]
     },
     {
-      "id": "https://w3id.org/hector/commodity/lock#rate-1558-inward-389",
-      "type": "Rate",
-      "_label": "1558 inward: Dagges with fyer lockes the pece 10s",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "120",
-        "lsd": "10s"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 1,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/pecia",
-          "type": "MeasurementUnit",
-          "_label": "pecia"
-        }
-      },
-      "validFrom": "1558",
-      "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 389 (transcribed by Stuart Jenks): 'Dagges with fyer lockes the pece' 10s",
-      "qualifier": [
-        {
-          "type": "Type",
-          "_label": "Dagges with fyer",
-          "classified_as": [
-            {
-              "id": "hector:AttestedVariant",
-              "type": "Type",
-              "_label": "attested variant"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://w3id.org/hector/commodity/lock#rate-1558-inward-671",
       "type": "Rate",
       "_label": "1558 inward: Lockes small the dosen 3s 4d",

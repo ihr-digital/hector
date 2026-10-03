@@ -258,9 +258,6 @@ aat:300435416 a crm:E55_Type ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/barrel> ] ;
     hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "nayle" ;
-            crm:P2_has_type hector:AttestedVariant ],
-        [ a crm:E55_Type ;
             rdfs:label "large-headed" ],
         [ a crm:E55_Type ;
             rdfs:label "large" ;

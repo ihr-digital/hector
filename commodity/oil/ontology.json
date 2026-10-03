@@ -470,7 +470,7 @@
       "qualifier": [
         {
           "type": "Type",
-          "_label": "wolle oylle",
+          "_label": "wolle",
           "classified_as": [
             {
               "id": "hector:AttestedVariant",
@@ -510,7 +510,18 @@
       "qualifier": [
         {
           "type": "Type",
-          "_label": "mett oylle or rape oylle",
+          "_label": "mett",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "rape",
           "classified_as": [
             {
               "id": "hector:AttestedVariant",

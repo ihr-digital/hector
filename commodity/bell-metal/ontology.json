@@ -71,5 +71,61 @@
     }
   ],
   "attestationCount": 2,
-  "modified": "2026-09-29"
+  "modified": "2026-09-29",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/bell-metal#rate-1545-outward-32",
+      "type": "Rate",
+      "_label": "1545 outward: Bell mettell the 100 pound 16s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "200",
+        "lsd": "16s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, outward, line 32 (transcribed by Stuart Jenks): 'Bell mettell the 100 pound' 16s 8d"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/bell-metal#rate-1558-outward-6",
+      "type": "Rate",
+      "_label": "1558 outward: Bell mettell the C cont’ 112 lb 33s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "400",
+        "lsd": "33s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, outward, line 6 (transcribed by Stuart Jenks): 'Bell mettell the C cont’ 112 lb' 33s 4d"
+    }
+  ]
 }

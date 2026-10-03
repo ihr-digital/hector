@@ -784,6 +784,46 @@
       ]
     },
     {
+      "id": "https://w3id.org/hector/commodity/knife#rate-1545-inward-610",
+      "type": "Rate",
+      "_label": "1545 inward: Rone knyves the standerde 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/standard",
+          "type": "MeasurementUnit",
+          "_label": "standard"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 610 (transcribed by Stuart Jenks): 'Rone knyves the standerde' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Rone",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/knife#rate-1558-inward-183",
       "type": "Rate",
       "_label": "1558 inward: Carvinge knives the dosen 20s",
@@ -990,17 +1030,6 @@
               "id": "wd:Q365",
               "type": "Place",
               "_label": "Cologne"
-            }
-          ]
-        },
-        {
-          "type": "Type",
-          "_label": "knives",
-          "classified_as": [
-            {
-              "id": "hector:AttestedVariant",
-              "type": "Type",
-              "_label": "attested variant"
             }
           ]
         }

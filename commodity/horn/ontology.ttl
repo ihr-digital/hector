@@ -115,14 +115,16 @@
     skos:related <https://w3id.org/hector/commodity/middilhorn> ;
     la:equivalent aat:300011826 ;
     hector:attestationCount 299 ;
-    hector:taxation <https://w3id.org/hector/commodity/horn#rate-1545-outward-7>,
-        <https://w3id.org/hector/commodity/horn#rate-1558-inward-460> .
+    hector:taxation <https://w3id.org/hector/commodity/horn#rate-1545-outward-7> .
 
 aat:300011826 a crm:E55_Type ;
     rdfs:label "horn (animal material)" .
 
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
@@ -167,22 +169,6 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
-<https://w3id.org/hector/commodity/horn#rate-1558-inward-460> a hector:Rate ;
-    rdfs:label "1558 inward: Flaske of horne the dosen 5s" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "5s" ;
-            hector:valueInPence 60.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 12 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "Flaske" ;
-            crm:P2_has_type hector:AttestedVariant ] ;
-    hector:sourceText "Book of Rates 1558, inward, line 460 (transcribed by Stuart Jenks): 'Flaske of horne the dosen' 5s" ;
-    hector:validFrom "1558"^^xsd:gYear ;
-    hector:validThrough "1604"^^xsd:gYear .
-
 <https://w3id.org/hector/commodity/horn-3> a crm:E55_Type ;
     rdfs:label "horn_3" .
 
@@ -201,17 +187,11 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/hector/commodity/shoehorn> a crm:E55_Type ;
     rdfs:label "shoehorn" .
 
-<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
-    rdfs:label "dozen" .
-
 <https://w3id.org/hector/unit/thousand> a crm:E58_Measurement_Unit ;
     rdfs:label "thousand" .
 
 <https://w3id.org/mlca/glossary/horn> a crm:E55_Type ;
     rdfs:label "horn (London Customs Accounts glossary)" .
-
-aat:300411998 a crm:E98_Currency ;
-    rdfs:label "pound sterling (system of money)" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

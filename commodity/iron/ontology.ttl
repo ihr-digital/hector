@@ -109,10 +109,7 @@
     hector:taxation <https://w3id.org/hector/commodity/iron#rate-1545-inward-395>,
         <https://w3id.org/hector/commodity/iron#rate-1545-inward-398>,
         <https://w3id.org/hector/commodity/iron#rate-1545-inward-399>,
-        <https://w3id.org/hector/commodity/iron#rate-1558-inward-1111>,
-        <https://w3id.org/hector/commodity/iron#rate-1558-inward-368>,
-        <https://w3id.org/hector/commodity/iron#rate-1558-inward-612>,
-        <https://w3id.org/hector/commodity/iron#rate-1558-inward-856> .
+        <https://w3id.org/hector/commodity/iron#rate-1558-inward-612> .
 
 aat:300011002 a crm:E55_Type ;
     rdfs:label "iron (metal)" .
@@ -136,9 +133,6 @@ wd:Q13373 a crm:E53_Place ;
             crm:P90_has_value 100 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
     hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "Iron" ;
-            crm:P2_has_type hector:AttestedVariant ],
-        [ a crm:E55_Type ;
             rdfs:label "Lucca" ;
             hector:originPlace wd:Q13373 ] ;
     hector:sourceText "Book of Rates 1545, inward, line 395 (transcribed by Stuart Jenks): 'Iron called Lukes yron the 100 lb' 3s 4d" ;
@@ -154,9 +148,6 @@ wd:Q13373 a crm:E53_Place ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/band> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "Iron" ;
-            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1545, inward, line 398 (transcribed by Stuart Jenks): 'Iron called faggot yron the bonde' 6s 8d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
@@ -170,50 +161,9 @@ wd:Q13373 a crm:E53_Place ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 100 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "Iron" ;
-            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1545, inward, line 399 (transcribed by Stuart Jenks): 'Iron called faggot yron the hundreth pounde' 3s 4d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
-
-<https://w3id.org/hector/commodity/iron#rate-1558-inward-1111> a hector:Rate ;
-    rdfs:label "1558 inward: Touche boxes of yron or other mettall guylt the dossen 10s" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "10s" ;
-            hector:valueInPence 120.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 12 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "other mettall guylt" ;
-            crm:P2_has_type hector:AttestedVariant ],
-        [ a crm:E55_Type ;
-            rdfs:label "Touche" ;
-            crm:P2_has_type hector:AttestedVariant ] ;
-    hector:sourceText "Book of Rates 1558, inward, line 1111 (transcribed by Stuart Jenks): 'Touche boxes of yron or other mettall guylt the dossen' 10s" ;
-    hector:validFrom "1558"^^xsd:gYear ;
-    hector:validThrough "1604"^^xsd:gYear .
-
-<https://w3id.org/hector/commodity/iron#rate-1558-inward-368> a hector:Rate ;
-    rdfs:label "1558 inward: Doble yron plates vocat’ dobles the shock cont’ 6 bundelles 40s" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "40s" ;
-            hector:valueInPence 480.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 1 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/shock> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "plates vocat dobles" ;
-            crm:P2_has_type hector:AttestedVariant ],
-        [ a crm:E55_Type ;
-            rdfs:label "Doble" ;
-            crm:P2_has_type hector:AttestedVariant ] ;
-    hector:sourceText "Book of Rates 1558, inward, line 368 (transcribed by Stuart Jenks): 'Doble yron plates vocat’ dobles the shock cont’ 6 bundelles' 40s" ;
-    hector:validFrom "1558"^^xsd:gYear ;
-    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/iron#rate-1558-inward-612> a hector:Rate ;
     rdfs:label "1558 inward: Iron voc’ Spanishe iron the tonne cont’ 20 C weight £4" ;
@@ -228,33 +178,8 @@ wd:Q13373 a crm:E53_Place ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
-<https://w3id.org/hector/commodity/iron#rate-1558-inward-856> a hector:Rate ;
-    rdfs:label "1558 inward: Pulleys of yron the grosse 50s" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "50s" ;
-            hector:valueInPence 600.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 144 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "Pulleys" ;
-            crm:P2_has_type hector:AttestedVariant ] ;
-    hector:sourceText "Book of Rates 1558, inward, line 856 (transcribed by Stuart Jenks): 'Pulleys of yron the grosse' 50s" ;
-    hector:validFrom "1558"^^xsd:gYear ;
-    hector:validThrough "1604"^^xsd:gYear .
-
 <https://w3id.org/hector/unit/band> a crm:E58_Measurement_Unit ;
     rdfs:label "band" .
-
-<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
-    rdfs:label "dozen" .
-
-<https://w3id.org/hector/unit/gross> a crm:E58_Measurement_Unit ;
-    rdfs:label "gross" .
-
-<https://w3id.org/hector/unit/shock> a crm:E58_Measurement_Unit ;
-    rdfs:label "shock" .
 
 <https://w3id.org/hector/unit/tun> a crm:E58_Measurement_Unit ;
     rdfs:label "tun" .

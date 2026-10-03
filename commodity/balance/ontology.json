@@ -411,6 +411,33 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/balance#rate-1545-inward-72",
+      "type": "Rate",
+      "_label": "1545 inward: Ballandes called ounce ballance the groce 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 72 (transcribed by Stuart Jenks): 'Ballandes called ounce ballance the groce' 10s"
+    },
+    {
       "id": "https://w3id.org/hector/commodity/balance#rate-1558-inward-66",
       "type": "Rate",
       "_label": "1558 inward: Ballaunces vocat’ golde ballaunces the grosse 40s",

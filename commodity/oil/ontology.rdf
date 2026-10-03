@@ -7,25 +7,53 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_oil_cb1fdd01d09e21e1e72774720e3662aaf0e082b98543f1949a41abb3117adc90d97">
-    <crm:P190_has_symbolic_content>oley</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_oil_cb1bc84bd6a8657fcc65da0dcca95f3ad499885da10edc1a17a64ce2b970cf539b2">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>olei</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
+    <rdfs:label>mett</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb13c383f89db71a22ce9d975789b8621fe3cf39f27165a5f600b1a589c15173337">
-    <crm:P190_has_symbolic_content>oleum</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1558-inward-786">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Oleum spice the pound 6d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_oil_cb27a90810480329a208ed3613cf7a7ae39eda16ef1d507efa93494bf03239dcbaa"/>
+    <hector:perQuantity rdf:nodeID="commodity_oil_cb20cf7fa4ff550a2b85efd92f0e76ce75a4bc8365fb482fd4767436afd401a9e65"/>
+    <hector:qualifier rdf:nodeID="commodity_oil_cb200fec467d95f7b333fff559225e43fb36b76d7de8ec3938e03b7729f663546aa"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 786 (transcribed by Stuart Jenks): 'Oleum spice the pound' 6d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb1dd231bf05c4df12132053d9eeea212dfa958902326a38ff4e74235f0adab2019">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>wolle</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb1a25283e587be1ed255d97014176dbe99477a082b87beee79ac74beb9645a3400">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>rape</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb28701b3b4cb0040bb55dc3dd50616b1278c00408606a1a9150f096a9b24fe8c90">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/tun"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb171332b5f1b3daff19ac4cea52141a6f65a44dc8265501220ed9502d6cdb4bda3">
+    <crm:P190_has_symbolic_content>oyleium</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>oleum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+    <hector:phoneticKey>oileium</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb1f7b94834eb94b191cc9a3703070d2d7bc4626e3cb46fd52d8e2aed857b6f236b">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb1f92e1c6a46468178957596d8b33b2ab187e88f9842701b1511adf07fc18b7d69">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>massis</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
@@ -87,75 +115,6 @@
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/oil#rate-1558-inward-792"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/oil#rate-1558-inward-793"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/tun">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>tun</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/rape-oil">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>rape oil</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb11ea3abc6e1a3ffe029a2079c42ee123ec2d153a8596d6877ccec8cadf6fb6c71">
-    <crm:P190_has_symbolic_content>ole</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>olə</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/olive">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>olive</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb244ea4c79741969b7c5147690289bff4bb12e66d21223a2b5e3bcd4c087e1ff72">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>Cyvill</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1507-none-200">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1507: Oyle called wolle oylle the tune £4</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_oil_cb2e230b78446e76a6d6f90c6d4fa57a1429cb26a10debb1971d68f44e1441b93e7"/>
-    <hector:perQuantity rdf:nodeID="commodity_oil_cb28701b3b4cb0040bb55dc3dd50616b1278c00408606a1a9150f096a9b24fe8c90"/>
-    <hector:qualifier rdf:nodeID="commodity_oil_cb1d72a0df6b5cbd1f6ce8c83e29ef8da57492a6740afb0ab0da790721466d34eab"/>
-    <hector:sourceText>Book of Rates 1507, line 200 (transcribed by Stuart Jenks): 'Oyle called wolle oylle the tune' £4</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1545-inward-535">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Oyle de lynsede the barel 13s 4d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_oil_cb33cdb5bf6dcfae922071104d1f7156e579a3aa5f0996e15a9ebb6d94a5ee5db06"/>
-    <hector:perQuantity rdf:nodeID="commodity_oil_cb29a813e490fa232434f772e6db8e6ba36374bda52b92f71509db06648593daa9b"/>
-    <hector:qualifier rdf:nodeID="commodity_oil_cb27a47542fb193073270d6b8dd93b8b6eeaa550dbb3ffd6c2d0e0f4c0f06575829"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 535 (transcribed by Stuart Jenks): 'Oyle de lynsede the barel' 13s 4d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1dd4eec8c630583834c7e48e41580932a2bf47a89ec0ba785f258bf0c2b046d25">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1558-inward-792">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Oyle olive the barrell cont’ 17 gallons poiz 214 lb 30s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_oil_cb1b3e6fb1ef564b2adadeda7d3265cb024ef31ad0c570845c331e63aec02cb4da5"/>
-    <hector:perQuantity rdf:nodeID="commodity_oil_cb1d7b85a133388d0e19dd234706a390f68e654ea6bd217c3775a2b5c3e811a6c42"/>
-    <hector:qualifier rdf:nodeID="commodity_oil_cb1f16c7c9b87a75bf8147faa8f0e90cd82649c2d860c9dcec9d66f14dc8b438992"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 792 (transcribed by Stuart Jenks): 'Oyle olive the barrell cont’ 17 gallons poiz 214 lb' 30s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb2e230b78446e76a6d6f90c6d4fa57a1429cb26a10debb1971d68f44e1441b93e7">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>£4</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">960</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1d7b85a133388d0e19dd234706a390f68e654ea6bd217c3775a2b5c3e811a6c42">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1558-inward-756">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
     <rdfs:label>1558 inward: Oyle de bay the barrell cont’ C lb. at 100 [lb.] 26s 8d</rdfs:label>
@@ -166,21 +125,9 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb2f7cb73532e1aac7149043e794ea9ccfe7dc75bdc6d6a68b9653887d6760fce6a">
-    <crm:P190_has_symbolic_content>oleium</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>oleium</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb2fb8355283f4c9bc3f2f67674a88bca0d98129d5c660bb06d82a6446a022992ed">
-    <crm:P190_has_symbolic_content>oile</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>oilə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/last">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>last</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_oil_cb31830d55541e8b6f01379f761c3f071dd8c9a1e920e4a71528cde6482d1e2b5e7">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
@@ -188,210 +135,10 @@
     <hector:lsd>13s 4d</hector:lsd>
     <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1904409cb340713ce173c013fdad0b2aa9f317f221bdb484f8b52f7045a19b573">
-    <crm:P190_has_symbolic_content>oyle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>oilə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1558-inward-791">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Oyle voc’ sallet oyle the gallon 20d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_oil_cb2bf859298931a5b35afa1ef18864ab903cef29e973d162f6772d9ab7ea68d678d"/>
-    <hector:perQuantity rdf:nodeID="commodity_oil_cb26ee2e34f0aacfbffa9ae5e722931ae69b7d09a210ad9e1df05190208f817b28c"/>
-    <hector:qualifier rdf:nodeID="commodity_oil_cb1a2116523b0d44f8f983b30217b67b012e70e534dc1edbadee94651e2b661ea1d"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 791 (transcribed by Stuart Jenks): 'Oyle voc’ sallet oyle the gallon' 20d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1545-inward-531">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Oyle de Bay, the barrell conteinynge 100 pounde 13s 4d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_oil_cb37803f4b4c4b82211a7be60a645375dd52b1c312797b2f16242b1f3b4beae69be"/>
-    <hector:perQuantity rdf:nodeID="commodity_oil_cb1dd4eec8c630583834c7e48e41580932a2bf47a89ec0ba785f258bf0c2b046d25"/>
-    <hector:qualifier rdf:nodeID="commodity_oil_cb2848d89a45955797d0c6729455e0af9a5d3a4ce0404d3c60e07caab20ddfb1dd9"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 531 (transcribed by Stuart Jenks): 'Oyle de Bay, the barrell conteinynge 100 pounde' 13s 4d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1f7b94834eb94b191cc9a3703070d2d7bc4626e3cb46fd52d8e2aed857b6f236b">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1bbc937479d1eca905ff38ff37dfe983ca2cf6c74c98cb51b4c5f985918223552">
-    <crm:P190_has_symbolic_content>oilie</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>oiliː</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb13df06093ded91fc8127ee360c8ac74ba6a30220477a80e063637d64b17a9f920">
-    <crm:P190_has_symbolic_content>oille</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>oilə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hog-fat">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>hog fat</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1558-inward-786">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Oleum spice the pound 6d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_oil_cb27a90810480329a208ed3613cf7a7ae39eda16ef1d507efa93494bf03239dcbaa"/>
-    <hector:perQuantity rdf:nodeID="commodity_oil_cb20cf7fa4ff550a2b85efd92f0e76ce75a4bc8365fb482fd4767436afd401a9e65"/>
-    <hector:qualifier rdf:nodeID="commodity_oil_cb200fec467d95f7b333fff559225e43fb36b76d7de8ec3938e03b7729f663546aa"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 786 (transcribed by Stuart Jenks): 'Oleum spice the pound' 6d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bay-oil">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>bay oil</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1545-inward-509">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Oyle the tonne £4</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_oil_cb352a9d12c6c7a59e10c9a7c6fa2534be05d96e4e31f835254b33dbce7411df085"/>
-    <hector:perQuantity rdf:nodeID="commodity_oil_cb2a9d6892f930d8cbd86fdd989e7111f896f955f3b63feb3b63def89e6225707f2"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 509 (transcribed by Stuart Jenks): 'Oyle the tonne' £4</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1558-inward-787">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Oleum petoleum the pound 6d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_oil_cb2921ea6eab30a1516f49c0543b1e097ae2d5bdf48ecb940f0dabf10f4465e83ce"/>
-    <hector:perQuantity rdf:nodeID="commodity_oil_cb248ab6b17ca02cd106bd466f5d15920cedb3a992f2254d5b7880c8ffe6b7e281d"/>
-    <hector:qualifier rdf:nodeID="commodity_oil_cb1a0ca5e6e722257e4366f7f946b50f8e5cbe62e7f7f7245158f6cb400ff3d3ce1"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 787 (transcribed by Stuart Jenks): 'Oleum petoleum the pound' 6d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1203782d142f59910a3c3d286d70de389b9cead0ed60038b1e6fa1a804a84299e">
-    <crm:P190_has_symbolic_content>olee</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>oleː</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1558-inward-782">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Oleum camomoia the pound 10s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_oil_cb2e73dfaa339cb7822d314cddf664341bd31ebc472d7ea7feb60e5ef10b6c97ccc"/>
-    <hector:perQuantity rdf:nodeID="commodity_oil_cb1c8e78295c985c851619f789818f933c89892be657be02094bacc37c2ff67670a"/>
-    <hector:qualifier rdf:nodeID="commodity_oil_cb1d05a86f42070980b33db0cdebcc6f28fee750dbd944ae24730b561a05bf9a468"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 782 (transcribed by Stuart Jenks): 'Oleum camomoia the pound' 10s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb15187a2b3f1d3983f2493d4ae3f67a794340502fc9d1de2b1eed77153057e1d75">
-    <crm:P190_has_symbolic_content>ollium</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>olium</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb32493a95f9db4c076e07555b9aaf0a67eb642e74ed295d5495dd45c4d32145c08">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>£8</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1920</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1507-none-239">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1507: Rappe oyle the last on with another £8</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_oil_cb38e655eaf473ea5a4fae84cb61a4f3d307ffb8dc03be3db2ea6eab53d0f7fe308"/>
-    <hector:perQuantity rdf:nodeID="commodity_oil_cb2291cfffb3808dc8ec00d25d53f99b4ca0085d95d681aba51d75789b984a80ecf"/>
-    <hector:qualifier rdf:nodeID="commodity_oil_cb1eed56f438525b69907a4f97a1eadc046c68eb25330d662fac7b5bc9e4a312881"/>
-    <hector:sourceText>Book of Rates 1507, line 239 (transcribed by Stuart Jenks): 'Rappe oyle the last on with another' £8</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb26ee2e34f0aacfbffa9ae5e722931ae69b7d09a210ad9e1df05190208f817b28c">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gallon"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1558-inward-780">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Oleum massis the pound 10s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_oil_cb296aac4a1f893efdd481ae882674ba9c3cd594027b21c1f3bd3e532c3c37f78fc"/>
-    <hector:perQuantity rdf:nodeID="commodity_oil_cb1e567c16ae13994c7ed56cb42f3f743dae1a282c24292af2afb8572533de76489"/>
-    <hector:qualifier rdf:nodeID="commodity_oil_cb1f92e1c6a46468178957596d8b33b2ab187e88f9842701b1511adf07fc18b7d69"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 780 (transcribed by Stuart Jenks): 'Oleum massis the pound' 10s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb217b0fda0743d848a4e344049fb3611135ad7b5e5c82442c9047c741a0ffd2fa9">
-    <crm:P190_has_symbolic_content>oylle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>oilə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1f459ddb4987b356710e578fb7f3350ef99bd7f6890234b7546f190f8cf92adf5">
-    <crm:P190_has_symbolic_content>olii</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>oli</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb2921ea6eab30a1516f49c0543b1e097ae2d5bdf48ecb940f0dabf10f4465e83ce">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>6d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/oil">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>oil (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1f395679490276be5b3b23fbe1d725d44268d0f6f08c903c69ae60a581241090f">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>lentissimum</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb2291cfffb3808dc8ec00d25d53f99b4ca0085d95d681aba51d75789b984a80ecf">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/last"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1558-inward-790">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Oyle voc’ trane oyle the tonne £5</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_oil_cb2ba08c53cfc1d19f153c63027de5955c2bd5815c4e3e5fe07e787e43670397cd4"/>
-    <hector:perQuantity rdf:nodeID="commodity_oil_cb2a1ff368c3a1bf960f4ea3f3b3e48086d3cb2a351b831eee38a8c35d375cb68e8"/>
-    <hector:qualifier rdf:nodeID="commodity_oil_cb20506021966edea4be0ec750280f377090a83ba21886432b505f6a78da3f6311d"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 790 (transcribed by Stuart Jenks): 'Oyle voc’ trane oyle the tonne' £5</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1e567c16ae13994c7ed56cb42f3f743dae1a282c24292af2afb8572533de76489">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1ff4f073ebc76a76eff4f9e18f55cb61f794d3cdef4e5fc1bf94d17c3c7c2c7fd">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb25b23848d456e9e691f6a937f1ce64d28754aa9169cb5ee6e9a73dcbffbbca765">
-    <crm:P190_has_symbolic_content>oleye</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>oleie</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_oil_cb13ca2ed44bba24a65674045335802445f06db97ee17c92b36de88d4b4ae11494d">
+    <crm:P190_has_symbolic_content>oil (generic); also wool oil used in the preparation of wool, and oils of unknown identity</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1558-inward-793">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
@@ -403,105 +150,42 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1558-inward-755">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Oyle voc’ Cyvill oyle the tonne £8</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_oil_cb32493a95f9db4c076e07555b9aaf0a67eb642e74ed295d5495dd45c4d32145c08"/>
-    <hector:perQuantity rdf:nodeID="commodity_oil_cb27692387eaf9ee06c041bbd3d3787fb2432cedf17ffd58220fed8cd7a3d562d5d"/>
-    <hector:qualifier rdf:nodeID="commodity_oil_cb244ea4c79741969b7c5147690289bff4bb12e66d21223a2b5e3bcd4c087e1ff72"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 755 (transcribed by Stuart Jenks): 'Oyle voc’ Cyvill oyle the tonne' £8</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb26e3661fbf31023d902eddac3fb0a4aeed16e105e1c9dad4ec96b3aa15efc4631">
-    <crm:P190_has_symbolic_content>oylee</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>oileː</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/spike-oil">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>spike oil</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1f92e1c6a46468178957596d8b33b2ab187e88f9842701b1511adf07fc18b7d69">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>massis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb2ba08c53cfc1d19f153c63027de5955c2bd5815c4e3e5fe07e787e43670397cd4">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>£5</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1200</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb20cf7fa4ff550a2b85efd92f0e76ce75a4bc8365fb482fd4767436afd401a9e65">
+  <rdf:Description rdf:nodeID="commodity_oil_cb26ee2e34f0aacfbffa9ae5e722931ae69b7d09a210ad9e1df05190208f817b28c">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gallon"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1f16c7c9b87a75bf8147faa8f0e90cd82649c2d860c9dcec9d66f14dc8b438992">
+  <rdf:Description rdf:nodeID="commodity_oil_cb1580161fc8bfe5dc55603515027afd2d1a36c740f050aa62fdbcbe9d09734c7eb">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>olive</rdfs:label>
+    <rdfs:label>Woll</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb15439fb51f65638783eb93e5663b85f4142b3732d31f0dbcc13f862e1d08a1e16">
-    <crm:P190_has_symbolic_content>olei</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_oil_cb1a2116523b0d44f8f983b30217b67b012e70e534dc1edbadee94651e2b661ea1d">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>olei</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>sallet</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb286fd5ab91df4bdb98e4a7ce23b503420e12eac595b5a21c9dfbb6048d4f149c4">
+  <rdf:Description rdf:nodeID="commodity_oil_cb2e230b78446e76a6d6f90c6d4fa57a1429cb26a10debb1971d68f44e1441b93e7">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
     <hector:lsd>£4</hector:lsd>
     <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">960</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1d05a86f42070980b33db0cdebcc6f28fee750dbd944ae24730b561a05bf9a468">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>camomoia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb253d6c21fe78c640091679e3335aaf46f8b0053803334138439891a1c4c917e5e">
-    <crm:P190_has_symbolic_content>ollii</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_oil_cb1203782d142f59910a3c3d286d70de389b9cead0ed60038b1e6fa1a804a84299e">
+    <crm:P190_has_symbolic_content>olee</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>oli</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
+    <hector:phoneticKey>oleː</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb37803f4b4c4b82211a7be60a645375dd52b1c312797b2f16242b1f3b4beae69be">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>13s 4d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1ee4a4508a963932cc1b054438af6294f6c297c3dd924ef2393c1274e4d687f27">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb24cef7963d13727ffe86270550c3966a50cda11841de15207d2e1b9ce7da3ea4e">
-    <crm:P190_has_symbolic_content>oleii</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>oleii</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1b3e6fb1ef564b2adadeda7d3265cb024ef31ad0c570845c331e63aec02cb4da5">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>30s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1507-none-200">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Oyle called wolle oylle the tune £4</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_oil_cb2e230b78446e76a6d6f90c6d4fa57a1429cb26a10debb1971d68f44e1441b93e7"/>
+    <hector:perQuantity rdf:nodeID="commodity_oil_cb28701b3b4cb0040bb55dc3dd50616b1278c00408606a1a9150f096a9b24fe8c90"/>
+    <hector:qualifier rdf:nodeID="commodity_oil_cb1dd231bf05c4df12132053d9eeea212dfa958902326a38ff4e74235f0adab2019"/>
+    <hector:sourceText>Book of Rates 1507, line 200 (transcribed by Stuart Jenks): 'Oyle called wolle oylle the tune' £4</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1545-inward-795">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
@@ -514,44 +198,112 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb38e655eaf473ea5a4fae84cb61a4f3d307ffb8dc03be3db2ea6eab53d0f7fe308">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1545-inward-535">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Oyle de lynsede the barel 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_oil_cb33cdb5bf6dcfae922071104d1f7156e579a3aa5f0996e15a9ebb6d94a5ee5db06"/>
+    <hector:perQuantity rdf:nodeID="commodity_oil_cb29a813e490fa232434f772e6db8e6ba36374bda52b92f71509db06648593daa9b"/>
+    <hector:qualifier rdf:nodeID="commodity_oil_cb27a47542fb193073270d6b8dd93b8b6eeaa550dbb3ffd6c2d0e0f4c0f06575829"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 535 (transcribed by Stuart Jenks): 'Oyle de lynsede the barel' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb2fb8355283f4c9bc3f2f67674a88bca0d98129d5c660bb06d82a6446a022992ed">
+    <crm:P190_has_symbolic_content>oile</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>oilə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb32493a95f9db4c076e07555b9aaf0a67eb642e74ed295d5495dd45c4d32145c08">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
     <hector:lsd>£8</hector:lsd>
     <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1920</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1a0ca5e6e722257e4366f7f946b50f8e5cbe62e7f7f7245158f6cb400ff3d3ce1">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>petoleum</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/last">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>last</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/pound">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>pound</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb2e73dfaa339cb7822d314cddf664341bd31ebc472d7ea7feb60e5ef10b6c97ccc">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>10s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb23f77442f931769dacee8efd7e7f7cc4c092cd2c14e6b2b9306995d68ab75a2f4">
-    <crm:P190_has_symbolic_content>oillie</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_oil_cb1d2e7553363b201b7d0b47426e0ae00ff19b5f400335e42f6ed953d599cbafabb">
+    <crm:P190_has_symbolic_content>oill</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>oiliː</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+    <hector:phoneticKey>oil</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb2fbedf8ac1717fd0b6d8bbdc95c1ba85cf7197aa0ec9c9a45b860747081444ad0">
+  <rdf:Description rdf:nodeID="commodity_oil_cb253d6c21fe78c640091679e3335aaf46f8b0053803334138439891a1c4c917e5e">
+    <crm:P190_has_symbolic_content>ollii</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>oli</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/tun">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>tun</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/balsamum">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>balsamum</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb1f16c7c9b87a75bf8147faa8f0e90cd82649c2d860c9dcec9d66f14dc8b438992">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>olive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1558-inward-755">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Oyle voc’ Cyvill oyle the tonne £8</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_oil_cb32493a95f9db4c076e07555b9aaf0a67eb642e74ed295d5495dd45c4d32145c08"/>
+    <hector:perQuantity rdf:nodeID="commodity_oil_cb27692387eaf9ee06c041bbd3d3787fb2432cedf17ffd58220fed8cd7a3d562d5d"/>
+    <hector:qualifier rdf:nodeID="commodity_oil_cb244ea4c79741969b7c5147690289bff4bb12e66d21223a2b5e3bcd4c087e1ff72"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 755 (transcribed by Stuart Jenks): 'Oyle voc’ Cyvill oyle the tonne' £8</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb20cf7fa4ff550a2b85efd92f0e76ce75a4bc8365fb482fd4767436afd401a9e65">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb1f395679490276be5b3b23fbe1d725d44268d0f6f08c903c69ae60a581241090f">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>lentissimum</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb2291cfffb3808dc8ec00d25d53f99b4ca0085d95d681aba51d75789b984a80ecf">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/last"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1545-inward-509">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Oyle the tonne £4</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_oil_cb352a9d12c6c7a59e10c9a7c6fa2534be05d96e4e31f835254b33dbce7411df085"/>
+    <hector:perQuantity rdf:nodeID="commodity_oil_cb2a9d6892f930d8cbd86fdd989e7111f896f955f3b63feb3b63def89e6225707f2"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 509 (transcribed by Stuart Jenks): 'Oyle the tonne' £4</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1558-inward-780">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Oleum massis the pound 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_oil_cb296aac4a1f893efdd481ae882674ba9c3cd594027b21c1f3bd3e532c3c37f78fc"/>
+    <hector:perQuantity rdf:nodeID="commodity_oil_cb1e567c16ae13994c7ed56cb42f3f743dae1a282c24292af2afb8572533de76489"/>
+    <hector:qualifier rdf:nodeID="commodity_oil_cb1f92e1c6a46468178957596d8b33b2ab187e88f9842701b1511adf07fc18b7d69"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 780 (transcribed by Stuart Jenks): 'Oleum massis the pound' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/oil">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>oil (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb37803f4b4c4b82211a7be60a645375dd52b1c312797b2f16242b1f3b4beae69be">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>10s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1558-inward-779">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
@@ -563,15 +315,121 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1558-inward-790">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Oyle voc’ trane oyle the tonne £5</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_oil_cb2ba08c53cfc1d19f153c63027de5955c2bd5815c4e3e5fe07e787e43670397cd4"/>
+    <hector:perQuantity rdf:nodeID="commodity_oil_cb2a1ff368c3a1bf960f4ea3f3b3e48086d3cb2a351b831eee38a8c35d375cb68e8"/>
+    <hector:qualifier rdf:nodeID="commodity_oil_cb20506021966edea4be0ec750280f377090a83ba21886432b505f6a78da3f6311d"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 790 (transcribed by Stuart Jenks): 'Oyle voc’ trane oyle the tonne' £5</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1558-inward-787">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Oleum petoleum the pound 6d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_oil_cb2921ea6eab30a1516f49c0543b1e097ae2d5bdf48ecb940f0dabf10f4465e83ce"/>
+    <hector:perQuantity rdf:nodeID="commodity_oil_cb248ab6b17ca02cd106bd466f5d15920cedb3a992f2254d5b7880c8ffe6b7e281d"/>
+    <hector:qualifier rdf:nodeID="commodity_oil_cb1a0ca5e6e722257e4366f7f946b50f8e5cbe62e7f7f7245158f6cb400ff3d3ce1"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 787 (transcribed by Stuart Jenks): 'Oleum petoleum the pound' 6d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_oil_cb2bf859298931a5b35afa1ef18864ab903cef29e973d162f6772d9ab7ea68d678d">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
     <hector:lsd>20d</hector:lsd>
     <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb2fbedf8ac1717fd0b6d8bbdc95c1ba85cf7197aa0ec9c9a45b860747081444ad0">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb1b3e6fb1ef564b2adadeda7d3265cb024ef31ad0c570845c331e63aec02cb4da5">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>30s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1545-inward-531">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Oyle de Bay, the barrell conteinynge 100 pounde 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_oil_cb37803f4b4c4b82211a7be60a645375dd52b1c312797b2f16242b1f3b4beae69be"/>
+    <hector:perQuantity rdf:nodeID="commodity_oil_cb1dd4eec8c630583834c7e48e41580932a2bf47a89ec0ba785f258bf0c2b046d25"/>
+    <hector:qualifier rdf:nodeID="commodity_oil_cb2848d89a45955797d0c6729455e0af9a5d3a4ce0404d3c60e07caab20ddfb1dd9"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 531 (transcribed by Stuart Jenks): 'Oyle de Bay, the barrell conteinynge 100 pounde' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb15187a2b3f1d3983f2493d4ae3f67a794340502fc9d1de2b1eed77153057e1d75">
+    <crm:P190_has_symbolic_content>ollium</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>olium</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb29a813e490fa232434f772e6db8e6ba36374bda52b92f71509db06648593daa9b">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb11ea3abc6e1a3ffe029a2079c42ee123ec2d153a8596d6877ccec8cadf6fb6c71">
+    <crm:P190_has_symbolic_content>ole</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>olə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb15439fb51f65638783eb93e5663b85f4142b3732d31f0dbcc13f862e1d08a1e16">
+    <crm:P190_has_symbolic_content>olei</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>olei</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bay-oil">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>bay oil</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1507-none-239">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Rappe oyle the last on with another £8</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_oil_cb38e655eaf473ea5a4fae84cb61a4f3d307ffb8dc03be3db2ea6eab53d0f7fe308"/>
+    <hector:perQuantity rdf:nodeID="commodity_oil_cb2291cfffb3808dc8ec00d25d53f99b4ca0085d95d681aba51d75789b984a80ecf"/>
+    <hector:qualifier rdf:nodeID="commodity_oil_cb1eed56f438525b69907a4f97a1eadc046c68eb25330d662fac7b5bc9e4a312881"/>
+    <hector:sourceText>Book of Rates 1507, line 239 (transcribed by Stuart Jenks): 'Rappe oyle the last on with another' £8</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/gallon">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>gallon</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb38e655eaf473ea5a4fae84cb61a4f3d307ffb8dc03be3db2ea6eab53d0f7fe308">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£8</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1920</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb13c383f89db71a22ce9d975789b8621fe3cf39f27165a5f600b1a589c15173337">
+    <crm:P190_has_symbolic_content>oleum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>oleum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb1ff4f073ebc76a76eff4f9e18f55cb61f794d3cdef4e5fc1bf94d17c3c7c2c7fd">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/rape-oil">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>rape oil</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1558-inward-781">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
@@ -583,173 +441,6 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb27a90810480329a208ed3613cf7a7ae39eda16ef1d507efa93494bf03239dcbaa">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>6d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb2b70c536e4f9a5946b1e24392cc9d206d7adec33f9b72d2159c29f19cef2c9db6">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>2s 6d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb27692387eaf9ee06c041bbd3d3787fb2432cedf17ffd58220fed8cd7a3d562d5d">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/tun"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb13f9b0d53b138957f32c7917339320a13b03980e838fc3b0c62df5ce555f82215">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>spyke</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1c8e78295c985c851619f789818f933c89892be657be02094bacc37c2ff67670a">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb13ca2ed44bba24a65674045335802445f06db97ee17c92b36de88d4b4ae11494d">
-    <crm:P190_has_symbolic_content>oil (generic); also wool oil used in the preparation of wool, and oils of unknown identity</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1fb6c2e79682e46862e736afcd4676d672c9648c0572ef56aaed5bbaf0b74bf71">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>mett oylle or rape oylle</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1eed56f438525b69907a4f97a1eadc046c68eb25330d662fac7b5bc9e4a312881">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>Rappe</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb248ab6b17ca02cd106bd466f5d15920cedb3a992f2254d5b7880c8ffe6b7e281d">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb15852fe4879d7222ea213c1c4562d77e3666f5526622bad7ae7807796684b4f38">
-    <crm:P190_has_symbolic_content>oil</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>oil</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/mastike">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>mastike</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb20506021966edea4be0ec750280f377090a83ba21886432b505f6a78da3f6311d">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>trane</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb200fec467d95f7b333fff559225e43fb36b76d7de8ec3938e03b7729f663546aa">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>spice</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb22b35545b7e9bf529946cf86b4cd9bc9138fe48e5c1a5d08541a831dc38bc4473">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>chariosis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/gallon">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>gallon</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1507-none-201">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1507: Oyle called mett oylle or rape oylle the barrelle 13s 4d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_oil_cb31830d55541e8b6f01379f761c3f071dd8c9a1e920e4a71528cde6482d1e2b5e7"/>
-    <hector:perQuantity rdf:nodeID="commodity_oil_cb1f7b94834eb94b191cc9a3703070d2d7bc4626e3cb46fd52d8e2aed857b6f236b"/>
-    <hector:qualifier rdf:nodeID="commodity_oil_cb1fb6c2e79682e46862e736afcd4676d672c9648c0572ef56aaed5bbaf0b74bf71"/>
-    <hector:sourceText>Book of Rates 1507, line 201 (transcribed by Stuart Jenks): 'Oyle called mett oylle or rape oylle the barrelle' 13s 4d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb284037d0b1f03022d13c4216f7f46b8d02d191d35851873810956cab25aadad6e">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>26s 8d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb2a1ff368c3a1bf960f4ea3f3b3e48086d3cb2a351b831eee38a8c35d375cb68e8">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/tun"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb27a47542fb193073270d6b8dd93b8b6eeaa550dbb3ffd6c2d0e0f4c0f06575829">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>lynsede</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1d2e7553363b201b7d0b47426e0ae00ff19b5f400335e42f6ed953d599cbafabb">
-    <crm:P190_has_symbolic_content>oill</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>oil</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb253db0ee21ac9657d3fc36ed61d91efc72a2cc82917cf54db7539e3d4e8bd932d">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/tun"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb2848d89a45955797d0c6729455e0af9a5d3a4ce0404d3c60e07caab20ddfb1dd9">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>bay</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1a2116523b0d44f8f983b30217b67b012e70e534dc1edbadee94651e2b661ea1d">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>sallet</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1580161fc8bfe5dc55603515027afd2d1a36c740f050aa62fdbcbe9d09734c7eb">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>Woll</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb171332b5f1b3daff19ac4cea52141a6f65a44dc8265501220ed9502d6cdb4bda3">
-    <crm:P190_has_symbolic_content>oyleium</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>oileium</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb28701b3b4cb0040bb55dc3dd50616b1278c00408606a1a9150f096a9b24fe8c90">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/tun"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/herring-oil">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>herring oil</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb29a813e490fa232434f772e6db8e6ba36374bda52b92f71509db06648593daa9b">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb2e6a94b34c83db3f70ab5c584ec2eaef3b0372e75a292c6d1f5192015b8cfe2c2">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>2s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1a1a462d18d724d13e7fb3e6fea66719ac731938b02e2949115bc7ad9ed81893f">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>trane</rdfs:label>
-  </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_oil_cb1b8bbcc71711fea41576f7103f7ea64f876f609b21b43c9559654e4d98d43ad6f">
     <crm:P190_has_symbolic_content>olium</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -758,29 +449,137 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb2a9d6892f930d8cbd86fdd989e7111f896f955f3b63feb3b63def89e6225707f2">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/tun"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1558-inward-791">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Oyle voc’ sallet oyle the gallon 20d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_oil_cb2bf859298931a5b35afa1ef18864ab903cef29e973d162f6772d9ab7ea68d678d"/>
+    <hector:perQuantity rdf:nodeID="commodity_oil_cb26ee2e34f0aacfbffa9ae5e722931ae69b7d09a210ad9e1df05190208f817b28c"/>
+    <hector:qualifier rdf:nodeID="commodity_oil_cb1a2116523b0d44f8f983b30217b67b012e70e534dc1edbadee94651e2b661ea1d"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 791 (transcribed by Stuart Jenks): 'Oyle voc’ sallet oyle the gallon' 20d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/balsamum">
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/barrel">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>barrel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb1eed56f438525b69907a4f97a1eadc046c68eb25330d662fac7b5bc9e4a312881">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>balsamum</rdfs:label>
+    <rdfs:label>Rappe</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1c174780e52715dbd51313ae5747affc6658cf7fb4557462537136d6073ab0623">
+  <rdf:Description rdf:nodeID="commodity_oil_cb1c8e78295c985c851619f789818f933c89892be657be02094bacc37c2ff67670a">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/linseed-oil">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>linseed oil</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1558-inward-782">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Oleum camomoia the pound 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_oil_cb2e73dfaa339cb7822d314cddf664341bd31ebc472d7ea7feb60e5ef10b6c97ccc"/>
+    <hector:perQuantity rdf:nodeID="commodity_oil_cb1c8e78295c985c851619f789818f933c89892be657be02094bacc37c2ff67670a"/>
+    <hector:qualifier rdf:nodeID="commodity_oil_cb1d05a86f42070980b33db0cdebcc6f28fee750dbd944ae24730b561a05bf9a468"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 782 (transcribed by Stuart Jenks): 'Oleum camomoia the pound' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb296aac4a1f893efdd481ae882674ba9c3cd594027b21c1f3bd3e532c3c37f78fc">
+  <rdf:Description rdf:nodeID="commodity_oil_cb13f9b0d53b138957f32c7917339320a13b03980e838fc3b0c62df5ce555f82215">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>spyke</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb2a1ff368c3a1bf960f4ea3f3b3e48086d3cb2a351b831eee38a8c35d375cb68e8">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/tun"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb1904409cb340713ce173c013fdad0b2aa9f317f221bdb484f8b52f7045a19b573">
+    <crm:P190_has_symbolic_content>oyle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>oilə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb2e73dfaa339cb7822d314cddf664341bd31ebc472d7ea7feb60e5ef10b6c97ccc">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
     <hector:lsd>10s</hector:lsd>
     <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hog-fat">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>hog fat</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb253db0ee21ac9657d3fc36ed61d91efc72a2cc82917cf54db7539e3d4e8bd932d">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/tun"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb1bbc937479d1eca905ff38ff37dfe983ca2cf6c74c98cb51b4c5f985918223552">
+    <crm:P190_has_symbolic_content>oilie</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>oiliː</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb200fec467d95f7b333fff559225e43fb36b76d7de8ec3938e03b7729f663546aa">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>spice</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1507-none-201">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Oyle called mett oylle or rape oylle the barrelle 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_oil_cb31830d55541e8b6f01379f761c3f071dd8c9a1e920e4a71528cde6482d1e2b5e7"/>
+    <hector:perQuantity rdf:nodeID="commodity_oil_cb1f7b94834eb94b191cc9a3703070d2d7bc4626e3cb46fd52d8e2aed857b6f236b"/>
+    <hector:qualifier rdf:nodeID="commodity_oil_cb1a25283e587be1ed255d97014176dbe99477a082b87beee79ac74beb9645a3400"/>
+    <hector:qualifier rdf:nodeID="commodity_oil_cb1bc84bd6a8657fcc65da0dcca95f3ad499885da10edc1a17a64ce2b970cf539b2"/>
+    <hector:sourceText>Book of Rates 1507, line 201 (transcribed by Stuart Jenks): 'Oyle called mett oylle or rape oylle the barrelle' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300014254">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>oil (organic material)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/spike-oil">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>spike oil</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil#rate-1558-inward-792">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Oyle olive the barrell cont’ 17 gallons poiz 214 lb 30s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_oil_cb1b3e6fb1ef564b2adadeda7d3265cb024ef31ad0c570845c331e63aec02cb4da5"/>
+    <hector:perQuantity rdf:nodeID="commodity_oil_cb1d7b85a133388d0e19dd234706a390f68e654ea6bd217c3775a2b5c3e811a6c42"/>
+    <hector:qualifier rdf:nodeID="commodity_oil_cb1f16c7c9b87a75bf8147faa8f0e90cd82649c2d860c9dcec9d66f14dc8b438992"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 792 (transcribed by Stuart Jenks): 'Oyle olive the barrell cont’ 17 gallons poiz 214 lb' 30s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb244ea4c79741969b7c5147690289bff4bb12e66d21223a2b5e3bcd4c087e1ff72">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Cyvill</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb1d7b85a133388d0e19dd234706a390f68e654ea6bd217c3775a2b5c3e811a6c42">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb27692387eaf9ee06c041bbd3d3787fb2432cedf17ffd58220fed8cd7a3d562d5d">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/tun"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_oil_cb352a9d12c6c7a59e10c9a7c6fa2534be05d96e4e31f835254b33dbce7411df085">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
@@ -788,28 +587,69 @@
     <hector:lsd>£4</hector:lsd>
     <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">960</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/barrel">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>barrel</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_oil_cb2f7cb73532e1aac7149043e794ea9ccfe7dc75bdc6d6a68b9653887d6760fce6a">
+    <crm:P190_has_symbolic_content>oleium</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>oleium</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb33cdb5bf6dcfae922071104d1f7156e579a3aa5f0996e15a9ebb6d94a5ee5db06">
+  <rdf:Description rdf:nodeID="commodity_oil_cb27a90810480329a208ed3613cf7a7ae39eda16ef1d507efa93494bf03239dcbaa">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>13s 4d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+    <hector:lsd>6d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300014254">
+  <rdf:Description rdf:nodeID="commodity_oil_cb1c174780e52715dbd51313ae5747affc6658cf7fb4557462537136d6073ab0623">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb2848d89a45955797d0c6729455e0af9a5d3a4ce0404d3c60e07caab20ddfb1dd9">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>oil (organic material)</rdfs:label>
+    <rdfs:label>bay</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil-of-mace">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>oil of mace</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_oil_cb23f77442f931769dacee8efd7e7f7cc4c092cd2c14e6b2b9306995d68ab75a2f4">
+    <crm:P190_has_symbolic_content>oillie</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>oiliː</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_oil_cb1d72a0df6b5cbd1f6ce8c83e29ef8da57492a6740afb0ab0da790721466d34eab">
+  <rdf:Description rdf:nodeID="commodity_oil_cb22b35545b7e9bf529946cf86b4cd9bc9138fe48e5c1a5d08541a831dc38bc4473">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>wolle oylle</rdfs:label>
+    <rdfs:label>chariosis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb24cef7963d13727ffe86270550c3966a50cda11841de15207d2e1b9ce7da3ea4e">
+    <crm:P190_has_symbolic_content>oleii</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>oleii</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/olive">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>olive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb25b23848d456e9e691f6a937f1ce64d28754aa9169cb5ee6e9a73dcbffbbca765">
+    <crm:P190_has_symbolic_content>oleye</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>oleie</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb13df06093ded91fc8127ee360c8ac74ba6a30220477a80e063637d64b17a9f920">
+    <crm:P190_has_symbolic_content>oille</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>oilə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
@@ -818,5 +658,171 @@
   <rdf:Description rdf:nodeID="commodity_oil_cb1be37fc78b0b045717fe8e045d9196574b4fcd366d1cf7befffc24aeb586fcf80">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>bay</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb1d05a86f42070980b33db0cdebcc6f28fee750dbd944ae24730b561a05bf9a468">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>camomoia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb1f459ddb4987b356710e578fb7f3350ef99bd7f6890234b7546f190f8cf92adf5">
+    <crm:P190_has_symbolic_content>olii</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>oli</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb2ba08c53cfc1d19f153c63027de5955c2bd5815c4e3e5fe07e787e43670397cd4">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£5</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1200</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb296aac4a1f893efdd481ae882674ba9c3cd594027b21c1f3bd3e532c3c37f78fc">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb33cdb5bf6dcfae922071104d1f7156e579a3aa5f0996e15a9ebb6d94a5ee5db06">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb284037d0b1f03022d13c4216f7f46b8d02d191d35851873810956cab25aadad6e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>26s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb26e3661fbf31023d902eddac3fb0a4aeed16e105e1c9dad4ec96b3aa15efc4631">
+    <crm:P190_has_symbolic_content>oylee</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>oileː</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb217b0fda0743d848a4e344049fb3611135ad7b5e5c82442c9047c741a0ffd2fa9">
+    <crm:P190_has_symbolic_content>oylle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>oilə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb15852fe4879d7222ea213c1c4562d77e3666f5526622bad7ae7807796684b4f38">
+    <crm:P190_has_symbolic_content>oil</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>oil</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oil-of-mace">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>oil of mace</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb1dd4eec8c630583834c7e48e41580932a2bf47a89ec0ba785f258bf0c2b046d25">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/linseed-oil">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>linseed oil</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb2a9d6892f930d8cbd86fdd989e7111f896f955f3b63feb3b63def89e6225707f2">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/tun"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb2b70c536e4f9a5946b1e24392cc9d206d7adec33f9b72d2159c29f19cef2c9db6">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s 6d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb1fdd01d09e21e1e72774720e3662aaf0e082b98543f1949a41abb3117adc90d97">
+    <crm:P190_has_symbolic_content>oley</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>olei</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb1a1a462d18d724d13e7fb3e6fea66719ac731938b02e2949115bc7ad9ed81893f">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>trane</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb2921ea6eab30a1516f49c0543b1e097ae2d5bdf48ecb940f0dabf10f4465e83ce">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb1ee4a4508a963932cc1b054438af6294f6c297c3dd924ef2393c1274e4d687f27">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb1e567c16ae13994c7ed56cb42f3f743dae1a282c24292af2afb8572533de76489">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pound">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pound</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb20506021966edea4be0ec750280f377090a83ba21886432b505f6a78da3f6311d">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>trane</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/mastike">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>mastike</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb2e6a94b34c83db3f70ab5c584ec2eaef3b0372e75a292c6d1f5192015b8cfe2c2">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb27a47542fb193073270d6b8dd93b8b6eeaa550dbb3ffd6c2d0e0f4c0f06575829">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>lynsede</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb286fd5ab91df4bdb98e4a7ce23b503420e12eac595b5a21c9dfbb6048d4f149c4">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£4</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">960</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb248ab6b17ca02cd106bd466f5d15920cedb3a992f2254d5b7880c8ffe6b7e281d">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_oil_cb1a0ca5e6e722257e4366f7f946b50f8e5cbe62e7f7f7245158f6cb400ff3d3ce1">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>petoleum</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/herring-oil">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>herring oil</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

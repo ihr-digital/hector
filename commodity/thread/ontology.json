@@ -524,46 +524,6 @@
       ]
     },
     {
-      "id": "https://w3id.org/hector/commodity/thread#rate-1545-inward-115",
-      "type": "Rate",
-      "_label": "1545 inward: Bottom of threde the 100 pounde 20s",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "240",
-        "lsd": "20s"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 100,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/hundred",
-          "type": "MeasurementUnit",
-          "_label": "hundred"
-        }
-      },
-      "validFrom": "1545",
-      "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 115 (transcribed by Stuart Jenks): 'Bottom of threde the 100 pounde' 20s",
-      "qualifier": [
-        {
-          "type": "Type",
-          "_label": "Bottom",
-          "classified_as": [
-            {
-              "id": "hector:AttestedVariant",
-              "type": "Type",
-              "_label": "attested variant"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://w3id.org/hector/commodity/thread#rate-1545-inward-116",
       "type": "Rate",
       "_label": "1545 inward: Bottom threde the pounde 2d",
@@ -998,57 +958,6 @@
       "sourceText": "Book of Rates 1545, inward, line 755 (transcribed by Stuart Jenks): 'Threde the bale conteynynge a hundreth buttes' £5"
     },
     {
-      "id": "https://w3id.org/hector/commodity/thread#rate-1558-inward-1044",
-      "type": "Rate",
-      "_label": "1558 inward: Sackclothe whyte of threde the yarde 20d",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "20",
-        "lsd": "20d"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 1,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/yard",
-          "type": "MeasurementUnit",
-          "_label": "yard"
-        }
-      },
-      "validFrom": "1558",
-      "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 1044 (transcribed by Stuart Jenks): 'Sackclothe whyte of threde the yarde' 20d",
-      "qualifier": [
-        {
-          "type": "Type",
-          "_label": "Sackclothe",
-          "classified_as": [
-            {
-              "id": "hector:AttestedVariant",
-              "type": "Type",
-              "_label": "attested variant"
-            }
-          ]
-        },
-        {
-          "type": "Type",
-          "_label": "white",
-          "equivalent": [
-            {
-              "id": "aat:300129784",
-              "type": "Type",
-              "_label": "white (color)"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://w3id.org/hector/commodity/thread#rate-1558-inward-1101",
       "type": "Rate",
       "_label": "1558 inward: Threden rybande the dossen peces 6s 8d",
@@ -1345,46 +1254,6 @@
         {
           "type": "Type",
           "_label": "pecing"
-        }
-      ]
-    },
-    {
-      "id": "https://w3id.org/hector/commodity/thread#rate-1558-inward-857",
-      "type": "Rate",
-      "_label": "1558 inward: Pyrle lace voc’ antell lace of threde the grosse 2s 6d",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "30",
-        "lsd": "2s 6d"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 144,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/gross",
-          "type": "MeasurementUnit",
-          "_label": "gross"
-        }
-      },
-      "validFrom": "1558",
-      "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 857 (transcribed by Stuart Jenks): 'Pyrle lace voc’ antell lace of threde the grosse' 2s 6d",
-      "qualifier": [
-        {
-          "type": "Type",
-          "_label": "Pyrle lace voc antell lace",
-          "classified_as": [
-            {
-              "id": "hector:AttestedVariant",
-              "type": "Type",
-              "_label": "attested variant"
-            }
-          ]
         }
       ]
     }

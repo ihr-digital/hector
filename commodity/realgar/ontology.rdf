@@ -8,42 +8,7 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/realgar">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_realgar_cb0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_realgar_cb10fd4c4d69b00872c3b42b08673cbe13a2936605a8406021d6a39f97abc2459a3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_realgar_cb14618728bd32eeec1a6bc0772a29524c458cda59daa6183c989da9024c6c07afe"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_realgar_cb41e2403888faa6fe324f3e36c5f9fbc6ac5f7a37adaa3c1e02e7caa6922a2866"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_realgar_cbd648546055b47deb61f66b563df4bc92a7d1d07fe4f684b3cb38980b5651e477"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_realgar_cb673146d1e9891c10d03bc6623cdc5568c7368d72a5f528c6c38c35f3515d928b"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>realgar</rdfs:label>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/realgar"/>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300013561"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</hector:attestationCount>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_realgar_cb10fd4c4d69b00872c3b42b08673cbe13a2936605a8406021d6a39f97abc2459a3">
-    <crm:P190_has_symbolic_content>rysalgar</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>risalgar</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_realgar_cb14618728bd32eeec1a6bc0772a29524c458cda59daa6183c989da9024c6c07afe">
-    <crm:P190_has_symbolic_content>resalgar</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>resalgar</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_realgar_cb673146d1e9891c10d03bc6623cdc5568c7368d72a5f528c6c38c35f3515d928b">
-    <crm:P190_has_symbolic_content>An orange-red mineral, found as soft lumps consisting of arsenic disulfide, having a resinous luster; it is found in eastern Europe, Asia, and western North America in lead and silver ores along with orpiment (arsenic trisulfide). Realgar was once widely used as a pigment because of its bright rich color in works from China, India, Central Asia, Egypt, and Europe. However, it is extremely toxic, not stable, and can deteriorate badly in oil paint films. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_realgar_cb41e2403888faa6fe324f3e36c5f9fbc6ac5f7a37adaa3c1e02e7caa6922a2866">
+  <rdf:Description rdf:nodeID="commodity_realgar_cb16bff01af5c655227f43dd801fa9dee36358aa4e53ea4fdd64c429eaab7b1c670">
     <crm:P190_has_symbolic_content>risalgar</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -51,11 +16,43 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/realgar#rate-1545-inward-601">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Rose algar the 100 pound 33s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_realgar_cb279526e4a959e1922c8f81628217692c87e521008447d0c9c967d2451fb34b7d7"/>
+    <hector:perQuantity rdf:nodeID="commodity_realgar_cb1c3142df58218396fbea328722c3674637b6cb54ca214b638e2ee1a4b36298a6b"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 601 (transcribed by Stuart Jenks): 'Rose algar the 100 pound' 33s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_realgar_cbd648546055b47deb61f66b563df4bc92a7d1d07fe4f684b3cb38980b5651e477">
+  <rdf:Description rdf:nodeID="commodity_realgar_cb279526e4a959e1922c8f81628217692c87e521008447d0c9c967d2451fb34b7d7">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>33s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">400</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/realgar#rate-1558-inward-896">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Rose algar the C lb. cont’ 112 lb 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_realgar_cb2baee34f151473968a3c45d9de640fbcae4e31d5563a3247779051fe7185cb0a4"/>
+    <hector:perQuantity rdf:nodeID="commodity_realgar_cb148ab670c330cf7e7d114310da8bf3011e8069cacf36eb620392a195ca59cc35e"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 896 (transcribed by Stuart Jenks): 'Rose algar the C lb. cont’ 112 lb' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_realgar_cb27ca1afe4087682c2a617ae698360dc7dbedc0d7216ec2ffe174814d448564ea1">
+    <crm:P190_has_symbolic_content>rysalgar</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>risalgar</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/realgar">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>realgar (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_realgar_cb148ff17d50ec972d9fa0a0310bd450998ee65bdaacee51b128b6db71512e92833">
     <crm:P190_has_symbolic_content>reisalgar</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -63,27 +60,80 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_realgar_cb0">
+  <rdf:Description rdf:nodeID="commodity_realgar_cb1c3142df58218396fbea328722c3674637b6cb54ca214b638e2ee1a4b36298a6b">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_realgar_cb2baee34f151473968a3c45d9de640fbcae4e31d5563a3247779051fe7185cb0a4">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/realgar">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_realgar_cb148ff17d50ec972d9fa0a0310bd450998ee65bdaacee51b128b6db71512e92833"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_realgar_cb16bff01af5c655227f43dd801fa9dee36358aa4e53ea4fdd64c429eaab7b1c670"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_realgar_cb1d4a77ccf1c84e1502f20e4723a84c7a00d8e7078fb6cf5cea4c8694ad237b410"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_realgar_cb231e03dc7c099c417049c1b12a3d54be4d4044fcf8b72be93d3c7c5cc2dc789d6"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_realgar_cb27ca1afe4087682c2a617ae698360dc7dbedc0d7216ec2ffe174814d448564ea1"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_realgar_cb164a94d9e6496107c5833ecbfa316d7100945852e1a200468f0155f873e4aa0a3"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>realgar</rdfs:label>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/realgar"/>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300013561"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/realgar#rate-1545-inward-601"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/realgar#rate-1558-inward-896"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_realgar_cb231e03dc7c099c417049c1b12a3d54be4d4044fcf8b72be93d3c7c5cc2dc789d6">
+    <crm:P190_has_symbolic_content>resalgar</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>resalgar</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_realgar_cb1d4a77ccf1c84e1502f20e4723a84c7a00d8e7078fb6cf5cea4c8694ad237b410">
     <crm:P190_has_symbolic_content>realgar</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>rɛːlgar</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_realgar_cb148ab670c330cf7e7d114310da8bf3011e8069cacf36eb620392a195ca59cc35e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300013561">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>realgar (pigment)</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_realgar_cb164a94d9e6496107c5833ecbfa316d7100945852e1a200468f0155f873e4aa0a3">
+    <crm:P190_has_symbolic_content>An orange-red mineral, found as soft lumps consisting of arsenic disulfide, having a resinous luster; it is found in eastern Europe, Asia, and western North America in lead and silver ores along with orpiment (arsenic trisulfide). Realgar was once widely used as a pigment because of its bright rich color in works from China, India, Central Asia, Egypt, and Europe. However, it is extremely toxic, not stable, and can deteriorate badly in oil paint films. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>attested variant</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/realgar">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>realgar (London Customs Accounts glossary)</rdfs:label>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/hundred">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>hundred</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

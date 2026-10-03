@@ -118,6 +118,9 @@ aat:300404670 a crm:E55_Type ;
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
+wd:Q173219 a crm:E53_Place ;
+    rdfs:label "Tournai" .
+
 <https://w3id.org/hector/commodity/dornick#rate-1545-inward-228> a hector:Rate ;
     rdfs:label "1545 inward: Dornix with silke þe pece 6s 8d" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -262,10 +265,7 @@ aat:300435416 a crm:E55_Type ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
     hector:qualifier [ a crm:E55_Type ;
             rdfs:label "green" ;
-            la:equivalent aat:300128438 ],
-        [ a crm:E55_Type ;
-            rdfs:label "Tournai" ;
-            hector:originPlace wd:Q173219 ] ;
+            la:equivalent aat:300128438 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 378 (transcribed by Stuart Jenks): 'Dornix voc’ grene Dornyx the pece cont’ thirtie yeardes' 13s 4d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -280,9 +280,6 @@ aat:300435416 a crm:E55_Type ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/ell> ] ;
     hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "Tournai" ;
-            hector:originPlace wd:Q173219 ],
-        [ a crm:E55_Type ;
             rdfs:label "France" ;
             hector:originPlace wd:Q142 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 383 (transcribed by Stuart Jenks): 'Dornyx voc’ Frenche Dornix the ell' 15d" ;
@@ -319,9 +316,6 @@ wd:Q142 a crm:E53_Place ;
 
 aat:300243428 a crm:E55_Type ;
     rdfs:label "silk (textile)" .
-
-wd:Q173219 a crm:E53_Place ;
-    rdfs:label "Tournai" .
 
 <https://w3id.org/hector/unit/pecia> a crm:E58_Measurement_Unit ;
     rdfs:label "pecia" .

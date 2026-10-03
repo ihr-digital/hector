@@ -119,5 +119,61 @@
     }
   ],
   "attestationCount": 15,
-  "modified": "2026-09-29"
+  "modified": "2026-09-29",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/realgar#rate-1545-inward-601",
+      "type": "Rate",
+      "_label": "1545 inward: Rose algar the 100 pound 33s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "400",
+        "lsd": "33s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 601 (transcribed by Stuart Jenks): 'Rose algar the 100 pound' 33s 4d"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/realgar#rate-1558-inward-896",
+      "type": "Rate",
+      "_label": "1558 inward: Rose algar the C lb. cont’ 112 lb 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 896 (transcribed by Stuart Jenks): 'Rose algar the C lb. cont’ 112 lb' 40s"
+    }
+  ]
 }

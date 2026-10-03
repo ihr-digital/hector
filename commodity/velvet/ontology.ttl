@@ -224,19 +224,13 @@
         <https://w3id.org/hector/commodity/velvet#rate-1545-inward-766>,
         <https://w3id.org/hector/commodity/velvet#rate-1545-inward-767>,
         <https://w3id.org/hector/commodity/velvet#rate-1545-inward-774>,
-        <https://w3id.org/hector/commodity/velvet#rate-1545-inward-775>,
-        <https://w3id.org/hector/commodity/velvet#rate-1558-inward-1110>,
-        <https://w3id.org/hector/commodity/velvet#rate-1558-inward-905>,
-        <https://w3id.org/hector/commodity/velvet#rate-1558-inward-906> .
+        <https://w3id.org/hector/commodity/velvet#rate-1545-inward-775> .
 
 aat:300073756 a crm:E55_Type ;
     rdfs:label "large" .
 
 aat:300073768 a crm:E55_Type ;
     rdfs:label "small" .
-
-aat:300130920 a crm:E55_Type ;
-    rdfs:label "black (color)" .
 
 aat:300133711 a crm:E55_Type ;
     rdfs:label "velvet (fabric weave)" .
@@ -351,76 +345,17 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
-<https://w3id.org/hector/commodity/velvet#rate-1558-inward-1110> a hector:Rate ;
-    rdfs:label "1558 inward: Touche boxes covered with velvet the dosen 8s" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "8s" ;
-            hector:valueInPence 96.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 12 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "covered" ],
-        [ a crm:E55_Type ;
-            rdfs:label "Touche" ;
-            crm:P2_has_type hector:AttestedVariant ] ;
-    hector:sourceText "Book of Rates 1558, inward, line 1110 (transcribed by Stuart Jenks): 'Touche boxes covered with velvet the dosen' 8s" ;
-    hector:validFrom "1558"^^xsd:gYear ;
-    hector:validThrough "1604"^^xsd:gYear .
-
-<https://w3id.org/hector/commodity/velvet#rate-1558-inward-905> a hector:Rate ;
-    rdfs:label "1558 inward: Rapers blacke with velvett sheathes the dosen £4" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "£4" ;
-            hector:valueInPence 960.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 12 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "sheathes" ;
-            crm:P2_has_type hector:AttestedVariant ],
-        [ a crm:E55_Type ;
-            rdfs:label "Rapers" ;
-            crm:P2_has_type hector:AttestedVariant ],
-        [ a crm:E55_Type ;
-            rdfs:label "black" ;
-            la:equivalent aat:300130920 ] ;
-    hector:sourceText "Book of Rates 1558, inward, line 905 (transcribed by Stuart Jenks): 'Rapers blacke with velvett sheathes the dosen' £4" ;
-    hector:validFrom "1558"^^xsd:gYear ;
-    hector:validThrough "1604"^^xsd:gYear .
-
-<https://w3id.org/hector/commodity/velvet#rate-1558-inward-906> a hector:Rate ;
-    rdfs:label "1558 inward: Rapers gilte with velvett sheathes the dossen £8" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "£8" ;
-            hector:valueInPence 1920.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 12 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "sheathes" ;
-            crm:P2_has_type hector:AttestedVariant ],
-        [ a crm:E55_Type ;
-            rdfs:label "Rapers gilte" ;
-            crm:P2_has_type hector:AttestedVariant ] ;
-    hector:sourceText "Book of Rates 1558, inward, line 906 (transcribed by Stuart Jenks): 'Rapers gilte with velvett sheathes the dossen' £8" ;
-    hector:validFrom "1558"^^xsd:gYear ;
-    hector:validThrough "1604"^^xsd:gYear .
-
 <https://w3id.org/mlca/glossary/velvet> a crm:E55_Type ;
     rdfs:label "velvet (London Customs Accounts glossary)" .
 
 aat:300311345 a crm:E55_Type ;
     rdfs:label "crimson (color)" .
 
-<https://w3id.org/hector/unit/yard> a crm:E58_Measurement_Unit ;
-    rdfs:label "yard" .
-
 <https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
     rdfs:label "dozen" .
+
+<https://w3id.org/hector/unit/yard> a crm:E58_Measurement_Unit ;
+    rdfs:label "yard" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

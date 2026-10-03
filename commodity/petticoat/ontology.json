@@ -282,6 +282,61 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/petticoat#rate-1558-inward-866",
+      "type": "Rate",
+      "_label": "1558 inward: Petycotes knytte of wolle or cotton the dosen 30s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "360",
+        "lsd": "30s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 866 (transcribed by Stuart Jenks): 'Petycotes knytte of wolle or cotton the dosen' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "knitted"
+        },
+        {
+          "type": "Type",
+          "_label": "wolle",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "cotton",
+          "equivalent": [
+            {
+              "id": "aat:300183670",
+              "type": "Type",
+              "_label": "cotton (fiber)"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/petticoat#rate-1558-inward-867",
       "type": "Rate",
       "_label": "1558 inward: Peticotes knytte of silke the dosen £12",

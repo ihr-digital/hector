@@ -70,7 +70,8 @@
             crm:P2_has_type aat:300435416 ] ;
     skos:broader aat:300253047 ;
     skos:exactMatch <https://w3id.org/mlca/glossary/hoop_2> ;
-    hector:attestationCount 14 .
+    hector:attestationCount 14 ;
+    hector:taxation <https://w3id.org/hector/commodity/hoop-2#rate-1558-inward-578> .
 
 aat:300253047 a crm:E55_Type ;
     rdfs:label "bands (binding components)" .
@@ -78,8 +79,27 @@ aat:300253047 a crm:E55_Type ;
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
 
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
+
+<https://w3id.org/hector/commodity/hoop-2#rate-1558-inward-578> a hector:Rate ;
+    rdfs:label "1558 inward: Hopes for barrelles the thowsand 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1000 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/thousand> ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 578 (transcribed by Stuart Jenks): 'Hopes for barrelles the thowsand' 10s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/unit/thousand> a crm:E58_Measurement_Unit ;
+    rdfs:label "thousand" .
 
 <https://w3id.org/mlca/glossary/hoop_2> a crm:E55_Type ;
     rdfs:label "hoop_2 (London Customs Accounts glossary)" .

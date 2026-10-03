@@ -15,6 +15,12 @@ persistence; until the first full release HECTOR is an **alpha** and records and
   spelling-folded ("saffron (beiound se)"), and about a fifth were minted because a price differed
   between books rather than between qualifiers.
 - New vocabulary term `hector:qualifier`.
+- **Rates filed under the wrong commodity corrected**, found while reviewing the qualifiers:
+  where an entry's first word was a modifier ("Salt hydes" under salt, "Bell mettell" under bell,
+  "Beres quycke" under beer), or where a later word named the material, purpose or container
+  rather than the goods ("Saddels of stele" under steel, "Hornes for lantorns" under lantern).
+  28 rows were read by hand; 35 rates that cannot yet be linked rightly are left unlinked and
+  reported rather than linked wrongly. 1,799 rates are linked (was 1,834).
 
 ## v2026.10-alpha.1 (3 October 2026): alpha pre-release
 

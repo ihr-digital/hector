@@ -844,7 +844,18 @@
       "qualifier": [
         {
           "type": "Type",
-          "_label": "Turney tykes for beddes",
+          "_label": "Turney",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "beddes",
           "classified_as": [
             {
               "id": "hector:AttestedVariant",
@@ -884,7 +895,7 @@
       "qualifier": [
         {
           "type": "Type",
-          "_label": "Bryssell tykes",
+          "_label": "Bryssell",
           "classified_as": [
             {
               "id": "hector:AttestedVariant",

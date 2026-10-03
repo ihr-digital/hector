@@ -8,6 +8,53 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
+  <rdf:Description rdf:nodeID="commodity_leather_cb2d2253b625985eee95502db01086811cf9e42969f3ca2a8ae8e662bf04e72d8cf">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>16s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_leather_cb10947308a11b13235c0cba1858970cb2e5d98293eced7ad78c216483ed6240d06">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/leather#rate-1558-inward-657">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Lether for cusshinges the dosen 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_leather_cb230aa13c5d26cc859860c08f7f2bba716cfc9778bfbc861fb97ab305fdb37c1d3"/>
+    <hector:perQuantity rdf:nodeID="commodity_leather_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_leather_cb1ac82285cf70ae85d46cf514deae83e093dc22ac06cd043fc6f961c82c4c04a2a"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 657 (transcribed by Stuart Jenks): 'Lether for cusshinges the dosen' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_leather_cb25f5b87fa160f76b41e5c83d0956e7f5685f24c3d87b359750b4ccd4abcdcbfc5">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/leather#rate-1507-none-162">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Lether for cousschenes the dossen 2s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_leather_cb3260b21bdecc1f9ac35c522b767c0e5ea4bf3d094bbef68b4eda15c8c167b7539"/>
+    <hector:perQuantity rdf:nodeID="commodity_leather_cb1de904c0e0e4a94a3e00ae32b7dd931634b891f75fc90ca213eeb22b0e35f672d"/>
+    <hector:qualifier rdf:nodeID="commodity_leather_cb2ada93554ffbc529921301c46b7e572821d125ccfc9238f154df485056339659c"/>
+    <hector:sourceText>Book of Rates 1507, line 162 (transcribed by Stuart Jenks): 'Lether for cousschenes the dossen' 2s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/leather#rate-1545-inward-438">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Lether laces the groce 5s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_leather_cb24a5ebd52a10776c0ddc4482fd691e3a31631da23204785c859be56f8a0754f04"/>
+    <hector:perQuantity rdf:nodeID="commodity_leather_cb1077d6881fb7a4eac2080904c098e1484fc118bf355582e88ca6ccb88c4484b72"/>
+    <hector:qualifier rdf:nodeID="commodity_leather_cb1bf9fbd694ae0a8c2d6804161ea4d04b9aa256d9457550df88d23426ffebac77b"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 438 (transcribed by Stuart Jenks): 'Lether laces the groce' 5s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_leather_cbf5f512f19422fb86fc499d39a6accdaa6320ef7584b423bc76fe14fc66e47e76">
     <crm:P190_has_symbolic_content>ledyr</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -40,12 +87,97 @@
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/leather#rate-1545-inward-445"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/leather#rate-1545-inward-446"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/leather#rate-1545-inward-447"/>
-    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/leather#rate-1558-inward-1112"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/leather#rate-1558-inward-657"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/leather#rate-1545-inward-446">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Lether gyrdels the groce 4s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_leather_cb24379ffdd44654905838ea25364c134bded4432e0e3371ab9bd64594c98576777"/>
+    <hector:perQuantity rdf:nodeID="commodity_leather_cb1cc48e4a5e4cd9f58f6e8811e8b2cde1226bf08b54a4855d1347b4678b18bbe6e"/>
+    <hector:qualifier rdf:nodeID="commodity_leather_cb238bc008797aeac9b078893a2c22ce8905e3505850845c717b53d108804fac3c0"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 446 (transcribed by Stuart Jenks): 'Lether gyrdels the groce' 4s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_leather_cb17ca74fee32048b11bb48dd86ca657686a40ad8424549f1df2e28bd5f2acbe87a">
+    <crm:P190_has_symbolic_content>leder</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>leder</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_leather_cb2367d24516c46c798ab7b4b6b71ea868ded45628db1366f827483b07c046b93d4">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
+    <rdfs:label>bash for cosshynes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/leather#rate-1545-inward-445">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Lether bagges with lockes the dossen 4s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_leather_cb27df53a369b4e4dae0b1e5c657df76784475ceedab55955800a27aeaf04610689"/>
+    <hector:perQuantity rdf:nodeID="commodity_leather_cb1217ce23cf96b61472acf4712371be059dcbfaad34c55f9d8b338b41ded5d1aa1"/>
+    <hector:qualifier rdf:nodeID="commodity_leather_cb15d1572afbac610635f63dc48181f4d5839ba26981cbe3b130df8e1896fc36563"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 445 (transcribed by Stuart Jenks): 'Lether bagges with lockes the dossen' 4s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_leather_cb3416b65fbfb9bee743c9d9c68f6dec95d4c219854011afbf99b803340dbad7f39">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_leather_cb114e8c27bd600b2c5053a5c14376c629e449613160a86b75752e102aa5e2a0e48">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_leather_cb24379ffdd44654905838ea25364c134bded4432e0e3371ab9bd64594c98576777">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_leather_cb1ac82285cf70ae85d46cf514deae83e093dc22ac06cd043fc6f961c82c4c04a2a">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>cusshinges</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_leather_cb1c22d56a9a4ce757505181c74766a43dfadd0e1644fbf5601b4128fc6e5a01f9d">
+    <crm:P190_has_symbolic_content>leddar</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>ledar</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_leather_cb997dba33a61397044bee981396cae4d86e7b04812e24ba05156ee378e91a6233">
+    <crm:P190_has_symbolic_content>ledder</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>leder</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_leather_cb176afe1c72c5c330ace580cd68981cccd0e7c6e031fde5cee5224747bfbb7a16e">
+    <crm:P190_has_symbolic_content>ledders</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>leders</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_leather_cb1ed48f069def3011cb0906f08676fd26107c27f0cb4b1d57f1e8b2ba0b186dea2">
+    <crm:P190_has_symbolic_content>leather</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>lɛːθer</hector:phoneticKey>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/leather#rate-1545-inward-227">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
@@ -57,6 +189,43 @@
     <hector:sourceText>Book of Rates 1545, inward, line 227 (transcribed by Stuart Jenks): 'Danske lether taude the dossen' 16s 8d</hector:sourceText>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/leather#rate-1545-inward-444">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Lether bagges without lockes the dossen 2s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_leather_cb3416b65fbfb9bee743c9d9c68f6dec95d4c219854011afbf99b803340dbad7f39"/>
+    <hector:perQuantity rdf:nodeID="commodity_leather_cb159f9905df34730bf1f304b22027020e45a4afd751101a69f87c43eb2cd320f8f"/>
+    <hector:qualifier rdf:nodeID="commodity_leather_cb225af9c3db6cfc349375731ae17725da933993b2a04ad1f89d83d12bc1a802462"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 444 (transcribed by Stuart Jenks): 'Lether bagges without lockes the dossen' 2s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_leather_cb3260b21bdecc1f9ac35c522b767c0e5ea4bf3d094bbef68b4eda15c8c167b7539">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_leather_cb17f62916defa27912dacda815df5e6f1838c95c2c1749ff79c920ab2bb3a37628">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300126225">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>red (color)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_leather_cb230aa13c5d26cc859860c08f7f2bba716cfc9778bfbc861fb97ab305fdb37c1d3">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_leather_cb24a5ebd52a10776c0ddc4482fd691e3a31631da23204785c859be56f8a0754f04">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>5s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_leather_cb22c905043e61bc4fef36d1bf8eec31987152eac55166ec37dec981fc81a34c1a6">
     <crm:P190_has_symbolic_content>ledar</crm:P190_has_symbolic_content>
@@ -76,13 +245,10 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb1c22d56a9a4ce757505181c74766a43dfadd0e1644fbf5601b4128fc6e5a01f9d">
-    <crm:P190_has_symbolic_content>leddar</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>ledar</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_leather_cb159f9905df34730bf1f304b22027020e45a4afd751101a69f87c43eb2cd320f8f">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/leather#rate-1507-none-163">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
@@ -95,25 +261,15 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/leather">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>leather (London Customs Accounts glossary)</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_leather_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb24379ffdd44654905838ea25364c134bded4432e0e3371ab9bd64594c98576777">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>4s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/leather#rate-1507-none-162">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1507: Lether for cousschenes the dossen 2s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_leather_cb3260b21bdecc1f9ac35c522b767c0e5ea4bf3d094bbef68b4eda15c8c167b7539"/>
-    <hector:perQuantity rdf:nodeID="commodity_leather_cb1de904c0e0e4a94a3e00ae32b7dd931634b891f75fc90ca213eeb22b0e35f672d"/>
-    <hector:qualifier rdf:nodeID="commodity_leather_cb2ada93554ffbc529921301c46b7e572821d125ccfc9238f154df485056339659c"/>
-    <hector:sourceText>Book of Rates 1507, line 162 (transcribed by Stuart Jenks): 'Lether for cousschenes the dossen' 2s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_leather_cb1077d6881fb7a4eac2080904c098e1484fc118bf355582e88ca6ccb88c4484b72">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/leather#rate-1545-inward-447">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
@@ -127,179 +283,25 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb1bf9fbd694ae0a8c2d6804161ea4d04b9aa256d9457550df88d23426ffebac77b">
+  <rdf:Description rdf:nodeID="commodity_leather_cb225af9c3db6cfc349375731ae17725da933993b2a04ad1f89d83d12bc1a802462">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>laces</rdfs:label>
+    <rdfs:label>without lockes</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb1ac82285cf70ae85d46cf514deae83e093dc22ac06cd043fc6f961c82c4c04a2a">
+  <rdf:Description rdf:nodeID="commodity_leather_cb25d16dd06d78b928324e494c12078cd37bae95604cd913c00dbad093e69859aeb">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>cusshinges</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/leather#rate-1545-inward-446">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Lether gyrdels the groce 4s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_leather_cb24379ffdd44654905838ea25364c134bded4432e0e3371ab9bd64594c98576777"/>
-    <hector:perQuantity rdf:nodeID="commodity_leather_cb1cc48e4a5e4cd9f58f6e8811e8b2cde1226bf08b54a4855d1347b4678b18bbe6e"/>
-    <hector:qualifier rdf:nodeID="commodity_leather_cb238bc008797aeac9b078893a2c22ce8905e3505850845c717b53d108804fac3c0"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 446 (transcribed by Stuart Jenks): 'Lether gyrdels the groce' 4s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/leather#rate-1545-inward-445">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Lether bagges with lockes the dossen 4s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_leather_cb27df53a369b4e4dae0b1e5c657df76784475ceedab55955800a27aeaf04610689"/>
-    <hector:perQuantity rdf:nodeID="commodity_leather_cb1217ce23cf96b61472acf4712371be059dcbfaad34c55f9d8b338b41ded5d1aa1"/>
-    <hector:qualifier rdf:nodeID="commodity_leather_cb15d1572afbac610635f63dc48181f4d5839ba26981cbe3b130df8e1896fc36563"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 445 (transcribed by Stuart Jenks): 'Lether bagges with lockes the dossen' 4s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb2d2253b625985eee95502db01086811cf9e42969f3ca2a8ae8e662bf04e72d8cf">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>16s 8d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb1eb84ea3c6f0f2ebec03d0b59b9e3c3b189c7e5b10aef0a78918881ef8e36ed55">
-    <crm:P190_has_symbolic_content>The skin or hide of an animal that has been tanned to render it resistant to putrefication and relatively soft and flexible when dry. For composite material made from scrap leather pieces, use "maril." [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb2367d24516c46c798ab7b4b6b71ea868ded45628db1366f827483b07c046b93d4">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>bash for cosshynes</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb164b8131bbb304283a2fb1fea574565ca60f3b933c515f01e51a32a4fb0314a44">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb20b8b99b2b520b37bbe1b8284e00606a842b6b0f69e67a304f6f36703f50b8896">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>red</rdfs:label>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300126225"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300011845">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>leather</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300126225">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>red (color)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb2ada93554ffbc529921301c46b7e572821d125ccfc9238f154df485056339659c">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>cousschenes</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/leather#rate-1558-inward-657">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Lether for cusshinges the dosen 6s 8d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_leather_cb230aa13c5d26cc859860c08f7f2bba716cfc9778bfbc861fb97ab305fdb37c1d3"/>
-    <hector:perQuantity rdf:nodeID="commodity_leather_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
-    <hector:qualifier rdf:nodeID="commodity_leather_cb1ac82285cf70ae85d46cf514deae83e093dc22ac06cd043fc6f961c82c4c04a2a"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 657 (transcribed by Stuart Jenks): 'Lether for cusshinges the dosen' 6s 8d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/leather#rate-1545-inward-444">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Lether bagges without lockes the dossen 2s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_leather_cb3416b65fbfb9bee743c9d9c68f6dec95d4c219854011afbf99b803340dbad7f39"/>
-    <hector:perQuantity rdf:nodeID="commodity_leather_cb159f9905df34730bf1f304b22027020e45a4afd751101a69f87c43eb2cd320f8f"/>
-    <hector:qualifier rdf:nodeID="commodity_leather_cb225af9c3db6cfc349375731ae17725da933993b2a04ad1f89d83d12bc1a802462"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 444 (transcribed by Stuart Jenks): 'Lether bagges without lockes the dossen' 2s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb17f62916defa27912dacda815df5e6f1838c95c2c1749ff79c920ab2bb3a37628">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb1a1c929f5fde0fd554f97935d86592c8af412873dea2c5bea9cd8ea8beb06250d">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>gyrdels</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb238bc008797aeac9b078893a2c22ce8905e3505850845c717b53d108804fac3c0">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>gyrdels</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/leather#rate-1558-inward-1112">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Touche boxes of lether the dossen 14d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_leather_cb27d5d3b1427be4d30ea9d910fbc5fed35d2099cd563233e642b1c902b7d7adb1d"/>
-    <hector:perQuantity rdf:nodeID="commodity_leather_cb164b8131bbb304283a2fb1fea574565ca60f3b933c515f01e51a32a4fb0314a44"/>
-    <hector:qualifier rdf:nodeID="commodity_leather_cb1a5a8ba7fb401bb396d85022ad9e1c8e4b09e31bf1caeb38ff3fa299b238074ae"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 1112 (transcribed by Stuart Jenks): 'Touche boxes of lether the dossen' 14d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+    <rdfs:label>taude</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_leather_cb1de904c0e0e4a94a3e00ae32b7dd931634b891f75fc90ca213eeb22b0e35f672d">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb230aa13c5d26cc859860c08f7f2bba716cfc9778bfbc861fb97ab305fdb37c1d3">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>6s 8d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb17ca74fee32048b11bb48dd86ca657686a40ad8424549f1df2e28bd5f2acbe87a">
-    <crm:P190_has_symbolic_content>leder</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>leder</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>gross</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/redlether">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>redlether</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/leather#rate-1545-inward-438">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Lether laces the groce 5s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_leather_cb24a5ebd52a10776c0ddc4482fd691e3a31631da23204785c859be56f8a0754f04"/>
-    <hector:perQuantity rdf:nodeID="commodity_leather_cb1077d6881fb7a4eac2080904c098e1484fc118bf355582e88ca6ccb88c4484b72"/>
-    <hector:qualifier rdf:nodeID="commodity_leather_cb1bf9fbd694ae0a8c2d6804161ea4d04b9aa256d9457550df88d23426ffebac77b"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 438 (transcribed by Stuart Jenks): 'Lether laces the groce' 5s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb1ed48f069def3011cb0906f08676fd26107c27f0cb4b1d57f1e8b2ba0b186dea2">
-    <crm:P190_has_symbolic_content>leather</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>lɛːθer</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb25f5b87fa160f76b41e5c83d0956e7f5685f24c3d87b359750b4ccd4abcdcbfc5">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>2s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb1a5a8ba7fb401bb396d85022ad9e1c8e4b09e31bf1caeb38ff3fa299b238074ae">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>Touche</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_leather_cb16b14c7addbe0b6d9542b3029f272662c0dc225b8d319ac3640a7d929fc54c2a7">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_leather_cb27df53a369b4e4dae0b1e5c657df76784475ceedab55955800a27aeaf04610689">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
@@ -307,15 +309,63 @@
     <hector:lsd>4s</hector:lsd>
     <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb159f9905df34730bf1f304b22027020e45a4afd751101a69f87c43eb2cd320f8f">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  <rdf:Description rdf:nodeID="commodity_leather_cb20b8b99b2b520b37bbe1b8284e00606a842b6b0f69e67a304f6f36703f50b8896">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>red</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300126225"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb225af9c3db6cfc349375731ae17725da933993b2a04ad1f89d83d12bc1a802462">
+  <rdf:Description rdf:nodeID="commodity_leather_cb15d1572afbac610635f63dc48181f4d5839ba26981cbe3b130df8e1896fc36563">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>without lockes</rdfs:label>
+    <rdfs:label>lockes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_leather_cbcfde9e99421b8a9703d45d5656017480c7c9c40ae9dab2399b49545bb69eb734">
+    <crm:P190_has_symbolic_content>lether</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>leθer</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_leather_cb1bf9fbd694ae0a8c2d6804161ea4d04b9aa256d9457550df88d23426ffebac77b">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>laces</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_leather_cb1a1c929f5fde0fd554f97935d86592c8af412873dea2c5bea9cd8ea8beb06250d">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gyrdels</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_leather_cb1e2485f18548c68e299cd45a4979b9ee869f9f0f7577503afa756f53e1cb1fcff">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Danske</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_leather_cb1af1f68c3d5c67bc815938b52d7ef531683e0f82139cf174c0198bb9c6abb35af">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>cosshens</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_leather_cb1a9b17c7bec8b03e83002a11ceb3f2eefd1d58eb06f2530c30303cb1be2294a15">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>makinge</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_leather_cb238bc008797aeac9b078893a2c22ce8905e3505850845c717b53d108804fac3c0">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gyrdels</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300011845">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>leather</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/redlether">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>redlether</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_leather_cb2e5e15ad98d10ff4c14d73528691f9c8ce5581fc28641a705aa40be1dde1215a8">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
@@ -323,55 +373,34 @@
     <hector:lsd>2s</hector:lsd>
     <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb25d16dd06d78b928324e494c12078cd37bae95604cd913c00dbad093e69859aeb">
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/leather">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>leather (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_leather_cb2ada93554ffbc529921301c46b7e572821d125ccfc9238f154df485056339659c">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>taude</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb3260b21bdecc1f9ac35c522b767c0e5ea4bf3d094bbef68b4eda15c8c167b7539">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>2s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb997dba33a61397044bee981396cae4d86e7b04812e24ba05156ee378e91a6233">
-    <crm:P190_has_symbolic_content>ledder</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>leder</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb3416b65fbfb9bee743c9d9c68f6dec95d4c219854011afbf99b803340dbad7f39">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>2s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb1e2485f18548c68e299cd45a4979b9ee869f9f0f7577503afa756f53e1cb1fcff">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>Danske</rdfs:label>
+    <rdfs:label>cousschenes</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_leather_cb113a9561de3734938ac172db83e4b2fc8a3211b6f50cea18e9ddae33f249d8b39">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>new</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb1a9b17c7bec8b03e83002a11ceb3f2eefd1d58eb06f2530c30303cb1be2294a15">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>makinge</rdfs:label>
+    <rdfs:label>attested variant</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb1077d6881fb7a4eac2080904c098e1484fc118bf355582e88ca6ccb88c4484b72">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  <rdf:Description rdf:nodeID="commodity_leather_cb3082ed4129c4175ed03d3f2cf508cd0a3b6688717bf7be3f54c935cc10aacda8b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb114e8c27bd600b2c5053a5c14376c629e449613160a86b75752e102aa5e2a0e48">
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>gross</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_leather_cb1217ce23cf96b61472acf4712371be059dcbfaad34c55f9d8b338b41ded5d1aa1">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
@@ -381,73 +410,17 @@
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb24a5ebd52a10776c0ddc4482fd691e3a31631da23204785c859be56f8a0754f04">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>5s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>dozen</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb16b14c7addbe0b6d9542b3029f272662c0dc225b8d319ac3640a7d929fc54c2a7">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb3082ed4129c4175ed03d3f2cf508cd0a3b6688717bf7be3f54c935cc10aacda8b">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>2s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb27d5d3b1427be4d30ea9d910fbc5fed35d2099cd563233e642b1c902b7d7adb1d">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>14d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cbcfde9e99421b8a9703d45d5656017480c7c9c40ae9dab2399b49545bb69eb734">
-    <crm:P190_has_symbolic_content>lether</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>leθer</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
+    <rdfs:label>preferred terms</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb1af1f68c3d5c67bc815938b52d7ef531683e0f82139cf174c0198bb9c6abb35af">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+  <rdf:Description rdf:nodeID="commodity_leather_cb1eb84ea3c6f0f2ebec03d0b59b9e3c3b189c7e5b10aef0a78918881ef8e36ed55">
+    <crm:P190_has_symbolic_content>The skin or hide of an animal that has been tanned to render it resistant to putrefication and relatively soft and flexible when dry. For composite material made from scrap leather pieces, use "maril." [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>cosshens</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb15d1572afbac610635f63dc48181f4d5839ba26981cbe3b130df8e1896fc36563">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>lockes</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb1217ce23cf96b61472acf4712371be059dcbfaad34c55f9d8b338b41ded5d1aa1">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb176afe1c72c5c330ace580cd68981cccd0e7c6e031fde5cee5224747bfbb7a16e">
-    <crm:P190_has_symbolic_content>ledders</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>leders</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_leather_cb10947308a11b13235c0cba1858970cb2e5d98293eced7ad78c216483ed6240d06">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

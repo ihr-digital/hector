@@ -8,33 +8,28 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_girdle_cb14d3bdfaa72c95e516b8c7dc10bedaa4cd7d40f591284e82431bb3aa03bdcc9e9">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb2bd98717e5f0b3fbb1109924ea123ee102aeb3fdb26480e57c128458bbff219d1">
-    <crm:P190_has_symbolic_content>girdilles</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb1fdf062ca74e417639a6c8487009814f49f4e94eb80f3a342440b07631eceff09">
+    <crm:P190_has_symbolic_content>zonae</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒirdiləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+    <hector:phoneticKey>zone</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb12deb0e39d412aa4fba22129ca2faea26a90c93b62d963709d1e7fd27e3945f66">
-    <crm:P190_has_symbolic_content>Narrow belts, cords, sashes or the like, usually decorative and worn at the waist to fasten or confine garments or as a means of carrying small objects such as purses or keys. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/girdle#rate-1558-inward-474">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Girdelles of lether the grosse 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_girdle_cb319c8c982cbbef89fabec1d1ff99ceb7b9126c5f7f9ded32e0328684388d325e9"/>
+    <hector:perQuantity rdf:nodeID="commodity_girdle_cb1f0521e958bd3ddbdb9906653d48ba5201a679366b03c5c9dd69f28319d5ac02f"/>
+    <hector:qualifier rdf:nodeID="commodity_girdle_cb2163ecfab908099725d007fbec484040715d5eada11614577a3866d4a3a354a03"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 474 (transcribed by Stuart Jenks): 'Girdelles of lether the grosse' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb393aa6ab4480f8bc301b5183b20c2c90ac2ae02ad7b1d47f846964b2ba961ac25">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>£10</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2400</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+  <rdf:Description rdf:nodeID="commodity_girdle_cb22d06cf6b9f072ae1b852c3b366f8c2f1f145599251ffe27be077c7181875f40d">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
+    <rdfs:label>velvet</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300133711"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/girdle">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
@@ -93,11 +88,97 @@
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300210002"/>
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300220741"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">684</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/girdle#rate-1507-none-113"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/girdle#rate-1558-inward-474"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/girdle#rate-1558-inward-511"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/girdle#rate-1558-inward-512"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/girdle#rate-1558-inward-513"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/girdle#rate-1558-inward-514"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb1615f9fdf6d47852d03973b1ddc5b3521d02840c262493aacded1f2bc939dc9ef">
+    <crm:P190_has_symbolic_content>sona</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sona</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/girdle#rate-1558-inward-512">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Girdles voc’ buffe girdles corse unguilt the grosse £6 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_girdle_cb1daaf758acfbe78eb7fd08d1a32aa9097781ce9ae54065c8a7fe7dd8940f86c97"/>
+    <hector:perQuantity rdf:nodeID="commodity_girdle_cb10fd7ea71a9dd2e564b9c1104f7b54a2be29c3e6b00e0ec7478a78f9889299531"/>
+    <hector:qualifier rdf:nodeID="commodity_girdle_cb1c0654017a8e9f0a4173d845a6008bfa8228f8f045f5c2435cdf0561baab7d1c6"/>
+    <hector:qualifier rdf:nodeID="commodity_girdle_cb1e62449f65faf4126d61a03c31999f5330952115ebeaabf25cb5a17a5fb788b3c"/>
+    <hector:qualifier rdf:nodeID="commodity_girdle_cb1e8963678c5bcf4a3d8e7204b28ad40d5db3738020fbfce2cd324ab818081c33b"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 512 (transcribed by Stuart Jenks): 'Girdles voc’ buffe girdles corse unguilt the grosse' £6 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/girdle#rate-1507-none-113">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Grayne that ys in powder ys dobylle the pryse Gyrdelles of thred the grosse 4s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_girdle_cb20462dadc53baf0848450e881b7df222fd888aea5c5d83f347a9b7a91337c172c"/>
+    <hector:perQuantity rdf:nodeID="commodity_girdle_cb12f57a2cf02c56a73a594004283ab259c0597945fa290d84bcb3294bc854ae399"/>
+    <hector:qualifier rdf:nodeID="commodity_girdle_cb1212543c85fcf048c6fd453182fa5a171d99c04397a8ede0090214b33c937268f"/>
+    <hector:qualifier rdf:nodeID="commodity_girdle_cb18af828c4e41926f306cbc485a6508d03b7cce7fce7e510d3fedfbf537b28bff7"/>
+    <hector:qualifier rdf:nodeID="commodity_girdle_cb1ad3fac070287b182e084ebbf9ead7972d5864dd03117f05bd77f9807a6ba54ee"/>
+    <hector:qualifier rdf:nodeID="commodity_girdle_cb1eaf6e675c366365aa668685db0913f8d5d2d8c2a53c71069664f98c0575cc411"/>
+    <hector:sourceText>Book of Rates 1507, line 113 (transcribed by Stuart Jenks): 'Grayne that ys in powder ys dobylle the pryse Gyrdelles of thred the grosse' 4s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb14d3bdfaa72c95e516b8c7dc10bedaa4cd7d40f591284e82431bb3aa03bdcc9e9">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb6c23a92553f52a8d74b09c6810548e4617e1a5ac0ae91fc634858e138ad8ce7b">
+    <crm:P190_has_symbolic_content>gerdele</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dʒerdelə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb30eb22076613317cc04c5281d01abfac07073a06d1864dd84f35098fcc11105a4">
+    <crm:P190_has_symbolic_content>gerdylles</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dʒerdiləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb262300d5cc4af6955806c5ff7efba41ec3265d5ab57e78f0f492a63c716f212c8">
+    <crm:P190_has_symbolic_content>singuli</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>siŋguli</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb1fea6a3d359635a81fd6b13ea9b247821a6edaa70212cad5d43536b5c41071471">
+    <crm:P190_has_symbolic_content>sonae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sone</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb1067573d05805ff0e82449be0fe88b6595b7b12df43b192568078eb8a20ca4155">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>ungilt</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb1f0521e958bd3ddbdb9906653d48ba5201a679366b03c5c9dd69f28319d5ac02f">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb227304587de69f35c50a9a18f9b898a251c5687997ca6dfeff7a673693424badb">
+    <crm:P190_has_symbolic_content>syngulum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>siŋgulum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_girdle_cb1778a7db25a6373cb9e89ea193b38f4e5284189a0d5c51e070884b7b1e8663ade">
     <crm:P190_has_symbolic_content>girdele</crm:P190_has_symbolic_content>
@@ -107,21 +188,168 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb1357516c175149ac4bbb88b88f7e99b83903532cb5b93a6470ae27520d9f8b043">
-    <crm:P190_has_symbolic_content>girdil</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb1acc27233825848092e0b5cbf5dbe5ea3235810c6a8ca784016fa99fb02bb269d">
+    <crm:P190_has_symbolic_content>gyrdilles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒirdil</hector:phoneticKey>
+    <hector:phoneticKey>girdiləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1450</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb25320c758ff15e8dbf237c220373ab78bc1ab374c9cc34a8ba6b15f438060aa4e">
+    <crm:P190_has_symbolic_content>gyrdells</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>girdels</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb1a39489a3df575eb9fc5297169d503d4795e5ecb0c9c8fc81962a8c743523b35f">
+    <crm:P190_has_symbolic_content>synguli</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>siŋguli</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb27c20a1e8733f21e568050d2564e53253b2347e1a7afd23e7e76bba0564275f8a">
+    <crm:P190_has_symbolic_content>girdells</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dʒirdels</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb21b783eecb4fed65ba8b27e1cd9ddb293e8a65622aa7b87b40b91be7635f645a4">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gilted</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb1daaf758acfbe78eb7fd08d1a32aa9097781ce9ae54065c8a7fe7dd8940f86c97">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£6 13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1600</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb1e8963678c5bcf4a3d8e7204b28ad40d5db3738020fbfce2cd324ab818081c33b">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>coarse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb25be4b5245b8158f8619fc84ade45ae967d62925dffdda38313da88a25ac50c76">
+    <crm:P190_has_symbolic_content>gyrdylle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>girdilə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb32ca9958a0d7f58f1f5b40fe027d9f77aaab8e5b9741f92e5e2bdca0d3a0d6d3d">
+    <crm:P190_has_symbolic_content>zona</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>zona</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/girdle">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>girdle (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb2067e3d1db548ed9d801d036f529823d87c85d0ea1add95efdbef1448d52f3e99">
+    <crm:P190_has_symbolic_content>girdel</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dʒirdel</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb1eaf6e675c366365aa668685db0913f8d5d2d8c2a53c71069664f98c0575cc411">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>file</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb25035b2880f1336499a99c4fa282d10db5480bbb1456548c4b6d809f03c388ef9">
+    <crm:P190_has_symbolic_content>gerdelles</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dʒerdeləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb2bd98717e5f0b3fbb1109924ea123ee102aeb3fdb26480e57c128458bbff219d1">
+    <crm:P190_has_symbolic_content>girdilles</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dʒirdiləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb12caed6b272df32fd57756e77d5044494440c9e26a2cd26bb5e3a916b6679d11e">
+    <crm:P190_has_symbolic_content>girdils</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dʒirdils</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1492</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb1d0e401833040bb21af4f0a3748bc89198718cc8cd10c5b0535b418592856fe6e">
-    <crm:P190_has_symbolic_content>girdeles</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb319c8c982cbbef89fabec1d1ff99ceb7b9126c5f7f9ded32e0328684388d325e9">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb1eb27ce1a8db97acef2b8f2cac4935d82351bf1e3eed142bcc51282d0beebd6f0">
+    <crm:P190_has_symbolic_content>singulum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>siŋgulum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb1c0654017a8e9f0a4173d845a6008bfa8228f8f045f5c2435cdf0561baab7d1c6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>buff</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb1df56174cf11e42e199b7426a903a22a9bc4d94382adab6dd32149862ecf0fbb6">
+    <crm:P190_has_symbolic_content>girdelles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>dʒirdeləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb20575d4fa04b3950d448c955e5c1768da9a99ec66e468177b514160baafc16682">
+    <crm:P190_has_symbolic_content>gerdelle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dʒerdelə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb263570020084064b338f9b30afaa976fe50716e0bf45847daa0b3b71737a12316">
+    <crm:P190_has_symbolic_content>gurdelles</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>gurdeləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb2ebe9971260273d12753380d47f88a693018c0e975f9611a591d12810fecc40f7">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£3 6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">800</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb302a52f4dad6c8b3ca2d75b1dbb183229647a34c30eae557f827fbfe0702b6eac">
+    <crm:P190_has_symbolic_content>gurdelle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>gurdelə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/girdle#rate-1558-inward-513">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
@@ -134,25 +362,105 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb1f2794547909bd0bfdbf7f30f63350a40306b4ba2e5998fd76d1411d9b4ffecd7">
-    <crm:P190_has_symbolic_content>gyrdille</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb1357516c175149ac4bbb88b88f7e99b83903532cb5b93a6470ae27520d9f8b043">
+    <crm:P190_has_symbolic_content>girdil</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>girdilə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1450</hector:validThrough>
+    <hector:phoneticKey>dʒirdil</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1492</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb1c0654017a8e9f0a4173d845a6008bfa8228f8f045f5c2435cdf0561baab7d1c6">
+  <rdf:Description rdf:nodeID="commodity_girdle_cb20fd01135a3f156340313286b8913843f5589cb0617874b6126de7545ad58e3c6">
+    <crm:P190_has_symbolic_content>girdille</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dʒirdilə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb190db1bda41533dda4bdb35c6a1659648a14850c206f6cd8bc845557d252727be">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>buff</rdfs:label>
+    <rdfs:label>velvet</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300133711"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb1c9ec47d72623070b0c8e0f0e01e454b8b10ce28b0a006abc9d2adba1ebaf2da9">
-    <crm:P190_has_symbolic_content>gyrdelle</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb2381877db5920c64cff8eaa30bcda3f16715a7aa7f124b262d767b4c86cdb92ba">
+    <crm:P190_has_symbolic_content>gyrdell</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>girdelə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+    <hector:phoneticKey>girdel</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb1aa2f45e6b1231e940c96f40fecacc3150fda84f20975e64d08665c4d98f3c745">
+    <crm:P190_has_symbolic_content>girdels</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dʒirdels</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb2c5efcd680756348079339858abb35a5b1f72b5165c8e74c4c4092e15f3c77911">
+    <crm:P190_has_symbolic_content>gerdylle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dʒerdilə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb1d0e401833040bb21af4f0a3748bc89198718cc8cd10c5b0535b418592856fe6e">
+    <crm:P190_has_symbolic_content>girdeles</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dʒirdeləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb2163ecfab908099725d007fbec484040715d5eada11614577a3866d4a3a354a03">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>lether</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb2f5a03c0b84de1548e83836701874e63e1fe60f1f398b37879131a56a5647fe21">
+    <crm:P190_has_symbolic_content>girdles</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dʒirdləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb2baee34f151473968a3c45d9de640fbcae4e31d5563a3247779051fe7185cb0a4">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb1bade6124cc07fe538558d7ef29ef16f8a8325cc670bc1ec8d75b8b341b882a73">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb10fd7ea71a9dd2e564b9c1104f7b54a2be29c3e6b00e0ec7478a78f9889299531">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb1f33cbb43942bddf7cc41be221c8049e42dfbe23426872fc4b3a9251b9fd8e0dc">
+    <crm:P190_has_symbolic_content>zone</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>zonə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1541</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb13aec763400ff167008e40ce474684a8111fe978bd169c621585b3bf3657ed2f0">
+    <crm:P190_has_symbolic_content>zonis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>zonis</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb20462dadc53baf0848450e881b7df222fd888aea5c5d83f347a9b7a91337c172c">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/girdle#rate-1558-inward-511">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
@@ -173,46 +481,58 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1541</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb32ca9958a0d7f58f1f5b40fe027d9f77aaab8e5b9741f92e5e2bdca0d3a0d6d3d">
-    <crm:P190_has_symbolic_content>zona</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb158ba873f1a0ff8e8a6fbcadf20646078a74f0b9eab15a0af62a46f43a30d6e19">
+    <crm:P190_has_symbolic_content>sonis</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>zona</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+    <hector:phoneticKey>sonis</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/girdle">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>girdle (London Customs Accounts glossary)</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb1807d291aa4dd929813c45abd2fc9fc2940622df700ef2282164ee94d01f304c5">
+    <crm:P190_has_symbolic_content>girdellis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dʒirdelis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+  <rdf:Description rdf:nodeID="commodity_girdle_cbe80435098fc6c446ed97c371b4653aa6691ac6fda807630b2ca87202dbb58789">
+    <crm:P190_has_symbolic_content>sonarum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sonarum</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cbf1ee64702b82c76867f4f81865ffc84990f508fd094f55efee418aed418dbeda">
+    <crm:P190_has_symbolic_content>zonarum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>zonarum</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb12f57a2cf02c56a73a594004283ab259c0597945fa290d84bcb3294bc854ae399">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb20575d4fa04b3950d448c955e5c1768da9a99ec66e468177b514160baafc16682">
-    <crm:P190_has_symbolic_content>gerdelle</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb11c54575eda614c6b77326600925b956b4948ff556862ed754f79087be75616ac">
+    <crm:P190_has_symbolic_content>gerdeles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒerdelə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+    <hector:phoneticKey>dʒerdeləs</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb30eb22076613317cc04c5281d01abfac07073a06d1864dd84f35098fcc11105a4">
-    <crm:P190_has_symbolic_content>gerdylles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒerdiləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb1212543c85fcf048c6fd453182fa5a171d99c04397a8ede0090214b33c937268f">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>powdered</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb1ee9589ffa4e0042e9023ff3bc194f0a2358a92b47bda6e03c7da58f082391ac1">
-    <crm:P190_has_symbolic_content>gyrdelles</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb21dab6a5a91696fccb456cdd22ee4e07bdcffb93a05922893d90382d851aac08b">
+    <crm:P190_has_symbolic_content>girdell</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>girdeləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+    <hector:phoneticKey>dʒirdel</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_girdle_cb175b4d1a5006a16dcbf55bb9706c9da50f4becb0a88e67a55fd5a6542875cca4c">
     <crm:P190_has_symbolic_content>girdelle</crm:P190_has_symbolic_content>
@@ -221,116 +541,6 @@
     <hector:phoneticKey>dʒirdelə</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb1615f9fdf6d47852d03973b1ddc5b3521d02840c262493aacded1f2bc939dc9ef">
-    <crm:P190_has_symbolic_content>sona</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sona</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb24f2812ea10f47b71b06b0aa722430e91ece81d856c96c4686a4cc419a4b4c735">
-    <crm:P190_has_symbolic_content>gyrdylles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>girdiləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb1acc27233825848092e0b5cbf5dbe5ea3235810c6a8ca784016fa99fb02bb269d">
-    <crm:P190_has_symbolic_content>gyrdilles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>girdiləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1450</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb2f5a03c0b84de1548e83836701874e63e1fe60f1f398b37879131a56a5647fe21">
-    <crm:P190_has_symbolic_content>girdles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒirdləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb2067e3d1db548ed9d801d036f529823d87c85d0ea1add95efdbef1448d52f3e99">
-    <crm:P190_has_symbolic_content>girdel</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒirdel</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb190db1bda41533dda4bdb35c6a1659648a14850c206f6cd8bc845557d252727be">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>velvet</rdfs:label>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300133711"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb263570020084064b338f9b30afaa976fe50716e0bf45847daa0b3b71737a12316">
-    <crm:P190_has_symbolic_content>gurdelles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>gurdeləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/girdle#rate-1558-inward-512">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Girdles voc’ buffe girdles corse unguilt the grosse £6 13s 4d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_girdle_cb1daaf758acfbe78eb7fd08d1a32aa9097781ce9ae54065c8a7fe7dd8940f86c97"/>
-    <hector:perQuantity rdf:nodeID="commodity_girdle_cb10fd7ea71a9dd2e564b9c1104f7b54a2be29c3e6b00e0ec7478a78f9889299531"/>
-    <hector:qualifier rdf:nodeID="commodity_girdle_cb1c0654017a8e9f0a4173d845a6008bfa8228f8f045f5c2435cdf0561baab7d1c6"/>
-    <hector:qualifier rdf:nodeID="commodity_girdle_cb1e62449f65faf4126d61a03c31999f5330952115ebeaabf25cb5a17a5fb788b3c"/>
-    <hector:qualifier rdf:nodeID="commodity_girdle_cb1e8963678c5bcf4a3d8e7204b28ad40d5db3738020fbfce2cd324ab818081c33b"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 512 (transcribed by Stuart Jenks): 'Girdles voc’ buffe girdles corse unguilt the grosse' £6 13s 4d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb27c20a1e8733f21e568050d2564e53253b2347e1a7afd23e7e76bba0564275f8a">
-    <crm:P190_has_symbolic_content>girdells</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒirdels</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb1fea6a3d359635a81fd6b13ea9b247821a6edaa70212cad5d43536b5c41071471">
-    <crm:P190_has_symbolic_content>sonae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sone</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/girdle#rate-1558-inward-474">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Girdelles of lether the grosse 10s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_girdle_cb319c8c982cbbef89fabec1d1ff99ceb7b9126c5f7f9ded32e0328684388d325e9"/>
-    <hector:perQuantity rdf:nodeID="commodity_girdle_cb1f0521e958bd3ddbdb9906653d48ba5201a679366b03c5c9dd69f28319d5ac02f"/>
-    <hector:qualifier rdf:nodeID="commodity_girdle_cb2163ecfab908099725d007fbec484040715d5eada11614577a3866d4a3a354a03"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 474 (transcribed by Stuart Jenks): 'Girdelles of lether the grosse' 10s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb21b783eecb4fed65ba8b27e1cd9ddb293e8a65622aa7b87b40b91be7635f645a4">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>gilted</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb2ebe9971260273d12753380d47f88a693018c0e975f9611a591d12810fecc40f7">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>£3 6s 8d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">800</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb25320c758ff15e8dbf237c220373ab78bc1ab374c9cc34a8ba6b15f438060aa4e">
-    <crm:P190_has_symbolic_content>gyrdells</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>girdels</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/girdle#rate-1558-inward-514">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
@@ -343,65 +553,66 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb1807d291aa4dd929813c45abd2fc9fc2940622df700ef2282164ee94d01f304c5">
-    <crm:P190_has_symbolic_content>girdellis</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb24f2812ea10f47b71b06b0aa722430e91ece81d856c96c4686a4cc419a4b4c735">
+    <crm:P190_has_symbolic_content>gyrdylles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒirdelis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb1aa2f45e6b1231e940c96f40fecacc3150fda84f20975e64d08665c4d98f3c745">
-    <crm:P190_has_symbolic_content>girdels</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒirdels</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb11c54575eda614c6b77326600925b956b4948ff556862ed754f79087be75616ac">
-    <crm:P190_has_symbolic_content>gerdeles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒerdeləs</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb25be4b5245b8158f8619fc84ade45ae967d62925dffdda38313da88a25ac50c76">
-    <crm:P190_has_symbolic_content>gyrdylle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>girdilə</hector:phoneticKey>
+    <hector:phoneticKey>girdiləs</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb1f33cbb43942bddf7cc41be221c8049e42dfbe23426872fc4b3a9251b9fd8e0dc">
-    <crm:P190_has_symbolic_content>zone</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb22e57ee219422ccf1d4e1eb027bf57ddd271ea1f9c64d8885947424930493dcb7">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>zonə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1541</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>guilt</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb2c5efcd680756348079339858abb35a5b1f72b5165c8e74c4c4092e15f3c77911">
-    <crm:P190_has_symbolic_content>gerdylle</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb1e62449f65faf4126d61a03c31999f5330952115ebeaabf25cb5a17a5fb788b3c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>ungilt</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb393aa6ab4480f8bc301b5183b20c2c90ac2ae02ad7b1d47f846964b2ba961ac25">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£10</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2400</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb1ee9589ffa4e0042e9023ff3bc194f0a2358a92b47bda6e03c7da58f082391ac1">
+    <crm:P190_has_symbolic_content>gyrdelles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒerdilə</hector:phoneticKey>
+    <hector:phoneticKey>girdeləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb1f2794547909bd0bfdbf7f30f63350a40306b4ba2e5998fd76d1411d9b4ffecd7">
+    <crm:P190_has_symbolic_content>gyrdille</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>girdilə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1450</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300133711">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>velvet (fabric weave)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb18af828c4e41926f306cbc485a6508d03b7cce7fce7e510d3fedfbf537b28bff7">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>dobylle the pryse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb2dad02e3e590f8852a1a09255e4d5bd9fda03f8233d328de9e2c321bc5778b389">
+    <crm:P190_has_symbolic_content>belt</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>belt</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb20fd01135a3f156340313286b8913843f5589cb0617874b6126de7545ad58e3c6">
-    <crm:P190_has_symbolic_content>girdille</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb1ad3fac070287b182e084ebbf9ead7972d5864dd03117f05bd77f9807a6ba54ee">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒirdilə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb262300d5cc4af6955806c5ff7efba41ec3265d5ab57e78f0f492a63c716f212c8">
-    <crm:P190_has_symbolic_content>singuli</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>siŋguli</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Grayne</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_girdle_cb2fc2d2bf6910efc6080f79a444b291c884d5177ad06d9b9f3872315a6a878212e">
     <crm:P190_has_symbolic_content>girdle</crm:P190_has_symbolic_content>
@@ -412,164 +623,13 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb10fd7ea71a9dd2e564b9c1104f7b54a2be29c3e6b00e0ec7478a78f9889299531">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb227304587de69f35c50a9a18f9b898a251c5687997ca6dfeff7a673693424badb">
-    <crm:P190_has_symbolic_content>syngulum</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb1c9ec47d72623070b0c8e0f0e01e454b8b10ce28b0a006abc9d2adba1ebaf2da9">
+    <crm:P190_has_symbolic_content>gyrdelle</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>siŋgulum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb1fdf062ca74e417639a6c8487009814f49f4e94eb80f3a342440b07631eceff09">
-    <crm:P190_has_symbolic_content>zonae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>zone</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb302a52f4dad6c8b3ca2d75b1dbb183229647a34c30eae557f827fbfe0702b6eac">
-    <crm:P190_has_symbolic_content>gurdelle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>gurdelə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb25035b2880f1336499a99c4fa282d10db5480bbb1456548c4b6d809f03c388ef9">
-    <crm:P190_has_symbolic_content>gerdelles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒerdeləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb319c8c982cbbef89fabec1d1ff99ceb7b9126c5f7f9ded32e0328684388d325e9">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>10s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb172d564fbc65b41d79d63b38bb4df6101646ccd078231c8627e282eaffaa70d8d">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>buff</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb1eb27ce1a8db97acef2b8f2cac4935d82351bf1e3eed142bcc51282d0beebd6f0">
-    <crm:P190_has_symbolic_content>singulum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>siŋgulum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb1e8963678c5bcf4a3d8e7204b28ad40d5db3738020fbfce2cd324ab818081c33b">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>coarse</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300210002">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>belts (costume accessories)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tuckyng-gerdele">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>tuckyng gerdele</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb2dad02e3e590f8852a1a09255e4d5bd9fda03f8233d328de9e2c321bc5778b389">
-    <crm:P190_has_symbolic_content>belt</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>belt</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb1daaf758acfbe78eb7fd08d1a32aa9097781ce9ae54065c8a7fe7dd8940f86c97">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>£6 13s 4d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1600</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>gross</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb2381877db5920c64cff8eaa30bcda3f16715a7aa7f124b262d767b4c86cdb92ba">
-    <crm:P190_has_symbolic_content>gyrdell</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>girdel</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb1a39489a3df575eb9fc5297169d503d4795e5ecb0c9c8fc81962a8c743523b35f">
-    <crm:P190_has_symbolic_content>synguli</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>siŋguli</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb1f0521e958bd3ddbdb9906653d48ba5201a679366b03c5c9dd69f28319d5ac02f">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb22e57ee219422ccf1d4e1eb027bf57ddd271ea1f9c64d8885947424930493dcb7">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>guilt</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb1df56174cf11e42e199b7426a903a22a9bc4d94382adab6dd32149862ecf0fbb6">
-    <crm:P190_has_symbolic_content>girdelles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒirdeləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb1bade6124cc07fe538558d7ef29ef16f8a8325cc670bc1ec8d75b8b341b882a73">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb1067573d05805ff0e82449be0fe88b6595b7b12df43b192568078eb8a20ca4155">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>ungilt</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb158ba873f1a0ff8e8a6fbcadf20646078a74f0b9eab15a0af62a46f43a30d6e19">
-    <crm:P190_has_symbolic_content>sonis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sonis</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300220741">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>girdles (belts)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb6c23a92553f52a8d74b09c6810548e4617e1a5ac0ae91fc634858e138ad8ce7b">
-    <crm:P190_has_symbolic_content>gerdele</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒerdelə</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb2baee34f151473968a3c45d9de640fbcae4e31d5563a3247779051fe7185cb0a4">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>40s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb22d06cf6b9f072ae1b852c3b366f8c2f1f145599251ffe27be077c7181875f40d">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>velvet</rdfs:label>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300133711"/>
+    <hector:phoneticKey>girdelə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_girdle_cb21b63972a8cc8564325e46d7cf5332ac45c5e0ff1557b28f77cd692277595fd33">
     <crm:P190_has_symbolic_content>girdelis</crm:P190_has_symbolic_content>
@@ -579,63 +639,46 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb13aec763400ff167008e40ce474684a8111fe978bd169c621585b3bf3657ed2f0">
-    <crm:P190_has_symbolic_content>zonis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>zonis</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>dozen</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb21dab6a5a91696fccb456cdd22ee4e07bdcffb93a05922893d90382d851aac08b">
-    <crm:P190_has_symbolic_content>girdell</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒirdel</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb2163ecfab908099725d007fbec484040715d5eada11614577a3866d4a3a354a03">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>lether</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb12caed6b272df32fd57756e77d5044494440c9e26a2cd26bb5e3a916b6679d11e">
-    <crm:P190_has_symbolic_content>girdils</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒirdils</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1492</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb12deb0e39d412aa4fba22129ca2faea26a90c93b62d963709d1e7fd27e3945f66">
+    <crm:P190_has_symbolic_content>Narrow belts, cords, sashes or the like, usually decorative and worn at the waist to fasten or confine garments or as a means of carrying small objects such as purses or keys. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>attested variant</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300133711">
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>gross</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300220741">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>velvet (fabric weave)</rdfs:label>
+    <rdfs:label>girdles (belts)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cbf1ee64702b82c76867f4f81865ffc84990f508fd094f55efee418aed418dbeda">
-    <crm:P190_has_symbolic_content>zonarum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>zonarum</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cb1e62449f65faf4126d61a03c31999f5330952115ebeaabf25cb5a17a5fb788b3c">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>ungilt</rdfs:label>
+    <rdfs:label>preferred terms</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_girdle_cbe80435098fc6c446ed97c371b4653aa6691ac6fda807630b2ca87202dbb58789">
-    <crm:P190_has_symbolic_content>sonarum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sonarum</hector:phoneticKey>
+  <rdf:Description rdf:nodeID="commodity_girdle_cb172d564fbc65b41d79d63b38bb4df6101646ccd078231c8627e282eaffaa70d8d">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>buff</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tuckyng-gerdele">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tuckyng gerdele</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300210002">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>belts (costume accessories)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_girdle_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

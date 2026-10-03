@@ -145,10 +145,8 @@
     skos:exactMatch <https://w3id.org/mlca/glossary/purse> ;
     la:equivalent aat:300046230 ;
     hector:attestationCount 237 ;
-    hector:taxation <https://w3id.org/hector/commodity/purse#rate-1507-none-18>,
-        <https://w3id.org/hector/commodity/purse#rate-1545-inward-549>,
+    hector:taxation <https://w3id.org/hector/commodity/purse#rate-1545-inward-549>,
         <https://w3id.org/hector/commodity/purse#rate-1545-inward-563>,
-        <https://w3id.org/hector/commodity/purse#rate-1558-inward-111>,
         <https://w3id.org/hector/commodity/purse#rate-1558-inward-832>,
         <https://w3id.org/hector/commodity/purse#rate-1558-inward-834> .
 
@@ -160,19 +158,6 @@ aat:300404670 a crm:E55_Type ;
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
-
-<https://w3id.org/hector/commodity/purse#rate-1507-none-18> a hector:Rate ;
-    rdfs:label "1507: Bullyons for pursses the smalle grosse 3s" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "3s" ;
-            hector:valueInPence 36.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 144 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
-    hector:sourceText "Book of Rates 1507, line 18 (transcribed by Stuart Jenks): 'Bullyons for pursses the smalle grosse' 3s" ;
-    hector:validFrom "1507"^^xsd:gYear ;
-    hector:validThrough "1545"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/purse#rate-1545-inward-549> a hector:Rate ;
     rdfs:label "1545 inward: Porses for chyldren the groce 6s 8d" ;
@@ -204,19 +189,6 @@ aat:300435416 a crm:E55_Type ;
     hector:sourceText "Book of Rates 1545, inward, line 563 (transcribed by Stuart Jenks): 'Purse wyer the dossen pounde' 5s" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
-
-<https://w3id.org/hector/commodity/purse#rate-1558-inward-111> a hector:Rate ;
-    rdfs:label "1558 inward: Bullions for purses the grosse 5s" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "5s" ;
-            hector:valueInPence 60.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 144 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
-    hector:sourceText "Book of Rates 1558, inward, line 111 (transcribed by Stuart Jenks): 'Bullions for purses the grosse' 5s" ;
-    hector:validFrom "1558"^^xsd:gYear ;
-    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/purse#rate-1558-inward-832> a hector:Rate ;
     rdfs:label "1558 inward: Purses for chyldren the grosse 15s" ;

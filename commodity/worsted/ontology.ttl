@@ -248,6 +248,9 @@
         <https://w3id.org/hector/commodity/worsted#rate-1558-inward-1136>,
         <https://w3id.org/hector/commodity/worsted#rate-1558-outward-71> .
 
+aat:300227943 a crm:E55_Type ;
+    rdfs:label "worsted" .
+
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
 
@@ -401,19 +404,13 @@ wd:Q648 a crm:E53_Place ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
     hector:qualifier [ a crm:E55_Type ;
             rdfs:label "Norwiche" ;
-            crm:P2_has_type hector:AttestedVariant ],
-        [ a crm:E55_Type ;
-            rdfs:label "worsted" ;
-            la:equivalent aat:300227943 ] ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, outward, line 71 (transcribed by Stuart Jenks): 'Worstede vocat’ Norwiche worsted the pece' 30s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/mlca/glossary/worsted> a crm:E55_Type ;
     rdfs:label "worsted (London Customs Accounts glossary)" .
-
-aat:300227943 a crm:E55_Type ;
-    rdfs:label "worsted" .
 
 wd:Q208793 a crm:E53_Place ;
     rdfs:label "Saint-Omer" .

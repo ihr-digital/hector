@@ -36,7 +36,8 @@
             crm:P2_has_type aat:300435416 ] ;
     skos:exactMatch <https://w3id.org/mlca/glossary/bear> ;
     la:equivalent aat:300266516 ;
-    hector:attestationCount 9 .
+    hector:attestationCount 9 ;
+    hector:taxation <https://w3id.org/hector/commodity/bear#rate-1545-inward-118> .
 
 aat:300266516 a crm:E55_Type ;
     rdfs:label "Ursidae (family)" .
@@ -44,8 +45,30 @@ aat:300266516 a crm:E55_Type ;
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
 
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
+
+<https://w3id.org/hector/commodity/bear#rate-1545-inward-118> a hector:Rate ;
+    rdfs:label "1545 inward: Beres quycke the pece 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "quycke" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 118 (transcribed by Stuart Jenks): 'Beres quycke the pece' 6s 8d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/unit/pecia> a crm:E58_Measurement_Unit ;
+    rdfs:label "pecia" .
 
 <https://w3id.org/mlca/glossary/bear> a crm:E55_Type ;
     rdfs:label "bear (London Customs Accounts glossary)" .

@@ -207,7 +207,6 @@
         <https://w3id.org/hector/commodity/cotton-8#rate-1558-inward-219>,
         <https://w3id.org/hector/commodity/cotton-8#rate-1558-inward-230>,
         <https://w3id.org/hector/commodity/cotton-8#rate-1558-inward-231>,
-        <https://w3id.org/hector/commodity/cotton-8#rate-1558-inward-866>,
         <https://w3id.org/hector/commodity/cotton-8#rate-1558-outward-16> .
 
 aat:300014067 a crm:E55_Type ;
@@ -404,27 +403,6 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
-<https://w3id.org/hector/commodity/cotton-8#rate-1558-inward-866> a hector:Rate ;
-    rdfs:label "1558 inward: Petycotes knytte of wolle or cotton the dosen 30s" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "30s" ;
-            hector:valueInPence 360.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 12 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "wolle" ;
-            crm:P2_has_type hector:AttestedVariant ],
-        [ a crm:E55_Type ;
-            rdfs:label "knitted" ],
-        [ a crm:E55_Type ;
-            rdfs:label "Petycotes" ;
-            crm:P2_has_type hector:AttestedVariant ] ;
-    hector:sourceText "Book of Rates 1558, inward, line 866 (transcribed by Stuart Jenks): 'Petycotes knytte of wolle or cotton the dosen' 30s" ;
-    hector:validFrom "1558"^^xsd:gYear ;
-    hector:validThrough "1604"^^xsd:gYear .
-
 <https://w3id.org/hector/commodity/cotton-8#rate-1558-outward-16> a hector:Rate ;
     rdfs:label "1558 outward: Cottons the C goades cont’ 5 score £3 6s 8d" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -440,9 +418,6 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/hector/commodity/silk> a crm:E55_Type ;
     rdfs:label "silk" .
-
-<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
-    rdfs:label "dozen" .
 
 <https://w3id.org/hector/unit/pecia> a crm:E58_Measurement_Unit ;
     rdfs:label "pecia" .

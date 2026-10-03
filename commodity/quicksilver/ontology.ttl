@@ -78,7 +78,8 @@
             crm:P2_has_type aat:300435416 ] ;
     skos:exactMatch <https://w3id.org/mlca/glossary/quicksilver> ;
     la:equivalent aat:300011026 ;
-    hector:attestationCount 54 .
+    hector:attestationCount 54 ;
+    hector:taxation <https://w3id.org/hector/commodity/quicksilver#rate-1558-inward-878> .
 
 aat:300011026 a crm:E55_Type ;
     rdfs:label "mercury" .
@@ -86,8 +87,27 @@ aat:300011026 a crm:E55_Type ;
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
 
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
+
+<https://w3id.org/hector/commodity/quicksilver#rate-1558-inward-878> a hector:Rate ;
+    rdfs:label "1558 inward: Quycke sylver the pounde 16d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "16d" ;
+            hector:valueInPence 16.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 878 (transcribed by Stuart Jenks): 'Quycke sylver the pounde' 16d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/unit/pound> a crm:E58_Measurement_Unit ;
+    rdfs:label "pound" .
 
 <https://w3id.org/mlca/glossary/quicksilver> a crm:E55_Type ;
     rdfs:label "quicksilver (London Customs Accounts glossary)" .

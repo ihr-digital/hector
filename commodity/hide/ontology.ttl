@@ -117,7 +117,8 @@
     hector:taxation <https://w3id.org/hector/commodity/hide#rate-1545-inward-100>,
         <https://w3id.org/hector/commodity/hide#rate-1545-inward-609>,
         <https://w3id.org/hector/commodity/hide#rate-1558-inward-112>,
-        <https://w3id.org/hector/commodity/hide#rate-1558-inward-892> .
+        <https://w3id.org/hector/commodity/hide#rate-1558-inward-892>,
+        <https://w3id.org/hector/commodity/hide#rate-1558-inward-936> .
 
 aat:300011844 a crm:E55_Type ;
     rdfs:label "hide (collagenous material)" .
@@ -192,6 +193,24 @@ aat:300435416 a crm:E55_Type ;
     hector:sourceText "Book of Rates 1558, inward, line 892 (transcribed by Stuart Jenks): 'Redde hydes the dycker cont’ 10 hydes' 50s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/hide#rate-1558-inward-936> a hector:Rate ;
+    rdfs:label "1558 inward: Salt hydes the deker cont’ 10 hydes 66s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "66s 8d" ;
+            hector:valueInPence 800.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 10 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/each> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "salted" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 936 (transcribed by Stuart Jenks): 'Salt hydes the deker cont’ 10 hydes' 66s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/unit/each> a crm:E58_Measurement_Unit ;
+    rdfs:label "each" .
 
 <https://w3id.org/mlca/glossary/hide> a crm:E55_Type ;
     rdfs:label "hide (London Customs Accounts glossary)" .

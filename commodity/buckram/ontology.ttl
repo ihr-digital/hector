@@ -218,7 +218,8 @@
     skos:exactMatch <https://w3id.org/mlca/glossary/buckram> ;
     la:equivalent aat:300253474 ;
     hector:attestationCount 1140 ;
-    hector:taxation <https://w3id.org/hector/commodity/buckram#rate-1507-none-9>,
+    hector:taxation <https://w3id.org/hector/commodity/buckram#rate-1507-none-10>,
+        <https://w3id.org/hector/commodity/buckram#rate-1507-none-9>,
         <https://w3id.org/hector/commodity/buckram#rate-1545-inward-40>,
         <https://w3id.org/hector/commodity/buckram#rate-1545-inward-41>,
         <https://w3id.org/hector/commodity/buckram#rate-1545-inward-42>,
@@ -236,6 +237,21 @@ aat:300404670 a crm:E55_Type ;
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
+
+<https://w3id.org/hector/commodity/buckram#rate-1507-none-10> a hector:Rate ;
+    rdfs:label "1507: Buckroms in paperes, every paper 1 with another fyne þat ys to saye 3 peces in every papere 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/paper> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "fine" ] ;
+    hector:sourceText "Book of Rates 1507, line 10 (transcribed by Stuart Jenks): 'Buckroms in paperes, every paper 1 with another fyne þat ys to saye 3 peces in every papere' 6s 8d" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/buckram#rate-1507-none-9> a hector:Rate ;
     rdfs:label "1507: Buckrams shorte rowles a dossen þe small 20s" ;
@@ -371,9 +387,6 @@ aat:300435416 a crm:E55_Type ;
 wd:Q142 a crm:E53_Place ;
     rdfs:label "France" .
 
-<https://w3id.org/hector/unit/paper> a crm:E58_Measurement_Unit ;
-    rdfs:label "paper (measure)" .
-
 <https://w3id.org/hector/unit/pecia> a crm:E58_Measurement_Unit ;
     rdfs:label "pecia" .
 
@@ -382,6 +395,9 @@ wd:Q142 a crm:E53_Place ;
 
 <https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
     rdfs:label "dozen" .
+
+<https://w3id.org/hector/unit/paper> a crm:E58_Measurement_Unit ;
+    rdfs:label "paper (measure)" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

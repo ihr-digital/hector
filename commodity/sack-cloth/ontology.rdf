@@ -8,58 +8,133 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_sack_cloth_cbb14b542146408ad0fbc6df6f389bebee1a913b7ee8860fce1ea9801e2749c595">
-    <crm:P190_has_symbolic_content>rustic cloth, mostly wool [Source: Wikidata]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/sack-cloth#rate-1558-inward-1045">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Sackclothe of sylke the yarde 3s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_sack_cloth_cb27e0022a87be271beeea11c5dd5611959c34aeb14e41d7d42fd92e20d934685ea"/>
+    <hector:perQuantity rdf:nodeID="commodity_sack_cloth_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_sack_cloth_cb1691576d736607a779066a24e35d85d4a68b92157d07c782f569f8bcb532b8298"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1045 (transcribed by Stuart Jenks): 'Sackclothe of sylke the yarde' 3s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_sack_cloth_cb0">
-    <crm:P190_has_symbolic_content>sack clothe</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sak kloθə</hector:phoneticKey>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/sack-cloth#rate-1558-inward-1044">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Sackclothe whyte of threde the yarde 20d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_sack_cloth_cb2d312d72be996d5e69a8abc2a53ec41a0aa0797bc12a20add81b4308ef27e7cbf"/>
+    <hector:perQuantity rdf:nodeID="commodity_sack_cloth_cb29b5c2c49a4025ef755a07ce4425037d1c7e63ce116892cfd389776c742ececcf"/>
+    <hector:qualifier rdf:nodeID="commodity_sack_cloth_cb235b2efb811e2f3b2a57dace3c1df3f86aca18212839c9cad4c888711b80e609b"/>
+    <hector:qualifier rdf:nodeID="commodity_sack_cloth_cb269c4ecb007957ca722fb3f0ddb3d2df21990d21173df3f74de4970dff5239834"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1044 (transcribed by Stuart Jenks): 'Sackclothe whyte of threde the yarde' 20d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300162391">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300129784">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>cloth</rdfs:label>
+    <rdfs:label>white (color)</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/sack-cloth">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_sack_cloth_cb0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_sack_cloth_cbff7c48538816798b2ade0175a03d4a4c907c8f9a6f194650eefc8999fdf95f2a"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_sack_cloth_cbb14b542146408ad0fbc6df6f389bebee1a913b7ee8860fce1ea9801e2749c595"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_sack_cloth_cb191f265e0c4a36610512f91ea0458089e77fc760ecc05255a35ea61bcf3e4f82d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_sack_cloth_cb1b2864e6b5b82b61834f069d68bcb8f86c743733fe8e01130b51703b2c564576b"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_sack_cloth_cb1aec35aedc14d7f3c83bf05cc9ed66d955ca0333a5cb0eb704b32a9b21436d3ad"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>sack cloth</rdfs:label>
     <skos:broader rdf:resource="http://vocab.getty.edu/aat/300162391"/>
     <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/sack%20cloth"/>
     <la:equivalent rdf:resource="http://www.wikidata.org/entity/Q6122252"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/sack-cloth#rate-1558-inward-1044"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/sack-cloth#rate-1558-inward-1045"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+  <rdf:Description rdf:nodeID="commodity_sack_cloth_cb27e0022a87be271beeea11c5dd5611959c34aeb14e41d7d42fd92e20d934685ea">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>3s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sack_cloth_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q6122252">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
+    <rdfs:label>sackcloth (sayal)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+  <rdf:Description rdf:nodeID="commodity_sack_cloth_cb1691576d736607a779066a24e35d85d4a68b92157d07c782f569f8bcb532b8298">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
+    <rdfs:label>silk</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300243428"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_sack_cloth_cbff7c48538816798b2ade0175a03d4a4c907c8f9a6f194650eefc8999fdf95f2a">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300162391">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>cloth</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300243428">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>silk (textile)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sack_cloth_cb191f265e0c4a36610512f91ea0458089e77fc760ecc05255a35ea61bcf3e4f82d">
     <crm:P190_has_symbolic_content>sack cloth</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>sak kloθ</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_sack_cloth_cb2d312d72be996d5e69a8abc2a53ec41a0aa0797bc12a20add81b4308ef27e7cbf">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q6122252">
+  <rdf:Description rdf:nodeID="commodity_sack_cloth_cb1aec35aedc14d7f3c83bf05cc9ed66d955ca0333a5cb0eb704b32a9b21436d3ad">
+    <crm:P190_has_symbolic_content>rustic cloth, mostly wool [Source: Wikidata]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sack_cloth_cb235b2efb811e2f3b2a57dace3c1df3f86aca18212839c9cad4c888711b80e609b">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>sackcloth (sayal)</rdfs:label>
+    <rdfs:label>white</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300129784"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sack_cloth_cb1b2864e6b5b82b61834f069d68bcb8f86c743733fe8e01130b51703b2c564576b">
+    <crm:P190_has_symbolic_content>sack clothe</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sak kloθə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/yard">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>yard</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/mlca/glossary/sack%20cloth">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>sack cloth (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sack_cloth_cb29b5c2c49a4025ef755a07ce4425037d1c7e63ce116892cfd389776c742ececcf">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sack_cloth_cb269c4ecb007957ca722fb3f0ddb3d2df21990d21173df3f74de4970dff5239834">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>file</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

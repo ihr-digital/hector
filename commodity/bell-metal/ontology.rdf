@@ -8,7 +8,24 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_bell_metal_cbe2e550bd26983cdf96f99b40abd9348796ac795ce7c2ca95b977f971b3a9b4a4">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300010958">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>bell metal</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bell-metal">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bell_metal_cb1b3813de5c65b5d0112c11962cdf3acc0ba57a2bc09b1f187acd4d75f4b7a660c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bell_metal_cb88bd1fb2f096de6d8c7ef89d7740c4c7eab28a1a4f19083c21b15230d708b2ee"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_bell_metal_cb138a468a24a381ef6425ca6c61ca3afe93cd0a31eb45427c81ac423b57be5af37"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>bell metal</rdfs:label>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/bell%20metal"/>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300010958"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bell-metal#rate-1545-outward-32"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bell-metal#rate-1558-outward-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bell_metal_cb1b3813de5c65b5d0112c11962cdf3acc0ba57a2bc09b1f187acd4d75f4b7a660c">
     <crm:P190_has_symbolic_content>bel metall</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -16,47 +33,80 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bell-metal">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bell_metal_cb0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bell_metal_cbe2e550bd26983cdf96f99b40abd9348796ac795ce7c2ca95b977f971b3a9b4a4"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_bell_metal_cb3b2c61d5cf2b2a8aba648068b6692e41fac1ab6340294c25ee3afa218ef8a11f"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>bell metal</rdfs:label>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/bell%20metal"/>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300010958"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hector:attestationCount>
+  <rdf:Description rdf:nodeID="commodity_bell_metal_cb1d24589f8ba0fefd36b520654dda97d6f5f0127a8dfd6d8e2ed7e5d65e198fa30">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>33s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">400</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_bell_metal_cb138a468a24a381ef6425ca6c61ca3afe93cd0a31eb45427c81ac423b57be5af37">
+    <crm:P190_has_symbolic_content>Bronze used chiefly for casting large bells. Its standard composition is 78% copper and 22% tin but is varied to give varying tones. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bell_metal_cb0">
+  <rdf:Description rdf:nodeID="commodity_bell_metal_cb88bd1fb2f096de6d8c7ef89d7740c4c7eab28a1a4f19083c21b15230d708b2ee">
     <crm:P190_has_symbolic_content>bell metal</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>bel metal</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300010958">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>bell metal</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_bell_metal_cb2359ff9e58c1762bfb5c595ba797a547695a5bd8173372a4d0d7e481390be5df6">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bell_metal_cb3b2c61d5cf2b2a8aba648068b6692e41fac1ab6340294c25ee3afa218ef8a11f">
-    <crm:P190_has_symbolic_content>Bronze used chiefly for casting large bells. Its standard composition is 78% copper and 22% tin but is varied to give varying tones. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bell-metal#rate-1545-outward-32">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 outward: Bell mettell the 100 pound 16s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bell_metal_cb2a01792e66a9499c49925fd31f2573ce1561e6cff6be658f72eabe86de8e183fc"/>
+    <hector:perQuantity rdf:nodeID="commodity_bell_metal_cb2359ff9e58c1762bfb5c595ba797a547695a5bd8173372a4d0d7e481390be5df6"/>
+    <hector:sourceText>Book of Rates 1545, outward, line 32 (transcribed by Stuart Jenks): 'Bell mettell the 100 pound' 16s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bell-metal#rate-1558-outward-6">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 outward: Bell mettell the C cont’ 112 lb 33s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bell_metal_cb1d24589f8ba0fefd36b520654dda97d6f5f0127a8dfd6d8e2ed7e5d65e198fa30"/>
+    <hector:perQuantity rdf:nodeID="commodity_bell_metal_cb148ab670c330cf7e7d114310da8bf3011e8069cacf36eb620392a195ca59cc35e"/>
+    <hector:sourceText>Book of Rates 1558, outward, line 6 (transcribed by Stuart Jenks): 'Bell mettell the C cont’ 112 lb' 33s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/bell%20metal">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
+    <rdfs:label>bell metal (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>attested variant</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/bell%20metal">
+  <rdf:Description rdf:nodeID="commodity_bell_metal_cb2a01792e66a9499c49925fd31f2573ce1561e6cff6be658f72eabe86de8e183fc">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>16s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>bell metal (London Customs Accounts glossary)</rdfs:label>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bell_metal_cb148ab670c330cf7e7d114310da8bf3011e8069cacf36eb620392a195ca59cc35e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/hundred">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>hundred</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

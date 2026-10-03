@@ -127,6 +127,9 @@
 aat:300130257 a crm:E55_Type ;
     rdfs:label "purple (color)" .
 
+aat:300163295 a crm:E55_Type ;
+    rdfs:label "damask" .
+
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
 
@@ -223,10 +226,7 @@ aat:300435416 a crm:E55_Type ;
             crm:P91_has_unit <https://w3id.org/hector/unit/yard> ] ;
     hector:qualifier [ a crm:E55_Type ;
             rdfs:label "Caffa" ;
-            crm:P2_has_type hector:AttestedVariant ],
-        [ a crm:E55_Type ;
-            rdfs:label "damask" ;
-            la:equivalent aat:300163295 ] ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 347 (transcribed by Stuart Jenks): 'Damask and Caffa damaske the yeard' 8s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -248,10 +248,7 @@ aat:300435416 a crm:E55_Type ;
             la:equivalent aat:300130257 ],
         [ a crm:E55_Type ;
             rdfs:label "Caffa" ;
-            crm:P2_has_type hector:AttestedVariant ],
-        [ a crm:E55_Type ;
-            rdfs:label "damask" ;
-            la:equivalent aat:300163295 ] ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 348 (transcribed by Stuart Jenks): 'Damask and Caffa damaske crymson or purple the yearde' 13s 4d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -344,9 +341,6 @@ aat:300311345 a crm:E55_Type ;
 
 <https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
     rdfs:label "dozen" .
-
-aat:300163295 a crm:E55_Type ;
-    rdfs:label "damask" .
 
 <https://w3id.org/hector/unit/pecia> a crm:E58_Measurement_Unit ;
     rdfs:label "pecia" .

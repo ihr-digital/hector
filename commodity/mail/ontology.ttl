@@ -69,8 +69,7 @@
     skos:exactMatch <https://w3id.org/mlca/glossary/mail> ;
     la:equivalent aat:300213343 ;
     hector:attestationCount 62 ;
-    hector:taxation <https://w3id.org/hector/commodity/mail#rate-1545-inward-224>,
-        <https://w3id.org/hector/commodity/mail#rate-1545-inward-485>,
+    hector:taxation <https://w3id.org/hector/commodity/mail#rate-1545-inward-485>,
         <https://w3id.org/hector/commodity/mail#rate-1545-inward-486>,
         <https://w3id.org/hector/commodity/mail#rate-1558-inward-22>,
         <https://w3id.org/hector/commodity/mail#rate-1558-inward-23> .
@@ -83,22 +82,6 @@ aat:300404670 a crm:E55_Type ;
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
-
-<https://w3id.org/hector/commodity/mail#rate-1545-inward-224> a hector:Rate ;
-    rdfs:label "1545 inward: Cotes of mayle the pece 3s 4d" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "3s 4d" ;
-            hector:valueInPence 40.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 1 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "Cotes" ;
-            crm:P2_has_type hector:AttestedVariant ] ;
-    hector:sourceText "Book of Rates 1545, inward, line 224 (transcribed by Stuart Jenks): 'Cotes of mayle the pece' 3s 4d" ;
-    hector:validFrom "1545"^^xsd:gYear ;
-    hector:validThrough "1558"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/mail#rate-1545-inward-485> a hector:Rate ;
     rdfs:label "1545 inward: Mayles the pounde 4d" ;
@@ -157,9 +140,6 @@ aat:300435416 a crm:E55_Type ;
     hector:sourceText "Book of Rates 1558, inward, line 23 (transcribed by Stuart Jenks): 'Andelottes voc’ mailes the C lb. cont’ five score [lb.]' 50s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
-
-<https://w3id.org/hector/unit/pecia> a crm:E58_Measurement_Unit ;
-    rdfs:label "pecia" .
 
 <https://w3id.org/mlca/glossary/mail> a crm:E55_Type ;
     rdfs:label "mail (London Customs Accounts glossary)" .

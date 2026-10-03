@@ -310,17 +310,6 @@
       "qualifier": [
         {
           "type": "Type",
-          "_label": "Iron",
-          "classified_as": [
-            {
-              "id": "hector:AttestedVariant",
-              "type": "Type",
-              "_label": "attested variant"
-            }
-          ]
-        },
-        {
-          "type": "Type",
           "_label": "Lucca",
           "originPlace": [
             {
@@ -357,20 +346,7 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 398 (transcribed by Stuart Jenks): 'Iron called faggot yron the bonde' 6s 8d",
-      "qualifier": [
-        {
-          "type": "Type",
-          "_label": "Iron",
-          "classified_as": [
-            {
-              "id": "hector:AttestedVariant",
-              "type": "Type",
-              "_label": "attested variant"
-            }
-          ]
-        }
-      ]
+      "sourceText": "Book of Rates 1545, inward, line 398 (transcribed by Stuart Jenks): 'Iron called faggot yron the bonde' 6s 8d"
     },
     {
       "id": "https://w3id.org/hector/commodity/iron#rate-1545-inward-399",
@@ -397,122 +373,7 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 399 (transcribed by Stuart Jenks): 'Iron called faggot yron the hundreth pounde' 3s 4d",
-      "qualifier": [
-        {
-          "type": "Type",
-          "_label": "Iron",
-          "classified_as": [
-            {
-              "id": "hector:AttestedVariant",
-              "type": "Type",
-              "_label": "attested variant"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://w3id.org/hector/commodity/iron#rate-1558-inward-1111",
-      "type": "Rate",
-      "_label": "1558 inward: Touche boxes of yron or other mettall guylt the dossen 10s",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "120",
-        "lsd": "10s"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 12,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/dozen",
-          "type": "MeasurementUnit",
-          "_label": "dozen"
-        }
-      },
-      "validFrom": "1558",
-      "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 1111 (transcribed by Stuart Jenks): 'Touche boxes of yron or other mettall guylt the dossen' 10s",
-      "qualifier": [
-        {
-          "type": "Type",
-          "_label": "Touche",
-          "classified_as": [
-            {
-              "id": "hector:AttestedVariant",
-              "type": "Type",
-              "_label": "attested variant"
-            }
-          ]
-        },
-        {
-          "type": "Type",
-          "_label": "other mettall guylt",
-          "classified_as": [
-            {
-              "id": "hector:AttestedVariant",
-              "type": "Type",
-              "_label": "attested variant"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://w3id.org/hector/commodity/iron#rate-1558-inward-368",
-      "type": "Rate",
-      "_label": "1558 inward: Doble yron plates vocat’ dobles the shock cont’ 6 bundelles 40s",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "480",
-        "lsd": "40s"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 1,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/shock",
-          "type": "MeasurementUnit",
-          "_label": "shock"
-        }
-      },
-      "validFrom": "1558",
-      "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 368 (transcribed by Stuart Jenks): 'Doble yron plates vocat’ dobles the shock cont’ 6 bundelles' 40s",
-      "qualifier": [
-        {
-          "type": "Type",
-          "_label": "Doble",
-          "classified_as": [
-            {
-              "id": "hector:AttestedVariant",
-              "type": "Type",
-              "_label": "attested variant"
-            }
-          ]
-        },
-        {
-          "type": "Type",
-          "_label": "plates vocat dobles",
-          "classified_as": [
-            {
-              "id": "hector:AttestedVariant",
-              "type": "Type",
-              "_label": "attested variant"
-            }
-          ]
-        }
-      ]
+      "sourceText": "Book of Rates 1545, inward, line 399 (transcribed by Stuart Jenks): 'Iron called faggot yron the hundreth pounde' 3s 4d"
     },
     {
       "id": "https://w3id.org/hector/commodity/iron#rate-1558-inward-612",
@@ -540,46 +401,6 @@
       "validFrom": "1558",
       "validThrough": "1604",
       "sourceText": "Book of Rates 1558, inward, line 612 (transcribed by Stuart Jenks): 'Iron voc’ Spanishe iron the tonne cont’ 20 C weight' £4"
-    },
-    {
-      "id": "https://w3id.org/hector/commodity/iron#rate-1558-inward-856",
-      "type": "Rate",
-      "_label": "1558 inward: Pulleys of yron the grosse 50s",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "600",
-        "lsd": "50s"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 144,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/gross",
-          "type": "MeasurementUnit",
-          "_label": "gross"
-        }
-      },
-      "validFrom": "1558",
-      "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 856 (transcribed by Stuart Jenks): 'Pulleys of yron the grosse' 50s",
-      "qualifier": [
-        {
-          "type": "Type",
-          "_label": "Pulleys",
-          "classified_as": [
-            {
-              "id": "hector:AttestedVariant",
-              "type": "Type",
-              "_label": "attested variant"
-            }
-          ]
-        }
-      ]
     }
   ]
 }

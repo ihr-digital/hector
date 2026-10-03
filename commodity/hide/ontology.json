@@ -471,6 +471,39 @@
           ]
         }
       ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/hide#rate-1558-inward-936",
+      "type": "Rate",
+      "_label": "1558 inward: Salt hydes the deker cont’ 10 hydes 66s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "800",
+        "lsd": "66s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 10,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/each",
+          "type": "MeasurementUnit",
+          "_label": "each"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 936 (transcribed by Stuart Jenks): 'Salt hydes the deker cont’ 10 hydes' 66s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "salted"
+        }
+      ]
     }
   ]
 }

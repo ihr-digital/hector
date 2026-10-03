@@ -402,50 +402,6 @@
       ]
     },
     {
-      "id": "https://w3id.org/hector/commodity/hose#rate-1558-inward-995",
-      "type": "Rate",
-      "_label": "1558 inward: Spruse skynnes for hosen the dosen 26s 8d",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "320",
-        "lsd": "26s 8d"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 12,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/dozen",
-          "type": "MeasurementUnit",
-          "_label": "dozen"
-        }
-      },
-      "validFrom": "1558",
-      "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 995 (transcribed by Stuart Jenks): 'Spruse skynnes for hosen the dosen' 26s 8d",
-      "qualifier": [
-        {
-          "type": "Type",
-          "_label": "Prussia",
-          "originPlace": [
-            {
-              "id": "wd:Q918723",
-              "type": "Place",
-              "_label": "Prussia"
-            }
-          ]
-        },
-        {
-          "type": "Type",
-          "_label": "skin"
-        }
-      ]
-    },
-    {
       "id": "https://w3id.org/hector/commodity/hose#rate-1558-outward-27",
       "type": "Rate",
       "_label": "1558 outward: Hosen longe the payre 3s 4d",

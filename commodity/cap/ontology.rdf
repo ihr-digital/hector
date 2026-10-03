@@ -8,94 +8,41 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb1686c5f9a4195c00b31b065c1cc42e48c2644c49d228164097db1692949a85773">
-    <crm:P190_has_symbolic_content>kappa</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_cap_cbfff526d6d15f9d2ab793a06dd9c7717c1ed2ea5c8944297b5fe9c41e5645c072">
+    <crm:P190_has_symbolic_content>cappe</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kapa</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+    <hector:phoneticKey>kapə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1558-outward-14">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 outward: Cappes botoned Englyshe the dossyn 16s 8d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_cap_cb27cefdf239a8eaa849d9e84302f7848398db7b12c2bd0796acb6508f575f1e28b"/>
-    <hector:perQuantity rdf:nodeID="commodity_cap_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb179e7aa8ad5c4dc4066ca734ce5e875cac91625f66ea8e72ed4e08afcc9814a10"/>
-    <hector:sourceText>Book of Rates 1558, outward, line 14 (transcribed by Stuart Jenks): 'Cappes botoned Englyshe the dossyn' 16s 8d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_cap_cb1a3bd7a0c70d85c02a4686ecaa7143d367f96fbb95b60d9733e78063a04ac7639">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>rybande</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb10f1cef6a358daf7c580f0b4fd73c85a701651b54dc15bb869245138e70cc7602">
+  <rdf:Description rdf:nodeID="commodity_cap_cb1eef1bd5d54ae96b126dd9dc0c1fba1e1b6ab468bd5705b1136fc75d90b89ce55">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tarfed</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb14c0b58f6405d58659bc4121409677460866d8efc44e8146fdf5bd1348acd96a4">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb268ee1b7b6ba5c02080d688479e2b6ec1232ff30efee02659e68c93d9a975af60">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+  <rdf:Description rdf:nodeID="commodity_cap_cb2b73c287bc67c8d64803abd1973aaa492f5095f33e6f627dab6881e17e82ebfa1">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>swerdes</rdfs:label>
+    <rdfs:label>gold</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300011021"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb2ddaf13f88d91c7b23587f32a1ba080899c5df1a279b39f509d1cc0e226cd16b1">
-    <crm:P190_has_symbolic_content>cappes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kapəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_cap_cb2f52fbfc3823ba33b0b2b0b159bdc0a6484a92f9278ccb751c23f5373f1ac2176">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb1083bc106f08e62914dd9fecc74b93f87c5e13d85fb788bd6dc8d5b1b4459e26f">
-    <crm:P190_has_symbolic_content>capparum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kaparum</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb14d11572fedff2d5507965df1e4c63af1862018cffd5454e1ebf3cf15372af90c">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>other</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb25fd220ceb97083a9301d464f7a4b292971adb3bbbea062370e2b9918a8b9a07d">
-    <crm:P190_has_symbolic_content>cappae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kape</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1558-inward-217">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Cappes doble tarsed voc’ cokered cappes the dossen 24s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_cap_cb1b9cc9539cef7f426f350b076f4a860ff8bee223d16c6d1f88a1eb38e35726404"/>
-    <hector:perQuantity rdf:nodeID="commodity_cap_cb1e62a125c1236146d057fe5c5914dc0daa6463985fe6d097bb858b9f8f09dd97b"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb16c8644f385b6d7607340f11d041bd06efd948d92b2925e65064f3059176530d8"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 217 (transcribed by Stuart Jenks): 'Cappes doble tarsed voc’ cokered cappes the dossen' 24s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb10532940de06c4334328b0b0627ae6d7e23c9e928b5b07a31621116b4aef94101">
-    <crm:P190_has_symbolic_content>caleptis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kaleptis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1558-inward-326">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Cappe balsanum the pounde 2s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_cap_cb2f26123c876d25e4e8facc46dd34fe0c1e804228df8568200d5a65d4db45dcfb4"/>
-    <hector:perQuantity rdf:nodeID="commodity_cap_cb2293c1265f2380b9fef868f0b34d1470274f9cd136d446d2439043c15b4ed2d50"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb13f902f8ff095997b7713f89db341a89e156f4b700277088fae0503078c7db488"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 326 (transcribed by Stuart Jenks): 'Cappe balsanum the pounde' 2s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+  <rdf:Description rdf:nodeID="commodity_cap_cb162710d1112b66d8d1dc74d2fc4f92c7f1c2b58d76d950d207e0f1d61cce41923">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
@@ -107,6 +54,249 @@
     <hector:phoneticKey>kaleptrəs</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb294bcd8fda561e96bbb7bf661d4f4f2e4503a28b53dccd6c0e199e54a6c966485">
+    <crm:P190_has_symbolic_content>capae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kape</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1545-inward-283">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Frenche cappes and all other double tarfed the dossen 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cap_cb3e31561729e9a477ceb8b40994d21bc1ed11e890630404d8f458d0f823562e90e"/>
+    <hector:perQuantity rdf:nodeID="commodity_cap_cb13d5ff4caf7bc2209fc6ad125507bef4d2a8022f2a9926d4687cf35a871d2e696"/>
+    <hector:qualifier rdf:nodeID="commodity_cap_cb1ec9b4509d49ea2b8f2621c46ffbce433ceb726a58e3af1b7fc9eeb5abd3a3d3c"/>
+    <hector:qualifier rdf:nodeID="commodity_cap_cb247f629db7961c95895b1e48f25b214be95064c9c844e70803b4ceff7ad8c606c"/>
+    <hector:qualifier rdf:nodeID="commodity_cap_cb28e7bab373b4e0c1511a95c15dcf24b23ff4254616656f7e747a7921e91991285"/>
+    <hector:qualifier rdf:nodeID="commodity_cap_cb2cd7be4356b83fcfed7a71e763adabbfe31dcdea973a12b1a8e0ba772330325a4"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 283 (transcribed by Stuart Jenks): 'Frenche cappes and all other double tarfed the dossen' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb16c8644f385b6d7607340f11d041bd06efd948d92b2925e65064f3059176530d8">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>doble tarsed voc cokered</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb1c80770299d2e38385ff3ccb6e7a738150856719b1984eb1f2bfa736f0a103eee">
+    <crm:P190_has_symbolic_content>cappi</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kapi</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb12c84e15bc652ce1e6646f8be38fc86889638a00f2d343f2739d4d7f5b7f6f53d">
+    <crm:P190_has_symbolic_content>kappus</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kapus</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb2ddaf13f88d91c7b23587f32a1ba080899c5df1a279b39f509d1cc0e226cd16b1">
+    <crm:P190_has_symbolic_content>cappes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kapəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb9599a9b7ca0373965a367467bc9320a03fcaf22a4436d6c5e25738868f071006">
+    <crm:P190_has_symbolic_content>calaptrum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kalaptrum</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb14725501de1b4a0c245ffc13a18a54e210a7e82728da7139aee07cc74336b8043">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>makyng</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb11becff1de69a4b82802eba70464cac825e043a8754714d828f00e8eac1784694">
+    <crm:P190_has_symbolic_content>cappis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kapis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1545-inward-214">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Cappes with syngle tarfs the dossen 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cap_cb382b82d97772c3d05e13b57d51e99f6c40a5084a15260a83d99b699ab2efd0f91"/>
+    <hector:perQuantity rdf:nodeID="commodity_cap_cb10f1cef6a358daf7c580f0b4fd73c85a701651b54dc15bb869245138e70cc7602"/>
+    <hector:qualifier rdf:nodeID="commodity_cap_cb1a98d5d3c8e452a9c00d59fb93defbead2ec367e033518b1748e57e0931f247de"/>
+    <hector:qualifier rdf:nodeID="commodity_cap_cb1b6d7c7835b7d72f4b2fbc275b4f531b5f806d75dfcf6e489eb318b9df630697b"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 214 (transcribed by Stuart Jenks): 'Cappes with syngle tarfs the dossen' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb1b2469aac1c998b736ddcb40c0c28f6b998af374d3a33433602f0caf8ed52792b">
+    <crm:P190_has_symbolic_content>caleptris</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kaleptris</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/ream"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1545-outward-17">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 outward: Cours cappes the dossen 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cap_cb30752387768aadfdad90e6f52f750414a3dd69c0e98fc16d37ee255f629e51ceb"/>
+    <hector:perQuantity rdf:nodeID="commodity_cap_cb16a89fef7d1346db01c499e12460143f3443991a9ee8e488a3a2e833dfda1d2d6"/>
+    <hector:qualifier rdf:nodeID="commodity_cap_cb12ec39fe2565667db2f3826701dbc033fa79551d4d5eef696e490f054777ad264"/>
+    <hector:sourceText>Book of Rates 1545, outward, line 17 (transcribed by Stuart Jenks): 'Cours cappes the dossen' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb13d5ff4caf7bc2209fc6ad125507bef4d2a8022f2a9926d4687cf35a871d2e696">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cbaa20fe5cdde55b1c06936f5c74e1344b5f0245e65724be393929cbc53a9f8a31">
+    <crm:P190_has_symbolic_content>cappus</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kapus</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb27da62adf04a5f215816bf706c0ef68b4d04590c513af9f28eb2d8e4e202cc994">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1558-inward-214">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Cappes with syngle crownes the dossen 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cap_cb37fa3114b9f1762ee5334d29ed805ea5f240dbca087874e444737053505a75007"/>
+    <hector:perQuantity rdf:nodeID="commodity_cap_cb1b09f375997d5e22d77f9eb3fbe1ebd5233d2b00e0b5222366807b156d0475176"/>
+    <hector:qualifier rdf:nodeID="commodity_cap_cb1d6c74d9ca4768c7f6b020a6f7dd97cda6d5b73c7980fc6fa2aef8828d5cbb8f3"/>
+    <hector:qualifier rdf:nodeID="commodity_cap_cb25bbfd10c90579fda4fdfe742ba01f621058cb1ccd79a95693177f4e5651bcc76"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 214 (transcribed by Stuart Jenks): 'Cappes with syngle crownes the dossen' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb14d11572fedff2d5507965df1e4c63af1862018cffd5454e1ebf3cf15372af90c">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>other</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb1cfa2a798a93135e07d3cea9906a13b1ff9ee424722c4021aacb2ce6d0f9a058e">
+    <crm:P190_has_symbolic_content>capellis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kapelis</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb247f629db7961c95895b1e48f25b214be95064c9c844e70803b4ceff7ad8c606c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>double</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb1532837f7abfe7c93ef39790aa72332014ff18d6d46ef6c65517b9cddb5e88dd6">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cbf422ee531acd7e7b92f8be15d41183a3191a508e6b4dee41f5e316bdd4836c23">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>nyghte</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1545-inward-215">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Cappes double tarfed and necked and all other of Frenche makyng the dossen 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cap_cb3fa1bfef5dceb25cc64e8a12a23f214da167dfeab6957c27e0f1ec3ec34a147e6"/>
+    <hector:perQuantity rdf:nodeID="commodity_cap_cb1812728305e1db0361b551acf87a00f061d2ab5d4d051404f68b807f4d706a9bf"/>
+    <hector:qualifier rdf:nodeID="commodity_cap_cb14725501de1b4a0c245ffc13a18a54e210a7e82728da7139aee07cc74336b8043"/>
+    <hector:qualifier rdf:nodeID="commodity_cap_cb14d11572fedff2d5507965df1e4c63af1862018cffd5454e1ebf3cf15372af90c"/>
+    <hector:qualifier rdf:nodeID="commodity_cap_cb1a86c3c0192c253f4aae6263a0abb6b7c4c6f3ec6f367d3aa2aa1d3b2277d1c3c"/>
+    <hector:qualifier rdf:nodeID="commodity_cap_cb1eef1bd5d54ae96b126dd9dc0c1fba1e1b6ab468bd5705b1136fc75d90b89ce55"/>
+    <hector:qualifier rdf:nodeID="commodity_cap_cb21bc6221b5c3ac017c1b80f92634d30050bab8fc02ff5d50ad03ea82818b2ab9f"/>
+    <hector:qualifier rdf:nodeID="commodity_cap_cb22df1f65b84e4879aecdb60211fe412bbe945d0d3e2ba8e447d608b2cacf3e174"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 215 (transcribed by Stuart Jenks): 'Cappes double tarfed and necked and all other of Frenche makyng the dossen' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb382b82d97772c3d05e13b57d51e99f6c40a5084a15260a83d99b699ab2efd0f91">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb2287358e90b9c4bb9efc06918009a6e8edae809120effee7d0aa8de0c7ea6c84c">
+    <crm:P190_has_symbolic_content>capp</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kap</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1558-outward-14">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 outward: Cappes botoned Englyshe the dossyn 16s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cap_cb27cefdf239a8eaa849d9e84302f7848398db7b12c2bd0796acb6508f575f1e28b"/>
+    <hector:perQuantity rdf:nodeID="commodity_cap_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_cap_cb179e7aa8ad5c4dc4066ca734ce5e875cac91625f66ea8e72ed4e08afcc9814a10"/>
+    <hector:sourceText>Book of Rates 1558, outward, line 14 (transcribed by Stuart Jenks): 'Cappes botoned Englyshe the dossyn' 16s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1545-inward-282">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Frenche caps syngle tarfed the dossen 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cap_cb3b7e03e42a3ed91ac4241d23c3ab5367eed658d420d1234e466641043ad82b192"/>
+    <hector:perQuantity rdf:nodeID="commodity_cap_cb162710d1112b66d8d1dc74d2fc4f92c7f1c2b58d76d950d207e0f1d61cce41923"/>
+    <hector:qualifier rdf:nodeID="commodity_cap_cb22fc90d987436f9ad5648d1b4c566e029ec47d95ad957bbcdf73c0e10ddc2e580"/>
+    <hector:qualifier rdf:nodeID="commodity_cap_cb29acc752332f14ebbeaaf79caaa70de9490fdc0dd90a0f1b389dfc78274815c1f"/>
+    <hector:qualifier rdf:nodeID="commodity_cap_cb2d9ccae2163273fa5b0ad3c2b08594f6ec3984b259deb24e6d043dcd615eb6f3e"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 282 (transcribed by Stuart Jenks): 'Frenche caps syngle tarfed the dossen' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb20e08dc4d8ae26ec3122810651be54eb828f086ce552640b6aa630eb2f6c0fdff">
+    <crm:P190_has_symbolic_content>cap</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kap</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1558-inward-213">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Cappe gold the pounde 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cap_cb2979b5d36de9363fe144fdc680b48d90aff88b5f09a5c6193afce9af4159bd74d"/>
+    <hector:perQuantity rdf:nodeID="commodity_cap_cb25ca2f28a1af2829b2d33fbc188049c2bf300733fe11ca8058bcb97507cd486f7"/>
+    <hector:qualifier rdf:nodeID="commodity_cap_cb2b73c287bc67c8d64803abd1973aaa492f5095f33e6f627dab6881e17e82ebfa1"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 213 (transcribed by Stuart Jenks): 'Cappe gold the pounde' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb1b9cc9539cef7f426f350b076f4a860ff8bee223d16c6d1f88a1eb38e35726404">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>24s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">288</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb1f8fdf70aa8f20de703ba9401c642c6a386dccdba9b67ca075ad533b545790fdc">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
@@ -165,36 +355,9 @@
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cap#rate-1558-inward-215"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cap#rate-1558-inward-216"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cap#rate-1558-inward-217"/>
-    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cap#rate-1558-inward-326"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cap#rate-1558-inward-337"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cap#rate-1558-inward-865"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cap#rate-1558-outward-14"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb21bc6221b5c3ac017c1b80f92634d30050bab8fc02ff5d50ad03ea82818b2ab9f">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>necked</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb28a6ccc13e086a3e4eb7202d9d0b960acfdf7e413805b9283d1151e640df0385c">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>gold</rdfs:label>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300011021"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb3e31561729e9a477ceb8b40994d21bc1ed11e890630404d8f458d0f823562e90e">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>20s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb22df1f65b84e4879aecdb60211fe412bbe945d0d3e2ba8e447d608b2cacf3e174">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>France</rdfs:label>
-    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q142"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb2979b5d36de9363fe144fdc680b48d90aff88b5f09a5c6193afce9af4159bd74d">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>10s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1558-inward-337">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
@@ -205,6 +368,462 @@
     <hector:sourceText>Book of Rates 1558, inward, line 337 (transcribed by Stuart Jenks): 'Cappe rybande the dossen peces' 26s 8d</hector:sourceText>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb1686c5f9a4195c00b31b065c1cc42e48c2644c49d228164097db1692949a85773">
+    <crm:P190_has_symbolic_content>kappa</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kapa</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb18f8e297b831eae6c9ae32bb003d98d6dcedd776827bff900f5272d56ee74f36a">
+    <crm:P190_has_symbolic_content>cappys</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kapis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1558-inward-216">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Cappes voc’ pressed cappes or preste cappes the dossen 30s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cap_cb236f88cdc55fc2aff33f394407f657af589afcb8e4100ad851d3f13c34b181a2d"/>
+    <hector:perQuantity rdf:nodeID="commodity_cap_cb117cf75d5640cc1911df3c11add7bcc7a82634369493f4854a7a4aee5a74ec520"/>
+    <hector:qualifier rdf:nodeID="commodity_cap_cb19a1dea8c18f5652942c3237acecff59b828bf94d1980293aa31b13e273e95a84"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 216 (transcribed by Stuart Jenks): 'Cappes voc’ pressed cappes or preste cappes the dossen' 30s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb29acc752332f14ebbeaaf79caaa70de9490fdc0dd90a0f1b389dfc78274815c1f">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tarfed</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1545-inward-217">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Cappe golde the pounde 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cap_cb2f52fbfc3823ba33b0b2b0b159bdc0a6484a92f9278ccb751c23f5373f1ac2176"/>
+    <hector:perQuantity rdf:nodeID="commodity_cap_cb1f8fdf70aa8f20de703ba9401c642c6a386dccdba9b67ca075ad533b545790fdc"/>
+    <hector:qualifier rdf:nodeID="commodity_cap_cb28a6ccc13e086a3e4eb7202d9d0b960acfdf7e413805b9283d1151e640df0385c"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 217 (transcribed by Stuart Jenks): 'Cappe golde the pounde' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1545-inward-223">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Cappes for swerdes the groce 12d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cap_cb357ac3d2f2ffe4dedf6c02a5cdbc5e84010eddc441e9318cfed78c2376990684c"/>
+    <hector:perQuantity rdf:nodeID="commodity_cap_cb1532837f7abfe7c93ef39790aa72332014ff18d6d46ef6c65517b9cddb5e88dd6"/>
+    <hector:qualifier rdf:nodeID="commodity_cap_cb268ee1b7b6ba5c02080d688479e2b6ec1232ff30efee02659e68c93d9a975af60"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 223 (transcribed by Stuart Jenks): 'Cappes for swerdes the groce' 12d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb22fc90d987436f9ad5648d1b4c566e029ec47d95ad957bbcdf73c0e10ddc2e580">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>single</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb1083bc106f08e62914dd9fecc74b93f87c5e13d85fb788bd6dc8d5b1b4459e26f">
+    <crm:P190_has_symbolic_content>capparum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kaparum</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1545-inward-222">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Cappe caces of lether the dossen 6s 3d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cap_cb229ad06a39977f42fe9de96e178c3fb367155f9787db5feb43972315391fd90af"/>
+    <hector:perQuantity rdf:nodeID="commodity_cap_cb1c23094b9a2a83a516c021d4858be5fa112b4d3f2603dac80de7a09e4b1de36ce"/>
+    <hector:qualifier rdf:nodeID="commodity_cap_cb2720d99ee7ef182fd8795555489208ce27d6e1d580727b0a98d5a79277ea0620a"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 222 (transcribed by Stuart Jenks): 'Cappe caces of lether the dossen' 6s 3d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb1a86c3c0192c253f4aae6263a0abb6b7c4c6f3ec6f367d3aa2aa1d3b2277d1c3c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>double</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb3fa1bfef5dceb25cc64e8a12a23f214da167dfeab6957c27e0f1ec3ec34a147e6">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb1a98d5d3c8e452a9c00d59fb93defbead2ec367e033518b1748e57e0931f247de">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tarfs</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb1c23094b9a2a83a516c021d4858be5fa112b4d3f2603dac80de7a09e4b1de36ce">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb12ec39fe2565667db2f3826701dbc033fa79551d4d5eef696e490f054777ad264">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>coarse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1558-inward-865">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Paper voc’ cappe paper the realme 2s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cap_cb27da62adf04a5f215816bf706c0ef68b4d04590c513af9f28eb2d8e4e202cc994"/>
+    <hector:perQuantity rdf:nodeID="commodity_cap_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 865 (transcribed by Stuart Jenks): 'Paper voc’ cappe paper the realme' 2s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hure">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>hure</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb2b9fce313f0fb3815ac8483df7b02e5629c3cc271e197eebf6d1535165356c962">
+    <crm:P190_has_symbolic_content>capella</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kapela</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb12c7ed4a3b1bf7555597035d75ce4da172cf102c47b52277a90d9b8ca00efbcf3">
+    <crm:P190_has_symbolic_content>cappa</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kapa</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb229ad06a39977f42fe9de96e178c3fb367155f9787db5feb43972315391fd90af">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 3d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">75</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb25ca2f28a1af2829b2d33fbc188049c2bf300733fe11ca8058bcb97507cd486f7">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb2d9ccae2163273fa5b0ad3c2b08594f6ec3984b259deb24e6d043dcd615eb6f3e">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>France</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q142"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb236f88cdc55fc2aff33f394407f657af589afcb8e4100ad851d3f13c34b181a2d">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>30s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb1b6d7c7835b7d72f4b2fbc275b4f531b5f806d75dfcf6e489eb318b9df630697b">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>single</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb10f1cef6a358daf7c580f0b4fd73c85a701651b54dc15bb869245138e70cc7602">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb21ddf72819dc5943d0139e0518f266e58ce21c6255daa2cd0c280b422d19ac988">
+    <crm:P190_has_symbolic_content>capps</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kaps</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cbc26cf7079cde10055aff91c67e744fec4384a4e0f2c6aaeab511c987d507c37d">
+    <crm:P190_has_symbolic_content>calepstres</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kalepstrəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb30752387768aadfdad90e6f52f750414a3dd69c0e98fc16d37ee255f629e51ceb">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb28e7bab373b4e0c1511a95c15dcf24b23ff4254616656f7e747a7921e91991285">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tarfed</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb25fd220ceb97083a9301d464f7a4b292971adb3bbbea062370e2b9918a8b9a07d">
+    <crm:P190_has_symbolic_content>cappae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kape</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb268ee1b7b6ba5c02080d688479e2b6ec1232ff30efee02659e68c93d9a975af60">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>swerdes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb1a6cfdb0fa0f31cd3acb04976375c88548999ac5957f4bd58e7030a3a58f4a112">
+    <crm:P190_has_symbolic_content>capa</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kapa</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb168b149de138232def1756568a7df1ceed7bc7aee5700ed9eb882ad8e701b2585">
+    <crm:P190_has_symbolic_content>Brimless head coverings, often made with a visor. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb332e9ee7290443865a0eab14abccaad79f573c6d8047b78b264bc7318c2fbd847">
+    <crm:P190_has_symbolic_content>capellae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kapele</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb2979b5d36de9363fe144fdc680b48d90aff88b5f09a5c6193afce9af4159bd74d">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb2c4e98d28b3e37b95a16dbf530c97b0b147ba3837b2a7503348bb7442fe7fa743">
+    <crm:P190_has_symbolic_content>caps</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kaps</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300011021">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gold (metal)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb3b7e03e42a3ed91ac4241d23c3ab5367eed658d420d1234e466641043ad82b192">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1558-inward-217">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Cappes doble tarsed voc’ cokered cappes the dossen 24s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cap_cb1b9cc9539cef7f426f350b076f4a860ff8bee223d16c6d1f88a1eb38e35726404"/>
+    <hector:perQuantity rdf:nodeID="commodity_cap_cb1e62a125c1236146d057fe5c5914dc0daa6463985fe6d097bb858b9f8f09dd97b"/>
+    <hector:qualifier rdf:nodeID="commodity_cap_cb16c8644f385b6d7607340f11d041bd06efd948d92b2925e65064f3059176530d8"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 217 (transcribed by Stuart Jenks): 'Cappes doble tarsed voc’ cokered cappes the dossen' 24s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb16a89fef7d1346db01c499e12460143f3443991a9ee8e488a3a2e833dfda1d2d6">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb2e3e0f4e234891303b91a40c4bd595652bb3a64152af5988795ff839627643ffb">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb7f5e251a55996e059068785b52d7cb3bcb424ed5007db8cc3f2598800088bfe2">
+    <crm:P190_has_symbolic_content>calepstris</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kalepstris</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb2abd47324d5a25137995dfb34d8a79efa4cc5cc260771570400d1ffa590c692ef">
+    <crm:P190_has_symbolic_content>capes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kapəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb2a32381303c94d62926d0e5c0d591d12e67bbc4312d626aac8315f39cd29defaf">
+    <crm:P190_has_symbolic_content>kappae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kape</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb3071442cce753f078a520ae7ff15193c0839841bd3efd85abef46dd93933b0ed1">
+    <crm:P190_has_symbolic_content>caleptri</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kaleptri</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>gross</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb27cefdf239a8eaa849d9e84302f7848398db7b12c2bd0796acb6508f575f1e28b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>16s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/chapelet">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>chapelet</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb2cd7be4356b83fcfed7a71e763adabbfe31dcdea973a12b1a8e0ba772330325a4">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>France</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q142"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb2981012c87811d85dab3ff517601805c5d07b4613bcbf32b318b3d20f39195a0a">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>26s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb22b53cba77da0614ed8cf983b22199cfeb7c03e941f1c38d15eb45a698ac736c5">
+    <crm:P190_has_symbolic_content>caleptrum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kaleptrum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb25bbfd10c90579fda4fdfe742ba01f621058cb1ccd79a95693177f4e5651bcc76">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>crownes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crespine">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>crespine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb357ac3d2f2ffe4dedf6c02a5cdbc5e84010eddc441e9318cfed78c2376990684c">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>12d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/ream">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>ream</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb10532940de06c4334328b0b0627ae6d7e23c9e928b5b07a31621116b4aef94101">
+    <crm:P190_has_symbolic_content>caleptis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kaleptis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb1bdf897eed8d2e0466e41e8c3720737005c2659d0cbaf34cb32b813da6109d3ce">
+    <crm:P190_has_symbolic_content>calpstris</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kalpstris</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb2720d99ee7ef182fd8795555489208ce27d6e1d580727b0a98d5a79277ea0620a">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>lether</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb28a6ccc13e086a3e4eb7202d9d0b960acfdf7e413805b9283d1151e640df0385c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gold</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300011021"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb8f4e66b1f80d804c60b09c5072b2d823d1fd63c0e3a51f0c0225b44d1c7abeb0">
+    <crm:P190_has_symbolic_content>calaptri</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kalaptri</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb37fa3114b9f1762ee5334d29ed805ea5f240dbca087874e444737053505a75007">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb3e31561729e9a477ceb8b40994d21bc1ed11e890630404d8f458d0f823562e90e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb181121579416a17a8f976139113fae82c3270ed3521ff64e19041bc39c5ae3e3d">
+    <crm:P190_has_symbolic_content>caleptre</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kaleptrə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb117cf75d5640cc1911df3c11add7bcc7a82634369493f4854a7a4aee5a74ec520">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q142">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>France</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb1812728305e1db0361b551acf87a00f061d2ab5d4d051404f68b807f4d706a9bf">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb22df1f65b84e4879aecdb60211fe412bbe945d0d3e2ba8e447d608b2cacf3e174">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>France</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q142"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pound">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pound</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb1b09f375997d5e22d77f9eb3fbe1ebd5233d2b00e0b5222366807b156d0475176">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb1ec9b4509d49ea2b8f2621c46ffbce433ceb726a58e3af1b7fc9eeb5abd3a3d3c">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>other</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb1eac0c7156df22b544ab6cec966808bc36ff3e699869da884cf6a2f7c022bdd9a">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb1d6c74d9ca4768c7f6b020a6f7dd97cda6d5b73c7980fc6fa2aef8828d5cbb8f3">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>single</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cap_cb11baad4c769c4af8f1e56131a22148fbe42c9a540767891520e42db483ba8c545">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>children’s</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1558-inward-215">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
@@ -217,680 +836,34 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1558-inward-216">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Cappes voc’ pressed cappes or preste cappes the dossen 30s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_cap_cb236f88cdc55fc2aff33f394407f657af589afcb8e4100ad851d3f13c34b181a2d"/>
-    <hector:perQuantity rdf:nodeID="commodity_cap_cb117cf75d5640cc1911df3c11add7bcc7a82634369493f4854a7a4aee5a74ec520"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb19a1dea8c18f5652942c3237acecff59b828bf94d1980293aa31b13e273e95a84"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 216 (transcribed by Stuart Jenks): 'Cappes voc’ pressed cappes or preste cappes the dossen' 30s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1545-inward-283">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Frenche cappes and all other double tarfed the dossen 20s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_cap_cb3e31561729e9a477ceb8b40994d21bc1ed11e890630404d8f458d0f823562e90e"/>
-    <hector:perQuantity rdf:nodeID="commodity_cap_cb13d5ff4caf7bc2209fc6ad125507bef4d2a8022f2a9926d4687cf35a871d2e696"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb1ec9b4509d49ea2b8f2621c46ffbce433ceb726a58e3af1b7fc9eeb5abd3a3d3c"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb247f629db7961c95895b1e48f25b214be95064c9c844e70803b4ceff7ad8c606c"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb28e7bab373b4e0c1511a95c15dcf24b23ff4254616656f7e747a7921e91991285"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb2cd7be4356b83fcfed7a71e763adabbfe31dcdea973a12b1a8e0ba772330325a4"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 283 (transcribed by Stuart Jenks): 'Frenche cappes and all other double tarfed the dossen' 20s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb12c84e15bc652ce1e6646f8be38fc86889638a00f2d343f2739d4d7f5b7f6f53d">
-    <crm:P190_has_symbolic_content>kappus</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kapus</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb29acc752332f14ebbeaaf79caaa70de9490fdc0dd90a0f1b389dfc78274815c1f">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>tarfed</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb382b82d97772c3d05e13b57d51e99f6c40a5084a15260a83d99b699ab2efd0f91">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>13s 4d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb1eac0c7156df22b544ab6cec966808bc36ff3e699869da884cf6a2f7c022bdd9a">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb22fc90d987436f9ad5648d1b4c566e029ec47d95ad957bbcdf73c0e10ddc2e580">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>single</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb21ddf72819dc5943d0139e0518f266e58ce21c6255daa2cd0c280b422d19ac988">
-    <crm:P190_has_symbolic_content>capps</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kaps</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb22b53cba77da0614ed8cf983b22199cfeb7c03e941f1c38d15eb45a698ac736c5">
-    <crm:P190_has_symbolic_content>caleptrum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kaleptrum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cbfff526d6d15f9d2ab793a06dd9c7717c1ed2ea5c8944297b5fe9c41e5645c072">
-    <crm:P190_has_symbolic_content>cappe</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kapə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb229ad06a39977f42fe9de96e178c3fb367155f9787db5feb43972315391fd90af">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>6s 3d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">75</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb1a3bd7a0c70d85c02a4686ecaa7143d367f96fbb95b60d9733e78063a04ac7639">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>rybande</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1545-inward-223">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Cappes for swerdes the groce 12d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_cap_cb357ac3d2f2ffe4dedf6c02a5cdbc5e84010eddc441e9318cfed78c2376990684c"/>
-    <hector:perQuantity rdf:nodeID="commodity_cap_cb1532837f7abfe7c93ef39790aa72332014ff18d6d46ef6c65517b9cddb5e88dd6"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb268ee1b7b6ba5c02080d688479e2b6ec1232ff30efee02659e68c93d9a975af60"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 223 (transcribed by Stuart Jenks): 'Cappes for swerdes the groce' 12d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb2287358e90b9c4bb9efc06918009a6e8edae809120effee7d0aa8de0c7ea6c84c">
-    <crm:P190_has_symbolic_content>capp</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kap</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1558-inward-213">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Cappe gold the pounde 10s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_cap_cb2979b5d36de9363fe144fdc680b48d90aff88b5f09a5c6193afce9af4159bd74d"/>
-    <hector:perQuantity rdf:nodeID="commodity_cap_cb25ca2f28a1af2829b2d33fbc188049c2bf300733fe11ca8058bcb97507cd486f7"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb2b73c287bc67c8d64803abd1973aaa492f5095f33e6f627dab6881e17e82ebfa1"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 213 (transcribed by Stuart Jenks): 'Cappe gold the pounde' 10s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb1eef1bd5d54ae96b126dd9dc0c1fba1e1b6ab468bd5705b1136fc75d90b89ce55">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>tarfed</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1545-inward-215">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Cappes double tarfed and necked and all other of Frenche makyng the dossen 20s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_cap_cb3fa1bfef5dceb25cc64e8a12a23f214da167dfeab6957c27e0f1ec3ec34a147e6"/>
-    <hector:perQuantity rdf:nodeID="commodity_cap_cb1812728305e1db0361b551acf87a00f061d2ab5d4d051404f68b807f4d706a9bf"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb14725501de1b4a0c245ffc13a18a54e210a7e82728da7139aee07cc74336b8043"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb14d11572fedff2d5507965df1e4c63af1862018cffd5454e1ebf3cf15372af90c"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb1a86c3c0192c253f4aae6263a0abb6b7c4c6f3ec6f367d3aa2aa1d3b2277d1c3c"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb1eef1bd5d54ae96b126dd9dc0c1fba1e1b6ab468bd5705b1136fc75d90b89ce55"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb21bc6221b5c3ac017c1b80f92634d30050bab8fc02ff5d50ad03ea82818b2ab9f"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb22df1f65b84e4879aecdb60211fe412bbe945d0d3e2ba8e447d608b2cacf3e174"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 215 (transcribed by Stuart Jenks): 'Cappes double tarfed and necked and all other of Frenche makyng the dossen' 20s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_cap_cb19a1dea8c18f5652942c3237acecff59b828bf94d1980293aa31b13e273e95a84">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>prest</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1545-inward-222">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Cappe caces of lether the dossen 6s 3d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_cap_cb229ad06a39977f42fe9de96e178c3fb367155f9787db5feb43972315391fd90af"/>
-    <hector:perQuantity rdf:nodeID="commodity_cap_cb1c23094b9a2a83a516c021d4858be5fa112b4d3f2603dac80de7a09e4b1de36ce"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb2720d99ee7ef182fd8795555489208ce27d6e1d580727b0a98d5a79277ea0620a"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 222 (transcribed by Stuart Jenks): 'Cappe caces of lether the dossen' 6s 3d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb3071442cce753f078a520ae7ff15193c0839841bd3efd85abef46dd93933b0ed1">
-    <crm:P190_has_symbolic_content>caleptri</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kaleptri</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb16a89fef7d1346db01c499e12460143f3443991a9ee8e488a3a2e833dfda1d2d6">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb294bcd8fda561e96bbb7bf661d4f4f2e4503a28b53dccd6c0e199e54a6c966485">
-    <crm:P190_has_symbolic_content>capae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kape</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb11becff1de69a4b82802eba70464cac825e043a8754714d828f00e8eac1784694">
-    <crm:P190_has_symbolic_content>cappis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kapis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb168b149de138232def1756568a7df1ceed7bc7aee5700ed9eb882ad8e701b2585">
-    <crm:P190_has_symbolic_content>Brimless head coverings, often made with a visor. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb25ca2f28a1af2829b2d33fbc188049c2bf300733fe11ca8058bcb97507cd486f7">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb1b09f375997d5e22d77f9eb3fbe1ebd5233d2b00e0b5222366807b156d0475176">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb9599a9b7ca0373965a367467bc9320a03fcaf22a4436d6c5e25738868f071006">
-    <crm:P190_has_symbolic_content>calaptrum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kalaptrum</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1545-inward-217">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Cappe golde the pounde 6s 8d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_cap_cb2f52fbfc3823ba33b0b2b0b159bdc0a6484a92f9278ccb751c23f5373f1ac2176"/>
-    <hector:perQuantity rdf:nodeID="commodity_cap_cb1f8fdf70aa8f20de703ba9401c642c6a386dccdba9b67ca075ad533b545790fdc"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb28a6ccc13e086a3e4eb7202d9d0b960acfdf7e413805b9283d1151e640df0385c"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 217 (transcribed by Stuart Jenks): 'Cappe golde the pounde' 6s 8d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1558-inward-214">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Cappes with syngle crownes the dossen 20s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_cap_cb37fa3114b9f1762ee5334d29ed805ea5f240dbca087874e444737053505a75007"/>
-    <hector:perQuantity rdf:nodeID="commodity_cap_cb1b09f375997d5e22d77f9eb3fbe1ebd5233d2b00e0b5222366807b156d0475176"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb1d6c74d9ca4768c7f6b020a6f7dd97cda6d5b73c7980fc6fa2aef8828d5cbb8f3"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb25bbfd10c90579fda4fdfe742ba01f621058cb1ccd79a95693177f4e5651bcc76"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 214 (transcribed by Stuart Jenks): 'Cappes with syngle crownes the dossen' 20s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb1c80770299d2e38385ff3ccb6e7a738150856719b1984eb1f2bfa736f0a103eee">
-    <crm:P190_has_symbolic_content>cappi</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kapi</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1558-inward-865">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Paper voc’ cappe paper the realme 2s 8d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_cap_cb27da62adf04a5f215816bf706c0ef68b4d04590c513af9f28eb2d8e4e202cc994"/>
-    <hector:perQuantity rdf:nodeID="commodity_cap_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 865 (transcribed by Stuart Jenks): 'Paper voc’ cappe paper the realme' 2s 8d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/chapelet">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>chapelet</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb2c4e98d28b3e37b95a16dbf530c97b0b147ba3837b2a7503348bb7442fe7fa743">
-    <crm:P190_has_symbolic_content>caps</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kaps</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cbaa20fe5cdde55b1c06936f5c74e1344b5f0245e65724be393929cbc53a9f8a31">
-    <crm:P190_has_symbolic_content>cappus</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kapus</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb14c0b58f6405d58659bc4121409677460866d8efc44e8146fdf5bd1348acd96a4">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb2a32381303c94d62926d0e5c0d591d12e67bbc4312d626aac8315f39cd29defaf">
-    <crm:P190_has_symbolic_content>kappae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kape</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb14725501de1b4a0c245ffc13a18a54e210a7e82728da7139aee07cc74336b8043">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>makyng</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1545-outward-17">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 outward: Cours cappes the dossen 6s 8d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_cap_cb30752387768aadfdad90e6f52f750414a3dd69c0e98fc16d37ee255f629e51ceb"/>
-    <hector:perQuantity rdf:nodeID="commodity_cap_cb16a89fef7d1346db01c499e12460143f3443991a9ee8e488a3a2e833dfda1d2d6"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb12ec39fe2565667db2f3826701dbc033fa79551d4d5eef696e490f054777ad264"/>
-    <hector:sourceText>Book of Rates 1545, outward, line 17 (transcribed by Stuart Jenks): 'Cours cappes the dossen' 6s 8d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb162710d1112b66d8d1dc74d2fc4f92c7f1c2b58d76d950d207e0f1d61cce41923">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb2b9fce313f0fb3815ac8483df7b02e5629c3cc271e197eebf6d1535165356c962">
-    <crm:P190_has_symbolic_content>capella</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kapela</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb1c23094b9a2a83a516c021d4858be5fa112b4d3f2603dac80de7a09e4b1de36ce">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb16c8644f385b6d7607340f11d041bd06efd948d92b2925e65064f3059176530d8">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>doble tarsed voc cokered</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb37fa3114b9f1762ee5334d29ed805ea5f240dbca087874e444737053505a75007">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>20s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb1cfa2a798a93135e07d3cea9906a13b1ff9ee424722c4021aacb2ce6d0f9a058e">
-    <crm:P190_has_symbolic_content>capellis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kapelis</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1545-inward-282">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Frenche caps syngle tarfed the dossen 13s 4d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_cap_cb3b7e03e42a3ed91ac4241d23c3ab5367eed658d420d1234e466641043ad82b192"/>
-    <hector:perQuantity rdf:nodeID="commodity_cap_cb162710d1112b66d8d1dc74d2fc4f92c7f1c2b58d76d950d207e0f1d61cce41923"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb22fc90d987436f9ad5648d1b4c566e029ec47d95ad957bbcdf73c0e10ddc2e580"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb29acc752332f14ebbeaaf79caaa70de9490fdc0dd90a0f1b389dfc78274815c1f"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb2d9ccae2163273fa5b0ad3c2b08594f6ec3984b259deb24e6d043dcd615eb6f3e"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 282 (transcribed by Stuart Jenks): 'Frenche caps syngle tarfed the dossen' 13s 4d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb20e08dc4d8ae26ec3122810651be54eb828f086ce552640b6aa630eb2f6c0fdff">
-    <crm:P190_has_symbolic_content>cap</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kap</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb2f26123c876d25e4e8facc46dd34fe0c1e804228df8568200d5a65d4db45dcfb4">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>2s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb27cefdf239a8eaa849d9e84302f7848398db7b12c2bd0796acb6508f575f1e28b">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>16s 8d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb1ec9b4509d49ea2b8f2621c46ffbce433ceb726a58e3af1b7fc9eeb5abd3a3d3c">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>other</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb2981012c87811d85dab3ff517601805c5d07b4613bcbf32b318b3d20f39195a0a">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>26s 8d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/cap">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>cap (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb25bbfd10c90579fda4fdfe742ba01f621058cb1ccd79a95693177f4e5651bcc76">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>crownes</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb2cd7be4356b83fcfed7a71e763adabbfe31dcdea973a12b1a8e0ba772330325a4">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>France</rdfs:label>
-    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q142"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb30752387768aadfdad90e6f52f750414a3dd69c0e98fc16d37ee255f629e51ceb">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>6s 8d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb2abd47324d5a25137995dfb34d8a79efa4cc5cc260771570400d1ffa590c692ef">
-    <crm:P190_has_symbolic_content>capes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kapəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cap#rate-1545-inward-214">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Cappes with syngle tarfs the dossen 13s 4d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_cap_cb382b82d97772c3d05e13b57d51e99f6c40a5084a15260a83d99b699ab2efd0f91"/>
-    <hector:perQuantity rdf:nodeID="commodity_cap_cb10f1cef6a358daf7c580f0b4fd73c85a701651b54dc15bb869245138e70cc7602"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb1a98d5d3c8e452a9c00d59fb93defbead2ec367e033518b1748e57e0931f247de"/>
-    <hector:qualifier rdf:nodeID="commodity_cap_cb1b6d7c7835b7d72f4b2fbc275b4f531b5f806d75dfcf6e489eb318b9df630697b"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 214 (transcribed by Stuart Jenks): 'Cappes with syngle tarfs the dossen' 13s 4d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb1a6cfdb0fa0f31cd3acb04976375c88548999ac5957f4bd58e7030a3a58f4a112">
-    <crm:P190_has_symbolic_content>capa</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kapa</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb236f88cdc55fc2aff33f394407f657af589afcb8e4100ad851d3f13c34b181a2d">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>30s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300011021">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>gold (metal)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb28e7bab373b4e0c1511a95c15dcf24b23ff4254616656f7e747a7921e91991285">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>tarfed</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb2e3e0f4e234891303b91a40c4bd595652bb3a64152af5988795ff839627643ffb">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>10s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb1b2469aac1c998b736ddcb40c0c28f6b998af374d3a33433602f0caf8ed52792b">
-    <crm:P190_has_symbolic_content>caleptris</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kaleptris</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb1bdf897eed8d2e0466e41e8c3720737005c2659d0cbaf34cb32b813da6109d3ce">
-    <crm:P190_has_symbolic_content>calpstris</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kalpstris</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/pound">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>pound</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/ream"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb1d6c74d9ca4768c7f6b020a6f7dd97cda6d5b73c7980fc6fa2aef8828d5cbb8f3">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>single</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb12ec39fe2565667db2f3826701dbc033fa79551d4d5eef696e490f054777ad264">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>coarse</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb1b9cc9539cef7f426f350b076f4a860ff8bee223d16c6d1f88a1eb38e35726404">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>24s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">288</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb332e9ee7290443865a0eab14abccaad79f573c6d8047b78b264bc7318c2fbd847">
-    <crm:P190_has_symbolic_content>capellae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kapele</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q142">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-    <rdfs:label>France</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb117cf75d5640cc1911df3c11add7bcc7a82634369493f4854a7a4aee5a74ec520">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300046094">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>caps (headgear)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/ream">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>ream</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb12c7ed4a3b1bf7555597035d75ce4da172cf102c47b52277a90d9b8ca00efbcf3">
-    <crm:P190_has_symbolic_content>cappa</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kapa</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb2720d99ee7ef182fd8795555489208ce27d6e1d580727b0a98d5a79277ea0620a">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>lether</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb1b6d7c7835b7d72f4b2fbc275b4f531b5f806d75dfcf6e489eb318b9df630697b">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>single</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb1a98d5d3c8e452a9c00d59fb93defbead2ec367e033518b1748e57e0931f247de">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>tarfs</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb179e7aa8ad5c4dc4066ca734ce5e875cac91625f66ea8e72ed4e08afcc9814a10">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>botoned Englyshe</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_cap_cb1e62a125c1236146d057fe5c5914dc0daa6463985fe6d097bb858b9f8f09dd97b">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>dozen</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb181121579416a17a8f976139113fae82c3270ed3521ff64e19041bc39c5ae3e3d">
-    <crm:P190_has_symbolic_content>caleptre</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kaleptrə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/cap">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
+    <rdfs:label>cap (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb1812728305e1db0361b551acf87a00f061d2ab5d4d051404f68b807f4d706a9bf">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb13f902f8ff095997b7713f89db341a89e156f4b700277088fae0503078c7db488">
+  <rdf:Description rdf:nodeID="commodity_cap_cb179e7aa8ad5c4dc4066ca734ce5e875cac91625f66ea8e72ed4e08afcc9814a10">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>balsanum</rdfs:label>
+    <rdfs:label>botoned Englyshe</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb1f8fdf70aa8f20de703ba9401c642c6a386dccdba9b67ca075ad533b545790fdc">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>gross</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb18f8e297b831eae6c9ae32bb003d98d6dcedd776827bff900f5272d56ee74f36a">
-    <crm:P190_has_symbolic_content>cappys</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kapis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb2d9ccae2163273fa5b0ad3c2b08594f6ec3984b259deb24e6d043dcd615eb6f3e">
+  <rdf:Description rdf:nodeID="commodity_cap_cb21bc6221b5c3ac017c1b80f92634d30050bab8fc02ff5d50ad03ea82818b2ab9f">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>France</rdfs:label>
-    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q142"/>
+    <rdfs:label>necked</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb2f52fbfc3823ba33b0b2b0b159bdc0a6484a92f9278ccb751c23f5373f1ac2176">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>6s 8d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb3b7e03e42a3ed91ac4241d23c3ab5367eed658d420d1234e466641043ad82b192">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>13s 4d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb7f5e251a55996e059068785b52d7cb3bcb424ed5007db8cc3f2598800088bfe2">
-    <crm:P190_has_symbolic_content>calepstris</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kalepstris</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb2293c1265f2380b9fef868f0b34d1470274f9cd136d446d2439043c15b4ed2d50">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cbf422ee531acd7e7b92f8be15d41183a3191a508e6b4dee41f5e316bdd4836c23">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300046094">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>nyghte</rdfs:label>
+    <rdfs:label>caps (headgear)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb3fa1bfef5dceb25cc64e8a12a23f214da167dfeab6957c27e0f1ec3ec34a147e6">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>20s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cbc26cf7079cde10055aff91c67e744fec4384a4e0f2c6aaeab511c987d507c37d">
-    <crm:P190_has_symbolic_content>calepstres</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kalepstrəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hure">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>hure</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb13d5ff4caf7bc2209fc6ad125507bef4d2a8022f2a9926d4687cf35a871d2e696">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb357ac3d2f2ffe4dedf6c02a5cdbc5e84010eddc441e9318cfed78c2376990684c">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>12d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb247f629db7961c95895b1e48f25b214be95064c9c844e70803b4ceff7ad8c606c">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>double</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb8f4e66b1f80d804c60b09c5072b2d823d1fd63c0e3a51f0c0225b44d1c7abeb0">
-    <crm:P190_has_symbolic_content>calaptri</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kalaptri</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb11baad4c769c4af8f1e56131a22148fbe42c9a540767891520e42db483ba8c545">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>children’s</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb2b73c287bc67c8d64803abd1973aaa492f5095f33e6f627dab6881e17e82ebfa1">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>gold</rdfs:label>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300011021"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb27da62adf04a5f215816bf706c0ef68b4d04590c513af9f28eb2d8e4e202cc994">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>2s 8d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crespine">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>crespine</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb1532837f7abfe7c93ef39790aa72332014ff18d6d46ef6c65517b9cddb5e88dd6">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cap_cb1a86c3c0192c253f4aae6263a0abb6b7c4c6f3ec6f367d3aa2aa1d3b2277d1c3c">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>double</rdfs:label>
+    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

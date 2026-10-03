@@ -9,17 +9,15 @@
    xmlns:schema1="http://schema.org/"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_silver_cb139cb1c27a96fa2ed49b203c5deafb25e0a2386064d7748b7ae115190e7ce9e21">
-    <crm:P190_has_symbolic_content>sylver</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>silver</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silver_cb317b9bdad67b94de8f1f8c41b814818b7bbc0ca13535fb0745764685728ac77b7">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>13s 4d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silver#rate-1558-inward-960">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Sylver of Brydges the mast cont’ 2½ lb. 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silver_cb317b9bdad67b94de8f1f8c41b814818b7bbc0ca13535fb0745764685728ac77b7"/>
+    <hector:perQuantity rdf:nodeID="commodity_silver_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_silver_cb27bc0228e19cfa4cdd921d0163125a6ff3e7de659f1deea7bcbce3251653a0f13"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 960 (transcribed by Stuart Jenks): 'Sylver of Brydges the mast cont’ 2½ lb.' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/silver">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
@@ -39,67 +37,49 @@
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silver#rate-1507-none-123"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silver#rate-1545-inward-661"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silver#rate-1558-inward-258"/>
-    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silver#rate-1558-inward-299"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silver#rate-1558-inward-31"/>
-    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silver#rate-1558-inward-878"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silver#rate-1558-inward-960"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silver#rate-1558-inward-299">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Crippen partlettes of gold or sylver the dossen £6</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_silver_cb37c4e08e93fa2188be44dddeeb6a4669cc51bade975d8e0de7c4c7e5e3d152722"/>
-    <hector:perQuantity rdf:nodeID="commodity_silver_cb1a1bbe6e904e82f3852bbb09a8529389f6adfc348e758f2e770d33a75b6bed197"/>
-    <hector:qualifier rdf:nodeID="commodity_silver_cb2027a7415b8ea7f45d7bb076f2c954abe6974c6c564ad2e1c8c8d72275209260b"/>
-    <hector:qualifier rdf:nodeID="commodity_silver_cb2c7a31f355d2588e89883acaad1a2cfcdcf6f5e4638dca2714a5f2ab45aa84c36"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 299 (transcribed by Stuart Jenks): 'Crippen partlettes of gold or sylver the dossen' £6</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silver_cb2c7a31f355d2588e89883acaad1a2cfcdcf6f5e4638dca2714a5f2ab45aa84c36">
+  <rdf:Description rdf:nodeID="commodity_silver_cb27bc0228e19cfa4cdd921d0163125a6ff3e7de659f1deea7bcbce3251653a0f13">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>gold</rdfs:label>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300011021"/>
+    <rdfs:label>Bruges</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q12994"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silver#rate-1558-inward-960">
+  <rdf:Description rdf:nodeID="commodity_silver_cb2bf4e739ebf641b138396b9b538a1477536b8ed670b1e7268933b07a05bc48899">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Bruges</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q12994"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silver#rate-1558-inward-31">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Sylver of Brydges the mast cont’ 2½ lb. 13s 4d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_silver_cb317b9bdad67b94de8f1f8c41b814818b7bbc0ca13535fb0745764685728ac77b7"/>
-    <hector:perQuantity rdf:nodeID="commodity_silver_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
-    <hector:qualifier rdf:nodeID="commodity_silver_cb27bc0228e19cfa4cdd921d0163125a6ff3e7de659f1deea7bcbce3251653a0f13"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 960 (transcribed by Stuart Jenks): 'Sylver of Brydges the mast cont’ 2½ lb.' 13s 4d</hector:sourceText>
+    <rdfs:label>1558 inward: Argentum sublime, the C lb. cont’ five score pounde £10</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silver_cb2b19145146b276eb7027a6556519c0b869a5e82ac958f02b0f828e5502c7523d3"/>
+    <hector:perQuantity rdf:nodeID="commodity_silver_cb148ab670c330cf7e7d114310da8bf3011e8069cacf36eb620392a195ca59cc35e"/>
+    <hector:qualifier rdf:nodeID="commodity_silver_cb14663dacc42b39d3ac5d7e663a57abed1472196c5df0526197296b71b76e32659"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 31 (transcribed by Stuart Jenks): 'Argentum sublime, the C lb. cont’ five score pounde' £10</hector:sourceText>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silver_cb37c4e08e93fa2188be44dddeeb6a4669cc51bade975d8e0de7c4c7e5e3d152722">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silver#rate-1545-inward-661">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Sylver of Bruges the maste 8s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silver_cb2f34a87f545ae3f5522522e7fe0d8f4e2dbf6118703f3a7a73f517e2493677c62"/>
+    <hector:perQuantity rdf:nodeID="commodity_silver_cb22210c4716fdf1e5336e042a53d05ec1f03e7ecc3a7b68797af83591d55ed92b2"/>
+    <hector:qualifier rdf:nodeID="commodity_silver_cb2bf4e739ebf641b138396b9b538a1477536b8ed670b1e7268933b07a05bc48899"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 661 (transcribed by Stuart Jenks): 'Sylver of Bruges the maste' 8s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silver_cb21e02131b2b54213dc2bd1716a5fff274435fc59827051d72b1c0c329e0166bec">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/mast"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silver_cb375eced86ecbffbb7fd20276c2d246cf151d56338f3c9813f4255f0ad65a3daa9">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>£6</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1440</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silver_cb1747cc70b7b4c9f77932e7fcc6eaf29776d24c47a2bc9faa40c08ea539830b410">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>Gowlde</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silver_cb2f81b30ceda7d17cac4bc83c9e6896055531b44c47b8267485c6be291b0154d30">
-    <crm:P190_has_symbolic_content>argenti</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>ardʒenti</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silver_cb19101b54029103608bd0f3a16ced2b95da9d472044a45d583db976924acbf7914">
-    <crm:P190_has_symbolic_content>argente foille</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>ardʒentə foilə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/silver#rate-1507-none-123">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
@@ -112,132 +92,7 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/silver">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>silver (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silver_cb11341717c11bdb466e6be49f4aa1982b27d571d43393d99344583749e1f572a7d">
-    <crm:P190_has_symbolic_content>Fiber or fiber-like material made wholly or in part from silver. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silver_cb2027a7415b8ea7f45d7bb076f2c954abe6974c6c564ad2e1c8c8d72275209260b">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>Crippen partlettes</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300011029">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E57_Material"/>
-    <rdfs:label>silver (metal)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silver#rate-1558-inward-878">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Quycke sylver the pounde 16d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_silver_cb341a8abe012e48d7d6944d2f51892a0ca5ade15d2d5d246fa1c05e5aa78423d9a"/>
-    <hector:perQuantity rdf:nodeID="commodity_silver_cb1c7565508d388cf22d0b6460668ba6d0b99fc4a2634d99d0b15b4039209a302ef"/>
-    <hector:qualifier rdf:nodeID="commodity_silver_cb24d77b05baaf4c3bfbe3ecfeaf573d57a234dd783603f99ddbfe4729d59d1b84e"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 878 (transcribed by Stuart Jenks): 'Quycke sylver the pounde' 16d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silver_cb2bf4e739ebf641b138396b9b538a1477536b8ed670b1e7268933b07a05bc48899">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>Bruges</rdfs:label>
-    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q12994"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silver_cb21e02131b2b54213dc2bd1716a5fff274435fc59827051d72b1c0c329e0166bec">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/mast"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silver_cbcc7cf125d2de028eb6fb12c386ab9621a0f2676d5707fd9fe3931a4cd6b6a7b7">
-    <crm:P190_has_symbolic_content>argento</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>ardʒento</hector:phoneticKey>
-  </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_silver_cb21bacb4435eee2fb8b036f184bff172df78bc169f5b99a244d3f74296d8580ae9">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/mast"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silver_cb182e5d9ec9762b6361d65071c2da74215dab4b5ec92c978a807841dcaa586f7a6">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silver#rate-1545-inward-661">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Sylver of Bruges the maste 8s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_silver_cb2f34a87f545ae3f5522522e7fe0d8f4e2dbf6118703f3a7a73f517e2493677c62"/>
-    <hector:perQuantity rdf:nodeID="commodity_silver_cb22210c4716fdf1e5336e042a53d05ec1f03e7ecc3a7b68797af83591d55ed92b2"/>
-    <hector:qualifier rdf:nodeID="commodity_silver_cb2bf4e739ebf641b138396b9b538a1477536b8ed670b1e7268933b07a05bc48899"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 661 (transcribed by Stuart Jenks): 'Sylver of Bruges the maste' 8s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silver#rate-1558-inward-258">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Coollen golde or sylver the maste cont’ 2½ lb 13s 4d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_silver_cb375eced86ecbffbb7fd20276c2d246cf151d56338f3c9813f4255f0ad65a3daa9"/>
-    <hector:perQuantity rdf:nodeID="commodity_silver_cb21bacb4435eee2fb8b036f184bff172df78bc169f5b99a244d3f74296d8580ae9"/>
-    <hector:qualifier rdf:nodeID="commodity_silver_cb2d8292899d2103dd01158ca2c191b7447df5ecb8d3d3adb0b306e0b89507555ac"/>
-    <hector:qualifier rdf:nodeID="commodity_silver_cb3024b17e89ed7e61c721f6fe8e412b966df69921eaa3334de209dd8f491f8df28"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 258 (transcribed by Stuart Jenks): 'Coollen golde or sylver the maste cont’ 2½ lb' 13s 4d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silver_cb2076eb8e05a35fb961a20402cb237fc3c621d4841290d63709fc0386edce99fca">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>sublime</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silver_cb1c7565508d388cf22d0b6460668ba6d0b99fc4a2634d99d0b15b4039209a302ef">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silver_cb1a1bbe6e904e82f3852bbb09a8529389f6adfc348e758f2e770d33a75b6bed197">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silver_cb375eced86ecbffbb7fd20276c2d246cf151d56338f3c9813f4255f0ad65a3daa9">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>13s 4d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silver_cb2a389cb77a2cc7073995c83df85b32ca08da3091e54e8f459a5d8b8b20621b855">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>8s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/hundred">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>hundred</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silver_cb27bc0228e19cfa4cdd921d0163125a6ff3e7de659f1deea7bcbce3251653a0f13">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>Bruges</rdfs:label>
-    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q12994"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silver_cb2d8292899d2103dd01158ca2c191b7447df5ecb8d3d3adb0b306e0b89507555ac">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>gold</rdfs:label>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300011021"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q12994">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-    <rdfs:label>Bruges</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silver_cb3024b17e89ed7e61c721f6fe8e412b966df69921eaa3334de209dd8f491f8df28">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>Cologne</rdfs:label>
-    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q365"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silver_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/mast"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
@@ -250,29 +105,49 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silver#rate-1558-inward-31">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Argentum sublime, the C lb. cont’ five score pounde £10</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_silver_cb2b683568c273773decaa69f4a8df48e3cb2bb1a948af10c1abf8d7e63ac2c7b23"/>
-    <hector:perQuantity rdf:nodeID="commodity_silver_cb182e5d9ec9762b6361d65071c2da74215dab4b5ec92c978a807841dcaa586f7a6"/>
-    <hector:qualifier rdf:nodeID="commodity_silver_cb2076eb8e05a35fb961a20402cb237fc3c621d4841290d63709fc0386edce99fca"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 31 (transcribed by Stuart Jenks): 'Argentum sublime, the C lb. cont’ five score pounde' £10</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_silver_cb2f81b30ceda7d17cac4bc83c9e6896055531b44c47b8267485c6be291b0154d30">
+    <crm:P190_has_symbolic_content>argenti</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>ardʒenti</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/mast">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>mast</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_silver_cb3024b17e89ed7e61c721f6fe8e412b966df69921eaa3334de209dd8f491f8df28">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Cologne</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q365"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>dozen</rdfs:label>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300011029">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E57_Material"/>
+    <rdfs:label>silver (metal)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silver_cb2a389cb77a2cc7073995c83df85b32ca08da3091e54e8f459a5d8b8b20621b855">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>8s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_silver_cb2f34a87f545ae3f5522522e7fe0d8f4e2dbf6118703f3a7a73f517e2493677c62">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
     <hector:lsd>8s</hector:lsd>
     <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silver#rate-1558-inward-258">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Coollen golde or sylver the maste cont’ 2½ lb 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silver_cb375eced86ecbffbb7fd20276c2d246cf151d56338f3c9813f4255f0ad65a3daa9"/>
+    <hector:perQuantity rdf:nodeID="commodity_silver_cb21bacb4435eee2fb8b036f184bff172df78bc169f5b99a244d3f74296d8580ae9"/>
+    <hector:qualifier rdf:nodeID="commodity_silver_cb2d8292899d2103dd01158ca2c191b7447df5ecb8d3d3adb0b306e0b89507555ac"/>
+    <hector:qualifier rdf:nodeID="commodity_silver_cb3024b17e89ed7e61c721f6fe8e412b966df69921eaa3334de209dd8f491f8df28"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 258 (transcribed by Stuart Jenks): 'Coollen golde or sylver the maste cont’ 2½ lb' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/silver">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>silver (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_silver_cb2c8c4b5dd83329fcaa331238d121e8ff4e8848175158f7c5a61bd8bd521badd28">
     <crm:P190_has_symbolic_content>silver</crm:P190_has_symbolic_content>
@@ -283,59 +158,116 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+  <rdf:Description rdf:nodeID="commodity_silver_cb14663dacc42b39d3ac5d7e663a57abed1472196c5df0526197296b71b76e32659">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
+    <rdfs:label>sublime</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silver_cb2b19145146b276eb7027a6556519c0b869a5e82ac958f02b0f828e5502c7523d3">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£10</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2400</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silver_cb19101b54029103608bd0f3a16ced2b95da9d472044a45d583db976924acbf7914">
+    <crm:P190_has_symbolic_content>argente foille</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>ardʒentə foilə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silver_cb317b9bdad67b94de8f1f8c41b814818b7bbc0ca13535fb0745764685728ac77b7">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silver_cb139cb1c27a96fa2ed49b203c5deafb25e0a2386064d7748b7ae115190e7ce9e21">
+    <crm:P190_has_symbolic_content>sylver</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>silver</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silver_cb11341717c11bdb466e6be49f4aa1982b27d571d43393d99344583749e1f572a7d">
+    <crm:P190_has_symbolic_content>Fiber or fiber-like material made wholly or in part from silver. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silver_cbcc7cf125d2de028eb6fb12c386ab9621a0f2676d5707fd9fe3931a4cd6b6a7b7">
+    <crm:P190_has_symbolic_content>argento</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>ardʒento</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q12994">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Bruges</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silver_cb2d8292899d2103dd01158ca2c191b7447df5ecb8d3d3adb0b306e0b89507555ac">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gold</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300011021"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silver_cb148ab670c330cf7e7d114310da8bf3011e8069cacf36eb620392a195ca59cc35e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300395639">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>silver thread</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q365">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Cologne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silver_cb1747cc70b7b4c9f77932e7fcc6eaf29776d24c47a2bc9faa40c08ea539830b410">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Gowlde</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silver_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/mast"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_silver_cb300014588ad0f812a2d451a85831512485ed6eb8f2fdcc3043ce309e35d6755eb">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>Bruges</rdfs:label>
     <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q12994"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silver_cb24d77b05baaf4c3bfbe3ecfeaf573d57a234dd783603f99ddbfe4729d59d1b84e">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>Quycke</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q365">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-    <rdfs:label>Cologne</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300395639">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>silver thread</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silver_cb2b683568c273773decaa69f4a8df48e3cb2bb1a948af10c1abf8d7e63ac2c7b23">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>£10</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2400</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silver_cb22210c4716fdf1e5336e042a53d05ec1f03e7ecc3a7b68797af83591d55ed92b2">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/mast"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silver_cb341a8abe012e48d7d6944d2f51892a0ca5ade15d2d5d246fa1c05e5aa78423d9a">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>16d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16</hector:valueInPence>
+    <rdfs:label>attested variant</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300011021">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>gold (metal)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/pound">
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/mast">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>pound</rdfs:label>
+    <rdfs:label>mast</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/hundred">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>hundred</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silver_cb22210c4716fdf1e5336e042a53d05ec1f03e7ecc3a7b68797af83591d55ed92b2">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/mast"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
 </rdf:RDF>

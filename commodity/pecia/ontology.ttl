@@ -94,8 +94,7 @@
         <https://w3id.org/hector/commodity/tin-piece> ;
     la:equivalent aat:300386648 ;
     hector:attestationCount 23456 ;
-    hector:taxation <https://w3id.org/hector/commodity/pecia#rate-1507-none-10>,
-        <https://w3id.org/hector/commodity/pecia#rate-1545-inward-109>,
+    hector:taxation <https://w3id.org/hector/commodity/pecia#rate-1545-inward-109>,
         <https://w3id.org/hector/commodity/pecia#rate-1558-inward-100>,
         <https://w3id.org/hector/commodity/pecia#rate-1558-inward-101> .
 
@@ -113,24 +112,6 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/hector/commodity/leather-pieces> a crm:E55_Type ;
     rdfs:label "leather pieces" .
-
-<https://w3id.org/hector/commodity/pecia#rate-1507-none-10> a hector:Rate ;
-    rdfs:label "1507: Buckroms in paperes, every paper 1 with another fyne þat ys to saye 3 peces in every papere 6s 8d" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "6s 8d" ;
-            hector:valueInPence 80.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 1 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/paper> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "fine" ],
-        [ a crm:E55_Type ;
-            rdfs:label "Buckroms" ;
-            crm:P2_has_type hector:AttestedVariant ] ;
-    hector:sourceText "Book of Rates 1507, line 10 (transcribed by Stuart Jenks): 'Buckroms in paperes, every paper 1 with another fyne þat ys to saye 3 peces in every papere' 6s 8d" ;
-    hector:validFrom "1507"^^xsd:gYear ;
-    hector:validThrough "1545"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/pecia#rate-1545-inward-109> a hector:Rate ;
     rdfs:label "1545 inward: Box peces for combes the butte or pipe £4" ;
@@ -182,9 +163,6 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/hector/commodity/tin-piece> a crm:E55_Type ;
     rdfs:label "tin piece" .
-
-<https://w3id.org/hector/unit/paper> a crm:E58_Measurement_Unit ;
-    rdfs:label "paper (measure)" .
 
 <https://w3id.org/hector/unit/thousand> a crm:E58_Measurement_Unit ;
     rdfs:label "thousand" .

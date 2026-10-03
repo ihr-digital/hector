@@ -76,6 +76,45 @@ COMMON = FILLER | {"made", "small", "smalle", "great", "grett", "white", "whyte"
 MEASURE_SENSE = {"wyght", "wyte", "weyte", "wayte", "weyght", "wayght", "small", "smalle", "smale",
                  "grett", "gret", "great", "greate", "hallfe", "halfe", "half", "di", "hole", "whole",
                  "skynne", "skynnes", "full"}
+# Rows the matcher links to the wrong concept, read one by one (3 Oct 2026, from the qualifier
+# review: the qualifier column made them visible). (book, direction, line) -> the concept, or
+# None where the glossary has no concept for these goods yet (they are then reported, not linked).
+# With the concept, the words that name the goods in the entry, which are then not a qualifier:
+# several are spellings the glossary lacks ("Rose algar", "Bell mettell", "Sackclothe").
+# The head-first rule takes a modifier for the goods ("Salt hydes" -> salt, "Bell mettell" ->
+# bell); a single word later on can be the material ("Pulleys of yron" -> iron).
+LINK_OVERRIDES = {
+    ("1507", "none", "10"): ("buckram", "buckroms"),                           # Buckroms in paperes (not pecia)
+    ("1545", "inward", "72"): ("balance", "ballandes ballance"),               # Ballandes called ounce ballance (not ounce)
+    ("1545", "inward", "601"): ("realgar", "rose algar"),                      # Rose algar = rosalgar (not rose)
+    ("1558", "inward", "896"): ("realgar", "rose algar"),
+    ("1545", "inward", "610"): ("knife", "knyves"),                            # Rone knyves: Rouen knives (not cheverellus)
+    ("1545", "outward", "32"): ("bell metal", "bell mettell"),                 # Bell mettell (not bell)
+    ("1558", "outward", "6"): ("bell metal", "bell mettell"),
+    ("1558", "inward", "326"): ("carpobalsamum", "cappe balsanum"),            # Cappe balsanum (not cap)
+    ("1558", "inward", "368"): ("iron dowbles", "doble yron plates dobles"),   # Doble yron plates vocat' dobles (not iron)
+    ("1558", "inward", "578"): ("hoop_2", "hopes"),                            # Hopes for barrelles (not barrel)
+    ("1558", "inward", "905"): ("rapier", "rapers"),                           # Rapers ... with velvett sheathes (not velvet)
+    ("1558", "inward", "906"): ("rapier", "rapers"),
+    ("1558", "inward", "936"): ("hide", "hydes"),                              # Salt hydes (not salt)
+    ("1558", "inward", "1044"): ("sack cloth", "sackclothe"),                  # Sackclothe whyte of threde (not thread)
+    ("1558", "inward", "1045"): ("sack cloth", "sackclothe"),                  # Sackclothe of sylke (not silk)
+    ("1558", "inward", "866"): ("petticoat", "petycotes"),                     # Petycotes knytte of wolle or cotton (not cotton)
+    ("1545", "inward", "118"): ("bear", "beres"),                              # Beres quycke: live bears (not beer)
+    ("1558", "inward", "878"): ("quicksilver", "quycke sylver"),               # Quycke sylver (not silver)
+    ("1558", "inward", "299"): None,                                           # Crippen partlettes of gold or sylver (not silver)
+    ("1558", "inward", "324"): None,                                           # Curteyns capparis: caper bark, cortex capparis (not curtain)
+    ("1558", "inward", "389"): None,                                           # Dagges with fyer lockes: dags, pistols (not lock)
+    ("1558", "inward", "854"): None,                                           # Playne yrones for carpenters: plane irons (not playne)
+    ("1558", "inward", "856"): None,                                           # Pulleys of yron (not iron)
+    ("1558", "inward", "1110"): None,                                          # Touche boxes covered with velvet (not velvet)
+    ("1558", "inward", "1111"): None,                                          # Touche boxes of yron or other mettall guylt (not iron)
+    ("1558", "inward", "1112"): None,                                          # Touche boxes of lether (not leather)
+    ("1558", "inward", "1120"): None,                                          # Terre Bithina: a medicinal earth (not tar)
+    ("1558", "inward", "1123"): None,
+}
+# Away from the head, a spelling after one of these is not the goods (see link()).
+NOT_THE_GOODS = {"of", "with", "wt", "for", "in"}
 QUAL_LEDGER_FIELDS = ["slug", "glossary_key", "qualifier", "minted", "status", "replaced_by"]
 
 
@@ -113,7 +152,11 @@ def link(text: str, idx: dict, max_len: int) -> tuple[str | None, str, str, str]
     that is not an ordinary word (COMMON). A spelling shared by several concepts is ambiguous
     and never used. Anywhere-matches linked the wrong word when tried first: "Buckroms in
     paperes, every paper" -> ivory (a spelling of which is "every"), "Corke made in
-    barrelles" -> barrel."""
+    barrelles" -> barrel. And away from the head, a spelling straight after "of", "with",
+    "for" or "in" names the material, the purpose or the container, not the goods ("Saddels of
+    stele" -> steel, "Hornes for lantorns" -> lantern, "Cannes of wode" -> woad): it is never
+    linked (3 Oct 2026: 25 of the 28 such links were wrong). After "or" it is an alternative name
+    for the goods ("Axes or hatchettes") and still links."""
     toks = norm(text).split()
 
     def hit(i, n):
@@ -129,13 +172,23 @@ def link(text: str, idx: dict, max_len: int) -> tuple[str | None, str, str, str]
     for n in range(min(max_len, len(toks)), 0, -1):          # 1. at the head
         if hit(0, n):
             return result(0, n, "head")
+    skipped = []                                             # material, purpose, container
+
+    def goods(i, n):
+        if hit(i, n) and toks[i - 1] in NOT_THE_GOODS:
+            skipped.append(" ".join(toks[i - 1:i + n]))
+            return False
+        return bool(hit(i, n))
+
     for n in range(min(max_len, len(toks)), 1, -1):          # 2. a phrase anywhere
         for i in range(1, len(toks) - n + 1):
-            if hit(i, n):
+            if goods(i, n):
                 return result(i, n, "phrase")
     for i in range(1, len(toks)):                            # 3. a word anywhere
-        if toks[i] not in COMMON and len(toks[i]) >= 4 and hit(i, 1):
+        if toks[i] not in COMMON and len(toks[i]) >= 4 and goods(i, 1):
             return result(i, 1, "word")
+    if skipped:
+        return None, "", "", "only a material, purpose or container: " + ", ".join(dict.fromkeys(skipped))
     amb = [t for t in toks if len(idx.get(t, ())) > 1]
     return None, "", "", ("ambiguous: " + ", ".join(amb)) if amb else "no glossary spelling"
 
@@ -292,6 +345,7 @@ def run(lca: Path = LCA, today: str | None = None) -> dict:
     by_record = collections.defaultdict(list)          # slug -> rate nodes
     as_written = collections.Counter()                 # qualifier words LCA's list does not name
     sample = []
+    used_overrides = set()
     for r in rows:
         if r["book"] not in LINKED_BOOKS:
             rep["1604 rows held for D6"] += 1
@@ -304,6 +358,13 @@ def run(lca: Path = LCA, today: str | None = None) -> dict:
             unlinked["no unit"].append(r); continue
         text = r.get("commodity_text") or r.get("commodity_raw") or ""
         key, spelling, qual, why = link(text, idx, max_len)
+        ov = (r["book"], r["direction"], str(r["source_line"]))
+        if ov in LINK_OVERRIDES:
+            used_overrides.add(ov)
+            key, spelling = LINK_OVERRIDES[ov] or (None, "")
+            why = "override"
+            if not key:
+                unlinked["no concept for these goods yet (read by hand)"].append(r); continue
         if not key:
             unlinked[why.split(":")[0]].append(r); continue
         rep[f"linked at the {why}"] += 1
@@ -315,7 +376,9 @@ def run(lca: Path = LCA, today: str | None = None) -> dict:
         # elles browne"): the measure is read too, but only for qualifiers LCA's list names (it
         # is full of unit spellings no list has, "yarde", "dossyn"), never its measure senses
         # (MEASURE_SENSE), and not the count ("conteynynge five score")
-        quals = rate_qualifiers(text, spelling, form2c, canon, uwords)
+        # another spelling of the goods themselves is not a qualifier ("Iron called Lukes yron")
+        own = {t for t in norm(text).split() if key in idx.get(t, ())}
+        quals = rate_qualifiers(text, spelling, form2c, canon, uwords | own)
         named = {q["_label"] for q in quals}
         for q in rate_qualifiers(r.get("unit_text") or "", "", form2c, canon, uwords | MEASURE_SENSE):
             if not q.get("classified_as") and q["_label"] not in named:   # named ones only
@@ -334,6 +397,10 @@ def run(lca: Path = LCA, today: str | None = None) -> dict:
             sample.append((r["commodity_raw"], key, spelling, "; ".join(q["_label"] for q in quals), why))
     for why, rs in unlinked.items():
         rep[f"not linked: {why}"] += len(rs)
+    stale = set(LINK_OVERRIDES) - used_overrides
+    if stale:   # a row moved or the books were re-parsed: the override no longer says anything
+        raise SystemExit(f"LINK_OVERRIDES matched no rate row: {sorted(stale)}")
+    rep["links overridden by hand"] = len(used_overrides)
 
     # The qualified records decision 2 minted (29 Sep), deprecated 3 Oct: each URI keeps
     # resolving, to a record replaced by its base commodity, which now carries its rates.

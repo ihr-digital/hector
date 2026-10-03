@@ -8,26 +8,23 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/rapier">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_rapier_cb1470d042e0d2eff25bfc1724ef8e3d32038bc0445af7d5ecbd733ebd058b6e623"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_rapier_cb21ff6319e9f83ac72fec08b468973bdd23a102fe05df67aee0280fa7c4c0cb49e"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_rapier_cb99b4d0206b9268380070e020addba9685dfef4ec004fa73f427ae8abb9ee7b71"/>
+  <rdf:Description rdf:nodeID="commodity_rapier_cb2be9d9d88600742b8d2c4a0764ff51634a8d6e230cc1f32124623e348b95a5235">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>rapier</rdfs:label>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/rapier"/>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300037085"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</hector:attestationCount>
+    <rdfs:label>black</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300130920"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_rapier_cb1470d042e0d2eff25bfc1724ef8e3d32038bc0445af7d5ecbd733ebd058b6e623">
-    <crm:P190_has_symbolic_content>rapiers</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rapiːrs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/rapier#rate-1558-inward-905">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Rapers blacke with velvett sheathes the dosen £4</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_rapier_cb2aa44a739b557dc2a573aa01953dde150a119f83aec771fabe794907a299b5203"/>
+    <hector:perQuantity rdf:nodeID="commodity_rapier_cb1bd47e95903fc9a296170eb3d4318be0bddce08b3add1a0c7c4dd89c800fa268c"/>
+    <hector:qualifier rdf:nodeID="commodity_rapier_cb1eee5a7d4eac61f88f24a2b5b57c57ef1b13fec739257e2abba52a44b89566cc0"/>
+    <hector:qualifier rdf:nodeID="commodity_rapier_cb2be9d9d88600742b8d2c4a0764ff51634a8d6e230cc1f32124623e348b95a5235"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 905 (transcribed by Stuart Jenks): 'Rapers blacke with velvett sheathes the dosen' £4</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_rapier_cb21ff6319e9f83ac72fec08b468973bdd23a102fe05df67aee0280fa7c4c0cb49e">
+  <rdf:Description rdf:nodeID="commodity_rapier_cb2d1e8dd9aecec2d13d8d90714a7907367a46eb57c20ec5f8536d0235ccd02afd4">
     <crm:P190_has_symbolic_content>rapier</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -36,6 +33,98 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/rapier">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_rapier_cb2cc7d19fbd0ee41ed1ba584c96b80dd214a38bfc307563d8e1d47b104d1fdfc78"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_rapier_cb2d1e8dd9aecec2d13d8d90714a7907367a46eb57c20ec5f8536d0235ccd02afd4"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_rapier_cb1972cd6ece69f5ca38869067e14162b0fa00deca7747a82e16f04123fa6db8989"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>rapier</rdfs:label>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/rapier"/>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300037085"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/rapier#rate-1558-inward-905"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/rapier#rate-1558-inward-906"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_rapier_cbe68e343212ea71c882c067564d7608e9c7ab557c2e3a57bc8831ff1eece8d0ca">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gilte with velvett sheathes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300130920">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>black (color)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_rapier_cb1972cd6ece69f5ca38869067e14162b0fa00deca7747a82e16f04123fa6db8989">
+    <crm:P190_has_symbolic_content>Light swords with a long, narrow, double-edged blade and a hilt furnished with extensive protection for the hand, such as arms of the hilt and side rings, a shell guard, or a cup guard. Originally designed for both cutting and thrusting, they developed into purely thrusting swords and became the principal fencing weapons of the 16th and 17th centuries. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_rapier_cb2cc7d19fbd0ee41ed1ba584c96b80dd214a38bfc307563d8e1d47b104d1fdfc78">
+    <crm:P190_has_symbolic_content>rapiers</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rapiːrs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/rapier#rate-1558-inward-906">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Rapers gilte with velvett sheathes the dossen £8</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_rapier_cb2eecef5669d392ab629c98064ee4511ed08479a8ef21bdb72aaf9c397379812bb"/>
+    <hector:perQuantity rdf:nodeID="commodity_rapier_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_rapier_cbe68e343212ea71c882c067564d7608e9c7ab557c2e3a57bc8831ff1eece8d0ca"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 906 (transcribed by Stuart Jenks): 'Rapers gilte with velvett sheathes the dossen' £8</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_rapier_cb2eecef5669d392ab629c98064ee4511ed08479a8ef21bdb72aaf9c397379812bb">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£8</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1920</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_rapier_cb1bd47e95903fc9a296170eb3d4318be0bddce08b3add1a0c7c4dd89c800fa268c">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_rapier_cb2aa44a739b557dc2a573aa01953dde150a119f83aec771fabe794907a299b5203">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£4</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">960</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/rapier">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>rapier (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_rapier_cb1eee5a7d4eac61f88f24a2b5b57c57ef1b13fec739257e2abba52a44b89566cc0">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>velvett sheathes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_rapier_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>descriptive note</rdfs:label>
@@ -43,22 +132,5 @@
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300037085">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>rapiers</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_rapier_cb99b4d0206b9268380070e020addba9685dfef4ec004fa73f427ae8abb9ee7b71">
-    <crm:P190_has_symbolic_content>Light swords with a long, narrow, double-edged blade and a hilt furnished with extensive protection for the hand, such as arms of the hilt and side rings, a shell guard, or a cup guard. Originally designed for both cutting and thrusting, they developed into purely thrusting swords and became the principal fencing weapons of the 16th and 17th centuries. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/rapier">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>rapier (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

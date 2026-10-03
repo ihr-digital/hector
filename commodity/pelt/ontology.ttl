@@ -314,8 +314,6 @@ wd:Q918723 a crm:E53_Place ;
             crm:P90_has_value 100 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
     hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "skin" ],
-        [ a crm:E55_Type ;
             rdfs:label "Kydde" ;
             crm:P2_has_type hector:AttestedVariant ],
         [ a crm:E55_Type ;

@@ -220,7 +220,6 @@
         <https://w3id.org/hector/commodity/cap#rate-1558-inward-215>,
         <https://w3id.org/hector/commodity/cap#rate-1558-inward-216>,
         <https://w3id.org/hector/commodity/cap#rate-1558-inward-217>,
-        <https://w3id.org/hector/commodity/cap#rate-1558-inward-326>,
         <https://w3id.org/hector/commodity/cap#rate-1558-inward-337>,
         <https://w3id.org/hector/commodity/cap#rate-1558-inward-865>,
         <https://w3id.org/hector/commodity/cap#rate-1558-outward-14> .
@@ -472,22 +471,6 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
-<https://w3id.org/hector/commodity/cap#rate-1558-inward-326> a hector:Rate ;
-    rdfs:label "1558 inward: Cappe balsanum the pounde 2s" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "2s" ;
-            hector:valueInPence 24.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 1 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "balsanum" ;
-            crm:P2_has_type hector:AttestedVariant ] ;
-    hector:sourceText "Book of Rates 1558, inward, line 326 (transcribed by Stuart Jenks): 'Cappe balsanum the pounde' 2s" ;
-    hector:validFrom "1558"^^xsd:gYear ;
-    hector:validThrough "1604"^^xsd:gYear .
-
 <https://w3id.org/hector/commodity/cap#rate-1558-inward-337> a hector:Rate ;
     rdfs:label "1558 inward: Cappe rybande the dossen peces 26s 8d" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -554,11 +537,11 @@ aat:300435416 a crm:E55_Type ;
 aat:300011021 a crm:E55_Type ;
     rdfs:label "gold (metal)" .
 
-wd:Q142 a crm:E53_Place ;
-    rdfs:label "France" .
-
 <https://w3id.org/hector/unit/pound> a crm:E58_Measurement_Unit ;
     rdfs:label "pound" .
+
+wd:Q142 a crm:E53_Place ;
+    rdfs:label "France" .
 
 <https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
     rdfs:label "dozen" .

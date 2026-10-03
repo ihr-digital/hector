@@ -8,86 +8,6 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_hose_cb1d3a5c6af304c09661f2a5188e84fd691e463a937b8ccc483826208a9b98ed4e9">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>silk</rdfs:label>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300243428"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cb27f1f64c70907e878a5eb4432549f95fa9e8ecc94476cf195c6a9eb66e62161c5">
-    <crm:P190_has_symbolic_content>hose</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>hosə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cb27e0022a87be271beeea11c5dd5611959c34aeb14e41d7d42fd92e20d934685ea">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>3s 4d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cb1742f9d11cc46129f88ba2f5d19b6cc4be11f42fb42accef06aeb7f83af74a622">
-    <crm:P190_has_symbolic_content>housen</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>huːsen</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cb18ec1803741aee319cc5bf3d17c3e9bc2e15f1c09a3ee1a1e6b202088422b5e64">
-    <crm:P190_has_symbolic_content>knyt hosis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>knit hosis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cb1ee5c5ac6f716fd3557728e5093450734aa9c5c37839965cc375e1f79aa827eba">
-    <crm:P190_has_symbolic_content>kaliga</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kaliga</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cb242ed5d26fab0348d5d197c5c3d44073b733dbce039fb8141bb4f5ffaf647ce30">
-    <crm:P190_has_symbolic_content>calligae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kalige</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300243428">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>silk (textile)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cb221d898f3af1f8d2a142bf00c7b5cf42c06ab12b1a3a36f206a3cf64b86746ffb">
-    <crm:P190_has_symbolic_content>hoose</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>hoːsə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cb1d641acd9807eb03df298bf97d9a89387abf613f7ed875ecef3b09722302f6c6a">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>26s 8d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cb91a3ca10a7c92a4788714bcb49ec3d28b536bf77568a2e77ea05a27c4cdd19d3">
-    <crm:P190_has_symbolic_content>calige</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kalidʒə</hector:phoneticKey>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/hose#rate-1558-inward-590">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
     <rdfs:label>1558 inward: Hose of silke knitte the payer 26s 8d</rdfs:label>
@@ -99,66 +19,19 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/sheepskin">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>sheepskin</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cb180a3daa372ed24e2e08e504b6b4eed425f80b6c94c4e5350ec58ffa9a6099f0b">
-    <crm:P190_has_symbolic_content>caliga</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_hose_cb242ed5d26fab0348d5d197c5c3d44073b733dbce039fb8141bb4f5ffaf647ce30">
+    <crm:P190_has_symbolic_content>calligae</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kaliga</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+    <hector:phoneticKey>kalige</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cb1046ea0c795ee884a0d27eb1d98d6e71a3f0e0be504d8fb4d9487e7c999e4e743">
-    <crm:P190_has_symbolic_content>caligarum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kaligarum</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/pair">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>pair</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hose#rate-1545-outward-12">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 outward: Wemens hosen the dossen 6s 8d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_hose_cb25d620300194b0779fd1bbe18fa32e4c74bd2f2a146d15b40804135547f965d3f"/>
-    <hector:perQuantity rdf:nodeID="commodity_hose_cb18b09de7826ee736a14cb989779b9a8c71e4b0cde07754a84d9a2bb1d5df408a0"/>
-    <hector:sourceText>Book of Rates 1545, outward, line 12 (transcribed by Stuart Jenks): 'Wemens hosen the dossen' 6s 8d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cb1ceddbe0dde5332f4c8a1b8b888b61c0c595ff4db4bff328f8e7bc1517de5ff89">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>long</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hose#rate-1558-outward-28">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 outward: Hosen shorte the dosen payre 8s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_hose_cb22ae97faf673466eaa1a73860d5e28144559de4b28e64c3e1fc88282975291046"/>
-    <hector:perQuantity rdf:nodeID="commodity_hose_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
-    <hector:qualifier rdf:nodeID="commodity_hose_cbf0be3dae63a32490dfdf41a96baa38e05706b9f983e96ae47ac5e88470a02b8f"/>
-    <hector:sourceText>Book of Rates 1558, outward, line 28 (transcribed by Stuart Jenks): 'Hosen shorte the dosen payre' 8s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hose#rate-1558-outward-27">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 outward: Hosen longe the payre 3s 4d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_hose_cb27e0022a87be271beeea11c5dd5611959c34aeb14e41d7d42fd92e20d934685ea"/>
-    <hector:perQuantity rdf:nodeID="commodity_hose_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
-    <hector:qualifier rdf:nodeID="commodity_hose_cb1ceddbe0dde5332f4c8a1b8b888b61c0c595ff4db4bff328f8e7bc1517de5ff89"/>
-    <hector:sourceText>Book of Rates 1558, outward, line 27 (transcribed by Stuart Jenks): 'Hosen longe the payre' 3s 4d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cb112298b73a53a0134ce97c526f97d718175007371431ceae88a517929605a48cf">
-    <crm:P190_has_symbolic_content>wemens hosen</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>wemens hosen</hector:phoneticKey>
+  <rdf:Description rdf:nodeID="commodity_hose_cb25d620300194b0779fd1bbe18fa32e4c74bd2f2a146d15b40804135547f965d3f">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/hose">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
@@ -189,31 +62,8 @@
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">870</hector:attestationCount>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/hose#rate-1545-outward-12"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/hose#rate-1558-inward-590"/>
-    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/hose#rate-1558-inward-995"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/hose#rate-1558-outward-27"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/hose#rate-1558-outward-28"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cb16decaaf5fd5638da8b351bcc7d1c304b5ae9a74e057fd0f0de5711d0470781de">
-    <crm:P190_has_symbolic_content>caligae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kalige</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cb1ef4ca3dcf06fe0cdf8a369a59b955628b543c8e7f85cf2f111cdf495cf518be2">
-    <crm:P190_has_symbolic_content>hossyn</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>hosin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cb25d620300194b0779fd1bbe18fa32e4c74bd2f2a146d15b40804135547f965d3f">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>6s 8d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_hose_cb28e9723fc5c3f5687a705cb7c524b3bc5f27d2fbdb342bc5fb694cae9ddb8fdff">
     <crm:P190_has_symbolic_content>hosyn</crm:P190_has_symbolic_content>
@@ -223,25 +73,22 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cb247b7a05ef4b4fd8056a1953bf98437a7a360322218c0cd34115ade8d91605d2a">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>knitted</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_hose_cb1ee5c5ac6f716fd3557728e5093450734aa9c5c37839965cc375e1f79aa827eba">
+    <crm:P190_has_symbolic_content>kaliga</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kaliga</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hose#rate-1558-inward-995">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Spruse skynnes for hosen the dosen 26s 8d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_hose_cb1d641acd9807eb03df298bf97d9a89387abf613f7ed875ecef3b09722302f6c6a"/>
-    <hector:perQuantity rdf:nodeID="commodity_hose_cb1c4786c74c364263432aa2dad6855edc716d029e47c27ac10e512162b9921b66e"/>
-    <hector:qualifier rdf:nodeID="commodity_hose_cb1780299410ad668f9b1527efde1bd218254035443457f13f271e49050ea90ebd8"/>
-    <hector:qualifier rdf:nodeID="commodity_hose_cb1b3cc1da5257a50b971f8f3a3af290b9171f75556d046bcc3899ceebbf4b36e98"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 995 (transcribed by Stuart Jenks): 'Spruse skynnes for hosen the dosen' 26s 8d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cb1b3cc1da5257a50b971f8f3a3af290b9171f75556d046bcc3899ceebbf4b36e98">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>Prussia</rdfs:label>
-    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q918723"/>
+  <rdf:Description rdf:nodeID="commodity_hose_cb27f1f64c70907e878a5eb4432549f95fa9e8ecc94476cf195c6a9eb66e62161c5">
+    <crm:P190_has_symbolic_content>hose</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>hosə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_hose_cb2d82bd306584df2b8b22058d6de69584d2b3a1ac3581046c093a7c6b1ffb91b89">
     <crm:P190_has_symbolic_content>hosen</crm:P190_has_symbolic_content>
@@ -251,62 +98,6 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cbd8ba8cadff1e5184f171bf176d4584e71d46d0acb0d9804fabfc7b8ed4fcae39">
-    <crm:P190_has_symbolic_content>kaligae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kalige</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cb291ed4bd077675ed334dbf99ca4e27ad5db0f7ade9fa7938312f1ded6f67853df">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>26s 8d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cbf0be3dae63a32490dfdf41a96baa38e05706b9f983e96ae47ac5e88470a02b8f">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>short</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cb1780299410ad668f9b1527efde1bd218254035443457f13f271e49050ea90ebd8">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>skin</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>dozen</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cb22ae97faf673466eaa1a73860d5e28144559de4b28e64c3e1fc88282975291046">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>8s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300209935">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>trousers</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cbb1e71e072285e400614668d15367793e735d4dcfdb643fbd2c76d6e2004e5e3c">
-    <crm:P190_has_symbolic_content>caligis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kalidʒis</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cb1365b3fbaedf1d5b9bc453c7a91b31acc5063847ec2182178172469c5ece86f42">
-    <crm:P190_has_symbolic_content>meaning unknown | footwear, especially hose; knitted stocking | footwear, esp. hose; knitted stocking | footwear, esp. hose; knitted stocking, but clausa is of unknown meaning | hose, here short (Latham Word-List s.v. caliga) | hose; stocking (Latham Word-List s.v. caliga), here short | an article of clothing for the leg; sometimes reaching down only to the ankle as a legging or gaiter, sometimes also covering the foot like a long stocking (OED s.v. hose n.) | an article of clothing for the leg; sometimes reaching down only to the ankle as a legging or gaiter, sometimes also covering the foot like a long stocking (OED s.v. hose n.), here for women | an article of clothing for the leg; sometimes reaching down only to the ankle as a legging or gaiter, here also covering the foot like a long stocking (OED s.v. hose n.) | an article of clothing for the leg; sometimes reaching down only to the ankle as a legging or gaiter, sometimes also covering the foot like a long stocking (OED s.v. hose n.) (in pairs) | an article of clothing for the leg; sometimes reaching down only to the ankle as a legging or gaiter, sometimes also covering the foot like a long stocking (OED s.v. hose n.), here knit | hose (q.v.), knit</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cb1c4786c74c364263432aa2dad6855edc716d029e47c27ac10e512162b9921b66e">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_hose_cb2b463a7b45e603f08d3e55c734831d7e432adc308d7601ca035b0025f13257661">
     <crm:P190_has_symbolic_content>caligarum par</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -314,10 +105,6 @@
     <hector:phoneticKey>kaligarum par</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q918723">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-    <rdfs:label>Prussia</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_hose_cb2c927fd4eac6a09b6bd8f7aa47190b1637498d0efc52bdc67759d4e6074b778c6">
     <crm:P190_has_symbolic_content>calliga</crm:P190_has_symbolic_content>
@@ -327,21 +114,173 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/hose">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>hose (London Customs Accounts glossary)</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_hose_cb22ae97faf673466eaa1a73860d5e28144559de4b28e64c3e1fc88282975291046">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>8s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  <rdf:Description rdf:nodeID="commodity_hose_cb112298b73a53a0134ce97c526f97d718175007371431ceae88a517929605a48cf">
+    <crm:P190_has_symbolic_content>wemens hosen</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>wemens hosen</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hose_cb1ef4ca3dcf06fe0cdf8a369a59b955628b543c8e7f85cf2f111cdf495cf518be2">
+    <crm:P190_has_symbolic_content>hossyn</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>hosin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/sheepskin">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>sheepskin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hose_cb91a3ca10a7c92a4788714bcb49ec3d28b536bf77568a2e77ea05a27c4cdd19d3">
+    <crm:P190_has_symbolic_content>calige</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kalidʒə</hector:phoneticKey>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_hose_cb1e7675222948b3d04abef849eef27ed72f97076b34b56b7086bde3981126d7798">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pair"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hose_cb16decaaf5fd5638da8b351bcc7d1c304b5ae9a74e057fd0f0de5711d0470781de">
+    <crm:P190_has_symbolic_content>caligae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kalige</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hose_cb18ec1803741aee319cc5bf3d17c3e9bc2e15f1c09a3ee1a1e6b202088422b5e64">
+    <crm:P190_has_symbolic_content>knyt hosis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>knit hosis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hose_cb1d3a5c6af304c09661f2a5188e84fd691e463a937b8ccc483826208a9b98ed4e9">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>silk</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300243428"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hose_cb1742f9d11cc46129f88ba2f5d19b6cc4be11f42fb42accef06aeb7f83af74a622">
+    <crm:P190_has_symbolic_content>housen</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>huːsen</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_hose_cb18b09de7826ee736a14cb989779b9a8c71e4b0cde07754a84d9a2bb1d5df408a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hose#rate-1558-outward-27">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 outward: Hosen longe the payre 3s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_hose_cb27e0022a87be271beeea11c5dd5611959c34aeb14e41d7d42fd92e20d934685ea"/>
+    <hector:perQuantity rdf:nodeID="commodity_hose_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_hose_cb1ceddbe0dde5332f4c8a1b8b888b61c0c595ff4db4bff328f8e7bc1517de5ff89"/>
+    <hector:sourceText>Book of Rates 1558, outward, line 27 (transcribed by Stuart Jenks): 'Hosen longe the payre' 3s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hose_cb1365b3fbaedf1d5b9bc453c7a91b31acc5063847ec2182178172469c5ece86f42">
+    <crm:P190_has_symbolic_content>meaning unknown | footwear, especially hose; knitted stocking | footwear, esp. hose; knitted stocking | footwear, esp. hose; knitted stocking, but clausa is of unknown meaning | hose, here short (Latham Word-List s.v. caliga) | hose; stocking (Latham Word-List s.v. caliga), here short | an article of clothing for the leg; sometimes reaching down only to the ankle as a legging or gaiter, sometimes also covering the foot like a long stocking (OED s.v. hose n.) | an article of clothing for the leg; sometimes reaching down only to the ankle as a legging or gaiter, sometimes also covering the foot like a long stocking (OED s.v. hose n.), here for women | an article of clothing for the leg; sometimes reaching down only to the ankle as a legging or gaiter, here also covering the foot like a long stocking (OED s.v. hose n.) | an article of clothing for the leg; sometimes reaching down only to the ankle as a legging or gaiter, sometimes also covering the foot like a long stocking (OED s.v. hose n.) (in pairs) | an article of clothing for the leg; sometimes reaching down only to the ankle as a legging or gaiter, sometimes also covering the foot like a long stocking (OED s.v. hose n.), here knit | hose (q.v.), knit</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hose_cb180a3daa372ed24e2e08e504b6b4eed425f80b6c94c4e5350ec58ffa9a6099f0b">
+    <crm:P190_has_symbolic_content>caliga</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kaliga</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hose_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pair"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hose_cb27e0022a87be271beeea11c5dd5611959c34aeb14e41d7d42fd92e20d934685ea">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>3s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hose_cbd8ba8cadff1e5184f171bf176d4584e71d46d0acb0d9804fabfc7b8ed4fcae39">
+    <crm:P190_has_symbolic_content>kaligae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kalige</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hose#rate-1545-outward-12">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 outward: Wemens hosen the dossen 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_hose_cb25d620300194b0779fd1bbe18fa32e4c74bd2f2a146d15b40804135547f965d3f"/>
+    <hector:perQuantity rdf:nodeID="commodity_hose_cb18b09de7826ee736a14cb989779b9a8c71e4b0cde07754a84d9a2bb1d5df408a0"/>
+    <hector:sourceText>Book of Rates 1545, outward, line 12 (transcribed by Stuart Jenks): 'Wemens hosen the dossen' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300209935">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>trousers</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hose_cb247b7a05ef4b4fd8056a1953bf98437a7a360322218c0cd34115ade8d91605d2a">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>knitted</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/hose">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>hose (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hose_cb221d898f3af1f8d2a142bf00c7b5cf42c06ab12b1a3a36f206a3cf64b86746ffb">
+    <crm:P190_has_symbolic_content>hoose</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>hoːsə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hose_cb1046ea0c795ee884a0d27eb1d98d6e71a3f0e0be504d8fb4d9487e7c999e4e743">
+    <crm:P190_has_symbolic_content>caligarum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kaligarum</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hose#rate-1558-outward-28">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 outward: Hosen shorte the dosen payre 8s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_hose_cb22ae97faf673466eaa1a73860d5e28144559de4b28e64c3e1fc88282975291046"/>
+    <hector:perQuantity rdf:nodeID="commodity_hose_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_hose_cbf0be3dae63a32490dfdf41a96baa38e05706b9f983e96ae47ac5e88470a02b8f"/>
+    <hector:sourceText>Book of Rates 1558, outward, line 28 (transcribed by Stuart Jenks): 'Hosen shorte the dosen payre' 8s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hose_cb291ed4bd077675ed334dbf99ca4e27ad5db0f7ade9fa7938312f1ded6f67853df">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>26s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hose_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
@@ -350,13 +289,38 @@
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>preferred terms</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hose_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pair"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  <rdf:Description rdf:nodeID="commodity_hose_cbf0be3dae63a32490dfdf41a96baa38e05706b9f983e96ae47ac5e88470a02b8f">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>short</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hose_cbb1e71e072285e400614668d15367793e735d4dcfdb643fbd2c76d6e2004e5e3c">
+    <crm:P190_has_symbolic_content>caligis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kalidʒis</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300243428">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>silk (textile)</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
     <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pair">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pair</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hose_cb1ceddbe0dde5332f4c8a1b8b888b61c0c595ff4db4bff328f8e7bc1517de5ff89">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>long</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

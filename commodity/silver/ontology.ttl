@@ -55,10 +55,11 @@
     hector:taxation <https://w3id.org/hector/commodity/silver#rate-1507-none-123>,
         <https://w3id.org/hector/commodity/silver#rate-1545-inward-661>,
         <https://w3id.org/hector/commodity/silver#rate-1558-inward-258>,
-        <https://w3id.org/hector/commodity/silver#rate-1558-inward-299>,
         <https://w3id.org/hector/commodity/silver#rate-1558-inward-31>,
-        <https://w3id.org/hector/commodity/silver#rate-1558-inward-878>,
         <https://w3id.org/hector/commodity/silver#rate-1558-inward-960> .
+
+aat:300011021 a crm:E55_Type ;
+    rdfs:label "gold (metal)" .
 
 aat:300011029 a crm:E57_Material ;
     rdfs:label "silver (metal)" .
@@ -129,25 +130,6 @@ wd:Q365 a crm:E53_Place ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
-<https://w3id.org/hector/commodity/silver#rate-1558-inward-299> a hector:Rate ;
-    rdfs:label "1558 inward: Crippen partlettes of gold or sylver the dossen £6" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "£6" ;
-            hector:valueInPence 1440.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 12 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "Crippen partlettes" ;
-            crm:P2_has_type hector:AttestedVariant ],
-        [ a crm:E55_Type ;
-            rdfs:label "gold" ;
-            la:equivalent aat:300011021 ] ;
-    hector:sourceText "Book of Rates 1558, inward, line 299 (transcribed by Stuart Jenks): 'Crippen partlettes of gold or sylver the dossen' £6" ;
-    hector:validFrom "1558"^^xsd:gYear ;
-    hector:validThrough "1604"^^xsd:gYear .
-
 <https://w3id.org/hector/commodity/silver#rate-1558-inward-31> a hector:Rate ;
     rdfs:label "1558 inward: Argentum sublime, the C lb. cont’ five score pounde £10" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -161,22 +143,6 @@ wd:Q365 a crm:E53_Place ;
             rdfs:label "sublime" ;
             crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 31 (transcribed by Stuart Jenks): 'Argentum sublime, the C lb. cont’ five score pounde' £10" ;
-    hector:validFrom "1558"^^xsd:gYear ;
-    hector:validThrough "1604"^^xsd:gYear .
-
-<https://w3id.org/hector/commodity/silver#rate-1558-inward-878> a hector:Rate ;
-    rdfs:label "1558 inward: Quycke sylver the pounde 16d" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "16d" ;
-            hector:valueInPence 16.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 1 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "Quycke" ;
-            crm:P2_has_type hector:AttestedVariant ] ;
-    hector:sourceText "Book of Rates 1558, inward, line 878 (transcribed by Stuart Jenks): 'Quycke sylver the pounde' 16d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
@@ -196,20 +162,11 @@ wd:Q365 a crm:E53_Place ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
-<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
-    rdfs:label "dozen" .
-
 <https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
     rdfs:label "hundred" .
 
-<https://w3id.org/hector/unit/pound> a crm:E58_Measurement_Unit ;
-    rdfs:label "pound" .
-
 <https://w3id.org/mlca/glossary/silver> a crm:E55_Type ;
     rdfs:label "silver (London Customs Accounts glossary)" .
-
-aat:300011021 a crm:E55_Type ;
-    rdfs:label "gold (metal)" .
 
 wd:Q12994 a crm:E53_Place ;
     rdfs:label "Bruges" .

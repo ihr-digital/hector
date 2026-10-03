@@ -88,7 +88,6 @@
         <https://w3id.org/hector/commodity/latten#rate-1507-none-158>,
         <https://w3id.org/hector/commodity/latten#rate-1507-none-159>,
         <https://w3id.org/hector/commodity/latten#rate-1507-none-22>,
-        <https://w3id.org/hector/commodity/latten#rate-1545-inward-164>,
         <https://w3id.org/hector/commodity/latten#rate-1545-inward-439>,
         <https://w3id.org/hector/commodity/latten#rate-1545-inward-440>,
         <https://w3id.org/hector/commodity/latten#rate-1545-inward-441>,
@@ -96,8 +95,6 @@
         <https://w3id.org/hector/commodity/latten#rate-1545-inward-443>,
         <https://w3id.org/hector/commodity/latten#rate-1545-inward-86>,
         <https://w3id.org/hector/commodity/latten#rate-1558-inward-134>,
-        <https://w3id.org/hector/commodity/latten#rate-1558-inward-238>,
-        <https://w3id.org/hector/commodity/latten#rate-1558-inward-344>,
         <https://w3id.org/hector/commodity/latten#rate-1558-inward-646>,
         <https://w3id.org/hector/commodity/latten#rate-1558-inward-647>,
         <https://w3id.org/hector/commodity/latten#rate-1558-inward-648>,
@@ -191,22 +188,6 @@ aat:300435416 a crm:E55_Type ;
     hector:sourceText "Book of Rates 1507, line 22 (transcribed by Stuart Jenks): 'Blake latten rowles the C' 20s" ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
-
-<https://w3id.org/hector/commodity/latten#rate-1545-inward-164> a hector:Rate ;
-    rdfs:label "1545 inward: Counters of laten the pound 4d" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "4d" ;
-            hector:valueInPence 4.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 1 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "Counters" ;
-            crm:P2_has_type hector:AttestedVariant ] ;
-    hector:sourceText "Book of Rates 1545, inward, line 164 (transcribed by Stuart Jenks): 'Counters of laten the pound' 4d" ;
-    hector:validFrom "1545"^^xsd:gYear ;
-    hector:validThrough "1558"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/latten#rate-1545-inward-439> a hector:Rate ;
     rdfs:label "1545 inward: Latten shaven the barrell £6" ;
@@ -329,41 +310,6 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
-<https://w3id.org/hector/commodity/latten#rate-1558-inward-238> a hector:Rate ;
-    rdfs:label "1558 inward: Counters of latten the pounde 10d" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "10d" ;
-            hector:valueInPence 10.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 1 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "Counters" ;
-            crm:P2_has_type hector:AttestedVariant ] ;
-    hector:sourceText "Book of Rates 1558, inward, line 238 (transcribed by Stuart Jenks): 'Counters of latten the pounde' 10d" ;
-    hector:validFrom "1558"^^xsd:gYear ;
-    hector:validThrough "1604"^^xsd:gYear .
-
-<https://w3id.org/hector/commodity/latten#rate-1558-inward-344> a hector:Rate ;
-    rdfs:label "1558 inward: Cesternes of latten for cupperdes the lb 6d" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "6d" ;
-            hector:valueInPence 6.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 1 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "Cesternes" ;
-            crm:P2_has_type hector:AttestedVariant ],
-        [ a crm:E55_Type ;
-            rdfs:label "cupperdes" ;
-            crm:P2_has_type hector:AttestedVariant ] ;
-    hector:sourceText "Book of Rates 1558, inward, line 344 (transcribed by Stuart Jenks): 'Cesternes of latten for cupperdes the lb' 6d" ;
-    hector:validFrom "1558"^^xsd:gYear ;
-    hector:validThrough "1604"^^xsd:gYear .
-
 <https://w3id.org/hector/commodity/latten#rate-1558-inward-646> a hector:Rate ;
     rdfs:label "1558 inward: Latten shaven the barrell cont’ 6 C [lb.] at 112 lb £12" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -441,9 +387,6 @@ aat:300130920 a crm:E55_Type ;
 
 <https://w3id.org/hector/unit/hundredweight> a crm:E58_Measurement_Unit ;
     rdfs:label "hundredweight" .
-
-<https://w3id.org/hector/unit/pound> a crm:E58_Measurement_Unit ;
-    rdfs:label "pound" .
 
 <https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
     rdfs:label "hundred" .

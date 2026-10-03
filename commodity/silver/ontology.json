@@ -285,57 +285,6 @@
       ]
     },
     {
-      "id": "https://w3id.org/hector/commodity/silver#rate-1558-inward-299",
-      "type": "Rate",
-      "_label": "1558 inward: Crippen partlettes of gold or sylver the dossen £6",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "1440",
-        "lsd": "£6"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 12,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/dozen",
-          "type": "MeasurementUnit",
-          "_label": "dozen"
-        }
-      },
-      "validFrom": "1558",
-      "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 299 (transcribed by Stuart Jenks): 'Crippen partlettes of gold or sylver the dossen' £6",
-      "qualifier": [
-        {
-          "type": "Type",
-          "_label": "Crippen partlettes",
-          "classified_as": [
-            {
-              "id": "hector:AttestedVariant",
-              "type": "Type",
-              "_label": "attested variant"
-            }
-          ]
-        },
-        {
-          "type": "Type",
-          "_label": "gold",
-          "equivalent": [
-            {
-              "id": "aat:300011021",
-              "type": "Type",
-              "_label": "gold (metal)"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://w3id.org/hector/commodity/silver#rate-1558-inward-31",
       "type": "Rate",
       "_label": "1558 inward: Argentum sublime, the C lb. cont’ five score pounde £10",
@@ -365,46 +314,6 @@
         {
           "type": "Type",
           "_label": "sublime",
-          "classified_as": [
-            {
-              "id": "hector:AttestedVariant",
-              "type": "Type",
-              "_label": "attested variant"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://w3id.org/hector/commodity/silver#rate-1558-inward-878",
-      "type": "Rate",
-      "_label": "1558 inward: Quycke sylver the pounde 16d",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "16",
-        "lsd": "16d"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 1,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/pound",
-          "type": "MeasurementUnit",
-          "_label": "pound"
-        }
-      },
-      "validFrom": "1558",
-      "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 878 (transcribed by Stuart Jenks): 'Quycke sylver the pounde' 16d",
-      "qualifier": [
-        {
-          "type": "Type",
-          "_label": "Quycke",
           "classified_as": [
             {
               "id": "hector:AttestedVariant",

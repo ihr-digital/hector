@@ -207,16 +207,12 @@
         <https://w3id.org/hector/commodity/silk#rate-1545-inward-704>,
         <https://w3id.org/hector/commodity/silk#rate-1545-inward-727>,
         <https://w3id.org/hector/commodity/silk#rate-1545-inward-730>,
-        <https://w3id.org/hector/commodity/silk#rate-1558-inward-1045>,
         <https://w3id.org/hector/commodity/silk#rate-1558-inward-1055>,
         <https://w3id.org/hector/commodity/silk#rate-1558-inward-1056>,
         <https://w3id.org/hector/commodity/silk#rate-1558-inward-1057>,
         <https://w3id.org/hector/commodity/silk#rate-1558-inward-1058>,
         <https://w3id.org/hector/commodity/silk#rate-1558-inward-1070>,
         <https://w3id.org/hector/commodity/silk#rate-1558-inward-256>,
-        <https://w3id.org/hector/commodity/silk#rate-1558-inward-300>,
-        <https://w3id.org/hector/commodity/silk#rate-1558-inward-302>,
-        <https://w3id.org/hector/commodity/silk#rate-1558-inward-872>,
         <https://w3id.org/hector/commodity/silk#rate-1558-inward-950>,
         <https://w3id.org/hector/commodity/silk#rate-1558-inward-951>,
         <https://w3id.org/hector/commodity/silk#rate-1558-inward-952>,
@@ -496,22 +492,6 @@ wd:Q90 a crm:E53_Place ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
-<https://w3id.org/hector/commodity/silk#rate-1558-inward-1045> a hector:Rate ;
-    rdfs:label "1558 inward: Sackclothe of sylke the yarde 3s 4d" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "3s 4d" ;
-            hector:valueInPence 40.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 1 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/yard> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "Sackclothe" ;
-            crm:P2_has_type hector:AttestedVariant ] ;
-    hector:sourceText "Book of Rates 1558, inward, line 1045 (transcribed by Stuart Jenks): 'Sackclothe of sylke the yarde' 3s 4d" ;
-    hector:validFrom "1558"^^xsd:gYear ;
-    hector:validThrough "1604"^^xsd:gYear .
-
 <https://w3id.org/hector/commodity/silk#rate-1558-inward-1055> a hector:Rate ;
     rdfs:label "1558 inward: Silke of Granado coloured the pounde conteynynge sixtene ounces 26s 8d" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -610,54 +590,6 @@ wd:Q90 a crm:E53_Place ;
             rdfs:label "Cologne" ;
             hector:originPlace wd:Q365 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 256 (transcribed by Stuart Jenks): 'Coollen sylke the clowte cont’ 4 pounde' £3" ;
-    hector:validFrom "1558"^^xsd:gYear ;
-    hector:validThrough "1604"^^xsd:gYear .
-
-<https://w3id.org/hector/commodity/silk#rate-1558-inward-300> a hector:Rate ;
-    rdfs:label "1558 inward: Crippen parttelettes with sylke the dossen £4" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "£4" ;
-            hector:valueInPence 960.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 12 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "Crippen parttelettes" ;
-            crm:P2_has_type hector:AttestedVariant ] ;
-    hector:sourceText "Book of Rates 1558, inward, line 300 (transcribed by Stuart Jenks): 'Crippen parttelettes with sylke the dossen' £4" ;
-    hector:validFrom "1558"^^xsd:gYear ;
-    hector:validThrough "1604"^^xsd:gYear .
-
-<https://w3id.org/hector/commodity/silk#rate-1558-inward-302> a hector:Rate ;
-    rdfs:label "1558 inward: Crippen sleaves with sylke the payre 10s" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "10s" ;
-            hector:valueInPence 120.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 1 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/pair> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "Crippen sleaves" ;
-            crm:P2_has_type hector:AttestedVariant ] ;
-    hector:sourceText "Book of Rates 1558, inward, line 302 (transcribed by Stuart Jenks): 'Crippen sleaves with sylke the payre' 10s" ;
-    hector:validFrom "1558"^^xsd:gYear ;
-    hector:validThrough "1604"^^xsd:gYear .
-
-<https://w3id.org/hector/commodity/silk#rate-1558-inward-872> a hector:Rate ;
-    rdfs:label "1558 inward: Pomett lace of sylke the grosse 8s" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "8s" ;
-            hector:valueInPence 96.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 144 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "Pomett lace" ;
-            crm:P2_has_type hector:AttestedVariant ] ;
-    hector:sourceText "Book of Rates 1558, inward, line 872 (transcribed by Stuart Jenks): 'Pomett lace of sylke the grosse' 8s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
@@ -829,15 +761,6 @@ wd:Q90 a crm:E53_Place ;
 <https://w3id.org/hector/unit/clout> a crm:E58_Measurement_Unit ;
     rdfs:label "clout" .
 
-<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
-    rdfs:label "dozen" .
-
-<https://w3id.org/hector/unit/gross> a crm:E58_Measurement_Unit ;
-    rdfs:label "gross" .
-
-<https://w3id.org/hector/unit/pair> a crm:E58_Measurement_Unit ;
-    rdfs:label "pair" .
-
 <https://w3id.org/hector/unit/paper> a crm:E58_Measurement_Unit ;
     rdfs:label "paper (measure)" .
 
@@ -850,11 +773,11 @@ wd:Q365 a crm:E53_Place ;
 <https://w3id.org/hector/unit/ell> a crm:E58_Measurement_Unit ;
     rdfs:label "ell" .
 
-aat:300221288 a crm:E55_Type ;
-    rdfs:label "unfinished" .
-
 <https://w3id.org/hector/unit/yard> a crm:E58_Measurement_Unit ;
     rdfs:label "yard" .
+
+aat:300221288 a crm:E55_Type ;
+    rdfs:label "unfinished" .
 
 <https://w3id.org/hector/unit/pound> a crm:E58_Measurement_Unit ;
     rdfs:label "pound" .

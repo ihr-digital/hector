@@ -54,5 +54,34 @@
       "_label": "iron dowbles (London Customs Accounts glossary)"
     }
   ],
-  "modified": "2026-09-29"
+  "modified": "2026-09-29",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/iron-dowbles#rate-1558-inward-368",
+      "type": "Rate",
+      "_label": "1558 inward: Doble yron plates vocat’ dobles the shock cont’ 6 bundelles 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/shock",
+          "type": "MeasurementUnit",
+          "_label": "shock"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 368 (transcribed by Stuart Jenks): 'Doble yron plates vocat’ dobles the shock cont’ 6 bundelles' 40s"
+    }
+  ]
 }

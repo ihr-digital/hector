@@ -8,181 +8,7 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_curtain_cb13748146782b577abd77568ae261559b09111a6071c9881de4142dea8f506a5c4">
-    <crm:P190_has_symbolic_content>courtin</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kuːrtin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cb2d90ed4d6420f322030e1988ccc026a3d5480483513ba82e742204832fc684bd8">
-    <crm:P190_has_symbolic_content>curtina</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kurtina</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/curtain">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb11a3e1b83e07c82c5b4d25af6e1a36d8e70b12367e8b93a1f7de5859e4ecdb808"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb120dfdd0fffe4a43f9f42316d1c097f809161d27f2dcc93a9ab84bc43fb6bd458"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb13748146782b577abd77568ae261559b09111a6071c9881de4142dea8f506a5c4"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb17fb153d0ea7a89b6f17dbe8385627cd284925cbf0614578f9a90aa5336ec5c7e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb1e398267b54cba9f96cb481058aefb2107fe1266fa251b0a7f7f433af527cb179"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb1ec6a14433806476143edfa2d042f942c1b7800812d884a777b57adb80940d6c9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb1f88d131d57c79e5e94a9401e3186896bce2ad41179e2f5b0257a5ee9419ad46a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb20adda1443a3e6722899d7a810530eaadb7cbdc28ea7af2cbc9a63a5e8a4dfd99"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb20e84435cb63702bd68451de124463e4bb5eb0abf57ec9256e3c5232e9e445f00"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb23d811e202ca09bc781fa41005251da52ac696b46c86a3e446b1968dca091d76f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb24f1db94f33d280fcc574598b38f948764e5d30b3a04106b18598570b9a92ba19"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb260f4099c7a240c954f1ca220ae0cb69cc8411f9cb91afe5c03899b7f1235b3af"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb263d9eb1f087afb324696490c3b8a3f6ecdb0d73e9a9116933b29e302528dd4d3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb2bbfeeae4a37e5924c95a670e835e8f30678b2853893ae76a41a68f895282acfd"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb2d45bc90ae4808ff78a50412868e151eeed3b9b5a75902e53551b8d1a275ff866"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb2d90ed4d6420f322030e1988ccc026a3d5480483513ba82e742204832fc684bd8"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb32fb8971575d42605d0140b2846585f82261195b58bcf3a7373a0def344eb9b46"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb3f11e3c7eb0d83fc7d514a82a5a963b2c63622b536e9664a1ff9217a201e77df"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb810996697283409ded1a40ca11ab1bf69099c93cbd71a5f2c6c697c75612369a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cbba8fc650d5e297849a3b28aed4c27295258a5371fc8442ebf329c0b6ccd00279"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_curtain_cb18b0e03c940fe6630b26b73b37af0d380d8772ff8d2a3cc21ab0e41a1a79bfcfe"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>curtain</rdfs:label>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/curtain"/>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300037564"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</hector:attestationCount>
-    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/curtain#rate-1558-inward-266"/>
-    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/curtain#rate-1558-inward-324"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cb32fb8971575d42605d0140b2846585f82261195b58bcf3a7373a0def344eb9b46">
-    <crm:P190_has_symbolic_content>curteyn</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kurtein</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/curtain#rate-1558-inward-324">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Curteyns capparis the pounde 12d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_curtain_cb280655fe811943cec1bc3df3d66dc8cbba9f92f8c4fe9c961047c80684170059e"/>
-    <hector:perQuantity rdf:nodeID="commodity_curtain_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
-    <hector:qualifier rdf:nodeID="commodity_curtain_cb1d6e3f43d1a3a8aa5f8fda7beca6ea23041918dd7818edb1a93166988ff815655"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 324 (transcribed by Stuart Jenks): 'Curteyns capparis the pounde' 12d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cb20adda1443a3e6722899d7a810530eaadb7cbdc28ea7af2cbc9a63a5e8a4dfd99">
-    <crm:P190_has_symbolic_content>curtens</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kurtens</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cb28f566e048e557157d68410c8d6e6dd76c107e69c43faa1eef9d8a0973beccf4e">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>rynges</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cb3f11e3c7eb0d83fc7d514a82a5a963b2c63622b536e9664a1ff9217a201e77df">
-    <crm:P190_has_symbolic_content>curtinis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kurtinis</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cb1ec6a14433806476143edfa2d042f942c1b7800812d884a777b57adb80940d6c9">
-    <crm:P190_has_symbolic_content>courtens</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kuːrtens</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cb2bbfeeae4a37e5924c95a670e835e8f30678b2853893ae76a41a68f895282acfd">
-    <crm:P190_has_symbolic_content>curtynes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kurtinəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300037564">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>curtains (opening hangings)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/curtain#rate-1558-inward-266">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Curten rynges the pounde 8d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_curtain_cb30aca539a21063a2c4d0f6aae105f322a46da31f81341dd175cca265732489d83"/>
-    <hector:perQuantity rdf:nodeID="commodity_curtain_cb2aae40bb7235cfa81ba5f92953b00b419a40424e39347d116d08a91232bebd670"/>
-    <hector:qualifier rdf:nodeID="commodity_curtain_cb28f566e048e557157d68410c8d6e6dd76c107e69c43faa1eef9d8a0973beccf4e"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 266 (transcribed by Stuart Jenks): 'Curten rynges the pounde' 8d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cb20e84435cb63702bd68451de124463e4bb5eb0abf57ec9256e3c5232e9e445f00">
-    <crm:P190_has_symbolic_content>curtain</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kurtain</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cb1e398267b54cba9f96cb481058aefb2107fe1266fa251b0a7f7f433af527cb179">
-    <crm:P190_has_symbolic_content>courtins</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kuːrtins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cb810996697283409ded1a40ca11ab1bf69099c93cbd71a5f2c6c697c75612369a">
-    <crm:P190_has_symbolic_content>curtinarum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kurtinarum</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cb260f4099c7a240c954f1ca220ae0cb69cc8411f9cb91afe5c03899b7f1235b3af">
-    <crm:P190_has_symbolic_content>curten</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kurten</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cb23d811e202ca09bc781fa41005251da52ac696b46c86a3e446b1968dca091d76f">
-    <crm:P190_has_symbolic_content>curtinae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kurtine</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cb120dfdd0fffe4a43f9f42316d1c097f809161d27f2dcc93a9ab84bc43fb6bd458">
-    <crm:P190_has_symbolic_content>curtyns</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kurtins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cb1f88d131d57c79e5e94a9401e3186896bce2ad41179e2f5b0257a5ee9419ad46a">
-    <crm:P190_has_symbolic_content>cortins</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kortins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cbba8fc650d5e297849a3b28aed4c27295258a5371fc8442ebf329c0b6ccd00279">
+  <rdf:Description rdf:nodeID="commodity_curtain_cb614341fed3cec8eaa6670ddfc00101cbff2003cf86b615b3bcf7cff0002d140b">
     <crm:P190_has_symbolic_content>corteyns</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -190,59 +16,7 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cb263d9eb1f087afb324696490c3b8a3f6ecdb0d73e9a9116933b29e302528dd4d3">
-    <crm:P190_has_symbolic_content>curteyns</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kurteins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cb2aae40bb7235cfa81ba5f92953b00b419a40424e39347d116d08a91232bebd670">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cb280655fe811943cec1bc3df3d66dc8cbba9f92f8c4fe9c961047c80684170059e">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>12d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cb17fb153d0ea7a89b6f17dbe8385627cd284925cbf0614578f9a90aa5336ec5c7e">
-    <crm:P190_has_symbolic_content>corteyn</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kortein</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cb1d6e3f43d1a3a8aa5f8fda7beca6ea23041918dd7818edb1a93166988ff815655">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>capparis</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cb24f1db94f33d280fcc574598b38f948764e5d30b3a04106b18598570b9a92ba19">
-    <crm:P190_has_symbolic_content>curtyne</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kurtinə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cb11a3e1b83e07c82c5b4d25af6e1a36d8e70b12367e8b93a1f7de5859e4ecdb808">
-    <crm:P190_has_symbolic_content>curtyn</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kurtin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cb2d45bc90ae4808ff78a50412868e151eeed3b9b5a75902e53551b8d1a275ff866">
+  <rdf:Description rdf:nodeID="commodity_curtain_cb1d593677c11848d31f30efaaab975a2fabfe9cb0da4e25519028388bf7544953c">
     <crm:P190_has_symbolic_content>cortin</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -250,31 +24,230 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cb30aca539a21063a2c4d0f6aae105f322a46da31f81341dd175cca265732489d83">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>8d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</hector:valueInPence>
+  <rdf:Description rdf:nodeID="commodity_curtain_cb602bd23541e498d97c6e9c8b9243bd67e16e2d200dae94785f5330b6210fcfaf">
+    <crm:P190_has_symbolic_content>curtinarum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kurtinarum</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/curtain">
+  <rdf:Description rdf:nodeID="commodity_curtain_cbe3aafadab4973a049f8a7719c194e213ab46c090dd26f60d6d12621a0f708f5f">
+    <crm:P190_has_symbolic_content>courtin</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kuːrtin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/curtain#rate-1558-inward-266">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Curten rynges the pounde 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_curtain_cbdaebeeff23bc278c383d32dda8787008c9119364e2e75cf1fc4b820dc37d624b"/>
+    <hector:perQuantity rdf:nodeID="commodity_curtain_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109"/>
+    <hector:qualifier rdf:nodeID="commodity_curtain_cb0"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 266 (transcribed by Stuart Jenks): 'Curten rynges the pounde' 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_curtain_cb1e8d22b1b78c8f0afe49eabe5f286d60b9cf10e76958a017ca2f030864ffeae0c">
+    <crm:P190_has_symbolic_content>curteyns</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kurteins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_curtain_cb6a06abfe3d9f56a011155de3b22e545d0e84b6090c51e43a4e6c2fcdc9d4ab1f">
+    <crm:P190_has_symbolic_content>curtyn</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kurtin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/curtain">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb1097e8eae7d684ca7a66c91add4644697550caa13e6d760dcc2aa3d4a3dd1e09"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb10fd4c4d69b00872c3b42b08673cbe13a2936605a8406021d6a39f97abc2459a3"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb144f1e2f29ec64a683e701e28dca8147fe7c98a1304de3fc4056d42c831a13c6e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb17726f29980ddb028ac80bda25d9ca27b3df562d0127a0a2b15d1758ead541603"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb17eb705a4cb9c45b97f4182caadf25fe1137b251233f25f60b1bf80abd9e23d44"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb1a5148e8a0aa5bb8e26fdc75a915b47ccd1c1c3d3f7d7bffcf69e11a1f223d20c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb1d593677c11848d31f30efaaab975a2fabfe9cb0da4e25519028388bf7544953c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb1e8d22b1b78c8f0afe49eabe5f286d60b9cf10e76958a017ca2f030864ffeae0c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb1f2fddaf2ca14e101a420d4cb97d774f1f7b0c2a43dd294027191a2824ed9ef98"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb1ff709f5e1cfe87b58b0d3146881231dcbd06cec20a0f976c27b30527c87acd67"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb25fcf380ae0883e8c8587458cde8fc263c7e92f3b2ca036904782abb4c1b6507a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb27770748f9f72485d11212f87838b3fa46147edece56f82180e117a30aee9b80e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb41e2403888faa6fe324f3e36c5f9fbc6ac5f7a37adaa3c1e02e7caa6922a2866"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb602bd23541e498d97c6e9c8b9243bd67e16e2d200dae94785f5330b6210fcfaf"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb614341fed3cec8eaa6670ddfc00101cbff2003cf86b615b3bcf7cff0002d140b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb6a06abfe3d9f56a011155de3b22e545d0e84b6090c51e43a4e6c2fcdc9d4ab1f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cb853f1ea5ae464cbb25df0fe42fc6f13f902ebdcc11b54882a667350ddece123c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cbd8f673c4ea87b1dcbe00f5f4fd63d8df2251d3040be9edd30cf1a74175e41573"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cbe3aafadab4973a049f8a7719c194e213ab46c090dd26f60d6d12621a0f708f5f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_curtain_cbf233467edb5858878218ba184e94f8e3e40880e1ce0fb844cf5a792a2e0904c8"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_curtain_cb8d95fcfcc5f171c52a734d5614b651d99668383d5e78f07f7e85180dbaaeeee6"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>curtain (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_curtain_cb18b0e03c940fe6630b26b73b37af0d380d8772ff8d2a3cc21ab0e41a1a79bfcfe">
-    <crm:P190_has_symbolic_content>Hangings for windows, doorways, or other openings, usually of cloth, plastic, or another such material, that are generally finished with hems, casings, pleats, or ruffles and hung by the top edge; used for privacy, control of light and drafts, or decoration. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+    <rdfs:label>curtain</rdfs:label>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/curtain"/>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300037564"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/curtain#rate-1558-inward-266"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/unit/pound">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
     <rdfs:label>pound</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_curtain_cbd8f673c4ea87b1dcbe00f5f4fd63d8df2251d3040be9edd30cf1a74175e41573">
+    <crm:P190_has_symbolic_content>curtain</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kurtain</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_curtain_cb10fd4c4d69b00872c3b42b08673cbe13a2936605a8406021d6a39f97abc2459a3">
+    <crm:P190_has_symbolic_content>curtynes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kurtinəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_curtain_cb41e2403888faa6fe324f3e36c5f9fbc6ac5f7a37adaa3c1e02e7caa6922a2866">
+    <crm:P190_has_symbolic_content>curtyns</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kurtins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_curtain_cb1ff709f5e1cfe87b58b0d3146881231dcbd06cec20a0f976c27b30527c87acd67">
+    <crm:P190_has_symbolic_content>curtinae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kurtine</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_curtain_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_curtain_cb144f1e2f29ec64a683e701e28dca8147fe7c98a1304de3fc4056d42c831a13c6e">
+    <crm:P190_has_symbolic_content>curtens</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kurtens</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_curtain_cb8d95fcfcc5f171c52a734d5614b651d99668383d5e78f07f7e85180dbaaeeee6">
+    <crm:P190_has_symbolic_content>Hangings for windows, doorways, or other openings, usually of cloth, plastic, or another such material, that are generally finished with hems, casings, pleats, or ruffles and hung by the top edge; used for privacy, control of light and drafts, or decoration. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_curtain_cb0">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>rynges</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_curtain_cb853f1ea5ae464cbb25df0fe42fc6f13f902ebdcc11b54882a667350ddece123c">
+    <crm:P190_has_symbolic_content>corteyn</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kortein</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_curtain_cb17726f29980ddb028ac80bda25d9ca27b3df562d0127a0a2b15d1758ead541603">
+    <crm:P190_has_symbolic_content>cortins</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kortins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_curtain_cb1a5148e8a0aa5bb8e26fdc75a915b47ccd1c1c3d3f7d7bffcf69e11a1f223d20c">
+    <crm:P190_has_symbolic_content>courtins</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kuːrtins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_curtain_cbf233467edb5858878218ba184e94f8e3e40880e1ce0fb844cf5a792a2e0904c8">
+    <crm:P190_has_symbolic_content>courtens</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kuːrtens</hector:phoneticKey>
+  </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>preferred terms</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_curtain_cb1f2fddaf2ca14e101a420d4cb97d774f1f7b0c2a43dd294027191a2824ed9ef98">
+    <crm:P190_has_symbolic_content>curten</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kurten</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_curtain_cb1097e8eae7d684ca7a66c91add4644697550caa13e6d760dcc2aa3d4a3dd1e09">
+    <crm:P190_has_symbolic_content>curtinis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kurtinis</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_curtain_cb25fcf380ae0883e8c8587458cde8fc263c7e92f3b2ca036904782abb4c1b6507a">
+    <crm:P190_has_symbolic_content>curteyn</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kurtein</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_curtain_cbdaebeeff23bc278c383d32dda8787008c9119364e2e75cf1fc4b820dc37d624b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_curtain_cb17eb705a4cb9c45b97f4182caadf25fe1137b251233f25f60b1bf80abd9e23d44">
+    <crm:P190_has_symbolic_content>curtyne</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kurtinə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_curtain_cb27770748f9f72485d11212f87838b3fa46147edece56f82180e117a30aee9b80e">
+    <crm:P190_has_symbolic_content>curtina</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kurtina</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300037564">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>curtains (opening hangings)</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
     <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/curtain">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>curtain (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

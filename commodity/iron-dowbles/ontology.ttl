@@ -18,7 +18,8 @@
             crm:P190_has_symbolic_content "plate (of armor). Note the definition of the Books of Rates doubles voc’ harneis plates or iron doubles" ;
             crm:P2_has_type aat:300435416 ] ;
     skos:broader aat:300197059 ;
-    skos:exactMatch <https://w3id.org/mlca/glossary/iron%20dowbles> .
+    skos:exactMatch <https://w3id.org/mlca/glossary/iron%20dowbles> ;
+    hector:taxation <https://w3id.org/hector/commodity/iron-dowbles#rate-1558-inward-368> .
 
 aat:300197059 a crm:E55_Type ;
     rdfs:label "armor components" .
@@ -26,11 +27,30 @@ aat:300197059 a crm:E55_Type ;
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
 
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
+<https://w3id.org/hector/commodity/iron-dowbles#rate-1558-inward-368> a hector:Rate ;
+    rdfs:label "1558 inward: Doble yron plates vocat’ dobles the shock cont’ 6 bundelles 40s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "40s" ;
+            hector:valueInPence 480.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/shock> ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 368 (transcribed by Stuart Jenks): 'Doble yron plates vocat’ dobles the shock cont’ 6 bundelles' 40s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .
+
+<https://w3id.org/hector/unit/shock> a crm:E58_Measurement_Unit ;
+    rdfs:label "shock" .
 
 <https://w3id.org/mlca/glossary/iron%20dowbles> a crm:E55_Type ;
     rdfs:label "iron dowbles (London Customs Accounts glossary)" .

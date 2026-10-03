@@ -265,50 +265,6 @@
   "modified": "2026-10-03",
   "taxation": [
     {
-      "id": "https://w3id.org/hector/commodity/pecia#rate-1507-none-10",
-      "type": "Rate",
-      "_label": "1507: Buckroms in paperes, every paper 1 with another fyne þat ys to saye 3 peces in every papere 6s 8d",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "80",
-        "lsd": "6s 8d"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 1,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/paper",
-          "type": "MeasurementUnit",
-          "_label": "paper (measure)"
-        }
-      },
-      "validFrom": "1507",
-      "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 10 (transcribed by Stuart Jenks): 'Buckroms in paperes, every paper 1 with another fyne þat ys to saye 3 peces in every papere' 6s 8d",
-      "qualifier": [
-        {
-          "type": "Type",
-          "_label": "Buckroms",
-          "classified_as": [
-            {
-              "id": "hector:AttestedVariant",
-              "type": "Type",
-              "_label": "attested variant"
-            }
-          ]
-        },
-        {
-          "type": "Type",
-          "_label": "fine"
-        }
-      ]
-    },
-    {
       "id": "https://w3id.org/hector/commodity/pecia#rate-1545-inward-109",
       "type": "Rate",
       "_label": "1545 inward: Box peces for combes the butte or pipe £4",

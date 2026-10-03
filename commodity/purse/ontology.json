@@ -392,33 +392,6 @@
   "modified": "2026-10-03",
   "taxation": [
     {
-      "id": "https://w3id.org/hector/commodity/purse#rate-1507-none-18",
-      "type": "Rate",
-      "_label": "1507: Bullyons for pursses the smalle grosse 3s",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "36",
-        "lsd": "3s"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 144,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/gross",
-          "type": "MeasurementUnit",
-          "_label": "gross"
-        }
-      },
-      "validFrom": "1507",
-      "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 18 (transcribed by Stuart Jenks): 'Bullyons for pursses the smalle grosse' 3s"
-    },
-    {
       "id": "https://w3id.org/hector/commodity/purse#rate-1545-inward-549",
       "type": "Rate",
       "_label": "1545 inward: Porses for chyldren the groce 6s 8d",
@@ -490,33 +463,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "https://w3id.org/hector/commodity/purse#rate-1558-inward-111",
-      "type": "Rate",
-      "_label": "1558 inward: Bullions for purses the grosse 5s",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "60",
-        "lsd": "5s"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 144,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/gross",
-          "type": "MeasurementUnit",
-          "_label": "gross"
-        }
-      },
-      "validFrom": "1558",
-      "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 111 (transcribed by Stuart Jenks): 'Bullions for purses the grosse' 5s"
     },
     {
       "id": "https://w3id.org/hector/commodity/purse#rate-1558-inward-832",

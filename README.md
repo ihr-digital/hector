@@ -26,7 +26,7 @@ which LCA measured best for this material (0.881 top-1 on held-out glossary spel
 | | records | where |
 |---|---:|---|
 | Commodities | 2,455 | `commodity/<slug>/ontology.json` |
-| Customs rates, 1507–1558, with the source line quoted, on 572 of the commodities; each names the qualifier its book gives the goods ("of beyownd the se": *overseas*) | 1,834 | inside the commodity records (`taxation`) |
+| Customs rates, 1507–1558, with the source line quoted, on 574 of the commodities; each names the qualifier its book gives the goods ("Canvas Normandy whyte": *Normandy*, *white*) | 1,799 | inside the commodity records (`taxation`) |
 | Units of measure, with definitions and conversions where the sources give them | 248 | `unit/<slug>/ontology.json` |
 | Kinds of quantity (mass, length, volume, count, package) | 5 | `unit/dimension/<kind>/ontology.json` |
 | Merged or moved records, kept so their URIs still resolve | 3 | deprecation records (`deprecated`, `isReplacedBy`) |

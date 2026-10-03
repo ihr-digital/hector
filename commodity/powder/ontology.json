@@ -72,61 +72,6 @@
   "modified": "2026-10-03",
   "taxation": [
     {
-      "id": "https://w3id.org/hector/commodity/powder#rate-1507-none-113",
-      "type": "Rate",
-      "_label": "1507: Grayne that ys in powder ys dobylle the pryse Gyrdelles of thred the grosse 4s",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "48",
-        "lsd": "4s"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 144,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/gross",
-          "type": "MeasurementUnit",
-          "_label": "gross"
-        }
-      },
-      "validFrom": "1507",
-      "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 113 (transcribed by Stuart Jenks): 'Grayne that ys in powder ys dobylle the pryse Gyrdelles of thred the grosse' 4s",
-      "qualifier": [
-        {
-          "type": "Type",
-          "_label": "Grayne",
-          "classified_as": [
-            {
-              "id": "hector:AttestedVariant",
-              "type": "Type",
-              "_label": "attested variant"
-            }
-          ]
-        },
-        {
-          "type": "Type",
-          "_label": "dobylle the pryse Gyrdelles",
-          "classified_as": [
-            {
-              "id": "hector:AttestedVariant",
-              "type": "Type",
-              "_label": "attested variant"
-            }
-          ]
-        },
-        {
-          "type": "Type",
-          "_label": "file"
-        }
-      ]
-    },
-    {
       "id": "https://w3id.org/hector/commodity/powder#rate-1558-inward-506",
       "type": "Rate",
       "_label": "1558 inward: Grayne powder the pounde 6s 8d",

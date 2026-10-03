@@ -160,7 +160,6 @@
     hector:attestationCount 4280 ;
     hector:taxation <https://w3id.org/hector/commodity/thread#rate-1507-none-301>,
         <https://w3id.org/hector/commodity/thread#rate-1507-none-302>,
-        <https://w3id.org/hector/commodity/thread#rate-1545-inward-115>,
         <https://w3id.org/hector/commodity/thread#rate-1545-inward-116>,
         <https://w3id.org/hector/commodity/thread#rate-1545-inward-133>,
         <https://w3id.org/hector/commodity/thread#rate-1545-inward-44>,
@@ -173,7 +172,6 @@
         <https://w3id.org/hector/commodity/thread#rate-1545-inward-753>,
         <https://w3id.org/hector/commodity/thread#rate-1545-inward-754>,
         <https://w3id.org/hector/commodity/thread#rate-1545-inward-755>,
-        <https://w3id.org/hector/commodity/thread#rate-1558-inward-1044>,
         <https://w3id.org/hector/commodity/thread#rate-1558-inward-1101>,
         <https://w3id.org/hector/commodity/thread#rate-1558-inward-1106>,
         <https://w3id.org/hector/commodity/thread#rate-1558-inward-1107>,
@@ -181,14 +179,10 @@
         <https://w3id.org/hector/commodity/thread#rate-1558-inward-125>,
         <https://w3id.org/hector/commodity/thread#rate-1558-inward-257>,
         <https://w3id.org/hector/commodity/thread#rate-1558-inward-807>,
-        <https://w3id.org/hector/commodity/thread#rate-1558-inward-816>,
-        <https://w3id.org/hector/commodity/thread#rate-1558-inward-857> .
+        <https://w3id.org/hector/commodity/thread#rate-1558-inward-816> .
 
 aat:300014250 a crm:E55_Type ;
     rdfs:label "thread" .
-
-aat:300129784 a crm:E55_Type ;
-    rdfs:label "white (color)" .
 
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
@@ -227,22 +221,6 @@ aat:300435416 a crm:E55_Type ;
     hector:sourceText "Book of Rates 1507, line 302 (transcribed by Stuart Jenks): 'Thred called Colyn thred the packyn wyche contains' £13 6s 8d" ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
-
-<https://w3id.org/hector/commodity/thread#rate-1545-inward-115> a hector:Rate ;
-    rdfs:label "1545 inward: Bottom of threde the 100 pounde 20s" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "20s" ;
-            hector:valueInPence 240.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 100 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "Bottom" ;
-            crm:P2_has_type hector:AttestedVariant ] ;
-    hector:sourceText "Book of Rates 1545, inward, line 115 (transcribed by Stuart Jenks): 'Bottom of threde the 100 pounde' 20s" ;
-    hector:validFrom "1545"^^xsd:gYear ;
-    hector:validThrough "1558"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/thread#rate-1545-inward-116> a hector:Rate ;
     rdfs:label "1545 inward: Bottom threde the pounde 2d" ;
@@ -426,25 +404,6 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
-<https://w3id.org/hector/commodity/thread#rate-1558-inward-1044> a hector:Rate ;
-    rdfs:label "1558 inward: Sackclothe whyte of threde the yarde 20d" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "20d" ;
-            hector:valueInPence 20.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 1 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/yard> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "Sackclothe" ;
-            crm:P2_has_type hector:AttestedVariant ],
-        [ a crm:E55_Type ;
-            rdfs:label "white" ;
-            la:equivalent aat:300129784 ] ;
-    hector:sourceText "Book of Rates 1558, inward, line 1044 (transcribed by Stuart Jenks): 'Sackclothe whyte of threde the yarde' 20d" ;
-    hector:validFrom "1558"^^xsd:gYear ;
-    hector:validThrough "1604"^^xsd:gYear .
-
 <https://w3id.org/hector/commodity/thread#rate-1558-inward-1101> a hector:Rate ;
     rdfs:label "1558 inward: Threden rybande the dossen peces 6s 8d" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -569,30 +528,14 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
-<https://w3id.org/hector/commodity/thread#rate-1558-inward-857> a hector:Rate ;
-    rdfs:label "1558 inward: Pyrle lace voc’ antell lace of threde the grosse 2s 6d" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "2s 6d" ;
-            hector:valueInPence 30.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 144 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "Pyrle lace voc antell lace" ;
-            crm:P2_has_type hector:AttestedVariant ] ;
-    hector:sourceText "Book of Rates 1558, inward, line 857 (transcribed by Stuart Jenks): 'Pyrle lace voc’ antell lace of threde the grosse' 2s 6d" ;
-    hector:validFrom "1558"^^xsd:gYear ;
-    hector:validThrough "1604"^^xsd:gYear .
+<https://w3id.org/hector/unit/gross> a crm:E58_Measurement_Unit ;
+    rdfs:label "gross" .
 
 <https://w3id.org/hector/unit/pack> a crm:E58_Measurement_Unit ;
     rdfs:label "pack" .
 
 <https://w3id.org/hector/unit/pound> a crm:E58_Measurement_Unit ;
     rdfs:label "pound" .
-
-<https://w3id.org/hector/unit/yard> a crm:E58_Measurement_Unit ;
-    rdfs:label "yard" .
 
 <https://w3id.org/mlca/glossary/thread> a crm:E55_Type ;
     rdfs:label "thread (London Customs Accounts glossary)" .
@@ -606,14 +549,11 @@ wd:Q365 a crm:E53_Place ;
 wd:Q90 a crm:E53_Place ;
     rdfs:label "Paris" .
 
-<https://w3id.org/hector/unit/gross> a crm:E58_Measurement_Unit ;
-    rdfs:label "gross" .
+<https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
+    rdfs:label "hundred" .
 
 <https://w3id.org/hector/unit/butt> a crm:E58_Measurement_Unit ;
     rdfs:label "butt" .
-
-<https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
-    rdfs:label "hundred" .
 
 <https://w3id.org/hector/unit/bale> a crm:E58_Measurement_Unit ;
     rdfs:label "bale" .

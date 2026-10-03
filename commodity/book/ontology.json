@@ -347,61 +347,6 @@
       ]
     },
     {
-      "id": "https://w3id.org/hector/commodity/book#rate-1558-inward-118",
-      "type": "Rate",
-      "_label": "1558 inward: Bordes for bookes voc’ paste bordes the thousande 6s 8d",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "80",
-        "lsd": "6s 8d"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 1000,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/thousand",
-          "type": "MeasurementUnit",
-          "_label": "thousand"
-        }
-      },
-      "validFrom": "1558",
-      "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 118 (transcribed by Stuart Jenks): 'Bordes for bookes voc’ paste bordes the thousande' 6s 8d",
-      "qualifier": [
-        {
-          "type": "Type",
-          "_label": "Bordes",
-          "classified_as": [
-            {
-              "id": "hector:AttestedVariant",
-              "type": "Type",
-              "_label": "attested variant"
-            }
-          ]
-        },
-        {
-          "type": "Type",
-          "_label": "paste"
-        },
-        {
-          "type": "Type",
-          "_label": "bordes",
-          "classified_as": [
-            {
-              "id": "hector:AttestedVariant",
-              "type": "Type",
-              "_label": "attested variant"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://w3id.org/hector/commodity/book#rate-1558-outward-51",
       "type": "Rate",
       "_label": "1558 outward: Paynted bookes the fatt £4",

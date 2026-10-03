@@ -8,18 +8,155 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
+  <rdf:Description rdf:nodeID="commodity_velvet_cb1a6473038dccf4e0335b678b6b3fc13785f97a22602f6a18fe72b9180dbb57188">
+    <crm:P190_has_symbolic_content>vellute</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>velutə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb33e0f0e26ed11c9aff5afa18f0cdbcfe705e9289e3b34d017fc87f7599419f8d0">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb1d1e1ea219b524c44dcce584440bf09003df67d14408f7bf81989c49c6720370e">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>colors save ryght</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb189a68ef7af9d504f9508adb8c6da16fc7883e7344de98fb45f417ddc1821717b">
+    <crm:P190_has_symbolic_content>velute</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>velutə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb1d2350934e43533a634401c67be28974bd844041c54c02a9e54e56050a20b4c62">
+    <crm:P190_has_symbolic_content>velvetti</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>velveti</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb2813a3c678b4daf5fab58862d3cc937d83f670a4340290836c4489fb45722442e">
+    <crm:P190_has_symbolic_content>velveti</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>velveti</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/velvet#rate-1545-inward-766">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Velvet ryght crymysyn in graine the yarde 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_velvet_cb33e0f0e26ed11c9aff5afa18f0cdbcfe705e9289e3b34d017fc87f7599419f8d0"/>
+    <hector:perQuantity rdf:nodeID="commodity_velvet_cb2650a3c303889f03dc8a8551834f8d212248fcc75e42153a9d76c529bb13877d9"/>
+    <hector:qualifier rdf:nodeID="commodity_velvet_cb1b16e2eda84e0af00846e2e5bd9f6b664952b79ae3225fd0870feaf724387caad"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 766 (transcribed by Stuart Jenks): 'Velvet ryght crymysyn in graine the yarde' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_velvet_cb13d14a33139bdf295e0e12da36acc402eeb3a36350055bf7fa5ea7f840a123d28">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>crimson</rdfs:label>
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300311345"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb18a2344d4a218c1337553bdddca5ec5cd528137289bcea13f1d9fa6d46d3b0f79">
-    <crm:P190_has_symbolic_content>valvettes</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/velvet#rate-1545-inward-775">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Velvet bagges great the dossen 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_velvet_cb2fa4d8aadaeb2964caea9c860acc68102e34f9534ccec8b96275b3405af38b68e"/>
+    <hector:perQuantity rdf:nodeID="commodity_velvet_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_velvet_cb1421fe30a0abef0da90f9ff14f9fe2f0e4c230072a1db30008067eebfea55550e"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 775 (transcribed by Stuart Jenks): 'Velvet bagges great the dossen' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/velvet#rate-1545-inward-767">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Velvette of all collors out of grayne the yarde 7s 6d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_velvet_cb38e4bbf33e7f2e65b39eea7b5254db02fe3d0c1fdb6a66f64786b63ccd1ec410f"/>
+    <hector:perQuantity rdf:nodeID="commodity_velvet_cb21f6fd18f76abd4dc6e05992341ccdc51516218dadf65912cf533d0ed8885bf58"/>
+    <hector:qualifier rdf:nodeID="commodity_velvet_cb14e54ecc3fd105ed54d32bf5142cd7b5b44a7ca11ac06775d68d1c6286aa7f965"/>
+    <hector:qualifier rdf:nodeID="commodity_velvet_cb15b9bb935af94dbd2b584d84927943d7ee091691e668ae357fad60ac45c4acda2"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 767 (transcribed by Stuart Jenks): 'Velvette of all collors out of grayne the yarde' 7s 6d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb210484b5f6bc5eaeffec60fa5c8657fc178a933acd18a7e07b356d5d2e70ea44f">
+    <crm:P190_has_symbolic_content>veltum</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>valvetəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+    <hector:phoneticKey>veltum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb1a681576d1a25f5396bc4cb6927dcac85e85cf3f83dd356edb341405499b1fc54">
+    <crm:P190_has_symbolic_content>velti</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>velti</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/velvet#rate-1507-none-322">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Velvettes of all manner colors save ryght crymson þe yard 7s 6d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_velvet_cb32bfa13cd34f6b8bd1a2c62c787c304094915d15c53a863cd4b0182039e619e9b"/>
+    <hector:perQuantity rdf:nodeID="commodity_velvet_cb237462e83bea808428701cffe1f60d44fa09f12b69aa5647285dc278898b26b0c"/>
+    <hector:qualifier rdf:nodeID="commodity_velvet_cb13d250d2e76ae9e4ed3bea07c209c71c4897433271c2a6c37a91fbdcd00f2f563"/>
+    <hector:qualifier rdf:nodeID="commodity_velvet_cb1d1e1ea219b524c44dcce584440bf09003df67d14408f7bf81989c49c6720370e"/>
+    <hector:sourceText>Book of Rates 1507, line 322 (transcribed by Stuart Jenks): 'Velvettes of all manner colors save ryght crymson þe yard' 7s 6d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb2922c73f388356d2cdca6a2e470c734619d594e11b1b0ac4019b7bdf0fe38c250">
+    <crm:P190_has_symbolic_content>velvettum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>velvetum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb1871daa89251ec3f695c0a9a86fbb285625797217ff42540b3e9e484471c4e3a4">
+    <crm:P190_has_symbolic_content>velewet</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>veleuet</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb2226f1e3c4c2ca6c9954173081625113bc7851350d3afa80a36ede52a7db6c9a3">
+    <crm:P190_has_symbolic_content>welvettes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>welvetəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb237462e83bea808428701cffe1f60d44fa09f12b69aa5647285dc278898b26b0c">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb32bfa13cd34f6b8bd1a2c62c787c304094915d15c53a863cd4b0182039e619e9b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>7s 6d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/velvet">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
@@ -69,42 +206,127 @@
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/velvet#rate-1545-inward-767"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/velvet#rate-1545-inward-774"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/velvet#rate-1545-inward-775"/>
-    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/velvet#rate-1558-inward-1110"/>
-    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/velvet#rate-1558-inward-905"/>
-    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/velvet#rate-1558-inward-906"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb189a68ef7af9d504f9508adb8c6da16fc7883e7344de98fb45f417ddc1821717b">
-    <crm:P190_has_symbolic_content>velute</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb10af485025386815cffdae8d81811da9928bad54fbc7200b21f853704b64183ec">
+    <crm:P190_has_symbolic_content>vellvett</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>velutə</hector:phoneticKey>
+    <hector:phoneticKey>velvet</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb18a2344d4a218c1337553bdddca5ec5cd528137289bcea13f1d9fa6d46d3b0f79">
+    <crm:P190_has_symbolic_content>valvettes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>valvetəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb22aa96e6398c3357935ee33c8228c508d27c70552d3fcc7f2778b8a0d40842b00">
+    <crm:P190_has_symbolic_content>velwet</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>velwet</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb2c40255107950605c6f69b49c264bb181ff2947882c001b76fbdbb24a3bf69430">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>small</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073768"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb2a52a71278722ef4f0b59a2d2b65fe9fb275ae564e064323243495bd6eccb02a1">
+    <crm:P190_has_symbolic_content>velvetum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>velvetum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb2cc0ab2c9cff2a354ce76b32ee02761d5a3cef5d7b57cd2016b5637a275067338">
+    <crm:P190_has_symbolic_content>welwet</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>welwet</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb1260992b011f9907583ea4157e396ac0eb531bc3750a49b9afe845cbc9fb36251">
+    <crm:P190_has_symbolic_content>velvets</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>velvets</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb21ef3976e1723d2948d54906500eaeee3968bcc3b56c2c09463d6fa29db154a20">
+    <crm:P190_has_symbolic_content>valvett</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>valvet</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/yard">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>yard</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb1ab4fe2ad810b0a91c2428b49b7a29298b1f8ed0f811f46d43d39fdbec57333e2">
+    <crm:P190_has_symbolic_content>welwete</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>welwetə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb20ceb966f02290543026d1f33802ff3c3ce1f15f5943b9cb3e5ac352de408422a">
+    <crm:P190_has_symbolic_content>velwettes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>velwetəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb28f6fa3b6c6dd58035c488608d355abdfb44e7b07850ed36ceb5ba1525db0b63c">
+    <crm:P190_has_symbolic_content>velvette</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>velvetə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb1f90f288554e7839de83d73f1703731a16bab2738613aedbaf739d656129aaa9d">
+    <crm:P190_has_symbolic_content>vellvet</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>velvet</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb21f6fd18f76abd4dc6e05992341ccdc51516218dadf65912cf533d0ed8885bf58">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb1e5a7f89231a28423a97b23c3c0d0f535d2f4c5f095722fb1948daa86f629c2d4">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>ryght</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb21570f5d493e272e2650d9408e009e64c1009f814ce1df58c8aa0f331abec6ef8">
+    <crm:P190_has_symbolic_content>velut</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>velut</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb14a225cfa3429e5c86061229bfbf813fd18803a4af9bbc7bca20a41c017843d0f">
-    <crm:P190_has_symbolic_content>velvettes</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb21b9a363c8c2f82955c607cf7107285ef149bb1c1201e4fe434b59ca5acba45ae">
+    <crm:P190_has_symbolic_content>velvete</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>velvetəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb1c8c18ee6c97505573cd4ccd2776dc42297190a5ba7680808b6d460dee79d551f">
-    <crm:P190_has_symbolic_content>velvetes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>velvetəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+    <hector:phoneticKey>velvetə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_velvet_cb258b28a870b90de893e038bb45318f9666e87f3d5c18eb60b81b608b4fb1c5857">
     <crm:P190_has_symbolic_content>velvet</crm:P190_has_symbolic_content>
@@ -115,77 +337,58 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/velvet#rate-1558-inward-1110">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Touche boxes covered with velvet the dosen 8s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_velvet_cb30e3b6703eb0d74fb53f59746fa1f0e384bc7a08561e7d48873f3170a32446edc"/>
-    <hector:perQuantity rdf:nodeID="commodity_velvet_cb18221807d422dcd17f76b460a16d5ceec13f378ab10ecd2565f87ef41867e3140"/>
-    <hector:qualifier rdf:nodeID="commodity_velvet_cb12c8cada0acce356c2ae14046deea1274d7462a6ca6f0679c9637a5169b682a41"/>
-    <hector:qualifier rdf:nodeID="commodity_velvet_cb1df4854cb773938763c042aa063405db7f089a5c1466de4656eb0cb5ae3fe128e"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 1110 (transcribed by Stuart Jenks): 'Touche boxes covered with velvet the dosen' 8s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb1b16e2eda84e0af00846e2e5bd9f6b664952b79ae3225fd0870feaf724387caad">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>ryght crymysyn in graine</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb18221807d422dcd17f76b460a16d5ceec13f378ab10ecd2565f87ef41867e3140">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb306eb745647ec71c8112b6f44fa8ba9eb2f49fe2091b82e07abe00df12edf80ea">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>5s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb21570f5d493e272e2650d9408e009e64c1009f814ce1df58c8aa0f331abec6ef8">
-    <crm:P190_has_symbolic_content>velut</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb15b9bb935af94dbd2b584d84927943d7ee091691e668ae357fad60ac45c4acda2">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>out of grayne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb14e54ecc3fd105ed54d32bf5142cd7b5b44a7ca11ac06775d68d1c6286aa7f965">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>dye</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb19bf680e837609fd93fd839a0faedc47d01441664efa4aa4e21380a8b36166aac">
+    <crm:P190_has_symbolic_content>velwette</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>velwetə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb1421fe30a0abef0da90f9ff14f9fe2f0e4c230072a1db30008067eebfea55550e">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>large</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073756"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb14a225cfa3429e5c86061229bfbf813fd18803a4af9bbc7bca20a41c017843d0f">
+    <crm:P190_has_symbolic_content>velvettes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>velvetəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300073768">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>small</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb19114b2433b07838610886c97c305603eeab74ee9b1c9086d39d92f1278075dc7">
+    <crm:P190_has_symbolic_content>vellut</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>velut</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb1a84dcd472ab5ec49d7ae43ea211443f4a1c1bab93d14daf445fb3ded879072e6">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>sheathes</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb170bb6fe28725a773d2a602ff31d8bee3a4430987c1d0c1faafbe7c9a9fffd1fd">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>sheathes</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb2a52a71278722ef4f0b59a2d2b65fe9fb275ae564e064323243495bd6eccb02a1">
-    <crm:P190_has_symbolic_content>velvetum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>velvetum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb21b9a363c8c2f82955c607cf7107285ef149bb1c1201e4fe434b59ca5acba45ae">
-    <crm:P190_has_symbolic_content>velvete</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>velvetə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/velvet#rate-1558-inward-905">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Rapers blacke with velvett sheathes the dosen £4</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_velvet_cb2c909e73fe561842292924af0a49f72bee68661bde707cbddb1f95b853a9d2cfb"/>
-    <hector:perQuantity rdf:nodeID="commodity_velvet_cb14b83870c191dbfa252816a729a210159322199270704daa89426a026689a2078"/>
-    <hector:qualifier rdf:nodeID="commodity_velvet_cb1a84dcd472ab5ec49d7ae43ea211443f4a1c1bab93d14daf445fb3ded879072e6"/>
-    <hector:qualifier rdf:nodeID="commodity_velvet_cb1a8bd813061e5762197936b772604e625faf93f7d32ee2e27e221298fe41a4937"/>
-    <hector:qualifier rdf:nodeID="commodity_velvet_cb219299a8403d9b2135951e92f7ae7fd800524f0cb5885ae8e0602518acc42e78d"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 905 (transcribed by Stuart Jenks): 'Rapers blacke with velvett sheathes the dosen' £4</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/velvet#rate-1545-inward-775">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Velvet bagges great the dossen 20s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_velvet_cb3a0a9ecb92891e1d57f08912795e3508c95800b30f2ddaa0630bb2822dcf32b7d"/>
-    <hector:perQuantity rdf:nodeID="commodity_velvet_cb137e8c1be8e799a79ec5bcb108c7235d91b36632a5b324a69d415e9e443ebd187"/>
-    <hector:qualifier rdf:nodeID="commodity_velvet_cb1cfb122a4fe3b2e14147fc0b2e1c7e8331437d638ef39eef263aa24f8afff72bf"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 775 (transcribed by Stuart Jenks): 'Velvet bagges great the dossen' 20s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_velvet_cb33e1fd7c53287d39de25183a894eecaa82bfda123f6d7cf4cc1ca95c4522cef9a">
     <crm:P190_has_symbolic_content>welvett</crm:P190_has_symbolic_content>
@@ -195,39 +398,19 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/velvet#rate-1545-inward-766">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Velvet ryght crymysyn in graine the yarde 13s 4d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_velvet_cb33e0f0e26ed11c9aff5afa18f0cdbcfe705e9289e3b34d017fc87f7599419f8d0"/>
-    <hector:perQuantity rdf:nodeID="commodity_velvet_cb2650a3c303889f03dc8a8551834f8d212248fcc75e42153a9d76c529bb13877d9"/>
-    <hector:qualifier rdf:nodeID="commodity_velvet_cb1b16e2eda84e0af00846e2e5bd9f6b664952b79ae3225fd0870feaf724387caad"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 766 (transcribed by Stuart Jenks): 'Velvet ryght crymysyn in graine the yarde' 13s 4d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300073756">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>large</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb18e6d71df708166a2670c8a77f0020c0a36302df95ac35b59a943d0030dfb8924">
-    <crm:P190_has_symbolic_content>felvet</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>felvet</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb2813a3c678b4daf5fab58862d3cc937d83f670a4340290836c4489fb45722442e">
-    <crm:P190_has_symbolic_content>velveti</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>velveti</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb177502390c82befb731c0a2d009dccb0de16c4ac0dfdf44fb63f72b5991ae7dff">
-    <crm:P190_has_symbolic_content>veluti</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>veluti</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb2fa4d8aadaeb2964caea9c860acc68102e34f9534ccec8b96275b3405af38b68e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/velvet#rate-1507-none-323">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
@@ -240,62 +423,24 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb2cc0ab2c9cff2a354ce76b32ee02761d5a3cef5d7b57cd2016b5637a275067338">
-    <crm:P190_has_symbolic_content>welwet</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>welwet</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/velvet#rate-1507-none-322">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1507: Velvettes of all manner colors save ryght crymson þe yard 7s 6d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_velvet_cb32bfa13cd34f6b8bd1a2c62c787c304094915d15c53a863cd4b0182039e619e9b"/>
-    <hector:perQuantity rdf:nodeID="commodity_velvet_cb237462e83bea808428701cffe1f60d44fa09f12b69aa5647285dc278898b26b0c"/>
-    <hector:qualifier rdf:nodeID="commodity_velvet_cb13d250d2e76ae9e4ed3bea07c209c71c4897433271c2a6c37a91fbdcd00f2f563"/>
-    <hector:qualifier rdf:nodeID="commodity_velvet_cb1d1e1ea219b524c44dcce584440bf09003df67d14408f7bf81989c49c6720370e"/>
-    <hector:sourceText>Book of Rates 1507, line 322 (transcribed by Stuart Jenks): 'Velvettes of all manner colors save ryght crymson þe yard' 7s 6d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb33e0f0e26ed11c9aff5afa18f0cdbcfe705e9289e3b34d017fc87f7599419f8d0">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>13s 4d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
-  </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_velvet_cb38e4bbf33e7f2e65b39eea7b5254db02fe3d0c1fdb6a66f64786b63ccd1ec410f">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
     <hector:lsd>7s 6d</hector:lsd>
     <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb21ef3976e1723d2948d54906500eaeee3968bcc3b56c2c09463d6fa29db154a20">
-    <crm:P190_has_symbolic_content>valvett</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb177502390c82befb731c0a2d009dccb0de16c4ac0dfdf44fb63f72b5991ae7dff">
+    <crm:P190_has_symbolic_content>veluti</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>valvet</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+    <hector:phoneticKey>veluti</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb15b9bb935af94dbd2b584d84927943d7ee091691e668ae357fad60ac45c4acda2">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb13d250d2e76ae9e4ed3bea07c209c71c4897433271c2a6c37a91fbdcd00f2f563">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>out of grayne</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb137e8c1be8e799a79ec5bcb108c7235d91b36632a5b324a69d415e9e443ebd187">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb1871daa89251ec3f695c0a9a86fbb285625797217ff42540b3e9e484471c4e3a4">
-    <crm:P190_has_symbolic_content>velewet</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>veleuet</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
+    <rdfs:label>crimson</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300311345"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_velvet_cb33e4ae02e368db15e91d1759e6d19ac936e18fe6ac7c624a69329764f353fac07">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
@@ -303,77 +448,9 @@
     <hector:lsd>13s 4d</hector:lsd>
     <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb19bf680e837609fd93fd839a0faedc47d01441664efa4aa4e21380a8b36166aac">
-    <crm:P190_has_symbolic_content>velwette</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>velwetə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb22aa96e6398c3357935ee33c8228c508d27c70552d3fcc7f2778b8a0d40842b00">
-    <crm:P190_has_symbolic_content>velwet</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>velwet</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb250896201199061f3baf7c78b86d4a9b52349b2d386eed0a0e06b4bd1312be79d">
-    <crm:P190_has_symbolic_content>velwett</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>velwet</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb210484b5f6bc5eaeffec60fa5c8657fc178a933acd18a7e07b356d5d2e70ea44f">
-    <crm:P190_has_symbolic_content>veltum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>veltum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb1260992b011f9907583ea4157e396ac0eb531bc3750a49b9afe845cbc9fb36251">
-    <crm:P190_has_symbolic_content>velvets</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>velvets</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb1cfb122a4fe3b2e14147fc0b2e1c7e8331437d638ef39eef263aa24f8afff72bf">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300133711">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>large</rdfs:label>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073756"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb2eecef5669d392ab629c98064ee4511ed08479a8ef21bdb72aaf9c397379812bb">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>£8</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1920</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300130920">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>black (color)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb1c6d085ccd850fa00bbb771eb4bfa0877b007d43820e8c914c0bf958080c03be6">
-    <crm:P190_has_symbolic_content>velutum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>velutum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/velvet#rate-1545-inward-767">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Velvette of all collors out of grayne the yarde 7s 6d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_velvet_cb38e4bbf33e7f2e65b39eea7b5254db02fe3d0c1fdb6a66f64786b63ccd1ec410f"/>
-    <hector:perQuantity rdf:nodeID="commodity_velvet_cb21f6fd18f76abd4dc6e05992341ccdc51516218dadf65912cf533d0ed8885bf58"/>
-    <hector:qualifier rdf:nodeID="commodity_velvet_cb14e54ecc3fd105ed54d32bf5142cd7b5b44a7ca11ac06775d68d1c6286aa7f965"/>
-    <hector:qualifier rdf:nodeID="commodity_velvet_cb15b9bb935af94dbd2b584d84927943d7ee091691e668ae357fad60ac45c4acda2"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 767 (transcribed by Stuart Jenks): 'Velvette of all collors out of grayne the yarde' 7s 6d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+    <rdfs:label>velvet (fabric weave)</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_velvet_cb1f50a23e61c9131ee505cefbb28ae52bc3273c84e39e99ecf482b46c2aa2371b3">
     <crm:P190_has_symbolic_content>velvett</crm:P190_has_symbolic_content>
@@ -383,19 +460,34 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb306eb745647ec71c8112b6f44fa8ba9eb2f49fe2091b82e07abe00df12edf80ea">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>5s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb1a6473038dccf4e0335b678b6b3fc13785f97a22602f6a18fe72b9180dbb57188">
-    <crm:P190_has_symbolic_content>vellute</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb18e6d71df708166a2670c8a77f0020c0a36302df95ac35b59a943d0030dfb8924">
+    <crm:P190_has_symbolic_content>felvet</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>velutə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+    <hector:phoneticKey>felvet</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb10610179008afe99996e583d357291e5744f2e82958c2aeb2dfdd31cd351d610e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb1c8c18ee6c97505573cd4ccd2776dc42297190a5ba7680808b6d460dee79d551f">
+    <crm:P190_has_symbolic_content>velvetes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>velvetəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb1c6d085ccd850fa00bbb771eb4bfa0877b007d43820e8c914c0bf958080c03be6">
+    <crm:P190_has_symbolic_content>velutum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>velutum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_velvet_cb31440baa1315167aac0c9d09df8764313ec19a64c085ad5a0ad99164d4e0e229c">
     <crm:P190_has_symbolic_content>welvettys</crm:P190_has_symbolic_content>
@@ -405,190 +497,22 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300073768">
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/velvet">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>small</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb2c40255107950605c6f69b49c264bb181ff2947882c001b76fbdbb24a3bf69430">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>small</rdfs:label>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073768"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb2c909e73fe561842292924af0a49f72bee68661bde707cbddb1f95b853a9d2cfb">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>£4</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">960</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb2226f1e3c4c2ca6c9954173081625113bc7851350d3afa80a36ede52a7db6c9a3">
-    <crm:P190_has_symbolic_content>welvettes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>welvetəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb1df4854cb773938763c042aa063405db7f089a5c1466de4656eb0cb5ae3fe128e">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>Touche</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/velvet#rate-1558-inward-906">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Rapers gilte with velvett sheathes the dossen £8</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_velvet_cb2eecef5669d392ab629c98064ee4511ed08479a8ef21bdb72aaf9c397379812bb"/>
-    <hector:perQuantity rdf:nodeID="commodity_velvet_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
-    <hector:qualifier rdf:nodeID="commodity_velvet_cb170bb6fe28725a773d2a602ff31d8bee3a4430987c1d0c1faafbe7c9a9fffd1fd"/>
-    <hector:qualifier rdf:nodeID="commodity_velvet_cbdf35b8d9e77b563d5725e61a206021eda2a67bedb3703493aa85bd97a4146356"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 906 (transcribed by Stuart Jenks): 'Rapers gilte with velvett sheathes the dossen' £8</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb19114b2433b07838610886c97c305603eeab74ee9b1c9086d39d92f1278075dc7">
-    <crm:P190_has_symbolic_content>vellut</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>velut</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb2922c73f388356d2cdca6a2e470c734619d594e11b1b0ac4019b7bdf0fe38c250">
-    <crm:P190_has_symbolic_content>velvettum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>velvetum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb1f90f288554e7839de83d73f1703731a16bab2738613aedbaf739d656129aaa9d">
-    <crm:P190_has_symbolic_content>vellvet</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>velvet</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb28f6fa3b6c6dd58035c488608d355abdfb44e7b07850ed36ceb5ba1525db0b63c">
-    <crm:P190_has_symbolic_content>velvette</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>velvetə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb22a961d58927e03332e248138cd5509c58f898ea2c73e4927c6229aa4916d9344">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb30e3b6703eb0d74fb53f59746fa1f0e384bc7a08561e7d48873f3170a32446edc">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>8s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb1ab4fe2ad810b0a91c2428b49b7a29298b1f8ed0f811f46d43d39fdbec57333e2">
-    <crm:P190_has_symbolic_content>welwete</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>welwetə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb1e5a7f89231a28423a97b23c3c0d0f535d2f4c5f095722fb1948daa86f629c2d4">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>ryght</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb1a681576d1a25f5396bc4cb6927dcac85e85cf3f83dd356edb341405499b1fc54">
-    <crm:P190_has_symbolic_content>velti</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>velti</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cbdf35b8d9e77b563d5725e61a206021eda2a67bedb3703493aa85bd97a4146356">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>Rapers gilte</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb1b16e2eda84e0af00846e2e5bd9f6b664952b79ae3225fd0870feaf724387caad">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>ryght crymysyn in graine</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb32bfa13cd34f6b8bd1a2c62c787c304094915d15c53a863cd4b0182039e619e9b">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>7s 6d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb1a8bd813061e5762197936b772604e625faf93f7d32ee2e27e221298fe41a4937">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>Rapers</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/yard">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>yard</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb20ceb966f02290543026d1f33802ff3c3ce1f15f5943b9cb3e5ac352de408422a">
-    <crm:P190_has_symbolic_content>velwettes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>velwetəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb237462e83bea808428701cffe1f60d44fa09f12b69aa5647285dc278898b26b0c">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb21f6fd18f76abd4dc6e05992341ccdc51516218dadf65912cf533d0ed8885bf58">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <rdfs:label>velvet (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_velvet_cb162d2349e299649d203c40dd419df45b915aa48389467ea883d8e106b035f176f">
     <crm:P190_has_symbolic_content>a silk fabric with a short, dense, smooth piled surface (OED s.v. velvet) | dyed with kermes (q.v.) | velvet upon velvet (OED s.v. velvet n. II 4a quote of 1480) | not dyed with kermes (q.v.)</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>dozen</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb1d2350934e43533a634401c67be28974bd844041c54c02a9e54e56050a20b4c62">
-    <crm:P190_has_symbolic_content>velvetti</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb250896201199061f3baf7c78b86d4a9b52349b2d386eed0a0e06b4bd1312be79d">
+    <crm:P190_has_symbolic_content>velwett</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>velveti</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/velvet">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>velvet (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb1d1e1ea219b524c44dcce584440bf09003df67d14408f7bf81989c49c6720370e">
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>colors save ryght</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb2650a3c303889f03dc8a8551834f8d212248fcc75e42153a9d76c529bb13877d9">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
+    <hector:phoneticKey>velwet</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/velvet#rate-1545-inward-774">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
@@ -600,62 +524,30 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb2650a3c303889f03dc8a8551834f8d212248fcc75e42153a9d76c529bb13877d9">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>attested variant</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300073756">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>large</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb14b83870c191dbfa252816a729a210159322199270704daa89426a026689a2078">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+  <rdf:Description rdf:nodeID="commodity_velvet_cb22a961d58927e03332e248138cd5509c58f898ea2c73e4927c6229aa4916d9344">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300133711">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>velvet (fabric weave)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb10af485025386815cffdae8d81811da9928bad54fbc7200b21f853704b64183ec">
-    <crm:P190_has_symbolic_content>vellvett</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>velvet</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb10610179008afe99996e583d357291e5744f2e82958c2aeb2dfdd31cd351d610e">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb3a0a9ecb92891e1d57f08912795e3508c95800b30f2ddaa0630bb2822dcf32b7d">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>20s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+    <rdfs:label>preferred terms</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300311345">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>crimson (color)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb13d250d2e76ae9e4ed3bea07c209c71c4897433271c2a6c37a91fbdcd00f2f563">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>crimson</rdfs:label>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300311345"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb219299a8403d9b2135951e92f7ae7fd800524f0cb5885ae8e0602518acc42e78d">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>black</rdfs:label>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300130920"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb14e54ecc3fd105ed54d32bf5142cd7b5b44a7ca11ac06775d68d1c6286aa7f965">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>dye</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_velvet_cb12c8cada0acce356c2ae14046deea1274d7462a6ca6f0679c9637a5169b682a41">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>covered</rdfs:label>
+    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

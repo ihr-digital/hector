@@ -198,46 +198,6 @@
       ]
     },
     {
-      "id": "https://w3id.org/hector/commodity/shank#rate-1507-none-304",
-      "type": "Rate",
-      "_label": "1507: Tavelynges of shankes the C 6s 8d",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "80",
-        "lsd": "6s 8d"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 100,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/hundred",
-          "type": "MeasurementUnit",
-          "_label": "hundred"
-        }
-      },
-      "validFrom": "1507",
-      "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 304 (transcribed by Stuart Jenks): 'Tavelynges of shankes the C' 6s 8d",
-      "qualifier": [
-        {
-          "type": "Type",
-          "_label": "Tavelynges",
-          "classified_as": [
-            {
-              "id": "hector:AttestedVariant",
-              "type": "Type",
-              "_label": "attested variant"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://w3id.org/hector/commodity/shank#rate-1545-inward-694",
       "type": "Rate",
       "_label": "1545 inward: Shankes the pane 6s 8d",

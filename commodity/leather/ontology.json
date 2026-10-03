@@ -570,46 +570,6 @@
       ]
     },
     {
-      "id": "https://w3id.org/hector/commodity/leather#rate-1558-inward-1112",
-      "type": "Rate",
-      "_label": "1558 inward: Touche boxes of lether the dossen 14d",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "14",
-        "lsd": "14d"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 12,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/dozen",
-          "type": "MeasurementUnit",
-          "_label": "dozen"
-        }
-      },
-      "validFrom": "1558",
-      "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 1112 (transcribed by Stuart Jenks): 'Touche boxes of lether the dossen' 14d",
-      "qualifier": [
-        {
-          "type": "Type",
-          "_label": "Touche",
-          "classified_as": [
-            {
-              "id": "hector:AttestedVariant",
-              "type": "Type",
-              "_label": "attested variant"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "https://w3id.org/hector/commodity/leather#rate-1558-inward-657",
       "type": "Rate",
       "_label": "1558 inward: Lether for cusshinges the dosen 6s 8d",

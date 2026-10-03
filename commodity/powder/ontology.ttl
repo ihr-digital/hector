@@ -24,8 +24,7 @@
     skos:related <https://w3id.org/hector/commodity/powderbox>,
         <https://w3id.org/hector/commodity/pulver-violet> ;
     hector:attestationCount 42 ;
-    hector:taxation <https://w3id.org/hector/commodity/powder#rate-1507-none-113>,
-        <https://w3id.org/hector/commodity/powder#rate-1558-inward-506> .
+    hector:taxation <https://w3id.org/hector/commodity/powder#rate-1558-inward-506> .
 
 aat:300014647 a crm:E55_Type ;
     rdfs:label "powder" .
@@ -33,29 +32,11 @@ aat:300014647 a crm:E55_Type ;
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
 
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
-
-<https://w3id.org/hector/commodity/powder#rate-1507-none-113> a hector:Rate ;
-    rdfs:label "1507: Grayne that ys in powder ys dobylle the pryse Gyrdelles of thred the grosse 4s" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "4s" ;
-            hector:valueInPence 48.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 144 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "dobylle the pryse Gyrdelles" ;
-            crm:P2_has_type hector:AttestedVariant ],
-        [ a crm:E55_Type ;
-            rdfs:label "Grayne" ;
-            crm:P2_has_type hector:AttestedVariant ],
-        [ a crm:E55_Type ;
-            rdfs:label "file" ] ;
-    hector:sourceText "Book of Rates 1507, line 113 (transcribed by Stuart Jenks): 'Grayne that ys in powder ys dobylle the pryse Gyrdelles of thred the grosse' 4s" ;
-    hector:validFrom "1507"^^xsd:gYear ;
-    hector:validThrough "1545"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/powder#rate-1558-inward-506> a hector:Rate ;
     rdfs:label "1558 inward: Grayne powder the pounde 6s 8d" ;
@@ -79,17 +60,11 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/hector/commodity/pulver-violet> a crm:E55_Type ;
     rdfs:label "pulver violet" .
 
-<https://w3id.org/hector/unit/gross> a crm:E58_Measurement_Unit ;
-    rdfs:label "gross" .
-
 <https://w3id.org/hector/unit/pound> a crm:E58_Measurement_Unit ;
     rdfs:label "pound" .
 
 <https://w3id.org/mlca/glossary/powder> a crm:E55_Type ;
     rdfs:label "powder (London Customs Accounts glossary)" .
-
-aat:300411998 a crm:E98_Currency ;
-    rdfs:label "pound sterling (system of money)" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

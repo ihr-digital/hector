@@ -44,14 +44,16 @@
         <https://w3id.org/hector/commodity/tiercel> ;
     la:equivalent aat:300379800 ;
     hector:attestationCount 20 ;
-    hector:taxation <https://w3id.org/hector/commodity/hawk#rate-1545-inward-381>,
-        <https://w3id.org/hector/commodity/hawk#rate-1545-inward-464> .
+    hector:taxation <https://w3id.org/hector/commodity/hawk#rate-1545-inward-381> .
 
 aat:300379800 a crm:E55_Type ;
     rdfs:label "hawks (bird)" .
 
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
@@ -78,36 +80,14 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
-<https://w3id.org/hector/commodity/hawk#rate-1545-inward-464> a hector:Rate ;
-    rdfs:label "1545 inward: Leures for haukes the pece 4d" ;
-    hector:amount [ a crm:E97_Monetary_Amount ;
-            crm:P180_has_currency aat:300411998 ;
-            hector:lsd "4d" ;
-            hector:valueInPence 4.0 ] ;
-    hector:perQuantity [ a crm:E54_Dimension ;
-            crm:P90_has_value 1 ;
-            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
-    hector:qualifier [ a crm:E55_Type ;
-            rdfs:label "Leures" ;
-            crm:P2_has_type hector:AttestedVariant ] ;
-    hector:sourceText "Book of Rates 1545, inward, line 464 (transcribed by Stuart Jenks): 'Leures for haukes the pece' 4d" ;
-    hector:validFrom "1545"^^xsd:gYear ;
-    hector:validThrough "1558"^^xsd:gYear .
-
 <https://w3id.org/hector/commodity/tiercel> a crm:E55_Type ;
     rdfs:label "tiercel" .
 
 <https://w3id.org/hector/unit/gross> a crm:E58_Measurement_Unit ;
     rdfs:label "gross" .
 
-<https://w3id.org/hector/unit/pecia> a crm:E58_Measurement_Unit ;
-    rdfs:label "pecia" .
-
 <https://w3id.org/mlca/glossary/hawk> a crm:E55_Type ;
     rdfs:label "hawk (London Customs Accounts glossary)" .
-
-aat:300411998 a crm:E98_Currency ;
-    rdfs:label "pound sterling (system of money)" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

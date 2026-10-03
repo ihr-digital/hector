@@ -23,17 +23,17 @@
             hector:validFrom "1505"^^xsd:gYear ;
             hector:validThrough "1506"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "petycotte" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "petikotə" ;
-            hector:validFrom "1550"^^xsd:gYear ;
-            hector:validThrough "1553"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "peticotte" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "petikotə" ;
             hector:validFrom "1553"^^xsd:gYear ;
             hector:validThrough "1555"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "petycotte" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "petikotə" ;
+            hector:validFrom "1550"^^xsd:gYear ;
+            hector:validThrough "1553"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "petticottes" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -105,10 +105,14 @@
     skos:closeMatch aat:300046143 ;
     skos:exactMatch <https://w3id.org/mlca/glossary/petticoat> ;
     hector:attestationCount 25 ;
-    hector:taxation <https://w3id.org/hector/commodity/petticoat#rate-1558-inward-867> .
+    hector:taxation <https://w3id.org/hector/commodity/petticoat#rate-1558-inward-866>,
+        <https://w3id.org/hector/commodity/petticoat#rate-1558-inward-867> .
 
 aat:300046143 a crm:E55_Type ;
     rdfs:label "coats (garments)" .
+
+aat:300183670 a crm:E55_Type ;
+    rdfs:label "cotton (fiber)" .
 
 aat:300243428 a crm:E55_Type ;
     rdfs:label "silk (textile)" .
@@ -116,11 +120,29 @@ aat:300243428 a crm:E55_Type ;
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
 
-aat:300411998 a crm:E98_Currency ;
-    rdfs:label "pound sterling (system of money)" .
-
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
+
+<https://w3id.org/hector/commodity/petticoat#rate-1558-inward-866> a hector:Rate ;
+    rdfs:label "1558 inward: Petycotes knytte of wolle or cotton the dosen 30s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "30s" ;
+            hector:valueInPence 360.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "wolle" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "knitted" ],
+        [ a crm:E55_Type ;
+            rdfs:label "cotton" ;
+            la:equivalent aat:300183670 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 866 (transcribed by Stuart Jenks): 'Petycotes knytte of wolle or cotton the dosen' 30s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/petticoat#rate-1558-inward-867> a hector:Rate ;
     rdfs:label "1558 inward: Peticotes knytte of silke the dosen £12" ;
@@ -140,11 +162,14 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
-<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
-    rdfs:label "dozen" .
-
 <https://w3id.org/mlca/glossary/petticoat> a crm:E55_Type ;
     rdfs:label "petticoat (London Customs Accounts glossary)" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
+<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
+    rdfs:label "dozen" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

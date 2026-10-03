@@ -287,7 +287,8 @@
     la:equivalent aat:300210002,
         aat:300220741 ;
     hector:attestationCount 684 ;
-    hector:taxation <https://w3id.org/hector/commodity/girdle#rate-1558-inward-474>,
+    hector:taxation <https://w3id.org/hector/commodity/girdle#rate-1507-none-113>,
+        <https://w3id.org/hector/commodity/girdle#rate-1558-inward-474>,
         <https://w3id.org/hector/commodity/girdle#rate-1558-inward-511>,
         <https://w3id.org/hector/commodity/girdle#rate-1558-inward-512>,
         <https://w3id.org/hector/commodity/girdle#rate-1558-inward-513>,
@@ -304,6 +305,29 @@ aat:300404670 a crm:E55_Type ;
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
+
+<https://w3id.org/hector/commodity/girdle#rate-1507-none-113> a hector:Rate ;
+    rdfs:label "1507: Grayne that ys in powder ys dobylle the pryse Gyrdelles of thred the grosse 4s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4s" ;
+            hector:valueInPence 48.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "powdered" ],
+        [ a crm:E55_Type ;
+            rdfs:label "dobylle the pryse" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "Grayne" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "file" ] ;
+    hector:sourceText "Book of Rates 1507, line 113 (transcribed by Stuart Jenks): 'Grayne that ys in powder ys dobylle the pryse Gyrdelles of thred the grosse' 4s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/girdle#rate-1558-inward-474> a hector:Rate ;
     rdfs:label "1558 inward: Girdelles of lether the grosse 10s" ;
