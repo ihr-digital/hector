@@ -14,12 +14,16 @@ commodities are to return to the LCA glossary first):
    glossary's forms, normalised), LONGEST MATCH FIRST, anywhere in the text. The parser's own
    head/qualifier split is 15-20% wrong (PLAN.md task 15), so it is not used. A spelling that
    belongs to two concepts is ambiguous and is not used alone.
-2. DECISION 2 (29 Sep 2026): flatten ONLY what the books price separately. Words left over
-   after the matched spelling -- "canvas" + "Normandy browne" -- are the qualifier, and that
-   combination becomes a commodity record of its own (commodity/<concept>-<qualifier>),
-   linked to the base by skos:broader AND hector:compoundOf, with the rate on it. A rate with
-   no leftover words goes on the base commodity. Slugs for combinations are minted once into
-   build/ledger/qualified.tsv, never re-derived (URI policy §3).
+2. THE QUALIFIER GOES ON THE RATE (3 Oct 2026, replacing decision 2 of 29 Sep). Words left
+   over after the matched spelling -- "Saffron of beyownd the se" -> "beyownd the se" -- say
+   which kind of the commodity the rate is set on. Every rate sits on its base commodity and
+   names its qualifiers in `qualifier`: by the London Customs Accounts qualifier list's modern
+   name where the words are one of its spellings (with its AAT concept or Wikidata place), else
+   as the book writes them, classified as an attested variant. No spelling is invented: the
+   old records' labels were a spelling fold of the leftover words ("saffron (beiound se)").
+   Whether a qualified good is a commodity in its own right is for the glossary's curators
+   (as with "white cloth"), not a by-product of a price difference. The 686 qualified records
+   decision 2 minted are deprecated, each replaced by its base commodity (ledger/qualified.tsv).
 3. THE RATE: a Rate node in the record's `taxation`, id <record>#rate-<book>-<direction>-<line>:
    the amount in pence and as written (£ s d), per <quantity> <unit> (the unit through
    build/units/rates_join.tsv and the units ledger), valid from the book's year to the next
@@ -59,12 +63,20 @@ FILLER = {"the", "of", "de", "and", "et", "called", "voc", "vocat", "vocatur", "
           "with", "wt", "le", "la", "les", "du", "des", "pro", "per", "every", "each",
           # the books' formulae: "that ys to saye", "whether ytt be", "of all sortes"
           "that", "ys", "is", "to", "saye", "say", "whether", "ytt", "it", "be", "all", "sorte",
-          "sortes", "sortte", "manare", "maner", "manner", "one", "another", "on", "by", "at"}
+          "sortes", "sortte", "manare", "maner", "manner", "one", "another", "on", "by", "at",
+          "wyth", "videlicet", "viz"}
 # Glossary spellings that are ordinary words in the books' English, and so never link on
 # their own away from the head: "every" is a spelling of ivory, "made" and "called" of others.
 COMMON = FILLER | {"made", "small", "smalle", "great", "grett", "white", "whyte", "black", "blake",
                    "rede", "red", "browne", "new", "old", "fyne", "fine", "course", "coarse"}
-QUAL_LEDGER_FIELDS = ["slug", "glossary_key", "qualifier", "minted", "status"]
+# In the MEASURE phrase these spellings belong to the measure, not to the goods: "the C wyte"
+# and "the C wyght" are a hundredweight (not white, not the Isle of Wight), "the grett grosse"
+# and "the small grosse" are measures, as are the half and the whole piece, "the skynne" and
+# "the full". Listed, not inferred: each was read in the rows that carry it (3 Oct 2026).
+MEASURE_SENSE = {"wyght", "wyte", "weyte", "wayte", "weyght", "wayght", "small", "smalle", "smale",
+                 "grett", "gret", "great", "greate", "hallfe", "halfe", "half", "di", "hole", "whole",
+                 "skynne", "skynnes", "full"}
+QUAL_LEDGER_FIELDS = ["slug", "glossary_key", "qualifier", "minted", "status", "replaced_by"]
 
 
 def norm(s: str) -> str:
@@ -74,10 +86,6 @@ def norm(s: str) -> str:
     s = re.sub(r"[’'`‘ʼ]", "", s)
     s = re.sub(r"[^a-z0-9]+", " ", s)
     return re.sub(r"\s+", " ", s).strip()
-
-
-def slugify(s: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "-", norm(s)).strip("-") or "x"
 
 
 def load_tsv(p: Path) -> list[dict]:
@@ -132,32 +140,98 @@ def link(text: str, idx: dict, max_len: int) -> tuple[str | None, str, str, str]
     return None, "", "", ("ambiguous: " + ", ".join(amb)) if amb else "no glossary spelling"
 
 
-def qualifier_canon(lca: Path):
-    """One qualifier however it is spelt: "whit"/"whyte" -> white, "spruse"/"sprewce" -> prussia,
-    "parrys" -> paris, through LCA's docs/data/qualifiers.json (a word whose spelling it lists
-    under exactly one canonical); other words by a light spelling fold (y as i, w and v as u,
-    doubled letters single, a final e dropped), which also joins newcastell and neucastell.
-    Without this, one combination spelt three ways across the books became three records."""
+def qualifier_store(lca: Path) -> tuple[dict, dict]:
+    """LCA's qualifier list (docs/data/qualifiers.json): (normalised spelling -> canonical key,
+    for a spelling listed under exactly one canonical; the canonicals)."""
     q = json.loads((lca / "docs/data/qualifiers.json").read_text(encoding="utf-8"))["canonicals"]
     form2c = collections.defaultdict(set)
     for k, v in q.items():
         for f in [k, v.get("label", ""), *v.get("forms", [])]:
             n = norm(f)
             if n:
-                form2c[n].add(v.get("label") or k)
+                form2c[n].add(k)
+    return {f: next(iter(c)) for f, c in form2c.items() if len(c) == 1}, q
 
-    def fold(t: str) -> str:
-        t = t.replace("y", "i").replace("w", "u").replace("v", "u")
-        t = re.sub(r"(.)\1+", r"\1", t)
-        return t[:-1] if len(t) > 3 and t.endswith("e") else t
 
-    def canon(qual: str) -> str:
-        out = []
-        for t in qual.split():
-            c = form2c.get(t)
-            out.append(norm(next(iter(c))) if c and len(c) == 1 else fold(t))
-        return " ".join(dict.fromkeys(out))          # a word said twice counts once
-    return canon
+def unit_words(site: Path) -> set[str]:
+    """Every spelling of every unit: a leftover word that names a unit is the measure or the
+    package ("the bale", "in barrelles"), not a qualifier."""
+    out = set()
+    for p in site.glob("unit/**/ontology.json"):
+        d = json.loads(p.read_text(encoding="utf-8"))
+        for t in [n.get("content", "") for n in d.get("identified_by", [])] + list(d.get("historicalTerm") or []):
+            out.update(norm(str(t)).split())
+    return out
+
+
+def words(text: str, toks: list[str]) -> list[str]:
+    """The words of `text` as written, one per token of norm(text); the tokens themselves
+    where the two cannot be aligned."""
+    out = []
+    for w in re.findall(r"[^\W_]+", re.sub(r"[’'`‘ʼ]", "", text or "")):
+        n = norm(w).split()
+        out += [w] if len(n) == 1 else n
+    return out if len(out) == len(toks) else toks
+
+
+def qualifier_node(key: str, c: dict) -> dict:
+    node = {"type": "Type", "_label": c.get("label") or key}
+    aat = c.get("aat") or {}
+    if aat.get("specific"):
+        node["equivalent"] = [{"id": f"aat:{aat['specific']}", "type": "Type",
+                               "_label": aat.get("label") or str(aat["specific"])}]
+    geo = c.get("geo") or {}
+    m = re.fullmatch(r"(?:wd:)?(Q[1-9]\d*)", str(geo.get("id", "")))
+    if m and geo.get("dataset", "wikidata") == "wikidata":     # CC0 places only, as the exporter
+        node["originPlace"] = [{"id": "wd:" + m.group(1), "type": "Place",
+                                "_label": geo.get("label") or m.group(1)}]
+    return node
+
+
+def rate_qualifiers(text: str, spelling: str, form2c: dict, canon: dict, units: set) -> list[dict]:
+    """The qualifiers in a rate's commodity text: the words left over once the commodity's
+    spelling, the joining words (FILLER), numbers and unit words are set aside. The longest run
+    of words that is a spelling in LCA's qualifier list becomes that qualifier (modern name);
+    the words no spelling covers are kept together, as the book writes them."""
+    toks = norm(text).split()
+    orig = words(text, toks)
+    sp = spelling.split()
+    start = next((i for i in range(len(toks) - len(sp) + 1) if sp and toks[i:i + len(sp)] == sp), None)
+    head = set(range(start, start + len(sp))) if start is not None else set()
+    left = [i for i, t in enumerate(toks)
+            if i not in head and t not in FILLER and not t.isdigit() and len(t) > 1
+            and t not in sp and t not in units]
+    keep, used, found = set(left), set(), []
+    for i in left:
+        if i in used:
+            continue
+        for n in range(len(toks) - i, 0, -1):
+            span = range(i, i + n)
+            if i + n - 1 not in keep or any(j in head or j in used or (j not in keep and toks[j] not in FILLER)
+                                                 for j in span):
+                continue
+            k = form2c.get(" ".join(toks[i:i + n]))
+            if k:
+                found.append((i, ("c", k)))
+                used.update(span)
+                break
+    rest = [i for i in left if i not in used]
+    run = []
+    for i in rest + [None]:
+        if run and (i is None or any(j in head or j in used or (j not in keep and toks[j] not in FILLER)
+                                     for j in range(run[-1] + 1, i))):
+            found.append((run[0], ("w", " ".join(orig[run[0]:run[-1] + 1]))))
+            run = []
+        if i is not None:
+            run.append(i)
+    out, seen = [], set()
+    for _i, (kind, v) in sorted(found):
+        if (kind, v) in seen:
+            continue
+        seen.add((kind, v))
+        out.append(qualifier_node(v, canon[v]) if kind == "c"
+                   else {"type": "Type", "_label": v, "classified_as": [ATTESTED]})
+    return out
 
 
 def next_year(book: str) -> str:
@@ -173,9 +247,9 @@ def _num(v):
     return int(f) if f.is_integer() else f
 
 
-def rate_node(rec_uri: str, r: dict, unit_ref: dict) -> dict:
+def rate_node(rec_uri: str, r: dict, unit_ref: dict, quals: list | None = None) -> dict:
     lsd = (r.get("rate_raw") or "").strip()
-    return {
+    node = {
         "id": f"{rec_uri}#rate-{r['book']}-{r['direction']}-{r['source_line']}",
         "type": "Rate",
         "_label": f"{r['book']}{' ' + r['direction'] if r['direction'] != 'none' else ''}: "
@@ -191,6 +265,9 @@ def rate_node(rec_uri: str, r: dict, unit_ref: dict) -> dict:
                        + f"'{r['commodity_raw']}' {r['rate_raw']}"
                        + (" [the rate is an editorial supply]" if r.get("editorial") else "")),
     }
+    if quals:
+        node["qualifier"] = quals
+    return node
 
 
 def run(lca: Path = LCA, today: str | None = None) -> dict:
@@ -202,32 +279,18 @@ def run(lca: Path = LCA, today: str | None = None) -> dict:
     max_len = max(len(k.split()) for k in idx)
     com = {r["glossary_key"]: r["slug"] for r in load_tsv(BUILD / "ledger/commodities.tsv")
            if r["status"] == "active"}
-    all_slugs = {r["slug"] for r in load_tsv(BUILD / "ledger/commodities.tsv")}
     units = {r["key"]: r["slug"] for r in load_tsv(BUILD / "ledger/units.tsv") if r["status"] == "active"}
     join = {r["rates_unit"]: r["key"] for r in load_tsv(BUILD / "units/rates_join.tsv")}
     qpath = BUILD / "ledger/qualified.tsv"
     qledger = load_tsv(qpath)
-    qslug = {(r["glossary_key"], r["qualifier"]): r["slug"] for r in qledger if r["status"] == "active"}
-    all_slugs |= {r["slug"] for r in qledger}
 
     rows = [json.loads(l) for l in (BUILD / "rates/rates.jsonl").open(encoding="utf-8")]
-    canon = qualifier_canon(lca)
+    form2c, canon = qualifier_store(lca)
+    uwords = unit_words(site)
     rep = collections.Counter()
-    # DECISION 2 (29 Sep): a qualified combination gets its own record only where the books
-    # PRICE it separately -- where, for the same concept and the same unit, rates differ with
-    # the qualifier (issue #2: 170 heads, 391 phrases). Elsewhere the rate sits on the base
-    # commodity and its wording is kept in sourceText. First pass: prices per (concept, unit).
-    prices = collections.defaultdict(set)
-    for r in rows:
-        if r["book"] in LINKED_BOOKS and r.get("pence") and join.get(r.get("unit") or "") in units:
-            k, _sp, q, _how = link(r.get("commodity_text") or r.get("commodity_raw") or "", idx, max_len)
-            if k:
-                prices[(k, join[r["unit"]])].add((canon(q) if q else "", str(r["pence"])))
-    priced_apart = {kq for kq, ps in prices.items()
-                    if len({p for _q, p in ps}) > 1 and len({q for q, _p in ps}) > 1}
     unlinked = collections.defaultdict(list)
     by_record = collections.defaultdict(list)          # slug -> rate nodes
-    qual_docs = {}                                     # slug -> (key, qualifier, [attested texts])
+    as_written = collections.Counter()                 # qualifier words LCA's list does not name
     sample = []
     for r in rows:
         if r["book"] not in LINKED_BOOKS:
@@ -239,65 +302,59 @@ def run(lca: Path = LCA, today: str | None = None) -> dict:
         ukey = join.get(r.get("unit") or "")
         if not ukey or ukey not in units:
             unlinked["no unit"].append(r); continue
-        key, spelling, qual, why = link(r.get("commodity_text") or r.get("commodity_raw") or "", idx, max_len)
+        text = r.get("commodity_text") or r.get("commodity_raw") or ""
+        key, spelling, qual, why = link(text, idx, max_len)
         if not key:
             unlinked[why.split(":")[0]].append(r); continue
         rep[f"linked at the {why}"] += 1
-        qual = canon(qual) if qual else ""
-        if qual and (key, ukey) not in priced_apart:
-            rep["qualifier kept in sourceText (not priced apart)"] += 1
-            qual = ""
         if key not in com:
             unlinked["concept has no HECTOR record"].append(r); continue
         unit_ref = {"id": f"{W3ID}unit/{units[ukey]}", "type": "MeasurementUnit",
                     "_label": re.sub(r"_\d+$", "", re.sub(r"^(bor|hector):", "", ukey))}
-        if qual:
-            slug = qslug.get((key, qual))
-            if not slug:
-                base = slugify(f"{com[key]} {qual}")
-                slug, n = base, 2
-                while slug in all_slugs:
-                    slug, n = f"{base}-{n}", n + 1
-                qslug[(key, qual)] = slug
-                all_slugs.add(slug)
-                qledger.append({"slug": slug, "glossary_key": key, "qualifier": qual,
-                                "minted": today, "status": "active"})
-            qd = qual_docs.setdefault(slug, (key, qual, []))
-            if r["commodity_text"] not in qd[2]:
-                qd[2].append(r["commodity_text"])
-            rep["rates on a qualified commodity"] += 1
-        else:
-            slug = com[key]
-            rep["rates on a base commodity"] += 1
-        by_record[slug].append(rate_node(f"{W3ID}commodity/{slug}", r, unit_ref))
+        # the parser cuts the measure off the entry, and a qualifier can sit inside it ("the C
+        # elles browne"): the measure is read too, but only for qualifiers LCA's list names (it
+        # is full of unit spellings no list has, "yarde", "dossyn"), never its measure senses
+        # (MEASURE_SENSE), and not the count ("conteynynge five score")
+        quals = rate_qualifiers(text, spelling, form2c, canon, uwords)
+        named = {q["_label"] for q in quals}
+        for q in rate_qualifiers(r.get("unit_text") or "", "", form2c, canon, uwords | MEASURE_SENSE):
+            if not q.get("classified_as") and q["_label"] not in named:   # named ones only
+                quals.append(q)
+                named.add(q["_label"])
+        for q in quals:
+            if q.get("classified_as"):
+                as_written[q["_label"].lower()] += 1
+                rep["qualifiers as written"] += 1
+            else:
+                rep["qualifiers named from LCA's list"] += 1
+        rep["rates with a qualifier" if quals else "rates without a qualifier"] += 1
+        slug = com[key]
+        by_record[slug].append(rate_node(f"{W3ID}commodity/{slug}", r, unit_ref, quals))
         if len(sample) < 400:
-            sample.append((r["commodity_raw"], key, spelling, qual, why))
+            sample.append((r["commodity_raw"], key, spelling, "; ".join(q["_label"] for q in quals), why))
     for why, rs in unlinked.items():
         rep[f"not linked: {why}"] += len(rs)
 
-    # qualified records (decision 2)
-    for slug, (key, qual, texts) in qual_docs.items():
-        base_uri, base_label = f"{W3ID}commodity/{com[key]}", re.sub(r"_\d+$", "", key)
-        doc = {"@context": CONTEXT, "id": f"{W3ID}commodity/{slug}", "type": "Type",
-               "_label": f"{base_label} ({qual})",
+    # The qualified records decision 2 minted (29 Sep), deprecated 3 Oct: each URI keeps
+    # resolving, to a record replaced by its base commodity, which now carries its rates.
+    for row in qledger:
+        base = com.get(row["glossary_key"])
+        base_label = re.sub(r"_\d+$", "", row["glossary_key"])
+        if row["status"] == "active":
+            row["status"], row["replaced_by"] = "deprecated", base or ""
+        doc = {"@context": CONTEXT, "id": f"{W3ID}commodity/{row['slug']}", "type": "Type",
+               "_label": f"{base_label} (withdrawn record)",
+               "deprecated": True, "modified": "2026-10-03",
                "referred_to_by": [{"type": "LinguisticObject", "classified_as": [AAT_BRIEF],
-                                   "content": f"{base_label}, qualified as ‘{qual}’: a commodity as the "
-                                              "Books of Rates price it separately (HECTOR decision 2, 29 Sep 2026)."}],
-               "identified_by": [{"type": "Name", "content": f"{base_label} ({qual})",
-                                  "classified_as": [AAT_PREFERRED]}]
-                                + [{"type": "Name", "content": t, "classified_as": [ATTESTED]} for t in texts],
-               "broader": [{"id": base_uri, "type": "Type", "_label": base_label}],
-               # task 13: the same IPA key the exporter gives every Name (tools/phonetics/ipa.py)
-               "compoundOf": [{"id": base_uri, "type": "Type", "_label": base_label}],
-               "modified": today}
-        for n in doc["identified_by"]:
-            k = phonetic_key(n["content"])
-            if k:
-                n["phoneticKey"] = [k]
-        p = site / "commodity" / slug / "ontology.json"
+                                   "content": "Withdrawn 3 Oct 2026. This record stood for the commodity as one "
+                                              "Book of Rates entry qualifies it; the rates are now on the commodity "
+                                              "itself, each naming its qualifier."}]}
+        if row.get("replaced_by"):
+            doc["isReplacedBy"] = {"id": f"{W3ID}commodity/{row['replaced_by']}", "type": "Type"}
+        p = site / "commodity" / row["slug"] / "ontology.json"
         p.parent.mkdir(parents=True, exist_ok=True)
         p.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    rep["qualified commodity records"] = len(qual_docs)
+    rep["withdrawn qualified records"] = len(qledger)
 
     # rates onto the records
     for slug, rates in by_record.items():
@@ -320,6 +377,10 @@ def run(lca: Path = LCA, today: str | None = None) -> dict:
     for why, rs in sorted(unlinked.items()):
         lines += ["", f"## Not linked: {why} ({len(rs)})", ""]
         lines += [f"- {r['book']} l.{r['source_line']}: {r['commodity_raw']}" for r in rs[:60]]
+    lines += ["", f"## Qualifiers kept as written: not a spelling in LCA's qualifier list ({len(as_written)})", "",
+              "Candidates for that list (docs/data/qualifiers.json); with a spelling there, a rate names the "
+              "qualifier in its modern form.", ""]
+    lines += [f"- {w} ({n})" for w, n in as_written.most_common()]
     lines += ["", "## Sample of links (commodity as written -> concept, spelling, qualifier)", ""]
     lines += [f"- {a} -> **{k}** via '{s}' ({h})" + (f", qualifier '{q}'" if q else "") for a, k, s, q, h in sample[:160]]
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -150,8 +150,20 @@
     skos:related <https://w3id.org/hector/commodity/fisshesmer> ;
     la:equivalent aat:300389825 ;
     hector:attestationCount 3582 ;
-    hector:taxation <https://w3id.org/hector/commodity/fish#rate-1545-inward-302>,
-        <https://w3id.org/hector/commodity/fish#rate-1558-inward-431> .
+    hector:taxation <https://w3id.org/hector/commodity/fish#rate-1545-inward-299>,
+        <https://w3id.org/hector/commodity/fish#rate-1545-inward-301>,
+        <https://w3id.org/hector/commodity/fish#rate-1545-inward-302>,
+        <https://w3id.org/hector/commodity/fish#rate-1545-inward-691>,
+        <https://w3id.org/hector/commodity/fish#rate-1545-inward-692>,
+        <https://w3id.org/hector/commodity/fish#rate-1558-inward-426>,
+        <https://w3id.org/hector/commodity/fish#rate-1558-inward-427>,
+        <https://w3id.org/hector/commodity/fish#rate-1558-inward-428>,
+        <https://w3id.org/hector/commodity/fish#rate-1558-inward-430>,
+        <https://w3id.org/hector/commodity/fish#rate-1558-inward-431>,
+        <https://w3id.org/hector/commodity/fish#rate-1558-inward-987> .
+
+aat:300073768 a crm:E55_Type ;
+    rdfs:label "small" .
 
 aat:300389825 a crm:E55_Type ;
     rdfs:label "fish (meat)" .
@@ -161,6 +173,39 @@ aat:300404670 a crm:E55_Type ;
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
+
+<https://w3id.org/hector/commodity/fish#rate-1545-inward-299> a hector:Rate ;
+    rdfs:label "1545 inward: Fysshe of the New Lande of the greatiste sorte the hunderith 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "new" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Lande of the greatiste" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 299 (transcribed by Stuart Jenks): 'Fysshe of the New Lande of the greatiste sorte the hunderith' 20s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/fish#rate-1545-inward-301> a hector:Rate ;
+    rdfs:label "1545 inward: Fysshe of the myddell sorte the 100 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "mid" ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 301 (transcribed by Stuart Jenks): 'Fysshe of the myddell sorte the 100' 10s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/fish#rate-1545-inward-302> a hector:Rate ;
     rdfs:label "1545 inward: Fysshe the barrell 6s 8d" ;
@@ -175,6 +220,108 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/fish#rate-1545-inward-691> a hector:Rate ;
+    rdfs:label "1545 inward: Staple fysshe the hundreth 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Staple" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 691 (transcribed by Stuart Jenks): 'Staple fysshe the hundreth' 20s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/fish#rate-1545-inward-692> a hector:Rate ;
+    rdfs:label "1545 inward: Small fysshe the 100 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "small" ;
+            la:equivalent aat:300073768 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 692 (transcribed by Stuart Jenks): 'Small fysshe the 100' 13s 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/fish#rate-1558-inward-426> a hector:Rate ;
+    rdfs:label "1558 inward: Fysshe of the Newe Lande the hundred cont’ 6 score of the greate 30s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "30s" ;
+            hector:valueInPence 360.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "new" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Lande" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 426 (transcribed by Stuart Jenks): 'Fysshe of the Newe Lande the hundred cont’ 6 score of the greate' 30s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/fish#rate-1558-inward-427> a hector:Rate ;
+    rdfs:label "1558 inward: Fishe of the New Land the C cont’ 120 of the midle 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "new" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Land" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 427 (transcribed by Stuart Jenks): 'Fishe of the New Land the C cont’ 120 of the midle' 20s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/fish#rate-1558-inward-428> a hector:Rate ;
+    rdfs:label "1558 inward: Fishe of þe New Land the C of the small 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "new" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Land" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 428 (transcribed by Stuart Jenks): 'Fishe of þe New Land the C of the small' 10s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/fish#rate-1558-inward-430> a hector:Rate ;
+    rdfs:label "1558 inward: Fishe voc’ barrelled fishe the barrell 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/barrel> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "barrelled" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 430 (transcribed by Stuart Jenks): 'Fishe voc’ barrelled fishe the barrell' 10s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/fish#rate-1558-inward-431> a hector:Rate ;
     rdfs:label "1558 inward: Fishe the last cont’ 12 barrelles £6" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -188,17 +335,36 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/fish#rate-1558-inward-987> a hector:Rate ;
+    rdfs:label "1558 inward: Staple fyshe the C cont’ 120 fysshes 30s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "30s" ;
+            hector:valueInPence 360.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Staple" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 987 (transcribed by Stuart Jenks): 'Staple fyshe the C cont’ 120 fysshes' 30s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/fisshesmer> a crm:E55_Type ;
     rdfs:label "fisshesmer" .
-
-<https://w3id.org/hector/unit/barrel> a crm:E58_Measurement_Unit ;
-    rdfs:label "barrel" .
 
 <https://w3id.org/hector/unit/last> a crm:E58_Measurement_Unit ;
     rdfs:label "last" .
 
 <https://w3id.org/mlca/glossary/fish> a crm:E55_Type ;
     rdfs:label "fish (London Customs Accounts glossary)" .
+
+<https://w3id.org/hector/unit/barrel> a crm:E58_Measurement_Unit ;
+    rdfs:label "barrel" .
+
+<https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
+    rdfs:label "hundred" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

@@ -7,82 +7,13 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/foin">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_foin_cb0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_foin_cb106f276518a5b14ab68307d12830277f89e41a4d2c3805bfcec67855958071293"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_foin_cb12b095b36c96997eea2f615387414d9397ca82e62cd2ac60aa4eef43d30a749b9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_foin_cb14d8b352a4bcac4e742b57e0bff51c0925fa29b66f221459c1a018995d83ebd54"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_foin_cb1595652f0b4edeba4690cf6e27ea80cbfde276749c6208d1cbcd1eee8bb2a15fb"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_foin_cb1c0d59d938c7a54ed2bc027bc335bf13796477338fbdb6617fc9d06b70f21b316"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_foin_cb569e3a0fc83d3482850885a83bd0e9a4a7ea894c3c7081b31076dea6006f020d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_foin_cb80c95b0c820b45a6e34268d44ac995e3b6b0908330ae9d00c432e07abeeab45c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_foin_cb93ecdd03b6aaa4181c239c7a1a9a45846f063581719439c1fe6b7b4cdce7262c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_foin_cbad9aa0aca3b3d0ff7035af20b8a3869b0b621c5e9a41ee4d73db1da9c8fa8693"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_foin_cbe51beee2b3fcbc351fb1b87896364cbd294111b797953b3a50448e24653d61f1"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_foin_cb6f593c26ef025b23f0af922849d214a3fe6c4aac512ed585440b8ae9e65cec1d"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>foin</rdfs:label>
-    <skos:broader rdf:resource="http://vocab.getty.edu/aat/300395532"/>
-    <skos:closeMatch rdf:resource="http://vocab.getty.edu/aat/300419363"/>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/foin"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">135</hector:attestationCount>
-    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/foin#rate-1507-none-89"/>
-    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/foin#rate-1558-inward-438"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_foin_cb368438ac5b64f6a74d55450fed76c89d095feefafcdff9b740f6542b1fa254d7">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_foin_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pane"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_foin_cb12b095b36c96997eea2f615387414d9397ca82e62cd2ac60aa4eef43d30a749b9">
-    <crm:P190_has_symbolic_content>foynez</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_foin_cb1042d23e48726726e014f5b8732673de5c97fbe5a3b9afffc8d84f2a58894a37a">
+    <crm:P190_has_symbolic_content>de foynes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>foinez</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+    <hector:phoneticKey>de foinəs</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_foin_cbfd914665f466c23e4f3983804bc7fba7d997b4177e904a6c4784a0430f9a0371">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>6s 8d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>dozen</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/pane">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>pane</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/foin">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>foin (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_foin_cb80c95b0c820b45a6e34268d44ac995e3b6b0908330ae9d00c432e07abeeab45c">
-    <crm:P190_has_symbolic_content>foyns</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>foins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1541</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_foin_cb569e3a0fc83d3482850885a83bd0e9a4a7ea894c3c7081b31076dea6006f020d">
+  <rdf:Description rdf:nodeID="commodity_foin_cb13ea0a63c4db2d6628a24d597c1a424f044964b46911d6e64f73f434ca3404f2c">
     <crm:P190_has_symbolic_content>foynes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -90,53 +21,74 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_foin_cb93ecdd03b6aaa4181c239c7a1a9a45846f063581719439c1fe6b7b4cdce7262c">
-    <crm:P190_has_symbolic_content>foynys</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>foinis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/foin#rate-1558-inward-435">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Foyne wombes the pane 16s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_foin_cb2c7790ebc296ccd7050250177625843c83e5150e3816fb1a632fe176755a3e14e"/>
+    <hector:perQuantity rdf:nodeID="commodity_foin_cb25f11f39c78f7f6b93fe03750a8b33c76432a656251e1fef0407e6912e2268644"/>
+    <hector:qualifier rdf:nodeID="commodity_foin_cb2c072681563b22b673f79844567137e0636066af7457b0977d2a9980a142b7b38"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 435 (transcribed by Stuart Jenks): 'Foyne wombes the pane' 16s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/foin#rate-1558-inward-438">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
     <rdfs:label>1558 inward: Foyne backes the dosen 6s 8d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_foin_cbfd914665f466c23e4f3983804bc7fba7d997b4177e904a6c4784a0430f9a0371"/>
-    <hector:perQuantity rdf:nodeID="commodity_foin_cb368438ac5b64f6a74d55450fed76c89d095feefafcdff9b740f6542b1fa254d7"/>
+    <hector:amount rdf:nodeID="commodity_foin_cb230aa13c5d26cc859860c08f7f2bba716cfc9778bfbc861fb97ab305fdb37c1d3"/>
+    <hector:perQuantity rdf:nodeID="commodity_foin_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_foin_cbee80c2cba2b4357ebf3d3a7f2fd3d65b1556031f2b0974bcc5541eadd0c9cea5"/>
     <hector:sourceText>Book of Rates 1558, inward, line 438 (transcribed by Stuart Jenks): 'Foyne backes the dosen' 6s 8d</hector:sourceText>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_foin_cb14d8b352a4bcac4e742b57e0bff51c0925fa29b66f221459c1a018995d83ebd54">
-    <crm:P190_has_symbolic_content>foyene</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_foin_cb228d75dc5a0a146cdab66ea64fb865380413e00cdf5d9736534682e402cfffa78">
+    <crm:P190_has_symbolic_content>foynez</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>foienə</hector:phoneticKey>
+    <hector:phoneticKey>foinez</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
+    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_foin_cb1595652f0b4edeba4690cf6e27ea80cbfde276749c6208d1cbcd1eee8bb2a15fb">
-    <crm:P190_has_symbolic_content>foyn</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>foin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/foin">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_foin_cb1042d23e48726726e014f5b8732673de5c97fbe5a3b9afffc8d84f2a58894a37a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_foin_cb13ea0a63c4db2d6628a24d597c1a424f044964b46911d6e64f73f434ca3404f2c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_foin_cb17d99bc6637a7221a9215d4a19c19cf1e5a3b8b9e0097483dff5275b1cadaed4a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_foin_cb1ec288e78b5152ed5fcdacdb34c5fb063b044af0ed196eeec22cf0f7835338c74"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_foin_cb1f96ffe98a127ba6f0feb12a3369a491206e935efe42db6db142be1610bc688a5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_foin_cb200fdbb88fdd3d0abd49c49d52b1c5bc5e4222f71d9df7400d3560f45f92b3c25"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_foin_cb21fde5c28152bfa34aec8383b59444f8b162f857416a99cc2a46dd94ef2bbad70"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_foin_cb228d75dc5a0a146cdab66ea64fb865380413e00cdf5d9736534682e402cfffa78"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_foin_cb236a2ffc567ec1c16892c940ced7986ffbbfaa128b37ce57561bbcb1ce9a68208"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_foin_cb273c7de309a2f6de86b68f4ec12de1fc733978003831ca67b501416a1375174b3"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_foin_cbf7a387144daab5a497068d4abb1e7076571c6ae2067f42dd09b7f38d3c0453a4"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_foin_cb16cd142f36a0f4f8f78a7b885b00c964b407b4267c559b1277094b47dd349fa35"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>foin</rdfs:label>
+    <skos:broader rdf:resource="http://vocab.getty.edu/aat/300395532"/>
+    <skos:closeMatch rdf:resource="http://vocab.getty.edu/aat/300419363"/>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/foin"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">135</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/foin#rate-1507-none-89"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/foin#rate-1507-none-90"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/foin#rate-1545-inward-297"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/foin#rate-1545-inward-298"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/foin#rate-1558-inward-435"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/foin#rate-1558-inward-436"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/foin#rate-1558-inward-437"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/foin#rate-1558-inward-438"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/foin#rate-1507-none-89">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1507: Foynes the pane 13s 4d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_foin_cb1e4a0f04d89b347cdbb263ea3da546d48c58f069ed62798e5073dd83a5d0eb955"/>
-    <hector:perQuantity rdf:nodeID="commodity_foin_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109"/>
-    <hector:sourceText>Book of Rates 1507, line 89 (transcribed by Stuart Jenks): 'Foynes the pane' 13s 4d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_foin_cb371a21fa6218306839b0beac4bc18ff6d4b54d2f9b213331156bc72be800317bc">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_foin_cbad9aa0aca3b3d0ff7035af20b8a3869b0b621c5e9a41ee4d73db1da9c8fa8693">
+  <rdf:Description rdf:nodeID="commodity_foin_cb200fdbb88fdd3d0abd49c49d52b1c5bc5e4222f71d9df7400d3560f45f92b3c25">
     <crm:P190_has_symbolic_content>foyne</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -144,36 +96,103 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_foin_cb1c0d59d938c7a54ed2bc027bc335bf13796477338fbdb6617fc9d06b70f21b316">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/foin#rate-1507-none-90">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Foynes stages or foynes wombys the pane 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_foin_cb275b982bee849ea27e60044f7a965fb482974fe388ba9ff555281ae39fb3e5730"/>
+    <hector:perQuantity rdf:nodeID="commodity_foin_cb1f14569f2e35d1ce83df090350cda1ee8a42e53ec3f19377ddd79abc6f8bd3b82"/>
+    <hector:qualifier rdf:nodeID="commodity_foin_cb1bd2541cf05fc55802f35cec341a855f3063c60384d83d31042e5f2736eee70c4"/>
+    <hector:qualifier rdf:nodeID="commodity_foin_cb2115ecb839d8900f9a0160ef704536a48c017d4ef1fb4897614ed83e0a8f70e8a"/>
+    <hector:sourceText>Book of Rates 1507, line 90 (transcribed by Stuart Jenks): 'Foynes stages or foynes wombys the pane' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/foin#rate-1545-inward-297">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Foyne wombes the pane 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_foin_cb371a21fa6218306839b0beac4bc18ff6d4b54d2f9b213331156bc72be800317bc"/>
+    <hector:perQuantity rdf:nodeID="commodity_foin_cb1f1377cb82038324249f6c592aeb9f62569dcdb4861dd5d0f85b659652f454fc5"/>
+    <hector:qualifier rdf:nodeID="commodity_foin_cb2945b7ab793471173ac7257f868769c0aac84ae29c9209382c68475edc79d4a3c"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 297 (transcribed by Stuart Jenks): 'Foyne wombes the pane' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300419363">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Martes foina (species)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/foin#rate-1507-none-89">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Foynes the pane 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_foin_cb3d80a3f1a896f01086335f695b570879b6a6b7115cbdd8e2b2e9a2722ecd74cc2"/>
+    <hector:perQuantity rdf:nodeID="commodity_foin_cb23d8b0de86209cd4c369acd4b3b2f3c5ce5eb64354f77183a17d7a5cc00b917b3"/>
+    <hector:sourceText>Book of Rates 1507, line 89 (transcribed by Stuart Jenks): 'Foynes the pane' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/foin#rate-1558-inward-436">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Foyne tailes the pane 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_foin_cb2e26086cca5c332d8a3b3f921bc22f149d81051ea823dd4ed2d5d26fae213dc4f"/>
+    <hector:perQuantity rdf:nodeID="commodity_foin_cb1caab9a1874a81fdd10f9e65e300baa3275cb223b4f4baa6a4058d7f205dc6e62"/>
+    <hector:qualifier rdf:nodeID="commodity_foin_cb26054eacb4c9198af39baa0e40b3da655d2e8374a3b65b38f280fcfe1e85b9ddc"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 436 (transcribed by Stuart Jenks): 'Foyne tailes the pane' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb21fde5c28152bfa34aec8383b59444f8b162f857416a99cc2a46dd94ef2bbad70">
     <crm:P190_has_symbolic_content>foin</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>foin</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_foin_cbe51beee2b3fcbc351fb1b87896364cbd294111b797953b3a50448e24653d61f1">
-    <crm:P190_has_symbolic_content>de foynes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>de foinəs</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_foin_cb0">
-    <crm:P190_has_symbolic_content>funys</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>funis</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_foin_cb1e4a0f04d89b347cdbb263ea3da546d48c58f069ed62798e5073dd83a5d0eb955">
+  <rdf:Description rdf:nodeID="commodity_foin_cb275b982bee849ea27e60044f7a965fb482974fe388ba9ff555281ae39fb3e5730">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>13s 4d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_foin_cb106f276518a5b14ab68307d12830277f89e41a4d2c3805bfcec67855958071293">
+  <rdf:Description rdf:nodeID="commodity_foin_cb236a2ffc567ec1c16892c940ced7986ffbbfaa128b37ce57561bbcb1ce9a68208">
+    <crm:P190_has_symbolic_content>foyns</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>foins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1541</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb1caab9a1874a81fdd10f9e65e300baa3275cb223b4f4baa6a4058d7f205dc6e62">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pane"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb1f96ffe98a127ba6f0feb12a3369a491206e935efe42db6db142be1610bc688a5">
+    <crm:P190_has_symbolic_content>foyene</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>foienə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb17d99bc6637a7221a9215d4a19c19cf1e5a3b8b9e0097483dff5275b1cadaed4a">
+    <crm:P190_has_symbolic_content>foynys</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>foinis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/foin#rate-1545-inward-298">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Foyne stagge the pane 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_foin_cb31ab4cb8078e21c5dae825265d18cc6cfa0bc1c49e403f97d11fa42a99321b97f"/>
+    <hector:perQuantity rdf:nodeID="commodity_foin_cb290ce4a0b5d89d9d4ade6499daf8f9b4c152841775444f8059564eb22a5c88856"/>
+    <hector:qualifier rdf:nodeID="commodity_foin_cb1e30436fbafebbb0cf2929000770b6715b21209d3405d43c97d15ba8d90d287c8"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 298 (transcribed by Stuart Jenks): 'Foyne stagge the pane' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb273c7de309a2f6de86b68f4ec12de1fc733978003831ca67b501416a1375174b3">
     <crm:P190_has_symbolic_content>foyon</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -181,17 +200,170 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300419363">
+  <rdf:Description rdf:nodeID="commodity_foin_cbf7a387144daab5a497068d4abb1e7076571c6ae2067f42dd09b7f38d3c0453a4">
+    <crm:P190_has_symbolic_content>funys</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>funis</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb183fc122ec75e0a6c0ecf76c17c09fb674b64b4107adc7ca2577e8b36f28815c5">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>Martes foina (species)</rdfs:label>
+    <rdfs:label>out of season</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb31ab4cb8078e21c5dae825265d18cc6cfa0bc1c49e403f97d11fa42a99321b97f">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb2c072681563b22b673f79844567137e0636066af7457b0977d2a9980a142b7b38">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>womb</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb2c7790ebc296ccd7050250177625843c83e5150e3816fb1a632fe176755a3e14e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>16s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">192</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb2e26086cca5c332d8a3b3f921bc22f149d81051ea823dd4ed2d5d26fae213dc4f">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb1ec288e78b5152ed5fcdacdb34c5fb063b044af0ed196eeec22cf0f7835338c74">
+    <crm:P190_has_symbolic_content>foyn</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>foin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb1f1377cb82038324249f6c592aeb9f62569dcdb4861dd5d0f85b659652f454fc5">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pane"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/foin#rate-1558-inward-437">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Foyne wombes stage the pane 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_foin_cb26a75508829d013cce5bc1b2db191d24f5a023296a1de6f76144df9196dc83438"/>
+    <hector:perQuantity rdf:nodeID="commodity_foin_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_foin_cb183fc122ec75e0a6c0ecf76c17c09fb674b64b4107adc7ca2577e8b36f28815c5"/>
+    <hector:qualifier rdf:nodeID="commodity_foin_cb1d8359be35eeab5e57fafb6f53eb50fbd054028c74d0d330829861ca42c90b38b"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 437 (transcribed by Stuart Jenks): 'Foyne wombes stage the pane' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb26a75508829d013cce5bc1b2db191d24f5a023296a1de6f76144df9196dc83438">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pane"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb2945b7ab793471173ac7257f868769c0aac84ae29c9209382c68475edc79d4a3c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>womb</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb230aa13c5d26cc859860c08f7f2bba716cfc9778bfbc861fb97ab305fdb37c1d3">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb2115ecb839d8900f9a0160ef704536a48c017d4ef1fb4897614ed83e0a8f70e8a">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>womb</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/foin">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>foin (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pane">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pane</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb16cd142f36a0f4f8f78a7b885b00c964b407b4267c559b1277094b47dd349fa35">
+    <crm:P190_has_symbolic_content>Martes foina, more commonly known as stone martens or beech martens, are found across Europe, and Central Asia. They are weasel-like carnivores that are more generally found in deciduous forests or on rocky hillsides. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb25f11f39c78f7f6b93fe03750a8b33c76432a656251e1fef0407e6912e2268644">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pane"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb3d80a3f1a896f01086335f695b570879b6a6b7115cbdd8e2b2e9a2722ecd74cc2">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb1bd2541cf05fc55802f35cec341a855f3063c60384d83d31042e5f2736eee70c4">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>out of season</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb1f14569f2e35d1ce83df090350cda1ee8a42e53ec3f19377ddd79abc6f8bd3b82">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pane"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb23d8b0de86209cd4c369acd4b3b2f3c5ce5eb64354f77183a17d7a5cc00b917b3">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pane"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb290ce4a0b5d89d9d4ade6499daf8f9b4c152841775444f8059564eb22a5c88856">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pane"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb1d8359be35eeab5e57fafb6f53eb50fbd054028c74d0d330829861ca42c90b38b">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>womb</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb26054eacb4c9198af39baa0e40b3da655d2e8374a3b65b38f280fcfe1e85b9ddc">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tailes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cb1e30436fbafebbb0cf2929000770b6715b21209d3405d43c97d15ba8d90d287c8">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>out of season</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300395532">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>pelts (animal skins)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_foin_cb6f593c26ef025b23f0af922849d214a3fe6c4aac512ed585440b8ae9e65cec1d">
-    <crm:P190_has_symbolic_content>Martes foina, more commonly known as stone martens or beech martens, are found across Europe, and Central Asia. They are weasel-like carnivores that are more generally found in deciduous forests or on rocky hillsides. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_foin_cbee80c2cba2b4357ebf3d3a7f2fd3d65b1556031f2b0974bcc5541eadd0c9cea5">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>back</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

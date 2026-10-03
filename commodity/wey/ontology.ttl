@@ -175,6 +175,9 @@
     hector:attestationCount 1891 ;
     hector:taxation <https://w3id.org/hector/commodity/wey#rate-1558-inward-498> .
 
+aat:300010797 a crm:E55_Type ;
+    rdfs:label "glass (material)" .
+
 aat:300386648 a crm:E55_Type ;
     rdfs:label "weights and measures (general, standards)" .
 
@@ -196,6 +199,12 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 60 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/bunch> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "glass" ;
+            la:equivalent aat:300010797 ],
+        [ a crm:E55_Type ;
+            rdfs:label "wabe" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 498 (transcribed by Stuart Jenks): 'Glasse the waie or wabe cont’ 60 bunches' 50s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .

@@ -193,7 +193,31 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 780 (transcribed by Stuart Jenks): 'Wyne of Gascoyne or swete wyne the tonne' £3"
+      "sourceText": "Book of Rates 1545, inward, line 780 (transcribed by Stuart Jenks): 'Wyne of Gascoyne or swete wyne the tonne' £3",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Gascony",
+          "originPlace": [
+            {
+              "id": "wd:Q191085",
+              "type": "Place",
+              "_label": "Gascony"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "swete",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

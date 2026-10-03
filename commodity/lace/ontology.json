@@ -259,6 +259,126 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/lace#rate-1507-none-161",
+      "type": "Rate",
+      "_label": "1507: Laces called Flawnderes laces the grett grosse and every gret gross ys 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1728,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 161 (transcribed by Stuart Jenks): 'Laces called Flawnderes laces the grett grosse and every gret gross ys' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Flawnderes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/lace#rate-1545-inward-84",
+      "type": "Rate",
+      "_label": "1545 inward: Brytayne laces the groce 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 84 (transcribed by Stuart Jenks): 'Brytayne laces the groce' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Brytayne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/lace#rate-1558-inward-133",
+      "type": "Rate",
+      "_label": "1558 inward: Britayne laces the grosse 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 133 (transcribed by Stuart Jenks): 'Britayne laces the grosse' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Britayne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/lace#rate-1558-inward-649",
       "type": "Rate",
       "_label": "1558 inward: Laces the grosse 6s 8d",

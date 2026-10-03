@@ -125,7 +125,8 @@
     skos:exactMatch <https://w3id.org/mlca/glossary/saffron> ;
     la:equivalent aat:300013073 ;
     hector:attestationCount 340 ;
-    hector:taxation <https://w3id.org/hector/commodity/saffron#rate-1545-inward-657>,
+    hector:taxation <https://w3id.org/hector/commodity/saffron#rate-1507-none-270>,
+        <https://w3id.org/hector/commodity/saffron#rate-1545-inward-657>,
         <https://w3id.org/hector/commodity/saffron#rate-1558-inward-924> .
 
 aat:300013073 a crm:E55_Type ;
@@ -136,6 +137,22 @@ aat:300404670 a crm:E55_Type ;
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
+
+<https://w3id.org/hector/commodity/saffron#rate-1507-none-270> a hector:Rate ;
+    rdfs:label "1507: Saffron of beyownd the se þe lb 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "beyownd the se" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 270 (transcribed by Stuart Jenks): 'Saffron of beyownd the se þe lb' 6s 8d" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/saffron#rate-1545-inward-657> a hector:Rate ;
     rdfs:label "1545 inward: Saffrone the pounde 6s 8d" ;

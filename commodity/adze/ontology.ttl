@@ -80,6 +80,9 @@
 aat:300023553 a crm:E55_Type ;
     rdfs:label "adzes" .
 
+aat:300025375 a crm:E55_Type ;
+    rdfs:label "coopers" .
+
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
 
@@ -98,6 +101,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 12 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "cooper" ;
+            la:equivalent aat:300025375 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 55 (transcribed by Stuart Jenks): 'Adses for cowpers the dosen' 6s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .

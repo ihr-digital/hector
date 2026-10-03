@@ -659,5 +659,357 @@
     }
   ],
   "attestationCount": 368,
-  "modified": "2026-10-03"
+  "modified": "2026-10-03",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/tapestry#rate-1507-none-296",
+      "type": "Rate",
+      "_label": "1507: Tapestre or verderes with sylke the Flemyche elle 20d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "20",
+        "lsd": "20d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/ell",
+          "type": "MeasurementUnit",
+          "_label": "ell"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 296 (transcribed by Stuart Jenks): 'Tapestre or verderes with sylke the Flemyche elle' 20d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "verderes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "silk",
+          "equivalent": [
+            {
+              "id": "aat:300243428",
+              "type": "Type",
+              "_label": "silk (textile)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/tapestry#rate-1507-none-297",
+      "type": "Rate",
+      "_label": "1507: Tapestry or verderes withowt sylke the Flemyche elle 5d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "5",
+        "lsd": "5d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/ell",
+          "type": "MeasurementUnit",
+          "_label": "ell"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 297 (transcribed by Stuart Jenks): 'Tapestry or verderes withowt sylke the Flemyche elle' 5d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "verderes withowt",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "silk",
+          "equivalent": [
+            {
+              "id": "aat:300243428",
+              "type": "Type",
+              "_label": "silk (textile)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/tapestry#rate-1507-none-298",
+      "type": "Rate",
+      "_label": "1507: Tapestry or verderes with cades the Flemyche elle 12d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "12",
+        "lsd": "12d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/ell",
+          "type": "MeasurementUnit",
+          "_label": "ell"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 298 (transcribed by Stuart Jenks): 'Tapestry or verderes with cades the Flemyche elle' 12d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "verderes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/tapestry#rate-1558-inward-1076",
+      "type": "Rate",
+      "_label": "1558 inward: Tapstrye with sylke the elle Flemmysh 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "40",
+        "lsd": "3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/ell",
+          "type": "MeasurementUnit",
+          "_label": "ell"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1076 (transcribed by Stuart Jenks): 'Tapstrye with sylke the elle Flemmysh' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "silk",
+          "equivalent": [
+            {
+              "id": "aat:300243428",
+              "type": "Type",
+              "_label": "silk (textile)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "County of Flanders",
+          "originPlace": [
+            {
+              "id": "wd:Q157070",
+              "type": "Place",
+              "_label": "County of Flanders"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/tapestry#rate-1558-inward-1077",
+      "type": "Rate",
+      "_label": "1558 inward: Tapstrye with cadysse the elle Flemmyshe 2s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "24",
+        "lsd": "2s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/ell",
+          "type": "MeasurementUnit",
+          "_label": "ell"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1077 (transcribed by Stuart Jenks): 'Tapstrye with cadysse the elle Flemmyshe' 2s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "cadysse",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "County of Flanders",
+          "originPlace": [
+            {
+              "id": "wd:Q157070",
+              "type": "Place",
+              "_label": "County of Flanders"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/tapestry#rate-1558-inward-1078",
+      "type": "Rate",
+      "_label": "1558 inward: Tapstrye with wooll or verder the elle Flemmyshe 12d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "12",
+        "lsd": "12d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/ell",
+          "type": "MeasurementUnit",
+          "_label": "ell"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1078 (transcribed by Stuart Jenks): 'Tapstrye with wooll or verder the elle Flemmyshe' 12d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "wooll or verder",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "County of Flanders",
+          "originPlace": [
+            {
+              "id": "wd:Q157070",
+              "type": "Place",
+              "_label": "County of Flanders"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/tapestry#rate-1558-inward-1079",
+      "type": "Rate",
+      "_label": "1558 inward: Tapstrye of heare course the elle Flemyshe 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "8",
+        "lsd": "8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/ell",
+          "type": "MeasurementUnit",
+          "_label": "ell"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1079 (transcribed by Stuart Jenks): 'Tapstrye of heare course the elle Flemyshe' 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "heare",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "coarse"
+        },
+        {
+          "type": "Type",
+          "_label": "County of Flanders",
+          "originPlace": [
+            {
+              "id": "wd:Q157070",
+              "type": "Place",
+              "_label": "County of Flanders"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -164,7 +164,9 @@
     hector:taxation <https://w3id.org/hector/commodity/apple#rate-1545-inward-21>,
         <https://w3id.org/hector/commodity/apple#rate-1545-inward-22>,
         <https://w3id.org/hector/commodity/apple#rate-1558-inward-18>,
-        <https://w3id.org/hector/commodity/apple#rate-1558-inward-19> .
+        <https://w3id.org/hector/commodity/apple#rate-1558-inward-19>,
+        <https://w3id.org/hector/commodity/apple#rate-1558-inward-20>,
+        <https://w3id.org/hector/commodity/apple#rate-1558-inward-21> .
 
 aat:300266417 a crm:E55_Type ;
     rdfs:label "apples (fruits)" .
@@ -224,6 +226,38 @@ aat:300435416 a crm:E55_Type ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/barrel> ] ;
     hector:sourceText "Book of Rates 1558, inward, line 19 (transcribed by Stuart Jenks): 'Apples the barrell cont’ three bushell' 12d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/apple#rate-1558-inward-20> a hector:Rate ;
+    rdfs:label "1558 inward: Apples voc’ pippins or rynnettes the bushell 12d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "12d" ;
+            hector:valueInPence 12.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/bushel> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "pippins or rynnettes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 20 (transcribed by Stuart Jenks): 'Apples voc’ pippins or rynnettes the bushell' 12d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/apple#rate-1558-inward-21> a hector:Rate ;
+    rdfs:label "1558 inward: Apples voc’ pippins or rynnettes the barrell cont’ 3 bushelles 3s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "3s" ;
+            hector:valueInPence 36.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/barrel> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "pippins or rynnettes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 21 (transcribed by Stuart Jenks): 'Apples voc’ pippins or rynnettes the barrell cont’ 3 bushelles' 3s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 

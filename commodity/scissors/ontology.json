@@ -676,6 +676,86 @@
       "sourceText": "Book of Rates 1545, inward, line 665 (transcribed by Stuart Jenks): 'Sheres the groce' 8d"
     },
     {
+      "id": "https://w3id.org/hector/commodity/scissors#rate-1545-inward-736",
+      "type": "Rate",
+      "_label": "1545 inward: Tayler sheres the dossen 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 736 (transcribed by Stuart Jenks): 'Tayler sheres the dossen' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Tayler",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/scissors#rate-1558-inward-1019",
+      "type": "Rate",
+      "_label": "1558 inward: Sheres for wemen called foreceptes the grose 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1019 (transcribed by Stuart Jenks): 'Sheres for wemen called foreceptes the grose' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "wemen called foreceptes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/scissors#rate-1558-inward-1065",
       "type": "Rate",
       "_label": "1558 inward: Sheres for semesters the marke conteyninge two dossyn 3s 4d",
@@ -700,7 +780,60 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 1065 (transcribed by Stuart Jenks): 'Sheres for semesters the marke conteyninge two dossyn' 3s 4d"
+      "sourceText": "Book of Rates 1558, inward, line 1065 (transcribed by Stuart Jenks): 'Sheres for semesters the marke conteyninge two dossyn' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "semesters",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/scissors#rate-1558-inward-1080",
+      "type": "Rate",
+      "_label": "1558 inward: Taylors sheres the dossyn 8s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "96",
+        "lsd": "8s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1080 (transcribed by Stuart Jenks): 'Taylors sheres the dossyn' 8s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Taylors",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/scissors#rate-1558-inward-961",

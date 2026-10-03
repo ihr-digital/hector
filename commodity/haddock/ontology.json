@@ -395,7 +395,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 551 (transcribed by Stuart Jenks): 'Haddockes barrelled the last cont’ 12 barrelles' £4"
+      "sourceText": "Book of Rates 1558, inward, line 551 (transcribed by Stuart Jenks): 'Haddockes barrelled the last cont’ 12 barrelles' £4",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "barrelled",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -8,101 +8,17 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_chisel_cb224069eed6f551f13f98257b1dcbfe4117889a4eed6e36c69ce622a9083c1bfb9">
-    <crm:P190_has_symbolic_content>chiessel</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tʃiːsel</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/chisel#rate-1558-inward-336">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Cheselles halfe the dossen 2s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_chisel_cb246e7865a842a1c01b18357dd105cbadfbe880899b36af94822afab4e5da16dd5"/>
+    <hector:perQuantity rdf:nodeID="commodity_chisel_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_chisel_cbf5228a83276e9a3bbdb711f969d491b6bde889ec1ccbcdc3b8d9b3f871632c80"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 336 (transcribed by Stuart Jenks): 'Cheselles halfe the dossen' 2s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_chisel_cb1479e238fa1f4f5ad3a945aa2b9c59e0536018f8641d5104ed09d50750d82584d">
-    <crm:P190_has_symbolic_content>chesilles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tʃesiləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_chisel_cbdb957bac75422627dd938f7206eec9978218354d7c9692786a9689b34fa77d74">
-    <crm:P190_has_symbolic_content>Metal hand tools with a cutting edge at one end, driven by a hammer or mallet; or now often electrically driven, used in dressing, shaping, or working wood, stone, or metal. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/chisel">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_chisel_cb0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_chisel_cb12beb04d1a2f62599f31caf1e37d4ba65734268609445b0c33c3cfcd31aec6752"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_chisel_cb1470d042e0d2eff25bfc1724ef8e3d32038bc0445af7d5ecbd733ebd058b6e623"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_chisel_cb1479e238fa1f4f5ad3a945aa2b9c59e0536018f8641d5104ed09d50750d82584d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_chisel_cb1e0fb50c57dbb7f1752515bc203f6293c6610a38048b09a5a6742ff726d8f5368"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_chisel_cb1ecd9afc9f8536f2a3d801f57667b0c5cc310e7bfe673c1021af8abdd4063f617"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_chisel_cb224069eed6f551f13f98257b1dcbfe4117889a4eed6e36c69ce622a9083c1bfb9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_chisel_cb22e180b6f76ab58e331a0763050c79a9fd82870af3d3dcb8217f7d51d6e1eeebd"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_chisel_cbd82bc56cb630c9432dfe985b2af7275b194a0e8eb930d3cf790c363a6b8e6a91"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_chisel_cbdb957bac75422627dd938f7206eec9978218354d7c9692786a9689b34fa77d74"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>chisel</rdfs:label>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/chisel"/>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300024665"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</hector:attestationCount>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_chisel_cb0">
-    <crm:P190_has_symbolic_content>chisel</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tʃisel</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_chisel_cbd82bc56cb630c9432dfe985b2af7275b194a0e8eb930d3cf790c363a6b8e6a91">
-    <crm:P190_has_symbolic_content>chezilles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tʃeziləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_chisel_cb1ecd9afc9f8536f2a3d801f57667b0c5cc310e7bfe673c1021af8abdd4063f617">
-    <crm:P190_has_symbolic_content>chesille</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tʃesilə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_chisel_cb22e180b6f76ab58e331a0763050c79a9fd82870af3d3dcb8217f7d51d6e1eeebd">
-    <crm:P190_has_symbolic_content>cheselle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tʃeselə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300024665">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>chisels</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_chisel_cb1470d042e0d2eff25bfc1724ef8e3d32038bc0445af7d5ecbd733ebd058b6e623">
-    <crm:P190_has_symbolic_content>chiessels</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tʃiːsels</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_chisel_cb1e0fb50c57dbb7f1752515bc203f6293c6610a38048b09a5a6742ff726d8f5368">
+  <rdf:Description rdf:nodeID="commodity_chisel_cb2c369323a88dcf3ab4ae8f77c6780e779d60df8f2c4cd48de3d00caff89f75bd7">
     <crm:P190_has_symbolic_content>cheselles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -110,7 +26,82 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_chisel_cb12beb04d1a2f62599f31caf1e37d4ba65734268609445b0c33c3cfcd31aec6752">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_chisel_cb222783fc090b7e01fdc9aab0bd10ca33155de5934f52fa5b01a17399ad89225f0">
+    <crm:P190_has_symbolic_content>chesilles</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tʃesiləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/chisel#rate-1558-inward-335">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Cheselles for joyners hole the dossen 4s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_chisel_cb1d03f6b5ab259f415b5e6ecece9ee618c83d845a1ded7bfe2bed34d54675ef897"/>
+    <hector:perQuantity rdf:nodeID="commodity_chisel_cb1652e343a3ed2918c2be99923516ab22c7616207f73f0d9dbb6f0b6abe22ec572"/>
+    <hector:qualifier rdf:nodeID="commodity_chisel_cb15a1e82f4f4d57a4bae4cdc51ecb7c1d9f7485b8fffe590adc1f81bb06f1c5169"/>
+    <hector:qualifier rdf:nodeID="commodity_chisel_cb1899d6057df06a4f550deb67835cce583110261e86e4a6abb1499d9a4c8f53e37"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 335 (transcribed by Stuart Jenks): 'Cheselles for joyners hole the dossen' 4s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_chisel_cb241f8811df568bac82fa39bab672c0f02b9ff2cfa24ed5efeaf3e6c2cec793115">
+    <crm:P190_has_symbolic_content>chesille</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tʃesilə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_chisel_cb2d94521df628b58f97003ef50ff8c2f938d513fda091801087558fd2de8845c39">
+    <crm:P190_has_symbolic_content>chiessels</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tʃiːsels</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/chisel">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_chisel_cb18953fb2d454fc2159816aeae6ab2d63de6eaa9f7957b1ced173984220c192a47"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_chisel_cb19c4e026e0f2217bd6f090e2e025a94d9bcd733da09874bf241225e7056b42e74"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_chisel_cb1be990a4844ffba163a2339e09ee924027ac41ab3ba774eeae2fc714abe4a18a9"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_chisel_cb222783fc090b7e01fdc9aab0bd10ca33155de5934f52fa5b01a17399ad89225f0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_chisel_cb241f8811df568bac82fa39bab672c0f02b9ff2cfa24ed5efeaf3e6c2cec793115"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_chisel_cb29b77deac0ecca965c0c1d762cea9720f8527882d54f678bf447dfc17db1d79c8"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_chisel_cb2a670825826c84f40e3738337bcf7aed16cd23ca9ab6ffc998288a7a2196b885d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_chisel_cb2c369323a88dcf3ab4ae8f77c6780e779d60df8f2c4cd48de3d00caff89f75bd7"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_chisel_cb2d94521df628b58f97003ef50ff8c2f938d513fda091801087558fd2de8845c39"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_chisel_cb1d90d8278f04f1a93658bb5cf6d294b3ec4272d08f0c16e1a971fb3473c948b8c"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>chisel</rdfs:label>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/chisel"/>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300024665"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/chisel#rate-1558-inward-335"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/chisel#rate-1558-inward-336"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_chisel_cb1d03f6b5ab259f415b5e6ecece9ee618c83d845a1ded7bfe2bed34d54675ef897">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_chisel_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_chisel_cb15a1e82f4f4d57a4bae4cdc51ecb7c1d9f7485b8fffe590adc1f81bb06f1c5169">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>joyners</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_chisel_cb1be990a4844ffba163a2339e09ee924027ac41ab3ba774eeae2fc714abe4a18a9">
     <crm:P190_has_symbolic_content>chezille</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -118,8 +109,83 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_chisel_cb2a670825826c84f40e3738337bcf7aed16cd23ca9ab6ffc998288a7a2196b885d">
+    <crm:P190_has_symbolic_content>cheselle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tʃeselə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_chisel_cb1d90d8278f04f1a93658bb5cf6d294b3ec4272d08f0c16e1a971fb3473c948b8c">
+    <crm:P190_has_symbolic_content>Metal hand tools with a cutting edge at one end, driven by a hammer or mallet; or now often electrically driven, used in dressing, shaping, or working wood, stone, or metal. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_chisel_cb29b77deac0ecca965c0c1d762cea9720f8527882d54f678bf447dfc17db1d79c8">
+    <crm:P190_has_symbolic_content>chiessel</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tʃiːsel</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_chisel_cb1899d6057df06a4f550deb67835cce583110261e86e4a6abb1499d9a4c8f53e37">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>whole</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_chisel_cb18953fb2d454fc2159816aeae6ab2d63de6eaa9f7957b1ced173984220c192a47">
+    <crm:P190_has_symbolic_content>chezilles</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tʃeziləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300024665">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>chisels</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_chisel_cb19c4e026e0f2217bd6f090e2e025a94d9bcd733da09874bf241225e7056b42e74">
+    <crm:P190_has_symbolic_content>chisel</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tʃisel</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_chisel_cb1652e343a3ed2918c2be99923516ab22c7616207f73f0d9dbb6f0b6abe22ec572">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/mlca/glossary/chisel">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>chisel (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_chisel_cb246e7865a842a1c01b18357dd105cbadfbe880899b36af94822afab4e5da16dd5">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_chisel_cbf5228a83276e9a3bbdb711f969d491b6bde889ec1ccbcdc3b8d9b3f871632c80">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>half</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

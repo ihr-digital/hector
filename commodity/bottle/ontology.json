@@ -481,6 +481,200 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/bottle#rate-1545-inward-117",
+      "type": "Rate",
+      "_label": "1545 inward: Bottels of wyckers the dossen 16d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "16",
+        "lsd": "16d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 117 (transcribed by Stuart Jenks): 'Bottels of wyckers the dossen' 16d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "wyckers",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/bottle#rate-1558-inward-142",
+      "type": "Rate",
+      "_label": "1558 inward: Bottelles of glasse uncovered the dosen 18d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "18",
+        "lsd": "18d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 142 (transcribed by Stuart Jenks): 'Bottelles of glasse uncovered the dosen' 18d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "glass",
+          "equivalent": [
+            {
+              "id": "aat:300010797",
+              "type": "Type",
+              "_label": "glass (material)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "uncovered"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/bottle#rate-1558-inward-143",
+      "type": "Rate",
+      "_label": "1558 inward: Bottelles of glasse the dosen covered 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 143 (transcribed by Stuart Jenks): 'Bottelles of glasse the dosen covered' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "glass",
+          "equivalent": [
+            {
+              "id": "aat:300010797",
+              "type": "Type",
+              "_label": "glass (material)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "covered"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/bottle#rate-1558-inward-169",
+      "type": "Rate",
+      "_label": "1558 inward: Botles of glasse with vices, covered with leather þe dosen 30s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "360",
+        "lsd": "30s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 169 (transcribed by Stuart Jenks): 'Botles of glasse with vices, covered with leather þe dosen' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "glass",
+          "equivalent": [
+            {
+              "id": "aat:300010797",
+              "type": "Type",
+              "_label": "glass (material)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "vices",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "covered"
+        },
+        {
+          "type": "Type",
+          "_label": "leather",
+          "equivalent": [
+            {
+              "id": "aat:300011845",
+              "type": "Type",
+              "_label": "leather"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/bottle#rate-1558-inward-98",
       "type": "Rate",
       "_label": "1558 inward: Bottelles the dosen 20d",

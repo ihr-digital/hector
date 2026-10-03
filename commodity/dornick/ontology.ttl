@@ -2,6 +2,7 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix hector: <https://w3id.org/hector/ontology#> .
+@prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wd: <http://www.wikidata.org/entity/> .
@@ -90,11 +91,26 @@
     skos:exactMatch <https://w3id.org/mlca/glossary/dornick> ;
     hector:attestationCount 106 ;
     hector:originPlace wd:Q173219 ;
-    hector:taxation <https://w3id.org/hector/commodity/dornick#rate-1558-inward-383>,
+    hector:taxation <https://w3id.org/hector/commodity/dornick#rate-1545-inward-228>,
+        <https://w3id.org/hector/commodity/dornick#rate-1545-inward-229>,
+        <https://w3id.org/hector/commodity/dornick#rate-1545-inward-230>,
+        <https://w3id.org/hector/commodity/dornick#rate-1545-inward-231>,
+        <https://w3id.org/hector/commodity/dornick#rate-1558-inward-364>,
+        <https://w3id.org/hector/commodity/dornick#rate-1558-inward-365>,
+        <https://w3id.org/hector/commodity/dornick#rate-1558-inward-366>,
+        <https://w3id.org/hector/commodity/dornick#rate-1558-inward-367>,
+        <https://w3id.org/hector/commodity/dornick#rate-1558-inward-378>,
+        <https://w3id.org/hector/commodity/dornick#rate-1558-inward-383>,
         <https://w3id.org/hector/commodity/dornick#rate-1558-inward-384> .
+
+aat:300128438 a crm:E55_Type ;
+    rdfs:label "green (color)" .
 
 aat:300162391 a crm:E55_Type ;
     rdfs:label "cloth" .
+
+aat:300243430 a crm:E55_Type ;
+    rdfs:label "wool (textile)" .
 
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
@@ -102,8 +118,157 @@ aat:300404670 a crm:E55_Type ;
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
-wd:Q173219 a crm:E53_Place ;
-    rdfs:label "Tournai" .
+<https://w3id.org/hector/commodity/dornick#rate-1545-inward-228> a hector:Rate ;
+    rdfs:label "1545 inward: Dornix with silke þe pece 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "silk" ;
+            la:equivalent aat:300243428 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 228 (transcribed by Stuart Jenks): 'Dornix with silke þe pece' 6s 8d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/dornick#rate-1545-inward-229> a hector:Rate ;
+    rdfs:label "1545 inward: Dornix without sylke or caddas the pece 5s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "5s" ;
+            hector:valueInPence 60.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "without" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "silk" ;
+            la:equivalent aat:300243428 ],
+        [ a crm:E55_Type ;
+            rdfs:label "caddas" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 229 (transcribed by Stuart Jenks): 'Dornix without sylke or caddas the pece' 5s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/dornick#rate-1545-inward-230> a hector:Rate ;
+    rdfs:label "1545 inward: Dornix of wool the pece 3s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "3s 4d" ;
+            hector:valueInPence 40.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "wool" ;
+            la:equivalent aat:300243430 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 230 (transcribed by Stuart Jenks): 'Dornix of wool the pece' 3s 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/dornick#rate-1545-inward-231> a hector:Rate ;
+    rdfs:label "1545 inward: Dornix thriden the pece 2s 6d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "2s 6d" ;
+            hector:valueInPence 30.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "thriden" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 231 (transcribed by Stuart Jenks): 'Dornix thriden the pece' 2s 6d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/dornick#rate-1558-inward-364> a hector:Rate ;
+    rdfs:label "1558 inward: Dornyckes with silke the pece cont’ 15 yerdes 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "silk" ;
+            la:equivalent aat:300243428 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 364 (transcribed by Stuart Jenks): 'Dornyckes with silke the pece cont’ 15 yerdes' 13s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/dornick#rate-1558-inward-365> a hector:Rate ;
+    rdfs:label "1558 inward: Dornyx with caddas the pece cont’ 15 yerdes 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "caddas" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 365 (transcribed by Stuart Jenks): 'Dornyx with caddas the pece cont’ 15 yerdes' 10s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/dornick#rate-1558-inward-366> a hector:Rate ;
+    rdfs:label "1558 inward: Dornyx with woll the pece cont’ 15 yerdes 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "woll" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 366 (transcribed by Stuart Jenks): 'Dornyx with woll the pece cont’ 15 yerdes' 10s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/dornick#rate-1558-inward-367> a hector:Rate ;
+    rdfs:label "1558 inward: Dornyx with thredd the peace cont’ 15 yerdes 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "file" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 367 (transcribed by Stuart Jenks): 'Dornyx with thredd the peace cont’ 15 yerdes' 6s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/dornick#rate-1558-inward-378> a hector:Rate ;
+    rdfs:label "1558 inward: Dornix voc’ grene Dornyx the pece cont’ thirtie yeardes 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "green" ;
+            la:equivalent aat:300128438 ],
+        [ a crm:E55_Type ;
+            rdfs:label "Tournai" ;
+            hector:originPlace wd:Q173219 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 378 (transcribed by Stuart Jenks): 'Dornix voc’ grene Dornyx the pece cont’ thirtie yeardes' 13s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/dornick#rate-1558-inward-383> a hector:Rate ;
     rdfs:label "1558 inward: Dornyx voc’ Frenche Dornix the ell 15d" ;
@@ -114,6 +279,12 @@ wd:Q173219 a crm:E53_Place ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/ell> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Tournai" ;
+            hector:originPlace wd:Q173219 ],
+        [ a crm:E55_Type ;
+            rdfs:label "France" ;
+            hector:originPlace wd:Q142 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 383 (transcribed by Stuart Jenks): 'Dornyx voc’ Frenche Dornix the ell' 15d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -127,6 +298,9 @@ wd:Q173219 a crm:E53_Place ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/yard> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "France" ;
+            hector:originPlace wd:Q142 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 384 (transcribed by Stuart Jenks): 'Dornix voc’ Frenche Dornix the yerde' 12d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -139,6 +313,18 @@ wd:Q173219 a crm:E53_Place ;
 
 <https://w3id.org/mlca/glossary/dornick> a crm:E55_Type ;
     rdfs:label "dornick (London Customs Accounts glossary)" .
+
+wd:Q142 a crm:E53_Place ;
+    rdfs:label "France" .
+
+aat:300243428 a crm:E55_Type ;
+    rdfs:label "silk (textile)" .
+
+wd:Q173219 a crm:E53_Place ;
+    rdfs:label "Tournai" .
+
+<https://w3id.org/hector/unit/pecia> a crm:E58_Measurement_Unit ;
+    rdfs:label "pecia" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

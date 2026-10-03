@@ -7,67 +7,36 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_falcon_cb22e6f070012637a7f5d7a9a731537550d350ce9220a50b40e699918d8107fab5a">
-    <crm:P190_has_symbolic_content>faucons</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>faukons</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_falcon_cbe7d8e192e9a56c007f26d708c26e1bfb42b1c219f37d483ffa014a2b168ad06c">
-    <crm:P190_has_symbolic_content>faucon</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>faukon</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_falcon_cb27223f9b48c7be66aec401ea1569005bc1e156fb34d6ac5a4f39f1dde42b04c77">
-    <crm:P190_has_symbolic_content>fawkon</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>faukon</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_falcon_cb122d762047a974c8da60fb0f66624e29620a6dc69c072b7dd079d8afd609b4560">
-    <crm:P190_has_symbolic_content>falcon</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>falkon</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_falcon_cb13e1f44c07b919ee61addd93fdc682bf0a7629070b5c5764b50a255d4293725ba">
-    <crm:P190_has_symbolic_content>fewlkens</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>feulkens</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/falcon#rate-1545-inward-305">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Fawcon hawke the hawke 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_falcon_cb39bc8fcf9160bf462e3baf3139b0bd18ee1278217baf978604dad46eff3db038c"/>
+    <hector:perQuantity rdf:nodeID="commodity_falcon_cb1bf1f90ce9cf931dd0d5f541b2e7a7e0f77b303c30aca752770999d7b3fac8a5c"/>
+    <hector:qualifier rdf:nodeID="commodity_falcon_cb14bcc8648a5d53e94d3676e8843873728805c34387c41201d13bfae5cef18ef58"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 305 (transcribed by Stuart Jenks): 'Fawcon hawke the hawke' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/falcon">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb122d762047a974c8da60fb0f66624e29620a6dc69c072b7dd079d8afd609b4560"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb1255b547798cfb5cd3481e00f5f7289bd09c45cc2ebcc73246d6c9fc2e0839824"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb13e1f44c07b919ee61addd93fdc682bf0a7629070b5c5764b50a255d4293725ba"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb14f2d8f4f97c35df704d381da3771c5f8de0acc6ac6dd15761aa2abfc59cc8d71"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb164d3fcc8c815f9b77fc88a99b78eab7d981a50b08cff4183b6d2c275ea10edac"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb1718a4ac2ba8a8ee145382f66e9ce4a2d04e409a21d9fab1cb8333e882a5a20b2"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb1a2449654028c08ae05926923f35cb162e9fd86b97e9295fb64f2f78f1b988ede"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb1d3c5573250b7b436a29be0f412591b091947b9c539e49e40b90e18ee99f2b839"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb1e718a0b7bc26599a179f80e474e5013a2e1a440e1c1b765e98fe18836190aa9f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb21064d4a2e899aab3b9dbfbd64a818f49c46942863c23faff105062b0fe7a4618"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb21ed8aa72081ac7b10abfe84287790910fdb32af57023675dd8c05e80efdeae3c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb22e6f070012637a7f5d7a9a731537550d350ce9220a50b40e699918d8107fab5a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb27223f9b48c7be66aec401ea1569005bc1e156fb34d6ac5a4f39f1dde42b04c77"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb27546dc0570c7a6c398886db6ce55102ccc6d7b6ce9daa1fd36805140a14d02b9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb27b9ec190716e82ab76fd7acdbd5462843c90ae006d1f2eca5f345d0e7dfcc031"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb28d4c871d7943a662b3d3061427c2e8685d6fa7fca88cd4530e82a27bee0b468f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cbe7d8e192e9a56c007f26d708c26e1bfb42b1c219f37d483ffa014a2b168ad06c"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_falcon_cbf206e8ac679b21370281e4c28f376795b73af79f1ee704ab46d8888111a3f457"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb106ea1694bccf223960c47a175e9f0d23e2f06ebc97830d023741aeac39e211f5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb1446c89796bf96c06161f831dfba37ae5aa0309658fd237e6aaad044403dad9ad"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb16e3ec4516aed142fe67124e8d3a2b7217e49790d6ae2da3857e3107d7d23cefa"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb181e020990348f1d52917c1758c0d40e9a08eeea4db40ee87af6e5d9544353fba"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb183e531ca9b3faff061662da853bf9ca63858fd5331050645f41326f70d682f35"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb1909b7fc48db4451a26d5d27585ff3b55a522b644c1a56fdef573a3094db1623b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb1c155cb55d5b5bee6e7300c328f8da28b8a3c335c22985abda2335c103eefd067"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb1f2d68c3423e16a6f84398402ae8a0c31b9866667ddea6302f64e7d6fbd49f9c2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb20629d5b98f500fd2f93d23f31115f262ce58f0b0c0213b20d63e7d0484e7ec28"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb22f7609a4bbc360ec9b799ee4e6b2807264a7ef28e029bfc14d90c73221d187a1"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb24d803c01e58d30b83f183d81b1684635d54b95c4ae5678d0a6d97d5933d6ece3"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb291352eb65fa59ca3cdddc1aff2c0f6e4be541c55f1708a6730df825f66078e00"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb29458110743f15cfc7a2610c56a8601556cac280f8de066bf73c0b5c1c4a44442"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb29aaff692449838e4589b1ddc598553acdccf5aa31124f38c9c74c18fa15401ba"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb2ac5dbc1f4c6d5c9b9570a922c3f3d990fdae549f4c9299154bc306fd11628818"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb2e31578d17e9b079670bbdb2e88d6f794f99f1715558215af296cc344985a1678"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_falcon_cb3280fd8ab7bc75a834487a3a769d073e2295ad9fba03721b036c05b3a12837612"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_falcon_cb1ef7eef78e2a815a28a7a0b1ff571e93cf949ef5a9311e04d7361b214fe91026f"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>falcon</rdfs:label>
     <skos:broader rdf:resource="http://vocab.getty.edu/aat/300379800"/>
@@ -77,113 +46,10 @@
     <skos:related rdf:resource="https://w3id.org/hector/commodity/hawking-glove"/>
     <skos:related rdf:resource="https://w3id.org/hector/commodity/laneret"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/falcon#rate-1545-inward-305"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/falcon#rate-1558-inward-553"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_falcon_cb1e718a0b7bc26599a179f80e474e5013a2e1a440e1c1b765e98fe18836190aa9f">
-    <crm:P190_has_symbolic_content>facon</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>fakon</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_falcon_cb27b9ec190716e82ab76fd7acdbd5462843c90ae006d1f2eca5f345d0e7dfcc031">
-    <crm:P190_has_symbolic_content>facons</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>fakons</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_falcon_cb14f2d8f4f97c35df704d381da3771c5f8de0acc6ac6dd15761aa2abfc59cc8d71">
-    <crm:P190_has_symbolic_content>fawkens</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>faukens</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435103">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>falconry</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_falcon_cb28d4c871d7943a662b3d3061427c2e8685d6fa7fca88cd4530e82a27bee0b468f">
-    <crm:P190_has_symbolic_content>fawcons</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>faukons</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hawking-glove">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>hawking glove</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_falcon_cb1255b547798cfb5cd3481e00f5f7289bd09c45cc2ebcc73246d6c9fc2e0839824">
-    <crm:P190_has_symbolic_content>falco</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>falko</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300379800">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>hawks (bird)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_falcon_cbf206e8ac679b21370281e4c28f376795b73af79f1ee704ab46d8888111a3f457">
-    <crm:P190_has_symbolic_content>falcon | falcon (OED s.v. falcon)</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_falcon_cb1d3c5573250b7b436a29be0f412591b091947b9c539e49e40b90e18ee99f2b839">
-    <crm:P190_has_symbolic_content>fawcon</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>faukon</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_falcon_cb27546dc0570c7a6c398886db6ce55102ccc6d7b6ce9daa1fd36805140a14d02b9">
-    <crm:P190_has_symbolic_content>fawkyns</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>faukins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/laneret">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>laneret</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_falcon_cb1718a4ac2ba8a8ee145382f66e9ce4a2d04e409a21d9fab1cb8333e882a5a20b2">
-    <crm:P190_has_symbolic_content>fawkyn</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>faukin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_falcon_cb21064d4a2e899aab3b9dbfbd64a818f49c46942863c23faff105062b0fe7a4618">
-    <crm:P190_has_symbolic_content>fawken</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>fauken</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_falcon_cb164d3fcc8c815f9b77fc88a99b78eab7d981a50b08cff4183b6d2c275ea10edac">
+  <rdf:Description rdf:nodeID="commodity_falcon_cb183e531ca9b3faff061662da853bf9ca63858fd5331050645f41326f70d682f35">
     <crm:P190_has_symbolic_content>falconis</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -191,11 +57,36 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/gyrfalcon">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>gyrfalcon</rdfs:label>
+    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_falcon_cb1a2449654028c08ae05926923f35cb162e9fd86b97e9295fb64f2f78f1b988ede">
+  <rdf:Description rdf:nodeID="commodity_falcon_cb16e3ec4516aed142fe67124e8d3a2b7217e49790d6ae2da3857e3107d7d23cefa">
+    <crm:P190_has_symbolic_content>fawkens</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>faukens</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_falcon_cb181e020990348f1d52917c1758c0d40e9a08eeea4db40ee87af6e5d9544353fba">
+    <crm:P190_has_symbolic_content>falcon</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>falkon</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_falcon_cb106ea1694bccf223960c47a175e9f0d23e2f06ebc97830d023741aeac39e211f5">
+    <crm:P190_has_symbolic_content>faucon</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>faukon</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_falcon_cb1c155cb55d5b5bee6e7300c328f8da28b8a3c335c22985abda2335c103eefd067">
     <crm:P190_has_symbolic_content>falcons</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -203,7 +94,171 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_falcon_cb21ed8aa72081ac7b10abfe84287790910fdb32af57023675dd8c05e80efdeae3c">
+  <rdf:Description rdf:nodeID="commodity_falcon_cb1f2d68c3423e16a6f84398402ae8a0c31b9866667ddea6302f64e7d6fbd49f9c2">
+    <crm:P190_has_symbolic_content>fawcon</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>faukon</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_falcon_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/each"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_falcon_cb1cdf89e6582d3560b10a5b849c35b262a83a7d9f534be869b384f10326b362a37">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>26s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_falcon_cb39bc8fcf9160bf462e3baf3139b0bd18ee1278217baf978604dad46eff3db038c">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_falcon_cb2e31578d17e9b079670bbdb2e88d6f794f99f1715558215af296cc344985a1678">
+    <crm:P190_has_symbolic_content>fewlkens</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>feulkens</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_falcon_cb2ac5dbc1f4c6d5c9b9570a922c3f3d990fdae549f4c9299154bc306fd11628818">
+    <crm:P190_has_symbolic_content>fawcons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>faukons</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/falcon#rate-1558-inward-553">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Hawkes voc’ falcon hawkes the hawke 26s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_falcon_cb1cdf89e6582d3560b10a5b849c35b262a83a7d9f534be869b384f10326b362a37"/>
+    <hector:perQuantity rdf:nodeID="commodity_falcon_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_falcon_cb1977a06003bfc6e6fd3d733584477b1d4c6adaa1f8d1e8e0e32a1503d6f6f2ca8"/>
+    <hector:qualifier rdf:nodeID="commodity_falcon_cbf2b6695764ef74be46f1f88f19e95c5c76c1f8de7b68594136ec3d20374c856a"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 553 (transcribed by Stuart Jenks): 'Hawkes voc’ falcon hawkes the hawke' 26s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_falcon_cb1909b7fc48db4451a26d5d27585ff3b55a522b644c1a56fdef573a3094db1623b">
+    <crm:P190_has_symbolic_content>fawkyn</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>faukin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_falcon_cb1446c89796bf96c06161f831dfba37ae5aa0309658fd237e6aaad044403dad9ad">
+    <crm:P190_has_symbolic_content>falco</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>falko</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_falcon_cb1977a06003bfc6e6fd3d733584477b1d4c6adaa1f8d1e8e0e32a1503d6f6f2ca8">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Hawkes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_falcon_cb24d803c01e58d30b83f183d81b1684635d54b95c4ae5678d0a6d97d5933d6ece3">
+    <crm:P190_has_symbolic_content>faucons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>faukons</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_falcon_cb291352eb65fa59ca3cdddc1aff2c0f6e4be541c55f1708a6730df825f66078e00">
+    <crm:P190_has_symbolic_content>fawkon</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>faukon</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_falcon_cb29458110743f15cfc7a2610c56a8601556cac280f8de066bf73c0b5c1c4a44442">
+    <crm:P190_has_symbolic_content>fawkyns</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>faukins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_falcon_cb14bcc8648a5d53e94d3676e8843873728805c34387c41201d13bfae5cef18ef58">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>hawke</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hawking-glove">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>hawking glove</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_falcon_cb22f7609a4bbc360ec9b799ee4e6b2807264a7ef28e029bfc14d90c73221d187a1">
+    <crm:P190_has_symbolic_content>fawken</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>fauken</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_falcon_cb1bf1f90ce9cf931dd0d5f541b2e7a7e0f77b303c30aca752770999d7b3fac8a5c">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/each"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/laneret">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>laneret</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/each">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>each</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_falcon_cb29aaff692449838e4589b1ddc598553acdccf5aa31124f38c9c74c18fa15401ba">
+    <crm:P190_has_symbolic_content>facons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>fakons</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/falcon">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>falcon (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_falcon_cbf2b6695764ef74be46f1f88f19e95c5c76c1f8de7b68594136ec3d20374c856a">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>hawkes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_falcon_cb20629d5b98f500fd2f93d23f31115f262ce58f0b0c0213b20d63e7d0484e7ec28">
+    <crm:P190_has_symbolic_content>facon</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>fakon</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300379800">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>hawks (bird)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_falcon_cb3280fd8ab7bc75a834487a3a769d073e2295ad9fba03721b036c05b3a12837612">
     <crm:P190_has_symbolic_content>fewlken</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -211,8 +266,21 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/falcon">
+  <rdf:Description rdf:nodeID="commodity_falcon_cb1ef7eef78e2a815a28a7a0b1ff571e93cf949ef5a9311e04d7361b214fe91026f">
+    <crm:P190_has_symbolic_content>falcon | falcon (OED s.v. falcon)</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/gyrfalcon">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>falcon (London Customs Accounts glossary)</rdfs:label>
+    <rdfs:label>gyrfalcon</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435103">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>falconry</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

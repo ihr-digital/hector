@@ -791,5 +791,227 @@
     }
   ],
   "attestationCount": 684,
-  "modified": "2026-10-03"
+  "modified": "2026-10-03",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/girdle#rate-1558-inward-474",
+      "type": "Rate",
+      "_label": "1558 inward: Girdelles of lether the grosse 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 474 (transcribed by Stuart Jenks): 'Girdelles of lether the grosse' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "lether",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/girdle#rate-1558-inward-511",
+      "type": "Rate",
+      "_label": "1558 inward: Girdles voc’ buffe girdles gilted the grosse £10",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "2400",
+        "lsd": "£10"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 511 (transcribed by Stuart Jenks): 'Girdles voc’ buffe girdles gilted the grosse' £10",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "buff"
+        },
+        {
+          "type": "Type",
+          "_label": "gilted",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/girdle#rate-1558-inward-512",
+      "type": "Rate",
+      "_label": "1558 inward: Girdles voc’ buffe girdles corse unguilt the grosse £6 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "1600",
+        "lsd": "£6 13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 512 (transcribed by Stuart Jenks): 'Girdles voc’ buffe girdles corse unguilt the grosse' £6 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "buff"
+        },
+        {
+          "type": "Type",
+          "_label": "coarse"
+        },
+        {
+          "type": "Type",
+          "_label": "ungilt"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/girdle#rate-1558-inward-513",
+      "type": "Rate",
+      "_label": "1558 inward: Girdles of vellet guilt the dosen £3 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "800",
+        "lsd": "£3 6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 513 (transcribed by Stuart Jenks): 'Girdles of vellet guilt the dosen' £3 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "velvet",
+          "equivalent": [
+            {
+              "id": "aat:300133711",
+              "type": "Type",
+              "_label": "velvet (fabric weave)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "guilt",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/girdle#rate-1558-inward-514",
+      "type": "Rate",
+      "_label": "1558 inward: Girdles of vellet unguilte the dosen 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 514 (transcribed by Stuart Jenks): 'Girdles of vellet unguilte the dosen' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "velvet",
+          "equivalent": [
+            {
+              "id": "aat:300133711",
+              "type": "Type",
+              "_label": "velvet (fabric weave)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "ungilt"
+        }
+      ]
+    }
+  ]
 }

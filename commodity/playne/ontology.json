@@ -107,7 +107,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 854 (transcribed by Stuart Jenks): 'Playne yrones for carpenters the dossen' 12d"
+      "sourceText": "Book of Rates 1558, inward, line 854 (transcribed by Stuart Jenks): 'Playne yrones for carpenters the dossen' 12d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "yrones for carpenters",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

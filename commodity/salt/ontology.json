@@ -292,7 +292,57 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 653 (transcribed by Stuart Jenks): 'Salte peter the 100 pounde' 20s"
+      "sourceText": "Book of Rates 1545, inward, line 653 (transcribed by Stuart Jenks): 'Salte peter the 100 pounde' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "peter",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/salt#rate-1545-inward-671",
+      "type": "Rate",
+      "_label": "1545 inward: Salte called Bay salt the waye 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/wey",
+          "type": "MeasurementUnit",
+          "_label": "wey"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 671 (transcribed by Stuart Jenks): 'Salte called Bay salt the waye' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "bay"
+        },
+        {
+          "type": "Type",
+          "_label": "salted"
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/salt#rate-1545-inward-672",
@@ -373,7 +423,20 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 690 (transcribed by Stuart Jenks): 'Salt fysshe the laste' £4"
+      "sourceText": "Book of Rates 1545, inward, line 690 (transcribed by Stuart Jenks): 'Salt fysshe the laste' £4",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "fysshe",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/salt#rate-1545-inward-695",
@@ -400,7 +463,286 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 695 (transcribed by Stuart Jenks): 'Salt hyds the dekar' £3 6s 8d"
+      "sourceText": "Book of Rates 1545, inward, line 695 (transcribed by Stuart Jenks): 'Salt hyds the dekar' £3 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "hyds",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/salt#rate-1545-inward-698",
+      "type": "Rate",
+      "_label": "1545 inward: Salte sellers the groce 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 698 (transcribed by Stuart Jenks): 'Salte sellers the groce' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "sellers",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/salt#rate-1558-inward-1037",
+      "type": "Rate",
+      "_label": "1558 inward: Sal gemme the pounde 12d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "12",
+        "lsd": "12d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1037 (transcribed by Stuart Jenks): 'Sal gemme the pounde' 12d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "gemme",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/salt#rate-1558-inward-925",
+      "type": "Rate",
+      "_label": "1558 inward: Salte whyte the waye cont’ 40 busshells 26s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "320",
+        "lsd": "26s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/wey",
+          "type": "MeasurementUnit",
+          "_label": "wey"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 925 (transcribed by Stuart Jenks): 'Salte whyte the waye cont’ 40 busshells' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "white",
+          "equivalent": [
+            {
+              "id": "aat:300129784",
+              "type": "Type",
+              "_label": "white (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/salt#rate-1558-inward-926",
+      "type": "Rate",
+      "_label": "1558 inward: Salte whyte the busshell 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "8",
+        "lsd": "8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/bushel",
+          "type": "MeasurementUnit",
+          "_label": "bushel"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 926 (transcribed by Stuart Jenks): 'Salte whyte the busshell' 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "white",
+          "equivalent": [
+            {
+              "id": "aat:300129784",
+              "type": "Type",
+              "_label": "white (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/salt#rate-1558-inward-927",
+      "type": "Rate",
+      "_label": "1558 inward: Salte Baye the waye cont’ 40 busshelles 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/wey",
+          "type": "MeasurementUnit",
+          "_label": "wey"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 927 (transcribed by Stuart Jenks): 'Salte Baye the waye cont’ 40 busshelles' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "bay"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/salt#rate-1558-inward-928",
+      "type": "Rate",
+      "_label": "1558 inward: Salte Baye the busshell 6d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "6",
+        "lsd": "6d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/bushel",
+          "type": "MeasurementUnit",
+          "_label": "bushel"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 928 (transcribed by Stuart Jenks): 'Salte Baye the busshell' 6d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "bay"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/salt#rate-1558-inward-929",
+      "type": "Rate",
+      "_label": "1558 inward: Salte whyte the barrell cont’ 3 busshelles 2s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "24",
+        "lsd": "2s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/barrel",
+          "type": "MeasurementUnit",
+          "_label": "barrel"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 929 (transcribed by Stuart Jenks): 'Salte whyte the barrell cont’ 3 busshelles' 2s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "white",
+          "equivalent": [
+            {
+              "id": "aat:300129784",
+              "type": "Type",
+              "_label": "white (color)"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/salt#rate-1558-inward-935",
@@ -427,7 +769,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 935 (transcribed by Stuart Jenks): 'Salt fyshe the laste' £6"
+      "sourceText": "Book of Rates 1558, inward, line 935 (transcribed by Stuart Jenks): 'Salt fyshe the laste' £6",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "fyshe",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/salt#rate-1558-inward-936",
@@ -454,7 +809,100 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 936 (transcribed by Stuart Jenks): 'Salt hydes the deker cont’ 10 hydes' 66s 8d"
+      "sourceText": "Book of Rates 1558, inward, line 936 (transcribed by Stuart Jenks): 'Salt hydes the deker cont’ 10 hydes' 66s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "hydes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/salt#rate-1558-inward-937",
+      "type": "Rate",
+      "_label": "1558 inward: Salt sellors the grose 16s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "192",
+        "lsd": "16s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 937 (transcribed by Stuart Jenks): 'Salt sellors the grose' 16s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "sellors",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/salt#rate-1558-inward-939",
+      "type": "Rate",
+      "_label": "1558 inward: Sal ermoniake the pounde 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "40",
+        "lsd": "3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 939 (transcribed by Stuart Jenks): 'Sal ermoniake the pounde' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "ermoniake",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

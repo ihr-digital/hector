@@ -5,7 +5,9 @@
   ],
   "id": "https://w3id.org/hector/commodity/cat-fur-womb",
   "type": "Type",
-  "_label": "cat fur (womb)",
+  "_label": "cat fur (withdrawn record)",
+  "deprecated": true,
+  "modified": "2026-10-03",
   "referred_to_by": [
     {
       "type": "LinguisticObject",
@@ -16,81 +18,11 @@
           "_label": "brief texts"
         }
       ],
-      "content": "cat fur, qualified as ‘womb’: a commodity as the Books of Rates price it separately (HECTOR decision 2, 29 Sep 2026)."
+      "content": "Withdrawn 3 Oct 2026. This record stood for the commodity as one Book of Rates entry qualifies it; the rates are now on the commodity itself, each naming its qualifier."
     }
   ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "content": "cat fur (womb)",
-      "classified_as": [
-        {
-          "id": "aat:300404670",
-          "type": "Type",
-          "_label": "preferred terms"
-        }
-      ],
-      "phoneticKey": [
-        "kat fur womb"
-      ]
-    },
-    {
-      "type": "Name",
-      "content": "Cattes wombes",
-      "classified_as": [
-        {
-          "id": "hector:AttestedVariant",
-          "type": "Type",
-          "_label": "attested variant"
-        }
-      ],
-      "phoneticKey": [
-        "katəs wombəs"
-      ]
-    }
-  ],
-  "broader": [
-    {
-      "id": "https://w3id.org/hector/commodity/cat-fur",
-      "type": "Type",
-      "_label": "cat fur"
-    }
-  ],
-  "compoundOf": [
-    {
-      "id": "https://w3id.org/hector/commodity/cat-fur",
-      "type": "Type",
-      "_label": "cat fur"
-    }
-  ],
-  "modified": "2026-10-03",
-  "taxation": [
-    {
-      "id": "https://w3id.org/hector/commodity/cat-fur-womb#rate-1558-inward-206",
-      "type": "Rate",
-      "_label": "1558 inward: Cattes wombes the pane 5s",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "60",
-        "lsd": "5s"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 1,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/pane",
-          "type": "MeasurementUnit",
-          "_label": "pane"
-        }
-      },
-      "validFrom": "1558",
-      "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 206 (transcribed by Stuart Jenks): 'Cattes wombes the pane' 5s"
-    }
-  ]
+  "isReplacedBy": {
+    "id": "https://w3id.org/hector/commodity/cat-fur",
+    "type": "Type"
+  }
 }

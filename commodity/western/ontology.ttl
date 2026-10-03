@@ -135,6 +135,9 @@ wd:Q1344070 a crm:E53_Place ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 100 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "salkes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1507, line 326 (transcribed by Stuart Jenks): 'Weste salkes the C elles' 26s 8d" ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .

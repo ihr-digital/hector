@@ -827,7 +827,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 570 (transcribed by Stuart Jenks): 'Hoppes the poket cont’ 3 C lb' 30s"
+      "sourceText": "Book of Rates 1558, inward, line 570 (transcribed by Stuart Jenks): 'Hoppes the poket cont’ 3 C lb' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Hoppes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

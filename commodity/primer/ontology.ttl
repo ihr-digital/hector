@@ -11,23 +11,17 @@
     rdfs:label "primer" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "prymmer" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "primer" ;
-            hector:validFrom "1519"^^xsd:gYear ;
-            hector:validThrough "1520"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "premmers" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "premers" ;
             hector:validFrom "1519"^^xsd:gYear ;
             hector:validThrough "1520"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "prymer" ;
+            crm:P190_has_symbolic_content "prymmer" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "primer" ;
-            hector:validFrom "1531"^^xsd:gYear ;
-            hector:validThrough "1540"^^xsd:gYear ],
+            hector:validFrom "1519"^^xsd:gYear ;
+            hector:validThrough "1520"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "premer" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -41,12 +35,11 @@
             hector:validFrom "1519"^^xsd:gYear ;
             hector:validThrough "1520"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "primer" ;
-            crm:P2_has_type aat:300404670,
-                hector:AttestedVariant ;
-            hector:phoneticKey "primer" ;
+            crm:P190_has_symbolic_content "prymers" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "primers" ;
             hector:validFrom "1531"^^xsd:gYear ;
-            hector:validThrough "1533"^^xsd:gYear ],
+            hector:validThrough "1540"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "premers" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -54,11 +47,12 @@
             hector:validFrom "1536"^^xsd:gYear ;
             hector:validThrough "1540"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "prymmers" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "primers" ;
-            hector:validFrom "1519"^^xsd:gYear ;
-            hector:validThrough "1520"^^xsd:gYear ],
+            crm:P190_has_symbolic_content "primer" ;
+            crm:P2_has_type aat:300404670,
+                hector:AttestedVariant ;
+            hector:phoneticKey "primer" ;
+            hector:validFrom "1531"^^xsd:gYear ;
+            hector:validThrough "1533"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "primers" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -66,9 +60,15 @@
             hector:validFrom "1531"^^xsd:gYear ;
             hector:validThrough "1533"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "prymers" ;
+            crm:P190_has_symbolic_content "prymmers" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "primers" ;
+            hector:validFrom "1519"^^xsd:gYear ;
+            hector:validThrough "1520"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "prymer" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "primer" ;
             hector:validFrom "1531"^^xsd:gYear ;
             hector:validThrough "1540"^^xsd:gYear ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
@@ -80,6 +80,7 @@
     la:equivalent aat:300026476 ;
     hector:attestationCount 94 ;
     hector:taxation <https://w3id.org/hector/commodity/primer#rate-1507-none-215>,
+        <https://w3id.org/hector/commodity/primer#rate-1545-inward-553>,
         <https://w3id.org/hector/commodity/primer#rate-1558-inward-837> .
 
 aat:300026378 a crm:E55_Type ;
@@ -106,9 +107,26 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 12 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "printed" ] ;
     hector:sourceText "Book of Rates 1507, line 215 (transcribed by Stuart Jenks): 'Prynted prymers the dossen' 20d" ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/primer#rate-1545-inward-553> a hector:Rate ;
+    rdfs:label "1545 inward: Prymers prynted the groce 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "printed" ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 553 (transcribed by Stuart Jenks): 'Prymers prynted the groce' 20s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/primer#rate-1558-inward-837> a hector:Rate ;
     rdfs:label "1558 inward: Prymers the grosse 30s" ;
@@ -126,11 +144,11 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
     rdfs:label "dozen" .
 
-<https://w3id.org/hector/unit/gross> a crm:E58_Measurement_Unit ;
-    rdfs:label "gross" .
-
 <https://w3id.org/mlca/glossary/primer> a crm:E55_Type ;
     rdfs:label "primer (London Customs Accounts glossary)" .
+
+<https://w3id.org/hector/unit/gross> a crm:E58_Measurement_Unit ;
+    rdfs:label "gross" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

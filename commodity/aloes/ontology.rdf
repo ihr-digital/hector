@@ -8,44 +8,39 @@
    xmlns:schema1="http://schema.org/"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_aloes_cb249c6f280085fb99246bb6a93fa2c8deb6347b95d357f7e2233cd1bce2fcdb151">
-    <crm:P190_has_symbolic_content>aloes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+  <rdf:Description rdf:nodeID="commodity_aloes_cb1b6d56cdb5b30cf8e1c6d75b5369bdcfa98ff7661dcc298ea480c3397db97109c">
+    <crm:P190_has_symbolic_content>aloia epatica</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>ales</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
+    <hector:phoneticKey>aloia epatika</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/hundred">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>hundred</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aloes_cb163b499b833568b25c7432c5dbf33716f5804d196a2203452638132b412ed7321">
+  <rdf:Description rdf:nodeID="commodity_aloes_cb264d89b8975cbdffbdd41bb87502e4db37c23cf4b5045999f89e7bcb6bf5e0ad5">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>4d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</hector:valueInPence>
+    <hector:lsd>33s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">400</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/aloes">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
     <schema1:material rdf:resource="http://vocab.getty.edu/aat/300387541"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb12b2fed8bfc4d0cdccef76dcf451aaf6156a225dc6f557dc5848e00230cc437a7"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb197c437d9880719553acfd2a69a6aebd1f8c0c9bf38bcd4280acbcf16b83fcf13"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb19a56d3f6fa036d4287c01fc73cf12189e910526c849c86cee060a0767cf85dca"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb1a5b9e7165163c5a8cd288405e8feea187a23d9bf25377deb5f0f87a9c575f62d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb1ae3943591cfa18e69b3c4271a6192a6b045bf9c0859c9ebf3786aefc8c91840c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb1d1a5865eee03bf1d75489111a058923b9c63732dd702a174a4681a3ec866c6df"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb1f8e7ce45228316f87b516335cb5a38781ebb306ab4feb43404f5df869ab84733"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb234a1b215764bccbf7420fbf44152f1af3f977196628cfd816b47494cff4ceb5e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb248b16356b50dc008901a65e72ac9f3dcc5ce8dfe86b7dcd0584731f470589443"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb249c6f280085fb99246bb6a93fa2c8deb6347b95d357f7e2233cd1bce2fcdb151"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb262a3eea92c3f11d50cffeed41d29fc3a14e10f6463d2f78afdbe9fa688a1b0b6"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb2633ebe3dbb4b302172db5f408bffb870c68a8cfb656bfe9355d6b12ca4a2b54a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb2ba2395268a8e23144cf6c79042d369cc2865d6ae41d9f78a77b4e6721776305d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cbb0d1922a46a514a3de6b41705c6b0a4f6dc683e40fd766bd3fe0c244f3d6089f"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_aloes_cb5165b28556a66e895d5602d6098cbeb62119263563595074dd697c366f22c45f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb12a55294ef409082a56b1ff6d55eaf95354ea8939c06fc0969bce23d7df0b9707"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb19a2ad8a265dab2c8487c10c7647b47b4efadb0ba7a73e1efb7d4b8afab591138"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb1b6d56cdb5b30cf8e1c6d75b5369bdcfa98ff7661dcc298ea480c3397db97109c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb1c4cb1c18248d7be1aec62714852fdb411a628661c93d42ad9c4fec2ae8cd37b6"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb1f0b6bb60c12d755656e634203c8983643ca21fd07b086636e1a87ebfebbe0868"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb20575c765b547a60d740ee88e3fe473a4fa2e2973274ad73faa71ba24ffd78ce5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb217f90346f5accd315cef0644678b29a0bef9dd0d590478f642364407be0f88bc"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb22128a051399f9f3515b4f3c99fed558bdd3650144992a7dba8f4315e4401371a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb253b2e717497582f855be9f02dd83e2d7dfd61e390692c243a887adce22a42ce7"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb281b523aaff68c80dee9d91e2b95aed62b51fbc0707d8bc4d3aff0427abf8f23f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb2824ff33f8e74e65a5479024f2830a99966c9399e0971c355931715adc7f9f6d3"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb29caad77068a1aa7a29e50ca135a2b8f014ebf594ac979a2b0055e2c0cd10cf3b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb2a8cfb11491115ed9c9c37b132014ec3ee32fcb98504db4ccdb9dee661367abab"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb2d934ca285db7d94d2e946a9edf045af4c8a48350e5dfbc4cb4f54af33acd71e6"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aloes_cb378de5fcd81938771f2d30b23fde1bc548ad7f9b7dc42533a2cf6a1feb131ec60"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_aloes_cb14eddb951d1b362f4e54e29336fc7405d63281df0d7842c1709f2a5ca5c0fd277"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>aloes</rdfs:label>
     <skos:broader rdf:resource="http://vocab.getty.edu/aat/300379869"/>
@@ -55,122 +50,21 @@
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/aloes#rate-1545-inward-32"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/aloes#rate-1545-inward-33"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aloes_cb1f8e7ce45228316f87b516335cb5a38781ebb306ab4feb43404f5df869ab84733">
-    <crm:P190_has_symbolic_content>aloez</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>alez</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300379869">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>drugs</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/aloes#rate-1545-inward-33">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Aloes cicotrini the pounde 4d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_aloes_cb163b499b833568b25c7432c5dbf33716f5804d196a2203452638132b412ed7321"/>
-    <hector:perQuantity rdf:nodeID="commodity_aloes_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 33 (transcribed by Stuart Jenks): 'Aloes cicotrini the pounde' 4d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aloes_cb197c437d9880719553acfd2a69a6aebd1f8c0c9bf38bcd4280acbcf16b83fcf13">
-    <crm:P190_has_symbolic_content>aloia epatica</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aloia epatika</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
-  </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aloes_cb248b16356b50dc008901a65e72ac9f3dcc5ce8dfe86b7dcd0584731f470589443">
-    <crm:P190_has_symbolic_content>alloipatice</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aloipatisə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aloes_cb262a3eea92c3f11d50cffeed41d29fc3a14e10f6463d2f78afdbe9fa688a1b0b6">
-    <crm:P190_has_symbolic_content>alloia epaticae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aloia epatike</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aloes_cb19a56d3f6fa036d4287c01fc73cf12189e910526c849c86cee060a0767cf85dca">
-    <crm:P190_has_symbolic_content>alowes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aluːəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aloes_cb0">
-    <crm:P190_has_symbolic_content>aloie epatice</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aloie epatisə</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aloes_cbb0d1922a46a514a3de6b41705c6b0a4f6dc683e40fd766bd3fe0c244f3d6089f">
-    <crm:P190_has_symbolic_content>aloie epaticae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aloie epatike</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aloes_cb2ba2395268a8e23144cf6c79042d369cc2865d6ae41d9f78a77b4e6721776305d">
-    <crm:P190_has_symbolic_content>alloes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>ales</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aloes_cb9f2cbc98dc09e9b8347f80dd36b5d20068cf6434629ec1539d57cd4915fb3bce">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>33s 4d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">400</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aloes_cb234a1b215764bccbf7420fbf44152f1af3f977196628cfd816b47494cff4ceb5e">
-    <crm:P190_has_symbolic_content>alloia epatica</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aloia epatika</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aloes_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/aloes#rate-1545-inward-32">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
     <rdfs:label>1545 inward: Aloes cicotrini the 100 lb. 33s 4d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_aloes_cb9f2cbc98dc09e9b8347f80dd36b5d20068cf6434629ec1539d57cd4915fb3bce"/>
-    <hector:perQuantity rdf:nodeID="commodity_aloes_cb826a2ce4570362860ca609aa2a04caa3ec853145b2a22ba0ac63f5cd75b6eac7"/>
+    <hector:amount rdf:nodeID="commodity_aloes_cb264d89b8975cbdffbdd41bb87502e4db37c23cf4b5045999f89e7bcb6bf5e0ad5"/>
+    <hector:perQuantity rdf:nodeID="commodity_aloes_cb1b6707c54181936fe7aa1415079aed87311d368ffc6681628d8a9778f2fc1aec7"/>
+    <hector:qualifier rdf:nodeID="commodity_aloes_cb1cd4041a2e91a2dbb267285d6302798106efecdd9ce1efa24029fe58b727562f0"/>
     <hector:sourceText>Book of Rates 1545, inward, line 32 (transcribed by Stuart Jenks): 'Aloes cicotrini the 100 lb.' 33s 4d</hector:sourceText>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300387541">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E57_Material"/>
-    <rdfs:label>Aloe (genus)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aloes_cb1d1a5865eee03bf1d75489111a058923b9c63732dd702a174a4681a3ec866c6df">
+  <rdf:Description rdf:nodeID="commodity_aloes_cb1f0b6bb60c12d755656e634203c8983643ca21fd07b086636e1a87ebfebbe0868">
     <crm:P190_has_symbolic_content>aloepatica gabelour</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -178,48 +72,7 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aloes_cb826a2ce4570362860ca609aa2a04caa3ec853145b2a22ba0ac63f5cd75b6eac7">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aloes_cb1ae3943591cfa18e69b3c4271a6192a6b045bf9c0859c9ebf3786aefc8c91840c">
-    <crm:P190_has_symbolic_content>alows</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aluːs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aloes_cb2633ebe3dbb4b302172db5f408bffb870c68a8cfb656bfe9355d6b12ca4a2b54a">
-    <crm:P190_has_symbolic_content>aloia epaticae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aloia epatike</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aloes_cb1a5b9e7165163c5a8cd288405e8feea187a23d9bf25377deb5f0f87a9c575f62d">
-    <crm:P190_has_symbolic_content>aliopoteca</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aliopoteka</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/aloes">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>aloes (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aloes_cb12b2fed8bfc4d0cdccef76dcf451aaf6156a225dc6f557dc5848e00230cc437a7">
+  <rdf:Description rdf:nodeID="commodity_aloes_cb19a2ad8a265dab2c8487c10c7647b47b4efadb0ba7a73e1efb7d4b8afab591138">
     <crm:P190_has_symbolic_content>aloie epatica</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -227,7 +80,97 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aloes_cb5165b28556a66e895d5602d6098cbeb62119263563595074dd697c366f22c45f">
+  <rdf:Description rdf:nodeID="commodity_aloes_cb2824ff33f8e74e65a5479024f2830a99966c9399e0971c355931715adc7f9f6d3">
+    <crm:P190_has_symbolic_content>aloia epaticae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>aloia epatike</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aloes_cb22128a051399f9f3515b4f3c99fed558bdd3650144992a7dba8f4315e4401371a">
+    <crm:P190_has_symbolic_content>alowes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>aluːəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aloes_cb1c4cb1c18248d7be1aec62714852fdb411a628661c93d42ad9c4fec2ae8cd37b6">
+    <crm:P190_has_symbolic_content>aliopoteca</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>aliopoteka</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aloes_cb2a8cfb11491115ed9c9c37b132014ec3ee32fcb98504db4ccdb9dee661367abab">
+    <crm:P190_has_symbolic_content>aloes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>ales</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aloes_cb1045b355d708fcac6039ca4b13105ed0ef1c052f30d8378f30393027874c1565d">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>cicotrini</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aloes_cb12a55294ef409082a56b1ff6d55eaf95354ea8939c06fc0969bce23d7df0b9707">
+    <crm:P190_has_symbolic_content>aloie epatice</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>aloie epatisə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aloes_cb296cd6718115c9140fe15b1d566271cde4e36950b1f584be1b3a7c2d0de8b3183">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/hundred">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>hundred</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aloes_cb217f90346f5accd315cef0644678b29a0bef9dd0d590478f642364407be0f88bc">
+    <crm:P190_has_symbolic_content>aloez</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>alez</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aloes_cb281b523aaff68c80dee9d91e2b95aed62b51fbc0707d8bc4d3aff0427abf8f23f">
+    <crm:P190_has_symbolic_content>alloia epaticae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>aloia epatike</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aloes_cb20575c765b547a60d740ee88e3fe473a4fa2e2973274ad73faa71ba24ffd78ce5">
+    <crm:P190_has_symbolic_content>aloie epaticae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>aloie epatike</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aloes_cb2d934ca285db7d94d2e946a9edf045af4c8a48350e5dfbc4cb4f54af33acd71e6">
+    <crm:P190_has_symbolic_content>alloes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>ales</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/aloes">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>aloes (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aloes_cb14eddb951d1b362f4e54e29336fc7405d63281df0d7842c1709f2a5ca5c0fd277">
     <crm:P190_has_symbolic_content>a drug of nauseous odor, bitter taste, and purgative qualities, procured from the inspissated juice of plants of the genus Aloe (OED s.v. aloe)</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
@@ -236,8 +179,77 @@
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>aloe socotrina</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aloes_cb378de5fcd81938771f2d30b23fde1bc548ad7f9b7dc42533a2cf6a1feb131ec60">
+    <crm:P190_has_symbolic_content>alows</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>aluːs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aloes_cb1b6707c54181936fe7aa1415079aed87311d368ffc6681628d8a9778f2fc1aec7">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aloes_cb253b2e717497582f855be9f02dd83e2d7dfd61e390692c243a887adce22a42ce7">
+    <crm:P190_has_symbolic_content>alloia epatica</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>aloia epatika</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aloes_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/aloes#rate-1545-inward-33">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Aloes cicotrini the pounde 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_aloes_cb296cd6718115c9140fe15b1d566271cde4e36950b1f584be1b3a7c2d0de8b3183"/>
+    <hector:perQuantity rdf:nodeID="commodity_aloes_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_aloes_cb1045b355d708fcac6039ca4b13105ed0ef1c052f30d8378f30393027874c1565d"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 33 (transcribed by Stuart Jenks): 'Aloes cicotrini the pounde' 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300379869">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>drugs</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aloes_cb29caad77068a1aa7a29e50ca135a2b8f014ebf594ac979a2b0055e2c0cd10cf3b">
+    <crm:P190_has_symbolic_content>alloipatice</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>aloipatisə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aloes_cb1cd4041a2e91a2dbb267285d6302798106efecdd9ce1efa24029fe58b727562f0">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>cicotrini</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300387541">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E57_Material"/>
+    <rdfs:label>Aloe (genus)</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/unit/pound">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
     <rdfs:label>pound</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

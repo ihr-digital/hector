@@ -318,7 +318,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 144 (transcribed by Stuart Jenks): 'Buskins of lether the dosen paire' 40s"
+      "sourceText": "Book of Rates 1558, inward, line 144 (transcribed by Stuart Jenks): 'Buskins of lether the dosen paire' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "lether",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

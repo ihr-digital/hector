@@ -451,7 +451,20 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 456 (transcribed by Stuart Jenks): 'Lockes smalle the dossen' 2s"
+      "sourceText": "Book of Rates 1545, inward, line 456 (transcribed by Stuart Jenks): 'Lockes smalle the dossen' 2s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "small",
+          "equivalent": [
+            {
+              "id": "aat:300073768",
+              "type": "Type",
+              "_label": "small"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/lock#rate-1558-inward-389",
@@ -478,7 +491,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 389 (transcribed by Stuart Jenks): 'Dagges with fyer lockes the pece' 10s"
+      "sourceText": "Book of Rates 1558, inward, line 389 (transcribed by Stuart Jenks): 'Dagges with fyer lockes the pece' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Dagges with fyer",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/lock#rate-1558-inward-671",
@@ -505,7 +531,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 671 (transcribed by Stuart Jenks): 'Lockes small the dosen' 3s 4d"
+      "sourceText": "Book of Rates 1558, inward, line 671 (transcribed by Stuart Jenks): 'Lockes small the dosen' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "small",
+          "equivalent": [
+            {
+              "id": "aat:300073768",
+              "type": "Type",
+              "_label": "small"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

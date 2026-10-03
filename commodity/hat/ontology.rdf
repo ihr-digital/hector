@@ -8,20 +8,151 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
+  <rdf:Description rdf:nodeID="commodity_hat_cb13722aca608cdc7779a4d8185ea60c2f68d60db1ebf6eba9169902ec27c9a8ba8">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb1b4943be9f3ba5964916ba9d0c046db2781de3fbd9ddd78678f90b4bdd8cd6053">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cbcf0a5a1ece62fbff318b78ddfb30dfe7532a9a7cfda2a8a32f18c3a2f84de6d3">
+    <crm:P190_has_symbolic_content>hattes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>hatəs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hat#rate-1558-inward-585">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Hatte bandes course the grosse 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_hat_cb27744f5f3c06db97605c70dcf56cdd82906eae7136f9b93cb6d2888ae652c3722"/>
+    <hector:perQuantity rdf:nodeID="commodity_hat_cb12fa182fb378a298f2b573efbad8f6bede01ec0e9f87e77d70194eb6cc3e80007"/>
+    <hector:qualifier rdf:nodeID="commodity_hat_cb1d31550807652ea5eed41f117dade9aa097f824995054e316d56f7c8d159a7b39"/>
+    <hector:qualifier rdf:nodeID="commodity_hat_cb299c29e218b4598e3f7e626da61f6baecb2c36356974b78f743d84840e82fc17f"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 585 (transcribed by Stuart Jenks): 'Hatte bandes course the grosse' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb19b3551265e5514a0b78f74529b0ca6dd1566a377ee46ecea55c4bb0ec1bcd548">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>thrum</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300243428">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>silk (textile)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb1f38b71dd590536674075d953d3c4a5d11b410c17e5826bfa8215dbd3e397b35a">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb296676ddf58d14535445ebd8df0782fd508f6fe1ae4d44bcc6a5d529471dd7de2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Portugal</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q45"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb2345f0c83d2b5405580c4b951901c9d8e8982c233f4d843b6743d83f60b415430">
+    <crm:P190_has_symbolic_content>hatz</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>hatz</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hat#rate-1558-inward-548">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Hattes of worsted short thromed voc’ Bridges hattes þe dosen 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_hat_cb3248e09438c2e84409947336c152ad214608b0a83aaf8f6f7aa7d58e817d3672a"/>
+    <hector:perQuantity rdf:nodeID="commodity_hat_cb13722aca608cdc7779a4d8185ea60c2f68d60db1ebf6eba9169902ec27c9a8ba8"/>
+    <hector:qualifier rdf:nodeID="commodity_hat_cb118faf83a3ce842516e0db881cbfc5aa65c358139dda11e29b0969a2784f572ab"/>
+    <hector:qualifier rdf:nodeID="commodity_hat_cb121ae33dd2893c7951430b2d4b76602441786f29eb21886bfccb40afcf2ed165a"/>
+    <hector:qualifier rdf:nodeID="commodity_hat_cb15e0177cf958eea3b662495e54e7922d9dde889bfc0f1152f478a22817b5ab0d5"/>
+    <hector:qualifier rdf:nodeID="commodity_hat_cb2a3fcdd19f314c28e675046ee9177c8c543acad9a4b969dc1019ee3f4798f562f"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 548 (transcribed by Stuart Jenks): 'Hattes of worsted short thromed voc’ Bridges hattes þe dosen' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb1ddfb680e5e24d14541589a742d039f8aca5a3e08cc599ef69001d735e7b54678">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>men or women</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hat#rate-1558-inward-586">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Hatte bandes fyne the grosse 48s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_hat_cb35ede496a77919d06c72f61af6b456a039717433af8d105ae03f9e421611608e8"/>
+    <hector:perQuantity rdf:nodeID="commodity_hat_cb1c61f2b0b0ad6ae1df98bdf1f9befdf4f7f43bc9e6bbd26971df6d9c300ba19dc"/>
+    <hector:qualifier rdf:nodeID="commodity_hat_cb1f3883947940899eab3bbd1dcbef5f26da34106b1155543fc4ff8896dcd703fe2"/>
+    <hector:qualifier rdf:nodeID="commodity_hat_cb2c64938d6aba6aada2134573bfc4fef856548a11c33ab2cd4d5795cbdef16752e"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 586 (transcribed by Stuart Jenks): 'Hatte bandes fyne the grosse' 48s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb2c64938d6aba6aada2134573bfc4fef856548a11c33ab2cd4d5795cbdef16752e">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>bandes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb258de4f8a8ba5ff5dfad66e5ec3db861ce16e7d1ad4a14e6e2abee59cf1b3c473">
+    <crm:P190_has_symbolic_content>hattis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>hatis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hat#rate-1558-inward-591">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Hattes voc’ Spanishe feltes or Portingall feltes the dosen 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_hat_cb31c182fa7356c707d910b310276035dbadb294302b91a923630614cea88c980f3"/>
+    <hector:perQuantity rdf:nodeID="commodity_hat_cb131c5f11d1a1df2e9a8ffd26955396e6a12072e48ffc135891c11a88a1b36eb0a"/>
+    <hector:qualifier rdf:nodeID="commodity_hat_cb14ee3631b0f53e50b474be29bb6ba9d969a2ae16496a35d65105fc9f851cf2332"/>
+    <hector:qualifier rdf:nodeID="commodity_hat_cb1fa18b6075a3baa215797bfccdd3fd40bee8c6723b46e3a7abfe06a27cecc2838"/>
+    <hector:qualifier rdf:nodeID="commodity_hat_cb296676ddf58d14535445ebd8df0782fd508f6fe1ae4d44bcc6a5d529471dd7de2"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 591 (transcribed by Stuart Jenks): 'Hattes voc’ Spanishe feltes or Portingall feltes the dosen' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hat#rate-1558-inward-593">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Hattes voc’ Venis or Spanishe hattes the dosen 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_hat_cb2baee34f151473968a3c45d9de640fbcae4e31d5563a3247779051fe7185cb0a4"/>
+    <hector:perQuantity rdf:nodeID="commodity_hat_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_hat_cb18957ef5666bd2f2eb7907cb6a6461ae8b239a81d3a3962fdcf06bbe88f32e130"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 593 (transcribed by Stuart Jenks): 'Hattes voc’ Venis or Spanishe hattes the dosen' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb1c6bee44e726556c804bd0056e7b57a0a528c1ba1de1911e68ea0f8ed728887fb">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/hat">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_hat_cb0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_hat_cb13c968e55d486e503cf538305c738e11289583ce8be2540699a7a50b0b90e0003"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_hat_cb161f969027354956666dde4f0f3eecdd2b4e4cfb5fdaa50c2862e055768c2d7e0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_hat_cb171d37b046efee7f9a1a4471e2c759ba122a3ff6864e7fc19d8aa2c5ee997a575"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_hat_cb19c7cfb3a0bac93c373ddec6f51e7dff3d24ea0db428deb8dadfb35569068a68f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_hat_cb1ab7b1bb7100ea3877ce8091f10afa5ec9048bc04f763778d2b4e3050ae0fa4f8"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_hat_cb2503eb1834902a842a8e1e1156a82976c0bfa275b7f45d54b63156631f93954a6"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_hat_cb2c3945a771a18f7b2dce44f5345072ffc4234733379cbf92de2bd8c0d8135ce9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_hat_cb8de4518919a3ae50834a7dd7a542d05fefaea453db49028a7c585a7f3afc5d61"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_hat_cbd507cb0e2a8505778ff1ad90995dcea9f8f04b3ad8224a2722f02cd9f839f539"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_hat_cbf69774d676eb8c000b2a9b3d912ef10806b951eab0c5fa23e5a93c0bec0ae87f"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_hat_cb8930617a497dbbe41656302bc6f18fa43c6ca264c2f598fa901fbc883297d194"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_hat_cb178c199a9a8afebbc7c6d65f933adfc648184e1338445fd03d9b1551be202b862"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_hat_cb1a46ebb0774bfe4992c96a881f01b40abeec0feaa023e63992224d13a6077cf13"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_hat_cb1fb85b9ce945e390af6e5fcee77d03e475236b3165d5c223855cc07ee7402a0e9"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_hat_cb204ca7d79d01601ea6a9b18d9bacf3aba43ec22ffc3b039d2d71af03988fd61ca"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_hat_cb2345f0c83d2b5405580c4b951901c9d8e8982c233f4d843b6743d83f60b415430"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_hat_cb236bcb9b33e420cdf08291a802a74b7d2a535d53f9fa9c803be6086fed1162639"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_hat_cb258de4f8a8ba5ff5dfad66e5ec3db861ce16e7d1ad4a14e6e2abee59cf1b3c473"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_hat_cb26f4fe6851c2c5e7b8a7f842406b38894ac38d3fe234b9a0da055cab31c90962f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_hat_cb2abd4b13ebdfffcc9abfc28f5e525c352ee079d9c3b2bea5e4315fe99288ac2b7"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_hat_cbcf0a5a1ece62fbff318b78ddfb30dfe7532a9a7cfda2a8a32f18c3a2f84de6d3"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_hat_cbf5bc7e3ab9dcade5e08da353ce252ff9551766151f6225ba0402db08e2662c71"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_hat_cb186a86846c48ab04f9e4e56892d2c114b7e7b9a203720749cbca8e61c1f84dfac"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>hat</rdfs:label>
     <rdfs:seeAlso rdf:resource="https://w3id.org/hector/commodity/hat-hair"/>
@@ -30,84 +161,66 @@
     <skos:related rdf:resource="https://w3id.org/hector/commodity/felt-hat"/>
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300046106"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1571</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/hat#rate-1545-inward-284"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/hat#rate-1545-inward-368"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/hat#rate-1558-inward-547"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/hat#rate-1558-inward-548"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/hat#rate-1558-inward-582"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/hat#rate-1558-inward-583"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/hat#rate-1558-inward-584"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/hat#rate-1558-inward-585"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/hat#rate-1558-inward-586"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/hat#rate-1558-inward-591"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/hat#rate-1558-inward-593"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hat_cb368438ac5b64f6a74d55450fed76c89d095feefafcdff9b740f6542b1fa254d7">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  <rdf:Description rdf:nodeID="commodity_hat_cb22f0d5f9d0dba9b79702afe106acc4902616feb6fc61fa4c44251672a6bce521e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>30s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300046106">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/helm">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>hats</rdfs:label>
+    <rdfs:label>helm</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hat_cb1ab7b1bb7100ea3877ce8091f10afa5ec9048bc04f763778d2b4e3050ae0fa4f8">
-    <crm:P190_has_symbolic_content>hattys</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>hatis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hat#rate-1558-inward-584">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Hattes of silke for men or women of the Frenche making þe dosen 30s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_hat_cb22f0d5f9d0dba9b79702afe106acc4902616feb6fc61fa4c44251672a6bce521e"/>
+    <hector:perQuantity rdf:nodeID="commodity_hat_cb1f38b71dd590536674075d953d3c4a5d11b410c17e5826bfa8215dbd3e397b35a"/>
+    <hector:qualifier rdf:nodeID="commodity_hat_cb193cbb42ee1fe8f8d543fcb5861645a0ca28f6a86524e1bc0c8bb9bec3bf6eba0"/>
+    <hector:qualifier rdf:nodeID="commodity_hat_cb1ddfb680e5e24d14541589a742d039f8aca5a3e08cc599ef69001d735e7b54678"/>
+    <hector:qualifier rdf:nodeID="commodity_hat_cb1f4f322ac37872f6839ba8ad26a0ccddec85f66693b50ac0c4669ee1dbb6e11b7"/>
+    <hector:qualifier rdf:nodeID="commodity_hat_cb268d31d9878dc9916d6a42e4d6319380241d27f9b42a15c04529c8d104d1b9629"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 584 (transcribed by Stuart Jenks): 'Hattes of silke for men or women of the Frenche making þe dosen' 30s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hat_cb13c968e55d486e503cf538305c738e11289583ce8be2540699a7a50b0b90e0003">
-    <crm:P190_has_symbolic_content>hate</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>hatə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1541</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hat#rate-1545-inward-368">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Hattes the dossen 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_hat_cb2c4d491bd255203b70be8e5ccf5a996733459e6f059f4063320f71b049680cfa5"/>
+    <hector:perQuantity rdf:nodeID="commodity_hat_cb15b3dce09e883662efffbc788199f4e92e673c156bb2d3704160d8d1ac340b4cf"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 368 (transcribed by Stuart Jenks): 'Hattes the dossen' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hat_cb8de4518919a3ae50834a7dd7a542d05fefaea453db49028a7c585a7f3afc5d61">
-    <crm:P190_has_symbolic_content>hatte</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>hatə</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hat_cb1375c83284bca0db1aee995b60a9e26e063d06f2224a657e6c42768fca22a75d6">
+  <rdf:Description rdf:nodeID="commodity_hat_cb27744f5f3c06db97605c70dcf56cdd82906eae7136f9b93cb6d2888ae652c3722">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
     <hector:lsd>10s</hector:lsd>
     <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>dozen</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hat_cb171d37b046efee7f9a1a4471e2c759ba122a3ff6864e7fc19d8aa2c5ee997a575">
-    <crm:P190_has_symbolic_content>hattis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>hatis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hat_cbd507cb0e2a8505778ff1ad90995dcea9f8f04b3ad8224a2722f02cd9f839f539">
-    <crm:P190_has_symbolic_content>hatz</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>hatz</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/felt-hat">
+  <rdf:Description rdf:nodeID="commodity_hat_cb15e0177cf958eea3b662495e54e7922d9dde889bfc0f1152f478a22817b5ab0d5">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>felt hat</rdfs:label>
+    <rdfs:label>thrum</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hat_cb2c3945a771a18f7b2dce44f5345072ffc4234733379cbf92de2bd8c0d8135ce9">
-    <crm:P190_has_symbolic_content>hattes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>hatəs</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+  <rdf:Description rdf:nodeID="commodity_hat_cb121ae33dd2893c7951430b2d4b76602441786f29eb21886bfccb40afcf2ed165a">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
+    <rdfs:label>worsted</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300227943"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hat_cbf69774d676eb8c000b2a9b3d912ef10806b951eab0c5fa23e5a93c0bec0ae87f">
+  <rdf:Description rdf:nodeID="commodity_hat_cb2abd4b13ebdfffcc9abfc28f5e525c352ee079d9c3b2bea5e4315fe99288ac2b7">
     <crm:P190_has_symbolic_content>hattz</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -115,16 +228,107 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hat#rate-1545-inward-368">
+  <rdf:Description rdf:nodeID="commodity_hat_cb193cbb42ee1fe8f8d543fcb5861645a0ca28f6a86524e1bc0c8bb9bec3bf6eba0">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>making</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q12994">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Bruges</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb268d31d9878dc9916d6a42e4d6319380241d27f9b42a15c04529c8d104d1b9629">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>France</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q142"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pecia">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pecia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb2c4d491bd255203b70be8e5ccf5a996733459e6f059f4063320f71b049680cfa5">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hat#rate-1558-inward-583">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Hattes the dossen 10s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_hat_cb1375c83284bca0db1aee995b60a9e26e063d06f2224a657e6c42768fca22a75d6"/>
-    <hector:perQuantity rdf:nodeID="commodity_hat_cb368438ac5b64f6a74d55450fed76c89d095feefafcdff9b740f6542b1fa254d7"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 368 (transcribed by Stuart Jenks): 'Hattes the dossen' 10s</hector:sourceText>
+    <rdfs:label>1558 inward: Hattes of satten the pece 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_hat_cb2cecd0972e17108599fe73551b70a71c1bb0fc14c778f5bef49a26f5d8c80527b"/>
+    <hector:perQuantity rdf:nodeID="commodity_hat_cb28d0dc07aa1d17f049f48107f50058b6af43bd135cbe34b4ac6f685a65486ce08"/>
+    <hector:qualifier rdf:nodeID="commodity_hat_cb1fb11eff9431f70d92ae98546c6b818ca6e29644f366be525faa4eb62965d91a6"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 583 (transcribed by Stuart Jenks): 'Hattes of satten the pece' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb373927cc139ca100c8b3ed3bc5b01a6d00a763ecd9aada2cd8120fd0fe1df8117">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb331177644a0287fb851f3ac4e503b50aa12795ea7482b7e5884b6abade131b6a1">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb2b37e69ce0c5521d068e47d1f499d8e2ab8eef12b487c45de750ed4506c5e216f">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb1a46ebb0774bfe4992c96a881f01b40abeec0feaa023e63992224d13a6077cf13">
+    <crm:P190_has_symbolic_content>hate</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>hatə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1541</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/hat">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>hat (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb1c61f2b0b0ad6ae1df98bdf1f9befdf4f7f43bc9e6bbd26971df6d9c300ba19dc">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb186a86846c48ab04f9e4e56892d2c114b7e7b9a203720749cbca8e61c1f84dfac">
+    <crm:P190_has_symbolic_content>Shaped coverings for the head having a brim and crown, or one of the two. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hat#rate-1545-inward-284">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Frenche hattes the dossen 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_hat_cb2b37e69ce0c5521d068e47d1f499d8e2ab8eef12b487c45de750ed4506c5e216f"/>
+    <hector:perQuantity rdf:nodeID="commodity_hat_cb1b4943be9f3ba5964916ba9d0c046db2781de3fbd9ddd78678f90b4bdd8cd6053"/>
+    <hector:qualifier rdf:nodeID="commodity_hat_cb280d476fc494665854341a6e0ba8ec7afcd78b5a2b4d004be901368001a5400d5"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 284 (transcribed by Stuart Jenks): 'Frenche hattes the dossen' 10s</hector:sourceText>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hat_cb2503eb1834902a842a8e1e1156a82976c0bfa275b7f45d54b63156631f93954a6">
+  <rdf:Description rdf:nodeID="commodity_hat_cb18957ef5666bd2f2eb7907cb6a6461ae8b239a81d3a3962fdcf06bbe88f32e130">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Spain</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q29"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cbf5bc7e3ab9dcade5e08da353ce252ff9551766151f6225ba0402db08e2662c71">
+    <crm:P190_has_symbolic_content>hatte</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>hatə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb14ee3631b0f53e50b474be29bb6ba9d969a2ae16496a35d65105fc9f851cf2332">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>feltes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb26f4fe6851c2c5e7b8a7f842406b38894ac38d3fe234b9a0da055cab31c90962f">
     <crm:P190_has_symbolic_content>hatt</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -132,24 +336,7 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hat_cb8930617a497dbbe41656302bc6f18fa43c6ca264c2f598fa901fbc883297d194">
-    <crm:P190_has_symbolic_content>Shaped coverings for the head having a brim and crown, or one of the two. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hat_cb161f969027354956666dde4f0f3eecdd2b4e4cfb5fdaa50c2862e055768c2d7e0">
-    <crm:P190_has_symbolic_content>hates</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>hatəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hat_cb19c7cfb3a0bac93c373ddec6f51e7dff3d24ea0db428deb8dadfb35569068a68f">
+  <rdf:Description rdf:nodeID="commodity_hat_cb1fb85b9ce945e390af6e5fcee77d03e475236b3165d5c223855cc07ee7402a0e9">
     <crm:P190_has_symbolic_content>hat</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -158,26 +345,218 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hat-hair">
+  <rdf:Description rdf:nodeID="commodity_hat_cb280d476fc494665854341a6e0ba8ec7afcd78b5a2b4d004be901368001a5400d5">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>hat hair</rdfs:label>
+    <rdfs:label>France</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q142"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb204ca7d79d01601ea6a9b18d9bacf3aba43ec22ffc3b039d2d71af03988fd61ca">
+    <crm:P190_has_symbolic_content>hates</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>hatəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hat#rate-1558-inward-547">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Hattes of wolle or worsted being trommed the dosen 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_hat_cb373927cc139ca100c8b3ed3bc5b01a6d00a763ecd9aada2cd8120fd0fe1df8117"/>
+    <hector:perQuantity rdf:nodeID="commodity_hat_cb111254a8c59db63b39d7758991507b19ff10aec4aa7df6d278721366167f09d67"/>
+    <hector:qualifier rdf:nodeID="commodity_hat_cb15ee20d33f159f1fa659b914203f986474f050c56df6e5e7adaeea38a394f3acd"/>
+    <hector:qualifier rdf:nodeID="commodity_hat_cb19b3551265e5514a0b78f74529b0ca6dd1566a377ee46ecea55c4bb0ec1bcd548"/>
+    <hector:qualifier rdf:nodeID="commodity_hat_cb20ee0fc3023ba54a8e4af67139491a3e332697e9bbd4463f77c24d1808df9071f"/>
+    <hector:qualifier rdf:nodeID="commodity_hat_cb240ffc9697eca654b90586c30fe4faec61094af93b1577c53bf287ecfd92e33a6"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 547 (transcribed by Stuart Jenks): 'Hattes of wolle or worsted being trommed the dosen' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb1f4f322ac37872f6839ba8ad26a0ccddec85f66693b50ac0c4669ee1dbb6e11b7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>silk</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300243428"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb299c29e218b4598e3f7e626da61f6baecb2c36356974b78f743d84840e82fc17f">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>bandes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb236bcb9b33e420cdf08291a802a74b7d2a535d53f9fa9c803be6086fed1162639">
+    <crm:P190_has_symbolic_content>hattys</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>hatis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb31c182fa7356c707d910b310276035dbadb294302b91a923630614cea88c980f3">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb131c5f11d1a1df2e9a8ffd26955396e6a12072e48ffc135891c11a88a1b36eb0a">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>gross</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q29">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Spain</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb1fb11eff9431f70d92ae98546c6b818ca6e29644f366be525faa4eb62965d91a6">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>satten</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb35ede496a77919d06c72f61af6b456a039717433af8d105ae03f9e421611608e8">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>48s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">576</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb28d0dc07aa1d17f049f48107f50058b6af43bd135cbe34b4ac6f685a65486ce08">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb111254a8c59db63b39d7758991507b19ff10aec4aa7df6d278721366167f09d67">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb1f3883947940899eab3bbd1dcbef5f26da34106b1155543fc4ff8896dcd703fe2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>fine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb1fa18b6075a3baa215797bfccdd3fd40bee8c6723b46e3a7abfe06a27cecc2838">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Spain</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q29"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb240ffc9697eca654b90586c30fe4faec61094af93b1577c53bf287ecfd92e33a6">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>wolle</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb199f856f16afb8d381afd00e4c022b24e013a00bdf8f0e3cda6dc4f134ec87e29">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>velvet</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300133711"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb12fa182fb378a298f2b573efbad8f6bede01ec0e9f87e77d70194eb6cc3e80007">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb2cecd0972e17108599fe73551b70a71c1bb0fc14c778f5bef49a26f5d8c80527b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/felt-hat">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>felt hat</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb2baee34f151473968a3c45d9de640fbcae4e31d5563a3247779051fe7185cb0a4">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb2a3fcdd19f314c28e675046ee9177c8c543acad9a4b969dc1019ee3f4798f562f">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Bruges</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q12994"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q45">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Portugal</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300046106">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>hats</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q142">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>France</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
     <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hat_cb0">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hat#rate-1558-inward-582">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Hattes of vellet the pece 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_hat_cb331177644a0287fb851f3ac4e503b50aa12795ea7482b7e5884b6abade131b6a1"/>
+    <hector:perQuantity rdf:nodeID="commodity_hat_cb1c6bee44e726556c804bd0056e7b57a0a528c1ba1de1911e68ea0f8ed728887fb"/>
+    <hector:qualifier rdf:nodeID="commodity_hat_cb199f856f16afb8d381afd00e4c022b24e013a00bdf8f0e3cda6dc4f134ec87e29"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 582 (transcribed by Stuart Jenks): 'Hattes of vellet the pece' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300227943">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>worsted</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb178c199a9a8afebbc7c6d65f933adfc648184e1338445fd03d9b1551be202b862">
     <crm:P190_has_symbolic_content>silk hat</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>silk hat</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/hat">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>hat (London Customs Accounts glossary)</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_hat_cb15b3dce09e883662efffbc788199f4e92e673c156bb2d3704160d8d1ac340b4cf">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/helm">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300133711">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>helm</rdfs:label>
+    <rdfs:label>velvet (fabric weave)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb118faf83a3ce842516e0db881cbfc5aa65c358139dda11e29b0969a2784f572ab">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>short</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hat-hair">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>hat hair</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb1d31550807652ea5eed41f117dade9aa097f824995054e316d56f7c8d159a7b39">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>coarse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb20ee0fc3023ba54a8e4af67139491a3e332697e9bbd4463f77c24d1808df9071f">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>being</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb3248e09438c2e84409947336c152ad214608b0a83aaf8f6f7aa7d58e817d3672a">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hat_cb15ee20d33f159f1fa659b914203f986474f050c56df6e5e7adaeea38a394f3acd">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>worsted</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300227943"/>
   </rdf:Description>
 </rdf:RDF>

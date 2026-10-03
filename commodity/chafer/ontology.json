@@ -755,5 +755,87 @@
     }
   ],
   "attestationCount": 63,
-  "modified": "2026-10-03"
+  "modified": "2026-10-03",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/chafer#rate-1558-inward-290",
+      "type": "Rate",
+      "_label": "1558 inward: Chaffynge dysshes of latten the dossen 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 290 (transcribed by Stuart Jenks): 'Chaffynge dysshes of latten the dossen' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "latten",
+          "equivalent": [
+            {
+              "id": "aat:300198675",
+              "type": "Type",
+              "_label": "latten"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/chafer#rate-1558-inward-291",
+      "type": "Rate",
+      "_label": "1558 inward: Chaffynge dysshes of iron the dossen 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 291 (transcribed by Stuart Jenks): 'Chaffynge dysshes of iron the dossen' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "iron",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

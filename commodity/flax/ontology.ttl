@@ -64,7 +64,9 @@
     skos:related <https://w3id.org/hector/commodity/flax-brush> ;
     la:equivalent aat:300014041 ;
     hector:attestationCount 3843 ;
-    hector:taxation <https://w3id.org/hector/commodity/flax#rate-1507-none-98>,
+    hector:taxation <https://w3id.org/hector/commodity/flax#rate-1507-none-100>,
+        <https://w3id.org/hector/commodity/flax#rate-1507-none-98>,
+        <https://w3id.org/hector/commodity/flax#rate-1507-none-99>,
         <https://w3id.org/hector/commodity/flax#rate-1545-inward-285>,
         <https://w3id.org/hector/commodity/flax#rate-1545-inward-286>,
         <https://w3id.org/hector/commodity/flax#rate-1545-inward-287>,
@@ -73,7 +75,9 @@
         <https://w3id.org/hector/commodity/flax#rate-1545-outward-14>,
         <https://w3id.org/hector/commodity/flax#rate-1558-inward-446>,
         <https://w3id.org/hector/commodity/flax#rate-1558-inward-447>,
-        <https://w3id.org/hector/commodity/flax#rate-1558-inward-448> .
+        <https://w3id.org/hector/commodity/flax#rate-1558-inward-448>,
+        <https://w3id.org/hector/commodity/flax#rate-1558-inward-449>,
+        <https://w3id.org/hector/commodity/flax#rate-1558-inward-451> .
 
 aat:300014041 a crm:E55_Type ;
     rdfs:label "flax (fiber)" .
@@ -83,6 +87,22 @@ aat:300404670 a crm:E55_Type ;
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
+
+<https://w3id.org/hector/commodity/flax#rate-1507-none-100> a hector:Rate ;
+    rdfs:label "1507: Flexe hyckeled the sake containing 3 C lb. 30s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "30s" ;
+            hector:valueInPence 360.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "hyckeled" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 100 (transcribed by Stuart Jenks): 'Flexe hyckeled the sake containing 3 C lb.' 30s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/flax#rate-1507-none-98> a hector:Rate ;
     rdfs:label "1507: Flexe the laste containing 1 C 20 balys £4" ;
@@ -94,6 +114,19 @@ aat:300435416 a crm:E55_Type ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
     hector:sourceText "Book of Rates 1507, line 98 (transcribed by Stuart Jenks): 'Flexe the laste containing 1 C 20 balys' £4" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/flax#rate-1507-none-99> a hector:Rate ;
+    rdfs:label "1507: Flexe the pake containing 20 C lb £6 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£6 13s 4d" ;
+            hector:valueInPence 1600.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:sourceText "Book of Rates 1507, line 99 (transcribed by Stuart Jenks): 'Flexe the pake containing 20 C lb' £6 13s 4d" ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
 
@@ -145,6 +178,8 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 100 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "worked" ] ;
     hector:sourceText "Book of Rates 1545, inward, line 288 (transcribed by Stuart Jenks): 'Flaxe the hundreth pounde wrought' 10s" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
@@ -158,6 +193,8 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 100 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "unwrought" ] ;
     hector:sourceText "Book of Rates 1545, inward, line 289 (transcribed by Stuart Jenks): 'Flaxe the hundreth pounde unwrought' 6s 8d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
@@ -214,6 +251,36 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/flax#rate-1558-inward-449> a hector:Rate ;
+    rdfs:label "1558 inward: Flax wrought the C lb. cont’ 112 lb 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "worked" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 449 (transcribed by Stuart Jenks): 'Flax wrought the C lb. cont’ 112 lb' 20s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/flax#rate-1558-inward-451> a hector:Rate ;
+    rdfs:label "1558 inward: Flaxe unwrought the C lb. cont’ 112 lb 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "unwrought" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 451 (transcribed by Stuart Jenks): 'Flaxe unwrought the C lb. cont’ 112 lb' 13s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/flax-brush> a crm:E55_Type ;
     rdfs:label "flax brush" .
 
@@ -223,17 +290,20 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/mlca/glossary/flax> a crm:E55_Type ;
     rdfs:label "flax (London Customs Accounts glossary)" .
 
-<https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
-    rdfs:label "hundred" .
-
 <https://w3id.org/hector/unit/last> a crm:E58_Measurement_Unit ;
     rdfs:label "last" .
 
 <https://w3id.org/hector/unit/pack> a crm:E58_Measurement_Unit ;
     rdfs:label "pack" .
 
+<https://w3id.org/hector/unit/pound> a crm:E58_Measurement_Unit ;
+    rdfs:label "pound" .
+
 <https://w3id.org/hector/unit/bale> a crm:E58_Measurement_Unit ;
     rdfs:label "bale" .
+
+<https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
+    rdfs:label "hundred" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

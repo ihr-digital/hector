@@ -641,5 +641,383 @@
     }
   ],
   "attestationCount": 4740,
-  "modified": "2026-10-03"
+  "modified": "2026-10-03",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/worsted#rate-1507-none-324",
+      "type": "Rate",
+      "_label": "1507: Worsted yarne þe dossen lb 9s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "108",
+        "lsd": "9s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 324 (transcribed by Stuart Jenks): 'Worsted yarne þe dossen lb' 9s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "yarne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/worsted#rate-1545-inward-643",
+      "type": "Rate",
+      "_label": "1545 inward: S. Thomas worsteds þe pece 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 643 (transcribed by Stuart Jenks): 'S. Thomas worsteds þe pece' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Thomas",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/worsted#rate-1545-inward-799",
+      "type": "Rate",
+      "_label": "1545 inward: Worsted of Saynt Thomas the pece 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 799 (transcribed by Stuart Jenks): 'Worsted of Saynt Thomas the pece' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Saint-Omer",
+          "originPlace": [
+            {
+              "id": "wd:Q208793",
+              "type": "Place",
+              "_label": "Saint-Omer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/worsted#rate-1545-inward-802",
+      "type": "Rate",
+      "_label": "1545 inward: Worsted called Rissell the pece 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 802 (transcribed by Stuart Jenks): 'Worsted called Rissell the pece' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Lille",
+          "originPlace": [
+            {
+              "id": "wd:Q648",
+              "type": "Place",
+              "_label": "Lille"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/worsted#rate-1545-inward-806",
+      "type": "Rate",
+      "_label": "1545 inward: Worstede threde the dossen pounde 9s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "108",
+        "lsd": "9s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 806 (transcribed by Stuart Jenks): 'Worstede threde the dossen pounde' 9s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "file"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/worsted#rate-1558-inward-1133",
+      "type": "Rate",
+      "_label": "1558 inward: Worsted vocat’ Seynt Omers narrowe or half worsted the pece 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1133 (transcribed by Stuart Jenks): 'Worsted vocat’ Seynt Omers narrowe or half worsted the pece' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Saint-Omer",
+          "originPlace": [
+            {
+              "id": "wd:Q208793",
+              "type": "Place",
+              "_label": "Saint-Omer"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "narrow"
+        },
+        {
+          "type": "Type",
+          "_label": "half"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/worsted#rate-1558-inward-1134",
+      "type": "Rate",
+      "_label": "1558 inward: Worsted voc’ Russells worsted or brode worsted þe pece 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1134 (transcribed by Stuart Jenks): 'Worsted voc’ Russells worsted or brode worsted þe pece' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Russells",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "broad"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/worsted#rate-1558-inward-1136",
+      "type": "Rate",
+      "_label": "1558 inward: Worsted yarne, the dossyn pounde 16s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "200",
+        "lsd": "16s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1136 (transcribed by Stuart Jenks): 'Worsted yarne, the dossyn pounde' 16s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "yarne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/worsted#rate-1558-outward-71",
+      "type": "Rate",
+      "_label": "1558 outward: Worstede vocat’ Norwiche worsted the pece 30s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "360",
+        "lsd": "30s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, outward, line 71 (transcribed by Stuart Jenks): 'Worstede vocat’ Norwiche worsted the pece' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Norwiche",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "worsted",
+          "equivalent": [
+            {
+              "id": "aat:300227943",
+              "type": "Type",
+              "_label": "worsted"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

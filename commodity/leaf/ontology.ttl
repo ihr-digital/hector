@@ -89,6 +89,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 100 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "gold" ;
+            la:equivalent aat:300011021 ] ;
     hector:sourceText "Book of Rates 1545, inward, line 435 (transcribed by Stuart Jenks): 'Leves of golde the hunderith' 2s" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
@@ -115,6 +118,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 144 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "gold" ;
+            la:equivalent aat:300011021 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 533 (transcribed by Stuart Jenks): 'Golde foile the grosse' 3s 4d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -128,6 +134,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 100 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "gold" ;
+            la:equivalent aat:300011021 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 658 (transcribed by Stuart Jenks): 'Leves of gold the C cont’ 5 score' 5s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -146,6 +155,9 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
     rdfs:label "hundred" .
+
+aat:300011021 a crm:E55_Type ;
+    rdfs:label "gold (metal)" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

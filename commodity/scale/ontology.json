@@ -316,7 +316,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 1007 (transcribed by Stuart Jenks): 'Scales for scaberdes the M' 26s 8d"
+      "sourceText": "Book of Rates 1558, inward, line 1007 (transcribed by Stuart Jenks): 'Scales for scaberdes the M' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "scaberdes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

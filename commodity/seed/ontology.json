@@ -152,5 +152,167 @@
     }
   ],
   "attestationCount": 63,
-  "modified": "2026-10-03"
+  "modified": "2026-10-03",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/seed#rate-1558-inward-1050",
+      "type": "Rate",
+      "_label": "1558 inward: Semen cartani the pounde 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "4",
+        "lsd": "4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1050 (transcribed by Stuart Jenks): 'Semen cartani the pounde' 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "cartani",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/seed#rate-1558-inward-1051",
+      "type": "Rate",
+      "_label": "1558 inward: Semen papaver the pounde 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "4",
+        "lsd": "4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1051 (transcribed by Stuart Jenks): 'Semen papaver the pounde' 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "papaver",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/seed#rate-1558-inward-1052",
+      "type": "Rate",
+      "_label": "1558 inward: Semen ambos the pounde 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "4",
+        "lsd": "4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1052 (transcribed by Stuart Jenks): 'Semen ambos the pounde' 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "ambos",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/seed#rate-1558-inward-1053",
+      "type": "Rate",
+      "_label": "1558 inward: Semen cucumus the pounde 2d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "2",
+        "lsd": "2d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1053 (transcribed by Stuart Jenks): 'Semen cucumus the pounde' 2d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "cucumus",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

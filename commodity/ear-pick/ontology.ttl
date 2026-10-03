@@ -2,6 +2,7 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix hector: <https://w3id.org/hector/ontology#> .
+@prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -90,6 +91,9 @@
     hector:attestationCount 7 ;
     hector:taxation <https://w3id.org/hector/commodity/ear-pick#rate-1545-inward-265> .
 
+aat:300011798 a crm:E55_Type ;
+    rdfs:label "bone (material)" .
+
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
 
@@ -111,6 +115,12 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 144 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "tothe" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "bone" ;
+            la:equivalent aat:300011798 ] ;
     hector:sourceText "Book of Rates 1545, inward, line 265 (transcribed by Stuart Jenks): 'Ere pikers or tothe pikers of bone, the groce' 12d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .

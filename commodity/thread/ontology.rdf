@@ -8,31 +8,30 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_thread_cb22d6125041da746494ce4c1476705ba4deca4c6202356d26cb95cd9bd954da5f8">
-    <crm:P190_has_symbolic_content>filis</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_thread_cbed646032b89dc310da772b0ae19c6c6be9585eb916955310c5b1a98d7501351b">
+    <crm:P190_has_symbolic_content>thrid</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>filis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+    <hector:phoneticKey>θrid</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1507-none-302">
+  <rdf:Description rdf:nodeID="commodity_thread_cb10cb2e9ecf915daf66ceae8509690096362b0f176d1880ba385e3a81e0464664d">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1558-inward-857">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1507: Thred called Colyn thred the packyn wyche contains £13 6s 8d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_thread_cb333a73f203681078a4ede1d0aba43bb6b34845795600dbfaa9f1359783b632d92"/>
-    <hector:perQuantity rdf:nodeID="commodity_thread_cb1d855b13264097ac2e4bbd0ab728fee0dd5d744861c7d3e4a4f43e2293e82a732"/>
-    <hector:sourceText>Book of Rates 1507, line 302 (transcribed by Stuart Jenks): 'Thred called Colyn thred the packyn wyche contains' £13 6s 8d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+    <rdfs:label>1558 inward: Pyrle lace voc’ antell lace of threde the grosse 2s 6d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_thread_cb2b70c536e4f9a5946b1e24392cc9d206d7adec33f9b72d2159c29f19cef2c9db6"/>
+    <hector:perQuantity rdf:nodeID="commodity_thread_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50"/>
+    <hector:qualifier rdf:nodeID="commodity_thread_cb1cd7c43ffbb88a6008142177cedcddcb1954b0f46fb7a5f3d749efa4fc77e5b8c"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 857 (transcribed by Stuart Jenks): 'Pyrle lace voc’ antell lace of threde the grosse' 2s 6d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cb2767f8682a603a31d3ef55e4962c3f2c732c4dcd65b86219fea851a1b03a400a2">
-    <crm:P190_has_symbolic_content>thread</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>θrɛːd</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
@@ -68,50 +67,55 @@
     <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/thread"/>
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300014250"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4280</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/thread#rate-1507-none-301"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/thread#rate-1507-none-302"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/thread#rate-1545-inward-115"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/thread#rate-1545-inward-116"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/thread#rate-1545-inward-133"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/thread#rate-1545-inward-44"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/thread#rate-1545-inward-450"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/thread#rate-1545-inward-512"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/thread#rate-1545-inward-564"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/thread#rate-1545-inward-586"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/thread#rate-1545-inward-732"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/thread#rate-1545-inward-733"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/thread#rate-1545-inward-753"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/thread#rate-1545-inward-754"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/thread#rate-1545-inward-755"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/thread#rate-1558-inward-1044"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/thread#rate-1558-inward-1101"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/thread#rate-1558-inward-1106"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/thread#rate-1558-inward-1107"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/thread#rate-1558-inward-1108"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/thread#rate-1558-inward-125"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/thread#rate-1558-inward-257"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/thread#rate-1558-inward-807"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/thread#rate-1558-inward-816"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/thread#rate-1558-inward-857"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cb2839a8bf979984196f341d24c4d4135e69cf05365a060d5a32d7aee34bd1935aa">
-    <crm:P190_has_symbolic_content>threade</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>θrɛːdə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cb1fd3f94433d49c6c78f5958246b1bcce0faacc3052729dfa6fb10a88b0ed49f7e">
-    <crm:P190_has_symbolic_content>filum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>filum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cb2f1ee17bd92b2aa270132daca87c422e9c716de7284847c0269958c470d2923a7">
+  <rdf:Description rdf:nodeID="commodity_thread_cb2d3fb7823eb66e1ecfc98eafafe43270e8eec650c2e09d9272389d1773010cb4b">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>£5</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1200</hector:valueInPence>
+    <hector:lsd>2s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cb23a295fd496d81aafb323316aeb2409aaba8317097c51f84bfbcbe9101bdc0c6f">
-    <crm:P190_has_symbolic_content>phili</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>fili</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pack">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pack</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cb1f69c99c8a1f076ee56d7c6c41cf4fd7bf7e7a6d5391d8e87a452c0c6a93eb3c6">
+  <rdf:Description rdf:nodeID="commodity_thread_cb1d855b13264097ac2e4bbd0ab728fee0dd5d744861c7d3e4a4f43e2293e82a732">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/bale"/>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pack"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1545-inward-754">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Threde the butte 12d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_thread_cb2d1e1981d5688651d304aab45412b3faf84766aa3c5ca590203dd4fc6778ee40c"/>
+    <hector:perQuantity rdf:nodeID="commodity_thread_cb2625c2888fd39774b8ef975f0b0184ce85b5e2ad0c9e8aab4312bcd93a2409b65"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 754 (transcribed by Stuart Jenks): 'Threde the butte' 12d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_thread_cb11f4b118a13acb95e72404d79927c77b79fe859e74f04a620a6ddbc870d28eeb2">
     <crm:P190_has_symbolic_content>thredde</crm:P190_has_symbolic_content>
@@ -121,9 +125,20 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+  <rdf:Description rdf:nodeID="commodity_thread_cb1cd7c43ffbb88a6008142177cedcddcb1954b0f46fb7a5f3d749efa4fc77e5b8c">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
+    <rdfs:label>Pyrle lace voc antell lace</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1545-inward-753">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Threde called wotenall threde the dossen pounde 5s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_thread_cb24506acc52411d451cf3229464b1f0199a4e71420437315be56aeea1177ab37c1"/>
+    <hector:perQuantity rdf:nodeID="commodity_thread_cb161227634ff36013e07610f84f7d3537a45353ffcd82f787412ae4eeb4a7b3547"/>
+    <hector:qualifier rdf:nodeID="commodity_thread_cb1e2f82ed8fa7efd1b4bc82d8dc47b6ac3d83f792ec04960924e3e9183a789c2f5"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 753 (transcribed by Stuart Jenks): 'Threde called wotenall threde the dossen pounde' 5s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_thread_cb2562e4f7b52ad2d8ae7633648450f89f777d33733bbf3e7d0922e9d26665b0214">
     <crm:P190_has_symbolic_content>threed</crm:P190_has_symbolic_content>
@@ -133,15 +148,381 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/thread">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>thread (London Customs Accounts glossary)</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1545-inward-733">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Threden ribbonde the groce 2s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_thread_cb255108c2a7211c30e0b2622ac7e9e428d3843c76c68f1e73f027939bf259ca0d5"/>
+    <hector:perQuantity rdf:nodeID="commodity_thread_cb10cb2e9ecf915daf66ceae8509690096362b0f176d1880ba385e3a81e0464664d"/>
+    <hector:qualifier rdf:nodeID="commodity_thread_cb1ad82900134f2b840f1e7acb509aae83db4d6f2848c157244e4578398ffb4893c"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 733 (transcribed by Stuart Jenks): 'Threden ribbonde the groce' 2s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cbed646032b89dc310da772b0ae19c6c6be9585eb916955310c5b1a98d7501351b">
-    <crm:P190_has_symbolic_content>thrid</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1558-inward-125">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Bridges threde the dosen pounde 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_thread_cb3a514ad5f10e97c32d34e880d6daab6909b169967091469f472e78981357a3dd8"/>
+    <hector:perQuantity rdf:nodeID="commodity_thread_cb10b02988f8953543dac5df13856ee7db8c58b6727e9a085898318fd7d90ad69ad"/>
+    <hector:qualifier rdf:nodeID="commodity_thread_cb2b2d5df3826079bf4ecceadd9aae852ae2f4ba2390c95e1d6b0cb865164c78f10"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 125 (transcribed by Stuart Jenks): 'Bridges threde the dosen pounde' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1558-inward-1107">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Threde vocat’ Parys threde the butte 2s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_thread_cb2d3fb7823eb66e1ecfc98eafafe43270e8eec650c2e09d9272389d1773010cb4b"/>
+    <hector:perQuantity rdf:nodeID="commodity_thread_cb21cd367adeaec30568afea69ec41ddba97b1ece48e44c3aefb98ee2980aa31d29"/>
+    <hector:qualifier rdf:nodeID="commodity_thread_cb1d17082b010be9af6f52ff7eda91a89cb1373f33043f35fd2455e09c639029b70"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1107 (transcribed by Stuart Jenks): 'Threde vocat’ Parys threde the butte' 2s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1545-inward-133">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Collayne threde the bale £10</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_thread_cb32e546efce257f2dd1583f9cd7048f3c4819bdfcea6ae3f0c2a48c291e291f59c"/>
+    <hector:perQuantity rdf:nodeID="commodity_thread_cb2a200de27997d2c710ce11031c8897694f9758a6f20fd78b70dc2c85e82f6ac2a"/>
+    <hector:qualifier rdf:nodeID="commodity_thread_cb21377d241bf17bbf3fbd34b8c6782dee19e7b61d71670189bc0ef7646e1849bed"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 133 (transcribed by Stuart Jenks): 'Collayne threde the bale' £10</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q12994">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Bruges</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1558-inward-1101">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Threden rybande the dossen peces 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_thread_cb28341528cea9a218d4cfc66cce7a17e8f5d752f1db5fc69dd50e61beeeba5fef1"/>
+    <hector:perQuantity rdf:nodeID="commodity_thread_cb1c299291cfdcfb4e45f045a5bdbd2cab1fcc4532ab594ea87d42f6fa50cc1da26"/>
+    <hector:qualifier rdf:nodeID="commodity_thread_cb1d869be873c609a0cb7f5c19cf4d6c300445f9a0559a4d98711f331754ee3e457"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1101 (transcribed by Stuart Jenks): 'Threden rybande the dossen peces' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb197fb12b158008d61d376ea4bca7aad3ee4b3db9859b614c97ded91afc785655f">
+    <crm:P190_has_symbolic_content>fyle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>filə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb25462bbc0e72836c7535a92a612860e59022cc37be325a08791009e813d374d77">
+    <crm:P190_has_symbolic_content>threede</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>θreːdə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1545-inward-512">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Otener threde the dossen pound 5s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_thread_cb30b2b5a7cc2373a57ce33950a6c4bf82ca7dddeb0df505e016ecd661cd3abefa9"/>
+    <hector:perQuantity rdf:nodeID="commodity_thread_cb13bed7aae3d623fbeb1c653e907518c08357f55653185693ed6a4c9b4d219a9cc"/>
+    <hector:qualifier rdf:nodeID="commodity_thread_cb1aaaab9d3d17b12c2ec12d1d63cf78d066d3536521b3d6f8fc05b0b2589a4e473"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 512 (transcribed by Stuart Jenks): 'Otener threde the dossen pound' 5s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1558-inward-1108">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Threde vocat’ Parys threde the bale £10</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_thread_cb2e528bdc9a80aa4a46af8e8f10ce9816e858aed683928254841bd3f02f8a0e736"/>
+    <hector:perQuantity rdf:nodeID="commodity_thread_cb26ed28a249fdf32b3541a7eee72d237ae365ef6b408fa4556a49bf1b259724679"/>
+    <hector:qualifier rdf:nodeID="commodity_thread_cb1b3270ae531db10188273c4039e89b28eba336a85fb7e85a5d29426041c43670e"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1108 (transcribed by Stuart Jenks): 'Threde vocat’ Parys threde the bale' £10</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb1c299291cfdcfb4e45f045a5bdbd2cab1fcc4532ab594ea87d42f6fa50cc1da26">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb202d6a57f9b552248bb3981585bd3de994fd6dd90c13cbb73d7cebc9321a24067">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Cologne</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q365"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb19ecde735bfce7a9fec9ac31ed1edd27097e9cea0d94e06987c909bd4c5170b70">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb1a7608e4e01f511c6ad3cd4b3d808a173a8ae9a91c66275dda3ae0662e3bada32">
+    <crm:P190_has_symbolic_content>fylum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>filum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb27cefdf239a8eaa849d9e84302f7848398db7b12c2bd0796acb6508f575f1e28b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>16s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb1f4b754f3e4ebc91778d2f5ecd3ed3fe08744e3b20ac9a039d83b29461f53989e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb10b02988f8953543dac5df13856ee7db8c58b6727e9a085898318fd7d90ad69ad">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1545-inward-44">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Bridges threde the dossen pounde 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_thread_cb29d17f50c5086a86085f82985d2ef4e0d8ebf5c7c6670ab783b2e9ecb042a98d5"/>
+    <hector:perQuantity rdf:nodeID="commodity_thread_cb1740a326dc8dd87bfd5be406bccd7ed0e3ec5d325c7b501476c5996e2fd26984f"/>
+    <hector:qualifier rdf:nodeID="commodity_thread_cb2c4eacceeee81064eeea72c8f16c0a2bb18421a211c9332f1507b7b115bf3ed28"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 44 (transcribed by Stuart Jenks): 'Bridges threde the dossen pounde' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb276f14ce61c6a3294b5c3e5935bf9156b7f1e3855d89c391bcf29c7a73e107c18">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Owghtnall</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb148f982e680b6be443d8c0ef1e3de21e8cdbd0fa1d132b18b53e1ee5c89b48128">
+    <crm:P190_has_symbolic_content>tale fili</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>talə fili</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb1cdf89e6582d3560b10a5b849c35b262a83a7d9f534be869b384f10326b362a37">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>26s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb1d869be873c609a0cb7f5c19cf4d6c300445f9a0559a4d98711f331754ee3e457">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>rybande</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1507-none-302">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Thred called Colyn thred the packyn wyche contains £13 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_thread_cb333a73f203681078a4ede1d0aba43bb6b34845795600dbfaa9f1359783b632d92"/>
+    <hector:perQuantity rdf:nodeID="commodity_thread_cb1d855b13264097ac2e4bbd0ab728fee0dd5d744861c7d3e4a4f43e2293e82a732"/>
+    <hector:qualifier rdf:nodeID="commodity_thread_cb2a541d7836263117c2dfdbff251689073dad6f36a781d8a96d5005bc641604684"/>
+    <hector:sourceText>Book of Rates 1507, line 302 (transcribed by Stuart Jenks): 'Thred called Colyn thred the packyn wyche contains' £13 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1558-inward-1106">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Threde vocat’ Outnarde threde the dossen pounde 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_thread_cb31b06eb228f9020125d39d947156fcb166fb092937ded3d8459cc18f2b492fa96"/>
+    <hector:perQuantity rdf:nodeID="commodity_thread_cb1f4b754f3e4ebc91778d2f5ecd3ed3fe08744e3b20ac9a039d83b29461f53989e"/>
+    <hector:qualifier rdf:nodeID="commodity_thread_cb2270236667721186a71351b5674bd5abcb7fe7d5c3a94ad8f3d8cc7072bdd5183"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1106 (transcribed by Stuart Jenks): 'Threde vocat’ Outnarde threde the dossen pounde' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb2625c2888fd39774b8ef975f0b0184ce85b5e2ad0c9e8aab4312bcd93a2409b65">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/butt"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1558-inward-257">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Coollen thryd the bale £12</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_thread_cb1b7906c2e934064d79b1d5b32a0217d08a8bdbf669dd360a4f77586ec5106de28"/>
+    <hector:perQuantity rdf:nodeID="commodity_thread_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_thread_cb202d6a57f9b552248bb3981585bd3de994fd6dd90c13cbb73d7cebc9321a24067"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 257 (transcribed by Stuart Jenks): 'Coollen thryd the bale' £12</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb22d6125041da746494ce4c1476705ba4deca4c6202356d26cb95cd9bd954da5f8">
+    <crm:P190_has_symbolic_content>filis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>filis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb1b12bf717d8ef0f7f7d8efcd779ad9208b1582264aad383ec0c3a81387fd0ce7c">
+    <crm:P190_has_symbolic_content>Filum (Latin): thread or yarn. Traded in many materials (linen, cotton, wool, silk, worsted/crewel, and metal threads of gold, silver, copper and latten), colours, qualities, forms (skeins, bottoms, ribbon, wire) and uses (sewing, binding, piecing, packthread, sail-, net- and crossbow-thread), and from many places of manufacture (Cologne, Bruges, Oudenarde, Doornik, Burgundy, Prussia, Paris, Lyons, etc.).</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb2bc8c81f4ce7763dbba67c9c9545f986376afef36e7666d5ac2d78bd45889e256">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb148ab670c330cf7e7d114310da8bf3011e8069cacf36eb620392a195ca59cc35e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb1b9bcab90cb2cc8d12f212b5a61ad4389f6e0a0214d1f086acf5a8246a342fbe2">
+    <crm:P190_has_symbolic_content>thred</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>θred</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb30b2b5a7cc2373a57ce33950a6c4bf82ca7dddeb0df505e016ecd661cd3abefa9">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>5s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1545-inward-564">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Packe threde the 100 pounde 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_thread_cb2bc8c81f4ce7763dbba67c9c9545f986376afef36e7666d5ac2d78bd45889e256"/>
+    <hector:perQuantity rdf:nodeID="commodity_thread_cb20e35204f3dbff851041f1179e903f3eb40ae718aeca7e78704b8fec08be46b39"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 564 (transcribed by Stuart Jenks): 'Packe threde the 100 pounde' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb44d072906a0c0d7399c0b9684aea76a223af23934c5d795d77a59685f9d38cda">
+    <crm:P190_has_symbolic_content>thryd</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>θrid</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb26ceb90bc7d259886d0d64c0e6cd6d7b6bc6c23227d19627822b19503d2bd92e4">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>5s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb333a73f203681078a4ede1d0aba43bb6b34845795600dbfaa9f1359783b632d92">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£13 6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3200</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb26ed28a249fdf32b3541a7eee72d237ae365ef6b408fa4556a49bf1b259724679">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/bale"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1545-inward-755">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Threde the bale conteynynge a hundreth buttes £5</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_thread_cb2f1ee17bd92b2aa270132daca87c422e9c716de7284847c0269958c470d2923a7"/>
+    <hector:perQuantity rdf:nodeID="commodity_thread_cb1f69c99c8a1f076ee56d7c6c41cf4fd7bf7e7a6d5391d8e87a452c0c6a93eb3c6"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 755 (transcribed by Stuart Jenks): 'Threde the bale conteynynge a hundreth buttes' £5</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/hundred">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>hundred</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1558-inward-1044">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Sackclothe whyte of threde the yarde 20d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_thread_cb367ca9976b336db1065a8665f3baeaae56ebd13978da71648a45b1909f10a5d2c"/>
+    <hector:perQuantity rdf:nodeID="commodity_thread_cb26d1e55d4a8a7556a02e3ae737c73a032aa80ab25982a8cef3e9a98b07b99c29d"/>
+    <hector:qualifier rdf:nodeID="commodity_thread_cb1c83456cc0a913a9c3e7d859a8cf7012e2e96b5b913f84724e17cee836caf473f"/>
+    <hector:qualifier rdf:nodeID="commodity_thread_cb2534a5469d7e93eaa485c42e26398f5c84055c666aba979138fc5c1bf2eb6d325"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1044 (transcribed by Stuart Jenks): 'Sackclothe whyte of threde the yarde' 20d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb255108c2a7211c30e0b2622ac7e9e428d3843c76c68f1e73f027939bf259ca0d5">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb273ce0cc73a3aca9a5a608c8a3c450268d2af3795812b92fbb9892303ed7fb758">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb3f66193ab3fad606068005160e56ae6e6c0b294fc272abf32abf21ed4261203f8">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb1e3f620a3e365ecd363b7f9fa6483ff86c33662d1eceec45e2e252f3efe584d7f">
+    <crm:P190_has_symbolic_content>threden</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>θreden</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1558-inward-816">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Pesynge threde the dosen pounde 26s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_thread_cb1cdf89e6582d3560b10a5b849c35b262a83a7d9f534be869b384f10326b362a37"/>
+    <hector:perQuantity rdf:nodeID="commodity_thread_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_thread_cb1ba23eaed289c2c4ccb4fc48bf89ef58073054a1cd087a4d634880d4512f1c3f9"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 816 (transcribed by Stuart Jenks): 'Pesynge threde the dosen pounde' 26s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cbf352ec36319c14705de3b3190816a14470f0358b650537993884a7e949487335">
+    <crm:P190_has_symbolic_content>talefili</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>talefili</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb1e5533b3f7ce4af194d5a0fb78f8e75db160d681951138a26bd569c3f8b292348">
+    <crm:P190_has_symbolic_content>fyli</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>fili</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1558-inward-807">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Packe threde the C lb. cont 112 lb 16s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_thread_cb27cefdf239a8eaa849d9e84302f7848398db7b12c2bd0796acb6508f575f1e28b"/>
+    <hector:perQuantity rdf:nodeID="commodity_thread_cb148ab670c330cf7e7d114310da8bf3011e8069cacf36eb620392a195ca59cc35e"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 807 (transcribed by Stuart Jenks): 'Packe threde the C lb. cont 112 lb' 16s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb32badb6cfbf2ed4a568c21eaab37c9482f8d5473de59476ebbda234fdc5a51da2">
+    <crm:P190_has_symbolic_content>filli</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>fili</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1545-inward-450">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Lyons threde the butte 12d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_thread_cb34b11b676bc7d2d77e00d7d3bfec772394f6093f87fddb1c9c11ffb2a437d7efe"/>
+    <hector:perQuantity rdf:nodeID="commodity_thread_cb27889f47cf2e121ff04f6abbf9a3854b5f5ed60debef57237eaef97fbe2bb4d58"/>
+    <hector:qualifier rdf:nodeID="commodity_thread_cb1fbd0def3d9ef0c530f72ac3e062932ac986bdd52d8540ad197eeeab53320f5f1"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 450 (transcribed by Stuart Jenks): 'Lyons threde the butte' 12d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb1c3f8256c2f24141dcc25a8270b4fd167357a1808b54aeebf5bb791315772f33a">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/yard">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>yard</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_thread_cbe01ec0f977bec1fe6da519ae4e42980b200f6245992b803dba419d63bee1c495">
     <crm:P190_has_symbolic_content>threde</crm:P190_has_symbolic_content>
@@ -150,6 +531,36 @@
     <hector:phoneticKey>θredə</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb13decbabdefd615742aa7e5f67b211a4bd2e6718e6e73980aaebef9e2fc9d16fb">
+    <crm:P190_has_symbolic_content>threid</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>θreid</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/butt">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>butt</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb2839a8bf979984196f341d24c4d4135e69cf05365a060d5a32d7aee34bd1935aa">
+    <crm:P190_has_symbolic_content>threade</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>θrɛːdə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1545-inward-586">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Pesing threde the dossen pound 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_thread_cb3f66193ab3fad606068005160e56ae6e6c0b294fc272abf32abf21ed4261203f8"/>
+    <hector:perQuantity rdf:nodeID="commodity_thread_cb14d685bc2b40bf3d025f50fc11303737784dc9082e4300870a907aa2c910a86a8"/>
+    <hector:qualifier rdf:nodeID="commodity_thread_cb13386334ed99151c3eda6c417c54c1f6007e4639d0db6f5633781237fb168dec6"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 586 (transcribed by Stuart Jenks): 'Pesing threde the dossen pound' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_thread_cb2aea8b256bac5ce9e15a2e70ca0e6e58293410aec4d4b13c5c0d17f9704853942">
     <crm:P190_has_symbolic_content>philum</crm:P190_has_symbolic_content>
@@ -167,78 +578,78 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cb1e5533b3f7ce4af194d5a0fb78f8e75db160d681951138a26bd569c3f8b292348">
-    <crm:P190_has_symbolic_content>fyli</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>fili</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cb44d072906a0c0d7399c0b9684aea76a223af23934c5d795d77a59685f9d38cda">
-    <crm:P190_has_symbolic_content>thryd</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>θrid</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cb273ce0cc73a3aca9a5a608c8a3c450268d2af3795812b92fbb9892303ed7fb758">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cb2a3555746937617b49b8890e3e97543ba5e8b906252e38ed19ac637ef39d9e195">
+  <rdf:Description rdf:nodeID="commodity_thread_cb34b11b676bc7d2d77e00d7d3bfec772394f6093f87fddb1c9c11ffb2a437d7efe">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>20d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</hector:valueInPence>
+    <hector:lsd>12d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1558-inward-1044">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Sackclothe whyte of threde the yarde 20d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_thread_cb2a3555746937617b49b8890e3e97543ba5e8b906252e38ed19ac637ef39d9e195"/>
-    <hector:perQuantity rdf:nodeID="commodity_thread_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 1044 (transcribed by Stuart Jenks): 'Sackclothe whyte of threde the yarde' 20d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cb1a5a5fbe5cd83c654983e4732964bf1b8268a76cbac5b7c0b1da73db7125ce68e">
-    <crm:P190_has_symbolic_content>filo</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_thread_cb20106b867dfc8f8bd4a696ac5c64b818ac9e6017435e56836ca5de562b83d60fd">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>filo</hector:phoneticKey>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>rybbonde</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cb148f982e680b6be443d8c0ef1e3de21e8cdbd0fa1d132b18b53e1ee5c89b48128">
-    <crm:P190_has_symbolic_content>tale fili</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>talə fili</hector:phoneticKey>
+  <rdf:Description rdf:nodeID="commodity_thread_cb2d1e1981d5688651d304aab45412b3faf84766aa3c5ca590203dd4fc6778ee40c">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>12d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb2a200de27997d2c710ce11031c8897694f9758a6f20fd78b70dc2c85e82f6ac2a">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/bale"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb2e528bdc9a80aa4a46af8e8f10ce9816e858aed683928254841bd3f02f8a0e736">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£10</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2400</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb3a514ad5f10e97c32d34e880d6daab6909b169967091469f472e78981357a3dd8">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb3d9847ad1fad208c084a4f0734a09d8e679ac9a0646f93d111b7cf5e7518edef6">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1545-inward-116">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
     <rdfs:label>1545 inward: Bottom threde the pounde 2d</rdfs:label>
     <hector:amount rdf:nodeID="commodity_thread_cb3928028d68751dd74a6fcd3c894a9bc1e2fd23a52285e465ce45d3b549dd690f7"/>
     <hector:perQuantity rdf:nodeID="commodity_thread_cb273ce0cc73a3aca9a5a608c8a3c450268d2af3795812b92fbb9892303ed7fb758"/>
+    <hector:qualifier rdf:nodeID="commodity_thread_cb2356403225a6250450b0ca1678cc11016f1dce67b449f56e4040b1ff53a0475f5"/>
     <hector:sourceText>Book of Rates 1545, inward, line 116 (transcribed by Stuart Jenks): 'Bottom threde the pounde' 2d</hector:sourceText>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cb1b9bcab90cb2cc8d12f212b5a61ad4389f6e0a0214d1f086acf5a8246a342fbe2">
-    <crm:P190_has_symbolic_content>thred</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_thread_cb21cd367adeaec30568afea69ec41ddba97b1ece48e44c3aefb98ee2980aa31d29">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/butt"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb23a295fd496d81aafb323316aeb2409aaba8317097c51f84bfbcbe9101bdc0c6f">
+    <crm:P190_has_symbolic_content>phili</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>θred</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+    <hector:phoneticKey>fili</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cb333a73f203681078a4ede1d0aba43bb6b34845795600dbfaa9f1359783b632d92">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>£13 6s 8d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3200</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300014250">
+  <rdf:Description rdf:nodeID="commodity_thread_cb1aaaab9d3d17b12c2ec12d1d63cf78d066d3536521b3d6f8fc05b0b2589a4e473">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>thread</rdfs:label>
+    <rdfs:label>Otener</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb2b2d5df3826079bf4ecceadd9aae852ae2f4ba2390c95e1d6b0cb865164c78f10">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Bruges</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q12994"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_thread_cb3928028d68751dd74a6fcd3c894a9bc1e2fd23a52285e465ce45d3b549dd690f7">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
@@ -246,9 +657,20 @@
     <hector:lsd>2d</hector:lsd>
     <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/butt">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>butt</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_thread_cb1b3270ae531db10188273c4039e89b28eba336a85fb7e85a5d29426041c43670e">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Paris</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q90"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb28341528cea9a218d4cfc66cce7a17e8f5d752f1db5fc69dd50e61beeeba5fef1">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300014250">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>thread</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_thread_cb1060d4b0b1146d4ea984ea2e2837c5c2f382fd9b48eeb3638f679dc9e796e61ac">
     <crm:P190_has_symbolic_content>fili</crm:P190_has_symbolic_content>
@@ -258,11 +680,259 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cbf352ec36319c14705de3b3190816a14470f0358b650537993884a7e949487335">
-    <crm:P190_has_symbolic_content>talefili</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pound">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pound</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1507-none-301">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Thred called Owghtnall thred the dossen lb 5s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_thread_cb26ceb90bc7d259886d0d64c0e6cd6d7b6bc6c23227d19627822b19503d2bd92e4"/>
+    <hector:perQuantity rdf:nodeID="commodity_thread_cb1c3f8256c2f24141dcc25a8270b4fd167357a1808b54aeebf5bb791315772f33a"/>
+    <hector:qualifier rdf:nodeID="commodity_thread_cb276f14ce61c6a3294b5c3e5935bf9156b7f1e3855d89c391bcf29c7a73e107c18"/>
+    <hector:sourceText>Book of Rates 1507, line 301 (transcribed by Stuart Jenks): 'Thred called Owghtnall thred the dossen lb' 5s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb367ca9976b336db1065a8665f3baeaae56ebd13978da71648a45b1909f10a5d2c">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb161227634ff36013e07610f84f7d3537a45353ffcd82f787412ae4eeb4a7b3547">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb1ad82900134f2b840f1e7acb509aae83db4d6f2848c157244e4578398ffb4893c">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>ribbonde</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb2b70c536e4f9a5946b1e24392cc9d206d7adec33f9b72d2159c29f19cef2c9db6">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s 6d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb2534a5469d7e93eaa485c42e26398f5c84055c666aba979138fc5c1bf2eb6d325">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>white</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300129784"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb240fd5606d4b11981a10005dce65a70c03dd0cb524321464a9addba494d687b52">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Bottom</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb1c83456cc0a913a9c3e7d859a8cf7012e2e96b5b913f84724e17cee836caf473f">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Sackclothe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb24506acc52411d451cf3229464b1f0199a4e71420437315be56aeea1177ab37c1">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>5s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb1740a326dc8dd87bfd5be406bccd7ed0e3ec5d325c7b501476c5996e2fd26984f">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1545-inward-115">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Bottom of threde the 100 pounde 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_thread_cb3d9847ad1fad208c084a4f0734a09d8e679ac9a0646f93d111b7cf5e7518edef6"/>
+    <hector:perQuantity rdf:nodeID="commodity_thread_cb19ecde735bfce7a9fec9ac31ed1edd27097e9cea0d94e06987c909bd4c5170b70"/>
+    <hector:qualifier rdf:nodeID="commodity_thread_cb240fd5606d4b11981a10005dce65a70c03dd0cb524321464a9addba494d687b52"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 115 (transcribed by Stuart Jenks): 'Bottom of threde the 100 pounde' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb1e2f82ed8fa7efd1b4bc82d8dc47b6ac3d83f792ec04960924e3e9183a789c2f5">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>wotenall</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb13bed7aae3d623fbeb1c653e907518c08357f55653185693ed6a4c9b4d219a9cc">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb31b06eb228f9020125d39d947156fcb166fb092937ded3d8459cc18f2b492fa96">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300129784">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>white (color)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb1b7906c2e934064d79b1d5b32a0217d08a8bdbf669dd360a4f77586ec5106de28">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£12</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2880</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb32e546efce257f2dd1583f9cd7048f3c4819bdfcea6ae3f0c2a48c291e291f59c">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£10</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2400</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb1f69c99c8a1f076ee56d7c6c41cf4fd7bf7e7a6d5391d8e87a452c0c6a93eb3c6">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/bale"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb112f4d4b0bdfa9599527549f7915d5d44bfe189795c1fac670e4fa592c4ca1d40">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/bale"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb2767f8682a603a31d3ef55e4962c3f2c732c4dcd65b86219fea851a1b03a400a2">
+    <crm:P190_has_symbolic_content>thread</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>talefili</hector:phoneticKey>
+    <hector:phoneticKey>θrɛːd</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb29d17f50c5086a86085f82985d2ef4e0d8ebf5c7c6670ab783b2e9ecb042a98d5">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb2270236667721186a71351b5674bd5abcb7fe7d5c3a94ad8f3d8cc7072bdd5183">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Outnarde</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>gross</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb2a541d7836263117c2dfdbff251689073dad6f36a781d8a96d5005bc641604684">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Cologne</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q365"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb27889f47cf2e121ff04f6abbf9a3854b5f5ed60debef57237eaef97fbe2bb4d58">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/butt"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/thread">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>thread (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1545-inward-732">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Threden rybbonde the dossen peces conteynynge thre papers 4s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_thread_cb1e852bce15db400a5eeaef9e5815a32718c6df207beef9bc8b196d73eb8ea6ced"/>
+    <hector:perQuantity rdf:nodeID="commodity_thread_cb112f4d4b0bdfa9599527549f7915d5d44bfe189795c1fac670e4fa592c4ca1d40"/>
+    <hector:qualifier rdf:nodeID="commodity_thread_cb20106b867dfc8f8bd4a696ac5c64b818ac9e6017435e56836ca5de562b83d60fd"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 732 (transcribed by Stuart Jenks): 'Threden rybbonde the dossen peces conteynynge thre papers' 4s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb1a5a5fbe5cd83c654983e4732964bf1b8268a76cbac5b7c0b1da73db7125ce68e">
+    <crm:P190_has_symbolic_content>filo</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>filo</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb13386334ed99151c3eda6c417c54c1f6007e4639d0db6f5633781237fb168dec6">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Pesing</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb1e852bce15db400a5eeaef9e5815a32718c6df207beef9bc8b196d73eb8ea6ced">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb14d685bc2b40bf3d025f50fc11303737784dc9082e4300870a907aa2c910a86a8">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb1fd3f94433d49c6c78f5958246b1bcce0faacc3052729dfa6fb10a88b0ed49f7e">
+    <crm:P190_has_symbolic_content>filum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>filum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb2356403225a6250450b0ca1678cc11016f1dce67b449f56e4040b1ff53a0475f5">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Bottom</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb26d1e55d4a8a7556a02e3ae737c73a032aa80ab25982a8cef3e9a98b07b99c29d">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cbe9bf15957cbd72bf19c80145aa838f9f148531f6ba8d3a425e9a0a1a36a0bdc4">
+    <crm:P190_has_symbolic_content>thride</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>θridə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb2c4eacceeee81064eeea72c8f16c0a2bb18421a211c9332f1507b7b115bf3ed28">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Bruges</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q12994"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb21377d241bf17bbf3fbd34b8c6782dee19e7b61d71670189bc0ef7646e1849bed">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Collayne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb1fbd0def3d9ef0c530f72ac3e062932ac986bdd52d8540ad197eeeab53320f5f1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>lions</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb20e35204f3dbff851041f1179e903f3eb40ae718aeca7e78704b8fec08be46b39">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb1d17082b010be9af6f52ff7eda91a89cb1373f33043f35fd2455e09c639029b70">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Paris</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q90"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_thread_cb1fa599ceffdc425d45fe06eadc6ae8b97f84956160c12affb5b7fd9e838474281">
     <crm:P190_has_symbolic_content>sthred</crm:P190_has_symbolic_content>
@@ -272,122 +942,30 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cb2d1e1981d5688651d304aab45412b3faf84766aa3c5ca590203dd4fc6778ee40c">
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q365">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Cologne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb1ba23eaed289c2c4ccb4fc48bf89ef58073054a1cd087a4d634880d4512f1c3f9">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>pecing</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_thread_cb2f1ee17bd92b2aa270132daca87c422e9c716de7284847c0269958c470d2923a7">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>12d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cb1b12bf717d8ef0f7f7d8efcd779ad9208b1582264aad383ec0c3a81387fd0ce7c">
-    <crm:P190_has_symbolic_content>Filum (Latin): thread or yarn. Traded in many materials (linen, cotton, wool, silk, worsted/crewel, and metal threads of gold, silver, copper and latten), colours, qualities, forms (skeins, bottoms, ribbon, wire) and uses (sewing, binding, piecing, packthread, sail-, net- and crossbow-thread), and from many places of manufacture (Cologne, Bruges, Oudenarde, Doornik, Burgundy, Prussia, Paris, Lyons, etc.).</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+    <hector:lsd>£5</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1200</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/unit/bale">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
     <rdfs:label>bale</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/yard">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>yard</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1545-inward-755">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Threde the bale conteynynge a hundreth buttes £5</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_thread_cb2f1ee17bd92b2aa270132daca87c422e9c716de7284847c0269958c470d2923a7"/>
-    <hector:perQuantity rdf:nodeID="commodity_thread_cb1f69c99c8a1f076ee56d7c6c41cf4fd7bf7e7a6d5391d8e87a452c0c6a93eb3c6"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 755 (transcribed by Stuart Jenks): 'Threde the bale conteynynge a hundreth buttes' £5</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/thread#rate-1545-inward-754">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Threde the butte 12d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_thread_cb2d1e1981d5688651d304aab45412b3faf84766aa3c5ca590203dd4fc6778ee40c"/>
-    <hector:perQuantity rdf:nodeID="commodity_thread_cb2625c2888fd39774b8ef975f0b0184ce85b5e2ad0c9e8aab4312bcd93a2409b65"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 754 (transcribed by Stuart Jenks): 'Threde the butte' 12d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cb1e3f620a3e365ecd363b7f9fa6483ff86c33662d1eceec45e2e252f3efe584d7f">
-    <crm:P190_has_symbolic_content>threden</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>θreden</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cb1a7608e4e01f511c6ad3cd4b3d808a173a8ae9a91c66275dda3ae0662e3bada32">
-    <crm:P190_has_symbolic_content>fylum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>filum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cb25462bbc0e72836c7535a92a612860e59022cc37be325a08791009e813d374d77">
-    <crm:P190_has_symbolic_content>threede</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>θreːdə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/pound">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>pound</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cbe9bf15957cbd72bf19c80145aa838f9f148531f6ba8d3a425e9a0a1a36a0bdc4">
-    <crm:P190_has_symbolic_content>thride</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>θridə</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cb32badb6cfbf2ed4a568c21eaab37c9482f8d5473de59476ebbda234fdc5a51da2">
-    <crm:P190_has_symbolic_content>filli</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>fili</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cb13decbabdefd615742aa7e5f67b211a4bd2e6718e6e73980aaebef9e2fc9d16fb">
-    <crm:P190_has_symbolic_content>threid</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>θreid</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cb1d855b13264097ac2e4bbd0ab728fee0dd5d744861c7d3e4a4f43e2293e82a732">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pack"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cb2625c2888fd39774b8ef975f0b0184ce85b5e2ad0c9e8aab4312bcd93a2409b65">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/butt"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_thread_cb197fb12b158008d61d376ea4bca7aad3ee4b3db9859b614c97ded91afc785655f">
-    <crm:P190_has_symbolic_content>fyle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>filə</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/pack">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>pack</rdfs:label>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q90">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Paris</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

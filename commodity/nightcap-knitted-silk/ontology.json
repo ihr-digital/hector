@@ -5,7 +5,9 @@
   ],
   "id": "https://w3id.org/hector/commodity/nightcap-knitted-silk",
   "type": "Type",
-  "_label": "nightcap (knitted silk)",
+  "_label": "nightcap (withdrawn record)",
+  "deprecated": true,
+  "modified": "2026-10-03",
   "referred_to_by": [
     {
       "type": "LinguisticObject",
@@ -16,81 +18,11 @@
           "_label": "brief texts"
         }
       ],
-      "content": "nightcap, qualified as ‘knitted silk’: a commodity as the Books of Rates price it separately (HECTOR decision 2, 29 Sep 2026)."
+      "content": "Withdrawn 3 Oct 2026. This record stood for the commodity as one Book of Rates entry qualifies it; the rates are now on the commodity itself, each naming its qualifier."
     }
   ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "content": "nightcap (knitted silk)",
-      "classified_as": [
-        {
-          "id": "aat:300404670",
-          "type": "Type",
-          "_label": "preferred terms"
-        }
-      ],
-      "phoneticKey": [
-        "nixtkap knited silk"
-      ]
-    },
-    {
-      "type": "Name",
-      "content": "Night cappes knyt of sylk",
-      "classified_as": [
-        {
-          "id": "hector:AttestedVariant",
-          "type": "Type",
-          "_label": "attested variant"
-        }
-      ],
-      "phoneticKey": [
-        "nixt kapəs knit of silk"
-      ]
-    }
-  ],
-  "broader": [
-    {
-      "id": "https://w3id.org/hector/commodity/nightcap",
-      "type": "Type",
-      "_label": "nightcap"
-    }
-  ],
-  "compoundOf": [
-    {
-      "id": "https://w3id.org/hector/commodity/nightcap",
-      "type": "Type",
-      "_label": "nightcap"
-    }
-  ],
-  "modified": "2026-10-03",
-  "taxation": [
-    {
-      "id": "https://w3id.org/hector/commodity/nightcap-knitted-silk#rate-1558-inward-747",
-      "type": "Rate",
-      "_label": "1558 inward: Night cappes knyt of sylk the dosen 40s",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "480",
-        "lsd": "40s"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 12,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/dozen",
-          "type": "MeasurementUnit",
-          "_label": "dozen"
-        }
-      },
-      "validFrom": "1558",
-      "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 747 (transcribed by Stuart Jenks): 'Night cappes knyt of sylk the dosen' 40s"
-    }
-  ]
+  "isReplacedBy": {
+    "id": "https://w3id.org/hector/commodity/nightcap",
+    "type": "Type"
+  }
 }

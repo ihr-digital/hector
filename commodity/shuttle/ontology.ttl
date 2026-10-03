@@ -205,6 +205,9 @@
     hector:attestationCount 56 ;
     hector:taxation <https://w3id.org/hector/commodity/shuttle#rate-1558-inward-1066> .
 
+aat:300025367 a crm:E55_Type ;
+    rdfs:label "weavers" .
+
 aat:300247548 a crm:E55_Type ;
     rdfs:label "shuttles (textile fabricating tools)" .
 
@@ -226,6 +229,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 12 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "weaver" ;
+            la:equivalent aat:300025367 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 1066 (transcribed by Stuart Jenks): 'Shoteles for weavers the dossyn' 2s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .

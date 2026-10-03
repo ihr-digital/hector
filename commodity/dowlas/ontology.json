@@ -164,7 +164,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 363 (transcribed by Stuart Jenks): 'Dowlas or lockeram the pece cont’ 100 elles' 33s 4d"
+      "sourceText": "Book of Rates 1558, inward, line 363 (transcribed by Stuart Jenks): 'Dowlas or lockeram the pece cont’ 100 elles' 33s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "lockeram",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

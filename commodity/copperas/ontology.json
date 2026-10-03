@@ -571,6 +571,46 @@
       "sourceText": "Book of Rates 1558, inward, line 226 (transcribed by Stuart Jenks): 'Copperas the pype or butte cont’ 8 C' £4"
     },
     {
+      "id": "https://w3id.org/hector/commodity/copperas#rate-1558-inward-227",
+      "type": "Rate",
+      "_label": "1558 inward: Copperas greane the C lb. cont’ 112 lb 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 227 (transcribed by Stuart Jenks): 'Copperas greane the C lb. cont’ 112 lb' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "greane",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/copperas#rate-1558-inward-228",
       "type": "Rate",
       "_label": "1558 inward: Copperas whyte the pounde 4d",
@@ -595,7 +635,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 228 (transcribed by Stuart Jenks): 'Copperas whyte the pounde' 4d"
+      "sourceText": "Book of Rates 1558, inward, line 228 (transcribed by Stuart Jenks): 'Copperas whyte the pounde' 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "white",
+          "equivalent": [
+            {
+              "id": "aat:300129784",
+              "type": "Type",
+              "_label": "white (color)"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

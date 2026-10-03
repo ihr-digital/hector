@@ -169,5 +169,117 @@
     }
   ],
   "attestationCount": 25,
-  "modified": "2026-09-29"
+  "modified": "2026-09-29",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/stool#rate-1558-inward-1011",
+      "type": "Rate",
+      "_label": "1558 inward: Stoles voc’ close chambre stoles with basons the dosen 60s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "720",
+        "lsd": "60s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1011 (transcribed by Stuart Jenks): 'Stoles voc’ close chambre stoles with basons the dosen' 60s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "covered"
+        },
+        {
+          "type": "Type",
+          "_label": "chambre",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "basons",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/stool#rate-1558-inward-1072",
+      "type": "Rate",
+      "_label": "1558 inward: Stoles voc’ close chambre stoles without basons the dosen 30s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "360",
+        "lsd": "30s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1072 (transcribed by Stuart Jenks): 'Stoles voc’ close chambre stoles without basons the dosen' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "covered"
+        },
+        {
+          "type": "Type",
+          "_label": "chambre",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "without basons",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

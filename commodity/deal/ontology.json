@@ -359,5 +359,98 @@
     }
   ],
   "attestationCount": 145,
-  "modified": "2026-09-29"
+  "modified": "2026-09-29",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/deal#rate-1558-inward-355",
+      "type": "Rate",
+      "_label": "1558 inward: Deale bourdes voc’ Spruce deale the pece 2s 6d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "30",
+        "lsd": "2s 6d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 355 (transcribed by Stuart Jenks): 'Deale bourdes voc’ Spruce deale the pece' 2s 6d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "bourdes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "Prussia",
+          "originPlace": [
+            {
+              "id": "wd:Q918723",
+              "type": "Place",
+              "_label": "Prussia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/deal#rate-1558-inward-356",
+      "type": "Rate",
+      "_label": "1558 inward: Deales voc’ Norway deales the pece 20d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "20",
+        "lsd": "20d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 356 (transcribed by Stuart Jenks): 'Deales voc’ Norway deales the pece' 20d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Norway",
+          "originPlace": [
+            {
+              "id": "wd:Q20",
+              "type": "Place",
+              "_label": "Norway"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

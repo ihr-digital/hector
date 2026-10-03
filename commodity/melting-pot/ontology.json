@@ -332,7 +332,20 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 489 (transcribed by Stuart Jenks): 'Meltynge pottes for goldsmethes the thousande' 3s 4d"
+      "sourceText": "Book of Rates 1545, inward, line 489 (transcribed by Stuart Jenks): 'Meltynge pottes for goldsmethes the thousande' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "goldsmethes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

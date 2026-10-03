@@ -7,15 +7,62 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_marten_cb2379a6fcc1f9987f6cdd311eb88e950cab79fbe362b7ca9689b3f819d0a24391a">
-    <crm:P190_has_symbolic_content>marterins</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb1fcfaf037cea526a5c3d09ef705f30f347d14cd608530f58c312a5a16ff549c2b">
+    <crm:P190_has_symbolic_content>martirns</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>marterins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
+    <hector:phoneticKey>martirns</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb33aeb72916cef4fff22183b51dc3cca5eae1a96c06f683cbb7e49608680a8d1bd">
+  <rdf:Description rdf:nodeID="commodity_marten_cb27d985c7cee46a1aef95607a6bc0e9cd49a734f4b8e5a65fcd8b28bfd3ed96c38">
+    <crm:P190_has_symbolic_content>martyrins</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>martirins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cbdd94db84a2f1fb805e26ddffc225f68298f993880c9d0c73e6484af618455169">
+    <crm:P190_has_symbolic_content>marturs</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>marturs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb20946a191151ede7d392055999b8e5d5db4bf1b88778413b2138eb716b82b6508">
+    <crm:P190_has_symbolic_content>martyn</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>martin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb2419e297ade24bed526faf766ee4c128ae6e78fbca1ee2f861a89de3a9d4b6168">
+    <crm:P190_has_symbolic_content>martron</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>martron</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb264acb800981d9f69e67ca7a54d78ef83f6405dec5ee81ef90aef929f6160fe65">
+    <crm:P190_has_symbolic_content>marterns</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>marterns</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb2707c53813dd2a98dce56327ae31f10d5de1318d05a963713d0cccc0d156642e5">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/timber"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb359fca7934019063803b5de60786dbb874e594363136e017dbb89c507a4001346">
     <crm:P190_has_symbolic_content>martyryn</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -25,95 +72,98 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/marten">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb1392be1486d25dfae462aa2272c4cd990d9ad6419d7ef239c38dcc36032486136"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb17c85b3c4f6acaa60ae616ec77a6f46bf95f57c867bcdcef5241deb7a3810953b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb18c8da4430de9f228e79dfe60111bdbf1cce7c9044713655173fc69ba62abc06c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb199eac4a0778a0c6155fa433dbb1727e91b83c2a51fec9b678b30e72f349c2a6e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb1b4c9e265289ec74264e021411101ef5fade5a17cb3de560100db2760304d0337"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb1b70a71ea07a42786bcdf2c4c9751742a75402e159cd7586e88c170eb95d349e0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb1dde9bb35fb7b706ce232fbe869c21e0bdcd620bde12b30c9f3e9f595dbfd5aa2"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb1dfab7d59f9b7e77535ee989eed7179a62766c532cc6639fd1d1e29f16a62805b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb1ea356c8f41f528445782b28aff5d6c3514806ee5d37e4eefd64e529594d4237f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb205e8ee767dc6abac3ca5296c013f4a201ba2f1cc7ed86e7a23e87289e456a2e0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb20b02f6c17f4bc69e060da33bc397b58369427cb007c2b9e7795fdec251beb46c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb221087498b2deb5ab6443177ea281ff5fd7633bc8f7fb3163a6196cb3087e6fd5"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb2228cf4790afb089c455d5458521b216246a8e319fde86ac3dd4979b979f41fdf"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb2233250bf51907b8bbf508d59c62b39dafcb17b2975af0137faf5c3fa048ac59a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb229921cec55de07c59e40b876535779da91308cd9d18107be5bb5e460fc146718"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb22e0bf1b956dd76ba7e7def78ccffa1de85fcd5b841f4f00c136ac974b2321d68"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb235650abd3ddc54cbb57aad2c9021e2e1740d3e419a87b85dbdd3b8a3bcb3d7ca"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb2379a6fcc1f9987f6cdd311eb88e950cab79fbe362b7ca9689b3f819d0a24391a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb2459b82fec4f3e93104df0496b147fe5b5601b149bae25a36cdaf2e1e3e09bcdc"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb251660fb5a13c15053c7099d52f6896d67f1b0ed4fa87f22b48f229faaa2d9063"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb25589abd250822707a5fc307550511f09a11791ff3d7eea1a983037049f865050"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb25dd1ac67474b314ca4405cd4d4e742517a5ab7fc77a83e5b999696f22a9b7bc3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb25e87277b1b1ceb7617b864981fddababfa34a2a8ea54a13a9b72277c1b822aaf"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb27b509429965b1fd494e286e35d2c9fa06554ae034036c4aaaef0ec35f268fefb"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb27ec9c25693010e6f3394ef0e340decabeca3f66145bc3b7fbd8b51a5ab443788"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb287a7db6f95fd5e84490e9b489c5a5e827622a8db705a69357c1ea3aee4d4b1af"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb296d2d8309014592a8259ec3da720a5f4983ea2b8e1dc5954eee2183d2c61dad7"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb29faca5945597f049a060f9dcbc8fc10b643a75db34ead42b8f1f6661d624f93f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb2b35f0f93955feef56ed9cc22bd1a3a0e032ad600c19b7e90e6980cf20281ea83"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb2c0c5a9d1cef5ba50f472c53a9eac5c8dec06f58f4c73b8a2edab62ed463ad67f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb2d4618f106c9f583eda09cbc5a6fa98ce69171d19c15b71a4b09b91deaf0143ee"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb2e97b7452359a18b8519e4fcbda0529038cbb101e80baa6fc17f3fa2a9c82fc87"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb2fa88dafd2214a474d08da9d930b1dd071d2b2e512f12664c91a1aed2c2e33ff3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb33aeb72916cef4fff22183b51dc3cca5eae1a96c06f683cbb7e49608680a8d1bd"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb52a0d9aa79d05fa46972586bd86c37b22c2779285af6e1f78b166e8fbb5155bd"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cba973eb2a5ae24525ebf1e312a194d437468d98356d605bc41077e44a7bce6fd5"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cbbe83a682cfc845477c893af125f50559f8bae6e5689747b1a907e674f4ee0fe0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cbf9ac193bbf0b4223ddb802ddb2fce454245c1bdf9b4fed7c07e6e04cae4d3cc5"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cbfc6acb0104794a4c98d6a48c4ced092d9734f26cb04a9f5b81c87847fe76f267"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_marten_cb0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb118bd4e3d9234f85cbf55a5ec4f2dd57cc49ac8823f55b23e452744cdd1a47e4e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb11b7c0002d7a300857a74479ae91dfa5637739f0f5450641dbf08dcc921ce33f0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb1583d164a404f95e727c84535c87dcab979ec10bc7bf4e85e761d27e1559fa2bf"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb19b96e8c6c9d660998fff11d616a037e8363429291fd393b7615e4ffb5b67d6c4"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb1ab9ed944e113a861c93ba16ead4ccd1a6d2675a6eb192a13b13cce3b860301f5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb1b8fbf9a24ab3c29a3797e64c57481911bbc26f47c3f26029c8714bb057f36bf7"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb1d3db1766fbc87d7b467dc44fad32e0884e244e1f57e41ac33e1b8be153a444c0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb1d61ba6ebdacdddbf9e7ccf5b33826553157edab840dd1d30c601d56cb92a8b69"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb1fcfaf037cea526a5c3d09ef705f30f347d14cd608530f58c312a5a16ff549c2b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb1febcb25bcce19dae178c3bad89a26acec7a571d5706bfebf5a5e8e728db9c1e4"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb20946a191151ede7d392055999b8e5d5db4bf1b88778413b2138eb716b82b6508"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb224fa237850f061e51e42cc7a9d703b48bbe19e6f22de333c6128d70b07ade469"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb22a142bc352757cd6e7ab464a5fc8a6ac09812952abc87ea9b6a043437515f5f5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb24019a99a86086be445e0ba8d3eb2f08877a1e86b9c00f625e359d1342bd5b15e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb2419e297ade24bed526faf766ee4c128ae6e78fbca1ee2f861a89de3a9d4b6168"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb2424385c124ba31c4a0ee3068625c2b039cf027cc19b4c5fa3836287b27e20723"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb248a351ee2907bdfe7fde5b84ef886b03316f397c7586cc8098f648e21f6ba8a1"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb24d1d26bb2a072cf3601b928769309307263b825ae5fab4ce50ab2df5d5895ef1"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb254763fbf11060b049718503b2c52d40a144beae43e8d7d1ffb141d24e00b1953"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb256aba4cdf2c33e2faf70b4fa251a41f357de6ad8cf826e2ad87fe61e2d7b7aa3"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb264acb800981d9f69e67ca7a54d78ef83f6405dec5ee81ef90aef929f6160fe65"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb2707744b77465cb3e1e0e3ce3cb9987ff1f59bb779e8db6ed86328e7bcd84d1ec"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb2749ae0d423abdd408799d383ec82103241563ea1e184aedcd5709b85c2dd91d9"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb27ce2e1691a74e78585ddffe37118337a1a99649f1bae031dd6d6fb734df2bd4c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb27d985c7cee46a1aef95607a6bc0e9cd49a734f4b8e5a65fcd8b28bfd3ed96c38"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb29ddaf758662ac4a81532921cd03eddd48ce2a303e9c20041facbb626ce9b7911"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb2a6b91071692714bd2aac3e57388b4fab1661557e14602df7b95f0830082bf338"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb2b5e40d32633e0f6363f78f4c4351971d387d4f5b85e21e172c227cbe4fb91c60"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb2bebdda9628c1a68281fe9ceb58c0b2340479227dd8f098edcc5fcae2f97c3ac8"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb2d27044956889a52e50776f31594b2b36a36982a365a1435323d8717325d92c0c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb2da5952be1f0cc51c17ea97628314fdf3e53cc03e5b04fb5556c1becdd602f955"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb2dfd6ded3a21f7089d61068493add4db68c45a231f0797d652aebc76e69921808"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb2f372c4123fc90e77bba76ed4432b89f70955c9bc65613666eddbf65fd2588577"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb3088ca95408c3cef1333bf2da76361a2c2cf9bcc124c06bbe55345eabbfda3e10"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb3199a0ffef53e5aadb22b4ce7cce2ce2fbd69daf3d3182b0ecee21353e63a817c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb359fca7934019063803b5de60786dbb874e594363136e017dbb89c507a4001346"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cb9a776a898c39a50bb8a8e7a6355dbc83adac03497cf6209de997973e4d6824f4"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cbc885202c2e0bfb5ecd8f86213dc5c55fe6cc44d8116620864db848cb9f25b15e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_marten_cbdd94db84a2f1fb805e26ddffc225f68298f993880c9d0c73e6484af618455169"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_marten_cb163da36b9ef9db6a3f880f53341eec043974ef23ac2c25ede1a6cde41d0751749"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>marten</rdfs:label>
     <skos:broader rdf:resource="http://vocab.getty.edu/aat/300395532"/>
     <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/marten"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">107</hector:attestationCount>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/marten#rate-1507-none-170"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/marten#rate-1545-inward-477"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/marten#rate-1558-inward-702"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb296d2d8309014592a8259ec3da720a5f4983ea2b8e1dc5954eee2183d2c61dad7">
-    <crm:P190_has_symbolic_content>marteryns</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_marten_cb3088ca95408c3cef1333bf2da76361a2c2cf9bcc124c06bbe55345eabbfda3e10">
+    <crm:P190_has_symbolic_content>marterin</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>marterins</hector:phoneticKey>
+    <hector:phoneticKey>marterin</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb1dfab7d59f9b7e77535ee989eed7179a62766c532cc6639fd1d1e29f16a62805b">
-    <crm:P190_has_symbolic_content>marterons</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_marten_cb2d27044956889a52e50776f31594b2b36a36982a365a1435323d8717325d92c0c">
+    <crm:P190_has_symbolic_content>martren</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>marterons</hector:phoneticKey>
+    <hector:phoneticKey>martren</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb2dfd6ded3a21f7089d61068493add4db68c45a231f0797d652aebc76e69921808">
+    <crm:P190_has_symbolic_content>martyryns</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>martirins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb24019a99a86086be445e0ba8d3eb2f08877a1e86b9c00f625e359d1342bd5b15e">
+    <crm:P190_has_symbolic_content>marteron</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>marteron</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/marten#rate-1558-inward-702">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Marterns tawed the tymbre cont’ 40 skynnes £10</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_marten_cb2b19145146b276eb7027a6556519c0b869a5e82ac958f02b0f828e5502c7523d3"/>
+    <hector:perQuantity rdf:nodeID="commodity_marten_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_marten_cb15e5eaf958317eeca3fbac6017d99fa8ac27d01d9aa5486a1d09b5e1a01c5332f"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 702 (transcribed by Stuart Jenks): 'Marterns tawed the tymbre cont’ 40 skynnes' £10</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb1ea356c8f41f528445782b28aff5d6c3514806ee5d37e4eefd64e529594d4237f">
-    <crm:P190_has_symbolic_content>martyn</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>martin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb1b70a71ea07a42786bcdf2c4c9751742a75402e159cd7586e88c170eb95d349e0">
-    <crm:P190_has_symbolic_content>martens</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>martens</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb0">
-    <crm:P190_has_symbolic_content>skins of the marten, here undressed (Veale 220) | the skin of the marten (Veale 220) | marten-skin | marten-skins | marten-skin (Veale 220) | marten skins (Veale 220) | skins of the marten taken from under the jaws (Veale 220; OED s.v. gill n.1 2b) | (marteron, -s) marten-skins (Veale 220), here tawed | marten-skins (Veale 220) | skins of the marten (Veale 220) | marten-skins taken from the back of the animal | marten-skins, taken out of season | fur of the European marten (Veale, 220) | the throat portion of marten-skins</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cbf9ac193bbf0b4223ddb802ddb2fce454245c1bdf9b4fed7c07e6e04cae4d3cc5">
+  <rdf:Description rdf:nodeID="commodity_marten_cb118bd4e3d9234f85cbf55a5ec4f2dd57cc49ac8823f55b23e452744cdd1a47e4e">
     <crm:P190_has_symbolic_content>mertron raws</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -121,7 +171,7 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb29faca5945597f049a060f9dcbc8fc10b643a75db34ead42b8f1f6661d624f93f">
+  <rdf:Description rdf:nodeID="commodity_marten_cb2bebdda9628c1a68281fe9ceb58c0b2340479227dd8f098edcc5fcae2f97c3ac8">
     <crm:P190_has_symbolic_content>martrinae</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -129,19 +179,204 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cba973eb2a5ae24525ebf1e312a194d437468d98356d605bc41077e44a7bce6fd5">
-    <crm:P190_has_symbolic_content>martrins</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_marten_cb2f372c4123fc90e77bba76ed4432b89f70955c9bc65613666eddbf65fd2588577">
+    <crm:P190_has_symbolic_content>martrone</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>martrins</hector:phoneticKey>
+    <hector:phoneticKey>martronə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1440</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb11b7c0002d7a300857a74479ae91dfa5637739f0f5450641dbf08dcc921ce33f0">
+    <crm:P190_has_symbolic_content>martrin</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>martrin</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb27b509429965b1fd494e286e35d2c9fa06554ae034036c4aaaef0ec35f268fefb">
+  <rdf:Description rdf:nodeID="commodity_marten_cb1583d164a404f95e727c84535c87dcab979ec10bc7bf4e85e761d27e1559fa2bf">
+    <crm:P190_has_symbolic_content>de martiryns</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>de martirins</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb15e5eaf958317eeca3fbac6017d99fa8ac27d01d9aa5486a1d09b5e1a01c5332f">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tawed</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb254763fbf11060b049718503b2c52d40a144beae43e8d7d1ffb141d24e00b1953">
+    <crm:P190_has_symbolic_content>martiryns</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>martirins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb1ab9ed944e113a861c93ba16ead4ccd1a6d2675a6eb192a13b13cce3b860301f5">
+    <crm:P190_has_symbolic_content>martrinarum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>martrinarum</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/marten#rate-1545-inward-477">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Marterons tawed the tymber £4</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_marten_cb2d7ce5a72a623fc8d783778ef56d57be58b1da2b474cecb240b1080252c6b10c3"/>
+    <hector:perQuantity rdf:nodeID="commodity_marten_cb24763ce6f79d7d2e222514910efdd7c1d42299565fe6fd8ecb94eea4f76fd6b70"/>
+    <hector:qualifier rdf:nodeID="commodity_marten_cb2234a5961eb2c00ff182bb06bee1a4cf7bbe7c06f5da62c61d8e3773998146ab6"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 477 (transcribed by Stuart Jenks): 'Marterons tawed the tymber' £4</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb1d3db1766fbc87d7b467dc44fad32e0884e244e1f57e41ac33e1b8be153a444c0">
+    <crm:P190_has_symbolic_content>martinae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>martine</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb9a776a898c39a50bb8a8e7a6355dbc83adac03497cf6209de997973e4d6824f4">
+    <crm:P190_has_symbolic_content>pellis martron</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>pelis martron</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb29ddaf758662ac4a81532921cd03eddd48ce2a303e9c20041facbb626ce9b7911">
+    <crm:P190_has_symbolic_content>martynes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>martinəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb1febcb25bcce19dae178c3bad89a26acec7a571d5706bfebf5a5e8e728db9c1e4">
+    <crm:P190_has_symbolic_content>marterons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>marterons</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb248a351ee2907bdfe7fde5b84ef886b03316f397c7586cc8098f648e21f6ba8a1">
+    <crm:P190_has_symbolic_content>martiryn</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>martirin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb2b19145146b276eb7027a6556519c0b869a5e82ac958f02b0f828e5502c7523d3">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£10</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2400</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb24d1d26bb2a072cf3601b928769309307263b825ae5fab4ce50ab2df5d5895ef1">
+    <crm:P190_has_symbolic_content>martrons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>martrons</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb19b96e8c6c9d660998fff11d616a037e8363429291fd393b7615e4ffb5b67d6c4">
+    <crm:P190_has_symbolic_content>marton</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>marton</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb2707744b77465cb3e1e0e3ce3cb9987ff1f59bb779e8db6ed86328e7bcd84d1ec">
+    <crm:P190_has_symbolic_content>mertron</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>mertron</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb3199a0ffef53e5aadb22b4ce7cce2ce2fbd69daf3d3182b0ecee21353e63a817c">
+    <crm:P190_has_symbolic_content>marteryn</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>marterin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb2234a5961eb2c00ff182bb06bee1a4cf7bbe7c06f5da62c61d8e3773998146ab6">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tawed</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb24763ce6f79d7d2e222514910efdd7c1d42299565fe6fd8ecb94eea4f76fd6b70">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/timber"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/timber"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb27ce2e1691a74e78585ddffe37118337a1a99649f1bae031dd6d6fb734df2bd4c">
+    <crm:P190_has_symbolic_content>martern</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>martern</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb163da36b9ef9db6a3f880f53341eec043974ef23ac2c25ede1a6cde41d0751749">
+    <crm:P190_has_symbolic_content>skins of the marten, here undressed (Veale 220) | the skin of the marten (Veale 220) | marten-skin | marten-skins | marten-skin (Veale 220) | marten skins (Veale 220) | skins of the marten taken from under the jaws (Veale 220; OED s.v. gill n.1 2b) | (marteron, -s) marten-skins (Veale 220), here tawed | marten-skins (Veale 220) | skins of the marten (Veale 220) | marten-skins taken from the back of the animal | marten-skins, taken out of season | fur of the European marten (Veale, 220) | the throat portion of marten-skins</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb1d61ba6ebdacdddbf9e7ccf5b33826553157edab840dd1d30c601d56cb92a8b69">
+    <crm:P190_has_symbolic_content>martens</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>martens</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb224fa237850f061e51e42cc7a9d703b48bbe19e6f22de333c6128d70b07ade469">
+    <crm:P190_has_symbolic_content>martrones</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>martronəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1440</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb29e08358ae8ff3b3d1a401bfaeb6417fabb17c4e1c095fc131137166c1d7efc9e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>33s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">400</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb2d7ce5a72a623fc8d783778ef56d57be58b1da2b474cecb240b1080252c6b10c3">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£4</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">960</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb256aba4cdf2c33e2faf70b4fa251a41f357de6ad8cf826e2ad87fe61e2d7b7aa3">
+    <crm:P190_has_symbolic_content>marterins</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>marterins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb2a6b91071692714bd2aac3e57388b4fab1661557e14602df7b95f0830082bf338">
+    <crm:P190_has_symbolic_content>marterynz</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>marterinz</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb2da5952be1f0cc51c17ea97628314fdf3e53cc03e5b04fb5556c1becdd602f955">
     <crm:P190_has_symbolic_content>marten</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -150,7 +385,7 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb20b02f6c17f4bc69e060da33bc397b58369427cb007c2b9e7795fdec251beb46c">
+  <rdf:Description rdf:nodeID="commodity_marten_cb22a142bc352757cd6e7ab464a5fc8a6ac09812952abc87ea9b6a043437515f5f5">
     <crm:P190_has_symbolic_content>martina</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -158,233 +393,7 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb2228cf4790afb089c455d5458521b216246a8e319fde86ac3dd4979b979f41fdf">
-    <crm:P190_has_symbolic_content>martron</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>martron</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb1dde9bb35fb7b706ce232fbe869c21e0bdcd620bde12b30c9f3e9f595dbfd5aa2">
-    <crm:P190_has_symbolic_content>martirns</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>martirns</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb2b35f0f93955feef56ed9cc22bd1a3a0e032ad600c19b7e90e6980cf20281ea83">
-    <crm:P190_has_symbolic_content>martren</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>martren</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb205e8ee767dc6abac3ca5296c013f4a201ba2f1cc7ed86e7a23e87289e456a2e0">
-    <crm:P190_has_symbolic_content>martrones</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>martronəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1440</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb221087498b2deb5ab6443177ea281ff5fd7633bc8f7fb3163a6196cb3087e6fd5">
-    <crm:P190_has_symbolic_content>marteron</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>marteron</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb25589abd250822707a5fc307550511f09a11791ff3d7eea1a983037049f865050">
-    <crm:P190_has_symbolic_content>martyrin</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>martirin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/marten">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>marten (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cbfc6acb0104794a4c98d6a48c4ced092d9734f26cb04a9f5b81c87847fe76f267">
-    <crm:P190_has_symbolic_content>martrin</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>martrin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb27ec9c25693010e6f3394ef0e340decabeca3f66145bc3b7fbd8b51a5ab443788">
-    <crm:P190_has_symbolic_content>martynes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>martinəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb2fa88dafd2214a474d08da9d930b1dd071d2b2e512f12664c91a1aed2c2e33ff3">
-    <crm:P190_has_symbolic_content>marteryn</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>marterin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb22e0bf1b956dd76ba7e7def78ccffa1de85fcd5b841f4f00c136ac974b2321d68">
-    <crm:P190_has_symbolic_content>martrons</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>martrons</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb25e87277b1b1ceb7617b864981fddababfa34a2a8ea54a13a9b72277c1b822aaf">
-    <crm:P190_has_symbolic_content>martyrins</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>martirins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb287a7db6f95fd5e84490e9b489c5a5e827622a8db705a69357c1ea3aee4d4b1af">
-    <crm:P190_has_symbolic_content>marterynz</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>marterinz</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb229921cec55de07c59e40b876535779da91308cd9d18107be5bb5e460fc146718">
-    <crm:P190_has_symbolic_content>martiryn</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>martirin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb1b4c9e265289ec74264e021411101ef5fade5a17cb3de560100db2760304d0337">
-    <crm:P190_has_symbolic_content>martinae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>martine</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cbbe83a682cfc845477c893af125f50559f8bae6e5689747b1a907e674f4ee0fe0">
-    <crm:P190_has_symbolic_content>marturs</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>marturs</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb2459b82fec4f3e93104df0496b147fe5b5601b149bae25a36cdaf2e1e3e09bcdc">
-    <crm:P190_has_symbolic_content>marterns</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>marterns</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb25dd1ac67474b314ca4405cd4d4e742517a5ab7fc77a83e5b999696f22a9b7bc3">
-    <crm:P190_has_symbolic_content>martern</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>martern</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb52a0d9aa79d05fa46972586bd86c37b22c2779285af6e1f78b166e8fbb5155bd">
-    <crm:P190_has_symbolic_content>pellis martron</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pelis martron</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb17c85b3c4f6acaa60ae616ec77a6f46bf95f57c867bcdcef5241deb7a3810953b">
-    <crm:P190_has_symbolic_content>marton</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>marton</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb251660fb5a13c15053c7099d52f6896d67f1b0ed4fa87f22b48f229faaa2d9063">
-    <crm:P190_has_symbolic_content>mertron</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>mertron</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb1392be1486d25dfae462aa2272c4cd990d9ad6419d7ef239c38dcc36032486136">
-    <crm:P190_has_symbolic_content>de martiryns</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>de martirins</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/marten#rate-1507-none-170">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1507: Marterns the tymber 33s 4d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_marten_cb9f2cbc98dc09e9b8347f80dd36b5d20068cf6434629ec1539d57cd4915fb3bce"/>
-    <hector:perQuantity rdf:nodeID="commodity_marten_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109"/>
-    <hector:sourceText>Book of Rates 1507, line 170 (transcribed by Stuart Jenks): 'Marterns the tymber' 33s 4d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb2c0c5a9d1cef5ba50f472c53a9eac5c8dec06f58f4c73b8a2edab62ed463ad67f">
-    <crm:P190_has_symbolic_content>martyryns</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>martirins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb2d4618f106c9f583eda09cbc5a6fa98ce69171d19c15b71a4b09b91deaf0143ee">
-    <crm:P190_has_symbolic_content>martrone</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>martronə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1440</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb9f2cbc98dc09e9b8347f80dd36b5d20068cf6434629ec1539d57cd4915fb3bce">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>33s 4d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">400</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb2e97b7452359a18b8519e4fcbda0529038cbb101e80baa6fc17f3fa2a9c82fc87">
-    <crm:P190_has_symbolic_content>marterin</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>marterin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb235650abd3ddc54cbb57aad2c9021e2e1740d3e419a87b85dbdd3b8a3bcb3d7ca">
-    <crm:P190_has_symbolic_content>martiryns</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>martirins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/timber"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb18c8da4430de9f228e79dfe60111bdbf1cce7c9044713655173fc69ba62abc06c">
-    <crm:P190_has_symbolic_content>martrinarum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>martrinarum</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb2233250bf51907b8bbf508d59c62b39dafcb17b2975af0137faf5c3fa048ac59a">
+  <rdf:Description rdf:nodeID="commodity_marten_cb2424385c124ba31c4a0ee3068625c2b039cf027cc19b4c5fa3836287b27e20723">
     <crm:P190_has_symbolic_content>martrina</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -392,7 +401,40 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_marten_cb199eac4a0778a0c6155fa433dbb1727e91b83c2a51fec9b678b30e72f349c2a6e">
+  <rdf:Description rdf:nodeID="commodity_marten_cbc885202c2e0bfb5ecd8f86213dc5c55fe6cc44d8116620864db848cb9f25b15e">
+    <crm:P190_has_symbolic_content>martrins</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>martrins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb2749ae0d423abdd408799d383ec82103241563ea1e184aedcd5709b85c2dd91d9">
+    <crm:P190_has_symbolic_content>martyrin</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>martirin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/marten#rate-1507-none-170">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Marterns the tymber 33s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_marten_cb29e08358ae8ff3b3d1a401bfaeb6417fabb17c4e1c095fc131137166c1d7efc9e"/>
+    <hector:perQuantity rdf:nodeID="commodity_marten_cb2707c53813dd2a98dce56327ae31f10d5de1318d05a963713d0cccc0d156642e5"/>
+    <hector:sourceText>Book of Rates 1507, line 170 (transcribed by Stuart Jenks): 'Marterns the tymber' 33s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300395532">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>pelts (animal skins)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_marten_cb1b8fbf9a24ab3c29a3797e64c57481911bbc26f47c3f26029c8714bb057f36bf7">
     <crm:P190_has_symbolic_content>martrens</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -402,12 +444,24 @@
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
     <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300395532">
+  <rdf:Description rdf:nodeID="commodity_marten_cb2b5e40d32633e0f6363f78f4c4351971d387d4f5b85e21e172c227cbe4fb91c60">
+    <crm:P190_has_symbolic_content>marteryns</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>marterins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>pelts (animal skins)</rdfs:label>
+    <rdfs:label>attested variant</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/unit/timber">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
     <rdfs:label>timber</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/marten">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>marten (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

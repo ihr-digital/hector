@@ -7,17 +7,94 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_eel_cbc536a46ab6930f3e01be19db686edd9683cf0d8b206ec5ca1d704e363179a074">
-    <crm:P190_has_symbolic_content>ieles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>iːləs</hector:phoneticKey>
+  <rdf:Description rdf:nodeID="commodity_eel_cb2353d89ad55f6ce6acd235034a47d886a528cbf5c7d336b9431e0834632ae4d39">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/last"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_eel_cbf56703cc57a0be81d9d24db65b0370235e3d235cf0527166b482d7d39517f91a">
-    <crm:P190_has_symbolic_content>elys</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/eel#rate-1507-none-75">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Elys called stowbe elys the last £20</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_eel_cb369a5b24b1c79838e783174c56a1d646f083745aa91d9e7f48640502b97ffae49"/>
+    <hector:perQuantity rdf:nodeID="commodity_eel_cb227e8dd0cf39491de25d9282816105eec6cd397e91bc5951805d70f11b2a12886"/>
+    <hector:qualifier rdf:nodeID="commodity_eel_cb20daf7f76fcc2119910447672c781df6458911fbec38936261993ae0b4046fba0"/>
+    <hector:sourceText>Book of Rates 1507, line 75 (transcribed by Stuart Jenks): 'Elys called stowbe elys the last' £20</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb3b5623bfceb774127b3a1cb34673f39f69dc75d7e99b93bc4a5169b594a05fcf9">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cbc0a080a38cc2445a7071b0cc0cd2d73848abac3fc4c31dd83162d266dbbf38e4">
+    <crm:P190_has_symbolic_content>elles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>elis</hector:phoneticKey>
+    <hector:phoneticKey>eləs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb279d546024ad92965489f8a87e72b23f8308d03d4a2e7c9f30826930e03c8f5e9">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>33s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">400</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/lamprey">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>lamprey</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb231aa9f24e5354e262e16284be1b547483ab6ca79d089d5a27533bc291fd5af74">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>pymper</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cbd84b5b1ee856d0be212a6e22c9428db1c7183bf599b3205fc9cb377d6f8e273a">
+    <crm:P190_has_symbolic_content>yeles</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>jeləs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb105f72a376d84af3853af3c0688a93a8a7b51d7b981aa39bc82952804956270ce">
+    <crm:P190_has_symbolic_content>eylles</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>eiləs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/eel#rate-1545-inward-254">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Elis called stubbe elis the barell [b.i dorse] 33s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_eel_cb279d546024ad92965489f8a87e72b23f8308d03d4a2e7c9f30826930e03c8f5e9"/>
+    <hector:perQuantity rdf:nodeID="commodity_eel_cb20086d186b1237b7008f232c6eb75ae4fda37f6a87a77395523e0d400a6088e7e"/>
+    <hector:qualifier rdf:nodeID="commodity_eel_cb1b272fa2978e07e31bfef2e9a2fd2c6979254802527489dee9158c8b401f22b1b"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 254 (transcribed by Stuart Jenks): 'Elis called stubbe elis the barell [b.i dorse]' 33s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/cag"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb13d9353ce41ff318eab1aa27754e461a5c6cc766a9b036ae1a75fc9263c66d360">
+    <crm:P190_has_symbolic_content>eelles</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>eːləs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/eel#rate-1507-none-80">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Elys called pymper eles the barelle 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_eel_cb3b5623bfceb774127b3a1cb34673f39f69dc75d7e99b93bc4a5169b594a05fcf9"/>
+    <hector:perQuantity rdf:nodeID="commodity_eel_cb26995a08a9d5e93be4e878a4215a0ef257cb38e98827c0454e3c9dc24fb42c9d6"/>
+    <hector:qualifier rdf:nodeID="commodity_eel_cb18b7879dd5a258af97c6a2d73edf7078d91a3a87e0cc3d55bc08d2d6d67054281"/>
+    <hector:sourceText>Book of Rates 1507, line 80 (transcribed by Stuart Jenks): 'Elys called pymper eles the barelle' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/eel">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
@@ -62,14 +139,20 @@
     <skos:related rdf:resource="https://w3id.org/hector/commodity/shaft-eel"/>
     <skos:related rdf:resource="https://w3id.org/hector/commodity/stub-eel"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">825</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/eel#rate-1507-none-75"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/eel#rate-1507-none-76"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/eel#rate-1507-none-77"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/eel#rate-1507-none-78"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/eel#rate-1507-none-79"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/eel#rate-1507-none-80"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/eel#rate-1545-inward-254"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/eel#rate-1545-inward-255"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/eel#rate-1545-inward-256"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/eel#rate-1545-inward-257"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/eel#rate-1545-inward-258"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/eel#rate-1545-inward-259"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/eel#rate-1545-inward-260"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/eel#rate-1545-inward-261"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_eel_cb1674f4115dd4abfccc69b197d70e42044330afcd38cf7c2dccf6f25265d921c59">
-    <crm:P190_has_symbolic_content>elyes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>elies</hector:phoneticKey>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_eel_cbd711b4918772dff2f3d0f9969818cfe7abe34140fba07f385b86c8044e3b6a74">
     <crm:P190_has_symbolic_content>eles</crm:P190_has_symbolic_content>
@@ -77,60 +160,41 @@
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>eləs</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_eel_cb17e4c0e447496fc533181ba3257864d84e6cd69a76b167a7e1c99066e10fb1d2f">
-    <crm:P190_has_symbolic_content>eel</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>eːl</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_eel_cb19207ffbc6511f7dcba39af79bce3ffd6311153f5fe1528a00e78a9a1e78bc069">
-    <crm:P190_has_symbolic_content>yels</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>jels</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_eel_cb16366494d4370326d5bc7b39349a3f6d00daa6b49fdb7d1ae1a77a63e5671eb77">
-    <crm:P190_has_symbolic_content>eels</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>eːls</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/stub-eel">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>stub eel</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_eel_cb1e8ff9d7fb6ee7df2de4ff140fb161525382685d27c5729f54f7a3d0c3e3c23a7">
-    <crm:P190_has_symbolic_content>Eel (Anguilla anguilla), a freshwater/migratory fish widely traded salted and fresh. Recorded in several named sizes and preparations given their own entries: see stub eel, shaft eel, middle eel, pympernel and kyve eel.</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/eel#rate-1545-inward-260">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/eel#rate-1545-inward-258">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Elys of all sortes the barrel 20s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_eel_cb30ef637632ead16333e38d90c8b67a3065ba4f8073ce18969266b0e0a4bcc7718"/>
-    <hector:perQuantity rdf:nodeID="commodity_eel_cb1e12298eda137dde2fe5f46b131947c1c88b695ec1a1684818feaa34986d87f23"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 260 (transcribed by Stuart Jenks): 'Elys of all sortes the barrel' 20s</hector:sourceText>
+    <rdfs:label>1545 inward: Elis called pymper elis the barrel 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_eel_cb3c072a8717b40f43966046ccc0aaa9ed745953374af52dc342c8025e872db8013"/>
+    <hector:perQuantity rdf:nodeID="commodity_eel_cb1cd914f7fe227c1aec66c2f79ce0a2564101d735d2887e31a5ddd759f65442aaf"/>
+    <hector:qualifier rdf:nodeID="commodity_eel_cb23400460ea3e3ba3b506a66c8b59ed7d54b535182520d6aaed90b129405a74e92"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 258 (transcribed by Stuart Jenks): 'Elis called pymper elis the barrel' 13s 4d</hector:sourceText>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_eel_cb18ca6459f018f6483701151a139bcb6814ec40a71df1fc14ff1cb5eea750b1348">
-    <crm:P190_has_symbolic_content>el</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_eel_cb23400460ea3e3ba3b506a66c8b59ed7d54b535182520d6aaed90b129405a74e92">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>pymper</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb1cd914f7fe227c1aec66c2f79ce0a2564101d735d2887e31a5ddd759f65442aaf">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb93c5a752e2e526ec40b7abb217218ef76c4517d1c0cfed27621c0718f4eab7dd">
+    <crm:P190_has_symbolic_content>eylle</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>el</hector:phoneticKey>
+    <hector:phoneticKey>eilə</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_eel_cb333c232f22b9775822ca8e21eb854d0a6c7f6ffda4e5d37ed766495a830c1ad1a">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_eel_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+  <rdf:Description rdf:nodeID="commodity_eel_cb21bbdf422fe3005ed1727ed5c3d19623f01772b3a03e9ea22c59f16871b321ba1">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/cag"/>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/last"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_eel_cb30ef637632ead16333e38d90c8b67a3065ba4f8073ce18969266b0e0a4bcc7718">
@@ -139,11 +203,40 @@
     <hector:lsd>20s</hector:lsd>
     <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_eel_cbc0a080a38cc2445a7071b0cc0cd2d73848abac3fc4c31dd83162d266dbbf38e4">
-    <crm:P190_has_symbolic_content>elles</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_eel_cb1858a297219fca3ecfa8bd6db75c00ce5e944d5a416694dd8835d6e88114c8d58">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>stubbe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/eel#rate-1507-none-77">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Elys called chaffte elles the laste £12</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_eel_cb28982c8f0ca3aa4ddd0b9d7bfcafcec76fb332a13768867beae345cbe561100e8"/>
+    <hector:perQuantity rdf:nodeID="commodity_eel_cb26c650eed5eb8dd7a1fa842c632b81baa7437e86087faa0ab973dbf0046c713cb"/>
+    <hector:qualifier rdf:nodeID="commodity_eel_cb188bc851762987937159a6fe6acb8476d66dcf466745e17214f532afe6516c955"/>
+    <hector:sourceText>Book of Rates 1507, line 77 (transcribed by Stuart Jenks): 'Elys called chaffte elles the laste' £12</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cbf15b955b74a1ac4222ed1df02390427765d4ee53b06800def2cc59c80cc6e934">
+    <crm:P190_has_symbolic_content>anguillae</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>eləs</hector:phoneticKey>
+    <hector:phoneticKey>aŋguile</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300261225">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Anguilliformes (order)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb18b7879dd5a258af97c6a2d73edf7078d91a3a87e0cc3d55bc08d2d6d67054281">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>pymper</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb1e12298eda137dde2fe5f46b131947c1c88b695ec1a1684818feaa34986d87f23">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_eel_cbffb9f031f5af576838b4b01b62d69db64a64c00866325edb69834567d99ab73c">
     <crm:P190_has_symbolic_content>elis</crm:P190_has_symbolic_content>
@@ -151,15 +244,61 @@
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>elis</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/middle-eel">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>middle eel</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_eel_cb13d9353ce41ff318eab1aa27754e461a5c6cc766a9b036ae1a75fc9263c66d360">
-    <crm:P190_has_symbolic_content>eelles</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_eel_cb20570770a48ff7aadd093310b31c35f95023e6363607161e9b0bf4798e9f70236">
+    <crm:P190_has_symbolic_content>iles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>eːləs</hector:phoneticKey>
+    <hector:phoneticKey>iləs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/eel#rate-1545-inward-255">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Elis called stubbe elis the laste £20</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_eel_cb39daf9bfc7a13120d7525e6ee761c7ac5a1883640752d089eb43508db3b56669c"/>
+    <hector:perQuantity rdf:nodeID="commodity_eel_cb21bbdf422fe3005ed1727ed5c3d19623f01772b3a03e9ea22c59f16871b321ba1"/>
+    <hector:qualifier rdf:nodeID="commodity_eel_cb1858a297219fca3ecfa8bd6db75c00ce5e944d5a416694dd8835d6e88114c8d58"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 255 (transcribed by Stuart Jenks): 'Elis called stubbe elis the laste' £20</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb1e94d5be1eb06dd1d23208d323d4a08b8594c602e3763f13d94bd09498374f863">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/pympernel">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>pympernel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb1b272fa2978e07e31bfef2e9a2fd2c6979254802527489dee9158c8b401f22b1b">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>stubbe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb246e7865a842a1c01b18357dd105cbadfbe880899b36af94822afab4e5da16dd5">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb1f5939ee8ce394fb2fe40e389d6c7872bc1d6f521e01bde10d19fe0182bc45a17">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>stube</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb172068e48da763557366be7b033d518e3525a92099655c781e1037742694b05d8">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>shafte kyve or dole</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/eel#rate-1507-none-79">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Elys called pymper elles the laste £8</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_eel_cb33b60b6ebc31f47ecbd1920119a7ec1a1612cad12bb8e9f98662d84769c207566"/>
+    <hector:perQuantity rdf:nodeID="commodity_eel_cb2353d89ad55f6ce6acd235034a47d886a528cbf5c7d336b9431e0834632ae4d39"/>
+    <hector:qualifier rdf:nodeID="commodity_eel_cb185d853d35c2cc243884b044ae5a1afafac2f45435d983047cecb541ea8174b0f"/>
+    <hector:sourceText>Book of Rates 1507, line 79 (transcribed by Stuart Jenks): 'Elys called pymper elles the laste' £8</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_eel_cbf04835d57073526cae93e3ca4820f8921b03034ddfe9176425623bd95c5ae678">
     <crm:P190_has_symbolic_content>anguilla</crm:P190_has_symbolic_content>
@@ -167,35 +306,11 @@
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>aŋguila</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_eel_cb1d224dea7a5bc71ebcaf0edbbf84bbb62034e86f027dbaf8b1b4c8d61f0a499f7">
-    <crm:P190_has_symbolic_content>angwillae</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_eel_cbbc5939ba0c77ecb67466455ed9be5cc20aa3c8fc38efd4f2516fce65f2356de8">
+    <crm:P190_has_symbolic_content>anguillis</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aŋwile</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/murena">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>murena</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_eel_cbd63f0dfb289425a8fbb897d1df2d0b0023f2ee282871dd1a79aa458a9e3ed30e">
-    <crm:P190_has_symbolic_content>yele</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>jelə</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_eel_cb105f72a376d84af3853af3c0688a93a8a7b51d7b981aa39bc82952804956270ce">
-    <crm:P190_has_symbolic_content>eylles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>eiləs</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/barrel">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>barrel</rdfs:label>
+    <hector:phoneticKey>aŋguilis</hector:phoneticKey>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/eel#rate-1545-inward-261">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
@@ -206,23 +321,14 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_eel_cb246e7865a842a1c01b18357dd105cbadfbe880899b36af94822afab4e5da16dd5">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>2s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_eel_cbf15b955b74a1ac4222ed1df02390427765d4ee53b06800def2cc59c80cc6e934">
-    <crm:P190_has_symbolic_content>anguillae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aŋguile</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_eel_cb20570770a48ff7aadd093310b31c35f95023e6363607161e9b0bf4798e9f70236">
-    <crm:P190_has_symbolic_content>iles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>iləs</hector:phoneticKey>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/eel#rate-1545-inward-260">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Elys of all sortes the barrel 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_eel_cb30ef637632ead16333e38d90c8b67a3065ba4f8073ce18969266b0e0a4bcc7718"/>
+    <hector:perQuantity rdf:nodeID="commodity_eel_cb1e12298eda137dde2fe5f46b131947c1c88b695ec1a1684818feaa34986d87f23"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 260 (transcribed by Stuart Jenks): 'Elys of all sortes the barrel' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_eel_cbd18018ad339a0f65338ed3ea075bfca30094e9ec341d820f1779687521e0bdbd">
     <crm:P190_has_symbolic_content>ellis</crm:P190_has_symbolic_content>
@@ -230,51 +336,27 @@
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>elis</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_eel_cb119f60a0c47f7220648a5b398ffd320a4f4ad933fc8de9ca20b1ef7325d96996b">
-    <crm:P190_has_symbolic_content>eli</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>eli</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_eel_cbbd9f119280e86fdd50fad7709d1345695ce05efde5a52ec7d66f6ab4b678a0cb">
-    <crm:P190_has_symbolic_content>elle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>elə</hector:phoneticKey>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/unit/cag">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
     <rdfs:label>cag</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_eel_cbbc5939ba0c77ecb67466455ed9be5cc20aa3c8fc38efd4f2516fce65f2356de8">
-    <crm:P190_has_symbolic_content>anguillis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aŋguilis</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_eel_cb3fe52634b92b10f9469f5ff248627433bca22702ae420392c862eb4f6220f74e">
-    <crm:P190_has_symbolic_content>anguillarum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aŋguilarum</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/eel">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/kyve-eel">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>eel (London Customs Accounts glossary)</rdfs:label>
+    <rdfs:label>kyve eel</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/shaft-eel">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/murena">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>shaft eel</rdfs:label>
+    <rdfs:label>murena</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_eel_cb12292146a9738071e7d35a5c58cc209eab64c3edc4f3a3a3072996a137de67866">
-    <crm:P190_has_symbolic_content>ele</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>elə</hector:phoneticKey>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/eel#rate-1545-inward-259">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Elis called pymper elis þe laste £8</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_eel_cb3bf3a9ee8fd9a959d13a6e53f110aae2255e4327312aae4e284315321a1fa87d2"/>
+    <hector:perQuantity rdf:nodeID="commodity_eel_cb1fc9a2e114767245b115fd94310f351601bb7b348d20908cb434c17fc4b7dc95f"/>
+    <hector:qualifier rdf:nodeID="commodity_eel_cb231aa9f24e5354e262e16284be1b547483ab6ca79d089d5a27533bc291fd5af74"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 259 (transcribed by Stuart Jenks): 'Elis called pymper elis þe laste' £8</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_eel_cb188a0b3f4cf64ad67820a1fbfcf5d7bd36c9dd824a6bf8c8cfd06543ba6589a91">
     <crm:P190_has_symbolic_content>angwilla</crm:P190_has_symbolic_content>
@@ -282,13 +364,107 @@
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>aŋwila</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/conger">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>conger</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_eel_cb1e8ff9d7fb6ee7df2de4ff140fb161525382685d27c5729f54f7a3d0c3e3c23a7">
+    <crm:P190_has_symbolic_content>Eel (Anguilla anguilla), a freshwater/migratory fish widely traded salted and fresh. Recorded in several named sizes and preparations given their own entries: see stub eel, shaft eel, middle eel, pympernel and kyve eel.</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/pympernel">
+  <rdf:Description rdf:nodeID="commodity_eel_cb1f1a19075a7d274e510269b4b4e529f8131be93426b8c92aa812d8201f93a9379">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb28982c8f0ca3aa4ddd0b9d7bfcafcec76fb332a13768867beae345cbe561100e8">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£12</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2880</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cbbd9f119280e86fdd50fad7709d1345695ce05efde5a52ec7d66f6ab4b678a0cb">
+    <crm:P190_has_symbolic_content>elle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>elə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cbc536a46ab6930f3e01be19db686edd9683cf0d8b206ec5ca1d704e363179a074">
+    <crm:P190_has_symbolic_content>ieles</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>iːləs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/eel#rate-1507-none-78">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Elys called chaffte ellys the barylle 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_eel_cb333c232f22b9775822ca8e21eb854d0a6c7f6ffda4e5d37ed766495a830c1ad1a"/>
+    <hector:perQuantity rdf:nodeID="commodity_eel_cb1f1a19075a7d274e510269b4b4e529f8131be93426b8c92aa812d8201f93a9379"/>
+    <hector:qualifier rdf:nodeID="commodity_eel_cb1d27897727428e3b91e4ec6a75f49a1692d781a7229b0b528293a522d4bec38d0"/>
+    <hector:sourceText>Book of Rates 1507, line 78 (transcribed by Stuart Jenks): 'Elys called chaffte ellys the barylle' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb3bf3a9ee8fd9a959d13a6e53f110aae2255e4327312aae4e284315321a1fa87d2">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£8</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1920</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/eel#rate-1545-inward-257">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Elis called shafte, kyve or dole elis, the laste of eyther £12</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_eel_cb1f69b5f60b21834edfd48063dc29f9d7be767299e792a7c569e50267fedd18477"/>
+    <hector:perQuantity rdf:nodeID="commodity_eel_cb1d7d4b25badd631db36cc02e7b684ad29e916377c8e6487ba0222ee56032c0f4c"/>
+    <hector:qualifier rdf:nodeID="commodity_eel_cb172068e48da763557366be7b033d518e3525a92099655c781e1037742694b05d8"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 257 (transcribed by Stuart Jenks): 'Elis called shafte, kyve or dole elis, the laste of eyther' £12</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/barrel">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>barrel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb20086d186b1237b7008f232c6eb75ae4fda37f6a87a77395523e0d400a6088e7e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb1674f4115dd4abfccc69b197d70e42044330afcd38cf7c2dccf6f25265d921c59">
+    <crm:P190_has_symbolic_content>elyes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>elies</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb17e4c0e447496fc533181ba3257864d84e6cd69a76b167a7e1c99066e10fb1d2f">
+    <crm:P190_has_symbolic_content>eel</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>eːl</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb20daf7f76fcc2119910447672c781df6458911fbec38936261993ae0b4046fba0">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>pympernel</rdfs:label>
+    <rdfs:label>stowbe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/eel#rate-1545-inward-256">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Elis called shaft, kyve or dole elis, the barel of eyther 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_eel_cb3ec81afcb94954294e3b5c36d067c556c19a48fcf7216c1aefe60a37c4394745b"/>
+    <hector:perQuantity rdf:nodeID="commodity_eel_cb1c4584705e17d66d38339d9a0d5afdb7e7e3234171f3259d37f8e3f3db8b5ed5b"/>
+    <hector:qualifier rdf:nodeID="commodity_eel_cb2a9b776e6d01358c89286a76335239c0801c65eeca8ab11d46639cd3435d1acbd"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 256 (transcribed by Stuart Jenks): 'Elis called shaft, kyve or dole elis, the barel of eyther' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb185d853d35c2cc243884b044ae5a1afafac2f45435d983047cecb541ea8174b0f">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>pymper</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb33b60b6ebc31f47ecbd1920119a7ec1a1612cad12bb8e9f98662d84769c207566">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£8</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1920</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_eel_cbcbf9e6ae6a4cf3678502cc02ae8d0a89e8f40b95c7ae2ab3305e0cb81a1dc80c">
     <crm:P190_has_symbolic_content>yel</crm:P190_has_symbolic_content>
@@ -296,33 +472,185 @@
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>jel</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/kyve-eel">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>kyve eel</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_eel_cb1fc9a2e114767245b115fd94310f351601bb7b348d20908cb434c17fc4b7dc95f">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/last"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300261225">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>Anguilliformes (order)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_eel_cb1e12298eda137dde2fe5f46b131947c1c88b695ec1a1684818feaa34986d87f23">
+  <rdf:Description rdf:nodeID="commodity_eel_cb1c4584705e17d66d38339d9a0d5afdb7e7e3234171f3259d37f8e3f3db8b5ed5b">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/lamprey">
+  <rdf:Description rdf:nodeID="commodity_eel_cb26c650eed5eb8dd7a1fa842c632b81baa7437e86087faa0ab973dbf0046c713cb">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/last"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb19207ffbc6511f7dcba39af79bce3ffd6311153f5fe1528a00e78a9a1e78bc069">
+    <crm:P190_has_symbolic_content>yels</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>jels</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb1d27897727428e3b91e4ec6a75f49a1692d781a7229b0b528293a522d4bec38d0">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>lamprey</rdfs:label>
+    <rdfs:label>chaffte ellys</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_eel_cbd84b5b1ee856d0be212a6e22c9428db1c7183bf599b3205fc9cb377d6f8e273a">
-    <crm:P190_has_symbolic_content>yeles</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_eel_cb1d7d4b25badd631db36cc02e7b684ad29e916377c8e6487ba0222ee56032c0f4c">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/last"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb16366494d4370326d5bc7b39349a3f6d00daa6b49fdb7d1ae1a77a63e5671eb77">
+    <crm:P190_has_symbolic_content>eels</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>jeləs</hector:phoneticKey>
+    <hector:phoneticKey>eːls</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_eel_cb93c5a752e2e526ec40b7abb217218ef76c4517d1c0cfed27621c0718f4eab7dd">
-    <crm:P190_has_symbolic_content>eylle</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_eel_cbf56703cc57a0be81d9d24db65b0370235e3d235cf0527166b482d7d39517f91a">
+    <crm:P190_has_symbolic_content>elys</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>eilə</hector:phoneticKey>
+    <hector:phoneticKey>elis</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb12292146a9738071e7d35a5c58cc209eab64c3edc4f3a3a3072996a137de67866">
+    <crm:P190_has_symbolic_content>ele</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>elə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/eel#rate-1507-none-76">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Elys called stube elys the barylle 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_eel_cb3e3b7cbeeb1b3d19bc4e751bbccb42c537316a819e07dc6435d42ca3913098553"/>
+    <hector:perQuantity rdf:nodeID="commodity_eel_cb1e94d5be1eb06dd1d23208d323d4a08b8594c602e3763f13d94bd09498374f863"/>
+    <hector:qualifier rdf:nodeID="commodity_eel_cb1f5939ee8ce394fb2fe40e389d6c7872bc1d6f521e01bde10d19fe0182bc45a17"/>
+    <hector:sourceText>Book of Rates 1507, line 76 (transcribed by Stuart Jenks): 'Elys called stube elys the barylle' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb3c072a8717b40f43966046ccc0aaa9ed745953374af52dc342c8025e872db8013">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb26995a08a9d5e93be4e878a4215a0ef257cb38e98827c0454e3c9dc24fb42c9d6">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb2a9b776e6d01358c89286a76335239c0801c65eeca8ab11d46639cd3435d1acbd">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>shaft kyve or dole</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/middle-eel">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>middle eel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/eel">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>eel (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/conger">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>conger</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb119f60a0c47f7220648a5b398ffd320a4f4ad933fc8de9ca20b1ef7325d96996b">
+    <crm:P190_has_symbolic_content>eli</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>eli</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/last">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>last</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb18ca6459f018f6483701151a139bcb6814ec40a71df1fc14ff1cb5eea750b1348">
+    <crm:P190_has_symbolic_content>el</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>el</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb3ec81afcb94954294e3b5c36d067c556c19a48fcf7216c1aefe60a37c4394745b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb227e8dd0cf39491de25d9282816105eec6cd397e91bc5951805d70f11b2a12886">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/last"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb3fe52634b92b10f9469f5ff248627433bca22702ae420392c862eb4f6220f74e">
+    <crm:P190_has_symbolic_content>anguillarum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>aŋguilarum</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cbd63f0dfb289425a8fbb897d1df2d0b0023f2ee282871dd1a79aa458a9e3ed30e">
+    <crm:P190_has_symbolic_content>yele</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>jelə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb1f69b5f60b21834edfd48063dc29f9d7be767299e792a7c569e50267fedd18477">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£12</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2880</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb3e3b7cbeeb1b3d19bc4e751bbccb42c537316a819e07dc6435d42ca3913098553">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb188bc851762987937159a6fe6acb8476d66dcf466745e17214f532afe6516c955">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>chaffte</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb369a5b24b1c79838e783174c56a1d646f083745aa91d9e7f48640502b97ffae49">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£20</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4800</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/shaft-eel">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>shaft eel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb39daf9bfc7a13120d7525e6ee761c7ac5a1883640752d089eb43508db3b56669c">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£20</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4800</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_eel_cb1d224dea7a5bc71ebcaf0edbbf84bbb62034e86f027dbaf8b1b4c8d61f0a499f7">
+    <crm:P190_has_symbolic_content>angwillae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>aŋwile</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/stub-eel">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>stub eel</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

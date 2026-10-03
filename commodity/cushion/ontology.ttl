@@ -5,12 +5,17 @@
 @prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/hector/commodity/cushion> a crm:E55_Type ;
     rdfs:label "cushion" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "qwyshon" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kwiʃon" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "quysshen" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kwiʃen" ],
@@ -91,12 +96,6 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kwiʃon" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "qwyshene" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kwiʃenə" ;
-            hector:validFrom "1445"^^xsd:gYear ;
-            hector:validThrough "1446"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "quyschen" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kwiʃen" ;
@@ -129,6 +128,10 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kuːʃen kloθəs" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "qwyshen" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kwiʃen" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "quyshon" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kwiʃon" ],
@@ -142,12 +145,6 @@
             hector:phoneticKey "koʃon" ;
             hector:validFrom "1465"^^xsd:gYear ;
             hector:validThrough "1472"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "qwyssons" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kwisons" ;
-            hector:validFrom "1446"^^xsd:gYear ;
-            hector:validThrough "1450"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cushyn" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -171,22 +168,11 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kwoiʃen" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "qwysson" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kwison" ;
-            hector:validFrom "1431"^^xsd:gYear ;
-            hector:validThrough "1433"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "quishon" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kwiʃon" ;
             hector:validFrom "1483"^^xsd:gYear ;
             hector:validThrough "1485"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "cushion" ;
-            crm:P2_has_type aat:300404670,
-                hector:AttestedVariant ;
-            hector:phoneticKey "kuʃion" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cusshens" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -206,6 +192,12 @@
             hector:validFrom "1465"^^xsd:gYear ;
             hector:validThrough "1472"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "qwyssons" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kwisons" ;
+            hector:validFrom "1446"^^xsd:gYear ;
+            hector:validThrough "1450"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "quisshons" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kwiʃons" ],
@@ -215,6 +207,12 @@
             hector:phoneticKey "kweʃon" ;
             hector:validFrom "1480"^^xsd:gYear ;
             hector:validThrough "1481"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "qwysson" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kwison" ;
+            hector:validFrom "1431"^^xsd:gYear ;
+            hector:validThrough "1433"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "qwysshon" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -227,12 +225,6 @@
             hector:phoneticKey "koʃens" ;
             hector:validFrom "1477"^^xsd:gYear ;
             hector:validThrough "1479"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "qwyssones" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kwisonəs" ;
-            hector:validFrom "1431"^^xsd:gYear ;
-            hector:validThrough "1433"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "quysen" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -252,11 +244,10 @@
             hector:validFrom "1465"^^xsd:gYear ;
             hector:validThrough "1472"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "qwysshons" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kwiʃons" ;
-            hector:validFrom "1445"^^xsd:gYear ;
-            hector:validThrough "1446"^^xsd:gYear ],
+            crm:P190_has_symbolic_content "cushion" ;
+            crm:P2_has_type aat:300404670,
+                hector:AttestedVariant ;
+            hector:phoneticKey "kuʃion" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cousshon" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -279,6 +270,12 @@
             crm:P190_has_symbolic_content "quysson" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kwison" ;
+            hector:validFrom "1445"^^xsd:gYear ;
+            hector:validThrough "1446"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "qwyshene" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kwiʃenə" ;
             hector:validFrom "1445"^^xsd:gYear ;
             hector:validThrough "1446"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
@@ -348,11 +345,23 @@
             hector:validFrom "1512"^^xsd:gYear ;
             hector:validThrough "1513"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "qwysshons" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kwiʃons" ;
+            hector:validFrom "1445"^^xsd:gYear ;
+            hector:validThrough "1446"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "quischyns" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kwiʃins" ;
             hector:validFrom "1493"^^xsd:gYear ;
             hector:validThrough "1495"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "qwyssones" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kwisonəs" ;
+            hector:validFrom "1431"^^xsd:gYear ;
+            hector:validThrough "1433"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "quyssons" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -396,42 +405,38 @@
             hector:validFrom "1493"^^xsd:gYear ;
             hector:validThrough "1495"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "quisshin" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kwiʃin" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cosshyn" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "koʃin" ;
             hector:validFrom "1472"^^xsd:gYear ;
             hector:validThrough "1477"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "qwyssin" ;
+            crm:P190_has_symbolic_content "quisshin" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kwisin" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "qwyshen" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kwiʃen" ],
+            hector:phoneticKey "kwiʃin" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "quyshen" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kwiʃen" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "qwyssin" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kwisin" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "qwisshons" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kwiʃons" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "qwyshon" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kwiʃon" ] ;
+            hector:phoneticKey "kwiʃons" ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "Bags or similar containers made typically of cloth, leather, or rubber stuffed with a resilient material and used to give support or ease to the body while sitting, reclining, or kneeling. [Source: Getty AAT]" ;
             crm:P2_has_type aat:300435416 ] ;
     skos:exactMatch <https://w3id.org/mlca/glossary/cushion> ;
     skos:related <https://w3id.org/hector/commodity/cushion-cloth> ;
     la:equivalent aat:300236073 ;
-    hector:attestationCount 169 .
+    hector:attestationCount 169 ;
+    hector:taxation <https://w3id.org/hector/commodity/cushion#rate-1545-inward-180>,
+        <https://w3id.org/hector/commodity/cushion#rate-1545-inward-181>,
+        <https://w3id.org/hector/commodity/cushion#rate-1558-inward-264>,
+        <https://w3id.org/hector/commodity/cushion#rate-1558-inward-265> .
 
 aat:300236073 a crm:E55_Type ;
     rdfs:label "cushions" .
@@ -442,11 +447,98 @@ aat:300404670 a crm:E55_Type ;
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
+<https://w3id.org/hector/commodity/cushion#rate-1545-inward-180> a hector:Rate ;
+    rdfs:label "1545 inward: Cosshen clothes the dossen 2s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "2s" ;
+            hector:valueInPence 24.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "clothes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 180 (transcribed by Stuart Jenks): 'Cosshen clothes the dossen' 2s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cushion#rate-1545-inward-181> a hector:Rate ;
+    rdfs:label "1545 inward: Cosshen clothes of Hollande makinge the dossen 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "makinge" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "clothes" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "Holland" ;
+            hector:originPlace wd:Q762943 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 181 (transcribed by Stuart Jenks): 'Cosshen clothes of Hollande makinge the dossen' 6s 8d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cushion#rate-1558-inward-264> a hector:Rate ;
+    rdfs:label "1558 inward: Cusshen clothes course the dossen 24s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "24s" ;
+            hector:valueInPence 288.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "coarse" ],
+        [ a crm:E55_Type ;
+            rdfs:label "clothes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 264 (transcribed by Stuart Jenks): 'Cusshen clothes course the dossen' 24s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cushion#rate-1558-inward-265> a hector:Rate ;
+    rdfs:label "1558 inward: Cusshen clothes of Holland makyng the dossen 30s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "30s" ;
+            hector:valueInPence 360.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "clothes" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "Holland" ;
+            hector:originPlace wd:Q762943 ],
+        [ a crm:E55_Type ;
+            rdfs:label "makyng" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 265 (transcribed by Stuart Jenks): 'Cusshen clothes of Holland makyng the dossen' 30s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/cushion-cloth> a crm:E55_Type ;
     rdfs:label "cushion-cloth" .
 
 <https://w3id.org/mlca/glossary/cushion> a crm:E55_Type ;
     rdfs:label "cushion (London Customs Accounts glossary)" .
+
+wd:Q762943 a crm:E53_Place ;
+    rdfs:label "County of Holland" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
+<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
+    rdfs:label "dozen" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

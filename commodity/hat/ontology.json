@@ -233,6 +233,46 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/hat#rate-1545-inward-284",
+      "type": "Rate",
+      "_label": "1545 inward: Frenche hattes the dossen 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 284 (transcribed by Stuart Jenks): 'Frenche hattes the dossen' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "France",
+          "originPlace": [
+            {
+              "id": "wd:Q142",
+              "type": "Place",
+              "_label": "France"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/hat#rate-1545-inward-368",
       "type": "Rate",
       "_label": "1545 inward: Hattes the dossen 10s",
@@ -258,6 +298,474 @@
       "validFrom": "1545",
       "validThrough": "1558",
       "sourceText": "Book of Rates 1545, inward, line 368 (transcribed by Stuart Jenks): 'Hattes the dossen' 10s"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/hat#rate-1558-inward-547",
+      "type": "Rate",
+      "_label": "1558 inward: Hattes of wolle or worsted being trommed the dosen 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 547 (transcribed by Stuart Jenks): 'Hattes of wolle or worsted being trommed the dosen' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "wolle",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "worsted",
+          "equivalent": [
+            {
+              "id": "aat:300227943",
+              "type": "Type",
+              "_label": "worsted"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "being",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "thrum"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/hat#rate-1558-inward-548",
+      "type": "Rate",
+      "_label": "1558 inward: Hattes of worsted short thromed voc’ Bridges hattes þe dosen 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 548 (transcribed by Stuart Jenks): 'Hattes of worsted short thromed voc’ Bridges hattes þe dosen' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "worsted",
+          "equivalent": [
+            {
+              "id": "aat:300227943",
+              "type": "Type",
+              "_label": "worsted"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "short"
+        },
+        {
+          "type": "Type",
+          "_label": "thrum"
+        },
+        {
+          "type": "Type",
+          "_label": "Bruges",
+          "originPlace": [
+            {
+              "id": "wd:Q12994",
+              "type": "Place",
+              "_label": "Bruges"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/hat#rate-1558-inward-582",
+      "type": "Rate",
+      "_label": "1558 inward: Hattes of vellet the pece 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 582 (transcribed by Stuart Jenks): 'Hattes of vellet the pece' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "velvet",
+          "equivalent": [
+            {
+              "id": "aat:300133711",
+              "type": "Type",
+              "_label": "velvet (fabric weave)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/hat#rate-1558-inward-583",
+      "type": "Rate",
+      "_label": "1558 inward: Hattes of satten the pece 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 583 (transcribed by Stuart Jenks): 'Hattes of satten the pece' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "satten",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/hat#rate-1558-inward-584",
+      "type": "Rate",
+      "_label": "1558 inward: Hattes of silke for men or women of the Frenche making þe dosen 30s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "360",
+        "lsd": "30s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 584 (transcribed by Stuart Jenks): 'Hattes of silke for men or women of the Frenche making þe dosen' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "silk",
+          "equivalent": [
+            {
+              "id": "aat:300243428",
+              "type": "Type",
+              "_label": "silk (textile)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "men or women",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "France",
+          "originPlace": [
+            {
+              "id": "wd:Q142",
+              "type": "Place",
+              "_label": "France"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "making",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/hat#rate-1558-inward-585",
+      "type": "Rate",
+      "_label": "1558 inward: Hatte bandes course the grosse 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 585 (transcribed by Stuart Jenks): 'Hatte bandes course the grosse' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "bandes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "coarse"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/hat#rate-1558-inward-586",
+      "type": "Rate",
+      "_label": "1558 inward: Hatte bandes fyne the grosse 48s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "576",
+        "lsd": "48s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 586 (transcribed by Stuart Jenks): 'Hatte bandes fyne the grosse' 48s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "bandes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "fine"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/hat#rate-1558-inward-591",
+      "type": "Rate",
+      "_label": "1558 inward: Hattes voc’ Spanishe feltes or Portingall feltes the dosen 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 591 (transcribed by Stuart Jenks): 'Hattes voc’ Spanishe feltes or Portingall feltes the dosen' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Spain",
+          "originPlace": [
+            {
+              "id": "wd:Q29",
+              "type": "Place",
+              "_label": "Spain"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "feltes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "Portugal",
+          "originPlace": [
+            {
+              "id": "wd:Q45",
+              "type": "Place",
+              "_label": "Portugal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/hat#rate-1558-inward-593",
+      "type": "Rate",
+      "_label": "1558 inward: Hattes voc’ Venis or Spanishe hattes the dosen 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 593 (transcribed by Stuart Jenks): 'Hattes voc’ Venis or Spanishe hattes the dosen' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Spain",
+          "originPlace": [
+            {
+              "id": "wd:Q29",
+              "type": "Place",
+              "_label": "Spain"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

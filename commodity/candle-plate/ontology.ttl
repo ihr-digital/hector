@@ -2,6 +2,7 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix hector: <https://w3id.org/hector/ontology#> .
+@prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -10,10 +11,6 @@
     rdfs:label "candle plate" ;
     dcterms:modified "2026-09-29"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "candle plates" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kandlə platəs" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "candelplates" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kandelplatəs" ;
@@ -29,7 +26,11 @@
             crm:P190_has_symbolic_content "candle plate" ;
             crm:P2_has_type aat:300404670,
                 hector:AttestedVariant ;
-            hector:phoneticKey "kandlə platə" ] ;
+            hector:phoneticKey "kandlə platə" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "candle plates" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kandlə platəs" ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "Wall-mounted candelabra or other supports specifically for candles and intended to be mounted on a wall. [Source: Getty AAT]" ;
             crm:P2_has_type aat:300435416 ] ;
@@ -38,6 +39,9 @@
     skos:related <https://w3id.org/hector/commodity/candle-holder> ;
     hector:attestationCount 1 ;
     hector:taxation <https://w3id.org/hector/commodity/candle-plate#rate-1558-inward-305> .
+
+aat:300198675 a crm:E55_Type ;
+    rdfs:label "latten" .
 
 aat:300299255 a crm:E55_Type ;
     rdfs:label "candle sconces" .
@@ -63,6 +67,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 12 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "latten" ;
+            la:equivalent aat:300198675 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 305 (transcribed by Stuart Jenks): 'Candle plates of latten of all sortes the dossen' 30s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .

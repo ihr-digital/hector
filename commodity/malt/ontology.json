@@ -229,6 +229,46 @@
       "validFrom": "1558",
       "validThrough": "1604",
       "sourceText": "Book of Rates 1558, outward, line 40 (transcribed by Stuart Jenks): 'Malte the quarter' 6s 8d"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/malt#rate-1558-outward-41",
+      "type": "Rate",
+      "_label": "1558 outward: Malte mustye the quarter 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/quarter",
+          "type": "MeasurementUnit",
+          "_label": "quarter"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, outward, line 41 (transcribed by Stuart Jenks): 'Malte mustye the quarter' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "mustye",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

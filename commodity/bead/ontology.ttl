@@ -11,9 +11,27 @@
     rdfs:label "bead" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "beedes" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "beːdəs" ;
+            hector:validFrom "1556"^^xsd:gYear ;
+            hector:validThrough "1559"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "bede" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "bedə" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "beade" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "bɛːdə" ;
+            hector:validFrom "1556"^^xsd:gYear ;
+            hector:validThrough "1559"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "beydes" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "beidəs" ;
+            hector:validFrom "1502"^^xsd:gYear ;
+            hector:validThrough "1503"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "beyd" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -21,11 +39,23 @@
             hector:validFrom "1502"^^xsd:gYear ;
             hector:validThrough "1503"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "beade" ;
+            crm:P190_has_symbolic_content "beede" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "bɛːdə" ;
+            hector:phoneticKey "beːdə" ;
             hector:validFrom "1556"^^xsd:gYear ;
             hector:validThrough "1559"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "bedys" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "bedis" ;
+            hector:validFrom "1461"^^xsd:gYear ;
+            hector:validThrough "1465"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "bedis" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "bedis" ;
+            hector:validFrom "1465"^^xsd:gYear ;
+            hector:validThrough "1472"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "bead" ;
             crm:P2_has_type aat:300404670,
@@ -40,45 +70,15 @@
             hector:validFrom "1493"^^xsd:gYear ;
             hector:validThrough "1495"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "bedys" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "bedis" ;
-            hector:validFrom "1461"^^xsd:gYear ;
-            hector:validThrough "1465"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "bedis" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "bedis" ;
-            hector:validFrom "1465"^^xsd:gYear ;
-            hector:validThrough "1472"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "bed" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "bed" ;
             hector:validFrom "1493"^^xsd:gYear ;
             hector:validThrough "1495"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "beydes" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "beidəs" ;
-            hector:validFrom "1502"^^xsd:gYear ;
-            hector:validThrough "1503"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "beede" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "beːdə" ;
-            hector:validFrom "1556"^^xsd:gYear ;
-            hector:validThrough "1559"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "bedes" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "bedəs" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "beedes" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "beːdəs" ;
-            hector:validFrom "1556"^^xsd:gYear ;
-            hector:validThrough "1559"^^xsd:gYear ] ;
+            hector:phoneticKey "bedəs" ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "Refers to small objects, of any shape or material, pierced so that they may be strung or hung or attached, as by sewing. [Source: Getty AAT]" ;
             crm:P2_has_type aat:300435416 ] ;
@@ -91,7 +91,16 @@
     la:equivalent aat:300234006 ;
     hector:attestationCount 850 ;
     hector:taxation <https://w3id.org/hector/commodity/bead#rate-1507-none-15>,
-        <https://w3id.org/hector/commodity/bead#rate-1558-inward-306> .
+        <https://w3id.org/hector/commodity/bead#rate-1545-inward-69>,
+        <https://w3id.org/hector/commodity/bead#rate-1545-inward-70>,
+        <https://w3id.org/hector/commodity/bead#rate-1545-inward-71>,
+        <https://w3id.org/hector/commodity/bead#rate-1558-inward-306>,
+        <https://w3id.org/hector/commodity/bead#rate-1558-inward-78>,
+        <https://w3id.org/hector/commodity/bead#rate-1558-inward-79>,
+        <https://w3id.org/hector/commodity/bead#rate-1558-inward-80> .
+
+aat:300011914 a crm:E55_Type ;
+    rdfs:label "wood (plant material)" .
 
 aat:300234006 a crm:E55_Type ;
     rdfs:label "beads (pierced objects)" .
@@ -115,6 +124,51 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/bead#rate-1545-inward-69> a hector:Rate ;
+    rdfs:label "1545 inward: Beades of wode the groce 12d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "12d" ;
+            hector:valueInPence 12.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "wood" ;
+            la:equivalent aat:300011914 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 69 (transcribed by Stuart Jenks): 'Beades of wode the groce' 12d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/bead#rate-1545-inward-70> a hector:Rate ;
+    rdfs:label "1545 inward: Bone bedes the groce 2s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "2s" ;
+            hector:valueInPence 24.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "bone" ;
+            la:equivalent aat:300011798 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 70 (transcribed by Stuart Jenks): 'Bone bedes the groce' 2s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/bead#rate-1545-inward-71> a hector:Rate ;
+    rdfs:label "1545 inward: Bedes in boxes the groce 3s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "3s 4d" ;
+            hector:valueInPence 40.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 71 (transcribed by Stuart Jenks): 'Bedes in boxes the groce' 3s 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/bead#rate-1558-inward-306> a hector:Rate ;
     rdfs:label "1558 inward: Crystall beades the thowsande 40s" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -124,7 +178,55 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1000 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/thousand> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Crystall" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 306 (transcribed by Stuart Jenks): 'Crystall beades the thowsande' 40s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/bead#rate-1558-inward-78> a hector:Rate ;
+    rdfs:label "1558 inward: Beades of woodde of all sortes the grosse 5s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "5s" ;
+            hector:valueInPence 60.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "woodde" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 78 (transcribed by Stuart Jenks): 'Beades of woodde of all sortes the grosse' 5s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/bead#rate-1558-inward-79> a hector:Rate ;
+    rdfs:label "1558 inward: Beades of bone the grosse 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "bone" ;
+            la:equivalent aat:300011798 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 79 (transcribed by Stuart Jenks): 'Beades of bone the grosse' 20s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/bead#rate-1558-inward-80> a hector:Rate ;
+    rdfs:label "1558 inward: Beades of boxe the grosse 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 80 (transcribed by Stuart Jenks): 'Beades of boxe the grosse' 20s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
@@ -143,14 +245,17 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/hector/commodity/trebedes> a crm:E55_Type ;
     rdfs:label "trebedes" .
 
-<https://w3id.org/hector/unit/gross> a crm:E58_Measurement_Unit ;
-    rdfs:label "gross" .
-
 <https://w3id.org/hector/unit/thousand> a crm:E58_Measurement_Unit ;
     rdfs:label "thousand" .
 
 <https://w3id.org/mlca/glossary/bead> a crm:E55_Type ;
     rdfs:label "bead (London Customs Accounts glossary)" .
+
+aat:300011798 a crm:E55_Type ;
+    rdfs:label "bone (material)" .
+
+<https://w3id.org/hector/unit/gross> a crm:E58_Measurement_Unit ;
+    rdfs:label "gross" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

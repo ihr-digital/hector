@@ -411,6 +411,73 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/balance#rate-1558-inward-66",
+      "type": "Rate",
+      "_label": "1558 inward: Ballaunces vocat’ golde ballaunces the grosse 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 66 (transcribed by Stuart Jenks): 'Ballaunces vocat’ golde ballaunces the grosse' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "gold",
+          "equivalent": [
+            {
+              "id": "aat:300011021",
+              "type": "Type",
+              "_label": "gold (metal)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/balance#rate-1558-inward-67",
+      "type": "Rate",
+      "_label": "1558 inward: Ballaunces voc’ ounce ballaunces the grosse 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 67 (transcribed by Stuart Jenks): 'Ballaunces voc’ ounce ballaunces the grosse' 20s"
+    },
+    {
       "id": "https://w3id.org/hector/commodity/balance#rate-1558-inward-68",
       "type": "Rate",
       "_label": "1558 inward: Ballaunces the sorte cont’ foure dosen 26s 8d",

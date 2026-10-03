@@ -96,12 +96,22 @@
         aat:300183888 ;
     hector:attestationCount 1363 ;
     hector:taxation <https://w3id.org/hector/commodity/salt#rate-1545-inward-653>,
+        <https://w3id.org/hector/commodity/salt#rate-1545-inward-671>,
         <https://w3id.org/hector/commodity/salt#rate-1545-inward-672>,
         <https://w3id.org/hector/commodity/salt#rate-1545-inward-673>,
         <https://w3id.org/hector/commodity/salt#rate-1545-inward-690>,
         <https://w3id.org/hector/commodity/salt#rate-1545-inward-695>,
+        <https://w3id.org/hector/commodity/salt#rate-1545-inward-698>,
+        <https://w3id.org/hector/commodity/salt#rate-1558-inward-1037>,
+        <https://w3id.org/hector/commodity/salt#rate-1558-inward-925>,
+        <https://w3id.org/hector/commodity/salt#rate-1558-inward-926>,
+        <https://w3id.org/hector/commodity/salt#rate-1558-inward-927>,
+        <https://w3id.org/hector/commodity/salt#rate-1558-inward-928>,
+        <https://w3id.org/hector/commodity/salt#rate-1558-inward-929>,
         <https://w3id.org/hector/commodity/salt#rate-1558-inward-935>,
-        <https://w3id.org/hector/commodity/salt#rate-1558-inward-936> .
+        <https://w3id.org/hector/commodity/salt#rate-1558-inward-936>,
+        <https://w3id.org/hector/commodity/salt#rate-1558-inward-937>,
+        <https://w3id.org/hector/commodity/salt#rate-1558-inward-939> .
 
 aat:300183627 a crm:E55_Type ;
     rdfs:label "salt (inorganic material)" .
@@ -130,7 +140,27 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 100 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "peter" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1545, inward, line 653 (transcribed by Stuart Jenks): 'Salte peter the 100 pounde' 20s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/salt#rate-1545-inward-671> a hector:Rate ;
+    rdfs:label "1545 inward: Salte called Bay salt the waye 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/wey> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "bay" ],
+        [ a crm:E55_Type ;
+            rdfs:label "salted" ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 671 (transcribed by Stuart Jenks): 'Salte called Bay salt the waye' 13s 4d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
@@ -169,6 +199,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "fysshe" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1545, inward, line 690 (transcribed by Stuart Jenks): 'Salt fysshe the laste' £4" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
@@ -182,9 +215,122 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/dicker> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "hyds" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1545, inward, line 695 (transcribed by Stuart Jenks): 'Salt hyds the dekar' £3 6s 8d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/salt#rate-1545-inward-698> a hector:Rate ;
+    rdfs:label "1545 inward: Salte sellers the groce 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "sellers" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 698 (transcribed by Stuart Jenks): 'Salte sellers the groce' 10s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/salt#rate-1558-inward-1037> a hector:Rate ;
+    rdfs:label "1558 inward: Sal gemme the pounde 12d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "12d" ;
+            hector:valueInPence 12.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "gemme" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 1037 (transcribed by Stuart Jenks): 'Sal gemme the pounde' 12d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/salt#rate-1558-inward-925> a hector:Rate ;
+    rdfs:label "1558 inward: Salte whyte the waye cont’ 40 busshells 26s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "26s 8d" ;
+            hector:valueInPence 320.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/wey> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "white" ;
+            la:equivalent aat:300129784 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 925 (transcribed by Stuart Jenks): 'Salte whyte the waye cont’ 40 busshells' 26s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/salt#rate-1558-inward-926> a hector:Rate ;
+    rdfs:label "1558 inward: Salte whyte the busshell 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "8d" ;
+            hector:valueInPence 8.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/bushel> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "white" ;
+            la:equivalent aat:300129784 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 926 (transcribed by Stuart Jenks): 'Salte whyte the busshell' 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/salt#rate-1558-inward-927> a hector:Rate ;
+    rdfs:label "1558 inward: Salte Baye the waye cont’ 40 busshelles 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/wey> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "bay" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 927 (transcribed by Stuart Jenks): 'Salte Baye the waye cont’ 40 busshelles' 20s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/salt#rate-1558-inward-928> a hector:Rate ;
+    rdfs:label "1558 inward: Salte Baye the busshell 6d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6d" ;
+            hector:valueInPence 6.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/bushel> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "bay" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 928 (transcribed by Stuart Jenks): 'Salte Baye the busshell' 6d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/salt#rate-1558-inward-929> a hector:Rate ;
+    rdfs:label "1558 inward: Salte whyte the barrell cont’ 3 busshelles 2s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "2s" ;
+            hector:valueInPence 24.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/barrel> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "white" ;
+            la:equivalent aat:300129784 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 929 (transcribed by Stuart Jenks): 'Salte whyte the barrell cont’ 3 busshelles' 2s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/salt#rate-1558-inward-935> a hector:Rate ;
     rdfs:label "1558 inward: Salt fyshe the laste £6" ;
@@ -195,6 +341,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "fyshe" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 935 (transcribed by Stuart Jenks): 'Salt fyshe the laste' £6" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -208,7 +357,42 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 10 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/each> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "hydes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 936 (transcribed by Stuart Jenks): 'Salt hydes the deker cont’ 10 hydes' 66s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/salt#rate-1558-inward-937> a hector:Rate ;
+    rdfs:label "1558 inward: Salt sellors the grose 16s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "16s" ;
+            hector:valueInPence 192.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "sellors" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 937 (transcribed by Stuart Jenks): 'Salt sellors the grose' 16s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/salt#rate-1558-inward-939> a hector:Rate ;
+    rdfs:label "1558 inward: Sal ermoniake the pounde 3s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "3s 4d" ;
+            hector:valueInPence 40.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "ermoniake" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 939 (transcribed by Stuart Jenks): 'Sal ermoniake the pounde' 3s 4d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
@@ -220,12 +404,6 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/hector/commodity/saltpetre> a crm:E55_Type ;
     rdfs:label "saltpetre" .
-
-<https://w3id.org/hector/unit/barrel> a crm:E58_Measurement_Unit ;
-    rdfs:label "barrel" .
-
-<https://w3id.org/hector/unit/bushel> a crm:E58_Measurement_Unit ;
-    rdfs:label "bushel" .
 
 <https://w3id.org/hector/unit/dicker> a crm:E58_Measurement_Unit ;
     rdfs:label "dicker" .
@@ -239,8 +417,26 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/mlca/glossary/salt> a crm:E55_Type ;
     rdfs:label "salt (London Customs Accounts glossary)" .
 
+<https://w3id.org/hector/unit/barrel> a crm:E58_Measurement_Unit ;
+    rdfs:label "barrel" .
+
+<https://w3id.org/hector/unit/gross> a crm:E58_Measurement_Unit ;
+    rdfs:label "gross" .
+
 <https://w3id.org/hector/unit/last> a crm:E58_Measurement_Unit ;
     rdfs:label "last" .
+
+<https://w3id.org/hector/unit/pound> a crm:E58_Measurement_Unit ;
+    rdfs:label "pound" .
+
+aat:300129784 a crm:E55_Type ;
+    rdfs:label "white (color)" .
+
+<https://w3id.org/hector/unit/bushel> a crm:E58_Measurement_Unit ;
+    rdfs:label "bushel" .
+
+<https://w3id.org/hector/unit/wey> a crm:E58_Measurement_Unit ;
+    rdfs:label "wey" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

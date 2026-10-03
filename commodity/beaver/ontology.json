@@ -295,7 +295,13 @@
       },
       "validFrom": "1507",
       "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 12 (transcribed by Stuart Jenks): 'Bever wombys the tymber' 20s"
+      "sourceText": "Book of Rates 1507, line 12 (transcribed by Stuart Jenks): 'Bever wombys the tymber' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "womb"
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/beaver#rate-1545-inward-107",
@@ -323,6 +329,79 @@
       "validFrom": "1545",
       "validThrough": "1558",
       "sourceText": "Book of Rates 1545, inward, line 107 (transcribed by Stuart Jenks): 'Bevers the rowle' 13s 4d"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/beaver#rate-1558-inward-156",
+      "type": "Rate",
+      "_label": "1558 inward: Bever skynnes the pece 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 156 (transcribed by Stuart Jenks): 'Bever skynnes the pece' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "skin"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/beaver#rate-1558-inward-157",
+      "type": "Rate",
+      "_label": "1558 inward: Bevers belles the pece 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "8",
+        "lsd": "8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 157 (transcribed by Stuart Jenks): 'Bevers belles the pece' 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "belles",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/beaver#rate-1558-inward-84",

@@ -155,7 +155,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 982 (transcribed by Stuart Jenks): 'Speares wythout hedes the C cont’ 5 score' 46s 8d"
+      "sourceText": "Book of Rates 1558, inward, line 982 (transcribed by Stuart Jenks): 'Speares wythout hedes the C cont’ 5 score' 46s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Speares wythout",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

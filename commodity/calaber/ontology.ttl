@@ -10,9 +10,9 @@
     rdfs:label "calaber" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "de calabro" ;
+            crm:P190_has_symbolic_content "calabris" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "de kalabro" ],
+            hector:phoneticKey "kalabris" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "calabres" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -20,11 +20,11 @@
             hector:validFrom "1505"^^xsd:gYear ;
             hector:validThrough "1506"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "calibur" ;
+            crm:P190_has_symbolic_content "calabire" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kalibur" ;
-            hector:validFrom "1513"^^xsd:gYear ;
-            hector:validThrough "1514"^^xsd:gYear ],
+            hector:phoneticKey "kalabirə" ;
+            hector:validFrom "1477"^^xsd:gYear ;
+            hector:validThrough "1479"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "calabre" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -32,24 +32,21 @@
             hector:validFrom "1536"^^xsd:gYear ;
             hector:validThrough "1540"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "calabire" ;
+            crm:P190_has_symbolic_content "calabra" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kalabirə" ;
-            hector:validFrom "1477"^^xsd:gYear ;
-            hector:validThrough "1479"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "calaber" ;
-            crm:P2_has_type aat:300404670,
-                hector:AttestedVariant ;
-            hector:phoneticKey "kalaber" ;
-            hector:validFrom "1502"^^xsd:gYear ;
-            hector:validThrough "1503"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "calabrae" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kalabre" ;
+            hector:phoneticKey "kalabra" ;
             hector:validFrom "1380"^^xsd:gYear ;
             hector:validThrough "1385"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "calabrorum" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kalabrorum" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "calyber" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kaliber" ;
+            hector:validFrom "1519"^^xsd:gYear ;
+            hector:validThrough "1520"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "calabrum" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -63,11 +60,30 @@
             hector:validFrom "1445"^^xsd:gYear ;
             hector:validThrough "1446"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "calibur" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kalibur" ;
+            hector:validFrom "1513"^^xsd:gYear ;
+            hector:validThrough "1514"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "calabri" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kalabri" ;
             hector:validFrom "1446"^^xsd:gYear ;
             hector:validThrough "1450"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "calabrae" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kalabre" ;
+            hector:validFrom "1380"^^xsd:gYear ;
+            hector:validThrough "1385"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "calaber" ;
+            crm:P2_has_type aat:300404670,
+                hector:AttestedVariant ;
+            hector:phoneticKey "kalaber" ;
+            hector:validFrom "1502"^^xsd:gYear ;
+            hector:validThrough "1503"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "calabir" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -93,36 +109,24 @@
             hector:validFrom "1445"^^xsd:gYear ;
             hector:validThrough "1446"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "de calabro" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "de kalabro" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "calabur" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kalabur" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "calabra" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kalabra" ;
-            hector:validFrom "1380"^^xsd:gYear ;
-            hector:validThrough "1385"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "calabrorum" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kalabrorum" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "calyber" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kaliber" ;
-            hector:validFrom "1519"^^xsd:gYear ;
-            hector:validThrough "1520"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "calabris" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kalabris" ] ;
+            hector:phoneticKey "kalabur" ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "a kind of dark grey squirrel fur (Veale 217-8) | a kind of dark grey squirrel fur (Veale 217-8), here undressed | a kind of dark grey squirrel fur (Veale 217-8), here consisting of the belly parts of the animal | squirrel skins with a white belly and a grey or black back, less valuable than Baltic skins (Veale, 218) | a kind of dark grey squirrel fur (Veale 217-8), here taken in season, i.e. killed when the animal is normally hunted (Veale 25) | taken in the summer when the animal is not normally hunted, unseasonable, raw, of low value (Veale 25, 226) | a kind of dark grey squirrel fur (Veale 217-8), undressed" ;
             crm:P2_has_type aat:300435416 ] ;
     skos:broader aat:300395532 ;
     skos:closeMatch aat:300250601 ;
     skos:exactMatch <https://w3id.org/mlca/glossary/calaber> ;
-    hector:attestationCount 173 .
+    hector:attestationCount 173 ;
+    hector:taxation <https://w3id.org/hector/commodity/calaber#rate-1558-inward-200>,
+        <https://w3id.org/hector/commodity/calaber#rate-1558-inward-201>,
+        <https://w3id.org/hector/commodity/calaber#rate-1558-inward-202>,
+        <https://w3id.org/hector/commodity/calaber#rate-1558-inward-203> .
 
 aat:300250601 a crm:E55_Type ;
     rdfs:label "squirrels" .
@@ -136,8 +140,79 @@ aat:300404670 a crm:E55_Type ;
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
+<https://w3id.org/hector/commodity/calaber#rate-1558-inward-200> a hector:Rate ;
+    rdfs:label "1558 inward: Calabre tawed the tymbre 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/timber> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "tawed" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 200 (transcribed by Stuart Jenks): 'Calabre tawed the tymbre' 6s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/calaber#rate-1558-inward-201> a hector:Rate ;
+    rdfs:label "1558 inward: Calabre untawed the tymbre 5s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "5s" ;
+            hector:valueInPence 60.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/timber> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "untawed" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 201 (transcribed by Stuart Jenks): 'Calabre untawed the tymbre' 5s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/calaber#rate-1558-inward-202> a hector:Rate ;
+    rdfs:label "1558 inward: Calabre seasoned the pane 16s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "16s" ;
+            hector:valueInPence 192.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pane> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "in season" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 202 (transcribed by Stuart Jenks): 'Calabre seasoned the pane' 16s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/calaber#rate-1558-inward-203> a hector:Rate ;
+    rdfs:label "1558 inward: Calabre stage the pane 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pane> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "out of season" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 203 (transcribed by Stuart Jenks): 'Calabre stage the pane' 10s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/mlca/glossary/calaber> a crm:E55_Type ;
     rdfs:label "calaber (London Customs Accounts glossary)" .
+
+<https://w3id.org/hector/unit/pane> a crm:E58_Measurement_Unit ;
+    rdfs:label "pane" .
+
+<https://w3id.org/hector/unit/timber> a crm:E58_Measurement_Unit ;
+    rdfs:label "timber" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

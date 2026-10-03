@@ -121,10 +121,17 @@
     hector:attestationCount 52 ;
     hector:taxation <https://w3id.org/hector/commodity/sandalwood#rate-1507-none-272>,
         <https://w3id.org/hector/commodity/sandalwood#rate-1545-inward-632>,
-        <https://w3id.org/hector/commodity/sandalwood#rate-1545-inward-646> .
+        <https://w3id.org/hector/commodity/sandalwood#rate-1545-inward-646>,
+        <https://w3id.org/hector/commodity/sandalwood#rate-1558-inward-1023>,
+        <https://w3id.org/hector/commodity/sandalwood#rate-1558-inward-1024>,
+        <https://w3id.org/hector/commodity/sandalwood#rate-1558-inward-1030>,
+        <https://w3id.org/hector/commodity/sandalwood#rate-1558-inward-922> .
 
 aat:300013029 a crm:E55_Type ;
     rdfs:label "dye" .
+
+aat:300129784 a crm:E55_Type ;
+    rdfs:label "white (color)" .
 
 aat:300343670 a crm:E55_Type ;
     rdfs:label "Santalum album (species)" .
@@ -180,6 +187,70 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/sandalwood#rate-1558-inward-1023> a hector:Rate ;
+    rdfs:label "1558 inward: Saunders whyte the pounde 16d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "16d" ;
+            hector:valueInPence 16.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "white" ;
+            la:equivalent aat:300129784 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 1023 (transcribed by Stuart Jenks): 'Saunders whyte the pounde' 16d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/sandalwood#rate-1558-inward-1024> a hector:Rate ;
+    rdfs:label "1558 inward: Saunders yellowe the pounde 20d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20d" ;
+            hector:valueInPence 20.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "yellowe" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 1024 (transcribed by Stuart Jenks): 'Saunders yellowe the pounde' 20d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/sandalwood#rate-1558-inward-1030> a hector:Rate ;
+    rdfs:label "1558 inward: Sandali omnes the pounde 12d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "12d" ;
+            hector:valueInPence 12.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "omnes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 1030 (transcribed by Stuart Jenks): 'Sandali omnes the pounde' 12d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/sandalwood#rate-1558-inward-922> a hector:Rate ;
+    rdfs:label "1558 inward: Saunders stoke the 100 lb. conteynyng 5 score lb £4" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£4" ;
+            hector:valueInPence 960.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "stoke" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 922 (transcribed by Stuart Jenks): 'Saunders stoke the 100 lb. conteynyng 5 score lb' £4" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/sendal> a crm:E55_Type ;
     rdfs:label "sendal" .
 
@@ -191,6 +262,9 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
     rdfs:label "hundred" .
+
+<https://w3id.org/hector/unit/pound> a crm:E58_Measurement_Unit ;
+    rdfs:label "pound" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

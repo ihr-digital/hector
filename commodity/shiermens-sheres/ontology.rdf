@@ -8,196 +8,13 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/shiermens-sheres">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb10e233a580edb33166daf8b5c70f46de8b9c0f5d9820c0bd27bf121987ff131ee"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb11a45b5c8087a5b2df374239204a157311b64c02c814c3584a4ad6cf12596a89e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb14fdf7e7dd8249916d952fd237d6acb3e41e787faa614195d8058d4ca71208d89"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb151a2b4af8f3080d8fd44f1852678091f26883baabba360be926a5ecf2709e753"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb178926e2cbcaba7c6c01d15750170afcd19e3c4e6d9f9a6aeca1c6e7587b2c1d2"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb18122ce261e2ec8d9678dbcdbdecdb9ccd54ae9754d105c639425714a9ee0ceee"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb18385f0009f54640b6afc62062094114168034f531256296a3ce6b9c3ba97f959"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb19aad683ef96daa30d1dbd2667c0e1f2883e983785e700874b1e61b38db54a193"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb1d3d393c49e96a6f17f591cb9dabf106a5bc40605ac70898ed58128045c8a5bb8"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb1eceedbc078da836ed8c96e52532ed068d04f5b1d3a2f2cac74851e5c17fc9267"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb207c7bbe18e792e834ab472bf261e25f844e35a12cdbbe4e0ae682f4463298979"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb21b1b53f4bff2f42b90575bcae87ea479f70442200ffeb5e5c20e260539bda2bc"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb222c3462541997587015c34268221dfe51f8aa38ffa258f2b14ca454fc4cea878"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb8aa6b6f16283844f9ebaea1d66c967a3b7fd4f59ca90f1dfb7f15ff8973cdb15"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb91ff1e3f6bbada3231110da4daeb718ea15523ef780579d92da2dd73cf333496"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cbb769233889c2b45b6bc5880df040e46b685c81247db844ac708b01ecd1e90f1b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cbe338b680137ad4cbe06a8d365a83e051e7f9b84cfa99c15da3c102a1235fa6f3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cbec1abdd202089c8e15951357ae8fea87b225e69a8f30dca7fa4fae90cfae09b1"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cbefed1ecdb98fb354960801e8f2e852af31dd5623d8a3d33bf6d5b7ae6e9b9cd8"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cbf90210bd62fde79a4ee491f527af68390c820ade620c7253494bf6896f21253c"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_shiermens_sheres_cb3b539ec4f4dba7bf6febcf7a7bc4bc499e7c827c504889ef4392a4eaecee67c"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>shiermens sheres</rdfs:label>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/shiermens%20sheres"/>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300395579"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111</hector:attestationCount>
-    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/shiermens-sheres#rate-1507-none-253"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/pair">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>pair</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb21b1b53f4bff2f42b90575bcae87ea479f70442200ffeb5e5c20e260539bda2bc">
-    <crm:P190_has_symbolic_content>sherman sheeres</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>ʃerman ʃeːrəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cbfd914665f466c23e4f3983804bc7fba7d997b4177e904a6c4784a0430f9a0371">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>6s 8d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb19aad683ef96daa30d1dbd2667c0e1f2883e983785e700874b1e61b38db54a193">
-    <crm:P190_has_symbolic_content>shermens sheeres</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>ʃermens ʃeːrəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/shiermens-sheres#rate-1507-none-253">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1507: Shermans sheres the payer 6s 8d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_shiermens_sheres_cbfd914665f466c23e4f3983804bc7fba7d997b4177e904a6c4784a0430f9a0371"/>
-    <hector:perQuantity rdf:nodeID="commodity_shiermens_sheres_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109"/>
-    <hector:sourceText>Book of Rates 1507, line 253 (transcribed by Stuart Jenks): 'Shermans sheres the payer' 6s 8d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb222c3462541997587015c34268221dfe51f8aa38ffa258f2b14ca454fc4cea878">
-    <crm:P190_has_symbolic_content>shermansherys</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>ʃermanʃeris</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cbb769233889c2b45b6bc5880df040e46b685c81247db844ac708b01ecd1e90f1b">
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb1b4a104c3ff431d0901ff48190847079e7cea932b1dc4d1c6161a468f6d6c8040">
     <crm:P190_has_symbolic_content>shermans sheres</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>ʃermans ʃerəs</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cbe338b680137ad4cbe06a8d365a83e051e7f9b84cfa99c15da3c102a1235fa6f3">
-    <crm:P190_has_symbolic_content>shermansheres sheris</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>ʃermanʃerəs ʃeris</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb11a45b5c8087a5b2df374239204a157311b64c02c814c3584a4ad6cf12596a89e">
-    <crm:P190_has_symbolic_content>sherman sheres</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>ʃerman ʃerəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300395579">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>sheep shears</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb3b539ec4f4dba7bf6febcf7a7bc4bc499e7c827c504889ef4392a4eaecee67c">
-    <crm:P190_has_symbolic_content>Hand held cutting devices similar to scissors, designed to cut the woolen fleece from sheep. The earliest examples date to Bronze Age Crete. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cbf90210bd62fde79a4ee491f527af68390c820ade620c7253494bf6896f21253c">
-    <crm:P190_has_symbolic_content>shermen sheris</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>ʃermen ʃeris</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb10e233a580edb33166daf8b5c70f46de8b9c0f5d9820c0bd27bf121987ff131ee">
-    <crm:P190_has_symbolic_content>shermansheres</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>ʃermanʃerəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cbefed1ecdb98fb354960801e8f2e852af31dd5623d8a3d33bf6d5b7ae6e9b9cd8">
-    <crm:P190_has_symbolic_content>sharmen sheres</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>ʃarmen ʃerəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb1d3d393c49e96a6f17f591cb9dabf106a5bc40605ac70898ed58128045c8a5bb8">
-    <crm:P190_has_symbolic_content>shermen</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>ʃermen</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb14fdf7e7dd8249916d952fd237d6acb3e41e787faa614195d8058d4ca71208d89">
-    <crm:P190_has_symbolic_content>sheremens sheeres</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>ʃeremens ʃeːrəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb178926e2cbcaba7c6c01d15750170afcd19e3c4e6d9f9a6aeca1c6e7587b2c1d2">
-    <crm:P190_has_symbolic_content>sherman sheris</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>ʃerman ʃeris</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb18122ce261e2ec8d9678dbcdbdecdb9ccd54ae9754d105c639425714a9ee0ceee">
-    <crm:P190_has_symbolic_content>scherman scheris</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>ʃerman ʃeris</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb207c7bbe18e792e834ab472bf261e25f844e35a12cdbbe4e0ae682f4463298979">
-    <crm:P190_has_symbolic_content>sherman shers</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>ʃerman ʃers</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/shiermens%20sheres">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>shiermens sheres (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb1eceedbc078da836ed8c96e52532ed068d04f5b1d3a2f2cac74851e5c17fc9267">
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb2402504656fe0fb49e70721d0afcb0786813034591b6b2fccd00d64c0c96ed930">
     <crm:P190_has_symbolic_content>shermens sheres</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -205,28 +22,33 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb0">
-    <crm:P190_has_symbolic_content>shiermens sheres</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>ʃiːrmens ʃerəs</hector:phoneticKey>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/shiermens-sheres#rate-1558-inward-1000">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Shermens sheres newe the payre 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_shiermens_sheres_cb2ca9e00aa0158c3bac0d103f996f0362d276808d559d51f6092323b852d7020d9"/>
+    <hector:perQuantity rdf:nodeID="commodity_shiermens_sheres_cb1c8303aa92d9c7f0bd942fd0469f14aaa065fcf1aaac2a6770eb28b8b89796df6"/>
+    <hector:qualifier rdf:nodeID="commodity_shiermens_sheres_cb1e3db5677f600a661a19c2b53a3cff1a2efc11317ff275cbbbcfe457e9b93bad3"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1000 (transcribed by Stuart Jenks): 'Shermens sheres newe the payre' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb8aa6b6f16283844f9ebaea1d66c967a3b7fd4f59ca90f1dfb7f15ff8973cdb15">
-    <crm:P190_has_symbolic_content>shiermen sheres</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>ʃiːrmen ʃerəs</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb151a2b4af8f3080d8fd44f1852678091f26883baabba360be926a5ecf2709e753">
-    <crm:P190_has_symbolic_content>sherman sherys</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb22a17658335f2ec13dfe84337135444f1d223c42d7e67a53615dc03e8588aa55b">
+    <crm:P190_has_symbolic_content>scherman scheris</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>ʃerman ʃeris</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1483</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1485</hector:validThrough>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb18385f0009f54640b6afc62062094114168034f531256296a3ce6b9c3ba97f959">
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb1b172cc900dfb7e1c79741fa353ef2f4c4b573e46cd9e0de5b3948febad961f39">
+    <crm:P190_has_symbolic_content>shermansheres sheris</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>ʃermanʃerəs ʃeris</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb1df05c8bed5c7ebe99dc196ff7cd619e6e2b5cab4b2ad86dffbaf5ba6f7a0af9d">
     <crm:P190_has_symbolic_content>sheremens sheres</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -234,7 +56,124 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cbec1abdd202089c8e15951357ae8fea87b225e69a8f30dca7fa4fae90cfae09b1">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/shiermens-sheres#rate-1545-inward-667">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Shermen sheres the payre olde 4s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_shiermens_sheres_cb24e5e11037c966f5e3e0b696a86681c56bd5314ff6a52bdf5ed16fecbd363f35e"/>
+    <hector:perQuantity rdf:nodeID="commodity_shiermens_sheres_cb223704c79aa605673cce9d192610b877819f0622eea46a5a0d7ae7982a7ae9ca6"/>
+    <hector:qualifier rdf:nodeID="commodity_shiermens_sheres_cb1aab936349d062b36483c21ea1afb583ec1c0d778506029439421eafc1cc9e7c9"/>
+    <hector:qualifier rdf:nodeID="commodity_shiermens_sheres_cb214a282d86a7b4a861533614d4180685487a66f410100d968e7fdb0ccbc35e022"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 667 (transcribed by Stuart Jenks): 'Shermen sheres the payre olde' 4s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb175003cbde8719d0e79333b920ac466394d3b4d2dace017d910aa3b3501117967">
+    <crm:P190_has_symbolic_content>sharmen sheres</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>ʃarmen ʃerəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb1fa974c0ca6f4a413759f77e05afe944423611662ecfaa9911420f16ce0b3bdc0">
+    <crm:P190_has_symbolic_content>sherman sherys</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>ʃerman ʃeris</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1483</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1485</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb1012d40b8ca5aaee77ef6e3550df6cd6bdbf6bfe3392f644120c253e29bbbf494">
+    <crm:P190_has_symbolic_content>Hand held cutting devices similar to scissors, designed to cut the woolen fleece from sheep. The earliest examples date to Bronze Age Crete. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pair">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pair</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/shiermens-sheres#rate-1507-none-253">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Shermans sheres the payer 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_shiermens_sheres_cb2b50f0ae393ff5a553e576feacebe4edfe24c4bc15f8f8b3c3dbdd73ec6567c6d"/>
+    <hector:perQuantity rdf:nodeID="commodity_shiermens_sheres_cb1d93c17c24ec978f11e8d46ed341776f684f920a5d872501a18b63384ca94b05e"/>
+    <hector:sourceText>Book of Rates 1507, line 253 (transcribed by Stuart Jenks): 'Shermans sheres the payer' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/shiermens-sheres">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb1006776d2295f90d191a24e35ed02474dba622d38159121f9995b7eaeffe33358"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb1459b0caa2fa9dab75332495813871e563c1e0b14811e1e2fa43381afb63aee67"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb148209d2f32415b6133454532066b8b085866e445eecc17e543e1a2628f2340fa"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb174eb425c7b0d78c76e618cbc05c2e6f7ead51120d95b7c8b2ca0437644930d46"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb175003cbde8719d0e79333b920ac466394d3b4d2dace017d910aa3b3501117967"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb17a50d4a888f7837dc0ce2561051784ed0a288bb85962ef4ca3b1d52cc1555837"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb1b172cc900dfb7e1c79741fa353ef2f4c4b573e46cd9e0de5b3948febad961f39"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb1b4a104c3ff431d0901ff48190847079e7cea932b1dc4d1c6161a468f6d6c8040"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb1b9a6f273fa79f2ee8bd97e610ef32ca7eb14fc994e7435efc7988e527f488624"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb1d973746482689ca2a6e34f2228fc34c24701c2b8163fe50e972f98ede9a1baae"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb1df05c8bed5c7ebe99dc196ff7cd619e6e2b5cab4b2ad86dffbaf5ba6f7a0af9d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb1ea53b3c176a0d21902ce331f6e9c53a8480430c14f35e2c4f11a4e8f046cc6c9"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb1fa974c0ca6f4a413759f77e05afe944423611662ecfaa9911420f16ce0b3bdc0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb221870589d46fcb0138779bd035f73af216bc9f9f0b50ef814bd30113415c983f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb22a17658335f2ec13dfe84337135444f1d223c42d7e67a53615dc03e8588aa55b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb2402504656fe0fb49e70721d0afcb0786813034591b6b2fccd00d64c0c96ed930"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb2ce3502fe279a65961d88f82960e7a530b77d9f95818ad8a19a857b19ee75617c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb2eb398fa62899dad131f0f41facfa2d329e1eb9907845785340423b36c2367fe6"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb2f1b968833c58053e84fe109ed7387e57df6c72ea5c77aafb7d553968147b80a5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cb320954b99a167ae6b913ab26c9b6eaa0bba29576bb522ecfe89717394aefeae01"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_shiermens_sheres_cbf20a3d1fec380281fe6b0f73db619f4a9018ef7b501c33a12ca745af6af1e42f"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_shiermens_sheres_cb1012d40b8ca5aaee77ef6e3550df6cd6bdbf6bfe3392f644120c253e29bbbf494"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>shiermens sheres</rdfs:label>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/shiermens%20sheres"/>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300395579"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/shiermens-sheres#rate-1507-none-253"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/shiermens-sheres#rate-1545-inward-666"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/shiermens-sheres#rate-1545-inward-667"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/shiermens-sheres#rate-1558-inward-1000"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/shiermens-sheres#rate-1558-inward-999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb31893b843cef2af651919788aacc3c3538e505e9f4c2e19dc6636b5488caeadd2">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb320954b99a167ae6b913ab26c9b6eaa0bba29576bb522ecfe89717394aefeae01">
+    <crm:P190_has_symbolic_content>shermansherys</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>ʃermanʃeris</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb17a50d4a888f7837dc0ce2561051784ed0a288bb85962ef4ca3b1d52cc1555837">
+    <crm:P190_has_symbolic_content>sherman sheres</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>ʃerman ʃerəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb24e5e11037c966f5e3e0b696a86681c56bd5314ff6a52bdf5ed16fecbd363f35e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pair"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb1b9a6f273fa79f2ee8bd97e610ef32ca7eb14fc994e7435efc7988e527f488624">
     <crm:P190_has_symbolic_content>schermen schears</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -242,15 +181,192 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb91ff1e3f6bbada3231110da4daeb718ea15523ef780579d92da2dd73cf333496">
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb2ce3502fe279a65961d88f82960e7a530b77d9f95818ad8a19a857b19ee75617c">
+    <crm:P190_has_symbolic_content>shermen</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>ʃermen</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb148209d2f32415b6133454532066b8b085866e445eecc17e543e1a2628f2340fa">
+    <crm:P190_has_symbolic_content>shermen sheris</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>ʃermen ʃeris</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb2eb398fa62899dad131f0f41facfa2d329e1eb9907845785340423b36c2367fe6">
+    <crm:P190_has_symbolic_content>sherman sheeres</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>ʃerman ʃeːrəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb174eb425c7b0d78c76e618cbc05c2e6f7ead51120d95b7c8b2ca0437644930d46">
+    <crm:P190_has_symbolic_content>sheremens sheeres</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>ʃeremens ʃeːrəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/shiermens-sheres#rate-1558-inward-999">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Shermens sheres old the payre 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_shiermens_sheres_cb230aa13c5d26cc859860c08f7f2bba716cfc9778bfbc861fb97ab305fdb37c1d3"/>
+    <hector:perQuantity rdf:nodeID="commodity_shiermens_sheres_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_shiermens_sheres_cb12c00b37bd727f81ce5c4e48d30bf37a9c334b9f6d8ab5949d1f321dc0817fbe8"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 999 (transcribed by Stuart Jenks): 'Shermens sheres old the payre' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb1ea53b3c176a0d21902ce331f6e9c53a8480430c14f35e2c4f11a4e8f046cc6c9">
+    <crm:P190_has_symbolic_content>shermens sheeres</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>ʃermens ʃeːrəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb1ee504ddb097bced9163856549aa414a4e60c3d92077353317f6abb18d4734ce5">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>sheres</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb2b50f0ae393ff5a553e576feacebe4edfe24c4bc15f8f8b3c3dbdd73ec6567c6d">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb1459b0caa2fa9dab75332495813871e563c1e0b14811e1e2fa43381afb63aee67">
+    <crm:P190_has_symbolic_content>shiermen sheres</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>ʃiːrmen ʃerəs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb15a10e956ed006ea54ee0db1cc070aa6661954b23e63e47f44c3dbac808636de0">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>new</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/shiermens-sheres#rate-1545-inward-666">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Shermen sheres the payer newe 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_shiermens_sheres_cb31893b843cef2af651919788aacc3c3538e505e9f4c2e19dc6636b5488caeadd2"/>
+    <hector:perQuantity rdf:nodeID="commodity_shiermens_sheres_cb211522d54a9a0b06f60fb33eea59be7980d26e2d141933a3fdbae0540c893f13c"/>
+    <hector:qualifier rdf:nodeID="commodity_shiermens_sheres_cb15a10e956ed006ea54ee0db1cc070aa6661954b23e63e47f44c3dbac808636de0"/>
+    <hector:qualifier rdf:nodeID="commodity_shiermens_sheres_cb1ee504ddb097bced9163856549aa414a4e60c3d92077353317f6abb18d4734ce5"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 666 (transcribed by Stuart Jenks): 'Shermen sheres the payer newe' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb2f1b968833c58053e84fe109ed7387e57df6c72ea5c77aafb7d553968147b80a5">
+    <crm:P190_has_symbolic_content>sherman shers</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>ʃerman ʃers</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb1d973746482689ca2a6e34f2228fc34c24701c2b8163fe50e972f98ede9a1baae">
+    <crm:P190_has_symbolic_content>shermansheres</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>ʃermanʃerəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb230aa13c5d26cc859860c08f7f2bba716cfc9778bfbc861fb97ab305fdb37c1d3">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb221870589d46fcb0138779bd035f73af216bc9f9f0b50ef814bd30113415c983f">
+    <crm:P190_has_symbolic_content>sherman sheris</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>ʃerman ʃeris</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb2ca9e00aa0158c3bac0d103f996f0362d276808d559d51f6092323b852d7020d9">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb1c8303aa92d9c7f0bd942fd0469f14aaa065fcf1aaac2a6770eb28b8b89796df6">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pair"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb223704c79aa605673cce9d192610b877819f0622eea46a5a0d7ae7982a7ae9ca6">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pair"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb1006776d2295f90d191a24e35ed02474dba622d38159121f9995b7eaeffe33358">
+    <crm:P190_has_symbolic_content>shiermens sheres</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>ʃiːrmens ʃerəs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb12c00b37bd727f81ce5c4e48d30bf37a9c334b9f6d8ab5949d1f321dc0817fbe8">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>old</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb214a282d86a7b4a861533614d4180685487a66f410100d968e7fdb0ccbc35e022">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>sheres</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb1e3db5677f600a661a19c2b53a3cff1a2efc11317ff275cbbbcfe457e9b93bad3">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>new</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb1aab936349d062b36483c21ea1afb583ec1c0d778506029439421eafc1cc9e7c9">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>old</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cbf20a3d1fec380281fe6b0f73db619f4a9018ef7b501c33a12ca745af6af1e42f">
     <crm:P190_has_symbolic_content>scherman sheres</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>ʃerman ʃerəs</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109">
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb211522d54a9a0b06f60fb33eea59be7980d26e2d141933a3fdbae0540c893f13c">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pair"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/shiermens%20sheres">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>shiermens sheres (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_shiermens_sheres_cb1d93c17c24ec978f11e8d46ed341776f684f920a5d872501a18b63384ca94b05e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pair"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300395579">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>sheep shears</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

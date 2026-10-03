@@ -5,6 +5,7 @@
 @prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/hector/commodity/playing-table> a crm:E55_Type ;
@@ -267,16 +268,29 @@
     la:equivalent aat:300136024 ;
     hector:attestationCount 68 ;
     hector:taxation <https://w3id.org/hector/commodity/playing-table#rate-1545-inward-567>,
-        <https://w3id.org/hector/commodity/playing-table#rate-1558-inward-840> .
+        <https://w3id.org/hector/commodity/playing-table#rate-1558-inward-840>,
+        <https://w3id.org/hector/commodity/playing-table#rate-1558-inward-843>,
+        <https://w3id.org/hector/commodity/playing-table#rate-1558-inward-844>,
+        <https://w3id.org/hector/commodity/playing-table#rate-1558-inward-845>,
+        <https://w3id.org/hector/commodity/playing-table#rate-1558-inward-846> .
+
+aat:300011798 a crm:E55_Type ;
+    rdfs:label "bone (material)" .
 
 aat:300136024 a crm:E55_Type ;
     rdfs:label "gameboards (board game elements)" .
+
+aat:300163295 a crm:E55_Type ;
+    rdfs:label "damask" .
 
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
+
+wd:Q157070 a crm:E53_Place ;
+    rdfs:label "County of Flanders" .
 
 <https://w3id.org/hector/commodity/playing-table#rate-1545-inward-567> a hector:Rate ;
     rdfs:label "1545 inward: Playninge tabels the dossen 4s" ;
@@ -301,6 +315,81 @@ aat:300435416 a crm:E55_Type ;
             crm:P90_has_value 12 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
     hector:sourceText "Book of Rates 1558, inward, line 840 (transcribed by Stuart Jenks): 'Playenge tables the dossen' 8s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/playing-table#rate-1558-inward-843> a hector:Rate ;
+    rdfs:label "1558 inward: Playenge tables Flaunders making of waynscot the dosen 15s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "15s" ;
+            hector:valueInPence 180.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "making of waynscot" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "County of Flanders" ;
+            hector:originPlace wd:Q157070 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 843 (transcribed by Stuart Jenks): 'Playenge tables Flaunders making of waynscot the dosen' 15s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/playing-table#rate-1558-inward-844> a hector:Rate ;
+    rdfs:label "1558 inward: Playenge tables of walnut tre the dosen 24s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "24s" ;
+            hector:valueInPence 288.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "walnut tre" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 844 (transcribed by Stuart Jenks): 'Playenge tables of walnut tre the dosen' 24s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/playing-table#rate-1558-inward-845> a hector:Rate ;
+    rdfs:label "1558 inward: Playenge tables with brasell and bone the dosen £3" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£3" ;
+            hector:valueInPence 720.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "brasell" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "bone" ;
+            la:equivalent aat:300011798 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 845 (transcribed by Stuart Jenks): 'Playenge tables with brasell and bone the dosen' £3" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/playing-table#rate-1558-inward-846> a hector:Rate ;
+    rdfs:label "1558 inward: Playenge tables fyne of Damaske makinge the dosen £4" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£4" ;
+            hector:valueInPence 960.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "makinge" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "damask" ;
+            la:equivalent aat:300163295 ],
+        [ a crm:E55_Type ;
+            rdfs:label "fine" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 846 (transcribed by Stuart Jenks): 'Playenge tables fyne of Damaske makinge the dosen' £4" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 

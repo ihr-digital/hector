@@ -167,5 +167,80 @@
     }
   ],
   "attestationCount": 112,
-  "modified": "2026-10-03"
+  "modified": "2026-10-03",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/sword-blade#rate-1558-inward-1062",
+      "type": "Rate",
+      "_label": "1558 inward: Sworde blades of Slavonye the dossyn 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1062 (transcribed by Stuart Jenks): 'Sworde blades of Slavonye the dossyn' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Slavonye",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/sword-blade#rate-1558-inward-970",
+      "type": "Rate",
+      "_label": "1558 inward: Sworde blades course the dosen 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 970 (transcribed by Stuart Jenks): 'Sworde blades course the dosen' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "coarse"
+        }
+      ]
+    }
+  ]
 }

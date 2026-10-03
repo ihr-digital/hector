@@ -188,7 +188,20 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 483 (transcribed by Stuart Jenks): 'Matches for gonnes the pound' 4d"
+      "sourceText": "Book of Rates 1545, inward, line 483 (transcribed by Stuart Jenks): 'Matches for gonnes the pound' 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "gonnes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/match#rate-1558-inward-704",
@@ -215,7 +228,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 704 (transcribed by Stuart Jenks): 'Matches for gonnes the pound' 2d"
+      "sourceText": "Book of Rates 1558, inward, line 704 (transcribed by Stuart Jenks): 'Matches for gonnes the pound' 2d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "gonnes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

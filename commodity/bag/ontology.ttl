@@ -103,8 +103,12 @@
     skos:related <https://w3id.org/hector/commodity/bag-ring> ;
     la:equivalent aat:300194509 ;
     hector:attestationCount 1576 ;
-    hector:taxation <https://w3id.org/hector/commodity/bag#rate-1545-inward-63>,
+    hector:taxation <https://w3id.org/hector/commodity/bag#rate-1545-inward-61>,
+        <https://w3id.org/hector/commodity/bag#rate-1545-inward-62>,
+        <https://w3id.org/hector/commodity/bag#rate-1545-inward-63>,
         <https://w3id.org/hector/commodity/bag#rate-1545-outward-18>,
+        <https://w3id.org/hector/commodity/bag#rate-1558-inward-64>,
+        <https://w3id.org/hector/commodity/bag#rate-1558-inward-65>,
         <https://w3id.org/hector/commodity/bag#rate-1558-outward-5> .
 
 aat:300194509 a crm:E55_Type ;
@@ -119,6 +123,38 @@ aat:300404670 a crm:E55_Type ;
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
+<https://w3id.org/hector/commodity/bag#rate-1545-inward-61> a hector:Rate ;
+    rdfs:label "1545 inward: Bagges with lockes the dossen 4s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4s" ;
+            hector:valueInPence 48.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "lockes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 61 (transcribed by Stuart Jenks): 'Bagges with lockes the dossen' 4s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/bag#rate-1545-inward-62> a hector:Rate ;
+    rdfs:label "1545 inward: Bagges with stele rynges without lokes the dosen 2s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "2s" ;
+            hector:valueInPence 24.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "rynges without lokes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 62 (transcribed by Stuart Jenks): 'Bagges with stele rynges without lokes the dosen' 2s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/bag#rate-1545-inward-63> a hector:Rate ;
     rdfs:label "1545 inward: Bagges for chyldren the groce 6s 8d" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -128,6 +164,8 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 144 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "children’s" ] ;
     hector:sourceText "Book of Rates 1545, inward, line 63 (transcribed by Stuart Jenks): 'Bagges for chyldren the groce' 6s 8d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
@@ -144,6 +182,38 @@ aat:300435416 a crm:E55_Type ;
     hector:sourceText "Book of Rates 1545, outward, line 18 (transcribed by Stuart Jenks): 'Bagges the dossen' 3s" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/bag#rate-1558-inward-64> a hector:Rate ;
+    rdfs:label "1558 inward: Bagges with lockes the dosen 24s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "24s" ;
+            hector:valueInPence 288.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "lockes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 64 (transcribed by Stuart Jenks): 'Bagges with lockes the dosen' 24s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/bag#rate-1558-inward-65> a hector:Rate ;
+    rdfs:label "1558 inward: Bagges with steele ringes without lockes the dosen 16s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "16s" ;
+            hector:valueInPence 192.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "steele ringes without lockes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 65 (transcribed by Stuart Jenks): 'Bagges with steele ringes without lockes the dosen' 16s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/bag#rate-1558-outward-5> a hector:Rate ;
     rdfs:label "1558 outward: Bagges the dossyn 6s 8d" ;

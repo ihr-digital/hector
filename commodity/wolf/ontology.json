@@ -213,7 +213,24 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 1154 (transcribed by Stuart Jenks): 'Wolfe skynnes tawed the skynne' 20s"
+      "sourceText": "Book of Rates 1558, inward, line 1154 (transcribed by Stuart Jenks): 'Wolfe skynnes tawed the skynne' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "skin"
+        },
+        {
+          "type": "Type",
+          "_label": "tawed",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

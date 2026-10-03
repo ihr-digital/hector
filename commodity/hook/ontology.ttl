@@ -61,17 +61,39 @@
     skos:exactMatch <https://w3id.org/mlca/glossary/hook> ;
     la:equivalent aat:300033537 ;
     hector:attestationCount 50 ;
-    hector:taxation <https://w3id.org/hector/commodity/hook#rate-1545-inward-361>,
+    hector:taxation <https://w3id.org/hector/commodity/hook#rate-1507-none-131>,
+        <https://w3id.org/hector/commodity/hook#rate-1545-inward-361>,
+        <https://w3id.org/hector/commodity/hook#rate-1545-inward-362>,
+        <https://w3id.org/hector/commodity/hook#rate-1558-inward-575>,
         <https://w3id.org/hector/commodity/hook#rate-1558-inward-576> .
 
 aat:300033537 a crm:E55_Type ;
     rdfs:label "hooks (fasteners)" .
+
+aat:300073768 a crm:E55_Type ;
+    rdfs:label "small" .
 
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
+
+<https://w3id.org/hector/commodity/hook#rate-1507-none-131> a hector:Rate ;
+    rdfs:label "1507: Hookes that be small þe grosse 2s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "2s" ;
+            hector:valueInPence 24.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "small" ;
+            la:equivalent aat:300073768 ] ;
+    hector:sourceText "Book of Rates 1507, line 131 (transcribed by Stuart Jenks): 'Hookes that be small þe grosse' 2s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/hook#rate-1545-inward-361> a hector:Rate ;
     rdfs:label "1545 inward: Hokes the groce 2s" ;
@@ -85,6 +107,32 @@ aat:300435416 a crm:E55_Type ;
     hector:sourceText "Book of Rates 1545, inward, line 361 (transcribed by Stuart Jenks): 'Hokes the groce' 2s" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/hook#rate-1545-inward-362> a hector:Rate ;
+    rdfs:label "1545 inward: Hoke endes the groce 12d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "12d" ;
+            hector:valueInPence 12.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 362 (transcribed by Stuart Jenks): 'Hoke endes the groce' 12d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/hook#rate-1558-inward-575> a hector:Rate ;
+    rdfs:label "1558 inward: Hoke endes the grosse 4s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4s" ;
+            hector:valueInPence 48.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 575 (transcribed by Stuart Jenks): 'Hoke endes the grosse' 4s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/hook#rate-1558-inward-576> a hector:Rate ;
     rdfs:label "1558 inward: Hokes the grosse 8s" ;

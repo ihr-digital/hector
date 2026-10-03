@@ -8,25 +8,25 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_hook_cb15392f03e1387b31a49040ab18e933e0b73e98d57b1a3bac5b11a27eccd65157a">
-    <crm:P190_has_symbolic_content>hoke</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_hook_cb1101b023c18be1e9b8c908912d507cdf0985804d84650391c1155b2d823966cfe">
+    <crm:P190_has_symbolic_content>hook</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>hokə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+    <hector:phoneticKey>hoːk</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hook_cb182bd6eb4907a52647d4b07d9ab7d73db60a3035b624bb2576af3d371148cef28">
-    <crm:P190_has_symbolic_content>hookes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>hoːkəs</hector:phoneticKey>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hook#rate-1558-inward-575">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Hoke endes the grosse 4s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_hook_cb1c9893b2b469d58038bb3db82037b9db2ec523c100726e1b83a8cf710cb2c4c9a"/>
+    <hector:perQuantity rdf:nodeID="commodity_hook_cb102b6e3ae301341aae2c3c695ef6237b89ea30d274821a3e601bb61f8dc00dfff"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 575 (transcribed by Stuart Jenks): 'Hoke endes the grosse' 4s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hook_cb33803b2440b5acfb518167910e44b0b2e7e379ea014f9b2df84222e321d65cd8f">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>2s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/hook">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
@@ -44,25 +44,48 @@
     <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/hook"/>
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300033537"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/hook#rate-1507-none-131"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/hook#rate-1545-inward-361"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/hook#rate-1545-inward-362"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/hook#rate-1558-inward-575"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/hook#rate-1558-inward-576"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hook_cb113c603ae6ccbd3dd47b0f3048016c890f81a011077f474170df1cfd20e2290f2">
-    <crm:P190_has_symbolic_content>Bent or curved devices used for suspending or fastening objects or for attaching objects to a surface. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hook_cb22d6dd552e697789e69490a56410021d9e11e983106ec03cc31f61f132c3c9ba1">
-    <crm:P190_has_symbolic_content>hokke</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_hook_cb15392f03e1387b31a49040ab18e933e0b73e98d57b1a3bac5b11a27eccd65157a">
+    <crm:P190_has_symbolic_content>hoke</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>hokə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hook_cb19e90dc96e3657bdee58ec4ae992400fabd6fd33575a34130219cd357f06771a3">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hook_cb271e8df4f4d0ac43446dfa4c30960000a4191f3b3924c2bd621bd64f59391b860">
+    <crm:P190_has_symbolic_content>hok</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>hok</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hook#rate-1507-none-131">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Hookes that be small þe grosse 2s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_hook_cb3395018f3f790a0865880085be7fde624d7618155f5f912167a6821580cd2b51d"/>
+    <hector:perQuantity rdf:nodeID="commodity_hook_cb1a15c53206d493542cdd566a6e5e4f9b5fd047278b30dc04c47649428c4b48cca"/>
+    <hector:qualifier rdf:nodeID="commodity_hook_cb25c6f033f663bb6c0da0b3c7b1e516375af3f6e512cb521bb157a4c787611f1f6"/>
+    <hector:sourceText>Book of Rates 1507, line 131 (transcribed by Stuart Jenks): 'Hookes that be small þe grosse' 2s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hook_cb182bd6eb4907a52647d4b07d9ab7d73db60a3035b624bb2576af3d371148cef28">
+    <crm:P190_has_symbolic_content>hookes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>hoːkəs</hector:phoneticKey>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_hook_cb177725c450eed6a9dce2a9eac2d708fa28312f8c2e5e7c29097e9d145fdfc0033">
     <crm:P190_has_symbolic_content>hokes</crm:P190_has_symbolic_content>
@@ -72,21 +95,26 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hook_cb275dd1a0659e9eff9ca84381ab4a640cecc67208b29755b91c2b1b715becc7a86">
-    <crm:P190_has_symbolic_content>hooke</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>hoːkə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_hook_cb30c4cb0069e8f1636ba00bd8c01a4d0cb9c7b7bf1bc0849b68e8496bcc679cc23">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>12d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hook_cb2b317172384e3adf8091031bf08931fbb05d3aaf458b1e7abc8b2b7f9c8888e43">
-    <crm:P190_has_symbolic_content>hokkes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>hokəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_hook_cb33803b2440b5acfb518167910e44b0b2e7e379ea014f9b2df84222e321d65cd8f">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hook#rate-1545-inward-362">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Hoke endes the groce 12d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_hook_cb30c4cb0069e8f1636ba00bd8c01a4d0cb9c7b7bf1bc0849b68e8496bcc679cc23"/>
+    <hector:perQuantity rdf:nodeID="commodity_hook_cb1372fb3dc6c6d5fba202834e3c23bc087eb763d384b29a06769d754ae8bacc488"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 362 (transcribed by Stuart Jenks): 'Hoke endes the groce' 12d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/hook#rate-1545-inward-361">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
@@ -97,30 +125,10 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hook_cb22ae97faf673466eaa1a73860d5e28144559de4b28e64c3e1fc88282975291046">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>8s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hook_cb1101b023c18be1e9b8c908912d507cdf0985804d84650391c1155b2d823966cfe">
-    <crm:P190_has_symbolic_content>hook</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>hoːk</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+  <rdf:Description rdf:nodeID="commodity_hook_cb25c6f033f663bb6c0da0b3c7b1e516375af3f6e512cb521bb157a4c787611f1f6">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300033537">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>hooks (fasteners)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>gross</rdfs:label>
+    <rdfs:label>small</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073768"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/hook#rate-1558-inward-576">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
@@ -131,13 +139,40 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hook_cb271e8df4f4d0ac43446dfa4c30960000a4191f3b3924c2bd621bd64f59391b860">
-    <crm:P190_has_symbolic_content>hok</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_hook_cb1c9893b2b469d58038bb3db82037b9db2ec523c100726e1b83a8cf710cb2c4c9a">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hook_cb102b6e3ae301341aae2c3c695ef6237b89ea30d274821a3e601bb61f8dc00dfff">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hook_cb2b317172384e3adf8091031bf08931fbb05d3aaf458b1e7abc8b2b7f9c8888e43">
+    <crm:P190_has_symbolic_content>hokkes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>hok</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
+    <hector:phoneticKey>hokəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hook_cb275dd1a0659e9eff9ca84381ab4a640cecc67208b29755b91c2b1b715becc7a86">
+    <crm:P190_has_symbolic_content>hooke</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>hoːkə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hook_cb22d6dd552e697789e69490a56410021d9e11e983106ec03cc31f61f132c3c9ba1">
+    <crm:P190_has_symbolic_content>hokke</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>hokə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
@@ -148,17 +183,55 @@
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_hook_cb19e90dc96e3657bdee58ec4ae992400fabd6fd33575a34130219cd357f06771a3">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300073768">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>small</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hook_cb1372fb3dc6c6d5fba202834e3c23bc087eb763d384b29a06769d754ae8bacc488">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_hook_cb22ae97faf673466eaa1a73860d5e28144559de4b28e64c3e1fc88282975291046">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>8s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>gross</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hook_cb113c603ae6ccbd3dd47b0f3048016c890f81a011077f474170df1cfd20e2290f2">
+    <crm:P190_has_symbolic_content>Bent or curved devices used for suspending or fastening objects or for attaching objects to a surface. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hook_cb1a15c53206d493542cdd566a6e5e4f9b5fd047278b30dc04c47649428c4b48cca">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_hook_cb3395018f3f790a0865880085be7fde624d7618155f5f912167a6821580cd2b51d">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/mlca/glossary/hook">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>hook (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300033537">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>hooks (fasteners)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

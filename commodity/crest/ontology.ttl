@@ -10,19 +10,33 @@
     rdfs:label "crest" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "crestis" ;
+            crm:P190_has_symbolic_content "cresclothe" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "krestis" ],
+            hector:phoneticKey "kreskloθə" ;
+            hector:validFrom "1531"^^xsd:gYear ;
+            hector:validThrough "1533"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "crestae" ;
+            crm:P190_has_symbolic_content "creste" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kreste" ;
-            hector:validFrom "1390"^^xsd:gYear ;
-            hector:validThrough "1398"^^xsd:gYear ],
+            hector:phoneticKey "krestə" ;
+            hector:validFrom "1502"^^xsd:gYear ;
+            hector:validThrough "1503"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "crestcloth" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "krestkloθ" ;
+            hector:validFrom "1531"^^xsd:gYear ;
+            hector:validThrough "1533"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cresta" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kresta" ;
+            hector:validFrom "1390"^^xsd:gYear ;
+            hector:validThrough "1398"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "crestae" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kreste" ;
             hector:validFrom "1390"^^xsd:gYear ;
             hector:validThrough "1398"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
@@ -37,29 +51,17 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kresə" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "creste" ;
+            crm:P190_has_symbolic_content "crestis" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "krestə" ;
-            hector:validFrom "1502"^^xsd:gYear ;
-            hector:validThrough "1503"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "crestcloth" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "krestkloθ" ;
-            hector:validFrom "1531"^^xsd:gYear ;
-            hector:validThrough "1533"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "cresclothe" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kreskloθə" ;
-            hector:validFrom "1531"^^xsd:gYear ;
-            hector:validThrough "1533"^^xsd:gYear ] ;
+            hector:phoneticKey "krestis" ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "crest, a measure of linen cloth (OED s.v. crest n.3) | a measure of Britanny cloth (5 ells) (TNA: PRO, E159/177 Recorda Michaelmas m 5) | linen cloth from Britanny, so called because measured in crests (= 5 ells) (OED s.v. crest n.^3) | linen cloth from Britanny, so called because measured in crests (= 5 ells) (OED s.v. crest n.3) | a crest is a measure of Britanny cloth (5 ells) (TNA: PRO, E159/177 Recorda Michaelmas m 5), so crest cloth is presumably cloth manufactured in Britanny and therefore measured in crests. However, the account states that one piece measuring 100 ulne was imported | a crest is a measure of Britanny cloth (5 ells) (TNA: PRO, E159/177 Recorda Michaelmas m 5), so crest cloth is presumably cloth manufactured in Britanny and therefore measured in crests | linen cloth from Britanny, so called because measured in crests (= 5 ells) (OED s.v. crest n.3) | linen cloth from Brittany, so called because measured in crests (= 5 ells) (OED s.v. crest n.3)" ;
             crm:P2_has_type aat:300435416 ] ;
     skos:broader aat:300014069 ;
     skos:exactMatch <https://w3id.org/mlca/glossary/crest> ;
-    hector:attestationCount 27 .
+    hector:attestationCount 27 ;
+    hector:taxation <https://w3id.org/hector/commodity/crest#rate-1507-none-41>,
+        <https://w3id.org/hector/commodity/crest#rate-1558-inward-338> .
 
 aat:300014069 a crm:E55_Type ;
     rdfs:label "linen (material)" .
@@ -70,8 +72,43 @@ aat:300404670 a crm:E55_Type ;
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
+<https://w3id.org/hector/commodity/crest#rate-1507-none-41> a hector:Rate ;
+    rdfs:label "1507: Creste clothe, lokerame and doglasse þe pece 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "lokerame and doglasse" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 41 (transcribed by Stuart Jenks): 'Creste clothe, lokerame and doglasse þe pece' 20s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/crest#rate-1558-inward-338> a hector:Rate ;
+    rdfs:label "1558 inward: Crest clothe the pece cont’ 120 yeardes 40s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "40s" ;
+            hector:valueInPence 480.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 338 (transcribed by Stuart Jenks): 'Crest clothe the pece cont’ 120 yeardes' 40s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/mlca/glossary/crest> a crm:E55_Type ;
     rdfs:label "crest (London Customs Accounts glossary)" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
+<https://w3id.org/hector/unit/pecia> a crm:E58_Measurement_Unit ;
+    rdfs:label "pecia" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

@@ -487,7 +487,20 @@
       },
       "validFrom": "1507",
       "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 85 (transcribed by Stuart Jenks): 'Fethers for beddes the C wayte' 10s"
+      "sourceText": "Book of Rates 1507, line 85 (transcribed by Stuart Jenks): 'Fethers for beddes the C wayte' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "beddes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/feathers#rate-1545-inward-252",
@@ -514,7 +527,13 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 252 (transcribed by Stuart Jenks): 'Esteryche fethers the tufte or bonde' 20d"
+      "sourceText": "Book of Rates 1545, inward, line 252 (transcribed by Stuart Jenks): 'Esteryche fethers the tufte or bonde' 20d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "ostrich"
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/feathers#rate-1545-inward-280",
@@ -541,7 +560,20 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 280 (transcribed by Stuart Jenks): 'Fethers for beddes the 100 pounde' 10s"
+      "sourceText": "Book of Rates 1545, inward, line 280 (transcribed by Stuart Jenks): 'Fethers for beddes the 100 pounde' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "beddes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/feathers#rate-1558-inward-417",
@@ -568,7 +600,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 417 (transcribed by Stuart Jenks): 'Fethers for beddes the C lb. cont’ 112 lb' 30s"
+      "sourceText": "Book of Rates 1558, inward, line 417 (transcribed by Stuart Jenks): 'Fethers for beddes the C lb. cont’ 112 lb' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "beddes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/feathers#rate-1558-inward-453",
@@ -595,7 +640,13 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 453 (transcribed by Stuart Jenks): 'Fethers voc’ estrege fethers the tufte' 5s"
+      "sourceText": "Book of Rates 1558, inward, line 453 (transcribed by Stuart Jenks): 'Fethers voc’ estrege fethers the tufte' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "ostrich"
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/feathers#rate-1558-inward-464",
@@ -622,7 +673,17 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 464 (transcribed by Stuart Jenks): 'Fethers voc’ estredge undressed the pounde' 5s"
+      "sourceText": "Book of Rates 1558, inward, line 464 (transcribed by Stuart Jenks): 'Fethers voc’ estredge undressed the pounde' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "ostrich"
+        },
+        {
+          "type": "Type",
+          "_label": "undresed"
+        }
+      ]
     }
   ]
 }

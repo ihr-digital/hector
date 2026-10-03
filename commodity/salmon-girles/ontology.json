@@ -5,7 +5,9 @@
   ],
   "id": "https://w3id.org/hector/commodity/salmon-girles",
   "type": "Type",
-  "_label": "salmon (girles)",
+  "_label": "salmon (withdrawn record)",
+  "deprecated": true,
+  "modified": "2026-10-03",
   "referred_to_by": [
     {
       "type": "LinguisticObject",
@@ -16,108 +18,11 @@
           "_label": "brief texts"
         }
       ],
-      "content": "salmon, qualified as ‘girles’: a commodity as the Books of Rates price it separately (HECTOR decision 2, 29 Sep 2026)."
+      "content": "Withdrawn 3 Oct 2026. This record stood for the commodity as one Book of Rates entry qualifies it; the rates are now on the commodity itself, each naming its qualifier."
     }
   ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "content": "salmon (girles)",
-      "classified_as": [
-        {
-          "id": "aat:300404670",
-          "type": "Type",
-          "_label": "preferred terms"
-        }
-      ],
-      "phoneticKey": [
-        "salmon dʒirləs"
-      ]
-    },
-    {
-      "type": "Name",
-      "content": "Salmon gyrles",
-      "classified_as": [
-        {
-          "id": "hector:AttestedVariant",
-          "type": "Type",
-          "_label": "attested variant"
-        }
-      ],
-      "phoneticKey": [
-        "salmon girləs"
-      ]
-    }
-  ],
-  "broader": [
-    {
-      "id": "https://w3id.org/hector/commodity/salmon",
-      "type": "Type",
-      "_label": "salmon"
-    }
-  ],
-  "compoundOf": [
-    {
-      "id": "https://w3id.org/hector/commodity/salmon",
-      "type": "Type",
-      "_label": "salmon"
-    }
-  ],
-  "modified": "2026-10-03",
-  "taxation": [
-    {
-      "id": "https://w3id.org/hector/commodity/salmon-girles#rate-1558-inward-933",
-      "type": "Rate",
-      "_label": "1558 inward: Salmon gyrles the barrell 15s",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "180",
-        "lsd": "15s"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 1,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/barrel",
-          "type": "MeasurementUnit",
-          "_label": "barrel"
-        }
-      },
-      "validFrom": "1558",
-      "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 933 (transcribed by Stuart Jenks): 'Salmon gyrles the barrell' 15s"
-    },
-    {
-      "id": "https://w3id.org/hector/commodity/salmon-girles#rate-1558-inward-934",
-      "type": "Rate",
-      "_label": "1558 inward: Salmon gyrles the laste £9",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "2160",
-        "lsd": "£9"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 1,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/last",
-          "type": "MeasurementUnit",
-          "_label": "last"
-        }
-      },
-      "validFrom": "1558",
-      "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 934 (transcribed by Stuart Jenks): 'Salmon gyrles the laste' £9"
-    }
-  ]
+  "isReplacedBy": {
+    "id": "https://w3id.org/hector/commodity/salmon",
+    "type": "Type"
+  }
 }

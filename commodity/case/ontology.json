@@ -318,5 +318,234 @@
     }
   ],
   "attestationCount": 1616,
-  "modified": "2026-10-03"
+  "modified": "2026-10-03",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/case#rate-1558-inward-1068",
+      "type": "Rate",
+      "_label": "1558 inward: Spectakle casys gylte the grosse 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1068 (transcribed by Stuart Jenks): 'Spectakle casys gylte the grosse' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Spectakle",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "gylte",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/case#rate-1558-inward-1069",
+      "type": "Rate",
+      "_label": "1558 inward: Spectakle casys ungylt the grosse 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1069 (transcribed by Stuart Jenks): 'Spectakle casys ungylt the grosse' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Spectakle",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "ungilt"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/case#rate-1558-inward-309",
+      "type": "Rate",
+      "_label": "1558 inward: Cases garneshed with ivery combes of midle sorte the dossen 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 309 (transcribed by Stuart Jenks): 'Cases garneshed with ivery combes of midle sorte the dossen' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "garneshed",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "ivory",
+          "equivalent": [
+            {
+              "id": "aat:300011857",
+              "type": "Type",
+              "_label": "ivory (material)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "combes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "mid"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/case#rate-1558-inward-310",
+      "type": "Rate",
+      "_label": "1558 inward: Cases garnyshed with large ivery combes the dossen 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 310 (transcribed by Stuart Jenks): 'Cases garnyshed with large ivery combes the dossen' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "decorated"
+        },
+        {
+          "type": "Type",
+          "_label": "large",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "ivory",
+          "equivalent": [
+            {
+              "id": "aat:300011857",
+              "type": "Type",
+              "_label": "ivory (material)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "combes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

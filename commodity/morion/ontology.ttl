@@ -60,7 +60,9 @@
             crm:P2_has_type aat:300435416 ] ;
     skos:exactMatch <https://w3id.org/mlca/glossary/morion> ;
     la:equivalent aat:300036813 ;
-    hector:attestationCount 3 .
+    hector:attestationCount 3 ;
+    hector:taxation <https://w3id.org/hector/commodity/morion#rate-1558-inward-728>,
+        <https://w3id.org/hector/commodity/morion#rate-1558-inward-729> .
 
 aat:300036813 a crm:E55_Type ;
     rdfs:label "morions" .
@@ -71,8 +73,45 @@ aat:300404670 a crm:E55_Type ;
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
+<https://w3id.org/hector/commodity/morion#rate-1558-inward-728> a hector:Rate ;
+    rdfs:label "1558 inward: Murryons graven the pece 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "graven" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 728 (transcribed by Stuart Jenks): 'Murryons graven the pece' 6s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/morion#rate-1558-inward-729> a hector:Rate ;
+    rdfs:label "1558 inward: Murryons playne the pece 3s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "3s 4d" ;
+            hector:valueInPence 40.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "plain" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 729 (transcribed by Stuart Jenks): 'Murryons playne the pece' 3s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/mlca/glossary/morion> a crm:E55_Type ;
     rdfs:label "morion (London Customs Accounts glossary)" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
+<https://w3id.org/hector/unit/pecia> a crm:E58_Measurement_Unit ;
+    rdfs:label "pecia" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

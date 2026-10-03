@@ -336,5 +336,87 @@
     }
   ],
   "attestationCount": 89,
-  "modified": "2026-10-03"
+  "modified": "2026-10-03",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/bellow#rate-1545-inward-784",
+      "type": "Rate",
+      "_label": "1545 inward: Whisteling bellowes the groce 8s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "96",
+        "lsd": "8s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 784 (transcribed by Stuart Jenks): 'Whisteling bellowes the groce' 8s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Whisteling",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/bellow#rate-1558-inward-1145",
+      "type": "Rate",
+      "_label": "1558 inward: Whystlinge bellowes the grosse 12s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "144",
+        "lsd": "12s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1145 (transcribed by Stuart Jenks): 'Whystlinge bellowes the grosse' 12s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Whystlinge",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

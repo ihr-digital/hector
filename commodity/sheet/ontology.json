@@ -400,7 +400,31 @@
       },
       "validFrom": "1507",
       "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 194 (transcribed by Stuart Jenks): 'Olld shettes called packyng shetts the dossen' 6s 8d"
+      "sourceText": "Book of Rates 1507, line 194 (transcribed by Stuart Jenks): 'Olld shettes called packyng shetts the dossen' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Olld",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "packyng shetts",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/sheet#rate-1545-inward-520",
@@ -427,7 +451,24 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 520 (transcribed by Stuart Jenks): 'Olde shetes called packinge shetes the dossen' 6s 8d"
+      "sourceText": "Book of Rates 1545, inward, line 520 (transcribed by Stuart Jenks): 'Olde shetes called packinge shetes the dossen' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "old"
+        },
+        {
+          "type": "Type",
+          "_label": "packinge",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

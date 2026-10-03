@@ -562,7 +562,24 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 243 (transcribed by Stuart Jenks): 'Doubles the bondel and 6 bondels to the skoke' 3s 4d"
+      "sourceText": "Book of Rates 1545, inward, line 243 (transcribed by Stuart Jenks): 'Doubles the bondel and 6 bondels to the skoke' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "double"
+        },
+        {
+          "type": "Type",
+          "_label": "bondels",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

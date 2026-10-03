@@ -243,6 +243,57 @@
       "sourceText": "Book of Rates 1545, inward, line 146 (transcribed by Stuart Jenks): 'Calaman the 100 pounde' 6s 8d"
     },
     {
+      "id": "https://w3id.org/hector/commodity/calamine#rate-1545-inward-460",
+      "type": "Rate",
+      "_label": "1545 inward: Lapis calaminaris alias in gretes the hundreth pounde 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "40",
+        "lsd": "3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 460 (transcribed by Stuart Jenks): 'Lapis calaminaris alias in gretes the hundreth pounde' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "alias",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "large",
+          "equivalent": [
+            {
+              "id": "aat:300073756",
+              "type": "Type",
+              "_label": "large"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/calamine#rate-1558-inward-652",
       "type": "Rate",
       "_label": "1558 inward: Lapis calaminaris the C lb. cont’ 112 lb 10s",

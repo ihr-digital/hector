@@ -543,7 +543,100 @@
       },
       "validFrom": "1507",
       "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 115 (transcribed by Stuart Jenks): 'Golde skynes the kyppe' 13s 4d"
+      "sourceText": "Book of Rates 1507, line 115 (transcribed by Stuart Jenks): 'Golde skynes the kyppe' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "gold",
+          "equivalent": [
+            {
+              "id": "aat:300011021",
+              "type": "Type",
+              "_label": "gold (metal)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/pelt#rate-1507-none-234",
+      "type": "Rate",
+      "_label": "1507: Russe skynes the dossen 20d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "20",
+        "lsd": "20d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 234 (transcribed by Stuart Jenks): 'Russe skynes the dossen' 20d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Prussia",
+          "originPlace": [
+            {
+              "id": "wd:Q918723",
+              "type": "Place",
+              "_label": "Prussia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/pelt#rate-1558-inward-1153",
+      "type": "Rate",
+      "_label": "1558 inward: Wesylls skynns the dossyn 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "4",
+        "lsd": "4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1153 (transcribed by Stuart Jenks): 'Wesylls skynns the dossyn' 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Wesylls",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/pelt#rate-1558-inward-159",
@@ -570,7 +663,31 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 159 (transcribed by Stuart Jenks): 'Beares skynne redde the skynne' 16s"
+      "sourceText": "Book of Rates 1558, inward, line 159 (transcribed by Stuart Jenks): 'Beares skynne redde the skynne' 16s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Beares",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "red",
+          "equivalent": [
+            {
+              "id": "aat:300126225",
+              "type": "Type",
+              "_label": "red (color)"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/pelt#rate-1558-inward-160",
@@ -597,7 +714,31 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 160 (transcribed by Stuart Jenks): 'Beares skynne blacke the skynne' 16s"
+      "sourceText": "Book of Rates 1558, inward, line 160 (transcribed by Stuart Jenks): 'Beares skynne blacke the skynne' 16s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Beares",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "black",
+          "equivalent": [
+            {
+              "id": "aat:300130920",
+              "type": "Type",
+              "_label": "black (color)"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/pelt#rate-1558-outward-32",
@@ -624,7 +765,28 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, outward, line 32 (transcribed by Stuart Jenks): 'Kydde skynnes or broken felles the C cont’ 5 score' 10s"
+      "sourceText": "Book of Rates 1558, outward, line 32 (transcribed by Stuart Jenks): 'Kydde skynnes or broken felles the C cont’ 5 score' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Kydde",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "skin"
+        },
+        {
+          "type": "Type",
+          "_label": "broken"
+        }
+      ]
     }
   ]
 }

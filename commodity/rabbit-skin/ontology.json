@@ -278,5 +278,223 @@
     }
   ],
   "attestationCount": 1382,
-  "modified": "2026-10-03"
+  "modified": "2026-10-03",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/rabbit-skin#rate-1507-none-57",
+      "type": "Rate",
+      "_label": "1507: Cony skynes sesoned the C 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "40",
+        "lsd": "3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 57 (transcribed by Stuart Jenks): 'Cony skynes sesoned the C' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "skynes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "in season"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/rabbit-skin#rate-1507-none-58",
+      "type": "Rate",
+      "_label": "1507: Cony skynes stage the C 20d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "20",
+        "lsd": "20d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 58 (transcribed by Stuart Jenks): 'Cony skynes stage the C' 20d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "skynes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "out of season"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/rabbit-skin#rate-1558-outward-17",
+      "type": "Rate",
+      "_label": "1558 outward: Conny skynnes graye the C seasoned cont’ 100 6s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "72",
+        "lsd": "6s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, outward, line 17 (transcribed by Stuart Jenks): 'Conny skynnes graye the C seasoned cont’ 100' 6s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "grey",
+          "equivalent": [
+            {
+              "id": "aat:300130811",
+              "type": "Type",
+              "_label": "gray (color)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "in season"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/rabbit-skin#rate-1558-outward-18",
+      "type": "Rate",
+      "_label": "1558 outward: Conny skynnes graye stage the C cont’ 100 2s 6d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "30",
+        "lsd": "2s 6d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, outward, line 18 (transcribed by Stuart Jenks): 'Conny skynnes graye stage the C cont’ 100' 2s 6d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "grey",
+          "equivalent": [
+            {
+              "id": "aat:300130811",
+              "type": "Type",
+              "_label": "gray (color)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "out of season"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/rabbit-skin#rate-1558-outward-19",
+      "type": "Rate",
+      "_label": "1558 outward: Conny skynnes blacke the C cont’ 100 50s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "600",
+        "lsd": "50s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, outward, line 19 (transcribed by Stuart Jenks): 'Conny skynnes blacke the C cont’ 100' 50s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "black",
+          "equivalent": [
+            {
+              "id": "aat:300130920",
+              "type": "Type",
+              "_label": "black (color)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

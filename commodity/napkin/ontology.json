@@ -153,5 +153,244 @@
     }
   ],
   "attestationCount": 208,
-  "modified": "2026-10-03"
+  "modified": "2026-10-03",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/napkin#rate-1545-inward-237",
+      "type": "Rate",
+      "_label": "1545 inward: Dioper napkyns cours the dossen 4s or 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "48",
+        "lsd": "4s or 5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 237 (transcribed by Stuart Jenks): 'Dioper napkyns cours the dossen' 4s or 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Dioper",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "coarse"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/napkin#rate-1545-inward-238",
+      "type": "Rate",
+      "_label": "1545 inward: Dioper napkyns damaske warke the dosen 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 238 (transcribed by Stuart Jenks): 'Dioper napkyns damaske warke the dosen' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Dioper",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "damask",
+          "equivalent": [
+            {
+              "id": "aat:300163295",
+              "type": "Type",
+              "_label": "damask"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "warke",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/napkin#rate-1545-inward-504",
+      "type": "Rate",
+      "_label": "1545 inward: Napkyns of the Frenche makyng the dosen 2s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "24",
+        "lsd": "2s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 504 (transcribed by Stuart Jenks): 'Napkyns of the Frenche makyng the dosen' 2s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "France",
+          "originPlace": [
+            {
+              "id": "wd:Q142",
+              "type": "Place",
+              "_label": "France"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "makyng",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/napkin#rate-1558-inward-362",
+      "type": "Rate",
+      "_label": "1558 inward: Dyapor napkyns the dossen 8s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "96",
+        "lsd": "8s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 362 (transcribed by Stuart Jenks): 'Dyapor napkyns the dossen' 8s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Dyapor",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/napkin#rate-1558-inward-736",
+      "type": "Rate",
+      "_label": "1558 inward: Napkens voc’ Frenche napkens the dosen 4s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "48",
+        "lsd": "4s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 736 (transcribed by Stuart Jenks): 'Napkens voc’ Frenche napkens the dosen' 4s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "France",
+          "originPlace": [
+            {
+              "id": "wd:Q142",
+              "type": "Place",
+              "_label": "France"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

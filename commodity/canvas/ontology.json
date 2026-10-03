@@ -177,6 +177,476 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1507-none-37",
+      "type": "Rate",
+      "_label": "1507: Canvas called Normandy or browne clothe the C elles small 30s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "360",
+        "lsd": "30s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 37 (transcribed by Stuart Jenks): 'Canvas called Normandy or browne clothe the C elles small' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Normandy",
+          "originPlace": [
+            {
+              "id": "wd:Q15878",
+              "type": "Place",
+              "_label": "Normandy"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "brown",
+          "equivalent": [
+            {
+              "id": "aat:300127490",
+              "type": "Type",
+              "_label": "brown (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1507-none-38",
+      "type": "Rate",
+      "_label": "1507: Canvas called Vytory canvas the bale containing 200 elles £3",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "720",
+        "lsd": "£3"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/bale",
+          "type": "MeasurementUnit",
+          "_label": "bale"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 38 (transcribed by Stuart Jenks): 'Canvas called Vytory canvas the bale containing 200 elles' £3",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Vytory",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1507-none-39",
+      "type": "Rate",
+      "_label": "1507: Canvas called Parrys canvas the 100 elles 26s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "320",
+        "lsd": "26s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 39 (transcribed by Stuart Jenks): 'Canvas called Parrys canvas the 100 elles' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Paris",
+          "originPlace": [
+            {
+              "id": "wd:Q90",
+              "type": "Place",
+              "_label": "Paris"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1507-none-40",
+      "type": "Rate",
+      "_label": "1507: Canvas called Newcastell canvas the C elles 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 40 (transcribed by Stuart Jenks): 'Canvas called Newcastell canvas the C elles' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Newcastell",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1507-none-48",
+      "type": "Rate",
+      "_label": "1507: Canvas cunterfett of the worste sorte the bale 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/bale",
+          "type": "MeasurementUnit",
+          "_label": "bale"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 48 (transcribed by Stuart Jenks): 'Canvas cunterfett of the worste sorte the bale' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "cunterfett of the worste",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1545-inward-124",
+      "type": "Rate",
+      "_label": "1545 inward: Canvas called Newcastell the hundreth elles 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 124 (transcribed by Stuart Jenks): 'Canvas called Newcastell the hundreth elles' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Newcastell",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1545-inward-125",
+      "type": "Rate",
+      "_label": "1545 inward: Canvas Normandy browne the hundreth elles 30s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "360",
+        "lsd": "30s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 125 (transcribed by Stuart Jenks): 'Canvas Normandy browne the hundreth elles' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Normandy",
+          "originPlace": [
+            {
+              "id": "wd:Q15878",
+              "type": "Place",
+              "_label": "Normandy"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "brown",
+          "equivalent": [
+            {
+              "id": "aat:300127490",
+              "type": "Type",
+              "_label": "brown (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1545-inward-126",
+      "type": "Rate",
+      "_label": "1545 inward: Canvas Normandy whyte the hundreth elles 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 126 (transcribed by Stuart Jenks): 'Canvas Normandy whyte the hundreth elles' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Normandy",
+          "originPlace": [
+            {
+              "id": "wd:Q15878",
+              "type": "Place",
+              "_label": "Normandy"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "white",
+          "equivalent": [
+            {
+              "id": "aat:300129784",
+              "type": "Type",
+              "_label": "white (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1545-inward-127",
+      "type": "Rate",
+      "_label": "1545 inward: Canvas course for packynge the hundreth elles 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 127 (transcribed by Stuart Jenks): 'Canvas course for packynge the hundreth elles' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "coarse"
+        },
+        {
+          "type": "Type",
+          "_label": "packynge",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1545-inward-128",
+      "type": "Rate",
+      "_label": "1545 inward: Canvas called Barras the hundreth elles 26s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "320",
+        "lsd": "26s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 128 (transcribed by Stuart Jenks): 'Canvas called Barras the hundreth elles' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "baras"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1545-inward-129",
+      "type": "Rate",
+      "_label": "1545 inward: Canvas called Sprewce canvas the hundreth elles 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 129 (transcribed by Stuart Jenks): 'Canvas called Sprewce canvas the hundreth elles' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Prussia",
+          "originPlace": [
+            {
+              "id": "wd:Q918723",
+              "type": "Place",
+              "_label": "Prussia"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/canvas#rate-1545-inward-130",
       "type": "Rate",
       "_label": "1545 inward: Canvas the bolte 3s 4d",
@@ -204,6 +674,407 @@
       "sourceText": "Book of Rates 1545, inward, line 130 (transcribed by Stuart Jenks): 'Canvas the bolte' 3s 4d"
     },
     {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1545-inward-505",
+      "type": "Rate",
+      "_label": "1545 inward: Normandy canvas browne the 100 elles 30s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "360",
+        "lsd": "30s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 505 (transcribed by Stuart Jenks): 'Normandy canvas browne the 100 elles' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Normandy",
+          "originPlace": [
+            {
+              "id": "wd:Q15878",
+              "type": "Place",
+              "_label": "Normandy"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "brown",
+          "equivalent": [
+            {
+              "id": "aat:300127490",
+              "type": "Type",
+              "_label": "brown (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1545-inward-506",
+      "type": "Rate",
+      "_label": "1545 inward: Normandy canves whit the hundrith elles 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 506 (transcribed by Stuart Jenks): 'Normandy canves whit the hundrith elles' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Normandy",
+          "originPlace": [
+            {
+              "id": "wd:Q15878",
+              "type": "Place",
+              "_label": "Normandy"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "white",
+          "equivalent": [
+            {
+              "id": "aat:300129784",
+              "type": "Type",
+              "_label": "white (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1545-inward-508",
+      "type": "Rate",
+      "_label": "1545 inward: Neucastell canvas the 100 elles 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 508 (transcribed by Stuart Jenks): 'Neucastell canvas the 100 elles' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Neucastell",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1558-inward-174",
+      "type": "Rate",
+      "_label": "1558 inward: Canvas voc’ Barras canvas the C elles cont’ 5 score 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 174 (transcribed by Stuart Jenks): 'Canvas voc’ Barras canvas the C elles cont’ 5 score' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "baras"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1558-inward-175",
+      "type": "Rate",
+      "_label": "1558 inward: Canvas voc’ Newecastell canvas þe C elles cont’ 100 30s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "360",
+        "lsd": "30s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 175 (transcribed by Stuart Jenks): 'Canvas voc’ Newecastell canvas þe C elles cont’ 100' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Newecastell",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1558-inward-176",
+      "type": "Rate",
+      "_label": "1558 inward: Canvas voc’ Normandy canvas þe C elles browne conteynynge five score 50s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "600",
+        "lsd": "50s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 176 (transcribed by Stuart Jenks): 'Canvas voc’ Normandy canvas þe C elles browne conteynynge five score' 50s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Normandy",
+          "originPlace": [
+            {
+              "id": "wd:Q15878",
+              "type": "Place",
+              "_label": "Normandy"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "brown",
+          "equivalent": [
+            {
+              "id": "aat:300127490",
+              "type": "Type",
+              "_label": "brown (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1558-inward-177",
+      "type": "Rate",
+      "_label": "1558 inward: Canvas voc’ Normandy canvas the C elles whited cont’ five score 66s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "800",
+        "lsd": "66s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 177 (transcribed by Stuart Jenks): 'Canvas voc’ Normandy canvas the C elles whited cont’ five score' 66s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Normandy",
+          "originPlace": [
+            {
+              "id": "wd:Q15878",
+              "type": "Place",
+              "_label": "Normandy"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "white",
+          "equivalent": [
+            {
+              "id": "aat:300129784",
+              "type": "Type",
+              "_label": "white (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1558-inward-178",
+      "type": "Rate",
+      "_label": "1558 inward: Canvas voc’ course packinge canvas the C elles cont’ five score 26s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "320",
+        "lsd": "26s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 178 (transcribed by Stuart Jenks): 'Canvas voc’ course packinge canvas the C elles cont’ five score' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "coarse"
+        },
+        {
+          "type": "Type",
+          "_label": "packinge",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1558-inward-179",
+      "type": "Rate",
+      "_label": "1558 inward: Canvas voc’ Spruse canvas the C elles cont’ sixe score 26s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "320",
+        "lsd": "26s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 179 (transcribed by Stuart Jenks): 'Canvas voc’ Spruse canvas the C elles cont’ sixe score' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Prussia",
+          "originPlace": [
+            {
+              "id": "wd:Q918723",
+              "type": "Place",
+              "_label": "Prussia"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/canvas#rate-1558-inward-180",
       "type": "Rate",
       "_label": "1558 inward: Canvas the bolte 5s",
@@ -229,6 +1100,310 @@
       "validFrom": "1558",
       "validThrough": "1604",
       "sourceText": "Book of Rates 1558, inward, line 180 (transcribed by Stuart Jenks): 'Canvas the bolte' 5s"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1558-inward-192",
+      "type": "Rate",
+      "_label": "1558 inward: Canvas voc’ vittrye canvas the bale cont’ 3 C after 5 score [in toto 300] £5",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "1200",
+        "lsd": "£5"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/bale",
+          "type": "MeasurementUnit",
+          "_label": "bale"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 192 (transcribed by Stuart Jenks): 'Canvas voc’ vittrye canvas the bale cont’ 3 C after 5 score [in toto 300]' £5",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "vitry"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1558-inward-287",
+      "type": "Rate",
+      "_label": "1558 inward: Canvas voc’ workynge canvas narrowe the C elles cont’ fyve score 50s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "600",
+        "lsd": "50s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 287 (transcribed by Stuart Jenks): 'Canvas voc’ workynge canvas narrowe the C elles cont’ fyve score' 50s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "workynge",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "narrow"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1558-inward-288",
+      "type": "Rate",
+      "_label": "1558 inward: Canvas voc’ workynge canvas elle broade, the C ells conteynynge fyve score £4 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "1000",
+        "lsd": "£4 3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 288 (transcribed by Stuart Jenks): 'Canvas voc’ workynge canvas elle broade, the C ells conteynynge fyve score' £4 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "workynge",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "broade",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1558-inward-289",
+      "type": "Rate",
+      "_label": "1558 inward: Canvas voc’ workynge canvas of the broode sorte, the C elles [cont’] fyve score £5",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "1200",
+        "lsd": "£5"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 289 (transcribed by Stuart Jenks): 'Canvas voc’ workynge canvas of the broode sorte, the C elles [cont’] fyve score' £5",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "workynge",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "broode",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1558-inward-331",
+      "type": "Rate",
+      "_label": "1558 inward: Canvas striped with silke the pece 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 331 (transcribed by Stuart Jenks): 'Canvas striped with silke the pece' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "striped"
+        },
+        {
+          "type": "Type",
+          "_label": "silk",
+          "equivalent": [
+            {
+              "id": "aat:300243428",
+              "type": "Type",
+              "_label": "silk (textile)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1558-inward-332",
+      "type": "Rate",
+      "_label": "1558 inward: Canvas striped with thred the pece 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 332 (transcribed by Stuart Jenks): 'Canvas striped with thred the pece' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "striped"
+        },
+        {
+          "type": "Type",
+          "_label": "file"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/canvas#rate-1558-inward-333",
+      "type": "Rate",
+      "_label": "1558 inward: Canvas quylted with silke the pece 16s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "200",
+        "lsd": "16s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 333 (transcribed by Stuart Jenks): 'Canvas quylted with silke the pece' 16s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "quilted"
+        },
+        {
+          "type": "Type",
+          "_label": "silk",
+          "equivalent": [
+            {
+              "id": "aat:300243428",
+              "type": "Type",
+              "_label": "silk (textile)"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -178,7 +178,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, outward, line 25 (transcribed by Stuart Jenks): 'Horse collers of lether conteynynge 5 score the hundreth' 25s"
+      "sourceText": "Book of Rates 1558, outward, line 25 (transcribed by Stuart Jenks): 'Horse collers of lether conteynynge 5 score the hundreth' 25s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "lether",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

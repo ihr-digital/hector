@@ -351,7 +351,13 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 100 (transcribed by Stuart Jenks): 'Buffe hydes the pece' 6s 8d"
+      "sourceText": "Book of Rates 1545, inward, line 100 (transcribed by Stuart Jenks): 'Buffe hydes the pece' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "buff"
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/hide#rate-1545-inward-609",
@@ -378,7 +384,20 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 609 (transcribed by Stuart Jenks): 'Redde hides the dekar conteynynge ten skynnes' 33s 4d"
+      "sourceText": "Book of Rates 1545, inward, line 609 (transcribed by Stuart Jenks): 'Redde hides the dekar conteynynge ten skynnes' 33s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "red",
+          "equivalent": [
+            {
+              "id": "aat:300126225",
+              "type": "Type",
+              "_label": "red (color)"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/hide#rate-1558-inward-112",
@@ -405,7 +424,13 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 112 (transcribed by Stuart Jenks): 'Buffe hides the pece' 20s"
+      "sourceText": "Book of Rates 1558, inward, line 112 (transcribed by Stuart Jenks): 'Buffe hides the pece' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "buff"
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/hide#rate-1558-inward-892",
@@ -432,7 +457,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 892 (transcribed by Stuart Jenks): 'Redde hydes the dycker cont’ 10 hydes' 50s"
+      "sourceText": "Book of Rates 1558, inward, line 892 (transcribed by Stuart Jenks): 'Redde hydes the dycker cont’ 10 hydes' 50s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "red",
+          "equivalent": [
+            {
+              "id": "aat:300126225",
+              "type": "Type",
+              "_label": "red (color)"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

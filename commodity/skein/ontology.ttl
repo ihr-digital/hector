@@ -2,6 +2,7 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix hector: <https://w3id.org/hector/ontology#> .
+@prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -10,17 +11,11 @@
     rdfs:label "skein" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "skyne" ;
+            crm:P190_has_symbolic_content "skeyne" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "skinə" ;
-            hector:validFrom "1513"^^xsd:gYear ;
-            hector:validThrough "1514"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "skenes" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "skenəs" ;
-            hector:validFrom "1390"^^xsd:gYear ;
-            hector:validThrough "1398"^^xsd:gYear ],
+            hector:phoneticKey "skeinə" ;
+            hector:validFrom "1531"^^xsd:gYear ;
+            hector:validThrough "1533"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "skayn" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -34,17 +29,17 @@
             hector:validFrom "1477"^^xsd:gYear ;
             hector:validThrough "1479"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "skene" ;
+            crm:P190_has_symbolic_content "skenes" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "skenə" ;
+            hector:phoneticKey "skenəs" ;
             hector:validFrom "1390"^^xsd:gYear ;
             hector:validThrough "1398"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "skeynys" ;
+            crm:P190_has_symbolic_content "skyne" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "skeinis" ;
-            hector:validFrom "1442"^^xsd:gYear ;
-            hector:validThrough "1445"^^xsd:gYear ],
+            hector:phoneticKey "skinə" ;
+            hector:validFrom "1513"^^xsd:gYear ;
+            hector:validThrough "1514"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "skaynes" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -58,11 +53,23 @@
             hector:validFrom "1390"^^xsd:gYear ;
             hector:validThrough "1390"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "skene" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "skenə" ;
+            hector:validFrom "1390"^^xsd:gYear ;
+            hector:validThrough "1398"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "skeynes" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "skeinəs" ;
             hector:validFrom "1487"^^xsd:gYear ;
             hector:validThrough "1490"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "skeynys" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "skeinis" ;
+            hector:validFrom "1442"^^xsd:gYear ;
+            hector:validThrough "1445"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "scaynez" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -82,22 +89,16 @@
             hector:validFrom "1493"^^xsd:gYear ;
             hector:validThrough "1495"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "skein" ;
-            crm:P2_has_type aat:300404670,
-                hector:AttestedVariant ;
-            hector:phoneticKey "skein" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "skeyn" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "skein" ;
             hector:validFrom "1380"^^xsd:gYear ;
             hector:validThrough "1385"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "skeyne" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "skeinə" ;
-            hector:validFrom "1531"^^xsd:gYear ;
-            hector:validThrough "1533"^^xsd:gYear ] ;
+            crm:P190_has_symbolic_content "skein" ;
+            crm:P2_has_type aat:300404670,
+                hector:AttestedVariant ;
+            hector:phoneticKey "skein" ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "skein: a quantity of thread or yarn wound to a certain length on a reel (OED s.v. skein n.1); used as a measure of thread (white, Prussian, cable thread), silk, and gold-and-silver thread (5 talea per skein). The 'long skein' is a standardized large reel — the c (hundred) containing 120 lb (Book of Rates 39)." ;
             crm:P2_has_type aat:300435416 ] ;
@@ -105,7 +106,9 @@
         aat:300386648 ;
     skos:exactMatch <https://w3id.org/mlca/glossary/skein> ;
     hector:attestationCount 94 ;
-    hector:taxation <https://w3id.org/hector/commodity/skein#rate-1507-none-300> .
+    hector:taxation <https://w3id.org/hector/commodity/skein#rate-1507-none-300>,
+        <https://w3id.org/hector/commodity/skein#rate-1545-inward-448>,
+        <https://w3id.org/hector/commodity/skein#rate-1558-inward-670> .
 
 aat:300014250 a crm:E55_Type ;
     rdfs:label "thread" .
@@ -115,9 +118,6 @@ aat:300386648 a crm:E55_Type ;
 
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
-
-aat:300411998 a crm:E98_Currency ;
-    rdfs:label "pound sterling (system of money)" .
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
@@ -131,15 +131,69 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundredweight> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Tredon" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "long" ],
+        [ a crm:E55_Type ;
+            rdfs:label "file" ] ;
     hector:sourceText "Book of Rates 1507, line 300 (transcribed by Stuart Jenks): 'Tredon called long skayne thred the C wayte' 33s 4d" ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/skein#rate-1545-inward-448> a hector:Rate ;
+    rdfs:label "1545 inward: Longe skayne whyte the hundreth pounde 33s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "33s 4d" ;
+            hector:valueInPence 400.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "white" ;
+            la:equivalent aat:300129784 ],
+        [ a crm:E55_Type ;
+            rdfs:label "long" ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 448 (transcribed by Stuart Jenks): 'Longe skayne whyte the hundreth pounde' 33s 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/skein#rate-1558-inward-670> a hector:Rate ;
+    rdfs:label "1558 inward: Long skayne white thred the C lb. cont’ 100 lb £3 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£3 6s 8d" ;
+            hector:valueInPence 800.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "white" ;
+            la:equivalent aat:300129784 ],
+        [ a crm:E55_Type ;
+            rdfs:label "long" ],
+        [ a crm:E55_Type ;
+            rdfs:label "file" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 670 (transcribed by Stuart Jenks): 'Long skayne white thred the C lb. cont’ 100 lb' £3 6s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/hector/unit/hundredweight> a crm:E58_Measurement_Unit ;
     rdfs:label "hundredweight" .
 
 <https://w3id.org/mlca/glossary/skein> a crm:E55_Type ;
     rdfs:label "skein (London Customs Accounts glossary)" .
+
+aat:300129784 a crm:E55_Type ;
+    rdfs:label "white (color)" .
+
+<https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
+    rdfs:label "hundred" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

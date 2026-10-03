@@ -212,7 +212,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 397 (transcribed by Stuart Jenks): 'The laste of either cont’ 12 barrelles' £18"
+      "sourceText": "Book of Rates 1558, inward, line 397 (transcribed by Stuart Jenks): 'The laste of either cont’ 12 barrelles' £18",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "either",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

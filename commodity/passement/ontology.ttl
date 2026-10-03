@@ -2,6 +2,7 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix hector: <https://w3id.org/hector/ontology#> .
+@prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -10,9 +11,13 @@
     rdfs:label "passement" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "percemana" ;
+            crm:P190_has_symbolic_content "parcement" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "persemana" ],
+            hector:phoneticKey "parsement" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "parcemana" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "parsemana" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "passemain" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -30,30 +35,38 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "parsemin" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "persemont" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "persemont" ;
-            hector:validFrom "1548"^^xsd:gYear ;
-            hector:validThrough "1550"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "passemyn lace" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "pasemin lasə" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "poemen" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "pemen" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "parsement" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "parsement" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "percemana" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "persemana" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "passement" ;
             crm:P2_has_type aat:300404670,
                 hector:AttestedVariant ;
             hector:phoneticKey "pasement" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "parsement" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "parsement" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "passemam lace" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "pasemam lasə" ;
             hector:validFrom "1553"^^xsd:gYear ;
             hector:validThrough "1555"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "persemont" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "persemont" ;
+            hector:validFrom "1548"^^xsd:gYear ;
+            hector:validThrough "1550"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "parsment" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -65,19 +78,7 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "pasement" ;
             hector:validFrom "1548"^^xsd:gYear ;
-            hector:validThrough "1550"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "poemen" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "pemen" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "parcement" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "parsement" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "parcemana" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "parsemana" ] ;
+            hector:validThrough "1550"^^xsd:gYear ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "gold or silver lace, gimp or braid of silk or other material, for decorative trimming (OED s.v. passement n.), here made of cruell (q.v.) | passement, strip of braiding, usually made with gold or silver wire or with silk, used as decorative trimming in interior design and fashion (OED s.v. passement n.) 261 (see also parsment) | passement, strip of braiding, usually made with gold or silver wire or with silk, used as decorative trimming in interior design and fashion (OED s.v. passement n.) 267, 269 (see also pacement) | passement, strip of braiding, usually made with gold or silver wire or with silk, used as decorative trimming in interior design and fashion (OED s.v. passement n.) 423 (see also parchement lace) | passement, strip of braiding, usually made with gold or silver wire or with silk, used as decorative trimming in interior design and fashion (OED s.v. passement n.)" ;
             crm:P2_has_type aat:300435416 ] ;
@@ -87,8 +88,13 @@
     skos:related <https://w3id.org/hector/commodity/lace>,
         <https://w3id.org/hector/commodity/parchment> ;
     hector:attestationCount 29 ;
-    hector:taxation <https://w3id.org/hector/commodity/passement#rate-1558-inward-873>,
+    hector:taxation <https://w3id.org/hector/commodity/passement#rate-1558-inward-870>,
+        <https://w3id.org/hector/commodity/passement#rate-1558-inward-871>,
+        <https://w3id.org/hector/commodity/passement#rate-1558-inward-873>,
         <https://w3id.org/hector/commodity/passement#rate-1558-inward-874> .
+
+aat:300011021 a crm:E55_Type ;
+    rdfs:label "gold (metal)" .
 
 aat:300132861 a crm:E55_Type ;
     rdfs:label "lace (needlework)" .
@@ -108,6 +114,40 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/hector/commodity/parchment> a crm:E55_Type ;
     rdfs:label "parchment" .
 
+<https://w3id.org/hector/commodity/passement#rate-1558-inward-870> a hector:Rate ;
+    rdfs:label "1558 inward: Passemyn lace of sylke the grosse cont’ 12 dosen yardes 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "silk" ;
+            la:equivalent aat:300243428 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 870 (transcribed by Stuart Jenks): 'Passemyn lace of sylke the grosse cont’ 12 dosen yardes' 20s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/passement#rate-1558-inward-871> a hector:Rate ;
+    rdfs:label "1558 inward: Passemyn lace of silke and threde the grosse 12s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "12s" ;
+            hector:valueInPence 144.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "silk" ;
+            la:equivalent aat:300243428 ],
+        [ a crm:E55_Type ;
+            rdfs:label "file" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 871 (transcribed by Stuart Jenks): 'Passemyn lace of silke and threde the grosse' 12s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/passement#rate-1558-inward-873> a hector:Rate ;
     rdfs:label "1558 inward: Passemyn lace of golde or sylver the lb. cont’ 12 oz £5" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -117,6 +157,12 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "sylver" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "gold" ;
+            la:equivalent aat:300011021 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 873 (transcribed by Stuart Jenks): 'Passemyn lace of golde or sylver the lb. cont’ 12 oz' £5" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -130,6 +176,8 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 12 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "crul" ] ;
     hector:sourceText "Book of Rates 1558, inward, line 874 (transcribed by Stuart Jenks): 'Passemyn lace of cruell the dosen' 13s 4d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -142,6 +190,12 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/mlca/glossary/passement> a crm:E55_Type ;
     rdfs:label "passement (London Customs Accounts glossary)" .
+
+aat:300243428 a crm:E55_Type ;
+    rdfs:label "silk (textile)" .
+
+<https://w3id.org/hector/unit/gross> a crm:E58_Measurement_Unit ;
+    rdfs:label "gross" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

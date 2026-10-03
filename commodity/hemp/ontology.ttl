@@ -5,6 +5,7 @@
 @prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/hector/commodity/hemp> a crm:E55_Type ;
@@ -174,9 +175,15 @@
     skos:related <https://w3id.org/hector/commodity/hempseed> ;
     la:equivalent aat:300014043 ;
     hector:attestationCount 2286 ;
-    hector:taxation <https://w3id.org/hector/commodity/hemp#rate-1545-inward-384>,
+    hector:taxation <https://w3id.org/hector/commodity/hemp#rate-1545-inward-169>,
+        <https://w3id.org/hector/commodity/hemp#rate-1545-inward-170>,
+        <https://w3id.org/hector/commodity/hemp#rate-1545-inward-171>,
+        <https://w3id.org/hector/commodity/hemp#rate-1545-inward-384>,
         <https://w3id.org/hector/commodity/hemp#rate-1545-inward-385>,
         <https://w3id.org/hector/commodity/hemp#rate-1545-inward-386>,
+        <https://w3id.org/hector/commodity/hemp#rate-1558-inward-260>,
+        <https://w3id.org/hector/commodity/hemp#rate-1558-inward-261>,
+        <https://w3id.org/hector/commodity/hemp#rate-1558-inward-263>,
         <https://w3id.org/hector/commodity/hemp#rate-1558-inward-557>,
         <https://w3id.org/hector/commodity/hemp#rate-1558-inward-558>,
         <https://w3id.org/hector/commodity/hemp#rate-1558-inward-559> .
@@ -189,6 +196,54 @@ aat:300404670 a crm:E55_Type ;
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
+
+<https://w3id.org/hector/commodity/hemp#rate-1545-inward-169> a hector:Rate ;
+    rdfs:label "1545 inward: Collayne hempe the sacke 30s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "30s" ;
+            hector:valueInPence 360.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/sack> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Collayne" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 169 (transcribed by Stuart Jenks): 'Collayne hempe the sacke' 30s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/hemp#rate-1545-inward-170> a hector:Rate ;
+    rdfs:label "1545 inward: Collayne hempe the hundreth 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Collayne" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 170 (transcribed by Stuart Jenks): 'Collayne hempe the hundreth' 10s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/hemp#rate-1545-inward-171> a hector:Rate ;
+    rdfs:label "1545 inward: Collayne hempe the dossen 12d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "12d" ;
+            hector:valueInPence 12.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Collayne" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 171 (transcribed by Stuart Jenks): 'Collayne hempe the dossen' 12d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/hemp#rate-1545-inward-384> a hector:Rate ;
     rdfs:label "1545 inward: Hempe the 100 pounde 10s" ;
@@ -228,6 +283,54 @@ aat:300435416 a crm:E55_Type ;
     hector:sourceText "Book of Rates 1545, inward, line 386 (transcribed by Stuart Jenks): 'Hempe the sack' 30s" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/hemp#rate-1558-inward-260> a hector:Rate ;
+    rdfs:label "1558 inward: Cullen hempe the sacke cont’ 3 C [lb.] £3" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£3" ;
+            hector:valueInPence 720.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/sack> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Cologne" ;
+            hector:originPlace wd:Q365 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 260 (transcribed by Stuart Jenks): 'Cullen hempe the sacke cont’ 3 C [lb.]' £3" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/hemp#rate-1558-inward-261> a hector:Rate ;
+    rdfs:label "1558 inward: Cullen hempe the C lb. cont’ 112 lb 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Cologne" ;
+            hector:originPlace wd:Q365 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 261 (transcribed by Stuart Jenks): 'Cullen hempe the C lb. cont’ 112 lb' 20s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/hemp#rate-1558-inward-263> a hector:Rate ;
+    rdfs:label "1558 inward: Cullen hempe the dossen pounde 2s 6d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "2s 6d" ;
+            hector:valueInPence 30.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Cologne" ;
+            hector:originPlace wd:Q365 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 263 (transcribed by Stuart Jenks): 'Cullen hempe the dossen pounde' 2s 6d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/hemp#rate-1558-inward-557> a hector:Rate ;
     rdfs:label "1558 inward: Hempe the sacke cont’ 3 C pounde £3" ;
@@ -273,6 +376,9 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/mlca/glossary/hemp> a crm:E55_Type ;
     rdfs:label "hemp (London Customs Accounts glossary)" .
+
+wd:Q365 a crm:E53_Place ;
+    rdfs:label "Cologne" .
 
 <https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
     rdfs:label "dozen" .

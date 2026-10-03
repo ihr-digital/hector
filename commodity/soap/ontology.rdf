@@ -8,146 +8,185 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
+  <rdf:Description rdf:nodeID="commodity_soap_cb20314564a9061251c83eba7b299e217e2c490d9a549bc073c2b87d5c7c3451faf">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/soap#rate-1507-none-243">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Sope called blacke sope the barrelle 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_soap_cb3233bf590d652ac4fa0a757277888e79c6a5fb06eaf7eb9bcab60546fe5651fef"/>
+    <hector:perQuantity rdf:nodeID="commodity_soap_cb2252f4c5217471d4de44a79cbd7efaf476cdc55908ec2b921c28e227b1644f5e4"/>
+    <hector:qualifier rdf:nodeID="commodity_soap_cb299d6e2d583f8aa00e3d8f82c60a491b172e18f6e52d48ab7a311147d53057e10"/>
+    <hector:sourceText>Book of Rates 1507, line 243 (transcribed by Stuart Jenks): 'Sope called blacke sope the barrelle' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb158ba4402f124c179b9b28f8755af36a00cc2e916caf796cd04600b669d92db5e">
+    <crm:P190_has_symbolic_content>soop</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>soːp</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb1f8b40a558108105a43d8fdaa27d729dc64769b98361e75ab029f9bc14631d14b">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Castell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb205c390b5bdbcc2f3346293ecb693243f70af5f5a539b2aa53d9bb1e03a1807a8">
+    <crm:P190_has_symbolic_content>saope</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>saopə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb3768f6afbaf9158b9ab323e8db0629e5e3bbe674bafafdef89fa6cc528b12c094">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£6</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1440</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb1bf95eec8ffc8098b461ddd2cb38583f4180da9fedc5ce4e40a7b10fc2ddb703b">
+    <crm:P190_has_symbolic_content>sape</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sapə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300014329">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>soap (organic material)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/soap#rate-1507-none-242">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Sope called blake sope the laste £6</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_soap_cb36e57a066d3ec557dd521f7d8c35bbc5476b92c2da94617f45c05d859d0d28a8c"/>
+    <hector:perQuantity rdf:nodeID="commodity_soap_cb2922be425436afbd3b574e2342c56f4d822566f5abcaa44bbcbc809d0d33ec8e0"/>
+    <hector:qualifier rdf:nodeID="commodity_soap_cb2ceb7c43603ce0c47a296ccf7effcf2f878f5329458343775778fcb8159873a08"/>
+    <hector:sourceText>Book of Rates 1507, line 242 (transcribed by Stuart Jenks): 'Sope called blake sope the laste' £6</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/soap">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb11c8cf16fc7a7f86d723d5d4190133ed3045135f97a3e46090c1bfd637821b427"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb132c6d660ed0560519f6d90f4eb1e039d8f38b9594b6d61a8c7a648f205846e1e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb1556ab21c1c348fda5a736a4b3a72105861d36908cdf0cee56e87c76a49ddf8e5"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb15c031a21cb92ea46a0e1847e58366e107dadeaa2ddf97b4aa0cc1d4e31e65cb9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb19a18779fd768b8db756b7e0651cc815266c56cd38ddc3a3ff35aba5730ea80ea"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb1a084b9c72c9e535264803a1e175492cb77cefd5c38572021cd3aac7b0a842eb2"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb1bbef10be724107be13ee9da8e280ca427f169db98d051e9c2d27625fef21197d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb1e6b25bb3ea930cba52c4f0de1a623316d070b2b7af9565e3005b4d5f16c0c61f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb21c9a8de86b0cbdb11f5d626678b9fbc8381d815511e2ba08435c24d2680d661c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb230fa030fc87c6d50d45364ef0d65c2944c1dd505c7df06351bd8365cbc047f06"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb2458a5fea7671e097bde29dd7f69e1b6a535eaa6c7c76e87a2c05eedd23097769"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb24df7141dd5cf50a5db7155d0264decbc12b99bd047c157e43ee6c018494f26c3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb2564891d45b4bf18f086c1ce39464d0007c0a551799533e75168dd4277d7e3447"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb2a6f60d5422806fcd10bb2ce3fc65d131c4f3cef25bb3035105dd810ddb42e627"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb2ad8eda035913ed7de8a9d20c02cad906a534f7be333099725443b0b39bbeaddd"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb2c7deb63a306343e7d0a18d5c54d19ca63083f88b15fc7a9d2a07a9a5dedba479"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb2f2f52cf75f083e96356bc8589c0f0d5177e1b6fb5ab406422898f585298c285e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb311dc2ff80af6a5dead326cf8029e9d2520c2f55d61dae17de1e148742bf57c19"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cba0bcf8078e02a9fc20b8166f5eb0c9e3645705e11a99f92a99f3f8064956673f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cbc1d47a297d0599774d0f2afb8ade016f6c65a2f18b69acf2ba83efcfef81bba0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cbfedf6552ca18509c6adb238a086c5b9a3c40b03977e9eecee5cb59d81c46e1b1"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_soap_cbd0bc5c232bf3196dea429045d0fadc1f3d1a07ee307269cb1f412b01179e952b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb158ba4402f124c179b9b28f8755af36a00cc2e916caf796cd04600b669d92db5e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb1747be71def5e46133c110d59d6a30181021215ab71f693a7abc82beb6d353a6e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb17b144f239ebca07f827f278cf4675f391dec974581ff400cde0c81cf553d9e42"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb1aa9a500d1897b9c1b20ef681f0ec4efe56d5ec8e008f0a363f593d3c6dab8785"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb1bf95eec8ffc8098b461ddd2cb38583f4180da9fedc5ce4e40a7b10fc2ddb703b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb1ce3880541f97a81c394ebcfcf23ea2dbdb63d6b0806412fc6e06292b9dc3a969"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb1db0045c0456abdf6f58c40b77eb1bb6b1f554a5c310ae35e6a67c6e112785b06"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb205c390b5bdbcc2f3346293ecb693243f70af5f5a539b2aa53d9bb1e03a1807a8"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb23babc2ea3e3673ea00fb057514eaecf0d85c2df7b5e87eca809c89538b64a7a5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb246db2118f27d91380dad2bb65d9051d1436d5eb8b62ca053c8c6a19efda24637"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb25376c1c172079ef5713c307d1a2f2df1c3f5ae82bdeeeefc531f9d2deba4483f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb2649b94ec499b96d09f8040e692cf0c92f39d570f207cad3c6946535e4660b8f2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb26d08491fa8f906debd0ef8dec27edde4b2f84872ebc71ca67c2724996ca6684c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb27559c6d62e75a7c7ea09bff23095c1291c4901ba3d59033753ce38a8a0d575d0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb2ae2cc257dce0e9c1e3ab18c7c43ecf861afa1232f89b78eaf47b130429085903"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb2c6074255f5aa2605f258cff29896c25a65327b94ffb8c813431de58efe9a27b0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb2cca00f052c3da3b6ca47751a9efbca2f4573a460d7365e3491841534bf15ef66"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb2e6efeb3c038cfa20b23f306af1028dced0c2a52dba023f5f67480e270232e602"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb330ed64f9de205c178ed010069ecf8e4dc101a20005e0a6401f21acf54f4cbda2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cb351fdeb8be7b9e3ddb873d8d7c1f76ba4f7c9c93675823cecd069c81d0d2622b8"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_soap_cbbfce2d09612c60350255b97dfae1bb0c0495b283be9fbdecd7345c876cada8c8"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_soap_cb1ce3462efa7000dd9723ab6a337355dc67f28ffa9a49d456d4bca5495048ba343"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>soap</rdfs:label>
     <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/soap"/>
     <skos:related rdf:resource="https://w3id.org/hector/commodity/black-soap"/>
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300014329"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2077</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/soap#rate-1507-none-241"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/soap#rate-1507-none-242"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/soap#rate-1507-none-243"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/soap#rate-1545-inward-149"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/soap#rate-1545-inward-49"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/soap#rate-1545-inward-655"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/soap#rate-1545-inward-656"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/soap#rate-1558-inward-1006"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/soap#rate-1558-inward-942"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/soap#rate-1558-inward-943"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_soap_cb1556ab21c1c348fda5a736a4b3a72105861d36908cdf0cee56e87c76a49ddf8e5">
-    <crm:P190_has_symbolic_content>sepe</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sepə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_soap_cb2b767a8f1bc8c90e7d7e7b4f5480b73503b9b5b6f301e5aa5dfbf0a17a8b8b3a4">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Venice</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q641"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_soap_cbfedf6552ca18509c6adb238a086c5b9a3c40b03977e9eecee5cb59d81c46e1b1">
-    <crm:P190_has_symbolic_content>sope</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sopə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_soap_cb15c031a21cb92ea46a0e1847e58366e107dadeaa2ddf97b4aa0cc1d4e31e65cb9">
-    <crm:P190_has_symbolic_content>saipe</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>saipə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_soap_cb132c6d660ed0560519f6d90f4eb1e039d8f38b9594b6d61a8c7a648f205846e1e">
-    <crm:P190_has_symbolic_content>soope</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>soːpə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_soap_cb24df7141dd5cf50a5db7155d0264decbc12b99bd047c157e43ee6c018494f26c3">
-    <crm:P190_has_symbolic_content>soapp</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>soap</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_soap_cb19a18779fd768b8db756b7e0651cc815266c56cd38ddc3a3ff35aba5730ea80ea">
-    <crm:P190_has_symbolic_content>sooppe</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>soːpə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/soap#rate-1545-inward-656">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/soap#rate-1545-inward-49">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Sope whyte the pounde 10d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_soap_cb14024133cf72fe679faea1dcb58551bd815ff8fe7c6bc7bec7a994f8acea72fc6"/>
-    <hector:perQuantity rdf:nodeID="commodity_soap_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 656 (transcribed by Stuart Jenks): 'Sope whyte the pounde' 10d</hector:sourceText>
+    <rdfs:label>1545 inward: Blacke sope the laste £6</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_soap_cb39bc8e51d614ae6b829c1d59062e741c98fc7d5dcc91f408a82a098959b0d1e83"/>
+    <hector:perQuantity rdf:nodeID="commodity_soap_cb23b09acd3212f40356ea624c096aaa7eb4017d9af0c19e95117d8e2b02cc623f9"/>
+    <hector:qualifier rdf:nodeID="commodity_soap_cb2287263073f63a51d7aba04bbef014b5d4446725faee17aa6a5ce81c22b3b6a1e"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 49 (transcribed by Stuart Jenks): 'Blacke sope the laste' £6</hector:sourceText>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_soap_cb2564891d45b4bf18f086c1ce39464d0007c0a551799533e75168dd4277d7e3447">
-    <crm:P190_has_symbolic_content>sapounis</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_soap_cb23babc2ea3e3673ea00fb057514eaecf0d85c2df7b5e87eca809c89538b64a7a5">
+    <crm:P190_has_symbolic_content>soipe</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sapuːnis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
+    <hector:phoneticKey>soipə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_soap_cb14024133cf72fe679faea1dcb58551bd815ff8fe7c6bc7bec7a994f8acea72fc6">
+  <rdf:Description rdf:nodeID="commodity_soap_cb3233bf590d652ac4fa0a757277888e79c6a5fb06eaf7eb9bcab60546fe5651fef">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>10d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</hector:valueInPence>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/soap#rate-1507-none-241">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Sope called Castyll sope or wyght sope the C wyght 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_soap_cb2b9749490f6753dc107f1b9bde2028d3760dfd4a538e8f2895603dbd13c3e089b"/>
+    <hector:perQuantity rdf:nodeID="commodity_soap_cb1f6c22b8f3d8d74d02a9775269504774c63b2de2ae47a54223deeb7177878b443"/>
+    <hector:qualifier rdf:nodeID="commodity_soap_cb293fedbb713066f95f1cd7538dcf2223a70e7234a20551bb358b4608a30c9962a"/>
+    <hector:qualifier rdf:nodeID="commodity_soap_cb3378009a1f966506c0b5e4aae4de1595f0482cb674277f23c8b049fd14767b1d0"/>
+    <hector:sourceText>Book of Rates 1507, line 241 (transcribed by Stuart Jenks): 'Sope called Castyll sope or wyght sope the C wyght' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/hundred">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>hundred</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb2252f4c5217471d4de44a79cbd7efaf476cdc55908ec2b921c28e227b1644f5e4">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb1ce3462efa7000dd9723ab6a337355dc67f28ffa9a49d456d4bca5495048ba343">
+    <crm:P190_has_symbolic_content>soap (MED s.v. sope n. (2)) | a wooden case in which soap is packed (OED s.v. soap-box) | ball-soap, commonly used in the North, made with lyes from ashes and tallow (OED s.v. soap 2a, quote 1728) | ashes of certain kinds of wood used in forming a lye in soap-making (OED s.v. soap-ashes) | Castle soape manufactured in Castile, a fine hard soap prepared with olive oil and soda (OED s.v. Castile soap); Venice soape manufactured in Venice | made in Flanders | white soap</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/soap#rate-1558-inward-942">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Sope voc’ Flemysshe sope the barrell 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_soap_cb3e1a8e12c9a69ed5729e06aea39f539c17b805bd42506e0e2c4c8e11bc104035b"/>
+    <hector:perQuantity rdf:nodeID="commodity_soap_cb200400a0dc796556626230498b9fc3ba86ec7dc0cdb71f9d279b670c597f200de"/>
+    <hector:qualifier rdf:nodeID="commodity_soap_cb34a98cd2a30ab1df66ececa66eaca043668284a400df915b01b2f7bb1ad4f6813"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 942 (transcribed by Stuart Jenks): 'Sope voc’ Flemysshe sope the barrell' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb2d64ebdbd6fda5a0b39bcdb91df5f74ee13f4896b6dc397ebd991688ddcd650fa">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
+    <rdfs:label>County of Flanders</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q157070"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_soap_cb2458a5fea7671e097bde29dd7f69e1b6a535eaa6c7c76e87a2c05eedd23097769">
-    <crm:P190_has_symbolic_content>smigmae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>smigme</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1483</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1485</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_soap_cb1bbef10be724107be13ee9da8e280ca427f169db98d051e9c2d27625fef21197d">
-    <crm:P190_has_symbolic_content>smigmatis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>smigmatis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300014329">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>soap (organic material)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_soap_cb311dc2ff80af6a5dead326cf8029e9d2520c2f55d61dae17de1e148742bf57c19">
-    <crm:P190_has_symbolic_content>soape</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>soapə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_soap_cb11c8cf16fc7a7f86d723d5d4190133ed3045135f97a3e46090c1bfd637821b427">
+  <rdf:Description rdf:nodeID="commodity_soap_cb1ce3880541f97a81c394ebcfcf23ea2dbdb63d6b0806412fc6e06292b9dc3a969">
     <crm:P190_has_symbolic_content>soppe</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -155,7 +194,137 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_soap_cb2c7deb63a306343e7d0a18d5c54d19ca63083f88b15fc7a9d2a07a9a5dedba479">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/soap#rate-1558-inward-1006">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Sope voc’ Castell or Venys sope the C lb. cont’ 112 lb. 15s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_soap_cb2637614e2757436248f4b5ba9dc8100cafe826fbfc9fb430942353d502ec1adef"/>
+    <hector:perQuantity rdf:nodeID="commodity_soap_cb1e0ca5dd0bc9b4c5e6b97a25902243dc41cca88826f4818f0fb52809672854c11"/>
+    <hector:qualifier rdf:nodeID="commodity_soap_cb1f8b40a558108105a43d8fdaa27d729dc64769b98361e75ab029f9bc14631d14b"/>
+    <hector:qualifier rdf:nodeID="commodity_soap_cb2b767a8f1bc8c90e7d7e7b4f5480b73503b9b5b6f301e5aa5dfbf0a17a8b8b3a4"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1006 (transcribed by Stuart Jenks): 'Sope voc’ Castell or Venys sope the C lb. cont’ 112 lb.' 15s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb27559c6d62e75a7c7ea09bff23095c1291c4901ba3d59033753ce38a8a0d575d0">
+    <crm:P190_has_symbolic_content>sapounis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sapuːnis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb2649b94ec499b96d09f8040e692cf0c92f39d570f207cad3c6946535e4660b8f2">
+    <crm:P190_has_symbolic_content>smigmae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>smigme</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1483</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1485</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb23b09acd3212f40356ea624c096aaa7eb4017d9af0c19e95117d8e2b02cc623f9">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/last"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb2cca00f052c3da3b6ca47751a9efbca2f4573a460d7365e3491841534bf15ef66">
+    <crm:P190_has_symbolic_content>sapo</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sapo</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb2ae2cc257dce0e9c1e3ab18c7c43ecf861afa1232f89b78eaf47b130429085903">
+    <crm:P190_has_symbolic_content>sooppe</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>soːpə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb26d08491fa8f906debd0ef8dec27edde4b2f84872ebc71ca67c2724996ca6684c">
+    <crm:P190_has_symbolic_content>soapp</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>soap</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/soap#rate-1545-inward-149">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Castell sope the 100 lb 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_soap_cb356db431f38f15b715c0f15399f69ec5ef72ae4e7fefd753c3578894fe1a54f20"/>
+    <hector:perQuantity rdf:nodeID="commodity_soap_cb20314564a9061251c83eba7b299e217e2c490d9a549bc073c2b87d5c7c3451faf"/>
+    <hector:qualifier rdf:nodeID="commodity_soap_cb24aa77182cb8f0c19ad7a90b99a9bbb9c2ef5ce0751285d9471ae555719daa99f"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 149 (transcribed by Stuart Jenks): 'Castell sope the 100 lb' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb2eecef5669d392ab629c98064ee4511ed08479a8ef21bdb72aaf9c397379812bb">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£8</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1920</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb2922be425436afbd3b574e2342c56f4d822566f5abcaa44bbcbc809d0d33ec8e0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/last"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb22acf331622eaf9beed8c111e08134964a88be24ab72331a49379610370d935e5">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>white</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300129784"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb17b144f239ebca07f827f278cf4675f391dec974581ff400cde0c81cf553d9e42">
+    <crm:P190_has_symbolic_content>saipe</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>saipə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/soap#rate-1558-inward-943">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Sope voc’ Flemysshe sope the last cont’ 12 barrelles £8</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_soap_cb2eecef5669d392ab629c98064ee4511ed08479a8ef21bdb72aaf9c397379812bb"/>
+    <hector:perQuantity rdf:nodeID="commodity_soap_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_soap_cb2d64ebdbd6fda5a0b39bcdb91df5f74ee13f4896b6dc397ebd991688ddcd650fa"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 943 (transcribed by Stuart Jenks): 'Sope voc’ Flemysshe sope the last cont’ 12 barrelles' £8</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/soap#rate-1545-inward-655">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Sope blacke the laste £6</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_soap_cb3768f6afbaf9158b9ab323e8db0629e5e3bbe674bafafdef89fa6cc528b12c094"/>
+    <hector:perQuantity rdf:nodeID="commodity_soap_cb1f0395679363830f87d959f6182310bfba2ed70d32210ecdc2108756918e11439"/>
+    <hector:qualifier rdf:nodeID="commodity_soap_cb277996ec2d25853041999ca54ab1f8d78de47dda0d4447ce378450fa2422d58d3"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 655 (transcribed by Stuart Jenks): 'Sope blacke the laste' £6</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300130920">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>black (color)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb1747be71def5e46133c110d59d6a30181021215ab71f693a7abc82beb6d353a6e">
+    <crm:P190_has_symbolic_content>sepe</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sepə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb1db0045c0456abdf6f58c40b77eb1bb6b1f554a5c310ae35e6a67c6e112785b06">
+    <crm:P190_has_symbolic_content>smigmatis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>smigmatis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb2e6efeb3c038cfa20b23f306af1028dced0c2a52dba023f5f67480e270232e602">
     <crm:P190_has_symbolic_content>sop</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -163,15 +332,166 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_soap_cb230fa030fc87c6d50d45364ef0d65c2944c1dd505c7df06351bd8365cbc047f06">
-    <crm:P190_has_symbolic_content>seape</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q641">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Venice</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q157070">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>County of Flanders</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb356db431f38f15b715c0f15399f69ec5ef72ae4e7fefd753c3578894fe1a54f20">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb35ce5eb5b440caa8b284c207780564fc043642e44063e5adda68fd704e5efbee4">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/soap#rate-1545-inward-656">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Sope whyte the pounde 10d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_soap_cb35ce5eb5b440caa8b284c207780564fc043642e44063e5adda68fd704e5efbee4"/>
+    <hector:perQuantity rdf:nodeID="commodity_soap_cb21bd9d7e8c1be6451c3f8323852565ee339e17982e15f3aa29766252cdfb576a8"/>
+    <hector:qualifier rdf:nodeID="commodity_soap_cb22acf331622eaf9beed8c111e08134964a88be24ab72331a49379610370d935e5"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 656 (transcribed by Stuart Jenks): 'Sope whyte the pounde' 10d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb2c6074255f5aa2605f258cff29896c25a65327b94ffb8c813431de58efe9a27b0">
+    <crm:P190_has_symbolic_content>saponis</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sɛːpə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+    <hector:phoneticKey>saponis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_soap_cb2f2f52cf75f083e96356bc8589c0f0d5177e1b6fb5ab406422898f585298c285e">
+  <rdf:Description rdf:nodeID="commodity_soap_cb34a98cd2a30ab1df66ececa66eaca043668284a400df915b01b2f7bb1ad4f6813">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>County of Flanders</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q157070"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb24aa77182cb8f0c19ad7a90b99a9bbb9c2ef5ce0751285d9471ae555719daa99f">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Castell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb39bc8e51d614ae6b829c1d59062e741c98fc7d5dcc91f408a82a098959b0d1e83">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£6</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1440</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb330ed64f9de205c178ed010069ecf8e4dc101a20005e0a6401f21acf54f4cbda2">
+    <crm:P190_has_symbolic_content>soape</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>soapə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb36e57a066d3ec557dd521f7d8c35bbc5476b92c2da94617f45c05d859d0d28a8c">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£6</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1440</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb277996ec2d25853041999ca54ab1f8d78de47dda0d4447ce378450fa2422d58d3">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>black</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300130920"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cbbfce2d09612c60350255b97dfae1bb0c0495b283be9fbdecd7345c876cada8c8">
+    <crm:P190_has_symbolic_content>smigma</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>smigma</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/barrel">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>barrel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q9679">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Isle of Wight</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb1e0ca5dd0bc9b4c5e6b97a25902243dc41cca88826f4818f0fb52809672854c11">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb293fedbb713066f95f1cd7538dcf2223a70e7234a20551bb358b4608a30c9962a">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Castyll</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/soap">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>soap (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb2b9749490f6753dc107f1b9bde2028d3760dfd4a538e8f2895603dbd13c3e089b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb1aa9a500d1897b9c1b20ef681f0ec4efe56d5ec8e008f0a363f593d3c6dab8785">
+    <crm:P190_has_symbolic_content>sope</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sopə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb246db2118f27d91380dad2bb65d9051d1436d5eb8b62ca053c8c6a19efda24637">
+    <crm:P190_has_symbolic_content>soope</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>soːpə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb2287263073f63a51d7aba04bbef014b5d4446725faee17aa6a5ce81c22b3b6a1e">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>black</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300130920"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb2637614e2757436248f4b5ba9dc8100cafe826fbfc9fb430942353d502ec1adef">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>15s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">180</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb200400a0dc796556626230498b9fc3ba86ec7dc0cdb71f9d279b670c597f200de">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb1f0395679363830f87d959f6182310bfba2ed70d32210ecdc2108756918e11439">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/last"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb2ceb7c43603ce0c47a296ccf7effcf2f878f5329458343775778fcb8159873a08">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>black</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300130920"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb351fdeb8be7b9e3ddb873d8d7c1f76ba4f7c9c93675823cecd069c81d0d2622b8">
     <crm:P190_has_symbolic_content>soap</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -184,86 +504,59 @@
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>attested variant</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_soap_cb1e6b25bb3ea930cba52c4f0de1a623316d070b2b7af9565e3005b4d5f16c0c61f">
-    <crm:P190_has_symbolic_content>saope</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>saopə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_soap_cb2ad8eda035913ed7de8a9d20c02cad906a534f7be333099725443b0b39bbeaddd">
-    <crm:P190_has_symbolic_content>sapo</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sapo</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_soap_cb21c9a8de86b0cbdb11f5d626678b9fbc8381d815511e2ba08435c24d2680d661c">
-    <crm:P190_has_symbolic_content>soipe</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>soipə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_soap_cbc1d47a297d0599774d0f2afb8ade016f6c65a2f18b69acf2ba83efcfef81bba0">
-    <crm:P190_has_symbolic_content>soop</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>soːp</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/black-soap">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>black soap</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_soap_cb1a084b9c72c9e535264803a1e175492cb77cefd5c38572021cd3aac7b0a842eb2">
-    <crm:P190_has_symbolic_content>sape</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sapə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_soap_cba0bcf8078e02a9fc20b8166f5eb0c9e3645705e11a99f92a99f3f8064956673f">
-    <crm:P190_has_symbolic_content>smigma</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>smigma</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_soap_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_soap_cbd0bc5c232bf3196dea429045d0fadc1f3d1a07ee307269cb1f412b01179e952b">
-    <crm:P190_has_symbolic_content>soap (MED s.v. sope n. (2)) | a wooden case in which soap is packed (OED s.v. soap-box) | ball-soap, commonly used in the North, made with lyes from ashes and tallow (OED s.v. soap 2a, quote 1728) | ashes of certain kinds of wood used in forming a lye in soap-making (OED s.v. soap-ashes) | Castle soape manufactured in Castile, a fine hard soap prepared with olive oil and soda (OED s.v. Castile soap); Venice soape manufactured in Venice | made in Flanders | white soap</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/soap">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>soap (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_soap_cb2a6f60d5422806fcd10bb2ce3fc65d131c4f3cef25bb3035105dd810ddb42e627">
-    <crm:P190_has_symbolic_content>saponis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>saponis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/last">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>last</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/unit/pound">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
     <rdfs:label>pound</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb25376c1c172079ef5713c307d1a2f2df1c3f5ae82bdeeeefc531f9d2deba4483f">
+    <crm:P190_has_symbolic_content>seape</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sɛːpə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb299d6e2d583f8aa00e3d8f82c60a491b172e18f6e52d48ab7a311147d53057e10">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>black</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300130920"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb3e1a8e12c9a69ed5729e06aea39f539c17b805bd42506e0e2c4c8e11bc104035b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb3378009a1f966506c0b5e4aae4de1595f0482cb674277f23c8b049fd14767b1d0">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Isle of Wight</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q9679"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300129784">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>white (color)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/last"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb21bd9d7e8c1be6451c3f8323852565ee339e17982e15f3aa29766252cdfb576a8">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_soap_cb1f6c22b8f3d8d74d02a9775269504774c63b2de2ae47a54223deeb7177878b443">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/black-soap">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>black soap</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

@@ -5,7 +5,9 @@
   ],
   "id": "https://w3id.org/hector/commodity/glove-canari-unwrought",
   "type": "Type",
-  "_label": "glove (canari unwrought)",
+  "_label": "glove (withdrawn record)",
+  "deprecated": true,
+  "modified": "2026-10-03",
   "referred_to_by": [
     {
       "type": "LinguisticObject",
@@ -16,81 +18,11 @@
           "_label": "brief texts"
         }
       ],
-      "content": "glove, qualified as ‘canari unwrought’: a commodity as the Books of Rates price it separately (HECTOR decision 2, 29 Sep 2026)."
+      "content": "Withdrawn 3 Oct 2026. This record stood for the commodity as one Book of Rates entry qualifies it; the rates are now on the commodity itself, each naming its qualifier."
     }
   ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "content": "glove (canari unwrought)",
-      "classified_as": [
-        {
-          "id": "aat:300404670",
-          "type": "Type",
-          "_label": "preferred terms"
-        }
-      ],
-      "phoneticKey": [
-        "glovə kanari unwruːxt"
-      ]
-    },
-    {
-      "type": "Name",
-      "content": "Gloves voc’ Canarie gloves unwrought",
-      "classified_as": [
-        {
-          "id": "hector:AttestedVariant",
-          "type": "Type",
-          "_label": "attested variant"
-        }
-      ],
-      "phoneticKey": [
-        "glovəs vok kanariː glovəs unwruːxt"
-      ]
-    }
-  ],
-  "broader": [
-    {
-      "id": "https://w3id.org/hector/commodity/glove",
-      "type": "Type",
-      "_label": "glove"
-    }
-  ],
-  "compoundOf": [
-    {
-      "id": "https://w3id.org/hector/commodity/glove",
-      "type": "Type",
-      "_label": "glove"
-    }
-  ],
-  "modified": "2026-10-03",
-  "taxation": [
-    {
-      "id": "https://w3id.org/hector/commodity/glove-canari-unwrought#rate-1558-inward-489",
-      "type": "Rate",
-      "_label": "1558 inward: Gloves voc’ Canarie gloves unwrought the grosse 16s",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "192",
-        "lsd": "16s"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 144,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/gross",
-          "type": "MeasurementUnit",
-          "_label": "gross"
-        }
-      },
-      "validFrom": "1558",
-      "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 489 (transcribed by Stuart Jenks): 'Gloves voc’ Canarie gloves unwrought the grosse' 16s"
-    }
-  ]
+  "isReplacedBy": {
+    "id": "https://w3id.org/hector/commodity/glove",
+    "type": "Type"
+  }
 }

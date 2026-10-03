@@ -5,6 +5,7 @@
 @prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/hector/commodity/mockado> a crm:E55_Type ;
@@ -139,6 +140,9 @@ aat:300411998 a crm:E98_Currency ;
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
+wd:Q157070 a crm:E53_Place ;
+    rdfs:label "County of Flanders" .
+
 <https://w3id.org/hector/commodity/mockado#rate-1558-inward-713> a hector:Rate ;
     rdfs:label "1558 inward: Mockados of Flaunders making the pece 13s 4d" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -148,6 +152,12 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "making" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "County of Flanders" ;
+            hector:originPlace wd:Q157070 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 713 (transcribed by Stuart Jenks): 'Mockados of Flaunders making the pece' 13s 4d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .

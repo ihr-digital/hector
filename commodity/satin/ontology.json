@@ -409,5 +409,944 @@
     }
   ],
   "attestationCount": 1000,
-  "modified": "2026-10-03"
+  "modified": "2026-10-03",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/satin#rate-1507-none-277",
+      "type": "Rate",
+      "_label": "1507: Sattyn called ryght sattyn of all maner of coldwares wyght of crayne the yarde 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 277 (transcribed by Stuart Jenks): 'Sattyn called ryght sattyn of all maner of coldwares wyght of crayne the yarde' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "ryght",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "coldwares",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "Isle of Wight",
+          "originPlace": [
+            {
+              "id": "wd:Q9679",
+              "type": "Place",
+              "_label": "Isle of Wight"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "crayne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/satin#rate-1507-none-279",
+      "type": "Rate",
+      "_label": "1507: Sattyn crymsen cunterfett þe yard 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 279 (transcribed by Stuart Jenks): 'Sattyn crymsen cunterfett þe yard' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "crimson",
+          "equivalent": [
+            {
+              "id": "aat:300311345",
+              "type": "Type",
+              "_label": "crimson (color)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "cunterfett",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/satin#rate-1507-none-280",
+      "type": "Rate",
+      "_label": "1507: Sattyn ryght purled with goold the yarde 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 280 (transcribed by Stuart Jenks): 'Sattyn ryght purled with goold the yarde' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "ryght purled with goold",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/satin#rate-1507-none-281",
+      "type": "Rate",
+      "_label": "1507: Sattyn called Brydges sattyn the yarde on with another 20d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "20",
+        "lsd": "20d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 281 (transcribed by Stuart Jenks): 'Sattyn called Brydges sattyn the yarde on with another' 20d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Bruges",
+          "originPlace": [
+            {
+              "id": "wd:Q12994",
+              "type": "Place",
+              "_label": "Bruges"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/satin#rate-1507-none-282",
+      "type": "Rate",
+      "_label": "1507: Sattyn called Brydges and purled with cownterfet þe yard 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "40",
+        "lsd": "3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 282 (transcribed by Stuart Jenks): 'Sattyn called Brydges and purled with cownterfet þe yard' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Bruges",
+          "originPlace": [
+            {
+              "id": "wd:Q12994",
+              "type": "Place",
+              "_label": "Bruges"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "purled",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "counterfeit"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/satin#rate-1507-none-283",
+      "type": "Rate",
+      "_label": "1507: Sattyn of Sypres everry pece on with another the pece 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 283 (transcribed by Stuart Jenks): 'Sattyn of Sypres everry pece on with another the pece' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Cyprus",
+          "originPlace": [
+            {
+              "id": "wd:Q229",
+              "type": "Place",
+              "_label": "Cyprus"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "everry",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/satin#rate-1545-inward-633",
+      "type": "Rate",
+      "_label": "1545 inward: Satten out of grayne the yarde 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 633 (transcribed by Stuart Jenks): 'Satten out of grayne the yarde' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "out of grayne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/satin#rate-1545-inward-634",
+      "type": "Rate",
+      "_label": "1545 inward: Satten righte crymisin in grayne or purple the yarde 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 634 (transcribed by Stuart Jenks): 'Satten righte crymisin in grayne or purple the yarde' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "righte crymisin in grayne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "purple",
+          "equivalent": [
+            {
+              "id": "aat:300130257",
+              "type": "Type",
+              "_label": "purple (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/satin#rate-1545-inward-635",
+      "type": "Rate",
+      "_label": "1545 inward: Satten counterfete crymsin the yard 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 635 (transcribed by Stuart Jenks): 'Satten counterfete crymsin the yard' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "counterfeit"
+        },
+        {
+          "type": "Type",
+          "_label": "crimson",
+          "equivalent": [
+            {
+              "id": "aat:300311345",
+              "type": "Type",
+              "_label": "crimson (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/satin#rate-1545-inward-636",
+      "type": "Rate",
+      "_label": "1545 inward: Satten tynseld with gold the yarde 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 636 (transcribed by Stuart Jenks): 'Satten tynseld with gold the yarde' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "tinsel",
+          "equivalent": [
+            {
+              "id": "aat:300183933",
+              "type": "Type",
+              "_label": "tinsel"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "gold",
+          "equivalent": [
+            {
+              "id": "aat:300011021",
+              "type": "Type",
+              "_label": "gold (metal)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/satin#rate-1545-inward-637",
+      "type": "Rate",
+      "_label": "1545 inward: Satten of Bruges the yarde 20d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "20",
+        "lsd": "20d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 637 (transcribed by Stuart Jenks): 'Satten of Bruges the yarde' 20d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Bruges",
+          "originPlace": [
+            {
+              "id": "wd:Q12994",
+              "type": "Place",
+              "_label": "Bruges"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/satin#rate-1545-inward-638",
+      "type": "Rate",
+      "_label": "1545 inward: Satten of Bruges counterfete tynselde [c.v] the yarde 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "40",
+        "lsd": "3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 638 (transcribed by Stuart Jenks): 'Satten of Bruges counterfete tynselde [c.v] the yarde' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Bruges",
+          "originPlace": [
+            {
+              "id": "wd:Q12994",
+              "type": "Place",
+              "_label": "Bruges"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "counterfeit"
+        },
+        {
+          "type": "Type",
+          "_label": "tynselde",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/satin#rate-1558-inward-1071",
+      "type": "Rate",
+      "_label": "1558 inward: Satyn of Sypres the pece 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1071 (transcribed by Stuart Jenks): 'Satyn of Sypres the pece' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Cyprus",
+          "originPlace": [
+            {
+              "id": "wd:Q229",
+              "type": "Place",
+              "_label": "Cyprus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/satin#rate-1558-inward-1109",
+      "type": "Rate",
+      "_label": "1558 inward: Turquye satten the yarde 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1109 (transcribed by Stuart Jenks): 'Turquye satten the yarde' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Turquye",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/satin#rate-1558-inward-916",
+      "type": "Rate",
+      "_label": "1558 inward: Satten out of grayne the yarde 9s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "108",
+        "lsd": "9s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 916 (transcribed by Stuart Jenks): 'Satten out of grayne the yarde' 9s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "out of grayne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/satin#rate-1558-inward-917",
+      "type": "Rate",
+      "_label": "1558 inward: Satten ryght crymson or purple in grayne the yarde 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 917 (transcribed by Stuart Jenks): 'Satten ryght crymson or purple in grayne the yarde' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "ryght",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "crimson",
+          "equivalent": [
+            {
+              "id": "aat:300311345",
+              "type": "Type",
+              "_label": "crimson (color)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "purple",
+          "equivalent": [
+            {
+              "id": "aat:300130257",
+              "type": "Type",
+              "_label": "purple (color)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "grayne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/satin#rate-1558-inward-918",
+      "type": "Rate",
+      "_label": "1558 inward: Satten voc’ tynsell wyth golde the yarde 26s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "320",
+        "lsd": "26s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 918 (transcribed by Stuart Jenks): 'Satten voc’ tynsell wyth golde the yarde' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "tinsel",
+          "equivalent": [
+            {
+              "id": "aat:300183933",
+              "type": "Type",
+              "_label": "tinsel"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "gold",
+          "equivalent": [
+            {
+              "id": "aat:300011021",
+              "type": "Type",
+              "_label": "gold (metal)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/satin#rate-1558-inward-919",
+      "type": "Rate",
+      "_label": "1558 inward: Satten of Brydges the yarde 2s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "24",
+        "lsd": "2s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 919 (transcribed by Stuart Jenks): 'Satten of Brydges the yarde' 2s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Bruges",
+          "originPlace": [
+            {
+              "id": "wd:Q12994",
+              "type": "Place",
+              "_label": "Bruges"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/satin#rate-1558-inward-920",
+      "type": "Rate",
+      "_label": "1558 inward: Satten of Brydges counterfaytre tinsell the yarde 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 920 (transcribed by Stuart Jenks): 'Satten of Brydges counterfaytre tinsell the yarde' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Bruges",
+          "originPlace": [
+            {
+              "id": "wd:Q12994",
+              "type": "Place",
+              "_label": "Bruges"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "counterfaytre",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "tinsel",
+          "equivalent": [
+            {
+              "id": "aat:300183933",
+              "type": "Type",
+              "_label": "tinsel"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -5,28 +5,13 @@
 @prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/hector/commodity/cloth> a crm:E55_Type ;
     rdfs:label "cloth" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "telle" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "telə" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "tella" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "tela" ;
-            hector:validFrom "1513"^^xsd:gYear ;
-            hector:validThrough "1514"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "telum" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "telum" ;
-            hector:validFrom "1550"^^xsd:gYear ;
-            hector:validThrough "1553"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "teleis" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "teleis" ],
@@ -41,11 +26,9 @@
             hector:validFrom "1380"^^xsd:gYear ;
             hector:validThrough "1385"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "tellae" ;
+            crm:P190_has_symbolic_content "tele" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "tele" ;
-            hector:validFrom "1513"^^xsd:gYear ;
-            hector:validThrough "1514"^^xsd:gYear ],
+            hector:phoneticKey "telə" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "pann" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -63,21 +46,27 @@
             hector:validFrom "1550"^^xsd:gYear ;
             hector:validThrough "1553"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "tellae" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "tele" ;
+            hector:validFrom "1513"^^xsd:gYear ;
+            hector:validThrough "1514"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "pannus" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "panus" ;
             hector:validFrom "1380"^^xsd:gYear ;
             hector:validThrough "1385"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "tella" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "tela" ;
+            hector:validFrom "1513"^^xsd:gYear ;
+            hector:validThrough "1514"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "clothe" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kloθə" ;
-            hector:validFrom "1550"^^xsd:gYear ;
-            hector:validThrough "1553"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "tely" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "teli" ;
             hector:validFrom "1550"^^xsd:gYear ;
             hector:validThrough "1553"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
@@ -93,9 +82,21 @@
             hector:validFrom "1550"^^xsd:gYear ;
             hector:validThrough "1553"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "tely" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "teli" ;
+            hector:validFrom "1550"^^xsd:gYear ;
+            hector:validThrough "1553"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "teli" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "teli" ;
+            hector:validFrom "1550"^^xsd:gYear ;
+            hector:validThrough "1553"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "telum" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "telum" ;
             hector:validFrom "1550"^^xsd:gYear ;
             hector:validThrough "1553"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
@@ -120,6 +121,10 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kloθis" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "telle" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "telə" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cloþes" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kloθəs" ],
@@ -134,11 +139,7 @@
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "panno" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "pano" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "tele" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "telə" ] ;
+            hector:phoneticKey "pano" ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "Generally, textile that is woven, felted, knit, pounded, or otherwise made into a flat piece. For textile in the form of continuous strands made from filaments of fiber by reeling, spinning, twisting, or throwing, see \"yarn.\" [Source: Getty AAT]" ;
             crm:P2_has_type aat:300435416 ] ;
@@ -151,7 +152,36 @@
         <https://w3id.org/hector/commodity/tonnante> ;
     la:equivalent aat:300162391 ;
     hector:attestationCount 66846 ;
-    hector:taxation <https://w3id.org/hector/commodity/cloth#rate-1507-none-175> .
+    hector:taxation <https://w3id.org/hector/commodity/cloth#rate-1507-none-134>,
+        <https://w3id.org/hector/commodity/cloth#rate-1507-none-147>,
+        <https://w3id.org/hector/commodity/cloth#rate-1507-none-149>,
+        <https://w3id.org/hector/commodity/cloth#rate-1507-none-150>,
+        <https://w3id.org/hector/commodity/cloth#rate-1507-none-174>,
+        <https://w3id.org/hector/commodity/cloth#rate-1507-none-175>,
+        <https://w3id.org/hector/commodity/cloth#rate-1507-none-325>,
+        <https://w3id.org/hector/commodity/cloth#rate-1545-inward-207>,
+        <https://w3id.org/hector/commodity/cloth#rate-1545-inward-232>,
+        <https://w3id.org/hector/commodity/cloth#rate-1545-inward-233>,
+        <https://w3id.org/hector/commodity/cloth#rate-1545-inward-352>,
+        <https://w3id.org/hector/commodity/cloth#rate-1545-inward-38>,
+        <https://w3id.org/hector/commodity/cloth#rate-1545-inward-39>,
+        <https://w3id.org/hector/commodity/cloth#rate-1558-inward-1016>,
+        <https://w3id.org/hector/commodity/cloth#rate-1558-inward-123>,
+        <https://w3id.org/hector/commodity/cloth#rate-1558-inward-124>,
+        <https://w3id.org/hector/commodity/cloth#rate-1558-inward-284>,
+        <https://w3id.org/hector/commodity/cloth#rate-1558-inward-339>,
+        <https://w3id.org/hector/commodity/cloth#rate-1558-inward-340>,
+        <https://w3id.org/hector/commodity/cloth#rate-1558-inward-341>,
+        <https://w3id.org/hector/commodity/cloth#rate-1558-inward-342>,
+        <https://w3id.org/hector/commodity/cloth#rate-1558-inward-343>,
+        <https://w3id.org/hector/commodity/cloth#rate-1558-inward-359>,
+        <https://w3id.org/hector/commodity/cloth#rate-1558-inward-360>,
+        <https://w3id.org/hector/commodity/cloth#rate-1558-inward-465>,
+        <https://w3id.org/hector/commodity/cloth#rate-1558-inward-466>,
+        <https://w3id.org/hector/commodity/cloth#rate-1558-inward-532>,
+        <https://w3id.org/hector/commodity/cloth#rate-1558-inward-536>,
+        <https://w3id.org/hector/commodity/cloth#rate-1558-inward-537>,
+        <https://w3id.org/hector/commodity/cloth#rate-1558-inward-624> .
 
 aat:300162391 a crm:E55_Type ;
     rdfs:label "cloth" .
@@ -159,11 +189,121 @@ aat:300162391 a crm:E55_Type ;
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
 
-aat:300411998 a crm:E98_Currency ;
-    rdfs:label "pound sterling (system of money)" .
-
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
+
+wd:Q12130 a crm:E53_Place ;
+    rdfs:label "Brittany" .
+
+wd:Q1296 a crm:E53_Place ;
+    rdfs:label "Ghent" .
+
+wd:Q142 a crm:E53_Place ;
+    rdfs:label "France" .
+
+wd:Q15878 a crm:E53_Place ;
+    rdfs:label "Normandy" .
+
+wd:Q239 a crm:E53_Place ;
+    rdfs:label "City of Brussels" .
+
+<https://w3id.org/hector/commodity/cloth#rate-1507-none-134> a hector:Rate ;
+    rdfs:label "1507: Hastrey clothe called browne Hastrey the 100 elles 30s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "30s" ;
+            hector:valueInPence 360.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Hastrey" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "brown" ;
+            la:equivalent aat:300127490 ] ;
+    hector:sourceText "Book of Rates 1507, line 134 (transcribed by Stuart Jenks): 'Hastrey clothe called browne Hastrey the 100 elles' 30s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1507-none-147> a hector:Rate ;
+    rdfs:label "1507: Lyneng clothe caled Camemerycke the pece 26s 3d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "26s 3d" ;
+            hector:valueInPence 315.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Lyneng" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "caled Camemerycke" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 147 (transcribed by Stuart Jenks): 'Lyneng clothe caled Camemerycke the pece' 26s 3d" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1507-none-149> a hector:Rate ;
+    rdfs:label "1507: Lynynge clothe called Brabond þe pece 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Brabond" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "Lynynge" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 149 (transcribed by Stuart Jenks): 'Lynynge clothe called Brabond þe pece' 13s 4d" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1507-none-150> a hector:Rate ;
+    rdfs:label "1507: Lynynge clothe called ryght Brusell, cunterfet Brusell the pece 11s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "11s" ;
+            hector:valueInPence 132.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "cunterfet" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "Lynynge" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "ryght" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "City of Brussels" ;
+            hector:originPlace wd:Q239 ] ;
+    hector:sourceText "Book of Rates 1507, line 150 (transcribed by Stuart Jenks): 'Lynynge clothe called ryght Brusell, cunterfet Brusell the pece' 11s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1507-none-174> a hector:Rate ;
+    rdfs:label "1507: Mynster clothe the C containing 240 elles 40s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "40s" ;
+            hector:valueInPence 480.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Münster" ;
+            hector:originPlace wd:Q2742 ] ;
+    hector:sourceText "Book of Rates 1507, line 174 (transcribed by Stuart Jenks): 'Mynster clothe the C containing 240 elles' 40s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/cloth#rate-1507-none-175> a hector:Rate ;
     rdfs:label "1507: Mynster clothe the rowlle £10" ;
@@ -174,9 +314,424 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/roll> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Münster" ;
+            hector:originPlace wd:Q2742 ] ;
     hector:sourceText "Book of Rates 1507, line 175 (transcribed by Stuart Jenks): 'Mynster clothe the rowlle' £10" ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1507-none-325> a hector:Rate ;
+    rdfs:label "1507: Whyte Normandy clothe 100 elles 40s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "40s" ;
+            hector:valueInPence 480.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Normandy" ;
+            hector:originPlace wd:Q15878 ],
+        [ a crm:E55_Type ;
+            rdfs:label "white" ;
+            la:equivalent aat:300129784 ] ;
+    hector:sourceText "Book of Rates 1507, line 325 (transcribed by Stuart Jenks): 'Whyte Normandy clothe 100 elles' 40s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1545-inward-207> a hector:Rate ;
+    rdfs:label "1545 inward: Callico clothe the pece 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Callico" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 207 (transcribed by Stuart Jenks): 'Callico clothe the pece' 20s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1545-inward-232> a hector:Rate ;
+    rdfs:label "1545 inward: Doughlas, Bretysshe clothe, creste clothe or lokeram conteynyng 5 score elles 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/ell> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "creste" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "lokeram conteynyng" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "Doughlas Bretysshe" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 232 (transcribed by Stuart Jenks): 'Doughlas, Bretysshe clothe, creste clothe or lokeram conteynyng 5 score elles' 20s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1545-inward-233> a hector:Rate ;
+    rdfs:label "1545 inward: Dyoper table cloth the pece 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Dyoper table" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 233 (transcribed by Stuart Jenks): 'Dyoper table cloth the pece' 20s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1545-inward-352> a hector:Rate ;
+    rdfs:label "1545 inward: Hasborough clothe the 100 eles 40s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "40s" ;
+            hector:valueInPence 480.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Hazebrouck" ;
+            hector:originPlace wd:Q11131 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 352 (transcribed by Stuart Jenks): 'Hasborough clothe the 100 eles' 40s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1545-inward-38> a hector:Rate ;
+    rdfs:label "1545 inward: Bresill cloth the pece 11s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "11s" ;
+            hector:valueInPence 132.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Bresill" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 38 (transcribed by Stuart Jenks): 'Bresill cloth the pece' 11s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1545-inward-39> a hector:Rate ;
+    rdfs:label "1545 inward: Bretisshe cloth, the pece conteinynge 5 score elles 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Bretisshe" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 39 (transcribed by Stuart Jenks): 'Bretisshe cloth, the pece conteinynge 5 score elles' 20s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1558-inward-1016> a hector:Rate ;
+    rdfs:label "1558 inward: Styched cloth to worke on, the elle 20d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20d" ;
+            hector:valueInPence 20.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/ell> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Styched" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "worked" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 1016 (transcribed by Stuart Jenks): 'Styched cloth to worke on, the elle' 20d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1558-inward-123> a hector:Rate ;
+    rdfs:label "1558 inward: Brisell clothe the pece 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Brisell" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 123 (transcribed by Stuart Jenks): 'Brisell clothe the pece' 20s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1558-inward-124> a hector:Rate ;
+    rdfs:label "1558 inward: Bretishe clothe thole pece cont’ 5 score elles 33s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "33s 4d" ;
+            hector:valueInPence 400.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Brittany" ;
+            hector:originPlace wd:Q12130 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 124 (transcribed by Stuart Jenks): 'Bretishe clothe thole pece cont’ 5 score elles' 33s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1558-inward-284> a hector:Rate ;
+    rdfs:label "1558 inward: Clothe of Calycowe the peace 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Calycowe" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 284 (transcribed by Stuart Jenks): 'Clothe of Calycowe the peace' 6s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1558-inward-339> a hector:Rate ;
+    rdfs:label "1558 inward: Clothes of gold playne the yearde 26s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "26s 8d" ;
+            hector:valueInPence 320.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/yard> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "plain" ],
+        [ a crm:E55_Type ;
+            rdfs:label "gold" ;
+            la:equivalent aat:300011021 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 339 (transcribed by Stuart Jenks): 'Clothes of gold playne the yearde' 26s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1558-inward-340> a hector:Rate ;
+    rdfs:label "1558 inward: Clothe of gold wrought the yerde 40s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "40s" ;
+            hector:valueInPence 480.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/yard> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "worked" ],
+        [ a crm:E55_Type ;
+            rdfs:label "gold" ;
+            la:equivalent aat:300011021 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 340 (transcribed by Stuart Jenks): 'Clothe of gold wrought the yerde' 40s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1558-inward-341> a hector:Rate ;
+    rdfs:label "1558 inward: Cloth of sylver playne the yearde 26s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "26s 8d" ;
+            hector:valueInPence 320.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/yard> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "plain" ],
+        [ a crm:E55_Type ;
+            rdfs:label "sylver" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 341 (transcribed by Stuart Jenks): 'Cloth of sylver playne the yearde' 26s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1558-inward-342> a hector:Rate ;
+    rdfs:label "1558 inward: Clothe of sylver wrought the yeard 40s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "40s" ;
+            hector:valueInPence 480.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/yard> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "worked" ],
+        [ a crm:E55_Type ;
+            rdfs:label "sylver" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 342 (transcribed by Stuart Jenks): 'Clothe of sylver wrought the yeard' 40s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1558-inward-343> a hector:Rate ;
+    rdfs:label "1558 inward: Clothe of tyssue the yearde 66s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "66s 8d" ;
+            hector:valueInPence 800.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/yard> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "tissue" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 343 (transcribed by Stuart Jenks): 'Clothe of tyssue the yearde' 66s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1558-inward-359> a hector:Rate ;
+    rdfs:label "1558 inward: Diapor table clothe the pece cont’ 20 yerdes 40s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "40s" ;
+            hector:valueInPence 480.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Diapor table" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 359 (transcribed by Stuart Jenks): 'Diapor table clothe the pece cont’ 20 yerdes' 40s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1558-inward-360> a hector:Rate ;
+    rdfs:label "1558 inward: Diapor table clothe the yearde 2s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "2s" ;
+            hector:valueInPence 24.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/yard> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Diapor table" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 360 (transcribed by Stuart Jenks): 'Diapor table clothe the yearde' 2s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1558-inward-465> a hector:Rate ;
+    rdfs:label "1558 inward: Frenche wollen cloth the pece cont’ 12 yardes £6" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£6" ;
+            hector:valueInPence 1440.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "France" ;
+            hector:originPlace wd:Q142 ],
+        [ a crm:E55_Type ;
+            rdfs:label "wool" ;
+            la:equivalent aat:300243430 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 465 (transcribed by Stuart Jenks): 'Frenche wollen cloth the pece cont’ 12 yardes' £6" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1558-inward-466> a hector:Rate ;
+    rdfs:label "1558 inward: Florence wollen cloth the yarde 5s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "5s" ;
+            hector:valueInPence 60.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/yard> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "florauns" ],
+        [ a crm:E55_Type ;
+            rdfs:label "wool" ;
+            la:equivalent aat:300243430 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 466 (transcribed by Stuart Jenks): 'Florence wollen cloth the yarde' 5s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1558-inward-532> a hector:Rate ;
+    rdfs:label "1558 inward: Gentishe cloth the pece 24s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "24s" ;
+            hector:valueInPence 288.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Ghent" ;
+            hector:originPlace wd:Q1296 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 532 (transcribed by Stuart Jenks): 'Gentishe cloth the pece' 24s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1558-inward-536> a hector:Rate ;
+    rdfs:label "1558 inward: Hasbrough cloth white the C elles cont’ 5 score 50s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "50s" ;
+            hector:valueInPence 600.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Hazebrouck" ;
+            hector:originPlace wd:Q11131 ],
+        [ a crm:E55_Type ;
+            rdfs:label "white" ;
+            la:equivalent aat:300129784 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 536 (transcribed by Stuart Jenks): 'Hasbrough cloth white the C elles cont’ 5 score' 50s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1558-inward-537> a hector:Rate ;
+    rdfs:label "1558 inward: Hasbrough cloth browne the C elles cont’ 5 score 40s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "40s" ;
+            hector:valueInPence 480.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Hazebrouck" ;
+            hector:originPlace wd:Q11131 ],
+        [ a crm:E55_Type ;
+            rdfs:label "brown" ;
+            la:equivalent aat:300127490 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 537 (transcribed by Stuart Jenks): 'Hasbrough cloth browne the C elles cont’ 5 score' 40s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cloth#rate-1558-inward-624> a hector:Rate ;
+    rdfs:label "1558 inward: Isingham cloth the pece 24s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "24s" ;
+            hector:valueInPence 288.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "hesigham" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 624 (transcribed by Stuart Jenks): 'Isingham cloth the pece' 24s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/pentice-cloth> a crm:E55_Type ;
     rdfs:label "pentice cloth" .
@@ -201,6 +756,39 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/mlca/glossary/cloth> a crm:E55_Type ;
     rdfs:label "cloth (London Customs Accounts glossary)" .
+
+aat:300011021 a crm:E55_Type ;
+    rdfs:label "gold (metal)" .
+
+aat:300127490 a crm:E55_Type ;
+    rdfs:label "brown (color)" .
+
+aat:300129784 a crm:E55_Type ;
+    rdfs:label "white (color)" .
+
+aat:300243430 a crm:E55_Type ;
+    rdfs:label "wool (textile)" .
+
+wd:Q2742 a crm:E53_Place ;
+    rdfs:label "Münster" .
+
+<https://w3id.org/hector/unit/ell> a crm:E58_Measurement_Unit ;
+    rdfs:label "ell" .
+
+wd:Q11131 a crm:E53_Place ;
+    rdfs:label "Hazebrouck" .
+
+<https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
+    rdfs:label "hundred" .
+
+<https://w3id.org/hector/unit/yard> a crm:E58_Measurement_Unit ;
+    rdfs:label "yard" .
+
+<https://w3id.org/hector/unit/pecia> a crm:E58_Measurement_Unit ;
+    rdfs:label "pecia" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

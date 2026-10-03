@@ -8,36 +8,29 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_bead_cb187d567917341334d6cf1d8263f4d505beeb159e0e66b0ce828de8fca4cbef242">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>40s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bead#rate-1507-none-15">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1507: Bedes the smalle grosse 6d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_bead_cb7d968239c6d01473ebebe58db6563657e027aab0f6a1ca6f975bdfdc23b8fa61"/>
-    <hector:perQuantity rdf:nodeID="commodity_bead_cb37c7d7746513cb807620cc92a2b0d60d4c3382e00a8bf9d37b041188aa4463b9"/>
-    <hector:sourceText>Book of Rates 1507, line 15 (transcribed by Stuart Jenks): 'Bedes the smalle grosse' 6d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_bead_cb17d78cbb2f251e301a94a3d3cca6190b0f8297253e40415778e7ed3adc8d79526">
+    <crm:P190_has_symbolic_content>beydes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>beidəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/bead">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bead_cb11fc3280b0e1258141939fb162864e7656afe0492f0e4188ae42be70db327ce00"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bead_cb14a046e05b7e8a67a823b7296af4a7d42da793d725d55bb67543c33efb94e7c11"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bead_cb1543fbd19a2d4bae55d221546fc63e61710aa972d33f2498fe231a22f0366096a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bead_cb1f5ccbde1df51d3098599c859307e0b84bba095d49ea59ba6d544678ac363a7e9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bead_cb2224424d648e5a9f54617de8f80241d02fb35cc7820adfe2938e955ab83ba54f5"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bead_cb26d011f4bc8d8d3e544708559877ff4704d01cd43ab40c32b5d0d73963cde4d91"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bead_cb274bc62e1dfd0eb201bfe091e6f7e007fe4f14c3269f9e2fd5b971180d5b5067c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bead_cb361fb8306376286f2cd04ed114d23a4673e5f60f2ff427636c4a3a622687980c6"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bead_cb93ecdd03b6aaa4181c239c7a1a9a45846f063581719439c1fe6b7b4cdce7262c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bead_cb96802f4845bcd4466f3d03016f4324e9c8a5605635b5829f936f5274388b47ba"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bead_cbc0ffabc9711041d8fe80986e40e9d63384df64cd3ea394ab4c1170abdba744b0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bead_cbe2ffc6ef68517dcb05495e300f0b2c64b7d7544966dad51e7f852783c4162d2e"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_bead_cb634411350745d1bdddfa3c4147d4bc7d94c497200e3f9bce6bcfa066ff274973"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bead_cb12e1913168144bef5ec4eb144d89c9e67529dede25e7ec779956e1279c1d4f31f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bead_cb13ed45d0ce13c0e4cfad79e24c495d88e0b3cb13594e9dd4d216c4b8ed67f0f89"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bead_cb1786ba4db4ef9076cefd2cb1f599280751078af32e9aa33197f03228e518cc6a6"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bead_cb17d78cbb2f251e301a94a3d3cca6190b0f8297253e40415778e7ed3adc8d79526"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bead_cb18d7537a7c034f8b6920c912b350b3b5d43ed35ee91690ac027faa8d8db0d8912"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bead_cb18f19bdce31f6cae622215885dc9bfca88328953b6a1f853cb62392b29e8f73c9"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bead_cb28c12544d9c028a1e260e286823b0e598ed4079e64f4687ed9a4dd81760358f1a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bead_cb293cd97e3b2faa158fd9bac2d0baef1a8852ff8d50dffa7bf98d77601f90c4805"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bead_cb2e723a95bc5924456b5e956532b4e5f8f137aad776c34da0e44b67c942ba28778"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bead_cb329a6167ce3ce8df9068de02bec6a336c48b241e026dac1980e0b4998b7248410"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bead_cb3810cb8080a8c3d2baea2901fe954958fde9e0d95a3483af901e40aa38bd0c24f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bead_cbe010e0cb4439f811e01e3b7cdd1ac75c251e116fe2a9596d8951d52cfefe8639"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_bead_cb160bc18018252c62965f2629eae0f3e24d6d38edb826a77709858c9faec14578b"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>bead</rdfs:label>
     <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/bead"/>
@@ -49,9 +42,85 @@
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300234006"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">850</hector:attestationCount>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bead#rate-1507-none-15"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bead#rate-1545-inward-69"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bead#rate-1545-inward-70"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bead#rate-1545-inward-71"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bead#rate-1558-inward-306"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bead#rate-1558-inward-78"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bead#rate-1558-inward-79"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bead#rate-1558-inward-80"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bead_cb1f5ccbde1df51d3098599c859307e0b84bba095d49ea59ba6d544678ac363a7e9">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bead#rate-1558-inward-80">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Beades of boxe the grosse 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bead_cb2fa4d8aadaeb2964caea9c860acc68102e34f9534ccec8b96275b3405af38b68e"/>
+    <hector:perQuantity rdf:nodeID="commodity_bead_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 80 (transcribed by Stuart Jenks): 'Beades of boxe the grosse' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cb12e1913168144bef5ec4eb144d89c9e67529dede25e7ec779956e1279c1d4f31f">
+    <crm:P190_has_symbolic_content>beedes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>beːdəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cb18d7537a7c034f8b6920c912b350b3b5d43ed35ee91690ac027faa8d8db0d8912">
+    <crm:P190_has_symbolic_content>beyd</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>beid</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cb3810cb8080a8c3d2baea2901fe954958fde9e0d95a3483af901e40aa38bd0c24f">
+    <crm:P190_has_symbolic_content>bed</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bed</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cb1f96d908012c8ade43ed525eb8758aa0a6da1256e639508e3399d4c46cefe0148">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oryngebed">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>oryngebed</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bead#rate-1558-inward-306">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Crystall beades the thowsande 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bead_cb2d654621bed0a5dbd3f006e99ac329d9b7f6b18e509f0bce362b2258bf9b44bb0"/>
+    <hector:perQuantity rdf:nodeID="commodity_bead_cb108be58e64734dbb1b95f32dd58419ca0aff449e40eaaa18bc5ad58a93e22758d"/>
+    <hector:qualifier rdf:nodeID="commodity_bead_cb245c118d8524c49e38af28cf0f21f534ca8ff8c924e4ba726c4408173863a21ea"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 306 (transcribed by Stuart Jenks): 'Crystall beades the thowsande' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cb225dd54aa7a5ea17a18f7201bd35f1d4a633e093a191394bf37fa60a0919aa282">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/trebedes">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>trebedes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/thousand">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>thousand</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cb2e723a95bc5924456b5e956532b4e5f8f137aad776c34da0e44b67c942ba28778">
     <crm:P190_has_symbolic_content>bead</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -60,68 +129,28 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300234006">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>beads (pierced objects)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bead#rate-1558-inward-306">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bead#rate-1545-inward-70">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Crystall beades the thowsande 40s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_bead_cb187d567917341334d6cf1d8263f4d505beeb159e0e66b0ce828de8fca4cbef242"/>
-    <hector:perQuantity rdf:nodeID="commodity_bead_cbca6add30ce2e0caa441b254810acb6510ac37deeb5391a3e0e21d736f7d655d"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 306 (transcribed by Stuart Jenks): 'Crystall beades the thowsande' 40s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+    <rdfs:label>1545 inward: Bone bedes the groce 2s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bead_cb27e759b0051303271de866920b2d03706767d2156e2fbf401d1380cffeaca63f2"/>
+    <hector:perQuantity rdf:nodeID="commodity_bead_cb14d49fb5f4e09961d9bad27f273492eedf6f654f8cf0603acf88750ab63b33eed"/>
+    <hector:qualifier rdf:nodeID="commodity_bead_cb1f3e1f6b3efb745b4843801de3a5bc8d15b9d72e3b06ebb8ca3e871aa3c806856"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 70 (transcribed by Stuart Jenks): 'Bone bedes the groce' 2s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/gaud">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>gaud</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_bead_cb108be58e64734dbb1b95f32dd58419ca0aff449e40eaaa18bc5ad58a93e22758d">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/thousand"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bead_cbe2ffc6ef68517dcb05495e300f0b2c64b7d7544966dad51e7f852783c4162d2e">
-    <crm:P190_has_symbolic_content>beedes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>beːdəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bead_cbc0ffabc9711041d8fe80986e40e9d63384df64cd3ea394ab4c1170abdba744b0">
-    <crm:P190_has_symbolic_content>bedes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bedəs</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bead_cb7d968239c6d01473ebebe58db6563657e027aab0f6a1ca6f975bdfdc23b8fa61">
+  <rdf:Description rdf:nodeID="commodity_bead_cb24037bf2f28d3323d3979f9117b28171291ad705b5c6bf7fbc8d06c4566ee7553">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>6d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</hector:valueInPence>
+    <hector:lsd>5s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bead_cb14a046e05b7e8a67a823b7296af4a7d42da793d725d55bb67543c33efb94e7c11">
-    <crm:P190_has_symbolic_content>beyd</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>beid</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bead_cb274bc62e1dfd0eb201bfe091e6f7e007fe4f14c3269f9e2fd5b971180d5b5067c">
-    <crm:P190_has_symbolic_content>bedis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bedis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bead_cb26d011f4bc8d8d3e544708559877ff4704d01cd43ab40c32b5d0d73963cde4d91">
+  <rdf:Description rdf:nodeID="commodity_bead_cb28c12544d9c028a1e260e286823b0e598ed4079e64f4687ed9a4dd81760358f1a">
     <crm:P190_has_symbolic_content>bedys</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -129,92 +158,42 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bead_cb2224424d648e5a9f54617de8f80241d02fb35cc7820adfe2938e955ab83ba54f5">
-    <crm:P190_has_symbolic_content>beades</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bɛːdəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/paternoster">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
+    <rdfs:label>paternoster</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/precula">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>precula</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bead_cb634411350745d1bdddfa3c4147d4bc7d94c497200e3f9bce6bcfa066ff274973">
-    <crm:P190_has_symbolic_content>Refers to small objects, of any shape or material, pierced so that they may be strung or hung or attached, as by sewing. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bead_cb96802f4845bcd4466f3d03016f4324e9c8a5605635b5829f936f5274388b47ba">
-    <crm:P190_has_symbolic_content>beede</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>beːdə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>gross</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/trebedes">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>trebedes</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/oryngebed">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>oryngebed</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bead_cb11fc3280b0e1258141939fb162864e7656afe0492f0e4188ae42be70db327ce00">
+  <rdf:Description rdf:nodeID="commodity_bead_cb13ed45d0ce13c0e4cfad79e24c495d88e0b3cb13594e9dd4d216c4b8ed67f0f89">
     <crm:P190_has_symbolic_content>bede</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>bedə</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bead_cbca6add30ce2e0caa441b254810acb6510ac37deeb5391a3e0e21d736f7d655d">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/thousand"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bead_cb361fb8306376286f2cd04ed114d23a4673e5f60f2ff427636c4a3a622687980c6">
-    <crm:P190_has_symbolic_content>bed</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bed</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bead_cb93ecdd03b6aaa4181c239c7a1a9a45846f063581719439c1fe6b7b4cdce7262c">
-    <crm:P190_has_symbolic_content>beydes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>beidəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/bead">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>bead (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/paternoster">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>paternoster</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bead_cb37c7d7746513cb807620cc92a2b0d60d4c3382e00a8bf9d37b041188aa4463b9">
+  <rdf:Description rdf:nodeID="commodity_bead_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bead_cb1543fbd19a2d4bae55d221546fc63e61710aa972d33f2498fe231a22f0366096a">
+  <rdf:Description rdf:nodeID="commodity_bead_cb2d654621bed0a5dbd3f006e99ac329d9b7f6b18e509f0bce362b2258bf9b44bb0">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bead#rate-1545-inward-69">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Beades of wode the groce 12d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bead_cb28833ed497e3ecfd7fd9ed1ab2a769950903be2c95a8f58314dc12f83abbca871"/>
+    <hector:perQuantity rdf:nodeID="commodity_bead_cb1dc52c254fe103246f3d5e6dc6365a5fb7adaec4fe4ecafb691051d14350b03e8"/>
+    <hector:qualifier rdf:nodeID="commodity_bead_cb3112f1ec6bd600c6328a4417f02c450ed8fa683ba3afe96a72df3ecc7a73f3bb3"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 69 (transcribed by Stuart Jenks): 'Beades of wode the groce' 12d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300234006">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>beads (pierced objects)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cb1786ba4db4ef9076cefd2cb1f599280751078af32e9aa33197f03228e518cc6a6">
     <crm:P190_has_symbolic_content>beade</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -222,8 +201,193 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/thousand">
+  <rdf:Description rdf:nodeID="commodity_bead_cb245c118d8524c49e38af28cf0f21f534ca8ff8c924e4ba726c4408173863a21ea">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Crystall</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cb1f3e1f6b3efb745b4843801de3a5bc8d15b9d72e3b06ebb8ca3e871aa3c806856">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>bone</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300011798"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cb329a6167ce3ce8df9068de02bec6a336c48b241e026dac1980e0b4998b7248410">
+    <crm:P190_has_symbolic_content>beades</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bɛːdəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cb34ddf91f7e79d59531cfa9336c999ea916b679504ae05a734bd486ed972d13ef5">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>3s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bead#rate-1545-inward-71">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Bedes in boxes the groce 3s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bead_cb34ddf91f7e79d59531cfa9336c999ea916b679504ae05a734bd486ed972d13ef5"/>
+    <hector:perQuantity rdf:nodeID="commodity_bead_cb10d987149e5497a0c410e11ca0c86fa9daf23005f594b042c3e20319d3649817b"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 71 (transcribed by Stuart Jenks): 'Bedes in boxes the groce' 3s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cb14d49fb5f4e09961d9bad27f273492eedf6f654f8cf0603acf88750ab63b33eed">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cb18f19bdce31f6cae622215885dc9bfca88328953b6a1f853cb62392b29e8f73c9">
+    <crm:P190_has_symbolic_content>beede</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>beːdə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cb2fa4d8aadaeb2964caea9c860acc68102e34f9534ccec8b96275b3405af38b68e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cb27e759b0051303271de866920b2d03706767d2156e2fbf401d1380cffeaca63f2">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cb28833ed497e3ecfd7fd9ed1ab2a769950903be2c95a8f58314dc12f83abbca871">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>12d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/bead">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>bead (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/gaud">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gaud</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bead#rate-1558-inward-78">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Beades of woodde of all sortes the grosse 5s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bead_cb24037bf2f28d3323d3979f9117b28171291ad705b5c6bf7fbc8d06c4566ee7553"/>
+    <hector:perQuantity rdf:nodeID="commodity_bead_cb18eb3526d53417bdab1be2614f67169174a3302abe15de6985ea7b347e39fa462"/>
+    <hector:qualifier rdf:nodeID="commodity_bead_cb1470cf79885442eaf027390b5154df9a06309df29293309b29f358e28a11966f0"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 78 (transcribed by Stuart Jenks): 'Beades of woodde of all sortes the grosse' 5s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>thousand</rdfs:label>
+    <rdfs:label>gross</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cbe010e0cb4439f811e01e3b7cdd1ac75c251e116fe2a9596d8951d52cfefe8639">
+    <crm:P190_has_symbolic_content>bedes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bedəs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cb3112f1ec6bd600c6328a4417f02c450ed8fa683ba3afe96a72df3ecc7a73f3bb3">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>wood</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300011914"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bead#rate-1558-inward-79">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Beades of bone the grosse 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bead_cb36ba4c0227632eab0cd807cc29a1eb23baee4d2904998a122e1b802e330401b8c"/>
+    <hector:perQuantity rdf:nodeID="commodity_bead_cb1f96d908012c8ade43ed525eb8758aa0a6da1256e639508e3399d4c46cefe0148"/>
+    <hector:qualifier rdf:nodeID="commodity_bead_cb1d573d072d40ab9eeff65ddf5e6c558eb378cc78005aa1fcbb892764365d5e9e3"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 79 (transcribed by Stuart Jenks): 'Beades of bone the grosse' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cb18eb3526d53417bdab1be2614f67169174a3302abe15de6985ea7b347e39fa462">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cb293cd97e3b2faa158fd9bac2d0baef1a8852ff8d50dffa7bf98d77601f90c4805">
+    <crm:P190_has_symbolic_content>bedis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bedis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bead#rate-1507-none-15">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Bedes the smalle grosse 6d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bead_cb225dd54aa7a5ea17a18f7201bd35f1d4a633e093a191394bf37fa60a0919aa282"/>
+    <hector:perQuantity rdf:nodeID="commodity_bead_cb14dadcdcab6bbe7e2f40dd8da3f1c6c4aba8ab041b6f794b411306d1f8df586c3"/>
+    <hector:sourceText>Book of Rates 1507, line 15 (transcribed by Stuart Jenks): 'Bedes the smalle grosse' 6d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cb160bc18018252c62965f2629eae0f3e24d6d38edb826a77709858c9faec14578b">
+    <crm:P190_has_symbolic_content>Refers to small objects, of any shape or material, pierced so that they may be strung or hung or attached, as by sewing. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cb14dadcdcab6bbe7e2f40dd8da3f1c6c4aba8ab041b6f794b411306d1f8df586c3">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cb1d573d072d40ab9eeff65ddf5e6c558eb378cc78005aa1fcbb892764365d5e9e3">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>bone</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300011798"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cb1dc52c254fe103246f3d5e6dc6365a5fb7adaec4fe4ecafb691051d14350b03e8">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300011798">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>bone (material)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cb10d987149e5497a0c410e11ca0c86fa9daf23005f594b042c3e20319d3649817b">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cb1470cf79885442eaf027390b5154df9a06309df29293309b29f358e28a11966f0">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>woodde</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bead_cb36ba4c0227632eab0cd807cc29a1eb23baee4d2904998a122e1b802e330401b8c">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/precula">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>precula</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300011914">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>wood (plant material)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

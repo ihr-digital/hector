@@ -8,54 +8,222 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_canvas_cb10b08148e743c7a3fdcb06bc49dbb06fa02e4fc47e9ca3eae1df3bfdeb5238295">
-    <crm:P190_has_symbolic_content>canvas</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kanvas</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_canvas_cb15a044cfa413def0a13ad5409f06f5fbca9ddc99396fc096bd45f8cde85e0a915">
-    <crm:P190_has_symbolic_content>canvys</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kanvis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_canvas_cb33a1a12d1d2ed86f33646ceffea3e538f4afa18b5175aedee8ef8e5765d97226d">
-    <crm:P190_has_symbolic_content>canvaz</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kanvaz</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_canvas_cb1d6a43f5f9f4980bacf8fa82119a80c70502d1e2bdad132c19449a8850ea9b21e">
-    <crm:P190_has_symbolic_content>cambrium</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kambrium</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1558-inward-180">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1545-inward-128">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Canvas the bolte 5s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_canvas_cb22fca5254808429f9a4667b09b6ff828b12cb8a3ad66f75b1e2809154aa8813b0"/>
-    <hector:perQuantity rdf:nodeID="commodity_canvas_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 180 (transcribed by Stuart Jenks): 'Canvas the bolte' 5s</hector:sourceText>
+    <rdfs:label>1545 inward: Canvas called Barras the hundreth elles 26s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb283fcc0017941f8cdbcb4ba67df7c8af1867799255b1738e0b032becbdd96e58e"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb15bf3f0adc23e503a6e3a0d77b755693ead89c066ced92bfa8259e9ec7b8e7d6d"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb14f694e5b3f43e4a92592de230a245177e01f1aee8587f35baa72c7b6f61ce86a"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 128 (transcribed by Stuart Jenks): 'Canvas called Barras the hundreth elles' 26s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1545-inward-505">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Normandy canvas browne the 100 elles 30s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb19007ff08a7627459134ff0308a3058466491ce4b64abbcae026f2a2f166f4a68"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb20f05c64af0cc99198ac18b7a1059a7b7076a0b33cc6a2cdd2193792987196f71"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb14796d4765fbd9139da645ff29fb2439ab4a1f3f7ac98522501be2d84d4d55dd3"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb1fd7f26ea48e0d2fd8c7e61d83c0e4bf6d75169022b1a676ea747db9d66ae16f7"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 505 (transcribed by Stuart Jenks): 'Normandy canvas browne the 100 elles' 30s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1558-inward-288">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Canvas voc’ workynge canvas elle broade, the C ells conteynynge fyve score £4 3s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb2bc79ba5e720b8fc25f98eb96d0662c4ef4178cd4d0eafd07854ff6b29bc0cac7"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb1e16aeff14244496ebce7dd0620b9d2543e2e60d5f07daa282c03e9cd1fb3a375"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb12c4c6f8b627eb11895daa2bfa7a5bc8b23be74c014b357f77f58bad709e5e89d"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb15568497b5217ce0e621c71035d6bf2f64be9473780e997f48a1cb3905db448bc"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 288 (transcribed by Stuart Jenks): 'Canvas voc’ workynge canvas elle broade, the C ells conteynynge fyve score' £4 3s 4d</hector:sourceText>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1507-none-39">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Canvas called Parrys canvas the 100 elles 26s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb1de19b3ca4a362f4015d9c584181ba10bc966ee030d0c216f77b246e29b8668e1"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb1b8a4929a3058dab4815dc21ded27d6b7d3bdab116522afe4950637edca445eaf"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb1f8ad02917ba22b4fd3bfb7a5b499a2c4afebd600ca60e8122996376711e54fdf"/>
+    <hector:sourceText>Book of Rates 1507, line 39 (transcribed by Stuart Jenks): 'Canvas called Parrys canvas the 100 elles' 26s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1fd7f26ea48e0d2fd8c7e61d83c0e4bf6d75169022b1a676ea747db9d66ae16f7">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
+    <rdfs:label>brown</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300127490"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1545-inward-508">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Neucastell canvas the 100 elles 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb3493d0909df5f394ef55706cfb609d38bd0b7f41b259e2224274faa7d05f62d1b"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb1ecb4b07538161937683f693a954bd9c71f9293a99a0ef2e9a6797db6be3678aa"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb1ba4da7cea165a84e58c36706404a7a935e4bd4732f17f6ac231f3acb1c7ed0dd"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 508 (transcribed by Stuart Jenks): 'Neucastell canvas the 100 elles' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1545-inward-129">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Canvas called Sprewce canvas the hundreth elles 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb346786e82af55c41e5c9107317bc1f67f7fde308293b655e5d6bac6896d5bde47"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb1d0b403650a954ffd0b3b43da9063771b756017cc9fb4ad383606242e5ae1829f"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb1f156c26e9a17e48f6e9baf09e323a14577ec98695a139533268549b7382a9cd2"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 129 (transcribed by Stuart Jenks): 'Canvas called Sprewce canvas the hundreth elles' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb17bf70d4b3e42f2aec1d026559690a75c4f2f7e2711f7b4594af16a781789dcb1">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1b0adf6579f40e3865f3774fa03a6773cfb495ee99c4bc6352ad2b59b70becf5a">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>striped</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1e7a09b5687b57e4cf0bd3f0dae8e2ff3cb5807f7fef34ca8df8baad6f12d68f5">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>30s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1212520b625472ce162091dfcee1fa9f246df4c6b892b821eeba736c4c23f4a28">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Vytory</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1a2b704f3b824759e50c863c1238e50b93387bdcc7dfbbabefaa97d8479cc1d47">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>narrow</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1558-inward-287">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Canvas voc’ workynge canvas narrowe the C elles cont’ fyve score 50s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb2cf9e1f8cc627c557981fee867b3758160f721a60150fd602cf82f0cbb618a000"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb167eec3ee615de13e910d54093b7e3716a59acaba511cacf97e65d0a0acc756ba"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb1650e6727b6c3d8100e6aa2de5d2d6d8f961fe13cc47392881fb86a7fdd65d551"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb1a2b704f3b824759e50c863c1238e50b93387bdcc7dfbbabefaa97d8479cc1d47"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 287 (transcribed by Stuart Jenks): 'Canvas voc’ workynge canvas narrowe the C elles cont’ fyve score' 50s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb16f22428d7cb0ac1b52c9978bd69b6825b96d60e94418f6f75043297c3eebb86a">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Newcastell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb19007ff08a7627459134ff0308a3058466491ce4b64abbcae026f2a2f166f4a68">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>30s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1d02a28ef0543299578b4ff27f9de002a5c798991b0fb140d1281e74ece4ab14c">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1b246077a077f4fd1e179b40e62d023c5e263ef92e329fba4cabad0d992a89010">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>30s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_canvas_cb24e4a419dce57a50ed18f707a11636084877d141ac307caa081ea8d2828e51818">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/bolt"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300014078">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>canvas (textile material)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1545-inward-506">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Normandy canves whit the hundrith elles 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb3a6d38fcd3ce1106766cb57050547720df4582684e2fdf89aabd82d9844123ea2"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb172ab76f3ba9bbc2343ac3d3b64de027f2be55f50dcd02d5906ce63c78b5e1507"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb1c4639ecb0bbe42332a69b5c8d5fd2466b2dc999ef99453eda7b0d31997e1f1ee"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb23a80be8582af07c90c6f7efcd6ad787b38e7ccff0dccad942a5878f1b329bb0c"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 506 (transcribed by Stuart Jenks): 'Normandy canves whit the hundrith elles' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1558-inward-289">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Canvas voc’ workynge canvas of the broode sorte, the C elles [cont’] fyve score £5</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb2e3bda7a94ca70be83d356027cca2d21bf5e9ce18585f45f06322f6c25b1ce15e"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb17bf70d4b3e42f2aec1d026559690a75c4f2f7e2711f7b4594af16a781789dcb1"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb1cfc7384a5260efca6d7301a577631f371541b8f1cc1bded361943d8df6854e12"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb1f3010f298c6474608b3d2075434aafd56a69578dcb1ca23e96581f1bdcfecd0d"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 289 (transcribed by Stuart Jenks): 'Canvas voc’ workynge canvas of the broode sorte, the C elles [cont’] fyve score' £5</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1558-inward-333">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Canvas quylted with silke the pece 16s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb27cefdf239a8eaa849d9e84302f7848398db7b12c2bd0796acb6508f575f1e28b"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb10824375b17af72fa1e3b467e378b8cda0786ead170bb3a74e086814b1177ebf1"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb1691576d736607a779066a24e35d85d4a68b92157d07c782f569f8bcb532b8298"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 333 (transcribed by Stuart Jenks): 'Canvas quylted with silke the pece' 16s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1558-inward-175">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Canvas voc’ Newecastell canvas þe C elles cont’ 100 30s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb1b246077a077f4fd1e179b40e62d023c5e263ef92e329fba4cabad0d992a89010"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb161bdb92d96151232a42196af0fd6397543d5a8fa15215059fca7968556269dea"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb20b8bdcd6bfff37e0b443fdfdecc0f85c40cd8ddeca329bfce9a7e46ac21a2ff0"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 175 (transcribed by Stuart Jenks): 'Canvas voc’ Newecastell canvas þe C elles cont’ 100' 30s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb2c7ad9daf317cb935311820c5586ca01019b4b8e8ddc61762cc9ed7d12f9d3fcd">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb17486f9e235f9eb4a8cfe37ab97c0b39bf43065ea4a9e312c677f7803a8c3c126">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1545-inward-130">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Canvas the bolte 3s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb356dd14436a3f9240d915428bb7b7b51eec8399a60e4dad1113d0f27a902dc4e3"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb24e4a419dce57a50ed18f707a11636084877d141ac307caa081ea8d2828e51818"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 130 (transcribed by Stuart Jenks): 'Canvas the bolte' 3s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb31b40c88f4d311a804ce2e8eff1685a813f06ae160db6453436c621d0bce19fc3">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1558-inward-332">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Canvas striped with thred the pece 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb2caede70ae0263a2c97b0b6156deae5cf69547b7bbaac59d47013d8792affca5e"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb1bf16c887f704dd647ce5a5eaeaf392a3bc686cfdfa259eeabea7b09acedba673"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb1b0adf6579f40e3865f3774fa03a6773cfb495ee99c4bc6352ad2b59b70becf5a"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb29204b1024d0404a06e60ee39f1f683327eef48378d12585fcf929528523e9841"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 332 (transcribed by Stuart Jenks): 'Canvas striped with thred the pece' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
@@ -74,74 +242,46 @@
     <skos:related rdf:resource="https://w3id.org/hector/commodity/sailcloth"/>
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300014078"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3817</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1507-none-37"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1507-none-38"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1507-none-39"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1507-none-40"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1507-none-48"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1545-inward-124"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1545-inward-125"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1545-inward-126"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1545-inward-127"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1545-inward-128"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1545-inward-129"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1545-inward-130"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1545-inward-505"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1545-inward-506"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1545-inward-508"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1558-inward-174"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1558-inward-175"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1558-inward-176"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1558-inward-177"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1558-inward-178"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1558-inward-179"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1558-inward-180"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1558-inward-192"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1558-inward-287"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1558-inward-288"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1558-inward-289"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1558-inward-331"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1558-inward-332"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/canvas#rate-1558-inward-333"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/canvas">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300243428">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>canvas (London Customs Accounts glossary)</rdfs:label>
+    <rdfs:label>silk (textile)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_canvas_cb1311f4435a99077245494fad65c10fdc1f290d0d0e60bf7697348121d940620c3">
-    <crm:P190_has_symbolic_content>Closely woven textile made in various weights, usually of flax, hemp, jute, or cotton, used especially for sails, tarpaulins, awnings, upholstery, bags, and as a support for oil painting.  [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_canvas_cb20eee7e344409fc321078829d24ab37f0c80db9d4cdeee5dd78c9413cae0925fd">
-    <crm:P190_has_symbolic_content>canves</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb10b08148e743c7a3fdcb06bc49dbb06fa02e4fc47e9ca3eae1df3bfdeb5238295">
+    <crm:P190_has_symbolic_content>canvas</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kanvəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/sailcloth">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>sailcloth</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_canvas_cb29a416f75e2c0558bc4f1bf602ea1ffb628c69981b36a03876e809977e30238c6">
-    <crm:P190_has_symbolic_content>canevas</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kanevas</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_canvas_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/bolt"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_canvas_cb22fca5254808429f9a4667b09b6ff828b12cb8a3ad66f75b1e2809154aa8813b0">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>5s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_canvas_cb356dd14436a3f9240d915428bb7b7b51eec8399a60e4dad1113d0f27a902dc4e3">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>3s 4d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/bolt">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>bolt</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_canvas_cb19a4d35c4b90221b50ac181305ee1ee3767ef964f18101d1c5aa1858f597ea831">
-    <crm:P190_has_symbolic_content>canvis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kanvis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+    <hector:phoneticKey>kanvas</hector:phoneticKey>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_canvas_cb215e5e6135ed94d7d17c7d1d8893653a98c9092d6f6e616f1a3fcd9bfea494b97">
     <crm:P190_has_symbolic_content>caunvas</crm:P190_has_symbolic_content>
@@ -151,21 +291,726 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb3b8425b25510a7ef52ed1b1a6b766f76fc2bbc6caa0e3fa482c54f02dfe555961">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb12c4c6f8b627eb11895daa2bfa7a5bc8b23be74c014b357f77f58bad709e5e89d">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>workynge</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1558-inward-192">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Canvas voc’ vittrye canvas the bale cont’ 3 C after 5 score [in toto 300] £5</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb3391970297c73c14bd8eb7a3117be366112fbc0cde3d19548ccaffab150ad8af2"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb2ac4c0e35639722eb65ce5ce84e775a4cba59ad76ef52cea0f4596570a8bfdea9"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb122a6583e7e144aa8dcf2271d0cd9d45d573d9d6cb4b53ee6a44e0967fc35a8ed"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 192 (transcribed by Stuart Jenks): 'Canvas voc’ vittrye canvas the bale cont’ 3 C after 5 score [in toto 300]' £5</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb2e6d9e369cc60ba5f01383498e8e5b428883268c4b9dc079375d4a9469771feeb">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>brown</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300127490"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1558-inward-174">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Canvas voc’ Barras canvas the C elles cont’ 5 score 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb2c7ad9daf317cb935311820c5586ca01019b4b8e8ddc61762cc9ed7d12f9d3fcd"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb1d086df05742be369224410c9ec02480543e7bbf3ef14ff2a9a8a6479cae2474b"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb11ec0ef241251e8936bab95737f0a79856bd2137a9036283797e159a348b6645b"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 174 (transcribed by Stuart Jenks): 'Canvas voc’ Barras canvas the C elles cont’ 5 score' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1cbb2e615d70f57a6c5365a727a352fad15dbe90671f8c4242b892cf1ebe80c38">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Newcastell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb19a4d35c4b90221b50ac181305ee1ee3767ef964f18101d1c5aa1858f597ea831">
+    <crm:P190_has_symbolic_content>canvis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kanvis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb2cf9e1f8cc627c557981fee867b3758160f721a60150fd602cf82f0cbb618a000">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>50s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">600</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb20b8bdcd6bfff37e0b443fdfdecc0f85c40cd8ddeca329bfce9a7e46ac21a2ff0">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Newecastell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb3a6d38fcd3ce1106766cb57050547720df4582684e2fdf89aabd82d9844123ea2">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb167eec3ee615de13e910d54093b7e3716a59acaba511cacf97e65d0a0acc756ba">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1e16aeff14244496ebce7dd0620b9d2543e2e60d5f07daa282c03e9cd1fb3a375">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb122a6583e7e144aa8dcf2271d0cd9d45d573d9d6cb4b53ee6a44e0967fc35a8ed">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>vitry</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1ef461ab5337e258708acad386101b4391be61ed288c712d0bb5fe8c8fc8cfe0b">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb29ba74b076ad28ceacbe84d46dd34bda45407d678d67529eef098bfd7c3be1538">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£3</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">720</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1650e6727b6c3d8100e6aa2de5d2d6d8f961fe13cc47392881fb86a7fdd65d551">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>workynge</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb20c709d6f5cdf434184f80afd901aaf747eb876004cef38a424fa4f83d0385f74">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>packinge</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1d0b403650a954ffd0b3b43da9063771b756017cc9fb4ad383606242e5ae1829f">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb2d971447d3c110c1cc11888113886bfbf91caf5c702af40f5b6207d86ecb29faa">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>66s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">800</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1558-inward-176">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Canvas voc’ Normandy canvas þe C elles browne conteynynge five score 50s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb32f4453ea5157db4b8868b4345463dd342bc9c4077dd1a46675e8b55fb278730e"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb23747322f2775314e801b6eb059b8ed3d59b7e85a5c11af6347e07a26625fe59b"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb220ffdf017d2e17b2c17bddf4418d098766708571818c4d0c4a4df3325b3bcafc"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb2d6e83175665159767395dfd9dde911e3891ffa7c000e6255efd7a14aed148420"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 176 (transcribed by Stuart Jenks): 'Canvas voc’ Normandy canvas þe C elles browne conteynynge five score' 50s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
     <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1545-inward-130">
+  <rdf:Description rdf:nodeID="commodity_canvas_cb232ff4d27f486022c1fc3177a21470e8203e9b1498d70e5a6c380b57a1dae4423">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>white</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300129784"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1545-inward-127">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Canvas the bolte 3s 4d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_canvas_cb356dd14436a3f9240d915428bb7b7b51eec8399a60e4dad1113d0f27a902dc4e3"/>
-    <hector:perQuantity rdf:nodeID="commodity_canvas_cb24e4a419dce57a50ed18f707a11636084877d141ac307caa081ea8d2828e51818"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 130 (transcribed by Stuart Jenks): 'Canvas the bolte' 3s 4d</hector:sourceText>
+    <rdfs:label>1545 inward: Canvas course for packynge the hundreth elles 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb398a3ac6a212fc284a3c179d01e1bc88576741c387055990e8622f1d9521d01d0"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb1ef461ab5337e258708acad386101b4391be61ed288c712d0bb5fe8c8fc8cfe0b"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb182875e33ef73015749d0a42259eb6127c0e0cd7a163a45d742bec9e11c5b6c90"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb232848373ff5acf62a1b1dc9e9d33a9e81fdb2f982ade9c7c23564a9966141462"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 127 (transcribed by Stuart Jenks): 'Canvas course for packynge the hundreth elles' 20s</hector:sourceText>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300014078">
+  <rdf:Description rdf:nodeID="commodity_canvas_cb232848373ff5acf62a1b1dc9e9d33a9e81fdb2f982ade9c7c23564a9966141462">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>canvas (textile material)</rdfs:label>
+    <rdfs:label>packynge</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1eaddf4b18b14dcda4718a32a5a1968cbe7155e987a80a9e401b92c36ae2a4396">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>white</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300129784"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb27cefdf239a8eaa849d9e84302f7848398db7b12c2bd0796acb6508f575f1e28b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>16s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1545-inward-126">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Canvas Normandy whyte the hundreth elles 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb38f2a2e585ebf7ca0df7c1a27ad038b51aadc16caabc5230dff23a5319fec83b9"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb21ffab6a697dc3341b6b250b6d2e87c2e04a65b4eadb27d1a2647630b74d285db"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb1bce22d6d7d953c963dbd4e462096ba6d7dde7de979388c0040d90fa202667b05"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb232ff4d27f486022c1fc3177a21470e8203e9b1498d70e5a6c380b57a1dae4423"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 126 (transcribed by Stuart Jenks): 'Canvas Normandy whyte the hundreth elles' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb29a416f75e2c0558bc4f1bf602ea1ffb628c69981b36a03876e809977e30238c6">
+    <crm:P190_has_symbolic_content>canevas</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kanevas</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb21ffab6a697dc3341b6b250b6d2e87c2e04a65b4eadb27d1a2647630b74d285db">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb220ffdf017d2e17b2c17bddf4418d098766708571818c4d0c4a4df3325b3bcafc">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Normandy</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q15878"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1c1b6963cd079f00c33e605d2d13dbcc7c2f87200e34cab0e35081790c03d3fab">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>coarse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1f3010f298c6474608b3d2075434aafd56a69578dcb1ca23e96581f1bdcfecd0d">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>broode</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb14796d4765fbd9139da645ff29fb2439ab4a1f3f7ac98522501be2d84d4d55dd3">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Normandy</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q15878"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb20f05c64af0cc99198ac18b7a1059a7b7076a0b33cc6a2cdd2193792987196f71">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb347704401d19a2779226bc51fb2978ae8aeb42dd1cc3588df3057b79193d21e92">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb2113b0b4d532f4d6a5cac86d081823863bebe53ce2d1a7b373a7ba1944d1371af">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>26s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1d6a43f5f9f4980bacf8fa82119a80c70502d1e2bdad132c19449a8850ea9b21e">
+    <crm:P190_has_symbolic_content>cambrium</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kambrium</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1507-none-38">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Canvas called Vytory canvas the bale containing 200 elles £3</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb29ba74b076ad28ceacbe84d46dd34bda45407d678d67529eef098bfd7c3be1538"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb25433e8b09a98954ee8cccfb9ad24261c3e2607d9a955344aa98ff0f8d85caa3f"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb1212520b625472ce162091dfcee1fa9f246df4c6b892b821eeba736c4c23f4a28"/>
+    <hector:sourceText>Book of Rates 1507, line 38 (transcribed by Stuart Jenks): 'Canvas called Vytory canvas the bale containing 200 elles' £3</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1bbb14f01dbfde627a111387961132fa0630c05c03c76826ba6726ea51399eecb">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>cunterfett of the worste</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1de19b3ca4a362f4015d9c584181ba10bc966ee030d0c216f77b246e29b8668e1">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>26s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb20eee7e344409fc321078829d24ab37f0c80db9d4cdeee5dd78c9413cae0925fd">
+    <crm:P190_has_symbolic_content>canves</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kanvəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1311f4435a99077245494fad65c10fdc1f290d0d0e60bf7697348121d940620c3">
+    <crm:P190_has_symbolic_content>Closely woven textile made in various weights, usually of flax, hemp, jute, or cotton, used especially for sails, tarpaulins, awnings, upholstery, bags, and as a support for oil painting.  [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1558-inward-177">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Canvas voc’ Normandy canvas the C elles whited cont’ five score 66s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb2d971447d3c110c1cc11888113886bfbf91caf5c702af40f5b6207d86ecb29faa"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb17486f9e235f9eb4a8cfe37ab97c0b39bf43065ea4a9e312c677f7803a8c3c126"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb174c0d4f7142417446512d9f6596914b7610a2b386648503d7f11865e92e27a78"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb1eaddf4b18b14dcda4718a32a5a1968cbe7155e987a80a9e401b92c36ae2a4396"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 177 (transcribed by Stuart Jenks): 'Canvas voc’ Normandy canvas the C elles whited cont’ five score' 66s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb283fcc0017941f8cdbcb4ba67df7c8af1867799255b1738e0b032becbdd96e58e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>26s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb17b8f9497e957911b6586de586b1a922cccfe674b06c894f723e4a901d11bf383">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb2a41bfc5946672af44534cc0887f98bf0feb1091f5878a109180caac9902f13ab">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>26s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1c61d1bebc1fe3f4c9b8a00cbbeacda32ad3fbfb3188140d7d25a5ecc2fbd8dca">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb174c0d4f7142417446512d9f6596914b7610a2b386648503d7f11865e92e27a78">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Normandy</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q15878"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb27b9aec15a1238575d139a303e8116bb49a8c996ac5253f6dd4b875fd6cf8f2cf">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1545-inward-124">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Canvas called Newcastell the hundreth elles 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb31b40c88f4d311a804ce2e8eff1685a813f06ae160db6453436c621d0bce19fc3"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb205f8fc3360a09d6709bf4ece15487108a8211d77f6c8054dc8b8204477f583a7"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb16f22428d7cb0ac1b52c9978bd69b6825b96d60e94418f6f75043297c3eebb86a"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 124 (transcribed by Stuart Jenks): 'Canvas called Newcastell the hundreth elles' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb2054e236c6a4cb6b8d446232e24d40bfe64ef81ad4d7d3de66adaef151afd0fc1">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1cfc7384a5260efca6d7301a577631f371541b8f1cc1bded361943d8df6854e12">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>workynge</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1ecb4b07538161937683f693a954bd9c71f9293a99a0ef2e9a6797db6be3678aa">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1558-inward-331">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Canvas striped with silke the pece 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb271692daf179c750637dc78bac1d827387c1965ad8b8f9e95d416021358a409ca"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb27b9aec15a1238575d139a303e8116bb49a8c996ac5253f6dd4b875fd6cf8f2cf"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb1121d152f7aee3118d4d80b2464cb118ee7df47d77ded2f5f4ce1f4bed37da458"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb1815688eeef54b20716fdf1d1a867d9ac8bc049122eec7637bf6cd0bee68e56ce"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 331 (transcribed by Stuart Jenks): 'Canvas striped with silke the pece' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1bce22d6d7d953c963dbd4e462096ba6d7dde7de979388c0040d90fa202667b05">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Normandy</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q15878"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1507-none-40">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Canvas called Newcastell canvas the C elles 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb3b8425b25510a7ef52ed1b1a6b766f76fc2bbc6caa0e3fa482c54f02dfe555961"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb1c61d1bebc1fe3f4c9b8a00cbbeacda32ad3fbfb3188140d7d25a5ecc2fbd8dca"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb1cbb2e615d70f57a6c5365a727a352fad15dbe90671f8c4242b892cf1ebe80c38"/>
+    <hector:sourceText>Book of Rates 1507, line 40 (transcribed by Stuart Jenks): 'Canvas called Newcastell canvas the C elles' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q918723">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Prussia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb15bf3f0adc23e503a6e3a0d77b755693ead89c066ced92bfa8259e9ec7b8e7d6d">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb23a80be8582af07c90c6f7efcd6ad787b38e7ccff0dccad942a5878f1b329bb0c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>white</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300129784"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1691576d736607a779066a24e35d85d4a68b92157d07c782f569f8bcb532b8298">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>silk</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300243428"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb2bc79ba5e720b8fc25f98eb96d0662c4ef4178cd4d0eafd07854ff6b29bc0cac7">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£4 3s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1000</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb3391970297c73c14bd8eb7a3117be366112fbc0cde3d19548ccaffab150ad8af2">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£5</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1200</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1558-inward-178">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Canvas voc’ course packinge canvas the C elles cont’ five score 26s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb2113b0b4d532f4d6a5cac86d081823863bebe53ce2d1a7b373a7ba1944d1371af"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb2054e236c6a4cb6b8d446232e24d40bfe64ef81ad4d7d3de66adaef151afd0fc1"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb1c1b6963cd079f00c33e605d2d13dbcc7c2f87200e34cab0e35081790c03d3fab"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb20c709d6f5cdf434184f80afd901aaf747eb876004cef38a424fa4f83d0385f74"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 178 (transcribed by Stuart Jenks): 'Canvas voc’ course packinge canvas the C elles cont’ five score' 26s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1545-inward-125">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Canvas Normandy browne the hundreth elles 30s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb1fe4e57d6ff4785e84b7841516f2332eaa7aaa449bf2596f20c85389cd1ae61a0"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb19226115fe1a1ce9879e0f7dfde3bdc4489277357e72daea96b3d4764136a3f55"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb140ca29a405fd3aafadc4ba5998b353ca242a87786f594dfb7fef9ff12ecdeaee"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb1f6b27c17ef207c735fdebc3f350f5c2646d9fc82eddb634525794e09c0a6a412"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 125 (transcribed by Stuart Jenks): 'Canvas Normandy browne the hundreth elles' 30s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb140ca29a405fd3aafadc4ba5998b353ca242a87786f594dfb7fef9ff12ecdeaee">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Normandy</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q15878"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb2ac4c0e35639722eb65ce5ce84e775a4cba59ad76ef52cea0f4596570a8bfdea9">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/bale"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb32f4453ea5157db4b8868b4345463dd342bc9c4077dd1a46675e8b55fb278730e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>50s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">600</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1f6b27c17ef207c735fdebc3f350f5c2646d9fc82eddb634525794e09c0a6a412">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>brown</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300127490"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb3493d0909df5f394ef55706cfb609d38bd0b7f41b259e2224274faa7d05f62d1b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1507-none-37">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Canvas called Normandy or browne clothe the C elles small 30s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb1e7a09b5687b57e4cf0bd3f0dae8e2ff3cb5807f7fef34ca8df8baad6f12d68f5"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb1d02a28ef0543299578b4ff27f9de002a5c798991b0fb140d1281e74ece4ab14c"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb230f190f5e33d789b4f1e32b34c89abcc6582f3ba3b59f249d04afb2e059945c7"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb2e6d9e369cc60ba5f01383498e8e5b428883268c4b9dc079375d4a9469771feeb"/>
+    <hector:sourceText>Book of Rates 1507, line 37 (transcribed by Stuart Jenks): 'Canvas called Normandy or browne clothe the C elles small' 30s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1121d152f7aee3118d4d80b2464cb118ee7df47d77ded2f5f4ce1f4bed37da458">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>striped</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1fe4e57d6ff4785e84b7841516f2332eaa7aaa449bf2596f20c85389cd1ae61a0">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>30s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1f8ad02917ba22b4fd3bfb7a5b499a2c4afebd600ca60e8122996376711e54fdf">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Paris</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q90"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1507-none-48">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Canvas cunterfett of the worste sorte the bale 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb347704401d19a2779226bc51fb2978ae8aeb42dd1cc3588df3057b79193d21e92"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb221bdf0934f505e05866c271d2eff37fce272f96d372c8530b0a778d5a3d437f6"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb1bbb14f01dbfde627a111387961132fa0630c05c03c76826ba6726ea51399eecb"/>
+    <hector:sourceText>Book of Rates 1507, line 48 (transcribed by Stuart Jenks): 'Canvas cunterfett of the worste sorte the bale' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/sailcloth">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>sailcloth</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1b8a4929a3058dab4815dc21ded27d6b7d3bdab116522afe4950637edca445eaf">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/bale">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>bale</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1558-inward-180">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Canvas the bolte 5s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb277d2a30aab1a28be9f1e3e4775a37735071e42fb2031609d8db9f28cd6d6b779"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb29e3f774c02585bd914b8268590f9ed7fcf693f5d7f59d3c7c4e17274a4e14a5e"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 180 (transcribed by Stuart Jenks): 'Canvas the bolte' 5s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1bf16c887f704dd647ce5a5eaeaf392a3bc686cfdfa259eeabea7b09acedba673">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb221bdf0934f505e05866c271d2eff37fce272f96d372c8530b0a778d5a3d437f6">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/bale"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1c4639ecb0bbe42332a69b5c8d5fd2466b2dc999ef99453eda7b0d31997e1f1ee">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Normandy</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q15878"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb10824375b17af72fa1e3b467e378b8cda0786ead170bb3a74e086814b1177ebf1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>quilted</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1f156c26e9a17e48f6e9baf09e323a14577ec98695a139533268549b7382a9cd2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Prussia</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q918723"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb172ab76f3ba9bbc2343ac3d3b64de027f2be55f50dcd02d5906ce63c78b5e1507">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/canvas#rate-1558-inward-179">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Canvas voc’ Spruse canvas the C elles cont’ sixe score 26s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_canvas_cb2a41bfc5946672af44534cc0887f98bf0feb1091f5878a109180caac9902f13ab"/>
+    <hector:perQuantity rdf:nodeID="commodity_canvas_cb17b8f9497e957911b6586de586b1a922cccfe674b06c894f723e4a901d11bf383"/>
+    <hector:qualifier rdf:nodeID="commodity_canvas_cb1f7e9047f147eb04d9058c4951513da09e2beeec241a00a577dcba6d7bed5354a"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 179 (transcribed by Stuart Jenks): 'Canvas voc’ Spruse canvas the C elles cont’ sixe score' 26s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb38f2a2e585ebf7ca0df7c1a27ad038b51aadc16caabc5230dff23a5319fec83b9">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb33a1a12d1d2ed86f33646ceffea3e538f4afa18b5175aedee8ef8e5765d97226d">
+    <crm:P190_has_symbolic_content>canvaz</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kanvaz</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1f7e9047f147eb04d9058c4951513da09e2beeec241a00a577dcba6d7bed5354a">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Prussia</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q918723"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb15568497b5217ce0e621c71035d6bf2f64be9473780e997f48a1cb3905db448bc">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>broade</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/canvas">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>canvas (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb356dd14436a3f9240d915428bb7b7b51eec8399a60e4dad1113d0f27a902dc4e3">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>3s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb23747322f2775314e801b6eb059b8ed3d59b7e85a5c11af6347e07a26625fe59b">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb271692daf179c750637dc78bac1d827387c1965ad8b8f9e95d416021358a409ca">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb29204b1024d0404a06e60ee39f1f683327eef48378d12585fcf929528523e9841">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>file</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1815688eeef54b20716fdf1d1a867d9ac8bc049122eec7637bf6cd0bee68e56ce">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>silk</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300243428"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb2caede70ae0263a2c97b0b6156deae5cf69547b7bbaac59d47013d8792affca5e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300127490">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>brown (color)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb25433e8b09a98954ee8cccfb9ad24261c3e2607d9a955344aa98ff0f8d85caa3f">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/bale"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb19226115fe1a1ce9879e0f7dfde3bdc4489277357e72daea96b3d4764136a3f55">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb182875e33ef73015749d0a42259eb6127c0e0cd7a163a45d742bec9e11c5b6c90">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>coarse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb230f190f5e33d789b4f1e32b34c89abcc6582f3ba3b59f249d04afb2e059945c7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Normandy</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q15878"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb277d2a30aab1a28be9f1e3e4775a37735071e42fb2031609d8db9f28cd6d6b779">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>5s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1ba4da7cea165a84e58c36706404a7a935e4bd4732f17f6ac231f3acb1c7ed0dd">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Neucastell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb205f8fc3360a09d6709bf4ece15487108a8211d77f6c8054dc8b8204477f583a7">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300129784">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>white (color)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb161bdb92d96151232a42196af0fd6397543d5a8fa15215059fca7968556269dea">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb2e3bda7a94ca70be83d356027cca2d21bf5e9ce18585f45f06322f6c25b1ce15e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£5</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1200</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/bolt">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>bolt</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb346786e82af55c41e5c9107317bc1f67f7fde308293b655e5d6bac6896d5bde47">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb398a3ac6a212fc284a3c179d01e1bc88576741c387055990e8622f1d9521d01d0">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb29e3f774c02585bd914b8268590f9ed7fcf693f5d7f59d3c7c4e17274a4e14a5e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/bolt"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb15a044cfa413def0a13ad5409f06f5fbca9ddc99396fc096bd45f8cde85e0a915">
+    <crm:P190_has_symbolic_content>canvys</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kanvis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q15878">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Normandy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/hundred">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>hundred</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb2d6e83175665159767395dfd9dde911e3891ffa7c000e6255efd7a14aed148420">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>brown</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300127490"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q90">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Paris</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb14f694e5b3f43e4a92592de230a245177e01f1aee8587f35baa72c7b6f61ce86a">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>baras</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb11ec0ef241251e8936bab95737f0a79856bd2137a9036283797e159a348b6645b">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>baras</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_canvas_cb1d086df05742be369224410c9ec02480543e7bbf3ef14ff2a9a8a6479cae2474b">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pecia">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pecia</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

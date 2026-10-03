@@ -442,6 +442,46 @@
       "validFrom": "1545",
       "validThrough": "1558",
       "sourceText": "Book of Rates 1545, inward, line 674 (transcribed by Stuart Jenks): 'Swan quylles the 1000' 3s 4d"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/quille#rate-1558-outward-23",
+      "type": "Rate",
+      "_label": "1558 outward: Gose quylles the thowsaunde 12d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "12",
+        "lsd": "12d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1000,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/thousand",
+          "type": "MeasurementUnit",
+          "_label": "thousand"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, outward, line 23 (transcribed by Stuart Jenks): 'Gose quylles the thowsaunde' 12d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Gose",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

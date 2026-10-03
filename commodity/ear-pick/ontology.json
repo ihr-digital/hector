@@ -270,7 +270,31 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 265 (transcribed by Stuart Jenks): 'Ere pikers or tothe pikers of bone, the groce' 12d"
+      "sourceText": "Book of Rates 1545, inward, line 265 (transcribed by Stuart Jenks): 'Ere pikers or tothe pikers of bone, the groce' 12d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "tothe",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "bone",
+          "equivalent": [
+            {
+              "id": "aat:300011798",
+              "type": "Type",
+              "_label": "bone (material)"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

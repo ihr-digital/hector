@@ -3,65 +3,93 @@
    xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
    xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:hector="https://w3id.org/hector/ontology#"
+   xmlns:la="https://linked.art/ns/terms/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_budge_cb2934dd496122c236082d35c7640cad4cc2d5b0da5d9ec6d4527b260d228fdab45">
-    <crm:P190_has_symbolic_content>booge</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_budge_cb2d69f6981ffc80ee5fe2cc02d14683cc7785eeda47aac110b309fba0e68ba2950">
+    <crm:P190_has_symbolic_content>budges</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>boːdʒə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
+    <hector:phoneticKey>buddʒəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/budge#rate-1558-inward-115">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Budge blacke untawed the C cont’ 5 score 50s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_budge_cb28f0fc5c44e2b58afeb65d66cdb6a790a93305e17c4c6581d8622fc56c087b365"/>
+    <hector:perQuantity rdf:nodeID="commodity_budge_cb148ab670c330cf7e7d114310da8bf3011e8069cacf36eb620392a195ca59cc35e"/>
+    <hector:qualifier rdf:nodeID="commodity_budge_cb1659b341260e7d2136c95b7d86beb861631df9f2744ec5d57b5f93bfbb6b40604"/>
+    <hector:qualifier rdf:nodeID="commodity_budge_cb1e1973d1f60496d3d5449a8448bac786f07a63f99dd4195946fc59037e4b246a4"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 115 (transcribed by Stuart Jenks): 'Budge blacke untawed the C cont’ 5 score' 50s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/budge">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb12c355cb37cf7ed76c6b5c82df068159f658bd017717c8f7e2cafbf884bd2a510"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb140c7e7a2aa6b44860aab2bc2c3d528a376b4bd62ea236715f3dbd7bf06ac8eb9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb17c0f6dcb240994e7d85cb5bc87c72651d9c955bcec6df9acaba58324c685126c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb17ca825d8ac81e3772afdb3a51b240706c33d6e2d251a05ed592e46bd01c09e45"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb181cf5d4e27dda07fca07c4d7fa7af1336ffbb4978b496e1bd8ea1ca8f3db8231"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb1a1400840a219c82811a55d09a14a02c071eaaf416c4e104c6e2915a2d207f8e3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb1bab55bc3d9a75a8ac302239eb92c1fdddf3b92b11d400d35c165b54031d52ff7"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb2117263d5c1a2ae0f2f4e58cf0310bf0ddd84ecf9086ec5dbce406146be71db28"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb22263fcc9733a5f40ce1b53f4af8a794aa712084c80d14f800b6a571a5b7eb2f4"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb23751af69150bf4314e374400605d614ff297fc19013d4477bd36f86832b6114f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb263a55d5a83bce6b5dc67975fdeba9df287e928467372a62a00545cdb0568a459"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb26fbaeedc713966e9e2cc23c504df135fd4eab7b2c9eccbfdc8a4d66e811f9b85"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb2934dd496122c236082d35c7640cad4cc2d5b0da5d9ec6d4527b260d228fdab45"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb2947b7e6e2e8b0c7bd8259b963c026849686824fdf3a97c9380129607dd4214b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb2b78e34802c9e58ad1c8f1d1e78374b9ed8204101d6a64c48f35f558d4562e7c7"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb318b0c6da8b681b48b6d6016b03b678e04e5a0791208c881dae88db5952c65a84"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb3592a007ae9e0a08bf5b5f8a728483e06e0ca98539548ec8dc9480b927f44fde"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cbabf6d2139071b25dd2f666038450fd7f9e84dbc6469c2b40a663828063fd81fa"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_budge_cb20c37db8ca85e1b9a489811ec4838b64957918ebbd78b29dfe018c6e403974f2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb12a366f31a3e12b0251f3c74287140169daa734971a2fcf24341ed8d978f6566c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb14b4691b55021a3afa8536b3c8c9906c805ca7cba1582544069f024096f29e699"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb15fd91ca47d94fabeec48ced1600619cc16f36a058e292bd8311c3c402a03d042"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb17a2e1e1db98d929c31432fbe94e54058d1198765a8b15a8dec308f0e7f57be5d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb19b20a2ccf7334b20b9fa58cb23f8177a7a08025f9073be6ee8e5e7a5e9dc53f5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb19bb95ada7fab99b00c9b56b3b754f82f637c1acfc91fcaaf966eab3e2517dfce"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb1a0e0924ffb0756b8aba567e696abe25c103a613a2f4f32de162a812a1732c3ba"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb1c0513d4275437e60f34300183d7af3e912295be41053d50eab697a23f55f3a6c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb219be1a586258ffd2460a341ddf147e315f23a4ec380e43e0693687d8156f2a51"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb2308398d794cc644810ebfbdd9f41b0367dc3999bac748a9e0b80c5c7e1c91cb1"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb2417531cb46641579afb8f7034bbb6a734750b4ef24d7144248aabb9b7ed5f47d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb25662e46ae835aa6a2fd4e70efc8e527892d6a8bba5430939fa775ce9560d52d8"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb282b6925c56e69ceebe053a6e7aeb8f1b2827d4e917786aec3d94c15c28bfe5e2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb28ecc23de44631d22c469c6d3a1100488752964556df290c005e53aefa476dd0e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb2b25f0997e555d9996470ff84dcfbc5f4cd99ba487df2320764f2c5534c54ecce"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb2d69f6981ffc80ee5fe2cc02d14683cc7785eeda47aac110b309fba0e68ba2950"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb337c1fbdc5e91d1819873a4799fe76a08ee98b433c4924cdfebc93fda761d9c0d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb4858ece8b61267009f1ffcc7fff117ad36c52ef283405c8b75418de1a12b62d4"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_budge_cb54a3d50981c7c041a0f902990eb575090e4b5627dd5a538b19d4e53a4b4b9167"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_budge_cb11e3b84854592d6252c81a77c2abe0d0bd78810a731a38e402a8ab6022d26830a"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>budge</rdfs:label>
     <skos:broader rdf:resource="http://vocab.getty.edu/aat/300395532"/>
     <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/budge"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">614</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/budge#rate-1507-none-26"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/budge#rate-1507-none-27"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/budge#rate-1545-inward-101"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/budge#rate-1545-inward-102"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/budge#rate-1545-inward-103"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/budge#rate-1558-inward-113"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/budge#rate-1558-inward-114"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/budge#rate-1558-inward-115"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/budge#rate-1558-inward-116"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/budge#rate-1558-inward-116">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Budge powles the furre cont’ 4 panes in the furre 16s 8d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_budge_cb149d711c3bc88a46966cbfeb888849cca9785edb7ae9861db7b3e78d8aa542429"/>
-    <hector:perQuantity rdf:nodeID="commodity_budge_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 116 (transcribed by Stuart Jenks): 'Budge powles the furre cont’ 4 panes in the furre' 16s 8d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_budge_cb11286c40dbc513522917d99a053859eaded566a519865fdc4936806c4c4f772e9">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>romney</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_budge_cb12c355cb37cf7ed76c6b5c82df068159f658bd017717c8f7e2cafbf884bd2a510">
-    <crm:P190_has_symbolic_content>bogy</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb1aff8ac05fc1641759bdcd7cca70efa7e9e2d45a6aedbe469f0302d861068decd">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bogi</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tawed</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_budge_cb1bab55bc3d9a75a8ac302239eb92c1fdddf3b92b11d400d35c165b54031d52ff7">
+  <rdf:Description rdf:nodeID="commodity_budge_cb2d23485d8369f99917aa90847bded0b8f246a35b206a0971ebe8170ec1f970b9c">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb28f0fc5c44e2b58afeb65d66cdb6a790a93305e17c4c6581d8622fc56c087b365">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>50s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">600</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb219be1a586258ffd2460a341ddf147e315f23a4ec380e43e0693687d8156f2a51">
     <crm:P190_has_symbolic_content>budge</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -70,62 +98,17 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/budge#rate-1558-inward-116">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Budge powles the furre cont’ 4 panes in the furre 16s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_budge_cb27cefdf239a8eaa849d9e84302f7848398db7b12c2bd0796acb6508f575f1e28b"/>
+    <hector:perQuantity rdf:nodeID="commodity_budge_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_budge_cb15a2e011455e7ffe91b8f1b5b361c0d8f744880ddfb8ba0c0f29443e8c4032a8f"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 116 (transcribed by Stuart Jenks): 'Budge powles the furre cont’ 4 panes in the furre' 16s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_budge_cb0">
-    <crm:P190_has_symbolic_content>de buge</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>de budʒə</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_budge_cb22263fcc9733a5f40ce1b53f4af8a794aa712084c80d14f800b6a571a5b7eb2f4">
-    <crm:P190_has_symbolic_content>bogie</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bodʒiː</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_budge_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/fur"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_budge_cb17c0f6dcb240994e7d85cb5bc87c72651d9c955bcec6df9acaba58324c685126c">
-    <crm:P190_has_symbolic_content>bogge</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bogə</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_budge_cb318b0c6da8b681b48b6d6016b03b678e04e5a0791208c881dae88db5952c65a84">
-    <crm:P190_has_symbolic_content>bugy</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bugi</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_budge_cb1a1400840a219c82811a55d09a14a02c071eaaf416c4e104c6e2915a2d207f8e3">
-    <crm:P190_has_symbolic_content>bogee</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bodʒeː</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_budge_cbabf6d2139071b25dd2f666038450fd7f9e84dbc6469c2b40a663828063fd81fa">
-    <crm:P190_has_symbolic_content>de bogy</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>de bogi</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_budge_cb263a55d5a83bce6b5dc67975fdeba9df287e928467372a62a00545cdb0568a459">
+  <rdf:Description rdf:nodeID="commodity_budge_cb282b6925c56e69ceebe053a6e7aeb8f1b2827d4e917786aec3d94c15c28bfe5e2">
     <crm:P190_has_symbolic_content>boudge</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -133,21 +116,7 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_budge_cb140c7e7a2aa6b44860aab2bc2c3d528a376b4bd62ea236715f3dbd7bf06ac8eb9">
-    <crm:P190_has_symbolic_content>bogi</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bodʒi</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_budge_cb3592a007ae9e0a08bf5b5f8a728483e06e0ca98539548ec8dc9480b927f44fde">
-    <crm:P190_has_symbolic_content>de boge</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>de bodʒə</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_budge_cb26fbaeedc713966e9e2cc23c504df135fd4eab7b2c9eccbfdc8a4d66e811f9b85">
+  <rdf:Description rdf:nodeID="commodity_budge_cb28ecc23de44631d22c469c6d3a1100488752964556df290c005e53aefa476dd0e">
     <crm:P190_has_symbolic_content>buge</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -155,72 +124,64 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/budge#rate-1507-none-27">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Budges called blake budges the C 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_budge_cb344fbaa37162a4629b8216447e330749acd0a0f3caca4a7bbf87d42ee742419c5"/>
+    <hector:perQuantity rdf:nodeID="commodity_budge_cb1493c3edff40e91fe17c34e01fbce6dd938db0d92aaefadbad9d30b5346ec9b31"/>
+    <hector:qualifier rdf:nodeID="commodity_budge_cb25e07b912e7200042ad220cf2acf7bceed832682e89049908e78185215c5bca68"/>
+    <hector:sourceText>Book of Rates 1507, line 27 (transcribed by Stuart Jenks): 'Budges called blake budges the C' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_budge_cb181cf5d4e27dda07fca07c4d7fa7af1336ffbb4978b496e1bd8ea1ca8f3db8231">
-    <crm:P190_has_symbolic_content>budge skins</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>buddʒə skins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_budge_cb149d711c3bc88a46966cbfeb888849cca9785edb7ae9861db7b3e78d8aa542429">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>16s 8d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/budge">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>budge (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_budge_cb2947b7e6e2e8b0c7bd8259b963c026849686824fdf3a97c9380129607dd4214b">
-    <crm:P190_has_symbolic_content>bodge</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>boddʒə</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_budge_cb2117263d5c1a2ae0f2f4e58cf0310bf0ddd84ecf9086ec5dbce406146be71db28">
-    <crm:P190_has_symbolic_content>bogye</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bogie</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_budge_cb20c37db8ca85e1b9a489811ec4838b64957918ebbd78b29dfe018c6e403974f2">
+  <rdf:Description rdf:nodeID="commodity_budge_cb11e3b84854592d6252c81a77c2abe0d0bd78810a731a38e402a8ab6022d26830a">
     <crm:P190_has_symbolic_content>a lamb's skin with the fur dressed outward (OED s.v. budge sb.1) | a lamb's skin with the fur dressed outward (OED s.v. budge sb.1) (see also pellis bogee) | budge, a lamb's skin with the fur dressed outward (OED s.v. budge sb.1) | a lamb's skin with the fur dressed outward (OED s.v. budge sb.1) (see also pellis) | a lamb’s skin with the fur dressed outward (OED s.v. budge sb.1) | some kind of small fur used for lining garments (OED s.v. Romany^2); in the early 16^th century fine Spanish and Lombard lambskins (Veale 217) | a kind of fur, consisting of lamb’s skin with the wool dressed outwards (OED budge, n.^1), here white in color, tawed | a lamb's skin with the fur dressed outward (OED s.v. budge n.1) | a lamb’s skin with the fur dressed outward (OED s.v. budge n.1) | a kind of fur, consisting of lamb’s skin with the wool dressed outwards (OED budge, n.1) | (bodge) black in color, tawed | (bodgye pols) fur from the head and shoulders of budge (Veale 221) | a lamb's skin with the fur dressed outward (OED s.v. budge sb.1) (see also pellis bodge) | budge, a kind of fur, namely a lamb's skin with the fur dressed outward (OED budge n1) | meaning unknown | small pieces of budge | a lamb's skin with the fur dressed outward (OED s.v. budge sb.1) (see also pellis boge) | budge, a kind of fur, namely a lamb's skin with the fur dressed outward (OED budge n1), here made of the skins from the legs of the animal (Veale 217) | by characteristic | by color | by place of origin</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_budge_cb2b78e34802c9e58ad1c8f1d1e78374b9ed8204101d6a64c48f35f558d4562e7c7">
-    <crm:P190_has_symbolic_content>budges</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_budge_cb15a2e011455e7ffe91b8f1b5b361c0d8f744880ddfb8ba0c0f29443e8c4032a8f">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>buddʒəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>powles</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_budge_cb17ca825d8ac81e3772afdb3a51b240706c33d6e2d251a05ed592e46bd01c09e45">
-    <crm:P190_has_symbolic_content>boge</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bodʒə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1483</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1485</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_budge_cb344fbaa37162a4629b8216447e330749acd0a0f3caca4a7bbf87d42ee742419c5">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/fur">
+  <rdf:Description rdf:nodeID="commodity_budge_cb26ff35cdac56aabaa1f6b6066d6360936924be144f199d90831b714e915c00eff">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/hundred">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>fur</rdfs:label>
+    <rdfs:label>hundred</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_budge_cb23751af69150bf4314e374400605d614ff297fc19013d4477bd36f86832b6114f">
+  <rdf:Description rdf:nodeID="commodity_budge_cb54a3d50981c7c041a0f902990eb575090e4b5627dd5a538b19d4e53a4b4b9167">
+    <crm:P190_has_symbolic_content>de boge</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>de bodʒə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb181709da770822bfab28c381539896e4fae6e7524f12a269dd8019b74fe52ac99">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/budge#rate-1545-inward-103">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Bodge of Romney the dossen 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_budge_cb279cdad224516690abb57a54290e9480831123ad9280502089bec9fdbcc931f28"/>
+    <hector:perQuantity rdf:nodeID="commodity_budge_cb181709da770822bfab28c381539896e4fae6e7524f12a269dd8019b74fe52ac99"/>
+    <hector:qualifier rdf:nodeID="commodity_budge_cb11286c40dbc513522917d99a053859eaded566a519865fdc4936806c4c4f772e9"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 103 (transcribed by Stuart Jenks): 'Bodge of Romney the dossen' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb25662e46ae835aa6a2fd4e70efc8e527892d6a8bba5430939fa775ce9560d52d8">
     <crm:P190_has_symbolic_content>bogees</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -228,8 +189,325 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb27cefdf239a8eaa849d9e84302f7848398db7b12c2bd0796acb6508f575f1e28b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>16s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb185bd97edcd7f4ef3cdbf89c6b69fa3a5c17274784b88b08bd6e318391ef7b2df">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb12a366f31a3e12b0251f3c74287140169daa734971a2fcf24341ed8d978f6566c">
+    <crm:P190_has_symbolic_content>de buge</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>de budʒə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/budge#rate-1558-inward-113">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Budge white tawed the hundreth cont’ 5 score 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_budge_cb3a77f4dc38b076e120836b7a2e7ad9e476bdf567ce452d833126b7d15c0d4b191"/>
+    <hector:perQuantity rdf:nodeID="commodity_budge_cb234f24392f02605e7c88961d6f0bc40db0f8b6b7f8f4b20b942bd16c7cf7e91af"/>
+    <hector:qualifier rdf:nodeID="commodity_budge_cb244c16c467d4629f63a4fd0d237939e2d88b58d0fb975c0508967fbc410a008a0"/>
+    <hector:qualifier rdf:nodeID="commodity_budge_cb28d837d7b7438ccdada81ad8781275659a1c744a22f225a68afe04333f36036e1"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 113 (transcribed by Stuart Jenks): 'Budge white tawed the hundreth cont’ 5 score' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb20aa4b63813c9246598eec74fb2eac9f132d6c774efc6a2d68b08160a73cb3319">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb14b4691b55021a3afa8536b3c8c9906c805ca7cba1582544069f024096f29e699">
+    <crm:P190_has_symbolic_content>bogy</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bogi</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb1e1973d1f60496d3d5449a8448bac786f07a63f99dd4195946fc59037e4b246a4">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>black</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300130920"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300130920">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>black (color)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb244c16c467d4629f63a4fd0d237939e2d88b58d0fb975c0508967fbc410a008a0">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tawed</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb337c1fbdc5e91d1819873a4799fe76a08ee98b433c4924cdfebc93fda761d9c0d">
+    <crm:P190_has_symbolic_content>bugy</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bugi</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb196935b0536e0e4f5ad2cfeeec8463dd8f4ea7eff32afe04449e778ffe6879b71">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tawed</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb19b20a2ccf7334b20b9fa58cb23f8177a7a08025f9073be6ee8e5e7a5e9dc53f5">
+    <crm:P190_has_symbolic_content>bogge</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bogə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/budge#rate-1545-inward-101">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Bodge whyte tawed the 100 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_budge_cb2d23485d8369f99917aa90847bded0b8f246a35b206a0971ebe8170ec1f970b9c"/>
+    <hector:perQuantity rdf:nodeID="commodity_budge_cb20aa4b63813c9246598eec74fb2eac9f132d6c774efc6a2d68b08160a73cb3319"/>
+    <hector:qualifier rdf:nodeID="commodity_budge_cb196935b0536e0e4f5ad2cfeeec8463dd8f4ea7eff32afe04449e778ffe6879b71"/>
+    <hector:qualifier rdf:nodeID="commodity_budge_cb1df556c3a2dd387da4d5edba411d9f6050dfc3691a85c7a5c705fc06fc947c9b2"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 101 (transcribed by Stuart Jenks): 'Bodge whyte tawed the 100' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb1493c3edff40e91fe17c34e01fbce6dd938db0d92aaefadbad9d30b5346ec9b31">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/fur"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb23e7ba32888ae66cca8144426443b8441f673dbab50b5457a6da22b92b67b6c97">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tawed</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb1860a7665ce4184de9112d72d8043d6ae7dc21e3d32f281ce1f4f0460f240587d">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>bodges</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb2417531cb46641579afb8f7034bbb6a734750b4ef24d7144248aabb9b7ed5f47d">
+    <crm:P190_has_symbolic_content>bogie</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bodʒiː</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/budge#rate-1507-none-26">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Budges called wyght bodges the C small 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_budge_cb39b86d2b0a3e58a49fb4dc13af5ed76faf5cbc008926658289eebe76e3509d0a1"/>
+    <hector:perQuantity rdf:nodeID="commodity_budge_cb164e8ea8b5637bd5bec76f3bd9938831efc4cb8f84dd01532c93603f8ce8955ed"/>
+    <hector:qualifier rdf:nodeID="commodity_budge_cb1860a7665ce4184de9112d72d8043d6ae7dc21e3d32f281ce1f4f0460f240587d"/>
+    <hector:qualifier rdf:nodeID="commodity_budge_cb2ae6aa9fdc63e52054665b8086af4e57118a0c40dbba53d9d3a9a4dd7bb6abced"/>
+    <hector:sourceText>Book of Rates 1507, line 26 (transcribed by Stuart Jenks): 'Budges called wyght bodges the C small' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb2ae6aa9fdc63e52054665b8086af4e57118a0c40dbba53d9d3a9a4dd7bb6abced">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Isle of Wight</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q9679"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb279cdad224516690abb57a54290e9480831123ad9280502089bec9fdbcc931f28">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb19bb95ada7fab99b00c9b56b3b754f82f637c1acfc91fcaaf966eab3e2517dfce">
+    <crm:P190_has_symbolic_content>boge</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bodʒə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1483</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1485</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb234f24392f02605e7c88961d6f0bc40db0f8b6b7f8f4b20b942bd16c7cf7e91af">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb23331398fd947bfe8b06bba0fb5217862e3568366e1c8f35c8f5a5fa3f355f242">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>black</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300130920"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/budge#rate-1545-inward-102">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Bodge blacke tawed the dossen 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_budge_cb26ff35cdac56aabaa1f6b6066d6360936924be144f199d90831b714e915c00eff"/>
+    <hector:perQuantity rdf:nodeID="commodity_budge_cb1794196c5f52dc0b8d913ab419a8e732556644b368cee25c04cde837c309fd0c1"/>
+    <hector:qualifier rdf:nodeID="commodity_budge_cb23e7ba32888ae66cca8144426443b8441f673dbab50b5457a6da22b92b67b6c97"/>
+    <hector:qualifier rdf:nodeID="commodity_budge_cb2c1b430b265dfe53fbca32669524e02263b9d196b83a2546d0ccc5db09968800c"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 102 (transcribed by Stuart Jenks): 'Bodge blacke tawed the dossen' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb28d837d7b7438ccdada81ad8781275659a1c744a22f225a68afe04333f36036e1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>white</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300129784"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb2308398d794cc644810ebfbdd9f41b0367dc3999bac748a9e0b80c5c7e1c91cb1">
+    <crm:P190_has_symbolic_content>bogye</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bogie</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q9679">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Isle of Wight</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/budge#rate-1558-inward-114">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Budge blacke tawed the dosen 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_budge_cb32d53fa0fbc66d97710caadd87ea0ec874b00e48f18230740f21395034ab07fca"/>
+    <hector:perQuantity rdf:nodeID="commodity_budge_cb185bd97edcd7f4ef3cdbf89c6b69fa3a5c17274784b88b08bd6e318391ef7b2df"/>
+    <hector:qualifier rdf:nodeID="commodity_budge_cb1aff8ac05fc1641759bdcd7cca70efa7e9e2d45a6aedbe469f0302d861068decd"/>
+    <hector:qualifier rdf:nodeID="commodity_budge_cb23331398fd947bfe8b06bba0fb5217862e3568366e1c8f35c8f5a5fa3f355f242"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 114 (transcribed by Stuart Jenks): 'Budge blacke tawed the dosen' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb1a0e0924ffb0756b8aba567e696abe25c103a613a2f4f32de162a812a1732c3ba">
+    <crm:P190_has_symbolic_content>budge skins</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>buddʒə skins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb39b86d2b0a3e58a49fb4dc13af5ed76faf5cbc008926658289eebe76e3509d0a1">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb1c0513d4275437e60f34300183d7af3e912295be41053d50eab697a23f55f3a6c">
+    <crm:P190_has_symbolic_content>bogee</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bodʒeː</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb1659b341260e7d2136c95b7d86beb861631df9f2744ec5d57b5f93bfbb6b40604">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>untawed</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb4858ece8b61267009f1ffcc7fff117ad36c52ef283405c8b75418de1a12b62d4">
+    <crm:P190_has_symbolic_content>bodge</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>boddʒə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb2b25f0997e555d9996470ff84dcfbc5f4cd99ba487df2320764f2c5534c54ecce">
+    <crm:P190_has_symbolic_content>booge</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>boːdʒə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/budge">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>budge (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb2c1b430b265dfe53fbca32669524e02263b9d196b83a2546d0ccc5db09968800c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>black</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300130920"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300395532">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>pelts (animal skins)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb25e07b912e7200042ad220cf2acf7bceed832682e89049908e78185215c5bca68">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>black</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300130920"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb148ab670c330cf7e7d114310da8bf3011e8069cacf36eb620392a195ca59cc35e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb164e8ea8b5637bd5bec76f3bd9938831efc4cb8f84dd01532c93603f8ce8955ed">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb15fd91ca47d94fabeec48ced1600619cc16f36a058e292bd8311c3c402a03d042">
+    <crm:P190_has_symbolic_content>bogi</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bodʒi</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb17a2e1e1db98d929c31432fbe94e54058d1198765a8b15a8dec308f0e7f57be5d">
+    <crm:P190_has_symbolic_content>de bogy</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>de bogi</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/fur">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>fur</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb3a77f4dc38b076e120836b7a2e7ad9e476bdf567ce452d833126b7d15c0d4b191">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb1df556c3a2dd387da4d5edba411d9f6050dfc3691a85c7a5c705fc06fc947c9b2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>white</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300129784"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb1794196c5f52dc0b8d913ab419a8e732556644b368cee25c04cde837c309fd0c1">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300129784">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>white (color)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_budge_cb32d53fa0fbc66d97710caadd87ea0ec874b00e48f18230740f21395034ab07fca">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
   </rdf:Description>
 </rdf:RDF>

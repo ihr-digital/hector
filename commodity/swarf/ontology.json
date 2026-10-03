@@ -334,7 +334,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 429 (transcribed by Stuart Jenks): 'Filinges of iron called swarf the C lb. conteynyng 112 lb' 3s 4d"
+      "sourceText": "Book of Rates 1558, inward, line 429 (transcribed by Stuart Jenks): 'Filinges of iron called swarf the C lb. conteynyng 112 lb' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "iron called swarf",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -2,6 +2,7 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix hector: <https://w3id.org/hector/ontology#> .
+@prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -44,6 +45,9 @@
 aat:300162391 a crm:E55_Type ;
     rdfs:label "cloth" .
 
+aat:300243428 a crm:E55_Type ;
+    rdfs:label "silk (textile)" .
+
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
 
@@ -59,6 +63,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/yard> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "silk" ;
+            la:equivalent aat:300243428 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 534 (transcribed by Stuart Jenks): 'Grograyne sylke the yarde' 6s 8d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -72,6 +79,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "chamblettes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 535 (transcribed by Stuart Jenks): 'Grograyne chamblettes the pece' 26s 8d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .

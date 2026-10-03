@@ -8,34 +8,71 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_pen_case_cb96909453cdc90ce6e8ff86d2c15a398b74bf32e13ddcbafc0f92b2567fa96907">
-    <crm:P190_has_symbolic_content>penneris</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/pen-case#rate-1558-inward-818">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Penners and inkehornes the grosse 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_pen_case_cb2bd8da6e7659a9595dc39b8c7979bb7455cb379fb3d89d76abd3936c827980b28"/>
+    <hector:perQuantity rdf:nodeID="commodity_pen_case_cb1363e5d3aa9366ad67e5d27539177856a4232b74cf3a3d18b09ec6760862669de"/>
+    <hector:qualifier rdf:nodeID="commodity_pen_case_cb11ce42b88c557c8d6910531c4c5d9f64e4c8e0205d40612538b3b774174280470"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 818 (transcribed by Stuart Jenks): 'Penners and inkehornes the grosse' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb1cf0ac52e6be3a3c623064ad67a3f732026dc47b31a0f4d14b027ea2ea9165c7c">
+    <crm:P190_has_symbolic_content>penyr</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>peneris</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+    <hector:phoneticKey>penir</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/pen-case#rate-1558-inward-868">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Penners without ynkehornes the grosse 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_pen_case_cb26a75508829d013cce5bc1b2db191d24f5a023296a1de6f76144df9196dc83438"/>
+    <hector:perQuantity rdf:nodeID="commodity_pen_case_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50"/>
+    <hector:qualifier rdf:nodeID="commodity_pen_case_cb1b58991b4b7cb4a13df8f486f0490dc68c8da0eb8ce11b578b0b6ada8bc208e27"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 868 (transcribed by Stuart Jenks): 'Penners without ynkehornes the grosse' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb17ebf98ba667cb5802ec0722e4512fdbc9b1327bb1d14bc501bf34f64bd2a8a3e">
+    <crm:P190_has_symbolic_content>pen case (pennarium): a case or holder for pens (see also penner; cf. calamore). Distinguished from pin case by the e vowel.</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb2caacff21ba6899ce48018f5eb5ef578459f79b7e71382bb0f69627196c323986">
+    <crm:P190_has_symbolic_content>pencaces</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>penkasəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/pen-case">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb12a69bc04d3f34ccca467e3924a329c2441c59b4a32736aed0d76e172b3851787"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb16148a8810414b5164ad8eebebbc085a35cbe9f190e806b1076b44dd58accb9ff"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb17b33bf4f284892398387416a8da4ee7dd05b3a6f33bd304c61c7241c0a0b07d1"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb1915357c11f2df18f845181d64f8deef960b2a32e372ccf1ece217079f607b08d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb1b6a4f846d10ae938a2dc86821f6cb6976fad994ae7212049e71f0002ad495e36"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb1db1bf31aa97e848a257000f102a76df558abb650f2c425ad80a4a777a10c4b31"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb1eac88dba591e663c83a6f30107e69338c56c1a5c786055e77a97bd61aef44447"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb1ed43a606b00695e1fdc8d26d89d3e5dd70d934cf5326da1c05800409d0334584"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb1fadbd1d3db605bfcfd22f2f01ca6c70e48ea8d26f5066dab48cf41f57eb5ac6d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb208fe86ce974287714a678a907dfd156c64652533f26ef8129867c657101a10e3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb217e3975ec0b71d242efc0bdd03c0bcf3230de1896a05f27504d18bb93d064aec"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb223892eac99df201c0c761954ab2298681712bb00bedc2c986836039da491785c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb25fbfdea34333f71e14e244a883fc1775abd085ea854d8bbb4fc571b38e0b9b2"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb27abdc18b3802203cf2a0642e81492571450a1a78b26b8fb743af0be6ea5b6779"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb27cd9d453eb56446a81d90023c5d7b784f9f19c3ea3810f67a3c3317fc302a972"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb96909453cdc90ce6e8ff86d2c15a398b74bf32e13ddcbafc0f92b2567fa96907"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cbf46e1351f052cfbb03f789edcbe3690e951240ddfe2d17858b0de54e1a25e883"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_pen_case_cb814791edeb6fc114a6c84bd0ded87c1559042fffa8e9e0adef6a25d0d03d7c26"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb17eb153d2cbe5dd99f89f29080a4dd98f7d2fb883eecb47c8d7e2c54949e6f520"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb1cf0ac52e6be3a3c623064ad67a3f732026dc47b31a0f4d14b027ea2ea9165c7c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb1da3c7de3b0fa3781068f51e9b38d4cd150434caa4e8b66f70997f6b3eda5022b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb1e7771706ad0bf43c43fbe0c18ddcdc5e1a1946e6ad66292895836f7e225d3b91"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb20c54db0883304c1adf66757c2604d7061117e171f72c9ede42c0688af38a870d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb219ed06d5ae8a1235dec095feb8d7b836e92939c9990c326d860fa676a20cedf6"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb225e9b88425c8f41c4c8d737def644f044cd8a8db5d276d3b09ed0c5e94c594e6"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb228429e9c3cbf7230ea5e9b648647c889478de5579ea341672f3b0ae0a797a71d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb23727af2c663407e3cef31cb10c0b70100636a1ad163a3bc99ba4d042d483e126"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb23c415dd390159ceaf0165e587de72db26b2b56f2d415c61bb0a4c43d1e62ab8c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb24f36251d2a47142e2e90ba33dc9da9600a4819fb721c55a800bc595de9b51a80"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb2b7b0fa2160e9c4f53aed6e2fecc15885f31c99e21c4d5dab5cb9b6c1da035773"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb2caacff21ba6899ce48018f5eb5ef578459f79b7e71382bb0f69627196c323986"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb2ebdc893dd085f3e028c941511aeec53ca0900163bd4c7cec63e485dd8e176a19"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb32686dbc18c9838eee6fa24cf19099ff1ddf12f6b340c2c25cd20cd84263b9beb"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cb5e851806a5f79cb7f962454217db2ab21cc334b5b6685430e19b246d60118b50"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_pen_case_cbeda23b53f4e90fb0997eb46f38cbb4dbbccc0ed1990d1420bb64f46247e2d82f"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_pen_case_cb17ebf98ba667cb5802ec0722e4512fdbc9b1327bb1d14bc501bf34f64bd2a8a3e"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>pen case</rdfs:label>
     <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/pen%20case"/>
@@ -45,8 +82,12 @@
     <skos:related rdf:resource="https://w3id.org/hector/commodity/pin-case"/>
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300429025"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">163</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/pen-case#rate-1545-inward-576"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/pen-case#rate-1545-inward-577"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/pen-case#rate-1558-inward-818"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/pen-case#rate-1558-inward-868"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_pen_case_cb16148a8810414b5164ad8eebebbc085a35cbe9f190e806b1076b44dd58accb9ff">
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb2ebdc893dd085f3e028c941511aeec53ca0900163bd4c7cec63e485dd8e176a19">
     <crm:P190_has_symbolic_content>penyrs</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -54,151 +95,7 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_pen_case_cb1b6a4f846d10ae938a2dc86821f6cb6976fad994ae7212049e71f0002ad495e36">
-    <crm:P190_has_symbolic_content>pennares</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>penarəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_pen_case_cb12a69bc04d3f34ccca467e3924a329c2441c59b4a32736aed0d76e172b3851787">
-    <crm:P190_has_symbolic_content>penner</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pener</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_pen_case_cb1915357c11f2df18f845181d64f8deef960b2a32e372ccf1ece217079f607b08d">
-    <crm:P190_has_symbolic_content>penyr</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>penir</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_pen_case_cb1eac88dba591e663c83a6f30107e69338c56c1a5c786055e77a97bd61aef44447">
-    <crm:P190_has_symbolic_content>pennarii</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>penari</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_pen_case_cb208fe86ce974287714a678a907dfd156c64652533f26ef8129867c657101a10e3">
-    <crm:P190_has_symbolic_content>pencace</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>penkasə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_pen_case_cb1ed43a606b00695e1fdc8d26d89d3e5dd70d934cf5326da1c05800409d0334584">
-    <crm:P190_has_symbolic_content>penar</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>penar</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_pen_case_cb217e3975ec0b71d242efc0bdd03c0bcf3230de1896a05f27504d18bb93d064aec">
-    <crm:P190_has_symbolic_content>pencase</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>penkasə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_pen_case_cb27abdc18b3802203cf2a0642e81492571450a1a78b26b8fb743af0be6ea5b6779">
-    <crm:P190_has_symbolic_content>pennars</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>penars</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_pen_case_cb17b33bf4f284892398387416a8da4ee7dd05b3a6f33bd304c61c7241c0a0b07d1">
-    <crm:P190_has_symbolic_content>pen case</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pen kasə</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/calamore">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>calamore</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300429025">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>pen cases</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_pen_case_cb814791edeb6fc114a6c84bd0ded87c1559042fffa8e9e0adef6a25d0d03d7c26">
-    <crm:P190_has_symbolic_content>pen case (pennarium): a case or holder for pens (see also penner; cf. calamore). Distinguished from pin case by the e vowel.</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_pen_case_cb1fadbd1d3db605bfcfd22f2f01ca6c70e48ea8d26f5066dab48cf41f57eb5ac6d">
-    <crm:P190_has_symbolic_content>penars</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>penars</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_pen_case_cb27cd9d453eb56446a81d90023c5d7b784f9f19c3ea3810f67a3c3317fc302a972">
-    <crm:P190_has_symbolic_content>pennarium</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>penarium</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_pen_case_cb223892eac99df201c0c761954ab2298681712bb00bedc2c986836039da491785c">
-    <crm:P190_has_symbolic_content>pencaces</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>penkasəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/pin-case">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>pin case</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/pen">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>pen</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_pen_case_cbf46e1351f052cfbb03f789edcbe3690e951240ddfe2d17858b0de54e1a25e883">
-    <crm:P190_has_symbolic_content>penners</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>peners</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_pen_case_cb25fbfdea34333f71e14e244a883fc1775abd085ea854d8bbb4fc571b38e0b9b2">
-    <crm:P190_has_symbolic_content>pennar</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>penar</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1492</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_pen_case_cb1db1bf31aa97e848a257000f102a76df558abb650f2c425ad80a4a777a10c4b31">
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb23c415dd390159ceaf0165e587de72db26b2b56f2d415c61bb0a4c43d1e62ab8c">
     <crm:P190_has_symbolic_content>pennare</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -206,12 +103,231 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/pen%20case">
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb2e716fe27d385982c6537876cb2232959a28c4d10d655b58afcea17507b67f3a4">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s 6d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb2850d6d28b540edfc734acff8e838cafe8a4f35037151b793e5da10c5cab8e9df">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>5s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb1da3c7de3b0fa3781068f51e9b38d4cd150434caa4e8b66f70997f6b3eda5022b">
+    <crm:P190_has_symbolic_content>pen case</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>pen kasə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb32686dbc18c9838eee6fa24cf19099ff1ddf12f6b340c2c25cd20cd84263b9beb">
+    <crm:P190_has_symbolic_content>pennars</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>penars</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb1b58991b4b7cb4a13df8f486f0490dc68c8da0eb8ce11b578b0b6ada8bc208e27">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>pen case (London Customs Accounts glossary)</rdfs:label>
+    <rdfs:label>without ynkehornes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/calamore">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>calamore</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/pen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>pen</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/penwhite">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>penwhite</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb14ae3c2481c39860683a722e83a867e578f192193be11c97af678a67a325cf82c">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>ynckhornes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb225e9b88425c8f41c4c8d737def644f044cd8a8db5d276d3b09ed0c5e94c594e6">
+    <crm:P190_has_symbolic_content>pennares</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>penarəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cbeda23b53f4e90fb0997eb46f38cbb4dbbccc0ed1990d1420bb64f46247e2d82f">
+    <crm:P190_has_symbolic_content>penneris</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>peneris</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/pen-case#rate-1545-inward-577">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Penners and ynckhornes the groce 5s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_pen_case_cb2850d6d28b540edfc734acff8e838cafe8a4f35037151b793e5da10c5cab8e9df"/>
+    <hector:perQuantity rdf:nodeID="commodity_pen_case_cb18629a8fe3dbbbef3733c85ebf853bb6cc2b54b6d25f1cbff66a015d0ddcd93d7"/>
+    <hector:qualifier rdf:nodeID="commodity_pen_case_cb14ae3c2481c39860683a722e83a867e578f192193be11c97af678a67a325cf82c"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 577 (transcribed by Stuart Jenks): 'Penners and ynckhornes the groce' 5s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb17eb153d2cbe5dd99f89f29080a4dd98f7d2fb883eecb47c8d7e2c54949e6f520">
+    <crm:P190_has_symbolic_content>penner</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>pener</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb25a4ce93bed62875f017ad00e942183fa5a768f9e13c5e3fa9aebdf323429b377">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>alone</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb5e851806a5f79cb7f962454217db2ab21cc334b5b6685430e19b246d60118b50">
+    <crm:P190_has_symbolic_content>pennar</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>penar</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1492</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb24f36251d2a47142e2e90ba33dc9da9600a4819fb721c55a800bc595de9b51a80">
+    <crm:P190_has_symbolic_content>pennarii</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>penari</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb23727af2c663407e3cef31cb10c0b70100636a1ad163a3bc99ba4d042d483e126">
+    <crm:P190_has_symbolic_content>pencase</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>penkasə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/pin-case">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>pin case</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb228429e9c3cbf7230ea5e9b648647c889478de5579ea341672f3b0ae0a797a71d">
+    <crm:P190_has_symbolic_content>pencace</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>penkasə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb219ed06d5ae8a1235dec095feb8d7b836e92939c9990c326d860fa676a20cedf6">
+    <crm:P190_has_symbolic_content>penars</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>penars</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb20c54db0883304c1adf66757c2604d7061117e171f72c9ede42c0688af38a870d">
+    <crm:P190_has_symbolic_content>penar</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>penar</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb26a75508829d013cce5bc1b2db191d24f5a023296a1de6f76144df9196dc83438">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/pen-case#rate-1545-inward-576">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Penners alone the groce 2s 6d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_pen_case_cb2e716fe27d385982c6537876cb2232959a28c4d10d655b58afcea17507b67f3a4"/>
+    <hector:perQuantity rdf:nodeID="commodity_pen_case_cb1e54780951ceb67b72f5c4d79d2c5e733c07902c3b0ba6ca8411f76082459631b"/>
+    <hector:qualifier rdf:nodeID="commodity_pen_case_cb25a4ce93bed62875f017ad00e942183fa5a768f9e13c5e3fa9aebdf323429b377"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 576 (transcribed by Stuart Jenks): 'Penners alone the groce' 2s 6d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb1e54780951ceb67b72f5c4d79d2c5e733c07902c3b0ba6ca8411f76082459631b">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb1363e5d3aa9366ad67e5d27539177856a4232b74cf3a3d18b09ec6760862669de">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb18629a8fe3dbbbef3733c85ebf853bb6cc2b54b6d25f1cbff66a015d0ddcd93d7">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb2b7b0fa2160e9c4f53aed6e2fecc15885f31c99e21c4d5dab5cb9b6c1da035773">
+    <crm:P190_has_symbolic_content>pennarium</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>penarium</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb1e7771706ad0bf43c43fbe0c18ddcdc5e1a1946e6ad66292895836f7e225d3b91">
+    <crm:P190_has_symbolic_content>penners</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>peners</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300429025">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>pen cases</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb2bd8da6e7659a9595dc39b8c7979bb7455cb379fb3d89d76abd3936c827980b28">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>gross</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/pen%20case">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>pen case (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_pen_case_cb11ce42b88c557c8d6910531c4c5d9f64e4c8e0205d40612538b3b774174280470">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>inkehornes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

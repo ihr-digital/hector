@@ -10,27 +10,17 @@
     rdfs:label "lace" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "lasyng" ;
+            crm:P190_has_symbolic_content "lac" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "lasiŋ" ],
+            hector:phoneticKey "lak" ;
+            hector:validFrom "1465"^^xsd:gYear ;
+            hector:validThrough "1472"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "lacis" ;
+            crm:P190_has_symbolic_content "lasys" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "lasis" ;
-            hector:validFrom "1483"^^xsd:gYear ;
-            hector:validThrough "1485"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "lassing" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "lasiŋ" ;
-            hector:validFrom "1461"^^xsd:gYear ;
-            hector:validThrough "1465"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "laces" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "lasəs" ;
-            hector:validFrom "1428"^^xsd:gYear ;
-            hector:validThrough "1533"^^xsd:gYear ],
+            hector:validFrom "1446"^^xsd:gYear ;
+            hector:validThrough "1450"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "lace" ;
             crm:P2_has_type aat:300404670,
@@ -39,23 +29,17 @@
             hector:validFrom "1428"^^xsd:gYear ;
             hector:validThrough "1533"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "lac" ;
+            crm:P190_has_symbolic_content "lassing" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "lak" ;
-            hector:validFrom "1465"^^xsd:gYear ;
-            hector:validThrough "1472"^^xsd:gYear ],
+            hector:phoneticKey "lasiŋ" ;
+            hector:validFrom "1461"^^xsd:gYear ;
+            hector:validThrough "1465"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "lacys" ;
+            crm:P190_has_symbolic_content "lacis" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "lasis" ;
-            hector:validFrom "1465"^^xsd:gYear ;
-            hector:validThrough "1472"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "lases" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "lasəs" ;
-            hector:validFrom "1512"^^xsd:gYear ;
-            hector:validThrough "1513"^^xsd:gYear ],
+            hector:validFrom "1483"^^xsd:gYear ;
+            hector:validThrough "1485"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "lase" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -63,21 +47,37 @@
             hector:validFrom "1512"^^xsd:gYear ;
             hector:validThrough "1513"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "lacys" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "lasis" ;
+            hector:validFrom "1465"^^xsd:gYear ;
+            hector:validThrough "1472"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "laces" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "lasəs" ;
+            hector:validFrom "1428"^^xsd:gYear ;
+            hector:validThrough "1533"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "lasez" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "lasez" ;
             hector:validFrom "1439"^^xsd:gYear ;
             hector:validThrough "1440"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "lasing" ;
+            crm:P190_has_symbolic_content "lases" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "lasəs" ;
+            hector:validFrom "1512"^^xsd:gYear ;
+            hector:validThrough "1513"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "lasyng" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "lasiŋ" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "lasys" ;
+            crm:P190_has_symbolic_content "lasing" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "lasis" ;
-            hector:validFrom "1446"^^xsd:gYear ;
-            hector:validThrough "1450"^^xsd:gYear ] ;
+            hector:phoneticKey "lasiŋ" ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "lace, a string or cord serving to draw together opposite edges of clothing (bodices, stays, boots, shoes) by being passed through eyelet-holes or over hooks and pulled tight (OED s.v. lace n. 3); here measured in gross — so not lace n. 6 (the openwork fabric, measured in yards). Made of thread, leather, hair, worsted or caddis. For gold/silver decorative braid see passemain; see also point, scholas (shoelaces), aglett." ;
             crm:P2_has_type aat:300435416 ] ;
@@ -89,7 +89,10 @@
         <https://w3id.org/hector/commodity/point>,
         <https://w3id.org/hector/commodity/shoelace> ;
     hector:attestationCount 464 ;
-    hector:taxation <https://w3id.org/hector/commodity/lace#rate-1558-inward-649> .
+    hector:taxation <https://w3id.org/hector/commodity/lace#rate-1507-none-161>,
+        <https://w3id.org/hector/commodity/lace#rate-1545-inward-84>,
+        <https://w3id.org/hector/commodity/lace#rate-1558-inward-133>,
+        <https://w3id.org/hector/commodity/lace#rate-1558-inward-649> .
 
 aat:300239307 a crm:E55_Type ;
     rdfs:label "ties (fasteners)" .
@@ -97,14 +100,59 @@ aat:300239307 a crm:E55_Type ;
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
 
-aat:300411998 a crm:E98_Currency ;
-    rdfs:label "pound sterling (system of money)" .
-
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
 <https://w3id.org/hector/commodity/aglett> a crm:E55_Type ;
     rdfs:label "aglett" .
+
+<https://w3id.org/hector/commodity/lace#rate-1507-none-161> a hector:Rate ;
+    rdfs:label "1507: Laces called Flawnderes laces the grett grosse and every gret gross ys 5s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "5s" ;
+            hector:valueInPence 60.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1728 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Flawnderes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 161 (transcribed by Stuart Jenks): 'Laces called Flawnderes laces the grett grosse and every gret gross ys' 5s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/lace#rate-1545-inward-84> a hector:Rate ;
+    rdfs:label "1545 inward: Brytayne laces the groce 5s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "5s" ;
+            hector:valueInPence 60.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Brytayne" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 84 (transcribed by Stuart Jenks): 'Brytayne laces the groce' 5s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/lace#rate-1558-inward-133> a hector:Rate ;
+    rdfs:label "1558 inward: Britayne laces the grosse 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Britayne" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 133 (transcribed by Stuart Jenks): 'Britayne laces the grosse' 10s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/lace#rate-1558-inward-649> a hector:Rate ;
     rdfs:label "1558 inward: Laces the grosse 6s 8d" ;
@@ -131,11 +179,14 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/hector/commodity/shoelace> a crm:E55_Type ;
     rdfs:label "shoelace" .
 
-<https://w3id.org/hector/unit/gross> a crm:E58_Measurement_Unit ;
-    rdfs:label "gross" .
-
 <https://w3id.org/mlca/glossary/lace> a crm:E55_Type ;
     rdfs:label "lace (London Customs Accounts glossary)" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
+<https://w3id.org/hector/unit/gross> a crm:E58_Measurement_Unit ;
+    rdfs:label "gross" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

@@ -11,23 +11,17 @@
     rdfs:label "cotton_8" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "kottones" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kotonəs" ;
+            hector:validFrom "1545"^^xsd:gYear ;
+            hector:validThrough "1547"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cottyn" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kotin" ;
             hector:validFrom "1505"^^xsd:gYear ;
             hector:validThrough "1506"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "cowton" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kuːton" ;
-            hector:validFrom "1545"^^xsd:gYear ;
-            hector:validThrough "1547"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "cowtons" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kuːtons" ;
-            hector:validFrom "1545"^^xsd:gYear ;
-            hector:validThrough "1547"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cotyns" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -35,23 +29,11 @@
             hector:validFrom "1505"^^xsd:gYear ;
             hector:validThrough "1506"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "kotton" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "koton" ;
-            hector:validFrom "1545"^^xsd:gYear ;
-            hector:validThrough "1547"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cotyn" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kotin" ;
             hector:validFrom "1505"^^xsd:gYear ;
             hector:validThrough "1506"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "cottonus" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kotonus" ;
-            hector:validFrom "1438"^^xsd:gYear ;
-            hector:validThrough "1439"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cottyns" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -77,29 +59,29 @@
             hector:validFrom "1545"^^xsd:gYear ;
             hector:validThrough "1547"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "kotton" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "koton" ;
+            hector:validFrom "1545"^^xsd:gYear ;
+            hector:validThrough "1547"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "cottonus" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kotonus" ;
+            hector:validFrom "1438"^^xsd:gYear ;
+            hector:validThrough "1439"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cotone" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kotonə" ;
             hector:validFrom "1428"^^xsd:gYear ;
             hector:validThrough "1430"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "cottuns" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kotuns" ;
-            hector:validFrom "1550"^^xsd:gYear ;
-            hector:validThrough "1553"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cottons" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kotons" ;
             hector:validFrom "1506"^^xsd:gYear ;
             hector:validThrough "1507"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "cottonum" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kotonum" ;
-            hector:validFrom "1400"^^xsd:gYear ;
-            hector:validThrough "1421"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "coten" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -119,17 +101,41 @@
             hector:validFrom "1465"^^xsd:gYear ;
             hector:validThrough "1472"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "cottuns" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kotuns" ;
+            hector:validFrom "1550"^^xsd:gYear ;
+            hector:validThrough "1553"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cottouns" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kotuːns" ;
             hector:validFrom "1461"^^xsd:gYear ;
             hector:validThrough "1465"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "cottonum" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kotonum" ;
+            hector:validFrom "1400"^^xsd:gYear ;
+            hector:validThrough "1421"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cotonum" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kotonum" ;
             hector:validFrom "1390"^^xsd:gYear ;
             hector:validThrough "1398"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "cowtons" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kuːtons" ;
+            hector:validFrom "1545"^^xsd:gYear ;
+            hector:validThrough "1547"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "cowton" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kuːton" ;
+            hector:validFrom "1545"^^xsd:gYear ;
+            hector:validThrough "1547"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cotonus" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -165,17 +171,13 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kotonə" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "cottones" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kotonəs" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "cotton_8" ;
-            crm:P2_has_type aat:300404670 ;
-            hector:phoneticKey "koton" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cotten" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "koten" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "cottones" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kotonəs" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "coton" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -183,11 +185,9 @@
             hector:validFrom "1380"^^xsd:gYear ;
             hector:validThrough "1385"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "kottones" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kotonəs" ;
-            hector:validFrom "1545"^^xsd:gYear ;
-            hector:validThrough "1547"^^xsd:gYear ] ;
+            crm:P190_has_symbolic_content "cotton_8" ;
+            crm:P2_has_type aat:300404670 ;
+            hector:phoneticKey "koton" ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "White-to-yellowish seed-hair fibers of several species of the genus Gossypium, native to most subtropical areas of the world; used especially for making textile, cord, padding, rag paper, and for cellulose used for plastic and rayon. [Source: Getty AAT] | Textile made from cotton fiber. [Source: Getty AAT]" ;
             crm:P2_has_type aat:300435416 ] ;
@@ -197,6 +197,16 @@
         aat:300183670 ;
     hector:attestationCount 5608 ;
     hector:taxation <https://w3id.org/hector/commodity/cotton-8#rate-1507-none-32>,
+        <https://w3id.org/hector/commodity/cotton-8#rate-1507-none-35>,
+        <https://w3id.org/hector/commodity/cotton-8#rate-1507-none-36>,
+        <https://w3id.org/hector/commodity/cotton-8#rate-1545-inward-131>,
+        <https://w3id.org/hector/commodity/cotton-8#rate-1545-inward-132>,
+        <https://w3id.org/hector/commodity/cotton-8#rate-1545-inward-152>,
+        <https://w3id.org/hector/commodity/cotton-8#rate-1545-inward-153>,
+        <https://w3id.org/hector/commodity/cotton-8#rate-1558-inward-218>,
+        <https://w3id.org/hector/commodity/cotton-8#rate-1558-inward-219>,
+        <https://w3id.org/hector/commodity/cotton-8#rate-1558-inward-230>,
+        <https://w3id.org/hector/commodity/cotton-8#rate-1558-inward-231>,
         <https://w3id.org/hector/commodity/cotton-8#rate-1558-inward-866>,
         <https://w3id.org/hector/commodity/cotton-8#rate-1558-outward-16> .
 
@@ -221,9 +231,178 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "wymen" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1507, line 32 (transcribed by Stuart Jenks): 'Cottons for wymen the pece' 20d" ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cotton-8#rate-1507-none-35> a hector:Rate ;
+    rdfs:label "1507: Cotton wolle the C weyght 26s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "26s 8d" ;
+            hector:valueInPence 320.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundredweight> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "wolle" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 35 (transcribed by Stuart Jenks): 'Cotton wolle the C weyght' 26s 8d" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cotton-8#rate-1507-none-36> a hector:Rate ;
+    rdfs:label "1507: Cotton wolle spowne the C weyght 33s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "33s 4d" ;
+            hector:valueInPence 400.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundredweight> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "wolle spowne" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 36 (transcribed by Stuart Jenks): 'Cotton wolle spowne the C weyght' 33s 4d" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cotton-8#rate-1545-inward-131> a hector:Rate ;
+    rdfs:label "1545 inward: Cotton olde the ell 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4d" ;
+            hector:valueInPence 4.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/ell> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "old" ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 131 (transcribed by Stuart Jenks): 'Cotton olde the ell' 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cotton-8#rate-1545-inward-132> a hector:Rate ;
+    rdfs:label "1545 inward: Cotton newe the yarde 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4d" ;
+            hector:valueInPence 4.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/yard> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "new" ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 132 (transcribed by Stuart Jenks): 'Cotton newe the yarde' 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cotton-8#rate-1545-inward-152> a hector:Rate ;
+    rdfs:label "1545 inward: Cotton unsponne the hundreth pound 26s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "26s 8d" ;
+            hector:valueInPence 320.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "unsponne" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 152 (transcribed by Stuart Jenks): 'Cotton unsponne the hundreth pound' 26s 8d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cotton-8#rate-1545-inward-153> a hector:Rate ;
+    rdfs:label "1545 inward: Cotton sponne the hundreth pounde 33s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "33s 4d" ;
+            hector:valueInPence 400.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "sponne" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 153 (transcribed by Stuart Jenks): 'Cotton sponne the hundreth pounde' 33s 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cotton-8#rate-1558-inward-218> a hector:Rate ;
+    rdfs:label "1558 inward: Cotton olde for womens heddes the elle 12d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "12d" ;
+            hector:valueInPence 12.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/ell> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "women's" ],
+        [ a crm:E55_Type ;
+            rdfs:label "old" ],
+        [ a crm:E55_Type ;
+            rdfs:label "heddes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 218 (transcribed by Stuart Jenks): 'Cotton olde for womens heddes the elle' 12d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cotton-8#rate-1558-inward-219> a hector:Rate ;
+    rdfs:label "1558 inward: Cotton newe for womens heddes the yarde 20d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20d" ;
+            hector:valueInPence 20.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/yard> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "new" ],
+        [ a crm:E55_Type ;
+            rdfs:label "women's" ],
+        [ a crm:E55_Type ;
+            rdfs:label "heddes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 219 (transcribed by Stuart Jenks): 'Cotton newe for womens heddes the yarde' 20d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cotton-8#rate-1558-inward-230> a hector:Rate ;
+    rdfs:label "1558 inward: Cotton unspon the C cont’ fyve score poundes £3 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£3 6s 8d" ;
+            hector:valueInPence 800.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "unspon" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 230 (transcribed by Stuart Jenks): 'Cotton unspon the C cont’ fyve score poundes' £3 6s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cotton-8#rate-1558-inward-231> a hector:Rate ;
+    rdfs:label "1558 inward: Cotton spon the C cont’ fyve score pounde £5" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£5" ;
+            hector:valueInPence 1200.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "spon" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 231 (transcribed by Stuart Jenks): 'Cotton spon the C cont’ fyve score pounde' £5" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/cotton-8#rate-1558-inward-866> a hector:Rate ;
     rdfs:label "1558 inward: Petycotes knytte of wolle or cotton the dosen 30s" ;
@@ -234,6 +413,14 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 12 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "wolle" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "knitted" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Petycotes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 866 (transcribed by Stuart Jenks): 'Petycotes knytte of wolle or cotton the dosen' 30s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -257,14 +444,23 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
     rdfs:label "dozen" .
 
-<https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
-    rdfs:label "hundred" .
-
 <https://w3id.org/hector/unit/pecia> a crm:E58_Measurement_Unit ;
     rdfs:label "pecia" .
 
 <https://w3id.org/mlca/glossary/cotton_8> a crm:E55_Type ;
     rdfs:label "cotton_8 (London Customs Accounts glossary)" .
+
+<https://w3id.org/hector/unit/ell> a crm:E58_Measurement_Unit ;
+    rdfs:label "ell" .
+
+<https://w3id.org/hector/unit/hundredweight> a crm:E58_Measurement_Unit ;
+    rdfs:label "hundredweight" .
+
+<https://w3id.org/hector/unit/yard> a crm:E58_Measurement_Unit ;
+    rdfs:label "yard" .
+
+<https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
+    rdfs:label "hundred" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

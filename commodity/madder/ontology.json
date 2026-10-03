@@ -225,6 +225,79 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/madder#rate-1507-none-166",
+      "type": "Rate",
+      "_label": "1507: Mather called croppe mather or humberow mather the bale 50s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "600",
+        "lsd": "50s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/bale",
+          "type": "MeasurementUnit",
+          "_label": "bale"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 166 (transcribed by Stuart Jenks): 'Mather called croppe mather or humberow mather the bale' 50s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "humberow",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/madder#rate-1507-none-167",
+      "type": "Rate",
+      "_label": "1507: Mather called mull mather þe bale 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/bale",
+          "type": "MeasurementUnit",
+          "_label": "bale"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 167 (transcribed by Stuart Jenks): 'Mather called mull mather þe bale' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "mull"
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/madder#rate-1507-none-176",
       "type": "Rate",
       "_label": "1507: Mather called crope or umbero the pocke 37s 6d",
@@ -249,7 +322,20 @@
       },
       "validFrom": "1507",
       "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 176 (transcribed by Stuart Jenks): 'Mather called crope or umbero the pocke' 37s 6d"
+      "sourceText": "Book of Rates 1507, line 176 (transcribed by Stuart Jenks): 'Mather called crope or umbero the pocke' 37s 6d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "crope or umbero",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/madder#rate-1545-inward-471",
@@ -358,6 +444,46 @@
       "validFrom": "1558",
       "validThrough": "1604",
       "sourceText": "Book of Rates 1558, inward, line 696 (transcribed by Stuart Jenks): 'Madder the bale cont’ 8 C [lb.]' £5 6s 8d"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/madder#rate-1558-inward-697",
+      "type": "Rate",
+      "_label": "1558 inward: Madder voc’ mulle madder the bale cont’ 8 C [lb.] 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/bale",
+          "type": "MeasurementUnit",
+          "_label": "bale"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 697 (transcribed by Stuart Jenks): 'Madder voc’ mulle madder the bale cont’ 8 C [lb.]' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "mulle",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/madder#rate-1558-inward-698",

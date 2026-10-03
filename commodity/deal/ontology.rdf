@@ -8,117 +8,39 @@
    xmlns:schema1="http://schema.org/"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_deal_cbd45b47388d4edc5a9d97b44361716d95910bd7da44733779e8953340314f6b0b">
-    <crm:P190_has_symbolic_content>delis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>delis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_deal_cb17c384d250d96105a20fd96619f3b40c26906bd6923e4227d59ce85d5333e9b78">
-    <crm:P190_has_symbolic_content>dealle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dɛːlə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/deal">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
     <schema1:material rdf:resource="http://vocab.getty.edu/aat/300011914"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb126e197a84541695d2b92c295ed6c2adfd447a69440cde577d508a6e87940bc62"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb1443ae350b3adee64d1d692fbd30c99453de4eb38b53f70a4ff4332a609a7528f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb15466dce27694c189356683b1faa9fd5a10c0e1457d941245f0459c2afd4f5332"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb16ddefbc49537f02fa0114da2ec5ea394acf5d8b2154f78c11d70a95f7c034b2d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb17bb6101cfd5b04fa105d25f0f62b4e255042150d7e54675b746c9686557795ab"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb17c384d250d96105a20fd96619f3b40c26906bd6923e4227d59ce85d5333e9b78"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb1914d551941ab8893f462b0bcc9a2ce7624119ef9399efd3b48d9672140ae4ef3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb19fb3446d680fd2d8ef1fd213931bcbf2e75cbe6e467e78ce3cb8c877f2cd78d6"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb1a44c7fbe70ec0336e5eecc057135625250d221756507cd970268690bc9dce33f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb1ac1fefc357a88a0ea0142b727d236dc35e37e208a039c205d78ada14a9a3b734"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb1b5ede5cf03ba50c8b8b58add1675779fe977cb22ca231ff900269359379b2201"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb1c3bf0e10c342c65dd99c01893ba836d386a82e31767f656f4b2c62748ceddea0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb1dc2ec5c61a40f7ee9e0d1b3908091e2777b000e1859d1709373f2d4c09013a31"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb20427a4e621622453fafbeabbba1cf2372edeb39e62428dcb3b24fe9cf479428b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb22df84c20f4400584b766359bb2b99dc2de47e468c42198959920dd2db06a9082"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb241bd1ed2a026d9a22c17e9e266ca0b7bc9bc1dcfd2684821960420771960e67f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb25bfb923f8a2a205e2d0478b275b7c757dbadcdcf4a54186c561390c072e9cc4f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb277783946a5fd5f754f178c7fc81652fce26ca1de9022e8064046683dfe0e4ac3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cbd45b47388d4edc5a9d97b44361716d95910bd7da44733779e8953340314f6b0b"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_deal_cbe1991c42d4891088eed99998f25915e43fcbf1e8d6ba32812b3d70979d8efdd"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb165bf8c09934395b3653445b9908f003981eb486ed2003e58ef1bd93a341f9cbd"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb1d4ff1ad0d6e407019a532debb2a668c889b677c56e28e4bb3d66f7da5af2638a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb1e8cc34f8e9300c2770a3109e8c268fdca7071813d74601290377b756e7e7d64d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb2070d8b38926b224b28c6b64102c395987485cdbe495e1cdea5e0951c06193cdd"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb211f77252b578a2973106b34cb772781ee87aca0e1e93c4c429b5ed300e296f4a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb22e272b90f2bcde53deef924156e3081459ae6446f678f5fc33f59ec537afdd57"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb2513419f1a70b95302f29e15d0512998378f87ce7a3725673a5070d3e7aa4031e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb255f89bd389be2d24ca86a4f0fb744b7cb1f4406a9cc906339d7e886f6d9f259d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb27b0cc7415d53d6970ea21bc111e8b8807bec7a71ee59dd2e9353f54196410dd8"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb288bb67e0b998cabb3a3268d31088a2128cd5a2c707b1462b66516376aa27786e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb293b4b6904ebd45bd01741b667bf6a2237ad2de25363fe0950adbe9a57c068aba"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb2992d0516900b700a96b6cdb478f66cf4a150f827b3bd77f5bfe312b2419d789d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb2a7142c3dd5166b5e68b49543545c2cc252aad26704a24321d2c2c6538b8e9691"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb2acb89c31244d989a18f514f5ad791fe023f04c27cfdb579e2e9d9568477d5b99"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb2b2cd430b2ed96f9092e98e7e134139914c77179f9522b9cf3e99a553f49f3480"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb2f96b1510fab5c6f740d66b6ec3f73f0ab76963aadb9975ded2704f20102f1551"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb2fb11daad183308ff0ef8d89bf138f19c31773ad3e6ee75ad86a5e4af6bc6ea85"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cb337008efd797a7c4571f26a9570a4584f5246cddc4bbf30352d4f70fa3516b945"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_deal_cbf36c7c3a607892937f355751fda25ebe314a847ce878fc3c25d597c154a6ac94"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_deal_cb10b919890a855857416e5bff6f5601305860bb6da01967eca3f3d009d66c5fdf5"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>deal</rdfs:label>
     <skos:broader rdf:resource="http://vocab.getty.edu/aat/300014616"/>
     <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/deal"/>
     <skos:related rdf:resource="https://w3id.org/hector/commodity/plank"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">145</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/deal#rate-1558-inward-355"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/deal#rate-1558-inward-356"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_deal_cb25bfb923f8a2a205e2d0478b275b7c757dbadcdcf4a54186c561390c072e9cc4f">
-    <crm:P190_has_symbolic_content>dell</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>del</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/plank">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>plank</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_deal_cb126e197a84541695d2b92c295ed6c2adfd447a69440cde577d508a6e87940bc62">
-    <crm:P190_has_symbolic_content>dellys</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>delis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_deal_cb1443ae350b3adee64d1d692fbd30c99453de4eb38b53f70a4ff4332a609a7528f">
-    <crm:P190_has_symbolic_content>deel</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>deːl</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_deal_cb16ddefbc49537f02fa0114da2ec5ea394acf5d8b2154f78c11d70a95f7c034b2d">
-    <crm:P190_has_symbolic_content>dele</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>delə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_deal_cb1ac1fefc357a88a0ea0142b727d236dc35e37e208a039c205d78ada14a9a3b734">
-    <crm:P190_has_symbolic_content>delys</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>delis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_deal_cb1dc2ec5c61a40f7ee9e0d1b3908091e2777b000e1859d1709373f2d4c09013a31">
-    <crm:P190_has_symbolic_content>deall</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dɛːl</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_deal_cb19fb3446d680fd2d8ef1fd213931bcbf2e75cbe6e467e78ce3cb8c877f2cd78d6">
-    <crm:P190_has_symbolic_content>deelles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>deːləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_deal_cb20427a4e621622453fafbeabbba1cf2372edeb39e62428dcb3b24fe9cf479428b">
+  <rdf:Description rdf:nodeID="commodity_deal_cb2f96b1510fab5c6f740d66b6ec3f73f0ab76963aadb9975ded2704f20102f1551">
     <crm:P190_has_symbolic_content>dealles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -126,19 +48,23 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_deal_cb1c3bf0e10c342c65dd99c01893ba836d386a82e31767f656f4b2c62748ceddea0">
-    <crm:P190_has_symbolic_content>delle</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_deal_cb1d4ff1ad0d6e407019a532debb2a668c889b677c56e28e4bb3d66f7da5af2638a">
+    <crm:P190_has_symbolic_content>del</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>delə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+    <hector:phoneticKey>del</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_deal_cb211f77252b578a2973106b34cb772781ee87aca0e1e93c4c429b5ed300e296f4a">
+    <crm:P190_has_symbolic_content>deall</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dɛːl</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_deal_cb17bb6101cfd5b04fa105d25f0f62b4e255042150d7e54675b746c9686557795ab">
+  <rdf:Description rdf:nodeID="commodity_deal_cb288bb67e0b998cabb3a3268d31088a2128cd5a2c707b1462b66516376aa27786e">
     <crm:P190_has_symbolic_content>deeles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -146,7 +72,71 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_deal_cb22df84c20f4400584b766359bb2b99dc2de47e468c42198959920dd2db06a9082">
+  <rdf:Description rdf:nodeID="commodity_deal_cb255f89bd389be2d24ca86a4f0fb744b7cb1f4406a9cc906339d7e886f6d9f259d">
+    <crm:P190_has_symbolic_content>dealle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dɛːlə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/deal#rate-1558-inward-355">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Deale bourdes voc’ Spruce deale the pece 2s 6d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_deal_cb3a464118f0f36849796f89876f80150c5ddf0217fb2d82c81333c9149fce86c96"/>
+    <hector:perQuantity rdf:nodeID="commodity_deal_cb1cb526269df7f6cedc777b9b9a2318424011ac4e3d6d7ce9339406d08960e0606"/>
+    <hector:qualifier rdf:nodeID="commodity_deal_cb19c81c0c4f47e51ec780e6ee5f4d39d107563e1521b9d41ccd0b73e3c541d306d"/>
+    <hector:qualifier rdf:nodeID="commodity_deal_cb1b126fc665aebd08fc0b4b829ee3d94f851825adbbfff88432daafdb9e1f27942"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 355 (transcribed by Stuart Jenks): 'Deale bourdes voc’ Spruce deale the pece' 2s 6d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_deal_cb165bf8c09934395b3653445b9908f003981eb486ed2003e58ef1bd93a341f9cbd">
+    <crm:P190_has_symbolic_content>dellys</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>delis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_deal_cb293b4b6904ebd45bd01741b667bf6a2237ad2de25363fe0950adbe9a57c068aba">
+    <crm:P190_has_symbolic_content>delys</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>delis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/plank">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>plank</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/deal#rate-1558-inward-356">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Deales voc’ Norway deales the pece 20d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_deal_cb2a3555746937617b49b8890e3e97543ba5e8b906252e38ed19ac637ef39d9e195"/>
+    <hector:perQuantity rdf:nodeID="commodity_deal_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_deal_cb13369bb469b816f2c3668a54be72132307ae3e3e330682ea82b26ee9de886b019"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 356 (transcribed by Stuart Jenks): 'Deales voc’ Norway deales the pece' 20d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_deal_cb2a3555746937617b49b8890e3e97543ba5e8b906252e38ed19ac637ef39d9e195">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_deal_cb10b919890a855857416e5bff6f5601305860bb6da01967eca3f3d009d66c5fdf5">
+    <crm:P190_has_symbolic_content>deal board, a slice sawn from a log of timber, a plank or board of pine or fir-wood (OED s.v. deal n.3)</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_deal_cb2992d0516900b700a96b6cdb478f66cf4a150f827b3bd77f5bfe312b2419d789d">
     <crm:P190_has_symbolic_content>deles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -154,15 +144,7 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_deal_cb277783946a5fd5f754f178c7fc81652fce26ca1de9022e8064046683dfe0e4ac3">
-    <crm:P190_has_symbolic_content>deelle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>deːlə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_deal_cb1914d551941ab8893f462b0bcc9a2ce7624119ef9399efd3b48d9672140ae4ef3">
+  <rdf:Description rdf:nodeID="commodity_deal_cb2070d8b38926b224b28c6b64102c395987485cdbe495e1cdea5e0951c06193cdd">
     <crm:P190_has_symbolic_content>deal</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -171,13 +153,115 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_deal_cb1b5ede5cf03ba50c8b8b58add1675779fe977cb22ca231ff900269359379b2201">
-    <crm:P190_has_symbolic_content>del</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_deal_cb2acb89c31244d989a18f514f5ad791fe023f04c27cfdb579e2e9d9568477d5b99">
+    <crm:P190_has_symbolic_content>deelles</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>deːləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_deal_cb2513419f1a70b95302f29e15d0512998378f87ce7a3725673a5070d3e7aa4031e">
+    <crm:P190_has_symbolic_content>dele</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>delə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_deal_cb22e272b90f2bcde53deef924156e3081459ae6446f678f5fc33f59ec537afdd57">
+    <crm:P190_has_symbolic_content>deale</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dɛːlə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_deal_cb337008efd797a7c4571f26a9570a4584f5246cddc4bbf30352d4f70fa3516b945">
+    <crm:P190_has_symbolic_content>deales</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dɛːləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_deal_cbf36c7c3a607892937f355751fda25ebe314a847ce878fc3c25d597c154a6ac94">
+    <crm:P190_has_symbolic_content>delis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>delis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_deal_cb2fb11daad183308ff0ef8d89bf138f19c31773ad3e6ee75ad86a5e4af6bc6ea85">
+    <crm:P190_has_symbolic_content>deelle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>deːlə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_deal_cb1e8cc34f8e9300c2770a3109e8c268fdca7071813d74601290377b756e7e7d64d">
+    <crm:P190_has_symbolic_content>deel</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>deːl</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_deal_cb1b126fc665aebd08fc0b4b829ee3d94f851825adbbfff88432daafdb9e1f27942">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>bourdes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_deal_cb27b0cc7415d53d6970ea21bc111e8b8807bec7a71ee59dd2e9353f54196410dd8">
+    <crm:P190_has_symbolic_content>dell</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>del</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_deal_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/deal">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>deal (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pecia">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pecia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_deal_cb3a464118f0f36849796f89876f80150c5ddf0217fb2d82c81333c9149fce86c96">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s 6d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_deal_cb1cb526269df7f6cedc777b9b9a2318424011ac4e3d6d7ce9339406d08960e0606">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q20">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Norway</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_deal_cb13369bb469b816f2c3668a54be72132307ae3e3e330682ea82b26ee9de886b019">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Norway</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q20"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_deal_cb2a7142c3dd5166b5e68b49543545c2cc252aad26704a24321d2c2c6538b8e9691">
+    <crm:P190_has_symbolic_content>delle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>delə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
@@ -187,12 +271,15 @@
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E57_Material"/>
     <rdfs:label>wood (plant material)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_deal_cbe1991c42d4891088eed99998f25915e43fcbf1e8d6ba32812b3d70979d8efdd">
-    <crm:P190_has_symbolic_content>deal board, a slice sawn from a log of timber, a plank or board of pine or fir-wood (OED s.v. deal n.3)</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300014616">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>boards (flat objects)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_deal_cb1a44c7fbe70ec0336e5eecc057135625250d221756507cd970268690bc9dce33f">
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q918723">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Prussia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_deal_cb2b2cd430b2ed96f9092e98e7e134139914c77179f9522b9cf3e99a553f49f3480">
     <crm:P190_has_symbolic_content>delles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -200,28 +287,17 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_deal_cb15466dce27694c189356683b1faa9fd5a10c0e1457d941245f0459c2afd4f5332">
-    <crm:P190_has_symbolic_content>deale</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dɛːlə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_deal_cb241bd1ed2a026d9a22c17e9e266ca0b7bc9bc1dcfd2684821960420771960e67f">
-    <crm:P190_has_symbolic_content>deales</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dɛːləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300014616">
+  <rdf:Description rdf:nodeID="commodity_deal_cb19c81c0c4f47e51ec780e6ee5f4d39d107563e1521b9d41ccd0b73e3c541d306d">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>boards (flat objects)</rdfs:label>
+    <rdfs:label>Prussia</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q918723"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/deal">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>deal (London Customs Accounts glossary)</rdfs:label>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

@@ -80,5 +80,110 @@
     }
   ],
   "attestationCount": 1,
-  "modified": "2026-09-29"
+  "modified": "2026-09-29",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/flask#rate-1558-inward-458",
+      "type": "Rate",
+      "_label": "1558 inward: Flaskes for gonne powder covered with lether the dosen 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "40",
+        "lsd": "3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 458 (transcribed by Stuart Jenks): 'Flaskes for gonne powder covered with lether the dosen' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "gonne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "powdered"
+        },
+        {
+          "type": "Type",
+          "_label": "covered"
+        },
+        {
+          "type": "Type",
+          "_label": "lether",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/flask#rate-1558-inward-459",
+      "type": "Rate",
+      "_label": "1558 inward: Flaskes covered with vellet the dosen 26s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "320",
+        "lsd": "26s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 459 (transcribed by Stuart Jenks): 'Flaskes covered with vellet the dosen' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "covered"
+        },
+        {
+          "type": "Type",
+          "_label": "velvet",
+          "equivalent": [
+            {
+              "id": "aat:300133711",
+              "type": "Type",
+              "_label": "velvet (fabric weave)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

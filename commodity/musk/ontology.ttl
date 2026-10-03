@@ -4,6 +4,7 @@
 @prefix hector: <https://w3id.org/hector/ontology#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/hector/commodity/musk> a crm:E55_Type ;
@@ -46,6 +47,9 @@ aat:300404880 a crm:E55_Type ;
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
+wd:Q81483 a crm:E53_Place ;
+    rdfs:label "Levant" .
+
 <https://w3id.org/hector/commodity/musk#rate-1545-inward-475> a hector:Rate ;
     rdfs:label "1545 inward: Muske the boxe 4d" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -68,6 +72,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 12 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "codes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 714 (transcribed by Stuart Jenks): 'Muske voc’ codes of muske the dosen coddes' 26s 8d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -81,6 +88,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/ounce> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Levant" ;
+            hector:originPlace wd:Q81483 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 715 (transcribed by Stuart Jenks): 'Muske of Levant the ounce' 30s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -100,9 +110,9 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/mlca/glossary/musk> a crm:E55_Type ;
     rdfs:label "musk (London Customs Accounts glossary)" .
 
-hector:AttestedVariant a crm:E55_Type ;
-    rdfs:label "attested variant" .
-
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .
+
+hector:AttestedVariant a crm:E55_Type ;
+    rdfs:label "attested variant" .
 

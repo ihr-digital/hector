@@ -8,18 +8,96 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/rape-seed">
+  <rdf:Description rdf:nodeID="commodity_seed_cb19f5d25b21fefa3d12a35c8a2332b803bf2cb5b26f445856f37115fe205829257">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>rape seed</rdfs:label>
+    <rdfs:label>cartani</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_seed_cb13c2d9fc8d157a07b8b327f0740da8352fd57071800d215457c6b7776e2b6e1ff">
+    <crm:P190_has_symbolic_content>The characteristic reproductive bodies of both angiosperms (flowering plants) and gymnosperms (conifers, cycads, and ginkgos) and the ovary that encloses it. A seed consists of a miniature undeveloped plant (the embryo), which, alone or in the company of stored food for its early development after germination, is surrounded by a protective coat (the testa). Seeds are frequently small in size and suited to perform a wide variety of functions, such as multiplication, perennation (surviving seasons of stress such as winter), dormancy (a state of arrested development), and dispersal.  [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/seed#rate-1558-inward-1050">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Semen cartani the pounde 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_seed_cb2c4b14166b9ec8d5b1f983a7f75d83ea887532848c5c99c1bd0068d9fa8d7fffc"/>
+    <hector:perQuantity rdf:nodeID="commodity_seed_cb20122cd40bb29a3424aab99c0a0b40bb5c99e296feb808c70a7f6e397eb565e78"/>
+    <hector:qualifier rdf:nodeID="commodity_seed_cb19f5d25b21fefa3d12a35c8a2332b803bf2cb5b26f445856f37115fe205829257"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1050 (transcribed by Stuart Jenks): 'Semen cartani the pounde' 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_seed_cb301ce3724a56cc0df4afa22b0eb5a9c7f7fcbed5926eb73c9bf577ded8e1e1e1a">
+    <crm:P190_has_symbolic_content>semeninis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>semeninis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/seed#rate-1558-inward-1051">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Semen papaver the pounde 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_seed_cb37397427b661dc6ef05170e115cf39ba4800848a3c3dbccea20b5b94d77b1b063"/>
+    <hector:perQuantity rdf:nodeID="commodity_seed_cb2686eb638cd26038d38010dd39e6cfc8c7e2bd0f8e31639470427d73d75857aca"/>
+    <hector:qualifier rdf:nodeID="commodity_seed_cb2142ae8f52abaf42753c03d93bc3f210e3832bf0cbee1a2847986e97f2589ac21"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1051 (transcribed by Stuart Jenks): 'Semen papaver the pounde' 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_seed_cb37397427b661dc6ef05170e115cf39ba4800848a3c3dbccea20b5b94d77b1b063">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/seed#rate-1558-inward-1053">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Semen cucumus the pounde 2d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_seed_cb31ce37a68524731ccec2525d6271fcbae3b5e4d80188f7ee8719c06e609044f88"/>
+    <hector:perQuantity rdf:nodeID="commodity_seed_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_seed_cbf304e5a9b489559a95573faca37ad6dced48a91a53951e4eef4bd2de29e0b291"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1053 (transcribed by Stuart Jenks): 'Semen cucumus the pounde' 2d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_seed_cb2142ae8f52abaf42753c03d93bc3f210e3832bf0cbee1a2847986e97f2589ac21">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>papaver</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_seed_cb21d3b6a9e8fba9d9cfd68d0058ef67786de3fe4f56d2ec11ebdb9d29a141fc365">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/seed">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>seed (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/mustard-seed">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>mustard seed</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_seed_cb2c4b14166b9ec8d5b1f983a7f75d83ea887532848c5c99c1bd0068d9fa8d7fffc">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/seed">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_seed_cb0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_seed_cb16310662f0c260d360976bda8db0c3254bfbf981098fa8e24d300ce48e65c631d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_seed_cb2d5fc183355cfab777e1b97b9109d1dd28422a7b46c2f5e7fb032718c6603d567"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_seed_cb6cf82cf263f028b1585c592e280ddbf576640378c6f25fd99162efc23c33c2"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_seed_cbb102308a51ed5a47be02457418b1f4ce6f0456ed178f6155718db7b7e9dbeb08"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_seed_cb3eb598fc564aac10033a58a9daa001abbb480f5c8ca739a34fe24de2f5c9d3e7"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_seed_cb1135a16050ad3079a241ad11817777136e8d8b7af3e6980d148f1d7a0c3a4fcaf"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_seed_cb12a84812befbf2a0b6a4f830b63164603f787219d4390f423918b925a4dbff674"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_seed_cb2f50d4d3528f961b05fb93ac7acce0efb2461545710352341ed72d60d895b16f0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_seed_cb301ce3724a56cc0df4afa22b0eb5a9c7f7fcbed5926eb73c9bf577ded8e1e1e1a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_seed_cbb138a78f832f38107751d8cc5c9181b51763ef3032cb8e03f4a0a65e5a700ee6"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_seed_cb13c2d9fc8d157a07b8b327f0740da8352fd57071800d215457c6b7776e2b6e1ff"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>seed</rdfs:label>
     <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/seed"/>
@@ -32,8 +110,93 @@
     <skos:related rdf:resource="https://w3id.org/hector/commodity/wormseed"/>
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300400469"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/seed#rate-1558-inward-1050"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/seed#rate-1558-inward-1051"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/seed#rate-1558-inward-1052"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/seed#rate-1558-inward-1053"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_seed_cb2d5fc183355cfab777e1b97b9109d1dd28422a7b46c2f5e7fb032718c6603d567">
+  <rdf:Description rdf:nodeID="commodity_seed_cb2686eb638cd26038d38010dd39e6cfc8c7e2bd0f8e31639470427d73d75857aca">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_seed_cb2b95b1c9045b09c06dcdf329ed1a54b4163c62bff3528efb3b447c726632b0191">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_seed_cb1135a16050ad3079a241ad11817777136e8d8b7af3e6980d148f1d7a0c3a4fcaf">
+    <crm:P190_has_symbolic_content>seed</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>seːd</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_seed_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_seed_cb24fbdc1a938a89aa98f7cdccf47adbb1ffcd95ffbd88f27894339d3b8f5404f27">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>ambos</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/seed#rate-1558-inward-1052">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Semen ambos the pounde 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_seed_cb2b95b1c9045b09c06dcdf329ed1a54b4163c62bff3528efb3b447c726632b0191"/>
+    <hector:perQuantity rdf:nodeID="commodity_seed_cb21d3b6a9e8fba9d9cfd68d0058ef67786de3fe4f56d2ec11ebdb9d29a141fc365"/>
+    <hector:qualifier rdf:nodeID="commodity_seed_cb24fbdc1a938a89aa98f7cdccf47adbb1ffcd95ffbd88f27894339d3b8f5404f27"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1052 (transcribed by Stuart Jenks): 'Semen ambos the pounde' 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/rape-seed">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>rape seed</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_seed_cbb138a78f832f38107751d8cc5c9181b51763ef3032cb8e03f4a0a65e5a700ee6">
+    <crm:P190_has_symbolic_content>seedes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>seːdəs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_seed_cb20122cd40bb29a3424aab99c0a0b40bb5c99e296feb808c70a7f6e397eb565e78">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300400469">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>seeds (plant components)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/wormseed">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>wormseed</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_seed_cb31ce37a68524731ccec2525d6271fcbae3b5e4d80188f7ee8719c06e609044f88">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_seed_cb12a84812befbf2a0b6a4f830b63164603f787219d4390f423918b925a4dbff674">
+    <crm:P190_has_symbolic_content>seminis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>seminis</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/safflour">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>safflour</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_seed_cb2f50d4d3528f961b05fb93ac7acce0efb2461545710352341ed72d60d895b16f0">
     <crm:P190_has_symbolic_content>semen</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -41,30 +204,10 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/mustard-seed">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>mustard seed</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_seed_cb0">
-    <crm:P190_has_symbolic_content>seminis</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_seed_cbf304e5a9b489559a95573faca37ad6dced48a91a53951e4eef4bd2de29e0b291">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>seminis</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_seed_cb6cf82cf263f028b1585c592e280ddbf576640378c6f25fd99162efc23c33c2">
-    <crm:P190_has_symbolic_content>seedes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>seːdəs</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_seed_cb3eb598fc564aac10033a58a9daa001abbb480f5c8ca739a34fe24de2f5c9d3e7">
-    <crm:P190_has_symbolic_content>The characteristic reproductive bodies of both angiosperms (flowering plants) and gymnosperms (conifers, cycads, and ginkgos) and the ovary that encloses it. A seed consists of a miniature undeveloped plant (the embryo), which, alone or in the company of stored food for its early development after germination, is surrounded by a protective coat (the testa). Seeds are frequently small in size and suited to perform a wide variety of functions, such as multiplication, perennation (surviving seasons of stress such as winter), dormancy (a state of arrested development), and dispersal.  [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>cucumus</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/onion-seed">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
@@ -74,47 +217,20 @@
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>preferred terms</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/wormseed">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>wormseed</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/safflour">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>safflour</rdfs:label>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/poppy-seed">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>poppy seed</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/seed">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>seed (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_seed_cb16310662f0c260d360976bda8db0c3254bfbf981098fa8e24d300ce48e65c631d">
-    <crm:P190_has_symbolic_content>semeninis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>semeninis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300400469">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>seeds (plant components)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_seed_cbb102308a51ed5a47be02457418b1f4ce6f0456ed178f6155718db7b7e9dbeb08">
-    <crm:P190_has_symbolic_content>seed</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>seːd</hector:phoneticKey>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/fennel">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>fennel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pound">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pound</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

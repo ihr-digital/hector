@@ -47,18 +47,18 @@
             hector:validFrom "1548"^^xsd:gYear ;
             hector:validThrough "1550"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "botouns" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "botuːns" ;
+            hector:validFrom "1431"^^xsd:gYear ;
+            hector:validThrough "1433"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "button" ;
             crm:P2_has_type aat:300404670,
                 hector:AttestedVariant ;
             hector:phoneticKey "buton" ;
             hector:validFrom "1512"^^xsd:gYear ;
             hector:validThrough "1547"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "botouns" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "botuːns" ;
-            hector:validFrom "1431"^^xsd:gYear ;
-            hector:validThrough "1433"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "botten" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -83,22 +83,90 @@
         <https://w3id.org/hector/commodity/silk> ;
     la:equivalent aat:300239261 ;
     hector:attestationCount 18 ;
-    hector:taxation <https://w3id.org/hector/commodity/button#rate-1558-inward-170> .
+    hector:taxation <https://w3id.org/hector/commodity/button#rate-1558-inward-145>,
+        <https://w3id.org/hector/commodity/button#rate-1558-inward-146>,
+        <https://w3id.org/hector/commodity/button#rate-1558-inward-149>,
+        <https://w3id.org/hector/commodity/button#rate-1558-inward-170> .
+
+aat:300011020 a crm:E55_Type ;
+    rdfs:label "copper (metal)" .
+
+aat:300133748 a crm:E55_Type ;
+    rdfs:label "tin (metal)" .
+
+aat:300198675 a crm:E55_Type ;
+    rdfs:label "latten" .
 
 aat:300239261 a crm:E55_Type ;
     rdfs:label "buttons (fasteners)" .
 
+aat:300243428 a crm:E55_Type ;
+    rdfs:label "silk (textile)" .
+
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
-
-aat:300411998 a crm:E98_Currency ;
-    rdfs:label "pound sterling (system of money)" .
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
 <https://w3id.org/hector/commodity/botenet> a crm:E55_Type ;
     rdfs:label "botenet" .
+
+<https://w3id.org/hector/commodity/button#rate-1558-inward-145> a hector:Rate ;
+    rdfs:label "1558 inward: Buttons of threde the great grosse cont’ 24 small grosse 2s 6d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "2s 6d" ;
+            hector:valueInPence 30.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1728 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "file" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 145 (transcribed by Stuart Jenks): 'Buttons of threde the great grosse cont’ 24 small grosse' 2s 6d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/button#rate-1558-inward-146> a hector:Rate ;
+    rdfs:label "1558 inward: Buttons of silke the great grosse cont’ 24 small grosse 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1728 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "silk" ;
+            la:equivalent aat:300243428 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 146 (transcribed by Stuart Jenks): 'Buttons of silke the great grosse cont’ 24 small grosse' 10s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/button#rate-1558-inward-149> a hector:Rate ;
+    rdfs:label "1558 inward: Buttons of stele, coper, tynne or laten for jerkyns the grosse 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "latten" ;
+            la:equivalent aat:300198675 ],
+        [ a crm:E55_Type ;
+            rdfs:label "jerkyns" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "coper" ;
+            la:equivalent aat:300011020 ],
+        [ a crm:E55_Type ;
+            rdfs:label "tin" ;
+            la:equivalent aat:300133748 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 149 (transcribed by Stuart Jenks): 'Buttons of stele, coper, tynne or laten for jerkyns the grosse' 13s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/button#rate-1558-inward-170> a hector:Rate ;
     rdfs:label "1558 inward: Buttons fyne Damaskyn worke the dosen 5s" ;
@@ -109,6 +177,13 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 12 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Damaskyn" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "worked" ],
+        [ a crm:E55_Type ;
+            rdfs:label "fine" ] ;
     hector:sourceText "Book of Rates 1558, inward, line 170 (transcribed by Stuart Jenks): 'Buttons fyne Damaskyn worke the dosen' 5s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -121,6 +196,12 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/mlca/glossary/button> a crm:E55_Type ;
     rdfs:label "button (London Customs Accounts glossary)" .
+
+<https://w3id.org/hector/unit/gross> a crm:E58_Measurement_Unit ;
+    rdfs:label "gross" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

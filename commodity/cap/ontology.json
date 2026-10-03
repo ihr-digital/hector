@@ -577,6 +577,211 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/cap#rate-1545-inward-214",
+      "type": "Rate",
+      "_label": "1545 inward: Cappes with syngle tarfs the dossen 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 214 (transcribed by Stuart Jenks): 'Cappes with syngle tarfs the dossen' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "single"
+        },
+        {
+          "type": "Type",
+          "_label": "tarfs",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cap#rate-1545-inward-215",
+      "type": "Rate",
+      "_label": "1545 inward: Cappes double tarfed and necked and all other of Frenche makyng the dossen 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 215 (transcribed by Stuart Jenks): 'Cappes double tarfed and necked and all other of Frenche makyng the dossen' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "double"
+        },
+        {
+          "type": "Type",
+          "_label": "tarfed",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "necked"
+        },
+        {
+          "type": "Type",
+          "_label": "other",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "France",
+          "originPlace": [
+            {
+              "id": "wd:Q142",
+              "type": "Place",
+              "_label": "France"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "makyng",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cap#rate-1545-inward-217",
+      "type": "Rate",
+      "_label": "1545 inward: Cappe golde the pounde 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 217 (transcribed by Stuart Jenks): 'Cappe golde the pounde' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "gold",
+          "equivalent": [
+            {
+              "id": "aat:300011021",
+              "type": "Type",
+              "_label": "gold (metal)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cap#rate-1545-inward-222",
+      "type": "Rate",
+      "_label": "1545 inward: Cappe caces of lether the dossen 6s 3d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "75",
+        "lsd": "6s 3d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 222 (transcribed by Stuart Jenks): 'Cappe caces of lether the dossen' 6s 3d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "lether",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/cap#rate-1545-inward-223",
       "type": "Rate",
       "_label": "1545 inward: Cappes for swerdes the groce 12d",
@@ -601,7 +806,455 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 223 (transcribed by Stuart Jenks): 'Cappes for swerdes the groce' 12d"
+      "sourceText": "Book of Rates 1545, inward, line 223 (transcribed by Stuart Jenks): 'Cappes for swerdes the groce' 12d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "swerdes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cap#rate-1545-inward-282",
+      "type": "Rate",
+      "_label": "1545 inward: Frenche caps syngle tarfed the dossen 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 282 (transcribed by Stuart Jenks): 'Frenche caps syngle tarfed the dossen' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "France",
+          "originPlace": [
+            {
+              "id": "wd:Q142",
+              "type": "Place",
+              "_label": "France"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "single"
+        },
+        {
+          "type": "Type",
+          "_label": "tarfed",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cap#rate-1545-inward-283",
+      "type": "Rate",
+      "_label": "1545 inward: Frenche cappes and all other double tarfed the dossen 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 283 (transcribed by Stuart Jenks): 'Frenche cappes and all other double tarfed the dossen' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "France",
+          "originPlace": [
+            {
+              "id": "wd:Q142",
+              "type": "Place",
+              "_label": "France"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "other",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "double"
+        },
+        {
+          "type": "Type",
+          "_label": "tarfed",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cap#rate-1545-outward-17",
+      "type": "Rate",
+      "_label": "1545 outward: Cours cappes the dossen 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, outward, line 17 (transcribed by Stuart Jenks): 'Cours cappes the dossen' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "coarse"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cap#rate-1558-inward-213",
+      "type": "Rate",
+      "_label": "1558 inward: Cappe gold the pounde 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 213 (transcribed by Stuart Jenks): 'Cappe gold the pounde' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "gold",
+          "equivalent": [
+            {
+              "id": "aat:300011021",
+              "type": "Type",
+              "_label": "gold (metal)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cap#rate-1558-inward-214",
+      "type": "Rate",
+      "_label": "1558 inward: Cappes with syngle crownes the dossen 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 214 (transcribed by Stuart Jenks): 'Cappes with syngle crownes the dossen' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "single"
+        },
+        {
+          "type": "Type",
+          "_label": "crownes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cap#rate-1558-inward-215",
+      "type": "Rate",
+      "_label": "1558 inward: Cappes for chyldren and nyghte cappes the dossen 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 215 (transcribed by Stuart Jenks): 'Cappes for chyldren and nyghte cappes the dossen' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "children’s"
+        },
+        {
+          "type": "Type",
+          "_label": "nyghte",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cap#rate-1558-inward-216",
+      "type": "Rate",
+      "_label": "1558 inward: Cappes voc’ pressed cappes or preste cappes the dossen 30s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "360",
+        "lsd": "30s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 216 (transcribed by Stuart Jenks): 'Cappes voc’ pressed cappes or preste cappes the dossen' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "prest"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cap#rate-1558-inward-217",
+      "type": "Rate",
+      "_label": "1558 inward: Cappes doble tarsed voc’ cokered cappes the dossen 24s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "288",
+        "lsd": "24s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 217 (transcribed by Stuart Jenks): 'Cappes doble tarsed voc’ cokered cappes the dossen' 24s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "doble tarsed voc cokered",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cap#rate-1558-inward-326",
+      "type": "Rate",
+      "_label": "1558 inward: Cappe balsanum the pounde 2s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "24",
+        "lsd": "2s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 326 (transcribed by Stuart Jenks): 'Cappe balsanum the pounde' 2s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "balsanum",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cap#rate-1558-inward-337",
+      "type": "Rate",
+      "_label": "1558 inward: Cappe rybande the dossen peces 26s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "320",
+        "lsd": "26s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 337 (transcribed by Stuart Jenks): 'Cappe rybande the dossen peces' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "rybande",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/cap#rate-1558-inward-865",
@@ -629,6 +1282,46 @@
       "validFrom": "1558",
       "validThrough": "1604",
       "sourceText": "Book of Rates 1558, inward, line 865 (transcribed by Stuart Jenks): 'Paper voc’ cappe paper the realme' 2s 8d"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cap#rate-1558-outward-14",
+      "type": "Rate",
+      "_label": "1558 outward: Cappes botoned Englyshe the dossyn 16s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "200",
+        "lsd": "16s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, outward, line 14 (transcribed by Stuart Jenks): 'Cappes botoned Englyshe the dossyn' 16s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "botoned Englyshe",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

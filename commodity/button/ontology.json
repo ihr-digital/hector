@@ -240,6 +240,152 @@
   "modified": "2026-09-29",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/button#rate-1558-inward-145",
+      "type": "Rate",
+      "_label": "1558 inward: Buttons of threde the great grosse cont’ 24 small grosse 2s 6d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "30",
+        "lsd": "2s 6d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1728,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 145 (transcribed by Stuart Jenks): 'Buttons of threde the great grosse cont’ 24 small grosse' 2s 6d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "file"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/button#rate-1558-inward-146",
+      "type": "Rate",
+      "_label": "1558 inward: Buttons of silke the great grosse cont’ 24 small grosse 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1728,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 146 (transcribed by Stuart Jenks): 'Buttons of silke the great grosse cont’ 24 small grosse' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "silk",
+          "equivalent": [
+            {
+              "id": "aat:300243428",
+              "type": "Type",
+              "_label": "silk (textile)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/button#rate-1558-inward-149",
+      "type": "Rate",
+      "_label": "1558 inward: Buttons of stele, coper, tynne or laten for jerkyns the grosse 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 149 (transcribed by Stuart Jenks): 'Buttons of stele, coper, tynne or laten for jerkyns the grosse' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "coper",
+          "equivalent": [
+            {
+              "id": "aat:300011020",
+              "type": "Type",
+              "_label": "copper (metal)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "tin",
+          "equivalent": [
+            {
+              "id": "aat:300133748",
+              "type": "Type",
+              "_label": "tin (metal)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "latten",
+          "equivalent": [
+            {
+              "id": "aat:300198675",
+              "type": "Type",
+              "_label": "latten"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "jerkyns",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/button#rate-1558-inward-170",
       "type": "Rate",
       "_label": "1558 inward: Buttons fyne Damaskyn worke the dosen 5s",
@@ -264,7 +410,28 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 170 (transcribed by Stuart Jenks): 'Buttons fyne Damaskyn worke the dosen' 5s"
+      "sourceText": "Book of Rates 1558, inward, line 170 (transcribed by Stuart Jenks): 'Buttons fyne Damaskyn worke the dosen' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "fine"
+        },
+        {
+          "type": "Type",
+          "_label": "Damaskyn",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "worked"
+        }
+      ]
     }
   ]
 }

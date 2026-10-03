@@ -5,6 +5,7 @@
 @prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/hector/commodity/carpet> a crm:E55_Type ;
@@ -267,9 +268,12 @@
     skos:exactMatch <https://w3id.org/mlca/glossary/carpet> ;
     la:equivalent aat:300185756 ;
     hector:attestationCount 695 ;
-    hector:taxation <https://w3id.org/hector/commodity/carpet#rate-1545-inward-303>,
+    hector:taxation <https://w3id.org/hector/commodity/carpet#rate-1545-inward-174>,
+        <https://w3id.org/hector/commodity/carpet#rate-1545-inward-303>,
         <https://w3id.org/hector/commodity/carpet#rate-1545-inward-304>,
-        <https://w3id.org/hector/commodity/carpet#rate-1558-inward-189> .
+        <https://w3id.org/hector/commodity/carpet#rate-1558-inward-189>,
+        <https://w3id.org/hector/commodity/carpet#rate-1558-inward-292>,
+        <https://w3id.org/hector/commodity/carpet#rate-1558-inward-334> .
 
 aat:300185756 a crm:E55_Type ;
     rdfs:label "carpets" .
@@ -280,6 +284,25 @@ aat:300404670 a crm:E55_Type ;
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
+wd:Q641 a crm:E53_Place ;
+    rdfs:label "Venice" .
+
+<https://w3id.org/hector/commodity/carpet#rate-1545-inward-174> a hector:Rate ;
+    rdfs:label "1545 inward: Carpettes called Gentisshe the pece 2s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "2s" ;
+            hector:valueInPence 24.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Ghent" ;
+            hector:originPlace wd:Q1296 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 174 (transcribed by Stuart Jenks): 'Carpettes called Gentisshe the pece' 2s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/carpet#rate-1545-inward-303> a hector:Rate ;
     rdfs:label "1545 inward: Frenche carpettes the ell 10d" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -289,6 +312,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/ell> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "France" ;
+            hector:originPlace wd:Q142 ] ;
     hector:sourceText "Book of Rates 1545, inward, line 303 (transcribed by Stuart Jenks): 'Frenche carpettes the ell' 10d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
@@ -302,6 +328,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/yard> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "France" ;
+            hector:originPlace wd:Q142 ] ;
     hector:sourceText "Book of Rates 1545, inward, line 304 (transcribed by Stuart Jenks): 'Frenche carpettes the yard' 8d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
@@ -315,7 +344,45 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 12 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Ghent" ;
+            hector:originPlace wd:Q1296 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 189 (transcribed by Stuart Jenks): 'Carpettes voc’ Gentishe carpettes the dosen' 30s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/carpet#rate-1558-inward-292> a hector:Rate ;
+    rdfs:label "1558 inward: Carpettes voc’ Turquie carpettes cont’ 4 yardes and above, the peace £6" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£6" ;
+            hector:valueInPence 1440.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Turquie" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 292 (transcribed by Stuart Jenks): 'Carpettes voc’ Turquie carpettes cont’ 4 yardes and above, the peace' £6" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/carpet#rate-1558-inward-334> a hector:Rate ;
+    rdfs:label "1558 inward: Carpettes vocat’ Turney or Venyce carpettes the pece 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Turney" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "Venice" ;
+            hector:originPlace wd:Q641 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 334 (transcribed by Stuart Jenks): 'Carpettes vocat’ Turney or Venyce carpettes the pece' 10s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
@@ -330,6 +397,15 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/mlca/glossary/carpet> a crm:E55_Type ;
     rdfs:label "carpet (London Customs Accounts glossary)" .
+
+wd:Q1296 a crm:E53_Place ;
+    rdfs:label "Ghent" .
+
+wd:Q142 a crm:E53_Place ;
+    rdfs:label "France" .
+
+<https://w3id.org/hector/unit/pecia> a crm:E58_Measurement_Unit ;
+    rdfs:label "pecia" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

@@ -345,7 +345,20 @@
       },
       "validFrom": "1507",
       "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 326 (transcribed by Stuart Jenks): 'Weste salkes the C elles' 26s 8d"
+      "sourceText": "Book of Rates 1507, line 326 (transcribed by Stuart Jenks): 'Weste salkes the C elles' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "salkes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

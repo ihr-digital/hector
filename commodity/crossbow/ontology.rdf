@@ -8,163 +8,44 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crossbow#rate-1558-inward-275">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Crosbowe thryd the barrell cont’ 5 score poundes 33s 4d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_crossbow_cb9f2cbc98dc09e9b8347f80dd36b5d20068cf6434629ec1539d57cd4915fb3bce"/>
-    <hector:perQuantity rdf:nodeID="commodity_crossbow_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 275 (transcribed by Stuart Jenks): 'Crosbowe thryd the barrell cont’ 5 score poundes' 33s 4d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb9f2cbc98dc09e9b8347f80dd36b5d20068cf6434629ec1539d57cd4915fb3bce">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>33s 4d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">400</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb19026ffa9e6fb39f1724ef18b13fc83e54a313073b032902eae4dd51e87970362">
-    <crm:P190_has_symbolic_content>alblaster</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>alblaster</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cbc2c11f7c02dd9e43dba567346695b43172cbcb5e68e5496cb6a84046eca10f24">
-    <crm:P190_has_symbolic_content>arblast</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>arblast</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb1c43da6b94d806899ec144206db0b0822e414b6ef4b2c565205c37f6fc9c1c953">
-    <crm:P190_has_symbolic_content>arowblaste</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aruːblastə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb106f276518a5b14ab68307d12830277f89e41a4d2c3805bfcec67855958071293">
-    <crm:P190_has_symbolic_content>crowsbowys</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kruːsbuːis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb12a1728911267e03f77eae4d99903323a4720f47f3f22c1116c3969d706707f00">
-    <crm:P190_has_symbolic_content>arblastys</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>arblastis</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cbbe7ae7a27d2f88a43d3d3ff3365fa272993f77314181b245c0216ffe7fa39bf7">
-    <crm:P190_has_symbolic_content>arblastae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>arblaste</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb1d988cfd603c358bf3b6e1e5da423ded349c81c932f630eed78e64a88ba3835de">
-    <crm:P190_has_symbolic_content>crossboughes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>krosbuːxəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crossbow-bolt">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>crossbow bolt</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb2258bedf4fe542819eaf17ad8a50ab3f82570158c81e956d7947022d00a8828be">
-    <crm:P190_has_symbolic_content>crosbow</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>krosbuː</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb7f6f1cf92941ce71616f75462185503068bfcf70551b6b8bf74f7f62edce0f88">
-    <crm:P190_has_symbolic_content>arblastis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>arblastis</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb138026fd543f471842618591f3b94760f30cab679b7e0a83ae8a2db2e83315d55">
-    <crm:P190_has_symbolic_content>crosbowez</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>krosbuːez</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb2f78e9ed32944b7529231746621997970b1eaeaa741062aa7f0626c9a9a8d20c3">
-    <crm:P190_has_symbolic_content>balist</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>balist</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb1453da7bc148103abe37d329396e93d55ef482a21acd887dd6904ac5224bdf12e">
-    <crm:P190_has_symbolic_content>crowsbow</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kruːsbuː</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb8d6ada6061e5e5923261ce16a7ae5130fda54180c2c6e03198fcbfadd4de2cc7">
-    <crm:P190_has_symbolic_content>balistis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>balistis</hector:phoneticKey>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/crossbow">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb106f276518a5b14ab68307d12830277f89e41a4d2c3805bfcec67855958071293"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb109ec4bd5fe82b6af25a0b1e65de8d3028f44b5b40ae18a5c74d9d9a77b5d60cb"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb12a1728911267e03f77eae4d99903323a4720f47f3f22c1116c3969d706707f00"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb12b712ece78dd610281a4e19f5d43f1e33d999d5651c3006be64a91df5a904824"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb138026fd543f471842618591f3b94760f30cab679b7e0a83ae8a2db2e83315d55"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb1387a1db44bb087dd7d111de801c4d9e0ce1920b16fc49d91c0c640c05dc5dc04"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb14042f2abd8c9f5e25623b688c91f0f242f8f696ba1d56412ab2679273125dfe8"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb141b61773dd8da9b0aa16c12333ee7b91e3fccbeebf35b00710b97c2fca33d853"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb1453da7bc148103abe37d329396e93d55ef482a21acd887dd6904ac5224bdf12e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb161e640a59308ec04fb132031f646c61e84df6a342c40b1e9fa6a6bb030eee94a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb1834bb6b85b8c847d7af12e8fc67032663f5e604f180deda0d19036a1d1589144"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb18844fb7827eba7befc3ee6c1a1de16ab985dbc7d2dbfdb04aabc28cc73ed50d4"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb19026ffa9e6fb39f1724ef18b13fc83e54a313073b032902eae4dd51e87970362"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb1b7d27072125cccbd5515924a5e17f6c8d9c31413bc8c774bc4175915237019f6"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb1c43da6b94d806899ec144206db0b0822e414b6ef4b2c565205c37f6fc9c1c953"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb1d270170f6c23dfd06e47836bc24f65ad70ac562a821b98771498c0d8e62d026c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb1d988cfd603c358bf3b6e1e5da423ded349c81c932f630eed78e64a88ba3835de"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb2160d77309d649b8e4be8a6ecc00b73718abeb278dd63d0e50cdfec2c103c0e4b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb2258bedf4fe542819eaf17ad8a50ab3f82570158c81e956d7947022d00a8828be"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb28ef7d8c294a2d61b825a0ec475fc5bfffbe4aa3e4854697b86727e6621e0d583"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb2efe1be8026059feb09e9c1aeaa55290d9eaf79056bf1270006bd7825a0ff9cef"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb2f78e9ed32944b7529231746621997970b1eaeaa741062aa7f0626c9a9a8d20c3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb422e5b2c02c005d4b9d6270b129c3a94c6360711c79e9f93bbf4fd682458d273"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb7f6f1cf92941ce71616f75462185503068bfcf70551b6b8bf74f7f62edce0f88"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb8d6ada6061e5e5923261ce16a7ae5130fda54180c2c6e03198fcbfadd4de2cc7"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb8e6ca7373eec67db16305e1875c13a719c9e42c8b66d16f0103fb5637b313c63"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb91dfb327c9e3439453e45ddcf92beeee67a4503dd3f92312e31101876bb04839"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb9332745a3a1153c5b3d262c5d474b16f9d26e08e8fe836adb2a200007dc9a857"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb968516c5c972accb3ebd18861b81ec2222bb6ed86702926827c0616e84c197e1"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cbbc5de70d9cb579d82d08f096037af5b7099e27c4967a6c9682348e818f034ccc"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cbbe7ae7a27d2f88a43d3d3ff3365fa272993f77314181b245c0216ffe7fa39bf7"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cbbf6a4dc19c655b1099d8f82afe629c2f6774e69b75ab2cabf59adbb139655a94"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cbc2c11f7c02dd9e43dba567346695b43172cbcb5e68e5496cb6a84046eca10f24"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cbcafffb9e7fc6bea3313a0ccf3aefbecb627a1c5511bc7000dd76433e6ca491c7"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cbd01c8fd1394b5a950490f6e6f5a41654fba4a8827bdd7f0e3e5d317bd9c91618"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_crossbow_cbbf1ce9ec5cd0277f6ea33d8fd9e832d055ea259d1af3d25fb535ee7c88d5b279"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb128fd80d7d1ac6ce8073e54f4fa19c42b2f836256aee74f1eb21a3e289eb4a254"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb149285d92e5919678598887e835342362e75fa121e32885d3a979ce5829c7c089"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb17455a6e8e6fdaa5e34e3a40cabaf6f30270b677b7ed2c58af2229b2795d37d90"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb17bfd6479c6f4386aeff44f99e5b6a5e9e4216df5d3a843adca75150034d9682f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb17c281f35db4082b89fb656dd24e1a20b78151a7d43d899658aaf64cb8d656c9d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb1a239a46fc1db901a7017f00408bd25bd4e08e787e40984e811de89810a08abe0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb1addaf454a042b82c0b2a2e9a48a38fd0337b12c8b26556c7ddb3fc8595432aa9"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb1af3834abba24f02a53ec9499b02d750dea6fdd16543854f0eb8e399faaee44eb"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb1c9ed22e221e244d7d7200012bea6c3201751562d4f6c7a660003d05bf5afe0f2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb1d6e3a573e58682f636b33558fa48e7f17a01c0b660923c0e0157bd9646c75b7f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb1e12b13b1e402956e094d652ee59c56cced7c3de22708e82adc99513cf599195c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb1e34edbbb20aa1ed2cdb1e515773bf94b84536391ef321b144303e3f0ed190adc"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb2007e14677e3c522f7e19f6af10a3d50c954230918658e8bd7d3e080ac7f6c22f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb203242b618b615c69370bcf45bf508e569ece927e132734f96c67c4c8bc4d7f2d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb222aabd58c96aff4badbe1e0c4fe133e638a370dbf5a0b79494d09f381503aa8a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb2251ece8b205d0f29617e99bacccbfe168ad6c120dcc14eaa7602b214f488f882"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb2351eac32708e51c72d8649fb5c3c649a2afd5f1b816995a74a2050ad33934fd4"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb24fe6c07d8ca59aefa4b715e4bc44a78075ed22a45580c1faef6fd35d0c9704c9"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb275303138b451febac682b6179371d89567e2e36fa0292b7b887897cd6106db4f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb288e64311add0612ba10c8e145ce7ef1e054e18d15375fe2058bce04acdac33ca"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb28eea0facb00324c64d30a4a58c12f7320a57fb1a78373a793e8c0ca273745bb6"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb2ae090dc467cc8c5463f7b1d3122d4d289c2356e0ec5a2e3dc3b2e2e74538170c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb30ef2f381f92f5623eb8764bd46861a363eee25a80ff6ebc243fddca6c456de78"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb3169fd3d4fc6e6d8b73cf1774bdca6a9952299749e50bef6a2da2d11bbde4624c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb613f902dd5e9bc0d9b73ca19aecd2bbd6674b3b46ba46455f93561e947b013fc"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cb9e8051fafc6b84aa430d1854bdb6415908fe7c12f921304e348fe3e411255111"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cbac7c0f62350f9bcb13ff712543df42599de3ee2366cca4f3d63d242ef8356e50"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cbad7ddc3912161e13f7ce012711f22b9a3cdcef6b5a72dbb24d8019e49e887dec"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cbb0f0e8299d0cf9cd358200eb955ce01707e2fce077fee7d5205166088f0789c2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cbb243a95c0d3b09fe957005d470a5a2983d658d3133edfb6fefe26481a120e9e0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cbb5964bc79c9c6304205abb94b7b2dd4ac2fa1b7b0b08572a6500c5efa818d96a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cbdb6f1c0f6fdf30110ea693a49fabe6dfa9dcd4673a803158bf74f302b25a8e55"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cbdd8c1ca450593edd1edae301d290939b397e23d3e5877707fd61d47fa2fadd80"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cbde7b82c36f8f11497b769b399a938d5807b3933e19b0f16e32db40325cbc9c1d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crossbow_cbe1d2547dd607547cbd430a4302c6a55a130a78010ceb0e2ef3e8a4c80ff850ad"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_crossbow_cb1bc94f0b8d7dd1beaf69b63ed4022b47797f91d588f1eae01e1bf181075c2c091"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>crossbow</rdfs:label>
     <skos:broader rdf:resource="http://vocab.getty.edu/aat/300203727"/>
@@ -184,172 +65,50 @@
     <skos:related rdf:resource="https://w3id.org/hector/commodity/windlass"/>
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300037000"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">164</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/crossbow#rate-1545-inward-203"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/crossbow#rate-1545-inward-204"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/crossbow#rate-1558-inward-273"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/crossbow#rate-1558-inward-274"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/crossbow#rate-1558-inward-275"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
+    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb1d270170f6c23dfd06e47836bc24f65ad70ac562a821b98771498c0d8e62d026c">
-    <crm:P190_has_symbolic_content>crosbowys</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>krosbuːis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb2efe1be8026059feb09e9c1aeaa55290d9eaf79056bf1270006bd7825a0ff9cef">
-    <crm:P190_has_symbolic_content>balista</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>balista</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb161e640a59308ec04fb132031f646c61e84df6a342c40b1e9fa6a6bb030eee94a">
-    <crm:P190_has_symbolic_content>crowsbowe</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kruːsbuːə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb2160d77309d649b8e4be8a6ecc00b73718abeb278dd63d0e50cdfec2c103c0e4b">
-    <crm:P190_has_symbolic_content>balistae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>baliste</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb14042f2abd8c9f5e25623b688c91f0f242f8f696ba1d56412ab2679273125dfe8">
-    <crm:P190_has_symbolic_content>crosbowes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>krosbuːəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cbbc5de70d9cb579d82d08f096037af5b7099e27c4967a6c9682348e818f034ccc">
-    <crm:P190_has_symbolic_content>argheblast</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>arxeblast</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cbcafffb9e7fc6bea3313a0ccf3aefbecb627a1c5511bc7000dd76433e6ca491c7">
-    <crm:P190_has_symbolic_content>crossbow</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb28eea0facb00324c64d30a4a58c12f7320a57fb1a78373a793e8c0ca273745bb6">
+    <crm:P190_has_symbolic_content>crosbow</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>krosbuː</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb9332745a3a1153c5b3d262c5d474b16f9d26e08e8fe836adb2a200007dc9a857">
-    <crm:P190_has_symbolic_content>arblastes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>arblastəs</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109">
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb8e6ca7373eec67db16305e1875c13a719c9e42c8b66d16f0103fb5637b313c63">
-    <crm:P190_has_symbolic_content>arblasta</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cbdd8c1ca450593edd1edae301d290939b397e23d3e5877707fd61d47fa2fadd80">
+    <crm:P190_has_symbolic_content>arblastae</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>arblasta</hector:phoneticKey>
+    <hector:phoneticKey>arblaste</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb109ec4bd5fe82b6af25a0b1e65de8d3028f44b5b40ae18a5c74d9d9a77b5d60cb">
-    <crm:P190_has_symbolic_content>arblaster</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>arblaster</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/arblast-threde">
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/crossbow">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>arblast threde</rdfs:label>
+    <rdfs:label>crossbow (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb422e5b2c02c005d4b9d6270b129c3a94c6360711c79e9f93bbf4fd682458d273">
-    <crm:P190_has_symbolic_content>argheblastes</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb2251ece8b205d0f29617e99bacccbfe168ad6c120dcc14eaa7602b214f488f882">
+    <crm:P190_has_symbolic_content>crosbowez</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>arxeblastəs</hector:phoneticKey>
+    <hector:phoneticKey>krosbuːez</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb18844fb7827eba7befc3ee6c1a1de16ab985dbc7d2dbfdb04aabc28cc73ed50d4">
-    <crm:P190_has_symbolic_content>crossebowes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>krosebuːəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb12b712ece78dd610281a4e19f5d43f1e33d999d5651c3006be64a91df5a904824">
-    <crm:P190_has_symbolic_content>crossebowis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>krosebuːis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb968516c5c972accb3ebd18861b81ec2222bb6ed86702926827c0616e84c197e1">
-    <crm:P190_has_symbolic_content>baliste</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>balistə</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb1834bb6b85b8c847d7af12e8fc67032663f5e604f180deda0d19036a1d1589144">
-    <crm:P190_has_symbolic_content>crossebow</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>krosebuː</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cbbf1ce9ec5cd0277f6ea33d8fd9e832d055ea259d1af3d25fb535ee7c88d5b279">
-    <crm:P190_has_symbolic_content>Bows basically consisting of a curved stave mounted crosswise on a center shaft by means of a system of cord or gut bindings or metal bands, the string being drawn back, held, and released by some mechanical means such as a windlass or a rotatable nut. They were in use as early as the 11th century and continue to be used contemporarily for hunting and recreation. [Source: Getty AAT] | crossbow (MED s.v. baliste n.) | crossbow</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cbbf6a4dc19c655b1099d8f82afe629c2f6774e69b75ab2cabf59adbb139655a94">
-    <crm:P190_has_symbolic_content>arowblast non factis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aruːblast non faktis</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300037000">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>crossbows</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crossbow-lath-2">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>crossbow lath_2</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/truss-2">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>truss_2</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cbd01c8fd1394b5a950490f6e6f5a41654fba4a8827bdd7f0e3e5d317bd9c91618">
-    <crm:P190_has_symbolic_content>crosbows</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>krosbuːs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1492</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb28ef7d8c294a2d61b825a0ec475fc5bfffbe4aa3e4854697b86727e6621e0d583">
-    <crm:P190_has_symbolic_content>alleblaster</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aleblaster</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb1387a1db44bb087dd7d111de801c4d9e0ce1920b16fc49d91c0c640c05dc5dc04">
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb1addaf454a042b82c0b2a2e9a48a38fd0337b12c8b26556c7ddb3fc8595432aa9">
     <crm:P190_has_symbolic_content>crossbough</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -357,33 +116,37 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/latch-2">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>latch_2</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crossbow-rods">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>crossbow rods</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crossbow-wood">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>crossbow wood</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb91dfb327c9e3439453e45ddcf92beeee67a4503dd3f92312e31101876bb04839">
-    <crm:P190_has_symbolic_content>arowblast</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb613f902dd5e9bc0d9b73ca19aecd2bbd6674b3b46ba46455f93561e947b013fc">
+    <crm:P190_has_symbolic_content>argheblastes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aruːblast</hector:phoneticKey>
+    <hector:phoneticKey>arxeblastəs</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/barrel">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>barrel</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb17c281f35db4082b89fb656dd24e1a20b78151a7d43d899658aaf64cb8d656c9d">
+    <crm:P190_has_symbolic_content>crowsbow</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kruːsbuː</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb141b61773dd8da9b0aa16c12333ee7b91e3fccbeebf35b00710b97c2fca33d853">
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb203242b618b615c69370bcf45bf508e569ece927e132734f96c67c4c8bc4d7f2d">
+    <crm:P190_has_symbolic_content>crossebow</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>krosebuː</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb222aabd58c96aff4badbe1e0c4fe133e638a370dbf5a0b79494d09f381503aa8a">
+    <crm:P190_has_symbolic_content>crowsbowys</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kruːsbuːis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb1a239a46fc1db901a7017f00408bd25bd4e08e787e40984e811de89810a08abe0">
     <crm:P190_has_symbolic_content>crosbowe</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -391,46 +154,400 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/stone-bow">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>stone-bow</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/crossbow">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>crossbow (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crossbow-tiller">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>crossbow tiller</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crossbow_cb1b7d27072125cccbd5515924a5e17f6c8d9c31413bc8c774bc4175915237019f6">
-    <crm:P190_has_symbolic_content>arowblastis</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cbac7c0f62350f9bcb13ff712543df42599de3ee2366cca4f3d63d242ef8356e50">
+    <crm:P190_has_symbolic_content>balistis</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aruːblastis</hector:phoneticKey>
+    <hector:phoneticKey>balistis</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crossbow-thread">
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb2007e14677e3c522f7e19f6af10a3d50c954230918658e8bd7d3e080ac7f6c22f">
+    <crm:P190_has_symbolic_content>crowsbowe</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kruːsbuːə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb128fd80d7d1ac6ce8073e54f4fa19c42b2f836256aee74f1eb21a3e289eb4a254">
+    <crm:P190_has_symbolic_content>arblaster</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>arblaster</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb149285d92e5919678598887e835342362e75fa121e32885d3a979ce5829c7c089">
+    <crm:P190_has_symbolic_content>arblastys</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>arblastis</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb283b5ea92afc3436bab0e19a599f6ed08da7dd62d493002ef0639cb03347660c6">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300037000">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>crossbow thread</rdfs:label>
+    <rdfs:label>crossbows</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb3169fd3d4fc6e6d8b73cf1774bdca6a9952299749e50bef6a2da2d11bbde4624c">
+    <crm:P190_has_symbolic_content>balist</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>balist</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crossbow#rate-1545-inward-203">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Crosbowe lathes the pounde 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_crossbow_cb36317eee6873cdaaac98e0d7877468e6850e8fa2f0abd75318f7a6ef4e75a38f4"/>
+    <hector:perQuantity rdf:nodeID="commodity_crossbow_cb283b5ea92afc3436bab0e19a599f6ed08da7dd62d493002ef0639cb03347660c6"/>
+    <hector:qualifier rdf:nodeID="commodity_crossbow_cb1dc8b1e8c93ac842d3d379b45f1f8c1ba5ec21508364722db7774b1b36cf68019"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 203 (transcribed by Stuart Jenks): 'Crosbowe lathes the pounde' 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb32e75501a0e4c8aa0b17b9eb4426cf22aebf8c76ca6366627a00195452b7b5669">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb17bfd6479c6f4386aeff44f99e5b6a5e9e4216df5d3a843adca75150034d9682f">
+    <crm:P190_has_symbolic_content>crossebowis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>krosebuːis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb30ef2f381f92f5623eb8764bd46861a363eee25a80ff6ebc243fddca6c456de78">
+    <crm:P190_has_symbolic_content>balista</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>balista</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb1c9ed22e221e244d7d7200012bea6c3201751562d4f6c7a660003d05bf5afe0f2">
+    <crm:P190_has_symbolic_content>crosbowes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>krosbuːəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb24fe6c07d8ca59aefa4b715e4bc44a78075ed22a45580c1faef6fd35d0c9704c9">
+    <crm:P190_has_symbolic_content>crossebowes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>krosebuːəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb1af3834abba24f02a53ec9499b02d750dea6fdd16543854f0eb8e399faaee44eb">
+    <crm:P190_has_symbolic_content>alblaster</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>alblaster</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/crossbow-stone">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>crossbow stone</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/windlass">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/arblast-threde">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>windlass</rdfs:label>
+    <rdfs:label>arblast threde</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crossbow#rate-1558-inward-273">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Crosbowe lathes the pounde 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_crossbow_cb27e7c40c1541fb029a9bd95db3318c3e297fdcfd7ac01b79039b448308d86a91c"/>
+    <hector:perQuantity rdf:nodeID="commodity_crossbow_cb23d939f7e0cacab4ac7c1bb675b9613a3581ff9bea6c8bfc217d838551fd9f068"/>
+    <hector:qualifier rdf:nodeID="commodity_crossbow_cb1dff85eb607fdd0f2e98499e950dbab18aed257e14e79125777846cf6bdd40e58"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 273 (transcribed by Stuart Jenks): 'Crosbowe lathes the pounde' 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cbb5964bc79c9c6304205abb94b7b2dd4ac2fa1b7b0b08572a6500c5efa818d96a">
+    <crm:P190_has_symbolic_content>baliste</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>balistə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cbad7ddc3912161e13f7ce012711f22b9a3cdcef6b5a72dbb24d8019e49e887dec">
+    <crm:P190_has_symbolic_content>arblasta</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>arblasta</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb17455a6e8e6fdaa5e34e3a40cabaf6f30270b677b7ed2c58af2229b2795d37d90">
+    <crm:P190_has_symbolic_content>crossbow</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>krosbuː</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb1e12b13b1e402956e094d652ee59c56cced7c3de22708e82adc99513cf599195c">
+    <crm:P190_has_symbolic_content>crosbows</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>krosbuːs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1492</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb36317eee6873cdaaac98e0d7877468e6850e8fa2f0abd75318f7a6ef4e75a38f4">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb1f1a9cd0fc6583b04ce3c86ef480ff2254f7fa2073e9b9b5836c1c238dcfb8552">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/stone-bow">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>stone-bow</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300203727">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>projectile weapons</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb1dff85eb607fdd0f2e98499e950dbab18aed257e14e79125777846cf6bdd40e58">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>lathes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crossbow-lath-2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>crossbow lath_2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crossbow#rate-1558-inward-275">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Crosbowe thryd the barrell cont’ 5 score poundes 33s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_crossbow_cb1d24589f8ba0fefd36b520654dda97d6f5f0127a8dfd6d8e2ed7e5d65e198fa30"/>
+    <hector:perQuantity rdf:nodeID="commodity_crossbow_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_crossbow_cbf25946e6bfb47962d1e91485120d6592d894be217106efb8be48f602c7a1cd19"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 275 (transcribed by Stuart Jenks): 'Crosbowe thryd the barrell cont’ 5 score poundes' 33s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/serers-crosbowes">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>serers crosbowes</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300203727">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/truss-2">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>projectile weapons</rdfs:label>
+    <rdfs:label>truss_2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crossbow-bolt">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>crossbow bolt</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb35e25f9155cdf0bd46e75ebf2a6713ff8f76c39e9e509f62caa4afbae859c25cb">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cbde7b82c36f8f11497b769b399a938d5807b3933e19b0f16e32db40325cbc9c1d">
+    <crm:P190_has_symbolic_content>arowblast non factis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>aruːblast non faktis</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/barrel">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>barrel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb23d939f7e0cacab4ac7c1bb675b9613a3581ff9bea6c8bfc217d838551fd9f068">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb27e7c40c1541fb029a9bd95db3318c3e297fdcfd7ac01b79039b448308d86a91c">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb2ae090dc467cc8c5463f7b1d3122d4d289c2356e0ec5a2e3dc3b2e2e74538170c">
+    <crm:P190_has_symbolic_content>alleblaster</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>aleblaster</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cbe1d2547dd607547cbd430a4302c6a55a130a78010ceb0e2ef3e8a4c80ff850ad">
+    <crm:P190_has_symbolic_content>arblast</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>arblast</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crossbow#rate-1558-inward-274">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Crosbowe thryd the pounde 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_crossbow_cb32e75501a0e4c8aa0b17b9eb4426cf22aebf8c76ca6366627a00195452b7b5669"/>
+    <hector:perQuantity rdf:nodeID="commodity_crossbow_cb2447fab926496874c041dfe0e73cf76986b4975a86470ee7b1c38f00358ad11b0"/>
+    <hector:qualifier rdf:nodeID="commodity_crossbow_cb102ffbf509959b87bb142b4be6ab91edfc18dd845d8c2625a0100ec8ba3033dce"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 274 (transcribed by Stuart Jenks): 'Crosbowe thryd the pounde' 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crossbow#rate-1545-inward-204">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Crosbowe threde the pounde 2d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_crossbow_cb35e25f9155cdf0bd46e75ebf2a6713ff8f76c39e9e509f62caa4afbae859c25cb"/>
+    <hector:perQuantity rdf:nodeID="commodity_crossbow_cb1f1a9cd0fc6583b04ce3c86ef480ff2254f7fa2073e9b9b5836c1c238dcfb8552"/>
+    <hector:qualifier rdf:nodeID="commodity_crossbow_cb2488fbdbd4ea958d46a6badde558f6c474c8d4d3ce2d653286506ca4358a19737"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 204 (transcribed by Stuart Jenks): 'Crosbowe threde the pounde' 2d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crossbow-thread">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>crossbow thread</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/windlass">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>windlass</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cbb0f0e8299d0cf9cd358200eb955ce01707e2fce077fee7d5205166088f0789c2">
+    <crm:P190_has_symbolic_content>arowblast</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>aruːblast</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cbdb6f1c0f6fdf30110ea693a49fabe6dfa9dcd4673a803158bf74f302b25a8e55">
+    <crm:P190_has_symbolic_content>argheblast</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>arxeblast</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb1dc8b1e8c93ac842d3d379b45f1f8c1ba5ec21508364722db7774b1b36cf68019">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>lathes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb1d6e3a573e58682f636b33558fa48e7f17a01c0b660923c0e0157bd9646c75b7f">
+    <crm:P190_has_symbolic_content>arowblastis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>aruːblastis</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb288e64311add0612ba10c8e145ce7ef1e054e18d15375fe2058bce04acdac33ca">
+    <crm:P190_has_symbolic_content>crossboughes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>krosbuːxəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb2351eac32708e51c72d8649fb5c3c649a2afd5f1b816995a74a2050ad33934fd4">
+    <crm:P190_has_symbolic_content>balistae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>baliste</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cbf25946e6bfb47962d1e91485120d6592d894be217106efb8be48f602c7a1cd19">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>thryd</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb102ffbf509959b87bb142b4be6ab91edfc18dd845d8c2625a0100ec8ba3033dce">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>thryd</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb275303138b451febac682b6179371d89567e2e36fa0292b7b887897cd6106db4f">
+    <crm:P190_has_symbolic_content>crosbowys</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>krosbuːis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb1bc94f0b8d7dd1beaf69b63ed4022b47797f91d588f1eae01e1bf181075c2c091">
+    <crm:P190_has_symbolic_content>Bows basically consisting of a curved stave mounted crosswise on a center shaft by means of a system of cord or gut bindings or metal bands, the string being drawn back, held, and released by some mechanical means such as a windlass or a rotatable nut. They were in use as early as the 11th century and continue to be used contemporarily for hunting and recreation. [Source: Getty AAT] | crossbow (MED s.v. baliste n.) | crossbow</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb2447fab926496874c041dfe0e73cf76986b4975a86470ee7b1c38f00358ad11b0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb2488fbdbd4ea958d46a6badde558f6c474c8d4d3ce2d653286506ca4358a19737">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>file</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pound">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pound</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb9e8051fafc6b84aa430d1854bdb6415908fe7c12f921304e348fe3e411255111">
+    <crm:P190_has_symbolic_content>arblastis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>arblastis</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crossbow-wood">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>crossbow wood</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb1d24589f8ba0fefd36b520654dda97d6f5f0127a8dfd6d8e2ed7e5d65e198fa30">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>33s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">400</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cb1e34edbbb20aa1ed2cdb1e515773bf94b84536391ef321b144303e3f0ed190adc">
+    <crm:P190_has_symbolic_content>arowblaste</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>aruːblastə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/latch-2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>latch_2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crossbow_cbb243a95c0d3b09fe957005d470a5a2983d658d3133edfb6fefe26481a120e9e0">
+    <crm:P190_has_symbolic_content>arblastes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>arblastəs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crossbow-rods">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>crossbow rods</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crossbow-tiller">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>crossbow tiller</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

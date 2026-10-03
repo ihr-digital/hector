@@ -101,6 +101,8 @@
     hector:attestationCount 320 ;
     hector:taxation <https://w3id.org/hector/commodity/beaver#rate-1507-none-12>,
         <https://w3id.org/hector/commodity/beaver#rate-1545-inward-107>,
+        <https://w3id.org/hector/commodity/beaver#rate-1558-inward-156>,
+        <https://w3id.org/hector/commodity/beaver#rate-1558-inward-157>,
         <https://w3id.org/hector/commodity/beaver#rate-1558-inward-84> .
 
 aat:300395532 a crm:E55_Type ;
@@ -124,6 +126,8 @@ wd:Q47542 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/timber> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "womb" ] ;
     hector:sourceText "Book of Rates 1507, line 12 (transcribed by Stuart Jenks): 'Bever wombys the tymber' 20s" ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
@@ -140,6 +144,37 @@ wd:Q47542 a crm:E55_Type ;
     hector:sourceText "Book of Rates 1545, inward, line 107 (transcribed by Stuart Jenks): 'Bevers the rowle' 13s 4d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/beaver#rate-1558-inward-156> a hector:Rate ;
+    rdfs:label "1558 inward: Bever skynnes the pece 5s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "5s" ;
+            hector:valueInPence 60.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "skin" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 156 (transcribed by Stuart Jenks): 'Bever skynnes the pece' 5s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/beaver#rate-1558-inward-157> a hector:Rate ;
+    rdfs:label "1558 inward: Bevers belles the pece 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "8d" ;
+            hector:valueInPence 8.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "belles" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 157 (transcribed by Stuart Jenks): 'Bevers belles the pece' 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/beaver#rate-1558-inward-84> a hector:Rate ;
     rdfs:label "1558 inward: Bevers the rolle 20s" ;
@@ -159,6 +194,9 @@ wd:Q47542 a crm:E55_Type ;
 
 <https://w3id.org/mlca/glossary/beaver> a crm:E55_Type ;
     rdfs:label "beaver (London Customs Accounts glossary)" .
+
+<https://w3id.org/hector/unit/pecia> a crm:E58_Measurement_Unit ;
+    rdfs:label "pecia" .
 
 <https://w3id.org/hector/unit/roll> a crm:E58_Measurement_Unit ;
     rdfs:label "roll" .

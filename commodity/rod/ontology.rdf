@@ -3,76 +3,26 @@
    xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
    xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:hector="https://w3id.org/hector/ontology#"
+   xmlns:la="https://linked.art/ns/terms/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_rod_cb0">
-    <crm:P190_has_symbolic_content>white rod</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>witə rod</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_rod_cb1f97a59b23f113f869a3b5d9cc933564c46580ba7bf642a9ac7febed6cdd878fa">
-    <crm:P190_has_symbolic_content>roddis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rodis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/mlca/glossary/rod">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>rod (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/rod">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb1365abe19597b8a0ca026e72f5d4ccad61c9f999887e5474963ecfe910385d935"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb14996779db9a2ecf85e49ac662bc57648075c09801833421bd099a19774d980b3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb15bdb5bb408ba9966be9d8b33a45306f0ec1abb5360a45d7c8454b4e84be3e21e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb15e34e8b6f0824a12c333cb8b8f7fbbb7a5cde81d88b037974920932da40be47c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb1ae3943591cfa18e69b3c4271a6192a6b045bf9c0859c9ebf3786aefc8c91840c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb1e731f9d2ee2ba3cdbf675b4b03c60057e61ca12e31f3ed24880b4bd7cd46672c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb1f97a59b23f113f869a3b5d9cc933564c46580ba7bf642a9ac7febed6cdd878fa"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb211cf4361e3ef01c6924824924c5ad42905f83c1b4a9490fe8c07853585337d18"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb228f3486cde8b677b12dc28d8229019063a914c8551513172d3250e3b5dd93810"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb23c973597da00fab013481510d68b4b4652016f44b06a970064c9324f3607e2ed"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb25e0055b6ea0c9254efe806207984d5137f4394409a968ef83a70538176da40f3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb29d7352e33622405ce310aa65904b44057cf0417001a40467cbe2c2a99dc2d020"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cbddc61da0f9a1b8b77565ed752f09a6064955f6bdc3f6d6699270896b193252c8"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_rod_cbc433463da94215c7fbce24cd88b42555d38c23b258a427c2d21027f50e23a160"/>
+  <rdf:Description rdf:nodeID="commodity_rod_cb2b7dbb98f434612f7108a204d8089f749c941c91cd6b1845ee052032ad9e4b356">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>rod</rdfs:label>
-    <skos:closeMatch rdf:resource="http://vocab.getty.edu/aat/300014669"/>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/rod"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</hector:attestationCount>
+    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_rod_cb211cf4361e3ef01c6924824924c5ad42905f83c1b4a9490fe8c07853585337d18">
-    <crm:P190_has_symbolic_content>reade</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rɛːdə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_rod_cb1365abe19597b8a0ca026e72f5d4ccad61c9f999887e5474963ecfe910385d935">
-    <crm:P190_has_symbolic_content>rodes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rodəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_rod_cb15bdb5bb408ba9966be9d8b33a45306f0ec1abb5360a45d7c8454b4e84be3e21e">
-    <crm:P190_has_symbolic_content>rodds</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rods</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_rod_cb1e731f9d2ee2ba3cdbf675b4b03c60057e61ca12e31f3ed24880b4bd7cd46672c">
+  <rdf:Description rdf:nodeID="commodity_rod_cb27f33bee02702af4940282687969a30845682dcf306d53e1f4f048a1bbb226638">
     <crm:P190_has_symbolic_content>roddes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -80,7 +30,32 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_rod_cb23c973597da00fab013481510d68b4b4652016f44b06a970064c9324f3607e2ed">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/rod">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb17d461db8c3ac004ba4d16e9a2bb0ace0460c94c02cb5fc598660f7aec7632605"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb1ce5c83269252958820e7b26bf020fb028d05d55d5cc698442ae63cd4f161d841"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb1e3869e8d08f8048b32001a0becee61e302547d8479170aa817bfbef7c47f0551"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb1e3da387fec1b3a0993381fe3b7d5f7408230f62d5981143dff69adbc3ff45416"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb2188b8eb4123af5bf7bd900ab65644774e696b84a6369ef5d053f2357f12fba83"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb2499b02e73be8fc0063ed34fea0225186e3255fa90d30195fc5ff83ed602a082a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb25ba86a99ad2ab0e8f4e5b81f72bc3c6ef2401be754705bc2a20996d0595f2476"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb27f33bee02702af4940282687969a30845682dcf306d53e1f4f048a1bbb226638"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb2b1bb803638db080c53765ec0512eef8470742b0de21d2263366f2716b7f24f76"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb2f7f07ca63961a9e7c39e73c63aadc0ae7a3c0844fb7a5784819670e1c67fc591"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb2fc7c1177bed3e5a46618bae4b633a258fcd853ab1c723b1273b39541815cca7a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb342cda3114c6b237fbd9bfc20cef68df76ba572e0c4eafc65807d4b037b44b86a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cb8d2981819cd69322e2f1eeb8776f86d79349a54989ce28a8bba466c73878c614"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_rod_cbfcd752a2cccb6ef057039083cb3a972ee994a36067fc9b2bcfb0edec3c899451"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_rod_cb1c1ab4d0a244f0a3383c64b2aeeeea6fd159b1b6dcccf0364fe995188fb10af78"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>rod</rdfs:label>
+    <skos:closeMatch rdf:resource="http://vocab.getty.edu/aat/300014669"/>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/rod"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/rod#rate-1558-inward-903"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/rod#rate-1558-inward-904"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_rod_cb25ba86a99ad2ab0e8f4e5b81f72bc3c6ef2401be754705bc2a20996d0595f2476">
     <crm:P190_has_symbolic_content>rodd</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -88,48 +63,13 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300014669">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>rods (object genre)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_rod_cb14996779db9a2ecf85e49ac662bc57648075c09801833421bd099a19774d980b3">
-    <crm:P190_has_symbolic_content>rode</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_rod_cbfcd752a2cccb6ef057039083cb3a972ee994a36067fc9b2bcfb0edec3c899451">
+    <crm:P190_has_symbolic_content>rodis</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rodə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+    <hector:phoneticKey>rodis</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_rod_cb25e0055b6ea0c9254efe806207984d5137f4394409a968ef83a70538176da40f3">
-    <crm:P190_has_symbolic_content>rodde</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rodə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_rod_cbc433463da94215c7fbce24cd88b42555d38c23b258a427c2d21027f50e23a160">
-    <crm:P190_has_symbolic_content>rod | rod for making baskets | large rod</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_rod_cb1ae3943591cfa18e69b3c4271a6192a6b045bf9c0859c9ebf3786aefc8c91840c">
-    <crm:P190_has_symbolic_content>rods</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rods</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_rod_cb228f3486cde8b677b12dc28d8229019063a914c8551513172d3250e3b5dd93810">
+  <rdf:Description rdf:nodeID="commodity_rod_cb342cda3114c6b237fbd9bfc20cef68df76ba572e0c4eafc65807d4b037b44b86a">
     <crm:P190_has_symbolic_content>reades</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -137,11 +77,80 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_rod_cb1e3da387fec1b3a0993381fe3b7d5f7408230f62d5981143dff69adbc3ff45416">
+    <crm:P190_has_symbolic_content>rodds</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rods</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_rod_cb29d7352e33622405ce310aa65904b44057cf0417001a40467cbe2c2a99dc2d020">
+  <rdf:Description rdf:nodeID="commodity_rod_cb2f7f07ca63961a9e7c39e73c63aadc0ae7a3c0844fb7a5784819670e1c67fc591">
+    <crm:P190_has_symbolic_content>rodde</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rodə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_rod_cb259543963fe8249379d119ed3231a89d1c70b90e4abcedbedfdba398e4b28e6c4">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>small</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073768"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_rod_cb211ba583901ed42fe35a29e07a19b3d71a91f3c2f2786e5afd95f023d2fe8b842">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/bundle"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/rod#rate-1558-inward-904">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Roddes greate the bundell 20d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_rod_cb2a3555746937617b49b8890e3e97543ba5e8b906252e38ed19ac637ef39d9e195"/>
+    <hector:perQuantity rdf:nodeID="commodity_rod_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_rod_cb1421fe30a0abef0da90f9ff14f9fe2f0e4c230072a1db30008067eebfea55550e"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 904 (transcribed by Stuart Jenks): 'Roddes greate the bundell' 20d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_rod_cb2499b02e73be8fc0063ed34fea0225186e3255fa90d30195fc5ff83ed602a082a">
+    <crm:P190_has_symbolic_content>reade</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rɛːdə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_rod_cb1c1ab4d0a244f0a3383c64b2aeeeea6fd159b1b6dcccf0364fe995188fb10af78">
+    <crm:P190_has_symbolic_content>rod | rod for making baskets | large rod</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_rod_cb1e3869e8d08f8048b32001a0becee61e302547d8479170aa817bfbef7c47f0551">
+    <crm:P190_has_symbolic_content>rode</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rodə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_rod_cb2188b8eb4123af5bf7bd900ab65644774e696b84a6369ef5d053f2357f12fba83">
+    <crm:P190_has_symbolic_content>roddis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rodis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_rod_cb2b1bb803638db080c53765ec0512eef8470742b0de21d2263366f2716b7f24f76">
+    <crm:P190_has_symbolic_content>rods</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rods</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_rod_cb2fc7c1177bed3e5a46618bae4b633a258fcd853ab1c723b1273b39541815cca7a">
     <crm:P190_has_symbolic_content>rod</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -150,7 +159,12 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_rod_cb15e34e8b6f0824a12c333cb8b8f7fbbb7a5cde81d88b037974920932da40be47c">
+  <rdf:Description rdf:nodeID="commodity_rod_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/bundle"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_rod_cb17d461db8c3ac004ba4d16e9a2bb0ace0460c94c02cb5fc598660f7aec7632605">
     <crm:P190_has_symbolic_content>roddys</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -158,10 +172,67 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_rod_cbddc61da0f9a1b8b77565ed752f09a6064955f6bdc3f6d6699270896b193252c8">
-    <crm:P190_has_symbolic_content>rodis</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/rod#rate-1558-inward-903">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Roddes smalle the bundell 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_rod_cb2b7dbb98f434612f7108a204d8089f749c941c91cd6b1845ee052032ad9e4b356"/>
+    <hector:perQuantity rdf:nodeID="commodity_rod_cb211ba583901ed42fe35a29e07a19b3d71a91f3c2f2786e5afd95f023d2fe8b842"/>
+    <hector:qualifier rdf:nodeID="commodity_rod_cb259543963fe8249379d119ed3231a89d1c70b90e4abcedbedfdba398e4b28e6c4"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 903 (transcribed by Stuart Jenks): 'Roddes smalle the bundell' 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/bundle">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>bundle</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_rod_cb1ce5c83269252958820e7b26bf020fb028d05d55d5cc698442ae63cd4f161d841">
+    <crm:P190_has_symbolic_content>rodes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rodis</hector:phoneticKey>
+    <hector:phoneticKey>rodəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300073768">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>small</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_rod_cb2a3555746937617b49b8890e3e97543ba5e8b906252e38ed19ac637ef39d9e195">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_rod_cb8d2981819cd69322e2f1eeb8776f86d79349a54989ce28a8bba466c73878c614">
+    <crm:P190_has_symbolic_content>white rod</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>witə rod</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300014669">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>rods (object genre)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_rod_cb1421fe30a0abef0da90f9ff14f9fe2f0e4c230072a1db30008067eebfea55550e">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>large</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073756"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300073756">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>large</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

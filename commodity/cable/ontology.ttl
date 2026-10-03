@@ -11,17 +11,17 @@
     rdfs:label "cable" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "cabulles" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kabuləs" ;
-            hector:validFrom "1513"^^xsd:gYear ;
-            hector:validThrough "1514"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cabellae" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kabele" ;
             hector:validFrom "1446"^^xsd:gYear ;
             hector:validThrough "1450"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "cabulles" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kabuləs" ;
+            hector:validFrom "1513"^^xsd:gYear ;
+            hector:validThrough "1514"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cabulle" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -35,11 +35,11 @@
             hector:validFrom "1548"^^xsd:gYear ;
             hector:validThrough "1550"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "cabula" ;
+            crm:P190_has_symbolic_content "cabalae" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kabula" ;
-            hector:validFrom "1390"^^xsd:gYear ;
-            hector:validThrough "1398"^^xsd:gYear ],
+            hector:phoneticKey "kabale" ;
+            hector:validFrom "1428"^^xsd:gYear ;
+            hector:validThrough "1430"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cables" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -53,42 +53,11 @@
             hector:validFrom "1531"^^xsd:gYear ;
             hector:validThrough "1533"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "cable" ;
-            crm:P2_has_type aat:300404670,
-                hector:AttestedVariant ;
-            hector:phoneticKey "kablə" ;
-            hector:validFrom "1550"^^xsd:gYear ;
-            hector:validThrough "1553"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cabule" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kabulə" ;
             hector:validFrom "1531"^^xsd:gYear ;
             hector:validThrough "1533"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "cabylles" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kabiləs" ;
-            hector:validFrom "1487"^^xsd:gYear ;
-            hector:validThrough "1490"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "cabalae" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kabale" ;
-            hector:validFrom "1428"^^xsd:gYear ;
-            hector:validThrough "1430"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "cabala" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kabala" ;
-            hector:validFrom "1428"^^xsd:gYear ;
-            hector:validThrough "1430"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "cabulae" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kabule" ;
-            hector:validFrom "1390"^^xsd:gYear ;
-            hector:validThrough "1398"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cabella" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -96,11 +65,29 @@
             hector:validFrom "1446"^^xsd:gYear ;
             hector:validThrough "1450"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "cabille" ;
+            crm:P190_has_symbolic_content "cabulae" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kabilə" ;
-            hector:validFrom "1442"^^xsd:gYear ;
-            hector:validThrough "1445"^^xsd:gYear ],
+            hector:phoneticKey "kabule" ;
+            hector:validFrom "1390"^^xsd:gYear ;
+            hector:validThrough "1398"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "cabala" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kabala" ;
+            hector:validFrom "1428"^^xsd:gYear ;
+            hector:validThrough "1430"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "cabula" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kabula" ;
+            hector:validFrom "1390"^^xsd:gYear ;
+            hector:validThrough "1398"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "cabylles" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kabiləs" ;
+            hector:validFrom "1487"^^xsd:gYear ;
+            hector:validThrough "1490"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cabul" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -108,11 +95,18 @@
             hector:validFrom "1512"^^xsd:gYear ;
             hector:validThrough "1513"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "cabylle" ;
+            crm:P190_has_symbolic_content "cable" ;
+            crm:P2_has_type aat:300404670,
+                hector:AttestedVariant ;
+            hector:phoneticKey "kablə" ;
+            hector:validFrom "1550"^^xsd:gYear ;
+            hector:validThrough "1553"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "cabille" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kabilə" ;
-            hector:validFrom "1487"^^xsd:gYear ;
-            hector:validThrough "1490"^^xsd:gYear ],
+            hector:validFrom "1442"^^xsd:gYear ;
+            hector:validThrough "1445"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cabull" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -126,6 +120,12 @@
             hector:validFrom "1428"^^xsd:gYear ;
             hector:validThrough "1430"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "cabylle" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kabilə" ;
+            hector:validFrom "1487"^^xsd:gYear ;
+            hector:validThrough "1490"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cabilles" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kabiləs" ] ;
@@ -134,7 +134,9 @@
             crm:P2_has_type aat:300435416 ] ;
     skos:exactMatch <https://w3id.org/mlca/glossary/cable> ;
     la:equivalent aat:300014618 ;
-    hector:attestationCount 72 .
+    hector:attestationCount 72 ;
+    hector:taxation <https://w3id.org/hector/commodity/cable#rate-1558-inward-315>,
+        <https://w3id.org/hector/commodity/cable#rate-1558-inward-316> .
 
 aat:300014618 a crm:E55_Type ;
     rdfs:label "cable (material)" .
@@ -145,8 +147,46 @@ aat:300404670 a crm:E55_Type ;
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
+<https://w3id.org/hector/commodity/cable#rate-1558-inward-315> a hector:Rate ;
+    rdfs:label "1558 inward: Cables or ropes the C tarred cont’ 112 lb 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "ropes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 315 (transcribed by Stuart Jenks): 'Cables or ropes the C tarred cont’ 112 lb' 13s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/cable#rate-1558-inward-316> a hector:Rate ;
+    rdfs:label "1558 inward: Cables or ropes untarred the C cont’ 112 lb 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "ropes untarred" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 316 (transcribed by Stuart Jenks): 'Cables or ropes untarred the C cont’ 112 lb' 10s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/mlca/glossary/cable> a crm:E55_Type ;
     rdfs:label "cable (London Customs Accounts glossary)" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
+<https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
+    rdfs:label "hundred" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

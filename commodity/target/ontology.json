@@ -229,5 +229,73 @@
     }
   ],
   "attestationCount": 6,
-  "modified": "2026-10-03"
+  "modified": "2026-10-03",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/target#rate-1558-inward-1113",
+      "type": "Rate",
+      "_label": "1558 inward: Targettes course the pece 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1113 (transcribed by Stuart Jenks): 'Targettes course the pece' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "coarse"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/target#rate-1558-inward-1114",
+      "type": "Rate",
+      "_label": "1558 inward: Targettes fyne the pece 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1114 (transcribed by Stuart Jenks): 'Targettes fyne the pece' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "fine"
+        }
+      ]
+    }
+  ]
 }

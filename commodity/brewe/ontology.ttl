@@ -10,10 +10,6 @@
     rdfs:label "brewe" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "brewes" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "breuəs" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "brew" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "breu" ;
@@ -25,6 +21,10 @@
             hector:phoneticKey "breuis" ;
             hector:validFrom "1531"^^xsd:gYear ;
             hector:validThrough "1533"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "brewes" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "breuəs" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "brewe" ;
             crm:P2_has_type aat:300404670,
@@ -59,6 +59,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 12 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "livinge" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 138 (transcribed by Stuart Jenks): 'Brewes livinge the dosen' 8s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .

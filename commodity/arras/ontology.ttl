@@ -52,6 +52,9 @@ aat:300435416 a crm:E55_Type ;
 wd:Q131329 a crm:E53_Place ;
     rdfs:label "Arras" .
 
+wd:Q157070 a crm:E53_Place ;
+    rdfs:label "County of Flanders" .
+
 <https://w3id.org/hector/commodity/arras#rate-1558-inward-56> a hector:Rate ;
     rdfs:label "1558 inward: Arras, the Flemyshe elle 40s" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -61,6 +64,9 @@ wd:Q131329 a crm:E53_Place ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/ell> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "County of Flanders" ;
+            hector:originPlace wd:Q157070 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 56 (transcribed by Stuart Jenks): 'Arras, the Flemyshe elle' 40s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .

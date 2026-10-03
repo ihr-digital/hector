@@ -795,7 +795,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 1061 (transcribed by Stuart Jenks): 'Sarcenet vocat’ golde sarcenet the yarde' 6s 8d"
+      "sourceText": "Book of Rates 1558, inward, line 1061 (transcribed by Stuart Jenks): 'Sarcenet vocat’ golde sarcenet the yarde' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "gold",
+          "equivalent": [
+            {
+              "id": "aat:300011021",
+              "type": "Type",
+              "_label": "gold (metal)"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/sarsenet#rate-1558-inward-914",
@@ -822,7 +835,24 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 914 (transcribed by Stuart Jenks): 'Sarcenett of Florence makyng thelle' 3s 4d"
+      "sourceText": "Book of Rates 1558, inward, line 914 (transcribed by Stuart Jenks): 'Sarcenett of Florence makyng thelle' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "florauns"
+        },
+        {
+          "type": "Type",
+          "_label": "makyng",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/sarsenet#rate-1558-inward-915",
@@ -849,7 +879,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 915 (transcribed by Stuart Jenks): 'Sarcenett vocat’ Bolonia sarcenett thelle' 3s 4d"
+      "sourceText": "Book of Rates 1558, inward, line 915 (transcribed by Stuart Jenks): 'Sarcenett vocat’ Bolonia sarcenett thelle' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Bolonia",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

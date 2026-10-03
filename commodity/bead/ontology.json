@@ -286,6 +286,113 @@
       "sourceText": "Book of Rates 1507, line 15 (transcribed by Stuart Jenks): 'Bedes the smalle grosse' 6d"
     },
     {
+      "id": "https://w3id.org/hector/commodity/bead#rate-1545-inward-69",
+      "type": "Rate",
+      "_label": "1545 inward: Beades of wode the groce 12d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "12",
+        "lsd": "12d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 69 (transcribed by Stuart Jenks): 'Beades of wode the groce' 12d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "wood",
+          "equivalent": [
+            {
+              "id": "aat:300011914",
+              "type": "Type",
+              "_label": "wood (plant material)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/bead#rate-1545-inward-70",
+      "type": "Rate",
+      "_label": "1545 inward: Bone bedes the groce 2s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "24",
+        "lsd": "2s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 70 (transcribed by Stuart Jenks): 'Bone bedes the groce' 2s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "bone",
+          "equivalent": [
+            {
+              "id": "aat:300011798",
+              "type": "Type",
+              "_label": "bone (material)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/bead#rate-1545-inward-71",
+      "type": "Rate",
+      "_label": "1545 inward: Bedes in boxes the groce 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "40",
+        "lsd": "3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 71 (transcribed by Stuart Jenks): 'Bedes in boxes the groce' 3s 4d"
+    },
+    {
       "id": "https://w3id.org/hector/commodity/bead#rate-1558-inward-306",
       "type": "Rate",
       "_label": "1558 inward: Crystall beades the thowsande 40s",
@@ -310,7 +417,127 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 306 (transcribed by Stuart Jenks): 'Crystall beades the thowsande' 40s"
+      "sourceText": "Book of Rates 1558, inward, line 306 (transcribed by Stuart Jenks): 'Crystall beades the thowsande' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Crystall",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/bead#rate-1558-inward-78",
+      "type": "Rate",
+      "_label": "1558 inward: Beades of woodde of all sortes the grosse 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 78 (transcribed by Stuart Jenks): 'Beades of woodde of all sortes the grosse' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "woodde",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/bead#rate-1558-inward-79",
+      "type": "Rate",
+      "_label": "1558 inward: Beades of bone the grosse 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 79 (transcribed by Stuart Jenks): 'Beades of bone the grosse' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "bone",
+          "equivalent": [
+            {
+              "id": "aat:300011798",
+              "type": "Type",
+              "_label": "bone (material)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/bead#rate-1558-inward-80",
+      "type": "Rate",
+      "_label": "1558 inward: Beades of boxe the grosse 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 80 (transcribed by Stuart Jenks): 'Beades of boxe the grosse' 20s"
     }
   ]
 }

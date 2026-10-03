@@ -323,6 +323,39 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/dagger#rate-1558-inward-346",
+      "type": "Rate",
+      "_label": "1558 inward: Daggers course the dossen 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 346 (transcribed by Stuart Jenks): 'Daggers course the dossen' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "coarse"
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/dagger#rate-1558-inward-354",
       "type": "Rate",
       "_label": "1558 inward: Dagger swaynes the pece 2s",
@@ -347,7 +380,57 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 354 (transcribed by Stuart Jenks): 'Dagger swaynes the pece' 2s"
+      "sourceText": "Book of Rates 1558, inward, line 354 (transcribed by Stuart Jenks): 'Dagger swaynes the pece' 2s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "swaynes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/dagger#rate-1558-inward-380",
+      "type": "Rate",
+      "_label": "1558 inward: Daggers fyne for children the dossen 2s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "24",
+        "lsd": "2s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 380 (transcribed by Stuart Jenks): 'Daggers fyne for children the dossen' 2s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "fine"
+        },
+        {
+          "type": "Type",
+          "_label": "children’s"
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/dagger#rate-1558-inward-382",
@@ -374,7 +457,155 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 382 (transcribed by Stuart Jenks): 'Daggers of boane for chylderne the grosse cont’ 12 dossen' 10s"
+      "sourceText": "Book of Rates 1558, inward, line 382 (transcribed by Stuart Jenks): 'Daggers of boane for chylderne the grosse cont’ 12 dossen' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "bone",
+          "equivalent": [
+            {
+              "id": "aat:300011798",
+              "type": "Type",
+              "_label": "bone (material)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "chylderne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/dagger#rate-1558-inward-387",
+      "type": "Rate",
+      "_label": "1558 inward: Daggers black with vellet shethes the dossen 30s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "360",
+        "lsd": "30s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 387 (transcribed by Stuart Jenks): 'Daggers black with vellet shethes the dossen' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "black",
+          "equivalent": [
+            {
+              "id": "aat:300130920",
+              "type": "Type",
+              "_label": "black (color)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "velvet",
+          "equivalent": [
+            {
+              "id": "aat:300133711",
+              "type": "Type",
+              "_label": "velvet (fabric weave)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "shethes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/dagger#rate-1558-inward-388",
+      "type": "Rate",
+      "_label": "1558 inward: Daggers guilte with vellet shethes the dossen 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 388 (transcribed by Stuart Jenks): 'Daggers guilte with vellet shethes the dossen' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "gilt",
+          "equivalent": [
+            {
+              "id": "aat:300379350",
+              "type": "Type",
+              "_label": "gilding (material)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "velvet",
+          "equivalent": [
+            {
+              "id": "aat:300133711",
+              "type": "Type",
+              "_label": "velvet (fabric weave)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "shethes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

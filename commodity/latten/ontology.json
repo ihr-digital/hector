@@ -272,6 +272,723 @@
       "validFrom": "1507",
       "validThrough": "1545",
       "sourceText": "Book of Rates 1507, line 157 (transcribed by Stuart Jenks): 'Lattyn the barrelle' £6"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/latten#rate-1507-none-158",
+      "type": "Rate",
+      "_label": "1507: Lattyn wyer the C wayte 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundredweight",
+          "type": "MeasurementUnit",
+          "_label": "hundredweight"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 158 (transcribed by Stuart Jenks): 'Lattyn wyer the C wayte' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "wyer",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/latten#rate-1507-none-159",
+      "type": "Rate",
+      "_label": "1507: Lattyn plate the C wayte 33s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "400",
+        "lsd": "33s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundredweight",
+          "type": "MeasurementUnit",
+          "_label": "hundredweight"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 159 (transcribed by Stuart Jenks): 'Lattyn plate the C wayte' 33s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "plate",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/latten#rate-1507-none-22",
+      "type": "Rate",
+      "_label": "1507: Blake latten rowles the C 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 22 (transcribed by Stuart Jenks): 'Blake latten rowles the C' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "black",
+          "equivalent": [
+            {
+              "id": "aat:300130920",
+              "type": "Type",
+              "_label": "black (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/latten#rate-1545-inward-164",
+      "type": "Rate",
+      "_label": "1545 inward: Counters of laten the pound 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "4",
+        "lsd": "4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 164 (transcribed by Stuart Jenks): 'Counters of laten the pound' 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Counters",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/latten#rate-1545-inward-439",
+      "type": "Rate",
+      "_label": "1545 inward: Latten shaven the barrell £6",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "1440",
+        "lsd": "£6"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/barrel",
+          "type": "MeasurementUnit",
+          "_label": "barrel"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 439 (transcribed by Stuart Jenks): 'Latten shaven the barrell' £6",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "shaven",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/latten#rate-1545-inward-440",
+      "type": "Rate",
+      "_label": "1545 inward: Latten basons the hundreth pounde 33s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "400",
+        "lsd": "33s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 440 (transcribed by Stuart Jenks): 'Latten basons the hundreth pounde' 33s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "basons",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/latten#rate-1545-inward-441",
+      "type": "Rate",
+      "_label": "1545 inward: Latten wyer the 100 pounde 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 441 (transcribed by Stuart Jenks): 'Latten wyer the 100 pounde' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "wyer",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/latten#rate-1545-inward-442",
+      "type": "Rate",
+      "_label": "1545 inward: Latten candylsteckes of the smal sorte [b.vii] the dossen 2s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "24",
+        "lsd": "2s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 442 (transcribed by Stuart Jenks): 'Latten candylsteckes of the smal sorte [b.vii] the dossen' 2s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "candylsteckes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "small",
+          "equivalent": [
+            {
+              "id": "aat:300073768",
+              "type": "Type",
+              "_label": "small"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "vii",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/latten#rate-1545-inward-443",
+      "type": "Rate",
+      "_label": "1545 inward: Latten candelstickes of the great sort the dossen 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 443 (transcribed by Stuart Jenks): 'Latten candelstickes of the great sort the dossen' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "candelstickes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "large",
+          "equivalent": [
+            {
+              "id": "aat:300073756",
+              "type": "Type",
+              "_label": "large"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/latten#rate-1545-inward-86",
+      "type": "Rate",
+      "_label": "1545 inward: Blacke latten rolles the 100 pound 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 86 (transcribed by Stuart Jenks): 'Blacke latten rolles the 100 pound' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "black",
+          "equivalent": [
+            {
+              "id": "aat:300130920",
+              "type": "Type",
+              "_label": "black (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/latten#rate-1558-inward-134",
+      "type": "Rate",
+      "_label": "1558 inward: Blacke latten rolles the C lb. cont’ 112 lb. 30s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "360",
+        "lsd": "30s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 134 (transcribed by Stuart Jenks): 'Blacke latten rolles the C lb. cont’ 112 lb.' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "black",
+          "equivalent": [
+            {
+              "id": "aat:300130920",
+              "type": "Type",
+              "_label": "black (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/latten#rate-1558-inward-238",
+      "type": "Rate",
+      "_label": "1558 inward: Counters of latten the pounde 10d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "10",
+        "lsd": "10d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 238 (transcribed by Stuart Jenks): 'Counters of latten the pounde' 10d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Counters",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/latten#rate-1558-inward-344",
+      "type": "Rate",
+      "_label": "1558 inward: Cesternes of latten for cupperdes the lb 6d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "6",
+        "lsd": "6d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 344 (transcribed by Stuart Jenks): 'Cesternes of latten for cupperdes the lb' 6d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Cesternes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "cupperdes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/latten#rate-1558-inward-646",
+      "type": "Rate",
+      "_label": "1558 inward: Latten shaven the barrell cont’ 6 C [lb.] at 112 lb £12",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "2880",
+        "lsd": "£12"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/barrel",
+          "type": "MeasurementUnit",
+          "_label": "barrel"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 646 (transcribed by Stuart Jenks): 'Latten shaven the barrell cont’ 6 C [lb.] at 112 lb' £12",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "shaven",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/latten#rate-1558-inward-647",
+      "type": "Rate",
+      "_label": "1558 inward: Latten wier the C lb. cont’ 112 lb 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 647 (transcribed by Stuart Jenks): 'Latten wier the C lb. cont’ 112 lb' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "wier",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/latten#rate-1558-inward-648",
+      "type": "Rate",
+      "_label": "1558 inward: Latten basens the C lb. cont’ 112 lb. 50s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "600",
+        "lsd": "50s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 648 (transcribed by Stuart Jenks): 'Latten basens the C lb. cont’ 112 lb.' 50s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "basan"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/latten#rate-1558-inward-683",
+      "type": "Rate",
+      "_label": "1558 inward: Laten shoyng hornes the dosen 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "40",
+        "lsd": "3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 683 (transcribed by Stuart Jenks): 'Laten shoyng hornes the dosen' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "shoyng hornes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -455,5 +455,135 @@
     }
   ],
   "attestationCount": 61,
-  "modified": "2026-10-03"
+  "modified": "2026-10-03",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/doublet#rate-1558-inward-390",
+      "type": "Rate",
+      "_label": "1558 inward: Doblettes of canvas the pece 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 390 (transcribed by Stuart Jenks): 'Doblettes of canvas the pece' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "canvas",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/doublet#rate-1558-inward-391",
+      "type": "Rate",
+      "_label": "1558 inward: Doblettes of canvas quilted the pece 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 391 (transcribed by Stuart Jenks): 'Doblettes of canvas quilted the pece' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "canvas",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "quilted"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/doublet#rate-1558-inward-392",
+      "type": "Rate",
+      "_label": "1558 inward: Doblettes of sylke quilted the pece 26s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "320",
+        "lsd": "26s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 392 (transcribed by Stuart Jenks): 'Doblettes of sylke quilted the pece' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "silk",
+          "equivalent": [
+            {
+              "id": "aat:300243428",
+              "type": "Type",
+              "_label": "silk (textile)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "quilted"
+        }
+      ]
+    }
+  ]
 }

@@ -353,5 +353,87 @@
     }
   ],
   "attestationCount": 200,
-  "modified": "2026-10-03"
+  "modified": "2026-10-03",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/curtain#rate-1558-inward-266",
+      "type": "Rate",
+      "_label": "1558 inward: Curten rynges the pounde 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "8",
+        "lsd": "8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 266 (transcribed by Stuart Jenks): 'Curten rynges the pounde' 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "rynges",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/curtain#rate-1558-inward-324",
+      "type": "Rate",
+      "_label": "1558 inward: Curteyns capparis the pounde 12d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "12",
+        "lsd": "12d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 324 (transcribed by Stuart Jenks): 'Curteyns capparis the pounde' 12d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "capparis",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -8,13 +8,74 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_salmon_cb27e1ed273c356317a87c3728e4ef60dbd7a2529e65d03e0c1bcb6449584d31e08">
-    <crm:P190_has_symbolic_content>sawmon</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb1d1c338f9a47eb09051fca7c0c32defa7f355f48a1def6197bc686272b1832e5e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£18</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4320</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/salmon">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>salmon (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb1b6dcac73fbc32d1bae0cc8400cf39945edeee11319f37c506591020cdc192c29">
+    <crm:P190_has_symbolic_content>salmons</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>saumon</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+    <hector:phoneticKey>salmons</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb1e67b4e242e335e5a4ba8a30e31b9bb36be3fe39096ed05b7cb1adf7cde423da9">
+    <crm:P190_has_symbolic_content>salmone</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>salmonə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb30529183587170842ba6bad9bec1c8dc26d91457e5dd2881bf39f32a3551f9498">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>small</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073768"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/salmon#rate-1507-none-246">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Samon grylles the last £6</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_salmon_cb2ee7a80c39829d9ce4e1f3cccb70cfae8856e9423952e0f2073d5b3bb6acee90f"/>
+    <hector:perQuantity rdf:nodeID="commodity_salmon_cb23210732f38a55d07c073ecde1c31afb50fbad8b8b53a9fdfa8ec9f7f5dc54c3e"/>
+    <hector:qualifier rdf:nodeID="commodity_salmon_cb14c1fc2d6335e163e2f82599fe42ee6a8c71d590aef2bd5e4df9e0d464abf61f2"/>
+    <hector:sourceText>Book of Rates 1507, line 246 (transcribed by Stuart Jenks): 'Samon grylles the last' £6</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300261263">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>salmon (fish)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb1afcdb2688cce5da1e68eab79b6521471db6b1b7a3651023c1ff494b0376f22f8">
+    <crm:P190_has_symbolic_content>salmon, an edible sea-fish | salted salmon | dried salmon | a young salmon on its first return to the river from the sea, and retained during the same year (OED s.v. grilse)</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb2c38adeae21ba62b394d2b84baab783927ec873d70bdbcd99321c804063294aec">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£11</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2640</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/salmon#rate-1558-inward-931">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Salmon the barrell 30s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_salmon_cb200fa77327c7454b7f7ef9ef5b6d840eb44b3d85ffab461cc115765eae1906ac9"/>
+    <hector:perQuantity rdf:nodeID="commodity_salmon_cb1dea267afbe51b3f6e241aff0b3dc30ca0590dbc1e0dfd8a573e9fc2c310754b0"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 931 (transcribed by Stuart Jenks): 'Salmon the barrell' 30s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_salmon_cb1b6985d885a75091361c0d4f6548b68dde694f456e05bba1aa600a797b59d21d0">
     <crm:P190_has_symbolic_content>salmon</crm:P190_has_symbolic_content>
@@ -24,6 +85,32 @@
     <hector:phoneticKey>salmon</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/last"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb2ee7a80c39829d9ce4e1f3cccb70cfae8856e9423952e0f2073d5b3bb6acee90f">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£6</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1440</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/salmon#rate-1507-none-244">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Samond of the grette band the last £11</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_salmon_cb2c38adeae21ba62b394d2b84baab783927ec873d70bdbcd99321c804063294aec"/>
+    <hector:perQuantity rdf:nodeID="commodity_salmon_cb27edba15879b648c15960074a7a3e6f14e52c668317073aa6832164e7640d1c4c"/>
+    <hector:qualifier rdf:nodeID="commodity_salmon_cb136850cffb723272d7d0c2131e7837b133a62cd8b6125b01a1d333cd6e13229c6"/>
+    <hector:sourceText>Book of Rates 1507, line 244 (transcribed by Stuart Jenks): 'Samond of the grette band the last' £11</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb27edba15879b648c15960074a7a3e6f14e52c668317073aa6832164e7640d1c4c">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/last"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/salmon">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
@@ -49,173 +136,13 @@
     <skos:related rdf:resource="https://w3id.org/hector/commodity/grill"/>
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300261263"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">350</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/salmon#rate-1507-none-244"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/salmon#rate-1507-none-245"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/salmon#rate-1507-none-246"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/salmon#rate-1558-inward-931"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/salmon#rate-1558-inward-932"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_salmon_cb1b6dcac73fbc32d1bae0cc8400cf39945edeee11319f37c506591020cdc192c29">
-    <crm:P190_has_symbolic_content>salmons</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>salmons</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/last">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>last</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/salmon#rate-1558-inward-931">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Salmon the barrell 30s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_salmon_cb200fa77327c7454b7f7ef9ef5b6d840eb44b3d85ffab461cc115765eae1906ac9"/>
-    <hector:perQuantity rdf:nodeID="commodity_salmon_cb1dea267afbe51b3f6e241aff0b3dc30ca0590dbc1e0dfd8a573e9fc2c310754b0"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 931 (transcribed by Stuart Jenks): 'Salmon the barrell' 30s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_salmon_cb200fa77327c7454b7f7ef9ef5b6d840eb44b3d85ffab461cc115765eae1906ac9">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>30s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_salmon_cb209b2bf7a8c3c3ea71a55120382f3cfc56de84e8f1dfbd6d7b711a3869063f866">
-    <crm:P190_has_symbolic_content>samo</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>samo</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_salmon_cb1927e3ca4dcbc12202e64a033ff1c5d9a430713ba5ef8464e3a387b0ec3d5192b">
-    <crm:P190_has_symbolic_content>sallmond</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>salmond</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_salmon_cb1e67b4e242e335e5a4ba8a30e31b9bb36be3fe39096ed05b7cb1adf7cde423da9">
-    <crm:P190_has_symbolic_content>salmone</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>salmonə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_salmon_cb1afcdb2688cce5da1e68eab79b6521471db6b1b7a3651023c1ff494b0376f22f8">
-    <crm:P190_has_symbolic_content>salmon, an edible sea-fish | salted salmon | dried salmon | a young salmon on its first return to the river from the sea, and retained during the same year (OED s.v. grilse)</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_salmon_cb33af4e25b488f718c15f1d3bba86908e176c1c70455afdb4d61ad04c7a3fb2eb2">
-    <crm:P190_has_symbolic_content>samonis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>samonis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_salmon_cb2b94d236849b808f554a91065dfaf938a34c86db1ac25cd90108fa09777e1eeda">
-    <crm:P190_has_symbolic_content>salman</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>salman</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/salmon#rate-1558-inward-932">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Salmon the last cont’ 12 barrelles £18</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_salmon_cb1b4d779b6a2e09b49f3971515ec130394d948c48569c0dd3a338aac03c2294305"/>
-    <hector:perQuantity rdf:nodeID="commodity_salmon_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 932 (transcribed by Stuart Jenks): 'Salmon the last cont’ 12 barrelles' £18</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_salmon_cb1d180b2f6fc05a2f43a9811d6b57cf6f095e382ce6b67177ef43059f435706693">
-    <crm:P190_has_symbolic_content>sallmondes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>salmondəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/barrel">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>barrel</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_salmon_cb1dea267afbe51b3f6e241aff0b3dc30ca0590dbc1e0dfd8a573e9fc2c310754b0">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_salmon_cb2af06dff4a1146752af2d9aebd036d533bff2c9e6af00532517cae6c6ac8f91a7">
-    <crm:P190_has_symbolic_content>samond</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>samond</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_salmon_cb318f3f9aa4ee94aad8af190e95e53a220c43de22bf8529469e52b37ae697eb3e6">
-    <crm:P190_has_symbolic_content>salmonis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>salmonis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_salmon_cb244e90acee46c11958460e98ff96beb48ff7d3979aa40e69d864ddb79f0f02127">
-    <crm:P190_has_symbolic_content>salmo</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>salmo</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300261263">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>salmon (fish)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_salmon_cb1a1ba6b5b85ca97a84fd4411817e17eea16d4368919c2378383e460bd847250e5">
-    <crm:P190_has_symbolic_content>samon</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>samon</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_salmon_cb1b4d779b6a2e09b49f3971515ec130394d948c48569c0dd3a338aac03c2294305">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>£18</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4320</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_salmon_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/last"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/grill">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>grill</rdfs:label>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/salmon#rate-1558-inward-933"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/salmon#rate-1558-inward-934"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_salmon_cb1c2c23b985688be3887246989c1de4663d3ddc088b58445463de7641a212e3e37">
     <crm:P190_has_symbolic_content>samondis</crm:P190_has_symbolic_content>
@@ -225,12 +152,224 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb1927e3ca4dcbc12202e64a033ff1c5d9a430713ba5ef8464e3a387b0ec3d5192b">
+    <crm:P190_has_symbolic_content>sallmond</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>salmond</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/salmon#rate-1558-inward-934">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Salmon gyrles the laste £9</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_salmon_cb21949452000ce76b797434e34bb7a6b6451fe080ec9eceddf8aa00c87a1b39ccc"/>
+    <hector:perQuantity rdf:nodeID="commodity_salmon_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_salmon_cb191b5739581be1d9d4bb41959f929b130b049275a7e9e3ae0c030734656151ecd"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 934 (transcribed by Stuart Jenks): 'Salmon gyrles the laste' £9</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb27e1ed273c356317a87c3728e4ef60dbd7a2529e65d03e0c1bcb6449584d31e08">
+    <crm:P190_has_symbolic_content>sawmon</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>saumon</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/salmon#rate-1558-inward-933">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Salmon gyrles the barrell 15s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_salmon_cb1bc9947e16ee3d062e33b1a7ab22c6aac16b1d76ce0966f92622eb8e3cdc361ad"/>
+    <hector:perQuantity rdf:nodeID="commodity_salmon_cb2626b985f6e8d1fa630aa3385fed440f17a12f773c3f43fafa1120e0efce6c101"/>
+    <hector:qualifier rdf:nodeID="commodity_salmon_cb19bdedc6dcd2cb855aae926ad5ceba2a8a19f74e978692b84088c1afdab5db240"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 933 (transcribed by Stuart Jenks): 'Salmon gyrles the barrell' 15s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb191b5739581be1d9d4bb41959f929b130b049275a7e9e3ae0c030734656151ecd">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gyrles</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb318f3f9aa4ee94aad8af190e95e53a220c43de22bf8529469e52b37ae697eb3e6">
+    <crm:P190_has_symbolic_content>salmonis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>salmonis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb1a1ba6b5b85ca97a84fd4411817e17eea16d4368919c2378383e460bd847250e5">
+    <crm:P190_has_symbolic_content>samon</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>samon</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb209b2bf7a8c3c3ea71a55120382f3cfc56de84e8f1dfbd6d7b711a3869063f866">
+    <crm:P190_has_symbolic_content>samo</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>samo</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300073768">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>small</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb1d180b2f6fc05a2f43a9811d6b57cf6f095e382ce6b67177ef43059f435706693">
+    <crm:P190_has_symbolic_content>sallmondes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>salmondəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb219b377a1fc3d263238d834c41a878b876e6c82071c75d2adb48f185c4ca65f42">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£9</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/salmon#rate-1558-inward-932">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Salmon the last cont’ 12 barrelles £18</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_salmon_cb1d1c338f9a47eb09051fca7c0c32defa7f355f48a1def6197bc686272b1832e5e"/>
+    <hector:perQuantity rdf:nodeID="commodity_salmon_cb22044c9f8af430f0b63f6e168cd4eca275e6d0e292e7c4125fe97c57801d10aa0"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 932 (transcribed by Stuart Jenks): 'Salmon the last cont’ 12 barrelles' £18</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/barrel">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>barrel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb136850cffb723272d7d0c2131e7837b133a62cd8b6125b01a1d333cd6e13229c6">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>grette</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb23210732f38a55d07c073ecde1c31afb50fbad8b8b53a9fdfa8ec9f7f5dc54c3e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/last"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb22044c9f8af430f0b63f6e168cd4eca275e6d0e292e7c4125fe97c57801d10aa0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/last"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb1dea267afbe51b3f6e241aff0b3dc30ca0590dbc1e0dfd8a573e9fc2c310754b0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/salmon#rate-1507-none-245">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Samon of the smalle bande the laste £9</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_salmon_cb219b377a1fc3d263238d834c41a878b876e6c82071c75d2adb48f185c4ca65f42"/>
+    <hector:perQuantity rdf:nodeID="commodity_salmon_cb201ccb6b0856079d7cfd493f2ca31b5776ee4804c8f54021e69971110269e89e2"/>
+    <hector:qualifier rdf:nodeID="commodity_salmon_cb30529183587170842ba6bad9bec1c8dc26d91457e5dd2881bf39f32a3551f9498"/>
+    <hector:sourceText>Book of Rates 1507, line 245 (transcribed by Stuart Jenks): 'Samon of the smalle bande the laste' £9</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb2af06dff4a1146752af2d9aebd036d533bff2c9e6af00532517cae6c6ac8f91a7">
+    <crm:P190_has_symbolic_content>samond</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>samond</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/grill">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>grill</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb19bdedc6dcd2cb855aae926ad5ceba2a8a19f74e978692b84088c1afdab5db240">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gyrles</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb2b94d236849b808f554a91065dfaf938a34c86db1ac25cd90108fa09777e1eeda">
+    <crm:P190_has_symbolic_content>salman</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>salman</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb200fa77327c7454b7f7ef9ef5b6d840eb44b3d85ffab461cc115765eae1906ac9">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>30s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb201ccb6b0856079d7cfd493f2ca31b5776ee4804c8f54021e69971110269e89e2">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/last"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb244e90acee46c11958460e98ff96beb48ff7d3979aa40e69d864ddb79f0f02127">
+    <crm:P190_has_symbolic_content>salmo</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>salmo</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb21949452000ce76b797434e34bb7a6b6451fe080ec9eceddf8aa00c87a1b39ccc">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£9</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/last">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>last</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb2626b985f6e8d1fa630aa3385fed440f17a12f773c3f43fafa1120e0efce6c101">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300389825">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>fish (meat)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/salmon">
+  <rdf:Description rdf:nodeID="commodity_salmon_cb33af4e25b488f718c15f1d3bba86908e176c1c70455afdb4d61ad04c7a3fb2eb2">
+    <crm:P190_has_symbolic_content>samonis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>samonis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb1bc9947e16ee3d062e33b1a7ab22c6aac16b1d76ce0966f92622eb8e3cdc361ad">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>15s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">180</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_salmon_cb14c1fc2d6335e163e2f82599fe42ee6a8c71d590aef2bd5e4df9e0d464abf61f2">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>salmon (London Customs Accounts glossary)</rdfs:label>
+    <rdfs:label>grylles</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

@@ -12,6 +12,11 @@
     dcterms:modified "2026-10-03"^^xsd:date ;
     schema1:material aat:300400474 ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "featherbed" ;
+            crm:P2_has_type aat:300404670,
+                hector:AttestedVariant ;
+            hector:phoneticKey "fɛːθerbed" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "federbede" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "federbedə" ;
@@ -36,17 +41,47 @@
             hector:validFrom "1446"^^xsd:gYear ;
             hector:validThrough "1450"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "fethirbedes" ;
+            crm:P190_has_symbolic_content "fedyrbedde" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "feθirbedəs" ;
-            hector:validFrom "1442"^^xsd:gYear ;
-            hector:validThrough "1445"^^xsd:gYear ],
+            hector:phoneticKey "fedirbedə" ;
+            hector:validFrom "1480"^^xsd:gYear ;
+            hector:validThrough "1481"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "fether beddes" ;
+            crm:P190_has_symbolic_content "fedirbeddes" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "feθer bedəs" ;
+            hector:phoneticKey "fedirbedəs" ;
+            hector:validFrom "1446"^^xsd:gYear ;
+            hector:validThrough "1450"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "feþerbed" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "feθerbed" ;
+            hector:validFrom "1465"^^xsd:gYear ;
+            hector:validThrough "1472"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "fetherbedd" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "feθerbed" ;
+            hector:validFrom "1431"^^xsd:gYear ;
+            hector:validThrough "1433"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "fether bedde" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "feθer bedə" ;
             hector:validFrom "1505"^^xsd:gYear ;
             hector:validThrough "1506"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "federbeds" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "federbeds" ;
+            hector:validFrom "1513"^^xsd:gYear ;
+            hector:validThrough "1514"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "fettherbed" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "feθerbed" ;
+            hector:validFrom "1512"^^xsd:gYear ;
+            hector:validThrough "1513"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "fetherbeddes" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -54,15 +89,39 @@
             hector:validFrom "1431"^^xsd:gYear ;
             hector:validThrough "1433"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "fedyrbedde" ;
+            crm:P190_has_symbolic_content "fedirbedd" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "fedirbed" ;
+            hector:validFrom "1446"^^xsd:gYear ;
+            hector:validThrough "1450"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "fether beddes" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "feθer bedəs" ;
+            hector:validFrom "1505"^^xsd:gYear ;
+            hector:validThrough "1506"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "fedirbedde" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "fedirbedə" ;
-            hector:validFrom "1480"^^xsd:gYear ;
-            hector:validThrough "1481"^^xsd:gYear ],
+            hector:validFrom "1445"^^xsd:gYear ;
+            hector:validThrough "1446"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "fethyrbeddes" ;
+            crm:P190_has_symbolic_content "fetherbede" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "feθirbedəs" ;
+            hector:phoneticKey "feθerbedə" ;
+            hector:validFrom "1442"^^xsd:gYear ;
+            hector:validThrough "1445"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "fetherbed" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "feθerbed" ;
+            hector:validFrom "1431"^^xsd:gYear ;
+            hector:validThrough "1433"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "fedirbed" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "fedirbed" ;
             hector:validFrom "1442"^^xsd:gYear ;
             hector:validThrough "1445"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
@@ -72,47 +131,41 @@
             hector:validFrom "1442"^^xsd:gYear ;
             hector:validThrough "1445"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "fettherbedes" ;
+            crm:P190_has_symbolic_content "fetherbeddys" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "feθerbedəs" ;
-            hector:validFrom "1512"^^xsd:gYear ;
-            hector:validThrough "1513"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "fetherbedd" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "feθerbed" ;
-            hector:validFrom "1431"^^xsd:gYear ;
-            hector:validThrough "1433"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "fedirbeddes" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "fedirbedəs" ;
-            hector:validFrom "1446"^^xsd:gYear ;
-            hector:validThrough "1450"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "fettherbed" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "feθerbed" ;
-            hector:validFrom "1512"^^xsd:gYear ;
-            hector:validThrough "1513"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "federbeds" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "federbeds" ;
-            hector:validFrom "1513"^^xsd:gYear ;
-            hector:validThrough "1514"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "fetherbede" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "feθerbedə" ;
+            hector:phoneticKey "feθerbedis" ;
             hector:validFrom "1442"^^xsd:gYear ;
             hector:validThrough "1445"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "fedirbedd" ;
+            crm:P190_has_symbolic_content "fetherebeds" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "fedirbed" ;
-            hector:validFrom "1446"^^xsd:gYear ;
-            hector:validThrough "1450"^^xsd:gYear ],
+            hector:phoneticKey "feθerebeds" ;
+            hector:validFrom "1442"^^xsd:gYear ;
+            hector:validThrough "1445"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "fethirbedes" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "feθirbedəs" ;
+            hector:validFrom "1442"^^xsd:gYear ;
+            hector:validThrough "1445"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "federbedes" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "federbedəs" ;
+            hector:validFrom "1428"^^xsd:gYear ;
+            hector:validThrough "1430"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "federbeddys" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "federbedis" ;
+            hector:validFrom "1428"^^xsd:gYear ;
+            hector:validThrough "1430"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "bed" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "bed" ;
+            hector:validFrom "1505"^^xsd:gYear ;
+            hector:validThrough "1506"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "fetherbedes" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -120,57 +173,21 @@
             hector:validFrom "1431"^^xsd:gYear ;
             hector:validThrough "1433"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "fetherbed" ;
+            crm:P190_has_symbolic_content "fethirbeddez" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "feθerbed" ;
-            hector:validFrom "1431"^^xsd:gYear ;
-            hector:validThrough "1433"^^xsd:gYear ],
+            hector:phoneticKey "feθirbedez" ;
+            hector:validFrom "1493"^^xsd:gYear ;
+            hector:validThrough "1495"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "fethirbeddes" ;
+            crm:P190_has_symbolic_content "federbedd" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "federbed" ;
+            hector:validFrom "1493"^^xsd:gYear ;
+            hector:validThrough "1495"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "fethyrbeddes" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "feθirbedəs" ;
-            hector:validFrom "1442"^^xsd:gYear ;
-            hector:validThrough "1445"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "fetherbeddys" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "feθerbedis" ;
-            hector:validFrom "1442"^^xsd:gYear ;
-            hector:validThrough "1445"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "fedirbedde" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "fedirbedə" ;
-            hector:validFrom "1445"^^xsd:gYear ;
-            hector:validThrough "1446"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "fetherebed" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "feθerebed" ;
-            hector:validFrom "1442"^^xsd:gYear ;
-            hector:validThrough "1445"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "fedirbed" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "fedirbed" ;
-            hector:validFrom "1442"^^xsd:gYear ;
-            hector:validThrough "1445"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "fetherebede" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "feθerebedə" ;
-            hector:validFrom "1442"^^xsd:gYear ;
-            hector:validThrough "1445"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "fethyrbed" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "feθirbed" ;
-            hector:validFrom "1442"^^xsd:gYear ;
-            hector:validThrough "1445"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "fetherebeds" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "feθerebeds" ;
             hector:validFrom "1442"^^xsd:gYear ;
             hector:validThrough "1445"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
@@ -185,48 +202,6 @@
             hector:phoneticKey "feθerbeds" ;
             hector:validFrom "1438"^^xsd:gYear ;
             hector:validThrough "1439"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "federbedes" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "federbedəs" ;
-            hector:validFrom "1428"^^xsd:gYear ;
-            hector:validThrough "1430"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "fethirbeddez" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "feθirbedez" ;
-            hector:validFrom "1493"^^xsd:gYear ;
-            hector:validThrough "1495"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "federbeddys" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "federbedis" ;
-            hector:validFrom "1428"^^xsd:gYear ;
-            hector:validThrough "1430"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "bed" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "bed" ;
-            hector:validFrom "1505"^^xsd:gYear ;
-            hector:validThrough "1506"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "federbedd" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "federbed" ;
-            hector:validFrom "1493"^^xsd:gYear ;
-            hector:validThrough "1495"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "fethirbedd" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "feθirbed" ;
-            hector:validFrom "1493"^^xsd:gYear ;
-            hector:validThrough "1495"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "fethirbed" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "feθirbed" ;
-            hector:validFrom "1472"^^xsd:gYear ;
-            hector:validThrough "1477"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "fedirbedes" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -246,36 +221,61 @@
             hector:validFrom "1428"^^xsd:gYear ;
             hector:validThrough "1430"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "fetherebed" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "feθerebed" ;
+            hector:validFrom "1442"^^xsd:gYear ;
+            hector:validThrough "1445"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "fettherbedes" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "feθerbedəs" ;
+            hector:validFrom "1512"^^xsd:gYear ;
+            hector:validThrough "1513"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "federbed" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "federbed" ;
             hector:validFrom "1428"^^xsd:gYear ;
             hector:validThrough "1430"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "featherbeddes" ;
+            crm:P190_has_symbolic_content "fetherebede" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "fɛːθerbedəs" ],
+            hector:phoneticKey "feθerebedə" ;
+            hector:validFrom "1442"^^xsd:gYear ;
+            hector:validThrough "1445"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "fethirbeddes" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "feθirbedəs" ;
+            hector:validFrom "1442"^^xsd:gYear ;
+            hector:validThrough "1445"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "fethyrbed" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "feθirbed" ;
+            hector:validFrom "1442"^^xsd:gYear ;
+            hector:validThrough "1445"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "fethirbedd" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "feθirbed" ;
+            hector:validFrom "1493"^^xsd:gYear ;
+            hector:validThrough "1495"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "fethirbed" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "feθirbed" ;
+            hector:validFrom "1472"^^xsd:gYear ;
+            hector:validThrough "1477"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "featherbedde" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "fɛːθerbedə" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "featherbed" ;
-            crm:P2_has_type aat:300404670,
-                hector:AttestedVariant ;
-            hector:phoneticKey "fɛːθerbed" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "feþerbed" ;
+            crm:P190_has_symbolic_content "featherbeddes" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "feθerbed" ;
-            hector:validFrom "1465"^^xsd:gYear ;
-            hector:validThrough "1472"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "fether bedde" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "feθer bedə" ;
-            hector:validFrom "1505"^^xsd:gYear ;
-            hector:validThrough "1506"^^xsd:gYear ] ;
+            hector:phoneticKey "fɛːθerbedəs" ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "(fether bedde) | featherbed | feather bed | featherbed (see also lectus plumarum)" ;
             crm:P2_has_type aat:300435416 ] ;
@@ -310,6 +310,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 12 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "tekes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1507, line 86 (transcribed by Stuart Jenks): 'Fetherbed tekes the dossen of all sortes' 36s" ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
@@ -323,6 +326,10 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "new" ],
+        [ a crm:E55_Type ;
+            rdfs:label "old" ] ;
     hector:sourceText "Book of Rates 1558, inward, line 418 (transcribed by Stuart Jenks): 'Fether beddes olde or newe the pece' 13s 4d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .

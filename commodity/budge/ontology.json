@@ -338,6 +338,385 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/budge#rate-1507-none-26",
+      "type": "Rate",
+      "_label": "1507: Budges called wyght bodges the C small 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 26 (transcribed by Stuart Jenks): 'Budges called wyght bodges the C small' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Isle of Wight",
+          "originPlace": [
+            {
+              "id": "wd:Q9679",
+              "type": "Place",
+              "_label": "Isle of Wight"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "bodges",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/budge#rate-1507-none-27",
+      "type": "Rate",
+      "_label": "1507: Budges called blake budges the C 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 27 (transcribed by Stuart Jenks): 'Budges called blake budges the C' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "black",
+          "equivalent": [
+            {
+              "id": "aat:300130920",
+              "type": "Type",
+              "_label": "black (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/budge#rate-1545-inward-101",
+      "type": "Rate",
+      "_label": "1545 inward: Bodge whyte tawed the 100 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 101 (transcribed by Stuart Jenks): 'Bodge whyte tawed the 100' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "white",
+          "equivalent": [
+            {
+              "id": "aat:300129784",
+              "type": "Type",
+              "_label": "white (color)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "tawed",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/budge#rate-1545-inward-102",
+      "type": "Rate",
+      "_label": "1545 inward: Bodge blacke tawed the dossen 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 102 (transcribed by Stuart Jenks): 'Bodge blacke tawed the dossen' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "black",
+          "equivalent": [
+            {
+              "id": "aat:300130920",
+              "type": "Type",
+              "_label": "black (color)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "tawed",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/budge#rate-1545-inward-103",
+      "type": "Rate",
+      "_label": "1545 inward: Bodge of Romney the dossen 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 103 (transcribed by Stuart Jenks): 'Bodge of Romney the dossen' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "romney"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/budge#rate-1558-inward-113",
+      "type": "Rate",
+      "_label": "1558 inward: Budge white tawed the hundreth cont’ 5 score 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 113 (transcribed by Stuart Jenks): 'Budge white tawed the hundreth cont’ 5 score' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "white",
+          "equivalent": [
+            {
+              "id": "aat:300129784",
+              "type": "Type",
+              "_label": "white (color)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "tawed",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/budge#rate-1558-inward-114",
+      "type": "Rate",
+      "_label": "1558 inward: Budge blacke tawed the dosen 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 114 (transcribed by Stuart Jenks): 'Budge blacke tawed the dosen' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "black",
+          "equivalent": [
+            {
+              "id": "aat:300130920",
+              "type": "Type",
+              "_label": "black (color)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "tawed",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/budge#rate-1558-inward-115",
+      "type": "Rate",
+      "_label": "1558 inward: Budge blacke untawed the C cont’ 5 score 50s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "600",
+        "lsd": "50s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 115 (transcribed by Stuart Jenks): 'Budge blacke untawed the C cont’ 5 score' 50s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "black",
+          "equivalent": [
+            {
+              "id": "aat:300130920",
+              "type": "Type",
+              "_label": "black (color)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "untawed",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/budge#rate-1558-inward-116",
       "type": "Rate",
       "_label": "1558 inward: Budge powles the furre cont’ 4 panes in the furre 16s 8d",
@@ -362,7 +741,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 116 (transcribed by Stuart Jenks): 'Budge powles the furre cont’ 4 panes in the furre' 16s 8d"
+      "sourceText": "Book of Rates 1558, inward, line 116 (transcribed by Stuart Jenks): 'Budge powles the furre cont’ 4 panes in the furre' 16s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "powles",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -151,6 +151,9 @@
 aat:300161848 a crm:E55_Type ;
     rdfs:label "andirons" .
 
+aat:300198675 a crm:E55_Type ;
+    rdfs:label "latten" .
+
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
 
@@ -169,6 +172,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pair> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "latten" ;
+            la:equivalent aat:300198675 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 41 (transcribed by Stuart Jenks): 'Andyrons of latten the payre' 33s 4d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .

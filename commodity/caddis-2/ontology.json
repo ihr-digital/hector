@@ -256,7 +256,20 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 621 (transcribed by Stuart Jenks): 'Ribbonde or caddas the dossen peces' 4s"
+      "sourceText": "Book of Rates 1545, inward, line 621 (transcribed by Stuart Jenks): 'Ribbonde or caddas the dossen peces' 4s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Ribbonde",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/caddis-2#rate-1545-inward-728",
@@ -283,7 +296,20 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 728 (transcribed by Stuart Jenks): 'Tapistry wyth caddas the ell' 12d"
+      "sourceText": "Book of Rates 1545, inward, line 728 (transcribed by Stuart Jenks): 'Tapistry wyth caddas the ell' 12d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Tapistry",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

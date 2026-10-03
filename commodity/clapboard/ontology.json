@@ -541,6 +541,86 @@
       "validFrom": "1545",
       "validThrough": "1558",
       "sourceText": "Book of Rates 1545, inward, line 189 (transcribed by Stuart Jenks): 'Clapholte the smale 100' 3s 4d"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/clapboard#rate-1545-outward-20",
+      "type": "Rate",
+      "_label": "1545 outward: Clapholte smalle the 100 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "40",
+        "lsd": "3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, outward, line 20 (transcribed by Stuart Jenks): 'Clapholte smalle the 100' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "small",
+          "equivalent": [
+            {
+              "id": "aat:300073768",
+              "type": "Type",
+              "_label": "small"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/clapboard#rate-1545-outward-21",
+      "type": "Rate",
+      "_label": "1545 outward: Clapholte greate þe C £3 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "800",
+        "lsd": "£3 6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, outward, line 21 (transcribed by Stuart Jenks): 'Clapholte greate þe C' £3 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "large",
+          "equivalent": [
+            {
+              "id": "aat:300073756",
+              "type": "Type",
+              "_label": "large"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

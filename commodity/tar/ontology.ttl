@@ -17,23 +17,23 @@
             hector:validFrom "1513"^^xsd:gYear ;
             hector:validThrough "1514"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "teer" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "teːr" ;
-            hector:validFrom "1446"^^xsd:gYear ;
-            hector:validThrough "1450"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "tarrae" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "tare" ;
             hector:validFrom "1380"^^xsd:gYear ;
             hector:validThrough "1385"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "terra" ;
+            crm:P190_has_symbolic_content "teer" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "tera" ;
-            hector:validFrom "1513"^^xsd:gYear ;
-            hector:validThrough "1514"^^xsd:gYear ],
+            hector:phoneticKey "teːr" ;
+            hector:validFrom "1446"^^xsd:gYear ;
+            hector:validThrough "1450"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "terre" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "terə" ;
+            hector:validFrom "1547"^^xsd:gYear ;
+            hector:validThrough "1548"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "ter" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -47,11 +47,17 @@
             hector:validFrom "1380"^^xsd:gYear ;
             hector:validThrough "1385"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "terr" ;
+            crm:P190_has_symbolic_content "tere" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "ter" ;
-            hector:validFrom "1545"^^xsd:gYear ;
-            hector:validThrough "1547"^^xsd:gYear ],
+            hector:phoneticKey "terə" ;
+            hector:validFrom "1531"^^xsd:gYear ;
+            hector:validThrough "1533"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "terra" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "tera" ;
+            hector:validFrom "1513"^^xsd:gYear ;
+            hector:validThrough "1514"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "tarre" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -59,18 +65,24 @@
             hector:validFrom "1531"^^xsd:gYear ;
             hector:validThrough "1533"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "tar" ;
-            crm:P2_has_type aat:300404670,
-                hector:AttestedVariant ;
-            hector:phoneticKey "tar" ;
-            hector:validFrom "1531"^^xsd:gYear ;
-            hector:validThrough "1533"^^xsd:gYear ],
+            crm:P190_has_symbolic_content "terr" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "ter" ;
+            hector:validFrom "1545"^^xsd:gYear ;
+            hector:validThrough "1547"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "tarre me" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "tarə me" ;
             hector:validFrom "1461"^^xsd:gYear ;
             hector:validThrough "1465"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "tar" ;
+            crm:P2_has_type aat:300404670,
+                hector:AttestedVariant ;
+            hector:phoneticKey "tar" ;
+            hector:validFrom "1531"^^xsd:gYear ;
+            hector:validThrough "1533"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "taar" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -94,19 +106,7 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "tarə" ;
             hector:validFrom "1493"^^xsd:gYear ;
-            hector:validThrough "1495"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "terre" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "terə" ;
-            hector:validFrom "1547"^^xsd:gYear ;
-            hector:validThrough "1548"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "tere" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "terə" ;
-            hector:validFrom "1531"^^xsd:gYear ;
-            hector:validThrough "1533"^^xsd:gYear ] ;
+            hector:validThrough "1495"^^xsd:gYear ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "Thick, viscous, brown or black, inflammable liquid residue resulting from the partial evaporation or distillation of wood (such as pine, fir, or larch), sugar, tobacco, peat, coal, or other organic substance. It contains hydrocarbons, resins, alcohols, and other compounds; it has a heavy resinous or bituminous odor. It is used as an antiseptic, for coating asphalt roads, preserving timber, caulk on wooden sailing ships, waterproofing for roofing papers, insecticide, in disinfectant soaps. Some tars, such as those obtained from pine or beech wood, have been mixed with linseed oil to form a dark brown glaze and for other purposes. [Source: Getty AAT]" ;
             crm:P2_has_type aat:300435416 ] ;
@@ -114,7 +114,9 @@
     skos:related <https://w3id.org/hector/commodity/bitumen>,
         <https://w3id.org/hector/commodity/pitch> ;
     la:equivalent aat:300012991 ;
-    hector:attestationCount 1576 .
+    hector:attestationCount 1576 ;
+    hector:taxation <https://w3id.org/hector/commodity/tar#rate-1558-inward-1120>,
+        <https://w3id.org/hector/commodity/tar#rate-1558-inward-1123> .
 
 aat:300012991 a crm:E55_Type ;
     rdfs:label "tar (material)" .
@@ -131,8 +133,48 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/hector/commodity/pitch> a crm:E55_Type ;
     rdfs:label "pitch" .
 
+<https://w3id.org/hector/commodity/tar#rate-1558-inward-1120> a hector:Rate ;
+    rdfs:label "1558 inward: Terre Bithina vetera the pounde 12d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "12d" ;
+            hector:valueInPence 12.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Bithina vetera" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 1120 (transcribed by Stuart Jenks): 'Terre Bithina vetera the pounde' 12d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/tar#rate-1558-inward-1123> a hector:Rate ;
+    rdfs:label "1558 inward: Terre Bithina communis the pounde 1d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "1d" ;
+            hector:valueInPence 1.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "commune" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Bithina" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 1123 (transcribed by Stuart Jenks): 'Terre Bithina communis the pounde' 1d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/mlca/glossary/tar> a crm:E55_Type ;
     rdfs:label "tar (London Customs Accounts glossary)" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
+<https://w3id.org/hector/unit/pound> a crm:E58_Measurement_Unit ;
+    rdfs:label "pound" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

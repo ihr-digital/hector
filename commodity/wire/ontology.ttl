@@ -11,11 +11,31 @@
     rdfs:label "wire" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "wiere" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "wiːrə" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "wier" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "wiːr" ;
             hector:validFrom "1519"^^xsd:gYear ;
             hector:validThrough "1520"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "weyr" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "weir" ;
+            hector:validFrom "1465"^^xsd:gYear ;
+            hector:validThrough "1472"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "wyarr" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "wiar" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "weyre" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "weirə" ;
+            hector:validFrom "1465"^^xsd:gYear ;
+            hector:validThrough "1472"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "wire" ;
             crm:P2_has_type aat:300404670,
@@ -24,29 +44,11 @@
             hector:validFrom "1390"^^xsd:gYear ;
             hector:validThrough "1398"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "weyr" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "weir" ;
-            hector:validFrom "1465"^^xsd:gYear ;
-            hector:validThrough "1472"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "wyre" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "wirə" ;
-            hector:validFrom "1428"^^xsd:gYear ;
-            hector:validThrough "1430"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "wyarre" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "wiarə" ;
             hector:validFrom "1536"^^xsd:gYear ;
             hector:validThrough "1540"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "weyre" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "weirə" ;
-            hector:validFrom "1465"^^xsd:gYear ;
-            hector:validThrough "1472"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "wyar" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -54,19 +56,15 @@
             hector:validFrom "1536"^^xsd:gYear ;
             hector:validThrough "1540"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "wiere" ;
+            crm:P190_has_symbolic_content "wyre" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "wiːrə" ],
+            hector:phoneticKey "wirə" ;
+            hector:validFrom "1428"^^xsd:gYear ;
+            hector:validThrough "1430"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "weir" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "weir" ;
-            hector:validFrom "1480"^^xsd:gYear ;
-            hector:validThrough "1481"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "wyer" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "wier" ;
             hector:validFrom "1480"^^xsd:gYear ;
             hector:validThrough "1481"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
@@ -76,9 +74,11 @@
             hector:validFrom "1480"^^xsd:gYear ;
             hector:validThrough "1481"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "wyarr" ;
+            crm:P190_has_symbolic_content "wyer" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "wiar" ] ;
+            hector:phoneticKey "wier" ;
+            hector:validFrom "1480"^^xsd:gYear ;
+            hector:validThrough "1481"^^xsd:gYear ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "wire: metal — iron, latten, copper or gold — drawn into a thin flexible thread, distinguished by metal and by place of manufacture (especially Cologne)." ;
             crm:P2_has_type aat:300435416 ] ;
@@ -88,7 +88,12 @@
     la:equivalent aat:300011063 ;
     hector:attestationCount 702 ;
     hector:taxation <https://w3id.org/hector/commodity/wire#rate-1507-none-142>,
-        <https://w3id.org/hector/commodity/wire#rate-1545-inward-794> .
+        <https://w3id.org/hector/commodity/wire#rate-1507-none-211>,
+        <https://w3id.org/hector/commodity/wire#rate-1545-inward-550>,
+        <https://w3id.org/hector/commodity/wire#rate-1545-inward-789>,
+        <https://w3id.org/hector/commodity/wire#rate-1545-inward-794>,
+        <https://w3id.org/hector/commodity/wire#rate-1558-inward-1130>,
+        <https://w3id.org/hector/commodity/wire#rate-1558-inward-833> .
 
 aat:300011063 a crm:E55_Type ;
     rdfs:label "wire" .
@@ -114,9 +119,60 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hogshead> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Iryne" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1507, line 142 (transcribed by Stuart Jenks): 'Iryne wyer the hoggeshed' 50s" ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/wire#rate-1507-none-211> a hector:Rate ;
+    rdfs:label "1507: Pyrlyng wyer the dossen lb 4s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4s" ;
+            hector:valueInPence 48.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Pyrlyng" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 211 (transcribed by Stuart Jenks): 'Pyrlyng wyer the dossen lb' 4s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/wire#rate-1545-inward-550> a hector:Rate ;
+    rdfs:label "1545 inward: Purlynge wyer the dossen pounde 4s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4s" ;
+            hector:valueInPence 48.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Purlynge" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 550 (transcribed by Stuart Jenks): 'Purlynge wyer the dossen pounde' 4s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/wire#rate-1545-inward-789> a hector:Rate ;
+    rdfs:label "1545 inward: Wyer for clarycordes the pound 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4d" ;
+            hector:valueInPence 4.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "clarycordes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 789 (transcribed by Stuart Jenks): 'Wyer for clarycordes the pound' 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/wire#rate-1545-inward-794> a hector:Rate ;
     rdfs:label "1545 inward: Wyer the 100 20s" ;
@@ -131,6 +187,38 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/wire#rate-1558-inward-1130> a hector:Rate ;
+    rdfs:label "1558 inward: Wyer for clerycordes the pounde 12d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "12d" ;
+            hector:valueInPence 12.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "clerycordes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 1130 (transcribed by Stuart Jenks): 'Wyer for clerycordes the pounde' 12d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/wire#rate-1558-inward-833> a hector:Rate ;
+    rdfs:label "1558 inward: Purlynge wyer the dossen pounde 8s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "8s" ;
+            hector:valueInPence 96.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Purlynge" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 833 (transcribed by Stuart Jenks): 'Purlynge wyer the dossen pounde' 8s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/unit/hogshead> a crm:E58_Measurement_Unit ;
     rdfs:label "hogshead" .
 
@@ -139,6 +227,12 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/mlca/glossary/wire> a crm:E55_Type ;
     rdfs:label "wire (London Customs Accounts glossary)" .
+
+<https://w3id.org/hector/unit/pound> a crm:E58_Measurement_Unit ;
+    rdfs:label "pound" .
+
+<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
+    rdfs:label "dozen" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

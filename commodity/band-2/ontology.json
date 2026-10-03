@@ -123,7 +123,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 461 (transcribed by Stuart Jenks): 'Flanders bandes the dosen' 13s 4d"
+      "sourceText": "Book of Rates 1558, inward, line 461 (transcribed by Stuart Jenks): 'Flanders bandes the dosen' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "County of Flanders",
+          "originPlace": [
+            {
+              "id": "wd:Q157070",
+              "type": "Place",
+              "_label": "County of Flanders"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/band-2#rate-1558-inward-619",
@@ -150,7 +163,31 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 619 (transcribed by Stuart Jenks): 'Iron bandes for ketles the C lb. cont’ 112 lb' 13s 4d"
+      "sourceText": "Book of Rates 1558, inward, line 619 (transcribed by Stuart Jenks): 'Iron bandes for ketles the C lb. cont’ 112 lb' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Iron",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "ketles",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

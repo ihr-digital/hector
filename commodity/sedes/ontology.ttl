@@ -21,7 +21,10 @@
             crm:P190_has_symbolic_content "General term referring to a person, people, place, or thing for which the identity has not been established. [Source: Getty AAT]" ;
             crm:P2_has_type aat:300435416 ] ;
     skos:exactMatch <https://w3id.org/mlca/glossary/sedes> ;
-    hector:attestationCount 6 .
+    hector:attestationCount 6 ;
+    hector:taxation <https://w3id.org/hector/commodity/sedes#rate-1545-inward-208>,
+        <https://w3id.org/hector/commodity/sedes#rate-1545-inward-209>,
+        <https://w3id.org/hector/commodity/sedes#rate-1558-inward-1147> .
 
 aat:300386154 a crm:E55_Type ;
     rdfs:label "unidentified (information indicator)" .
@@ -32,9 +35,63 @@ aat:300404670 a crm:E55_Type ;
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
-hector:AttestedVariant a crm:E55_Type ;
-    rdfs:label "attested variant" .
+<https://w3id.org/hector/commodity/sedes#rate-1545-inward-208> a hector:Rate ;
+    rdfs:label "1545 inward: Colimander sedes þe 100 pounde 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Colimander" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 208 (transcribed by Stuart Jenks): 'Colimander sedes þe 100 pounde' 6s 8d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/sedes#rate-1545-inward-209> a hector:Rate ;
+    rdfs:label "1545 inward: Carawaye sedes the 100 pounde 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Carawaye" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 209 (transcribed by Stuart Jenks): 'Carawaye sedes the 100 pounde' 10s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/sedes#rate-1558-inward-1147> a hector:Rate ;
+    rdfs:label "1558 inward: Worme sedes the C lb. cont’ 100 [lb.] £10" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£10" ;
+            hector:valueInPence 2400.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Worme" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 1147 (transcribed by Stuart Jenks): 'Worme sedes the C lb. cont’ 100 [lb.]' £10" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/mlca/glossary/sedes> a crm:E55_Type ;
     rdfs:label "sedes (London Customs Accounts glossary)" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
+<https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
+    rdfs:label "hundred" .
+
+hector:AttestedVariant a crm:E55_Type ;
+    rdfs:label "attested variant" .
 

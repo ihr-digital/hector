@@ -14,36 +14,30 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "goːsə kwils" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "quille" ;
-            crm:P2_has_type aat:300404670,
-                hector:AttestedVariant ;
-            hector:phoneticKey "kwilə" ;
-            hector:validFrom "1547"^^xsd:gYear ;
-            hector:validThrough "1548"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "swan quylle" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "swan kwilə" ;
-            hector:validFrom "1519"^^xsd:gYear ;
-            hector:validThrough "1520"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "swan quylles" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "swan kwiləs" ;
-            hector:validFrom "1461"^^xsd:gYear ;
-            hector:validThrough "1520"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "quilles" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kwiləs" ;
             hector:validFrom "1547"^^xsd:gYear ;
             hector:validThrough "1548"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "swan quyllis" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "swan kwilis" ;
+            hector:validFrom "1519"^^xsd:gYear ;
+            hector:validThrough "1520"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "swan quyll" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "swan kwil" ;
             hector:validFrom "1519"^^xsd:gYear ;
             hector:validThrough "1520"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "quille" ;
+            crm:P2_has_type aat:300404670,
+                hector:AttestedVariant ;
+            hector:phoneticKey "kwilə" ;
+            hector:validFrom "1547"^^xsd:gYear ;
+            hector:validThrough "1548"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "quill swaneses" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -63,11 +57,23 @@
             hector:validFrom "1513"^^xsd:gYear ;
             hector:validThrough "1514"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "swan quylle" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "swan kwilə" ;
+            hector:validFrom "1519"^^xsd:gYear ;
+            hector:validThrough "1520"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "quill swanes" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kwil swanəs" ;
             hector:validFrom "1531"^^xsd:gYear ;
             hector:validThrough "1533"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "swan quylles" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "swan kwiləs" ;
+            hector:validFrom "1461"^^xsd:gYear ;
+            hector:validThrough "1520"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "gose quiles" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -93,15 +99,17 @@
             hector:validFrom "1513"^^xsd:gYear ;
             hector:validThrough "1514"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "swannes quylle" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "swanəs kwilə" ;
+            hector:validFrom "1519"^^xsd:gYear ;
+            hector:validThrough "1520"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "gose quile" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "gosə kwilə" ;
             hector:validFrom "1513"^^xsd:gYear ;
             hector:validThrough "1514"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "goose quill" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "goːsə kwil" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "quyle" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -121,17 +129,9 @@
             hector:validFrom "1461"^^xsd:gYear ;
             hector:validThrough "1465"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "swannes quylle" ;
+            crm:P190_has_symbolic_content "goose quill" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "swanəs kwilə" ;
-            hector:validFrom "1519"^^xsd:gYear ;
-            hector:validThrough "1520"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "swan quyllis" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "swan kwilis" ;
-            hector:validFrom "1519"^^xsd:gYear ;
-            hector:validThrough "1520"^^xsd:gYear ] ;
+            hector:phoneticKey "goːsə kwil" ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "a bird's feather formed into a pen by sharpening and slitting the lower end of the barrel (OED s.v. quill n.1 3b); in the case of gose quylle, a goose feather so formed" ;
             crm:P2_has_type aat:300435416 ] ;
@@ -141,7 +141,8 @@
     skos:related <https://w3id.org/hector/commodity/pen-2> ;
     hector:attestationCount 37 ;
     hector:taxation <https://w3id.org/hector/commodity/quille#rate-1545-inward-593>,
-        <https://w3id.org/hector/commodity/quille#rate-1545-inward-674> .
+        <https://w3id.org/hector/commodity/quille#rate-1545-inward-674>,
+        <https://w3id.org/hector/commodity/quille#rate-1558-outward-23> .
 
 aat:300022452 a crm:E55_Type ;
     rdfs:label "pens (drawing and writing implements)" .
@@ -184,14 +185,30 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/quille#rate-1558-outward-23> a hector:Rate ;
+    rdfs:label "1558 outward: Gose quylles the thowsaunde 12d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "12d" ;
+            hector:valueInPence 12.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1000 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/thousand> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Gose" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, outward, line 23 (transcribed by Stuart Jenks): 'Gose quylles the thowsaunde' 12d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/unit/pecia> a crm:E58_Measurement_Unit ;
     rdfs:label "pecia" .
 
-<https://w3id.org/hector/unit/thousand> a crm:E58_Measurement_Unit ;
-    rdfs:label "thousand" .
-
 <https://w3id.org/mlca/glossary/quille> a crm:E55_Type ;
     rdfs:label "quille (London Customs Accounts glossary)" .
+
+<https://w3id.org/hector/unit/thousand> a crm:E58_Measurement_Unit ;
+    rdfs:label "thousand" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

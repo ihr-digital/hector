@@ -143,6 +143,148 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/silver#rate-1507-none-123",
+      "type": "Rate",
+      "_label": "1507: Gowlde or sylver of Bruges the mast þat ys to saye 8s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "96",
+        "lsd": "8s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/mast",
+          "type": "MeasurementUnit",
+          "_label": "mast"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 123 (transcribed by Stuart Jenks): 'Gowlde or sylver of Bruges the mast þat ys to saye' 8s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Gowlde",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "Bruges",
+          "originPlace": [
+            {
+              "id": "wd:Q12994",
+              "type": "Place",
+              "_label": "Bruges"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silver#rate-1545-inward-661",
+      "type": "Rate",
+      "_label": "1545 inward: Sylver of Bruges the maste 8s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "96",
+        "lsd": "8s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/mast",
+          "type": "MeasurementUnit",
+          "_label": "mast"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 661 (transcribed by Stuart Jenks): 'Sylver of Bruges the maste' 8s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Bruges",
+          "originPlace": [
+            {
+              "id": "wd:Q12994",
+              "type": "Place",
+              "_label": "Bruges"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silver#rate-1558-inward-258",
+      "type": "Rate",
+      "_label": "1558 inward: Coollen golde or sylver the maste cont’ 2½ lb 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/mast",
+          "type": "MeasurementUnit",
+          "_label": "mast"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 258 (transcribed by Stuart Jenks): 'Coollen golde or sylver the maste cont’ 2½ lb' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Cologne",
+          "originPlace": [
+            {
+              "id": "wd:Q365",
+              "type": "Place",
+              "_label": "Cologne"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "gold",
+          "equivalent": [
+            {
+              "id": "aat:300011021",
+              "type": "Type",
+              "_label": "gold (metal)"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/silver#rate-1558-inward-299",
       "type": "Rate",
       "_label": "1558 inward: Crippen partlettes of gold or sylver the dossen £6",
@@ -167,7 +309,31 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 299 (transcribed by Stuart Jenks): 'Crippen partlettes of gold or sylver the dossen' £6"
+      "sourceText": "Book of Rates 1558, inward, line 299 (transcribed by Stuart Jenks): 'Crippen partlettes of gold or sylver the dossen' £6",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Crippen partlettes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "gold",
+          "equivalent": [
+            {
+              "id": "aat:300011021",
+              "type": "Type",
+              "_label": "gold (metal)"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/silver#rate-1558-inward-31",
@@ -194,7 +360,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 31 (transcribed by Stuart Jenks): 'Argentum sublime, the C lb. cont’ five score pounde' £10"
+      "sourceText": "Book of Rates 1558, inward, line 31 (transcribed by Stuart Jenks): 'Argentum sublime, the C lb. cont’ five score pounde' £10",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "sublime",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/silver#rate-1558-inward-878",
@@ -221,7 +400,60 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 878 (transcribed by Stuart Jenks): 'Quycke sylver the pounde' 16d"
+      "sourceText": "Book of Rates 1558, inward, line 878 (transcribed by Stuart Jenks): 'Quycke sylver the pounde' 16d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Quycke",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silver#rate-1558-inward-960",
+      "type": "Rate",
+      "_label": "1558 inward: Sylver of Brydges the mast cont’ 2½ lb. 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/mast",
+          "type": "MeasurementUnit",
+          "_label": "mast"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 960 (transcribed by Stuart Jenks): 'Sylver of Brydges the mast cont’ 2½ lb.' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Bruges",
+          "originPlace": [
+            {
+              "id": "wd:Q12994",
+              "type": "Place",
+              "_label": "Bruges"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

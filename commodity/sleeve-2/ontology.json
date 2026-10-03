@@ -244,7 +244,31 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 1014 (transcribed by Stuart Jenks): 'Slevys of vellett or satten for wemen the payre' 10s"
+      "sourceText": "Book of Rates 1558, inward, line 1014 (transcribed by Stuart Jenks): 'Slevys of vellett or satten for wemen the payre' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "velvet",
+          "equivalent": [
+            {
+              "id": "aat:300133711",
+              "type": "Type",
+              "_label": "velvet (fabric weave)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "satten for wemen",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

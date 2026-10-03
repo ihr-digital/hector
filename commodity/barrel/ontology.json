@@ -522,7 +522,64 @@
       },
       "validFrom": "1507",
       "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 47 (transcribed by Stuart Jenks): 'Corke made in barrelles the laste' 20s"
+      "sourceText": "Book of Rates 1507, line 47 (transcribed by Stuart Jenks): 'Corke made in barrelles the laste' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Corke",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "worked"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/barrel#rate-1558-inward-119",
+      "type": "Rate",
+      "_label": "1558 inward: Bordes for barrelles the thousande 50s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "600",
+        "lsd": "50s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1000,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/thousand",
+          "type": "MeasurementUnit",
+          "_label": "thousand"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 119 (transcribed by Stuart Jenks): 'Bordes for barrelles the thousande' 50s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Bordes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/barrel#rate-1558-inward-416",
@@ -549,7 +606,71 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 416 (transcribed by Stuart Jenks): 'Empty barrelles small for grocers the dossen' 2s"
+      "sourceText": "Book of Rates 1558, inward, line 416 (transcribed by Stuart Jenks): 'Empty barrelles small for grocers the dossen' 2s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "small",
+          "equivalent": [
+            {
+              "id": "aat:300073768",
+              "type": "Type",
+              "_label": "small"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "grocers",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/barrel#rate-1558-inward-578",
+      "type": "Rate",
+      "_label": "1558 inward: Hopes for barrelles the thowsand 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1000,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/thousand",
+          "type": "MeasurementUnit",
+          "_label": "thousand"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 578 (transcribed by Stuart Jenks): 'Hopes for barrelles the thowsand' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Hopes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

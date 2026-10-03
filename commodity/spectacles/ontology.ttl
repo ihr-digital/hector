@@ -132,6 +132,7 @@
     la:equivalent aat:300236409 ;
     hector:attestationCount 185 ;
     hector:taxation <https://w3id.org/hector/commodity/spectacles#rate-1545-inward-662>,
+        <https://w3id.org/hector/commodity/spectacles#rate-1545-inward-663>,
         <https://w3id.org/hector/commodity/spectacles#rate-1558-inward-1001> .
 
 aat:300236409 a crm:E55_Type ;
@@ -153,6 +154,19 @@ aat:300435416 a crm:E55_Type ;
             crm:P90_has_value 144 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
     hector:sourceText "Book of Rates 1545, inward, line 662 (transcribed by Stuart Jenks): 'Spectacles the groce' 5s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/spectacles#rate-1545-inward-663> a hector:Rate ;
+    rdfs:label "1545 inward: Spectacles cases the groce 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 663 (transcribed by Stuart Jenks): 'Spectacles cases the groce' 10s" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 

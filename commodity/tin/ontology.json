@@ -378,7 +378,20 @@
       },
       "validFrom": "1507",
       "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 309 (transcribed by Stuart Jenks): 'Tyne glasse the C wayte' 26s 8d"
+      "sourceText": "Book of Rates 1507, line 309 (transcribed by Stuart Jenks): 'Tyne glasse the C wayte' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "glass",
+          "equivalent": [
+            {
+              "id": "aat:300010797",
+              "type": "Type",
+              "_label": "glass (material)"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/tin#rate-1507-none-49",
@@ -405,7 +418,31 @@
       },
       "validFrom": "1507",
       "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 49 (transcribed by Stuart Jenks): 'Corsses called tyne corssys the dossen' 8s"
+      "sourceText": "Book of Rates 1507, line 49 (transcribed by Stuart Jenks): 'Corsses called tyne corssys the dossen' 8s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Corsses",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "corssys",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/tin#rate-1545-inward-723",
@@ -432,7 +469,206 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 723 (transcribed by Stuart Jenks): 'Tynne foyle the groce' 12d"
+      "sourceText": "Book of Rates 1545, inward, line 723 (transcribed by Stuart Jenks): 'Tynne foyle the groce' 12d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "file"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/tin#rate-1545-inward-724",
+      "type": "Rate",
+      "_label": "1545 inward: Tynne glasse the hundreth 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 724 (transcribed by Stuart Jenks): 'Tynne glasse the hundreth' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "glass",
+          "equivalent": [
+            {
+              "id": "aat:300010797",
+              "type": "Type",
+              "_label": "glass (material)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/tin#rate-1558-inward-1088",
+      "type": "Rate",
+      "_label": "1558 inward: Tynne glasse þe C conteyninge 112 lb 50s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "600",
+        "lsd": "50s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1088 (transcribed by Stuart Jenks): 'Tynne glasse þe C conteyninge 112 lb' 50s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "glass",
+          "equivalent": [
+            {
+              "id": "aat:300010797",
+              "type": "Type",
+              "_label": "glass (material)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/tin#rate-1558-outward-65",
+      "type": "Rate",
+      "_label": "1558 outward: Tynne of Devonshyre the C cont’ 112 lb 30s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "360",
+        "lsd": "30s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, outward, line 65 (transcribed by Stuart Jenks): 'Tynne of Devonshyre the C cont’ 112 lb' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Devonshyre",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/tin#rate-1558-outward-67",
+      "type": "Rate",
+      "_label": "1558 outward: Tynne Cornyshe the C cont’ 112 lb 33s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "400",
+        "lsd": "33s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, outward, line 67 (transcribed by Stuart Jenks): 'Tynne Cornyshe the C cont’ 112 lb' 33s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Cornyshe",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/tin#rate-1558-outward-68",
+      "type": "Rate",
+      "_label": "1558 outward: Tynne wrought the C cont’ 112 lb 46s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "560",
+        "lsd": "46s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, outward, line 68 (transcribed by Stuart Jenks): 'Tynne wrought the C cont’ 112 lb' 46s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "worked"
+        }
+      ]
     }
   ]
 }

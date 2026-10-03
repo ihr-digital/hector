@@ -250,7 +250,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 147 (transcribed by Stuart Jenks): 'Bosses for bridelles the grosse' 10s"
+      "sourceText": "Book of Rates 1558, inward, line 147 (transcribed by Stuart Jenks): 'Bosses for bridelles the grosse' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "bridelles",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

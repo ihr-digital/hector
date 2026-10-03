@@ -333,5 +333,167 @@
     }
   ],
   "attestationCount": 163,
-  "modified": "2026-09-29"
+  "modified": "2026-09-29",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/pen-case#rate-1545-inward-576",
+      "type": "Rate",
+      "_label": "1545 inward: Penners alone the groce 2s 6d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "30",
+        "lsd": "2s 6d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 576 (transcribed by Stuart Jenks): 'Penners alone the groce' 2s 6d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "alone",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/pen-case#rate-1545-inward-577",
+      "type": "Rate",
+      "_label": "1545 inward: Penners and ynckhornes the groce 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 577 (transcribed by Stuart Jenks): 'Penners and ynckhornes the groce' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "ynckhornes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/pen-case#rate-1558-inward-818",
+      "type": "Rate",
+      "_label": "1558 inward: Penners and inkehornes the grosse 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 818 (transcribed by Stuart Jenks): 'Penners and inkehornes the grosse' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "inkehornes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/pen-case#rate-1558-inward-868",
+      "type": "Rate",
+      "_label": "1558 inward: Penners without ynkehornes the grosse 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 868 (transcribed by Stuart Jenks): 'Penners without ynkehornes the grosse' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "without ynkehornes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

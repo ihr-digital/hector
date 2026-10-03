@@ -248,6 +248,199 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/grey#rate-1507-none-116",
+      "type": "Rate",
+      "_label": "1507: Gray tawyd the tymber that ys to saye 40 skynnes 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/timber",
+          "type": "MeasurementUnit",
+          "_label": "timber"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 116 (transcribed by Stuart Jenks): 'Gray tawyd the tymber that ys to saye 40 skynnes' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "tawed"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/grey#rate-1545-inward-345",
+      "type": "Rate",
+      "_label": "1545 inward: Graye tawed the tymber 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/timber",
+          "type": "MeasurementUnit",
+          "_label": "timber"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 345 (transcribed by Stuart Jenks): 'Graye tawed the tymber' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "tawed",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/grey#rate-1545-inward-346",
+      "type": "Rate",
+      "_label": "1545 inward: Graye untawed the ti[m]ber 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "40",
+        "lsd": "3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/timber",
+          "type": "MeasurementUnit",
+          "_label": "timber"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 346 (transcribed by Stuart Jenks): 'Graye untawed the ti[m]ber' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "untawed",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/grey#rate-1558-inward-508",
+      "type": "Rate",
+      "_label": "1558 inward: Gray tawed the tymbre 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/timber",
+          "type": "MeasurementUnit",
+          "_label": "timber"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 508 (transcribed by Stuart Jenks): 'Gray tawed the tymbre' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "tawed",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/grey#rate-1558-inward-509",
+      "type": "Rate",
+      "_label": "1558 inward: Gray untawed the tymbre 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/timber",
+          "type": "MeasurementUnit",
+          "_label": "timber"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 509 (transcribed by Stuart Jenks): 'Gray untawed the tymbre' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "untawed",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/grey#rate-1558-inward-522",
       "type": "Rate",
       "_label": "1558 inward: Gray skynnes voc’ flienge gray the pece 6s 8d",
@@ -272,7 +465,24 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 522 (transcribed by Stuart Jenks): 'Gray skynnes voc’ flienge gray the pece' 6s 8d"
+      "sourceText": "Book of Rates 1558, inward, line 522 (transcribed by Stuart Jenks): 'Gray skynnes voc’ flienge gray the pece' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "skin"
+        },
+        {
+          "type": "Type",
+          "_label": "flienge",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

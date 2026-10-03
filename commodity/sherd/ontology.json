@@ -183,7 +183,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, outward, line 57 (transcribed by Stuart Jenks): 'Shreddes and lystes the pype' £3"
+      "sourceText": "Book of Rates 1558, outward, line 57 (transcribed by Stuart Jenks): 'Shreddes and lystes the pype' £3",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "lystes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/sherd#rate-1558-outward-58",
@@ -210,7 +223,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, outward, line 58 (transcribed by Stuart Jenks): 'Shreddes and lystes the barrell' 30s"
+      "sourceText": "Book of Rates 1558, outward, line 58 (transcribed by Stuart Jenks): 'Shreddes and lystes the barrell' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "lystes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

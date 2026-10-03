@@ -144,7 +144,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 596 (transcribed by Stuart Jenks): 'Javelinge staves without heddes the staffe' 6d"
+      "sourceText": "Book of Rates 1558, inward, line 596 (transcribed by Stuart Jenks): 'Javelinge staves without heddes the staffe' 6d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "without heddes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

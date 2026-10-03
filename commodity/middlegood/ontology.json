@@ -210,7 +210,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 727 (transcribed by Stuart Jenks): 'Midle good [Millayn fustian] the C elles cont 6 score [ells]' 26s 8d"
+      "sourceText": "Book of Rates 1558, inward, line 727 (transcribed by Stuart Jenks): 'Midle good [Millayn fustian] the C elles cont 6 score [ells]' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "good Millayn fustian",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

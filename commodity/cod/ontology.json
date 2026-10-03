@@ -443,6 +443,206 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/cod#rate-1545-inward-199",
+      "type": "Rate",
+      "_label": "1545 inward: Coddes heds the last 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/last",
+          "type": "MeasurementUnit",
+          "_label": "last"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 199 (transcribed by Stuart Jenks): 'Coddes heds the last' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "heds",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cod#rate-1545-inward-200",
+      "type": "Rate",
+      "_label": "1545 inward: Coddes heds the barrell 20d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "20",
+        "lsd": "20d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/barrel",
+          "type": "MeasurementUnit",
+          "_label": "barrel"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 200 (transcribed by Stuart Jenks): 'Coddes heds the barrell' 20d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "heds",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cod#rate-1558-inward-246",
+      "type": "Rate",
+      "_label": "1558 inward: Coddes hedes the laste cont’ 12 barrelles 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/last",
+          "type": "MeasurementUnit",
+          "_label": "last"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 246 (transcribed by Stuart Jenks): 'Coddes hedes the laste cont’ 12 barrelles' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "hedes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cod#rate-1558-inward-247",
+      "type": "Rate",
+      "_label": "1558 inward: Coddes heddes the barrell 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "40",
+        "lsd": "3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/barrel",
+          "type": "MeasurementUnit",
+          "_label": "barrel"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 247 (transcribed by Stuart Jenks): 'Coddes heddes the barrell' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "heddes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cod#rate-1558-inward-248",
+      "type": "Rate",
+      "_label": "1558 inward: Codde fyshe the laste cont’ 4 C £6",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "1440",
+        "lsd": "£6"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/last",
+          "type": "MeasurementUnit",
+          "_label": "last"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 248 (transcribed by Stuart Jenks): 'Codde fyshe the laste cont’ 4 C' £6",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "fyshe",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/cod#rate-1558-inward-249",
       "type": "Rate",
       "_label": "1558 inward: Codde fyshe the hundreth cont’ syxe score 30s",
@@ -467,7 +667,60 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 249 (transcribed by Stuart Jenks): 'Codde fyshe the hundreth cont’ syxe score' 30s"
+      "sourceText": "Book of Rates 1558, inward, line 249 (transcribed by Stuart Jenks): 'Codde fyshe the hundreth cont’ syxe score' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "fyshe",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cod#rate-1558-inward-250",
+      "type": "Rate",
+      "_label": "1558 inward: Codd fyshe the barrell 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/barrel",
+          "type": "MeasurementUnit",
+          "_label": "barrel"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 250 (transcribed by Stuart Jenks): 'Codd fyshe the barrell' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "fyshe",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

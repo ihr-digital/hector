@@ -281,7 +281,31 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 259 (transcribed by Stuart Jenks): 'Currall whyte or redd the maste cont’ 2½ lb' 20s"
+      "sourceText": "Book of Rates 1558, inward, line 259 (transcribed by Stuart Jenks): 'Currall whyte or redd the maste cont’ 2½ lb' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "white",
+          "equivalent": [
+            {
+              "id": "aat:300129784",
+              "type": "Type",
+              "_label": "white (color)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "red",
+          "equivalent": [
+            {
+              "id": "aat:300126225",
+              "type": "Type",
+              "_label": "red (color)"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

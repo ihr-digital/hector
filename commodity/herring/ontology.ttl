@@ -2,6 +2,7 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix hector: <https://w3id.org/hector/ontology#> .
+@prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -185,9 +186,19 @@
     skos:exactMatch <https://w3id.org/mlca/glossary/herring> ;
     skos:related <https://w3id.org/hector/commodity/matys> ;
     hector:attestationCount 3805 ;
-    hector:taxation <https://w3id.org/hector/commodity/herring#rate-1545-inward-622>,
+    hector:taxation <https://w3id.org/hector/commodity/herring#rate-1507-none-126>,
+        <https://w3id.org/hector/commodity/herring#rate-1507-none-127>,
+        <https://w3id.org/hector/commodity/herring#rate-1545-inward-373>,
+        <https://w3id.org/hector/commodity/herring#rate-1545-inward-374>,
+        <https://w3id.org/hector/commodity/herring#rate-1545-inward-375>,
+        <https://w3id.org/hector/commodity/herring#rate-1545-inward-376>,
+        <https://w3id.org/hector/commodity/herring#rate-1545-inward-622>,
         <https://w3id.org/hector/commodity/herring#rate-1545-inward-623>,
-        <https://w3id.org/hector/commodity/herring#rate-1545-inward-624> .
+        <https://w3id.org/hector/commodity/herring#rate-1545-inward-624>,
+        <https://w3id.org/hector/commodity/herring#rate-1558-inward-560>,
+        <https://w3id.org/hector/commodity/herring#rate-1558-inward-561>,
+        <https://w3id.org/hector/commodity/herring#rate-1558-inward-562>,
+        <https://w3id.org/hector/commodity/herring#rate-1558-inward-563> .
 
 aat:300389825 a crm:E55_Type ;
     rdfs:label "fish (meat)" .
@@ -197,6 +208,99 @@ aat:300404670 a crm:E55_Type ;
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
+
+<https://w3id.org/hector/commodity/herring#rate-1507-none-126> a hector:Rate ;
+    rdfs:label "1507: Herynge fulle the laste £4" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£4" ;
+            hector:valueInPence 960.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "fulle" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 126 (transcribed by Stuart Jenks): 'Herynge fulle the laste' £4" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/herring#rate-1507-none-127> a hector:Rate ;
+    rdfs:label "1507: Herynge shotton the laste 40s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "40s" ;
+            hector:valueInPence 480.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "shotten" ] ;
+    hector:sourceText "Book of Rates 1507, line 127 (transcribed by Stuart Jenks): 'Herynge shotton the laste' 40s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/herring#rate-1545-inward-373> a hector:Rate ;
+    rdfs:label "1545 inward: Heryng full the laste £4" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£4" ;
+            hector:valueInPence 960.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "full" ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 373 (transcribed by Stuart Jenks): 'Heryng full the laste' £4" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/herring#rate-1545-inward-374> a hector:Rate ;
+    rdfs:label "1545 inward: Heryng shotten the last 40s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "40s" ;
+            hector:valueInPence 480.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "shotten" ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 374 (transcribed by Stuart Jenks): 'Heryng shotten the last' 40s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/herring#rate-1545-inward-375> a hector:Rate ;
+    rdfs:label "1545 inward: Herynge redde the laste conteynynge 20,000 [b.v] heryng or 20 cades £4" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£4" ;
+            hector:valueInPence 960.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "red" ;
+            la:equivalent aat:300126225 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 375 (transcribed by Stuart Jenks): 'Herynge redde the laste conteynynge 20,000 [b.v] heryng or 20 cades' £4" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/herring#rate-1545-inward-376> a hector:Rate ;
+    rdfs:label "1545 inward: Heryng redde the 1000 4s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4s" ;
+            hector:valueInPence 48.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1000 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/thousand> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "red" ;
+            la:equivalent aat:300126225 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 376 (transcribed by Stuart Jenks): 'Heryng redde the 1000' 4s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/herring#rate-1545-inward-622> a hector:Rate ;
     rdfs:label "1545 inward: Redde herynge the cade 4s" ;
@@ -237,20 +341,85 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/herring#rate-1558-inward-560> a hector:Rate ;
+    rdfs:label "1558 inward: Heringe full the laste cont’ 12 barrelles £6" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£6" ;
+            hector:valueInPence 1440.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "full" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 560 (transcribed by Stuart Jenks): 'Heringe full the laste cont’ 12 barrelles' £6" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/herring#rate-1558-inward-561> a hector:Rate ;
+    rdfs:label "1558 inward: Heringe shotten the laste cont’ 12 barrelles £3" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£3" ;
+            hector:valueInPence 720.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "shotten" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 561 (transcribed by Stuart Jenks): 'Heringe shotten the laste cont’ 12 barrelles' £3" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/herring#rate-1558-inward-562> a hector:Rate ;
+    rdfs:label "1558 inward: Heringe redde the last cont’ 20 cade or 20 thowsand heringe £8" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£8" ;
+            hector:valueInPence 1920.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "red" ;
+            la:equivalent aat:300126225 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 562 (transcribed by Stuart Jenks): 'Heringe redde the last cont’ 20 cade or 20 thowsand heringe' £8" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/herring#rate-1558-inward-563> a hector:Rate ;
+    rdfs:label "1558 inward: Heringe redde the cade or thowsand 8s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "8s" ;
+            hector:valueInPence 96.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/cade> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "red" ;
+            la:equivalent aat:300126225 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 563 (transcribed by Stuart Jenks): 'Heringe redde the cade or thowsand' 8s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/matys> a crm:E55_Type ;
     rdfs:label "matys" .
+
+<https://w3id.org/mlca/glossary/herring> a crm:E55_Type ;
+    rdfs:label "herring (London Customs Accounts glossary)" .
 
 <https://w3id.org/hector/unit/cade> a crm:E58_Measurement_Unit ;
     rdfs:label "cade" .
 
-<https://w3id.org/hector/unit/last> a crm:E58_Measurement_Unit ;
-    rdfs:label "last" .
-
 <https://w3id.org/hector/unit/thousand> a crm:E58_Measurement_Unit ;
     rdfs:label "thousand" .
 
-<https://w3id.org/mlca/glossary/herring> a crm:E55_Type ;
-    rdfs:label "herring (London Customs Accounts glossary)" .
+aat:300126225 a crm:E55_Type ;
+    rdfs:label "red (color)" .
+
+<https://w3id.org/hector/unit/last> a crm:E58_Measurement_Unit ;
+    rdfs:label "last" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

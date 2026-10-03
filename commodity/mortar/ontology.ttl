@@ -47,6 +47,9 @@
     hector:attestationCount 16 ;
     hector:taxation <https://w3id.org/hector/commodity/mortar#rate-1558-inward-716> .
 
+aat:300010946 a crm:E55_Type ;
+    rdfs:label "brass (alloy)" .
+
 aat:300024724 a crm:E55_Type ;
     rdfs:label "mortars (grinding tools)" .
 
@@ -68,6 +71,12 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 12 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "pestells" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "brass" ;
+            la:equivalent aat:300010946 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 716 (transcribed by Stuart Jenks): 'Morters and pestells of brasse the dosen' 20s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .

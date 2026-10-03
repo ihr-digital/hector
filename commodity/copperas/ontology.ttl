@@ -2,6 +2,7 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix hector: <https://w3id.org/hector/ontology#> .
+@prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -173,6 +174,7 @@
         <https://w3id.org/hector/commodity/copperas#rate-1545-inward-147>,
         <https://w3id.org/hector/commodity/copperas#rate-1545-inward-148>,
         <https://w3id.org/hector/commodity/copperas#rate-1558-inward-226>,
+        <https://w3id.org/hector/commodity/copperas#rate-1558-inward-227>,
         <https://w3id.org/hector/commodity/copperas#rate-1558-inward-228> .
 
 aat:300053049 a crm:E55_Type ;
@@ -180,6 +182,9 @@ aat:300053049 a crm:E55_Type ;
 
 aat:300053944 a crm:E55_Type ;
     rdfs:label "tanning (hide processing)" .
+
+aat:300129784 a crm:E55_Type ;
+    rdfs:label "white (color)" .
 
 aat:300389811 a crm:E55_Type ;
     rdfs:label "chemicals (materials)" .
@@ -245,6 +250,22 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/copperas#rate-1558-inward-227> a hector:Rate ;
+    rdfs:label "1558 inward: Copperas greane the C lb. cont’ 112 lb 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "greane" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 227 (transcribed by Stuart Jenks): 'Copperas greane the C lb. cont’ 112 lb' 10s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/copperas#rate-1558-inward-228> a hector:Rate ;
     rdfs:label "1558 inward: Copperas whyte the pounde 4d" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -254,6 +275,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "white" ;
+            la:equivalent aat:300129784 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 228 (transcribed by Stuart Jenks): 'Copperas whyte the pounde' 4d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -264,11 +288,11 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/mlca/glossary/copperas> a crm:E55_Type ;
     rdfs:label "copperas (London Customs Accounts glossary)" .
 
-<https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
-    rdfs:label "hundred" .
-
 <https://w3id.org/hector/unit/pipe> a crm:E58_Measurement_Unit ;
     rdfs:label "pipe" .
+
+<https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
+    rdfs:label "hundred" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

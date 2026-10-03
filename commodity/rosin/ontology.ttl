@@ -123,7 +123,8 @@
     skos:exactMatch <https://w3id.org/mlca/glossary/rosin> ;
     la:equivalent aat:300012950 ;
     hector:attestationCount 445 ;
-    hector:taxation <https://w3id.org/hector/commodity/rosin#rate-1507-none-238>,
+    hector:taxation <https://w3id.org/hector/commodity/rosin#rate-1507-none-237>,
+        <https://w3id.org/hector/commodity/rosin#rate-1507-none-238>,
         <https://w3id.org/hector/commodity/rosin#rate-1545-inward-615>,
         <https://w3id.org/hector/commodity/rosin#rate-1545-inward-616>,
         <https://w3id.org/hector/commodity/rosin#rate-1558-inward-899> .
@@ -136,6 +137,22 @@ aat:300404670 a crm:E55_Type ;
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
+
+<https://w3id.org/hector/commodity/rosin#rate-1507-none-237> a hector:Rate ;
+    rdfs:label "1507: Rossen called poy rossyn idem este quasi quod frankynsence the C wyght 3s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "3s 4d" ;
+            hector:valueInPence 40.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "poy rossyn idem este quasi quod frankynsence" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 237 (transcribed by Stuart Jenks): 'Rossen called poy rossyn idem este quasi quod frankynsence the C wyght' 3s 4d" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/rosin#rate-1507-none-238> a hector:Rate ;
     rdfs:label "1507: Rossyn the C wyght 20d" ;
@@ -192,11 +209,11 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/mlca/glossary/rosin> a crm:E55_Type ;
     rdfs:label "rosin (London Customs Accounts glossary)" .
 
-<https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
-    rdfs:label "hundred" .
-
 <https://w3id.org/hector/unit/pecia> a crm:E58_Measurement_Unit ;
     rdfs:label "pecia" .
+
+<https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
+    rdfs:label "hundred" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

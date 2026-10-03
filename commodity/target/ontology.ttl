@@ -11,30 +11,11 @@
     rdfs:label "target" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "tergates" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "tergatəs" ;
-            hector:validFrom "1513"^^xsd:gYear ;
-            hector:validThrough "1514"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "tergate" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "tergatə" ;
-            hector:validFrom "1513"^^xsd:gYear ;
-            hector:validThrough "1514"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "targattes" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "targatəs" ;
             hector:validFrom "1550"^^xsd:gYear ;
             hector:validThrough "1553"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "target" ;
-            crm:P2_has_type aat:300404670,
-                hector:AttestedVariant ;
-            hector:phoneticKey "tardʒet" ;
-            hector:validFrom "1536"^^xsd:gYear ;
-            hector:validThrough "1540"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "targade" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -47,6 +28,13 @@
             hector:phoneticKey "targadəs" ;
             hector:validFrom "1513"^^xsd:gYear ;
             hector:validThrough "1514"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "target" ;
+            crm:P2_has_type aat:300404670,
+                hector:AttestedVariant ;
+            hector:phoneticKey "tardʒet" ;
+            hector:validFrom "1536"^^xsd:gYear ;
+            hector:validThrough "1540"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "targette" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -66,11 +54,23 @@
             hector:validFrom "1545"^^xsd:gYear ;
             hector:validThrough "1547"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "tergate" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "tergatə" ;
+            hector:validFrom "1513"^^xsd:gYear ;
+            hector:validThrough "1514"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "targatte" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "targatə" ;
             hector:validFrom "1550"^^xsd:gYear ;
             hector:validThrough "1553"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "tergates" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "tergatəs" ;
+            hector:validFrom "1513"^^xsd:gYear ;
+            hector:validThrough "1514"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "targetes" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -84,7 +84,9 @@
     skos:related <https://w3id.org/hector/commodity/buckler>,
         <https://w3id.org/hector/commodity/shield> ;
     la:equivalent aat:300036879 ;
-    hector:attestationCount 6 .
+    hector:attestationCount 6 ;
+    hector:taxation <https://w3id.org/hector/commodity/target#rate-1558-inward-1113>,
+        <https://w3id.org/hector/commodity/target#rate-1558-inward-1114> .
 
 aat:300036879 a crm:E55_Type ;
     rdfs:label "targets (shields)" .
@@ -101,8 +103,44 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/hector/commodity/shield> a crm:E55_Type ;
     rdfs:label "shield" .
 
+<https://w3id.org/hector/commodity/target#rate-1558-inward-1113> a hector:Rate ;
+    rdfs:label "1558 inward: Targettes course the pece 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "coarse" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 1113 (transcribed by Stuart Jenks): 'Targettes course the pece' 6s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/target#rate-1558-inward-1114> a hector:Rate ;
+    rdfs:label "1558 inward: Targettes fyne the pece 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "fine" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 1114 (transcribed by Stuart Jenks): 'Targettes fyne the pece' 20s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/mlca/glossary/target> a crm:E55_Type ;
     rdfs:label "target (London Customs Accounts glossary)" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
+<https://w3id.org/hector/unit/pecia> a crm:E58_Measurement_Unit ;
+    rdfs:label "pecia" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

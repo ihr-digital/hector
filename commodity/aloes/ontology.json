@@ -320,7 +320,20 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 32 (transcribed by Stuart Jenks): 'Aloes cicotrini the 100 lb.' 33s 4d"
+      "sourceText": "Book of Rates 1545, inward, line 32 (transcribed by Stuart Jenks): 'Aloes cicotrini the 100 lb.' 33s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "cicotrini",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/aloes#rate-1545-inward-33",
@@ -347,7 +360,20 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 33 (transcribed by Stuart Jenks): 'Aloes cicotrini the pounde' 4d"
+      "sourceText": "Book of Rates 1545, inward, line 33 (transcribed by Stuart Jenks): 'Aloes cicotrini the pounde' 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "cicotrini",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

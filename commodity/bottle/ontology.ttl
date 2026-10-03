@@ -11,18 +11,6 @@
     rdfs:label "bottle" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "bottelles" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "boteləs" ;
-            hector:validFrom "1505"^^xsd:gYear ;
-            hector:validThrough "1506"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "bottell" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "botel" ;
-            hector:validFrom "1519"^^xsd:gYear ;
-            hector:validThrough "1520"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "botelles" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "boteləs" ;
@@ -41,30 +29,17 @@
             hector:validFrom "1519"^^xsd:gYear ;
             hector:validThrough "1520"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "bottelle" ;
+            crm:P190_has_symbolic_content "bottelles" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "botelə" ;
+            hector:phoneticKey "boteləs" ;
             hector:validFrom "1505"^^xsd:gYear ;
             hector:validThrough "1506"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "bottels" ;
+            crm:P190_has_symbolic_content "botteles" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "botels" ;
-            hector:validFrom "1548"^^xsd:gYear ;
-            hector:validThrough "1550"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "bottle" ;
-            crm:P2_has_type aat:300404670,
-                hector:AttestedVariant ;
-            hector:phoneticKey "botlə" ;
-            hector:validFrom "1548"^^xsd:gYear ;
-            hector:validThrough "1550"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "bottele" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "botelə" ;
-            hector:validFrom "1531"^^xsd:gYear ;
-            hector:validThrough "1533"^^xsd:gYear ],
+            hector:phoneticKey "boteləs" ;
+            hector:validFrom "1519"^^xsd:gYear ;
+            hector:validThrough "1520"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "botellorum" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -75,12 +50,6 @@
             hector:phoneticKey "botela" ;
             hector:validFrom "1400"^^xsd:gYear ;
             hector:validThrough "1421"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "bottles" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "botləs" ;
-            hector:validFrom "1548"^^xsd:gYear ;
-            hector:validThrough "1550"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "botellus corii" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -100,11 +69,11 @@
             hector:validFrom "1519"^^xsd:gYear ;
             hector:validThrough "1520"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "bottellez" ;
+            crm:P190_has_symbolic_content "bottell" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "botelez" ;
-            hector:validFrom "1493"^^xsd:gYear ;
-            hector:validThrough "1495"^^xsd:gYear ],
+            hector:phoneticKey "botel" ;
+            hector:validFrom "1519"^^xsd:gYear ;
+            hector:validThrough "1520"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "botelle" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -123,6 +92,31 @@
             hector:phoneticKey "botel" ;
             hector:validFrom "1519"^^xsd:gYear ;
             hector:validThrough "1520"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "bottellez" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "botelez" ;
+            hector:validFrom "1493"^^xsd:gYear ;
+            hector:validThrough "1495"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "bottle" ;
+            crm:P2_has_type aat:300404670,
+                hector:AttestedVariant ;
+            hector:phoneticKey "botlə" ;
+            hector:validFrom "1548"^^xsd:gYear ;
+            hector:validThrough "1550"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "bottelle" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "botelə" ;
+            hector:validFrom "1505"^^xsd:gYear ;
+            hector:validThrough "1506"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "bottles" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "botləs" ;
+            hector:validFrom "1548"^^xsd:gYear ;
+            hector:validThrough "1550"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "botels" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -148,6 +142,12 @@
             hector:validFrom "1400"^^xsd:gYear ;
             hector:validThrough "1421"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "bottele" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "botelə" ;
+            hector:validFrom "1531"^^xsd:gYear ;
+            hector:validThrough "1533"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "botelli" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "boteli" ;
@@ -160,17 +160,17 @@
             hector:validFrom "1439"^^xsd:gYear ;
             hector:validThrough "1440"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "bottels" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "botels" ;
+            hector:validFrom "1548"^^xsd:gYear ;
+            hector:validThrough "1550"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "botellus" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "botelus" ;
             hector:validFrom "1390"^^xsd:gYear ;
-            hector:validThrough "1390"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "botteles" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "boteləs" ;
-            hector:validFrom "1519"^^xsd:gYear ;
-            hector:validThrough "1520"^^xsd:gYear ] ;
+            hector:validThrough "1390"^^xsd:gYear ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "Vessels having a neck and mouth considerably narrower than the body, used for packaging and containing liquid and dry preparations. For vessels having wider necks and mouths, use \"jars.\" [Source: Getty AAT]" ;
             crm:P2_has_type aat:300435416 ] ;
@@ -178,7 +178,14 @@
     skos:related <https://w3id.org/hector/commodity/wicker-bottle> ;
     la:equivalent aat:300045627 ;
     hector:attestationCount 241 ;
-    hector:taxation <https://w3id.org/hector/commodity/bottle#rate-1558-inward-98> .
+    hector:taxation <https://w3id.org/hector/commodity/bottle#rate-1545-inward-117>,
+        <https://w3id.org/hector/commodity/bottle#rate-1558-inward-142>,
+        <https://w3id.org/hector/commodity/bottle#rate-1558-inward-143>,
+        <https://w3id.org/hector/commodity/bottle#rate-1558-inward-169>,
+        <https://w3id.org/hector/commodity/bottle#rate-1558-inward-98> .
+
+aat:300011845 a crm:E55_Type ;
+    rdfs:label "leather" .
 
 aat:300045627 a crm:E55_Type ;
     rdfs:label "bottles" .
@@ -186,11 +193,84 @@ aat:300045627 a crm:E55_Type ;
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
 
-aat:300411998 a crm:E98_Currency ;
-    rdfs:label "pound sterling (system of money)" .
-
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
+
+<https://w3id.org/hector/commodity/bottle#rate-1545-inward-117> a hector:Rate ;
+    rdfs:label "1545 inward: Bottels of wyckers the dossen 16d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "16d" ;
+            hector:valueInPence 16.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "wyckers" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 117 (transcribed by Stuart Jenks): 'Bottels of wyckers the dossen' 16d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/bottle#rate-1558-inward-142> a hector:Rate ;
+    rdfs:label "1558 inward: Bottelles of glasse uncovered the dosen 18d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "18d" ;
+            hector:valueInPence 18.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "glass" ;
+            la:equivalent aat:300010797 ],
+        [ a crm:E55_Type ;
+            rdfs:label "uncovered" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 142 (transcribed by Stuart Jenks): 'Bottelles of glasse uncovered the dosen' 18d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/bottle#rate-1558-inward-143> a hector:Rate ;
+    rdfs:label "1558 inward: Bottelles of glasse the dosen covered 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "covered" ],
+        [ a crm:E55_Type ;
+            rdfs:label "glass" ;
+            la:equivalent aat:300010797 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 143 (transcribed by Stuart Jenks): 'Bottelles of glasse the dosen covered' 20s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/bottle#rate-1558-inward-169> a hector:Rate ;
+    rdfs:label "1558 inward: Botles of glasse with vices, covered with leather þe dosen 30s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "30s" ;
+            hector:valueInPence 360.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "covered" ],
+        [ a crm:E55_Type ;
+            rdfs:label "vices" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "glass" ;
+            la:equivalent aat:300010797 ],
+        [ a crm:E55_Type ;
+            rdfs:label "leather" ;
+            la:equivalent aat:300011845 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 169 (transcribed by Stuart Jenks): 'Botles of glasse with vices, covered with leather þe dosen' 30s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/bottle#rate-1558-inward-98> a hector:Rate ;
     rdfs:label "1558 inward: Bottelles the dosen 20d" ;
@@ -208,11 +288,17 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/hector/commodity/wicker-bottle> a crm:E55_Type ;
     rdfs:label "wicker bottle" .
 
-<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
-    rdfs:label "dozen" .
-
 <https://w3id.org/mlca/glossary/bottle> a crm:E55_Type ;
     rdfs:label "bottle (London Customs Accounts glossary)" .
+
+aat:300010797 a crm:E55_Type ;
+    rdfs:label "glass (material)" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
+<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
+    rdfs:label "dozen" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

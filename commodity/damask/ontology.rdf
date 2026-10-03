@@ -8,111 +8,33 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_damask_cb11dd069a9755def3778efc57e8e8e063a1075b8a1d89c3f6905a70d62425779bc">
-    <crm:P190_has_symbolic_content>damaski</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>damaski</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/damask#rate-1558-inward-350">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Damask towellyng the pece 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_damask_cb38414c4adff9245cb5612677e745ba3dc59904a411c3477e0b66e8c657ed42a1e"/>
+    <hector:perQuantity rdf:nodeID="commodity_damask_cb1ba2cfcff0e9079261631c915ba797aba82efed5a9f07fbd5bd03a9b956ef118b"/>
+    <hector:qualifier rdf:nodeID="commodity_damask_cb27afd2804e4e1879a0510486e790d4fa173250d9bec89ffc033e15658c7ff2e24"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 350 (transcribed by Stuart Jenks): 'Damask towellyng the pece' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_damask_cb260331ef6586738901c4588f450ee27b6b7b0ac3eaf74d5abf41f9b6522461aad">
-    <crm:P190_has_symbolic_content>tabellyng damaske</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tabeliŋ damaskə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/damask#rate-1558-inward-347">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Damask and Caffa damaske the yeard 8s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_damask_cb2d3a7ac90e40a1715039f3ee3b548f55bffb95461b212d6f8e8f4cf1daeefc91e"/>
+    <hector:perQuantity rdf:nodeID="commodity_damask_cb1feb87090720e4f805ee0da742fea01b6ddceefd4a85cc6c4a45ebc7bc59317c2"/>
+    <hector:qualifier rdf:nodeID="commodity_damask_cb2a1d966ca60cd94124edfa3e2b95f5a6290f62d1127845a7e04918ac76908bd1e"/>
+    <hector:qualifier rdf:nodeID="commodity_damask_cb3597e01a0f92ba1a317df4a7737cfc352d35a216ba981dc9a02874c73edcafcab"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 347 (transcribed by Stuart Jenks): 'Damask and Caffa damaske the yeard' 8s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_damask_cb195c372cbf1326a56ad7608a3a3f808dc255b0184f4b983a9d6e5fd1975723e5d">
-    <crm:P190_has_symbolic_content>damasc</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_damask_cb1b671c35488ccc5921d139c6c37b73f5d4a7d88d88c94b9e2651579237587690d">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>damask</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/damask">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb10041a47b98dc3c39dedd980e9134944a81bff3d2dd35c389ad0e294fa8a2b628"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb1125b9dcac1e87f891fbae5b601905a809a6e3ecb67689bca7664a9115fb97004"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb11dd069a9755def3778efc57e8e8e063a1075b8a1d89c3f6905a70d62425779bc"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb1218d0e91b091976b05a9aef4ff9e468712c1e34146c04fe010ba89bc1d300626"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb195c372cbf1326a56ad7608a3a3f808dc255b0184f4b983a9d6e5fd1975723e5d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb1b1e38e1c9817c00c1e7cc3a6028210768339d11faaa4c20cf5fdc7ca5a8374a7"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb1b6a8669f7012186f3b177a548646cec743a0d00314ee8c2ba1478eaa2d92eed9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb1d3fd0022a67ea627a1adccc00ae6f95bf12ca7a46c432722982f42802864111e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb1d4eb3f1e28a9275c04ec2242598daff8c7db618ed33f5275f8a861e6ad9fdfcc"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb1fdd8982e0655cc9d515a567b55ee41809f598f8d828f5a277954d4f44db27400"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb217b24911714c162d7165ac0276407a0c62dd3be8366e4ccf9dbe6e0c81de7e2a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb22221e9580f5966992fd92bef8ea638451d70a1b50583c6c217ca2e31bf7b66d1"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb2408cc862e920bfa2d121b5452c987bcac8909775aef12cbb72615698fdf72cc2"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb24c1243a9399905cbf9deedc195ca318aea851f3852ea62ce27579bbe8689ae47"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb260331ef6586738901c4588f450ee27b6b7b0ac3eaf74d5abf41f9b6522461aad"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cbf69774d676eb8c000b2a9b3d912ef10806b951eab0c5fa23e5a93c0bec0ae87f"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_damask_cb1a15685360a5936bf0bd0dbae0ac78040f30ee6e1796d7a13ec10516a4f909be"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>damask</rdfs:label>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/damask"/>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300163295"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">501</hector:attestationCount>
-    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/damask#rate-1545-inward-239"/>
+    <rdfs:label>colowres</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_damask_cb10041a47b98dc3c39dedd980e9134944a81bff3d2dd35c389ad0e294fa8a2b628">
-    <crm:P190_has_symbolic_content>towelyng damask</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tuːeliŋ damask</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_damask_cb1125b9dcac1e87f891fbae5b601905a809a6e3ecb67689bca7664a9115fb97004">
-    <crm:P190_has_symbolic_content>damasce</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>damasə</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_damask_cb1b1e38e1c9817c00c1e7cc3a6028210768339d11faaa4c20cf5fdc7ca5a8374a7">
-    <crm:P190_has_symbolic_content>damske</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>damskə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_damask_cbf69774d676eb8c000b2a9b3d912ef10806b951eab0c5fa23e5a93c0bec0ae87f">
-    <crm:P190_has_symbolic_content>towelyng work</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tuːeliŋ work</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_damask_cb22221e9580f5966992fd92bef8ea638451d70a1b50583c6c217ca2e31bf7b66d1">
-    <crm:P190_has_symbolic_content>damasks</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>damasks</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_damask_cb24c1243a9399905cbf9deedc195ca318aea851f3852ea62ce27579bbe8689ae47">
-    <crm:P190_has_symbolic_content>damasci</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>damasi</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_damask_cb1b6a8669f7012186f3b177a548646cec743a0d00314ee8c2ba1478eaa2d92eed9">
+  <rdf:Description rdf:nodeID="commodity_damask_cb1d5b99ba1433bcea81cb51d632277bfefe3df7ca5b8f450edde87f32b50ea3062">
     <crm:P190_has_symbolic_content>damascus</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -120,42 +42,200 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_damask_cb8fe8e2ab4f62405c432deca387ccf447bd87ca4f856bda48339d1e40eee12923">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/damask">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb1316cd2cc951235c2015888c49dc14ba93aaceb6e0b6e608cb3a50d928310b18d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb13ce19eab4887a5705a8d688d2abef762b0b465447ca2042b42e771e365aebb45"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb1409e439383bb4da3e74752039bcf37afb3008fe3eac614a24dfaee3d408747af"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb1b4d4a7cdc45c208f8f13abb24028fa04c599ae2798bf486c1426619a98c97fe6"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb1d0f4c31e6b417645001a66b49eb3019f23787dc24eaa86cf333e2c4b7ddab630"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb1d5b99ba1433bcea81cb51d632277bfefe3df7ca5b8f450edde87f32b50ea3062"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb1f3fc741ffbd2dd94e689c550f5bea121681a0e317745173835e8c667d0f72155"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb1fa395bad35573b1e974aef2f7b456fd24896caa3071b2ede790a0008f1e99462"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb21ce9cd2fd97f82d632f7f989f21f32a93f983c3026951ee9b69539757109b589"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb23305beb72f304b6f24b5dd3f30cf57af7114b9df87115dcd400015180bfe0b78"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb236c37e134475cc6653034f1112716b35031be88ada741191dafed28da535bfb3"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb241331e59e2831cd21176cefe2ad7296dbdaf4e57a9898b84550a92b2e2d2a85a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb25f9dfd64bc4a75dbb2bf5853c8c96cf368cf441852f6f17dafa1bb1a214e6e4b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb268d57babea852e726187b5510c511c69d7d4d78eeaec3e005313e2a2cafd9298"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb26b2378ab0cc2bc04db7c90d031fb22b38ac3cbdaf6f027906498003fa9e0efd0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_damask_cb27f4453f82b90eec8fde32c02ed1f18df57ef58e1537a9a6e315fffe6459d5c36"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_damask_cb1178d6f1fdbb287d778b5341846e6f9ab513fe6298bc1b3436b4a2eaa91e617d6"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>damask</rdfs:label>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/damask"/>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300163295"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">501</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/damask#rate-1507-none-71"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/damask#rate-1545-inward-234"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/damask#rate-1545-inward-236"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/damask#rate-1545-inward-239"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/damask#rate-1545-inward-240"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/damask#rate-1558-inward-347"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/damask#rate-1558-inward-348"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/damask#rate-1558-inward-349"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/damask#rate-1558-inward-350"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/damask#rate-1558-inward-351"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/damask#rate-1558-inward-352"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/damask#rate-1558-inward-353"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb2d3a7ac90e40a1715039f3ee3b548f55bffb95461b212d6f8e8f4cf1daeefc91e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>8s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb268d57babea852e726187b5510c511c69d7d4d78eeaec3e005313e2a2cafd9298">
+    <crm:P190_has_symbolic_content>towelyng work</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tuːeliŋ work</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb1dd326bce0b68fc4895caeb6d613d0273b530ef804fb5b8f3654e9a29f236ab58">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>worked</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb2397794b7b1bd797b5fc47fc9105337ea1c39596c398bc2f8f809b44698d7a9e8">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
     <hector:lsd>4s</hector:lsd>
     <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_damask_cb2408cc862e920bfa2d121b5452c987bcac8909775aef12cbb72615698fdf72cc2">
-    <crm:P190_has_symbolic_content>damast</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>damast</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_damask_cb38414c4adff9245cb5612677e745ba3dc59904a411c3477e0b66e8c657ed42a1e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_damask_cb1d4eb3f1e28a9275c04ec2242598daff8c7db618ed33f5275f8a861e6ad9fdfcc">
-    <crm:P190_has_symbolic_content>damaske</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>damaskə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_damask_cb1c5e9681b22fda136c91383b1bfa4e681073dfbac5f43d31f2aecd975320a0fa4">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+  <rdf:Description rdf:nodeID="commodity_damask_cb13fdcc0c60e21b9e43d1e76eac3f444f77f5ba1c368fc87df7c6c9ff594e142f4">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
+    <rdfs:label>purpele</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/damask#rate-1545-inward-239">
+  <rdf:Description rdf:nodeID="commodity_damask_cb3aa88cdd3b95c1d576662c4e072645d77a4446f225d4bdec56172498f902f301e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/damask#rate-1558-inward-352">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Damaske the yarde 4s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_damask_cb8fe8e2ab4f62405c432deca387ccf447bd87ca4f856bda48339d1e40eee12923"/>
-    <hector:perQuantity rdf:nodeID="commodity_damask_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 239 (transcribed by Stuart Jenks): 'Damaske the yarde' 4s</hector:sourceText>
+    <rdfs:label>1558 inward: Damaske table clothe the yearde 3s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_damask_cb27e0022a87be271beeea11c5dd5611959c34aeb14e41d7d42fd92e20d934685ea"/>
+    <hector:perQuantity rdf:nodeID="commodity_damask_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_damask_cb1ab7d726f472cf6a135b33db5c2690d142c5a8541bb0e2fef9f34aef6fc3157a4"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 352 (transcribed by Stuart Jenks): 'Damaske table clothe the yearde' 3s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb21a6c6b83ffc88a6c7db85ddb5e5327ac03763189697c21c0d0c797257e5cefeb">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/damask#rate-1545-inward-240">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Damaske crymsyn or purpele the yard 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_damask_cb2b600887f7b274f57e86f66fa2ca68f17b2faa0fa59d59648d97bc222683c1ffd"/>
+    <hector:perQuantity rdf:nodeID="commodity_damask_cb28d44a40eb8b905d91655a34556813ca06b4c41fbcac1be3ee836d01d0b790a4b"/>
+    <hector:qualifier rdf:nodeID="commodity_damask_cb10287ce59de471ef56f0838f042e9dc38011aad422750fc8a463208b8fe70f4cd"/>
+    <hector:qualifier rdf:nodeID="commodity_damask_cb13fdcc0c60e21b9e43d1e76eac3f444f77f5ba1c368fc87df7c6c9ff594e142f4"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 240 (transcribed by Stuart Jenks): 'Damaske crymsyn or purpele the yard' 6s 8d</hector:sourceText>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_damask_cb217b24911714c162d7165ac0276407a0c62dd3be8366e4ccf9dbe6e0c81de7e2a">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300130257">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>purple (color)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb242807da5e830ec84592608ce871fc42add9169e435878607473e0db86cf9af77">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cbfdf8fe8a8fa30fd7fc172972568498ebe2381596cdaefa4d73ce8345ef6ea26d">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>lether tawed</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb1fa395bad35573b1e974aef2f7b456fd24896caa3071b2ede790a0008f1e99462">
+    <crm:P190_has_symbolic_content>towelyng damask</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tuːeliŋ damask</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/damask#rate-1558-inward-353">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Damaske lether tawed the dossen 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_damask_cb2fa4d8aadaeb2964caea9c860acc68102e34f9534ccec8b96275b3405af38b68e"/>
+    <hector:perQuantity rdf:nodeID="commodity_damask_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_damask_cbfdf8fe8a8fa30fd7fc172972568498ebe2381596cdaefa4d73ce8345ef6ea26d"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 353 (transcribed by Stuart Jenks): 'Damaske lether tawed the dossen' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb1feb87090720e4f805ee0da742fea01b6ddceefd4a85cc6c4a45ebc7bc59317c2">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/damask#rate-1558-inward-348">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Damask and Caffa damaske crymson or purple the yearde 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_damask_cb3ab733b8120ad5ba62387e4c5f70dda7fd3b91390b4977aa184696e2d5967f731"/>
+    <hector:perQuantity rdf:nodeID="commodity_damask_cb27da31eed2f30409b236a949e74e1a512dca6251450f4f0ccf1953c3100013380"/>
+    <hector:qualifier rdf:nodeID="commodity_damask_cb1aeda6b31da9ac40e0474042d9894bcd9192a3704a995d13296787648ed3d94fc"/>
+    <hector:qualifier rdf:nodeID="commodity_damask_cb244c7332b9b5c90027752cbb46c528c50ec1b7c5c9485bc6716d0e93c9e406965"/>
+    <hector:qualifier rdf:nodeID="commodity_damask_cb26f129943de04238e43b3220936b141f0db22fcba94382d7a0f5208c83f70d001"/>
+    <hector:qualifier rdf:nodeID="commodity_damask_cb326b7341a7662311f0cb2c89db521aae11d86f1151635af960d47ca74c4330f8e"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 348 (transcribed by Stuart Jenks): 'Damask and Caffa damaske crymson or purple the yearde' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb224e1a2c0632b255979ddb59f64c5c718d93d937f3dc0f0b7fdb882a3aadcf284">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb1d0f4c31e6b417645001a66b49eb3019f23787dc24eaa86cf333e2c4b7ddab630">
+    <crm:P190_has_symbolic_content>damske</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>damskə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb21ce9cd2fd97f82d632f7f989f21f32a93f983c3026951ee9b69539757109b589">
+    <crm:P190_has_symbolic_content>damaskei</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>damaskei</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb1b4d4a7cdc45c208f8f13abb24028fa04c599ae2798bf486c1426619a98c97fe6">
+    <crm:P190_has_symbolic_content>damasc</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>damask</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb236c37e134475cc6653034f1112716b35031be88ada741191dafed28da535bfb3">
     <crm:P190_has_symbolic_content>damascens</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -163,20 +243,7 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300163295">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>damask</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_damask_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_damask_cb1d3fd0022a67ea627a1adccc00ae6f95bf12ca7a46c432722982f42802864111e">
+  <rdf:Description rdf:nodeID="commodity_damask_cb23305beb72f304b6f24b5dd3f30cf57af7114b9df87115dcd400015180bfe0b78">
     <crm:P190_has_symbolic_content>damask</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -185,19 +252,24 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_damask_cb1fdd8982e0655cc9d515a567b55ee41809f598f8d828f5a277954d4f44db27400">
-    <crm:P190_has_symbolic_content>damaskei</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pecia">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pecia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb28d44a40eb8b905d91655a34556813ca06b4c41fbcac1be3ee836d01d0b790a4b">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb25f9dfd64bc4a75dbb2bf5853c8c96cf368cf441852f6f17dafa1bb1a214e6e4b">
+    <crm:P190_has_symbolic_content>damast</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>damaskei</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+    <hector:phoneticKey>damast</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/damask">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>damask (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_damask_cb1218d0e91b091976b05a9aef4ff9e468712c1e34146c04fe010ba89bc1d300626">
+  <rdf:Description rdf:nodeID="commodity_damask_cb1409e439383bb4da3e74752039bcf37afb3008fe3eac614a24dfaee3d408747af">
     <crm:P190_has_symbolic_content>damaskes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -205,13 +277,283 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_damask_cb1a15685360a5936bf0bd0dbae0ac78040f30ee6e1796d7a13ec10516a4f909be">
-    <crm:P190_has_symbolic_content>Woven figured textile with one warp and one weft in which the pattern is formed by a contrast of binding systems, and appears on the face and the back in reverse positions. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/damask#rate-1558-inward-349">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Damask napkyns the dossen 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_damask_cb3f72f5930e15133f84933c248e8e690c83907d12bc02a4fc5712b9be0dc51631d"/>
+    <hector:perQuantity rdf:nodeID="commodity_damask_cb120637c33d4d95d40e97bd5daff6729587e57c374a5ccea5b5b076cb7149efa8f"/>
+    <hector:qualifier rdf:nodeID="commodity_damask_cb23f863f4edfdeb4144888aafda8a09d9d5dc91f9aeae780b0ca7bf432301a0a33"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 349 (transcribed by Stuart Jenks): 'Damask napkyns the dossen' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb1ba2cfcff0e9079261631c915ba797aba82efed5a9f07fbd5bd03a9b956ef118b">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb27f4453f82b90eec8fde32c02ed1f18df57ef58e1537a9a6e315fffe6459d5c36">
+    <crm:P190_has_symbolic_content>tabellyng damaske</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tabeliŋ damaskə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/damask#rate-1558-inward-351">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Damaske table clothe the pece cont’ 20 yerdes 66s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_damask_cb2b32000d4b01a565165265c85d2b4ead593bb39eda1b76ffaccbe71bae732b19f"/>
+    <hector:perQuantity rdf:nodeID="commodity_damask_cb21a6c6b83ffc88a6c7db85ddb5e5327ac03763189697c21c0d0c797257e5cefeb"/>
+    <hector:qualifier rdf:nodeID="commodity_damask_cb226cbb98d622d321eacf4e92cdb65132b01a8b1d21340e8864a9b61feca1329e1"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 351 (transcribed by Stuart Jenks): 'Damaske table clothe the pece cont’ 20 yerdes' 66s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb3f72f5930e15133f84933c248e8e690c83907d12bc02a4fc5712b9be0dc51631d">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/damask#rate-1545-inward-236">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Damask wark the pece 26s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_damask_cb2250d09b150fe67c6540df0f80bf6cdf3419f806285687ecbda7c6a54fe9aaf0f"/>
+    <hector:perQuantity rdf:nodeID="commodity_damask_cb224e1a2c0632b255979ddb59f64c5c718d93d937f3dc0f0b7fdb882a3aadcf284"/>
+    <hector:qualifier rdf:nodeID="commodity_damask_cb1dd326bce0b68fc4895caeb6d613d0273b530ef804fb5b8f3654e9a29f236ab58"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 236 (transcribed by Stuart Jenks): 'Damask wark the pece' 26s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb13ce19eab4887a5705a8d688d2abef762b0b465447ca2042b42e771e365aebb45">
+    <crm:P190_has_symbolic_content>damaski</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>damaski</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb241331e59e2831cd21176cefe2ad7296dbdaf4e57a9898b84550a92b2e2d2a85a">
+    <crm:P190_has_symbolic_content>damasks</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>damasks</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb27e0022a87be271beeea11c5dd5611959c34aeb14e41d7d42fd92e20d934685ea">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>3s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb23f863f4edfdeb4144888aafda8a09d9d5dc91f9aeae780b0ca7bf432301a0a33">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>napkyns</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb1ab7d726f472cf6a135b33db5c2690d142c5a8541bb0e2fef9f34aef6fc3157a4">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>table</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb326b7341a7662311f0cb2c89db521aae11d86f1151635af960d47ca74c4330f8e">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>damask</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300163295"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb27da31eed2f30409b236a949e74e1a512dca6251450f4f0ccf1953c3100013380">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb1f3fc741ffbd2dd94e689c550f5bea121681a0e317745173835e8c667d0f72155">
+    <crm:P190_has_symbolic_content>damaske</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>damaskə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb2fa4d8aadaeb2964caea9c860acc68102e34f9534ccec8b96275b3405af38b68e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb3ab733b8120ad5ba62387e4c5f70dda7fd3b91390b4977aa184696e2d5967f731">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb26b2378ab0cc2bc04db7c90d031fb22b38ac3cbdaf6f027906498003fa9e0efd0">
+    <crm:P190_has_symbolic_content>damasci</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>damasi</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/damask">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>damask (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/damask#rate-1507-none-71">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Damaske of all manare of colowres þe yarde on with another 4s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_damask_cb1c5e9681b22fda136c91383b1bfa4e681073dfbac5f43d31f2aecd975320a0fa4"/>
+    <hector:perQuantity rdf:nodeID="commodity_damask_cb22313879279b2808bdd0233155f0931b3c910a029089b06ed51e84470b04abf65"/>
+    <hector:qualifier rdf:nodeID="commodity_damask_cb1b671c35488ccc5921d139c6c37b73f5d4a7d88d88c94b9e2651579237587690d"/>
+    <hector:sourceText>Book of Rates 1507, line 71 (transcribed by Stuart Jenks): 'Damaske of all manare of colowres þe yarde on with another' 4s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb1aeda6b31da9ac40e0474042d9894bcd9192a3704a995d13296787648ed3d94fc">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>crimson</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300311345"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb2250d09b150fe67c6540df0f80bf6cdf3419f806285687ecbda7c6a54fe9aaf0f">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>26s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb120637c33d4d95d40e97bd5daff6729587e57c374a5ccea5b5b076cb7149efa8f">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb2b32000d4b01a565165265c85d2b4ead593bb39eda1b76ffaccbe71bae732b19f">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>66s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">800</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb26f129943de04238e43b3220936b141f0db22fcba94382d7a0f5208c83f70d001">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Caffa</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/damask#rate-1545-inward-234">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Damaske warke the pece 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_damask_cb3aa88cdd3b95c1d576662c4e072645d77a4446f225d4bdec56172498f902f301e"/>
+    <hector:perQuantity rdf:nodeID="commodity_damask_cb242807da5e830ec84592608ce871fc42add9169e435878607473e0db86cf9af77"/>
+    <hector:qualifier rdf:nodeID="commodity_damask_cb1428f250aed9c6b77ff92de9d93fc5597d72f5339dd5e1fa29124be9aa5a32d7f"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 234 (transcribed by Stuart Jenks): 'Damaske warke the pece' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb1316cd2cc951235c2015888c49dc14ba93aaceb6e0b6e608cb3a50d928310b18d">
+    <crm:P190_has_symbolic_content>damasce</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>damasə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/damask#rate-1545-inward-239">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Damaske the yarde 4s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_damask_cb2397794b7b1bd797b5fc47fc9105337ea1c39596c398bc2f8f809b44698d7a9e8"/>
+    <hector:perQuantity rdf:nodeID="commodity_damask_cb1c989308352c1f1f130424f75b0237fc01c3b15d4a94a96ddd81d21a51333e6c1"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 239 (transcribed by Stuart Jenks): 'Damaske the yarde' 4s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb27afd2804e4e1879a0510486e790d4fa173250d9bec89ffc033e15658c7ff2e24">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>towellyng</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb10287ce59de471ef56f0838f042e9dc38011aad422750fc8a463208b8fe70f4cd">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>crimson</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300311345"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb22313879279b2808bdd0233155f0931b3c910a029089b06ed51e84470b04abf65">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/unit/yard">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
     <rdfs:label>yard</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb2b600887f7b274f57e86f66fa2ca68f17b2faa0fa59d59648d97bc222683c1ffd">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb2a1d966ca60cd94124edfa3e2b95f5a6290f62d1127845a7e04918ac76908bd1e">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Caffa</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb1178d6f1fdbb287d778b5341846e6f9ab513fe6298bc1b3436b4a2eaa91e617d6">
+    <crm:P190_has_symbolic_content>Woven figured textile with one warp and one weft in which the pattern is formed by a contrast of binding systems, and appears on the face and the back in reverse positions. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb1428f250aed9c6b77ff92de9d93fc5597d72f5339dd5e1fa29124be9aa5a32d7f">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>warke</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb244c7332b9b5c90027752cbb46c528c50ec1b7c5c9485bc6716d0e93c9e406965">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>purple</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300130257"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb3597e01a0f92ba1a317df4a7737cfc352d35a216ba981dc9a02874c73edcafcab">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>damask</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300163295"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb226cbb98d622d321eacf4e92cdb65132b01a8b1d21340e8864a9b61feca1329e1">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>table</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb1c989308352c1f1f130424f75b0237fc01c3b15d4a94a96ddd81d21a51333e6c1">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300163295">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>damask</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300311345">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>crimson (color)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_damask_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
 </rdf:RDF>

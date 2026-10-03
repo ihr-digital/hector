@@ -178,7 +178,20 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 355 (transcribed by Stuart Jenks): 'Hedlak the hundereth elles conteynynge 12 score elles' 20s"
+      "sourceText": "Book of Rates 1545, inward, line 355 (transcribed by Stuart Jenks): 'Hedlak the hundereth elles conteynynge 12 score elles' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "hundereth",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/hedlake#rate-1558-inward-556",

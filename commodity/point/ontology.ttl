@@ -146,8 +146,13 @@
     hector:attestationCount 710 ;
     hector:taxation <https://w3id.org/hector/commodity/point#rate-1507-none-221>,
         <https://w3id.org/hector/commodity/point#rate-1507-none-222>,
+        <https://w3id.org/hector/commodity/point#rate-1545-inward-581>,
         <https://w3id.org/hector/commodity/point#rate-1545-inward-582>,
-        <https://w3id.org/hector/commodity/point#rate-1558-inward-826> .
+        <https://w3id.org/hector/commodity/point#rate-1558-inward-826>,
+        <https://w3id.org/hector/commodity/point#rate-1558-inward-869> .
+
+aat:300073756 a crm:E55_Type ;
+    rdfs:label "large" .
 
 aat:300216035 a crm:E55_Type ;
     rdfs:label "points (fasteners)" .
@@ -193,6 +198,21 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/point#rate-1545-inward-581> a hector:Rate ;
+    rdfs:label "1545 inward: Poyntes of threde the smalle groce 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4d" ;
+            hector:valueInPence 4.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "file" ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 581 (transcribed by Stuart Jenks): 'Poyntes of threde the smalle groce' 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/point#rate-1545-inward-582> a hector:Rate ;
     rdfs:label "1545 inward: Poyntes the greate groce conteining 12 smalle groce 4s" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -216,6 +236,24 @@ aat:300435416 a crm:E55_Type ;
             crm:P90_has_value 1728 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
     hector:sourceText "Book of Rates 1558, inward, line 826 (transcribed by Stuart Jenks): 'Poyntes the greate grosse cont’ 12 small grose' 8s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/point#rate-1558-inward-869> a hector:Rate ;
+    rdfs:label "1558 inward: Poyntes of threde the grete grosse cont’ 12 small grosse 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "large" ;
+            la:equivalent aat:300073756 ],
+        [ a crm:E55_Type ;
+            rdfs:label "file" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 869 (transcribed by Stuart Jenks): 'Poyntes of threde the grete grosse cont’ 12 small grosse' 10s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 

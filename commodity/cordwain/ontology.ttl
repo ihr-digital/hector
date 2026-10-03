@@ -11,9 +11,11 @@
     rdfs:label "cordwain" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "cordwyn" ;
+            crm:P190_has_symbolic_content "cordewyne" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kordwin" ],
+            hector:phoneticKey "kordeuinə" ;
+            hector:validFrom "1434"^^xsd:gYear ;
+            hector:validThrough "1438"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cordwayne" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -21,17 +23,17 @@
             hector:validFrom "1390"^^xsd:gYear ;
             hector:validThrough "1398"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "cordewyne" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kordeuinə" ;
-            hector:validFrom "1434"^^xsd:gYear ;
-            hector:validThrough "1438"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cordewene" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kordeuenə" ;
             hector:validFrom "1477"^^xsd:gYear ;
             hector:validThrough "1479"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "cordweyn" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kordwein" ;
+            hector:validFrom "1446"^^xsd:gYear ;
+            hector:validThrough "1450"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cordewane" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -81,6 +83,10 @@
             hector:validFrom "1445"^^xsd:gYear ;
             hector:validThrough "1446"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "cordwyn" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kordwin" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cordwain" ;
             crm:P2_has_type aat:300404670,
                 hector:AttestedVariant ;
@@ -90,13 +96,7 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kordeuan" ;
             hector:validFrom "1412"^^xsd:gYear ;
-            hector:validThrough "1427"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "cordweyn" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kordwein" ;
-            hector:validFrom "1446"^^xsd:gYear ;
-            hector:validThrough "1450"^^xsd:gYear ] ;
+            hector:validThrough "1427"^^xsd:gYear ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "Spanish leather originally made at Cordova, of goat-skins tanned and dressed, but afterwards frequently of split horse-hides (cordovan), much used for shoes etc. (OED s.v. cordwain) | Soft, durable, fine-grained, nonporous colored leather, vegetable-tanned and curried, made originally solely from the outer layer of horsehide rumps, later also from goatskin and pigskin. [Source: Getty AAT]" ;
             crm:P2_has_type aat:300435416 ] ;
@@ -131,6 +131,11 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 12 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "skin" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Spanysshe" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1545, inward, line 183 (transcribed by Stuart Jenks): 'Cordwayne skynnes called Spanysshe the dossen' 20s" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .

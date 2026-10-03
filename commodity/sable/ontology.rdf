@@ -7,31 +7,7 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_sable_cb12c15504681a296fd18e15e4779ca854f65e586d76bc05fe79a12d5ee8544df10">
-    <crm:P190_has_symbolic_content>sabbelle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sabelə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_sable_cb1384342bd2bd9ad95ca5710f394c24a578a6cca99f803fa1aa38a42326260a57d">
-    <crm:P190_has_symbolic_content>sabylles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sabiləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_sable_cb2853ad21bfceb2b14ec919421517b740b2812a8028dc3a6a16aaa8f927a422e5e">
-    <crm:P190_has_symbolic_content>sabbelles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sabeləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_sable_cb1d4f8c771e1140b880c8de8787d5861f51ffd04e3fd6bf61c29f9f4b3d59aa3ac">
+  <rdf:Description rdf:nodeID="commodity_sable_cb1f409fc73b43dc1c0ee2b8b871989531dc03bb186a171bade673a5934f8f1e535">
     <crm:P190_has_symbolic_content>sablis</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -41,17 +17,17 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/sable">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_sable_cb12c15504681a296fd18e15e4779ca854f65e586d76bc05fe79a12d5ee8544df10"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_sable_cb1384342bd2bd9ad95ca5710f394c24a578a6cca99f803fa1aa38a42326260a57d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_sable_cb1544b3b084476830bb8fc04e48f72b8cf4c887421c6e6054fc69c32c9d7726869"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_sable_cb194f408eb3c5e1c95334f424fa493085e9c43185afb46f61d4a548ec3ebbefd98"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_sable_cb1d4f8c771e1140b880c8de8787d5861f51ffd04e3fd6bf61c29f9f4b3d59aa3ac"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_sable_cb1e0286ef21cc8b2a5f424866ea886816aa4d00b7d6f78dafd6d8e62617805ad98"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_sable_cb1f553d799277b5d4d963bac50695eb31ae669e527b6ba33a5d48f1ee8c53eb6f7"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_sable_cb2853ad21bfceb2b14ec919421517b740b2812a8028dc3a6a16aaa8f927a422e5e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_sable_cb9bbe01d262ba218213a17bbd6a76f500c1072fe1f7aed6399527e4acb954e334"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_sable_cbbfbc90adb2480aa6083ad43591e8b5ec0751d1d96579b80b187ef8144d66058c"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_sable_cb7132144611aae68ea74e30df28bcb3d4e12cf7a76be47b27c4c14dd5d0a99a06"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_sable_cb14b26854854cc4d35fa7f015615fb76780624337a0fc624a9d7533a6fa89c2099"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_sable_cb15c42ac30999ab9d90f05bd66c8b299ec27a95dec388f4e65be203c75778991b3"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_sable_cb1b4053ded0f87d2ce14ece55e40c3f9873c81c4fd9f4cbadf8794f3450f163f21"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_sable_cb1d5fe5a2b7d1972cf248b87a0daff3b67a8621e0575cc1d6e33a949bab28df970"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_sable_cb1f409fc73b43dc1c0ee2b8b871989531dc03bb186a171bade673a5934f8f1e535"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_sable_cb1f8239ddda39ed19bccc0f0c766af6a586e43df25c9dfbf106f9b36a64fd7aae8"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_sable_cb1ff39a3f3eff268ded5c2297d44b77293450eb820137e9fbfaacec6e29b5cef21"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_sable_cb243fceaa1c2716cadef2c66e22995a68642510a42f6f9be2b6b6f8284bbb5b0f2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_sable_cb2545c962db02d02951943bccf8f47116e6651f762d1886a507c5ff180a8d8b151"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_sable_cb2a44c071dd014e14dce2f372fedac6533c85154a531c96b63a7eaf4139d996fe7"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_sable_cb16eaa1b128cb7dafa2f46573c8ef7357c233bef62e00f56c9f14a7769bd96a81e"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>sable</rdfs:label>
     <skos:broader rdf:resource="http://vocab.getty.edu/aat/300011811"/>
@@ -59,8 +35,92 @@
     <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/sable"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</hector:attestationCount>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/sable#rate-1558-inward-1041"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/sable#rate-1558-inward-1042"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/sable#rate-1558-inward-1043"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_sable_cb9bbe01d262ba218213a17bbd6a76f500c1072fe1f7aed6399527e4acb954e334">
+  <rdf:Description rdf:nodeID="commodity_sable_cb167d801800922821c9f3bfb7bed10da795f3f8ecfe00f743c63eb42bdee043db6">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>second</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sable_cb1f22e701f2c6591b50881f138454bc75dcb72a9b4b3e7a04af578bbc087904613">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£30</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7200</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sable_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/timber"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sable_cb1ff39a3f3eff268ded5c2297d44b77293450eb820137e9fbfaacec6e29b5cef21">
+    <crm:P190_has_symbolic_content>sabille</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sabilə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1450</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/sable#rate-1558-inward-1042">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Sables of the second sort the tymber £30</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_sable_cb1f22e701f2c6591b50881f138454bc75dcb72a9b4b3e7a04af578bbc087904613"/>
+    <hector:perQuantity rdf:nodeID="commodity_sable_cb23da726245bd10069d50c47494676bfa1b0b978f6b289f5fa94aceaecc121f218"/>
+    <hector:qualifier rdf:nodeID="commodity_sable_cb167d801800922821c9f3bfb7bed10da795f3f8ecfe00f743c63eb42bdee043db6"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1042 (transcribed by Stuart Jenks): 'Sables of the second sort the tymber' £30</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/sable#rate-1558-inward-1041">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Sables the tymber of the best conteynynge fortye skyns £60</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_sable_cb2aa42bc670279ffcdceb0f7d91f73e58df4014d7c89da3d0d9ff699054ff4ca73"/>
+    <hector:perQuantity rdf:nodeID="commodity_sable_cb26517539bd130314d1f14fca4478db887f207589d0af0253cee46ed8904e21a54"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1041 (transcribed by Stuart Jenks): 'Sables the tymber of the best conteynynge fortye skyns' £60</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sable_cb23da726245bd10069d50c47494676bfa1b0b978f6b289f5fa94aceaecc121f218">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/timber"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sable_cb2aa42bc670279ffcdceb0f7d91f73e58df4014d7c89da3d0d9ff699054ff4ca73">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£60</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14400</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sable_cb2a44c071dd014e14dce2f372fedac6533c85154a531c96b63a7eaf4139d996fe7">
+    <crm:P190_has_symbolic_content>sabbelles</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sabeləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sable_cb14b26854854cc4d35fa7f015615fb76780624337a0fc624a9d7533a6fa89c2099">
+    <crm:P190_has_symbolic_content>sabbelle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sabelə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sable_cb243fceaa1c2716cadef2c66e22995a68642510a42f6f9be2b6b6f8284bbb5b0f2">
+    <crm:P190_has_symbolic_content>sabylles</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sabiləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sable_cb1d5fe5a2b7d1972cf248b87a0daff3b67a8621e0575cc1d6e33a949bab28df970">
     <crm:P190_has_symbolic_content>sabulles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -68,19 +128,19 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_sable_cbbfbc90adb2480aa6083ad43591e8b5ec0751d1d96579b80b187ef8144d66058c">
-    <crm:P190_has_symbolic_content>sabulle</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_sable_cb1f8239ddda39ed19bccc0f0c766af6a586e43df25c9dfbf106f9b36a64fd7aae8">
+    <crm:P190_has_symbolic_content>sabylle</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sabulə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+    <hector:phoneticKey>sabilə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_sable_cb1f553d799277b5d4d963bac50695eb31ae669e527b6ba33a5d48f1ee8c53eb6f7">
+  <rdf:Description rdf:nodeID="commodity_sable_cb2545c962db02d02951943bccf8f47116e6651f762d1886a507c5ff180a8d8b151">
     <crm:P190_has_symbolic_content>sable</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -89,11 +149,39 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300011811">
+  <rdf:Description rdf:nodeID="commodity_sable_cb10f7e25d5aed04e07fd675d350e30ba18f79b145e8c9351f13a141c12df8fa8ac">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>fur (hair material)</rdfs:label>
+    <rdfs:label>worste</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_sable_cb194f408eb3c5e1c95334f424fa493085e9c43185afb46f61d4a548ec3ebbefd98">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/sable#rate-1558-inward-1043">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Sables of the worste the tymber £13 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_sable_cb281ee3d996a47675ce1a73aaa31fb8548cbf34b646d8004d3a8d41d4caf8c2e55"/>
+    <hector:perQuantity rdf:nodeID="commodity_sable_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_sable_cb10f7e25d5aed04e07fd675d350e30ba18f79b145e8c9351f13a141c12df8fa8ac"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1043 (transcribed by Stuart Jenks): 'Sables of the worste the tymber' £13 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sable_cb15c42ac30999ab9d90f05bd66c8b299ec27a95dec388f4e65be203c75778991b3">
+    <crm:P190_has_symbolic_content>sabulle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sabulə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sable_cb16eaa1b128cb7dafa2f46573c8ef7357c233bef62e00f56c9f14a7769bd96a81e">
+    <crm:P190_has_symbolic_content>sable, a fur (Veale 222)</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sable_cb1b4053ded0f87d2ce14ece55e40c3f9873c81c4fd9f4cbadf8794f3450f163f21">
     <crm:P190_has_symbolic_content>sables</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -101,69 +189,35 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/sable#rate-1558-inward-1041">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Sables the tymber of the best conteynynge fortye skyns £60</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_sable_cb17e663ea3f0acd57ec84c8ac2af5cadaabf54522f85a15f93f1344b3d9f7925f"/>
-    <hector:perQuantity rdf:nodeID="commodity_sable_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 1041 (transcribed by Stuart Jenks): 'Sables the tymber of the best conteynynge fortye skyns' £60</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_sable_cb281ee3d996a47675ce1a73aaa31fb8548cbf34b646d8004d3a8d41d4caf8c2e55">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£13 6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3200</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_sable_cb1e0286ef21cc8b2a5f424866ea886816aa4d00b7d6f78dafd6d8e62617805ad98">
-    <crm:P190_has_symbolic_content>sabille</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sabilə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1450</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_sable_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109">
+  <rdf:Description rdf:nodeID="commodity_sable_cb26517539bd130314d1f14fca4478db887f207589d0af0253cee46ed8904e21a54">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/timber"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300011811">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>fur (hair material)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300395532">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>pelts (animal skins)</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>preferred terms</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_sable_cb17e663ea3f0acd57ec84c8ac2af5cadaabf54522f85a15f93f1344b3d9f7925f">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>£60</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14400</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_sable_cb1544b3b084476830bb8fc04e48f72b8cf4c887421c6e6054fc69c32c9d7726869">
-    <crm:P190_has_symbolic_content>sabylle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sabilə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/timber">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>timber</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/mlca/glossary/sable">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>sable (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_sable_cb7132144611aae68ea74e30df28bcb3d4e12cf7a76be47b27c4c14dd5d0a99a06">
-    <crm:P190_has_symbolic_content>sable, a fur (Veale 222)</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300395532">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>pelts (animal skins)</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/timber">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>timber</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

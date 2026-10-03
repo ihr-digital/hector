@@ -8,96 +8,7 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_caul_cb1e27bfd33952a855d00683513d7e4f4b44268580de5ec05dddb2afa00aacca76e">
-    <crm:P190_has_symbolic_content>cawke</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kaukə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/caul#rate-1545-inward-135">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Cawle sylke the paper 13s 4d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_caul_cb1e4a0f04d89b347cdbb263ea3da546d48c58f069ed62798e5073dd83a5d0eb955"/>
-    <hector:perQuantity rdf:nodeID="commodity_caul_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 135 (transcribed by Stuart Jenks): 'Cawle sylke the paper' 13s 4d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_caul_cb1ab6cd25bc386d03693b113f7d36e91639a4e1511a53cdcbf28c1a21838da1464">
-    <crm:P190_has_symbolic_content>cawle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kaulə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_caul_cbba752515d53d57ad01a93eca8f695621d3c04e7fa56745a540fa91ad8206b927">
-    <crm:P190_has_symbolic_content>cal</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kal</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/caul">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cb0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cb148bebbf81de855415e8f2cf4dad0606b82dbb28f5829fd91e0e3674569bcb0bc"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cb1ab6cd25bc386d03693b113f7d36e91639a4e1511a53cdcbf28c1a21838da1464"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cb1d8840d53e9bece6568d3f2747c6f24e4f107fe461f64846dcbb972c9e44a698"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cb1e27bfd33952a855d00683513d7e4f4b44268580de5ec05dddb2afa00aacca76e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cb1f76619a28bda71fee0bb7135ee8c46e498b68ae8ac8738cdbd218d6a8936ad25"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cb20be7000b9f1830bf2a9d46def02938b388ebe98a649f771165f06213fa3bbf95"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cb20cba447cfadb6a923995ec5dfdb0c41194c52ccbbb6c3a1dd5f03efce04c7941"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cb218dc14ab07c5048615c369618710589bfdcd0f0b47dd6d52490bcec7fb4f3cf8"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cb2991e5f95d07b88b228a397e456a1d41c1b81f540b15325003208ddb6043a8f3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cb2ceb4572c93782553ac51ab5c1f779487662c079991db2939063bdae211da7bb"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cb53cb8eb1f2f96657761e9e8f296a234f3cef536726ac2c2e66c5c4e470d751a5"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cbb3cde41d24d5290869672feb5da26e0f419e00d8e280abe3eccff2e95add1e2e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cbba752515d53d57ad01a93eca8f695621d3c04e7fa56745a540fa91ad8206b927"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_caul_cbc27029e24f7c0312de6788f54f9dc4b776b9e4fd965339446262f3a52f299e69"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>caul</rdfs:label>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/caul"/>
-    <skos:related rdf:resource="https://w3id.org/hector/commodity/silk"/>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300213888"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">161</hector:attestationCount>
-    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/caul#rate-1545-inward-135"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_caul_cb0">
-    <crm:P190_has_symbolic_content>cawlles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kauləs</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_caul_cb148bebbf81de855415e8f2cf4dad0606b82dbb28f5829fd91e0e3674569bcb0bc">
-    <crm:P190_has_symbolic_content>cawelle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kauelə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_caul_cb1f76619a28bda71fee0bb7135ee8c46e498b68ae8ac8738cdbd218d6a8936ad25">
-    <crm:P190_has_symbolic_content>caules</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kauləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_caul_cb1d8840d53e9bece6568d3f2747c6f24e4f107fe461f64846dcbb972c9e44a698">
-    <crm:P190_has_symbolic_content>caul</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kaul</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_caul_cb20cba447cfadb6a923995ec5dfdb0c41194c52ccbbb6c3a1dd5f03efce04c7941">
+  <rdf:Description rdf:nodeID="commodity_caul_cb2830641dd876b8d890bebe9487c9241354c3ea68585e794791888f0afc9a69695">
     <crm:P190_has_symbolic_content>cawles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -105,38 +16,184 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_caul_cbc27029e24f7c0312de6788f54f9dc4b776b9e4fd965339446262f3a52f299e69">
-    <crm:P190_has_symbolic_content>a close-fitting cap, worn by women (OED s.v. caul, for calle silk caul 6)</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  <rdf:Description rdf:nodeID="commodity_caul_cb1463ff8fae5972d227893a1a4a74da4777b835b58529bf1c7f68a9cc0c124dc17">
+    <crm:P190_has_symbolic_content>cal</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kal</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+  <rdf:Description rdf:nodeID="commodity_caul_cb26db21703186a94f5b3116e206d6dc408503004a277029328ffba3f1d7290ca79">
+    <crm:P190_has_symbolic_content>caules</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kauləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
+    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300213888">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/caul">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cb11d7f45067d7d53eb4fa6d9797ec428a0cf9486523c1eca3aed485d1437cc2126"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cb1463ff8fae5972d227893a1a4a74da4777b835b58529bf1c7f68a9cc0c124dc17"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cb15316406e8f13bb52cd26069e28c172a92a90fa1ccb8b414e161ca87526caff69"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cb17d819a71af59169c42ef6ad5b2fc7360d44333c3f7f349f073528b1921d1edaf"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cb22556df61be6e066dfcfa93954670c64343fad96b1e2dd00feb821c851f0ba8fb"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cb23e19de6360aae6d6f9d84afb1dbd109eecd91c7c490476866d43eef4f48c77bd"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cb26db21703186a94f5b3116e206d6dc408503004a277029328ffba3f1d7290ca79"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cb2830641dd876b8d890bebe9487c9241354c3ea68585e794791888f0afc9a69695"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cb285b4ff37bc7924bbba90d3b37378ffeb63037f4b89a78fd446750f7fd4162fcd"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cb2ab8920b2a4e91b267beaa064d15ed7d750581675eba507198d8e1ba4b701a051"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cb2f50206e38dea9e43930150f491489461f0a0670d3705f105f1c8f6c043bc71db"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cbb8b61957d99157cab1af7d8fd9dbc79e1e25cd5246525eb645f3c8c1603bcaab"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cbbc3ef200fa2bcf2b88b170818fb89c7d144326beaedccc1747a2dab81bf60c4c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_caul_cbd8cce28f5055d66848b2943bee1219e53400277a22b795b015de17b9f6df9066"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_caul_cb1bfe830aeca88f77e665faf52b5d8465eb8c8dcb90a7e14e68eec1d391c16ac81"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>cauls (costume components)</rdfs:label>
+    <rdfs:label>caul</rdfs:label>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/caul"/>
+    <skos:related rdf:resource="https://w3id.org/hector/commodity/silk"/>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300213888"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">161</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/caul#rate-1545-inward-135"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/caul#rate-1558-inward-303"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/caul#rate-1558-inward-304"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_caul_cb218dc14ab07c5048615c369618710589bfdcd0f0b47dd6d52490bcec7fb4f3cf8">
-    <crm:P190_has_symbolic_content>caule</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/caul#rate-1545-inward-135">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Cawle sylke the paper 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_caul_cb3ff6bdc99c714001a2fb99e7a08705bf02cb76987d827f78857c3343e2eace0a8"/>
+    <hector:perQuantity rdf:nodeID="commodity_caul_cb2184670a0bf897581a47b556e814c2269e09e0e025af9fb76197db1547dbdc383"/>
+    <hector:qualifier rdf:nodeID="commodity_caul_cb1e806ef17177faa4865c32431cd821fc186a13f994bc1f3cd9163090856f891c2"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 135 (transcribed by Stuart Jenks): 'Cawle sylke the paper' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300243428">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>silk (textile)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/caul#rate-1558-inward-304">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Caules of sylke for chyldren the dossen 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_caul_cb317b9bdad67b94de8f1f8c41b814818b7bbc0ca13535fb0745764685728ac77b7"/>
+    <hector:perQuantity rdf:nodeID="commodity_caul_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_caul_cb10ee461d0b6b1dec55e6b287d5e4cd9d4a8aedbb0df856836db0e39bed39fe2c9"/>
+    <hector:qualifier rdf:nodeID="commodity_caul_cb1691576d736607a779066a24e35d85d4a68b92157d07c782f569f8bcb532b8298"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 304 (transcribed by Stuart Jenks): 'Caules of sylke for chyldren the dossen' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_caul_cb17d819a71af59169c42ef6ad5b2fc7360d44333c3f7f349f073528b1921d1edaf">
+    <crm:P190_has_symbolic_content>cale</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kalə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_caul_cbb8b61957d99157cab1af7d8fd9dbc79e1e25cd5246525eb645f3c8c1603bcaab">
+    <crm:P190_has_symbolic_content>call</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kal</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_caul_cb23e19de6360aae6d6f9d84afb1dbd109eecd91c7c490476866d43eef4f48c77bd">
+    <crm:P190_has_symbolic_content>cawle</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>kaulə</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_caul_cb2991e5f95d07b88b228a397e456a1d41c1b81f540b15325003208ddb6043a8f3">
+  <rdf:Description rdf:nodeID="commodity_caul_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_caul_cb1f0414ea2ed98a75dc178284649e89535d769377b45b3cd2f6068e8191f8167d2">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_caul_cb10ee461d0b6b1dec55e6b287d5e4cd9d4a8aedbb0df856836db0e39bed39fe2c9">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>children’s</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_caul_cb2f50206e38dea9e43930150f491489461f0a0670d3705f105f1c8f6c043bc71db">
+    <crm:P190_has_symbolic_content>calles</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kaləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_caul_cb317b9bdad67b94de8f1f8c41b814818b7bbc0ca13535fb0745764685728ac77b7">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_caul_cb15316406e8f13bb52cd26069e28c172a92a90fa1ccb8b414e161ca87526caff69">
+    <crm:P190_has_symbolic_content>cawlles</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kauləs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_caul_cbbc3ef200fa2bcf2b88b170818fb89c7d144326beaedccc1747a2dab81bf60c4c">
     <crm:P190_has_symbolic_content>cawlle</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>kaulə</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300213888">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
+    <rdfs:label>cauls (costume components)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_caul_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109">
+  <rdf:Description rdf:nodeID="commodity_caul_cb22556df61be6e066dfcfa93954670c64343fad96b1e2dd00feb821c851f0ba8fb">
+    <crm:P190_has_symbolic_content>cawelle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kauelə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/caul#rate-1558-inward-303">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Caules of lynnen for women the dossen 4s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_caul_cb289de64006d8d2953bf1caf1ef4ee2756bade1a923bca05b5437a47389af04fa2"/>
+    <hector:perQuantity rdf:nodeID="commodity_caul_cb1f0414ea2ed98a75dc178284649e89535d769377b45b3cd2f6068e8191f8167d2"/>
+    <hector:qualifier rdf:nodeID="commodity_caul_cb14fa8a600be7848a8d29340530b7cf4576e756e3fde4b9b96603986476a09eaed"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 303 (transcribed by Stuart Jenks): 'Caules of lynnen for women the dossen' 4s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_caul_cb285b4ff37bc7924bbba90d3b37378ffeb63037f4b89a78fd446750f7fd4162fcd">
+    <crm:P190_has_symbolic_content>cawke</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kaukə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_caul_cb1bfe830aeca88f77e665faf52b5d8465eb8c8dcb90a7e14e68eec1d391c16ac81">
+    <crm:P190_has_symbolic_content>a close-fitting cap, worn by women (OED s.v. caul, for calle silk caul 6)</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_caul_cb14fa8a600be7848a8d29340530b7cf4576e756e3fde4b9b96603986476a09eaed">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>lynnen for women</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_caul_cbd8cce28f5055d66848b2943bee1219e53400277a22b795b015de17b9f6df9066">
+    <crm:P190_has_symbolic_content>caul</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kaul</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_caul_cb2184670a0bf897581a47b556e814c2269e09e0e025af9fb76197db1547dbdc383">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/paper"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
@@ -145,37 +202,44 @@
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
     <rdfs:label>paper (measure)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_caul_cb20be7000b9f1830bf2a9d46def02938b388ebe98a649f771165f06213fa3bbf95">
-    <crm:P190_has_symbolic_content>calles</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/caul">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>caul (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_caul_cb1e806ef17177faa4865c32431cd821fc186a13f994bc1f3cd9163090856f891c2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>silk</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300243428"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_caul_cb289de64006d8d2953bf1caf1ef4ee2756bade1a923bca05b5437a47389af04fa2">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_caul_cb2ab8920b2a4e91b267beaa064d15ed7d750581675eba507198d8e1ba4b701a051">
+    <crm:P190_has_symbolic_content>caule</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kaləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+    <hector:phoneticKey>kaulə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_caul_cb53cb8eb1f2f96657761e9e8f296a234f3cef536726ac2c2e66c5c4e470d751a5">
+  <rdf:Description rdf:nodeID="commodity_caul_cb11d7f45067d7d53eb4fa6d9797ec428a0cf9486523c1eca3aed485d1437cc2126">
     <crm:P190_has_symbolic_content>calle</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>kalə</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_caul_cbb3cde41d24d5290869672feb5da26e0f419e00d8e280abe3eccff2e95add1e2e">
-    <crm:P190_has_symbolic_content>cale</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kalə</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_caul_cb2ceb4572c93782553ac51ab5c1f779487662c079991db2939063bdae211da7bb">
-    <crm:P190_has_symbolic_content>call</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kal</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_caul_cb1e4a0f04d89b347cdbb263ea3da546d48c58f069ed62798e5073dd83a5d0eb955">
+  <rdf:Description rdf:nodeID="commodity_caul_cb3ff6bdc99c714001a2fb99e7a08705bf02cb76987d827f78857c3343e2eace0a8">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
     <hector:lsd>13s 4d</hector:lsd>
@@ -185,8 +249,17 @@
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>silk</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/caul">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>caul (London Customs Accounts glossary)</rdfs:label>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_caul_cb1691576d736607a779066a24e35d85d4a68b92157d07c782f569f8bcb532b8298">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>silk</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300243428"/>
   </rdf:Description>
 </rdf:RDF>

@@ -266,7 +266,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 185 (transcribed by Stuart Jenks): 'Carvinge toles the dosen' 10d"
+      "sourceText": "Book of Rates 1558, inward, line 185 (transcribed by Stuart Jenks): 'Carvinge toles the dosen' 10d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Carvinge",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

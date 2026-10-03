@@ -198,5 +198,318 @@
     }
   ],
   "attestationCount": 303,
-  "modified": "2026-10-03"
+  "modified": "2026-10-03",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/fox#rate-1507-none-93",
+      "type": "Rate",
+      "_label": "1507: Fox skynes the pane 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pane",
+          "type": "MeasurementUnit",
+          "_label": "pane"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 93 (transcribed by Stuart Jenks): 'Fox skynes the pane' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "skynes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/fox#rate-1507-none-94",
+      "type": "Rate",
+      "_label": "1507: Fox wombys, foxe polles or fox pettes the pane 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pane",
+          "type": "MeasurementUnit",
+          "_label": "pane"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 94 (transcribed by Stuart Jenks): 'Fox wombys, foxe polles or fox pettes the pane' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "womb"
+        },
+        {
+          "type": "Type",
+          "_label": "foxe polles",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "pettes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/fox#rate-1545-inward-292",
+      "type": "Rate",
+      "_label": "1545 inward: Foxe skynnes the pane or mantel 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pane",
+          "type": "MeasurementUnit",
+          "_label": "pane"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 292 (transcribed by Stuart Jenks): 'Foxe skynnes the pane or mantel' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "skin"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/fox#rate-1545-inward-293",
+      "type": "Rate",
+      "_label": "1545 inward: Foxe skynnes the pece 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "4",
+        "lsd": "4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 293 (transcribed by Stuart Jenks): 'Foxe skynnes the pece' 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "skin"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/fox#rate-1545-inward-294",
+      "type": "Rate",
+      "_label": "1545 inward: Foxe whight the pece 12d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "12",
+        "lsd": "12d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 294 (transcribed by Stuart Jenks): 'Foxe whight the pece' 12d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Isle of Wight",
+          "originPlace": [
+            {
+              "id": "wd:Q9679",
+              "type": "Place",
+              "_label": "Isle of Wight"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/fox#rate-1558-inward-432",
+      "type": "Rate",
+      "_label": "1558 inward: Foxe skynnes the pane or mantell 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pane",
+          "type": "MeasurementUnit",
+          "_label": "pane"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 432 (transcribed by Stuart Jenks): 'Foxe skynnes the pane or mantell' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "skin"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/fox#rate-1558-inward-433",
+      "type": "Rate",
+      "_label": "1558 inward: Foxe skynnes the pece 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "8",
+        "lsd": "8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 433 (transcribed by Stuart Jenks): 'Foxe skynnes the pece' 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "skin"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/fox#rate-1558-inward-434",
+      "type": "Rate",
+      "_label": "1558 inward: Foxe wombes, powles or peces the pane 8s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "96",
+        "lsd": "8s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pane",
+          "type": "MeasurementUnit",
+          "_label": "pane"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 434 (transcribed by Stuart Jenks): 'Foxe wombes, powles or peces the pane' 8s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "womb"
+        },
+        {
+          "type": "Type",
+          "_label": "powles",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -8,97 +8,27 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb18e9e9bde88ebff203c3b2cf9ca2164b63eb3de90ee855952fe78c73648777b89">
-    <crm:P190_has_symbolic_content>tapstare</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb22610cd923f3ad07320a0cc9e74fafa95e320cc76df74122d01963883df189c6b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>5d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb27610bbb0a954fdd888bab249def6c34f903287e5a4afaa80142ee76712b6d80d">
+    <crm:P190_has_symbolic_content>tapesry</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapstarə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb21cabce33263edc2f1135f7f2b59740b324847ed783079fa829f746345bce1db2">
-    <crm:P190_has_symbolic_content>tapeti</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapeti</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb1451db0689b86d09863aca90fb83072d1dafbedcde1b57208442ae8c93deaeeeb">
-    <crm:P190_has_symbolic_content>tapstri</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapstri</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tapestry">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb107d98ee0ae8bdf04bda123040201a2fbaaa2b9ea7f5a8237cd64da4fa32e40ae"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb111f6406411d5148421fcb918b1419f5b4b8043a85f079d37254119c7379d5417"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb12adac2fd03ea87a80531a0bd22ffbc5ba77a480d1d5521f93cc7009280ef466b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb12c9b052248343255821adc2cbc40f96e800792035c1c11843eec5fab7a1f131f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb136a452a529dc8354407199760d19bce464d754b4ae3eb40c2db99d93e196ae11"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb1451db0689b86d09863aca90fb83072d1dafbedcde1b57208442ae8c93deaeeeb"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb15b7498e6e100d05b70cc97ddd05e817f2e2c8b7c83ae9ac60480e9f6cfa16ac6"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb18e9e9bde88ebff203c3b2cf9ca2164b63eb3de90ee855952fe78c73648777b89"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb198f1720dffcd364713fffd6e2818f7030d5543867de5ea18de1cb2f3ca8566f0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb19c309ef9f16cd759d64a444f8a6a91908b065c2618d825a8c90a1f4fd13b0a59"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb1a9f9a9b41a5db0f543706d28e5a3de68309e4f7f835514001bf638e406a29290"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb1b7b9b770330a6a57ae3b6e4370e5a9f072c1e828a4242c73ed871841fcb9f7c9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb1b9cfbc3041a8d1f9f7a05bc58d007d696c7e19cc126e534a1c6743d44851f74d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb1ba7ee02372ad9b76f3bdad5d1dc2f927a9a4c463ae1cfc7f26a45b2904e7fe85"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb1d2a4a43d5bd490067c7a7ef22a94746bc7cd1a58cde828470d0184ef98340fb3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb1e139c432d21afd6498ded09c1626e1ee151f5e1d638b587ef38e0b0ba23aed6a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb1ee07bdd9fc4d720b3c69e654fdde2be87c6604a91ee49c2eb4a3cb12e162a53d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb1f6722458d6c226cc986c9902d3e2ba428f6a198832df705033432dba5cc08f80"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb1f7dd7841f4848127c933ec822c327bd26737e9bd8435305cfefb2948284f8f06"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb1fc8a26b417b1d32c837a1ab681dfeb273c9bb128aaa963e2024e69593b07fc7b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb208517722145490e9238e00d212010e8a2f8ca02914345419c1064b21ae541cee"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb20be982e2350839faba14f305a8b31a7ada43a31e0a0b64be3fa80817e1e0a753"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb21cabce33263edc2f1135f7f2b59740b324847ed783079fa829f746345bce1db2"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb21fb9464646be8a982ffdcaf10d8de20fd37b1fd6e46f8a05d5de6585851c9988"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb223a47ffaba69dae3f5421e3e0574d9af208af33c85157108f8776633b122815a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb22655529ffa2e9847c2253c51f39952e429f6a21b032678098c0001018d268ae1"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb24c27c614a111228d04d3df8cf6aace991b7800628c048997b5d7c1fa98707ce9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb256ff86aed62b479fa71d0f3b42c5d226eff3db4300a9e5bdd6ee82e5ef5f9684"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb2722dd24e33ba74d2e66c63acfb39f83b70c1b41ebd2ee71b4b4790b5b8e98123"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb27768771e8bfa843827e36dbcbd4dc98a39de4747d1566bf50399ae3e78f71515"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb2a83e6ebae7a2ccd54cb887b6285b723b99c9e6355bc510d1227290b27ae57ad1"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb2b745d4e6783b9215fbcbfd7294515e0af6f60735b428cee9528c524b5743ea21"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb2bf99e607d7b9bd164166563984a2413763dc168ca2c9054a617e0944899a4b13"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb2cdfaf0a0cf213f2057e68269a396ba41d3df3486fa2aae7fdcb193d0c9e12e16"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb3236e24c102d13a5c797ef665a9ec911741cb79112eafc088dabeee77108af415"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb33514cf34cd830f7a1e0dc37f7a79066e002dfa510954f28293bafd94ef3e4f90"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cba8b3a8b294356d0ca73c2b86c1ae26babf385ccf01e82992e6e4d4f23e0833ba"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cbbdebc7357ffc698780566c00b241e1ce410e1536a0635e9c1709642a9856b670"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cbe8e86322a3f58ba0d27a38e2a2a9c4267325cdaae77b62c43e5a695cacfdeef8"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_tapestry_cb348e321d9ef328e3656df39011159310947fb310a081e6b20e595011601f881b"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>tapestry</rdfs:label>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/tapestry"/>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300205002"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">368</hector:attestationCount>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb1fc8a26b417b1d32c837a1ab681dfeb273c9bb128aaa963e2024e69593b07fc7b">
-    <crm:P190_has_symbolic_content>tapestrye</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapestrie</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb208517722145490e9238e00d212010e8a2f8ca02914345419c1064b21ae541cee">
-    <crm:P190_has_symbolic_content>tapsry</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapsri</hector:phoneticKey>
+    <hector:phoneticKey>tapesri</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb33514cf34cd830f7a1e0dc37f7a79066e002dfa510954f28293bafd94ef3e4f90">
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb126eac3e281b5953d9f3ec6129e3294244ae1668d236046fa0aa53ed0c6858237">
+    <crm:P190_has_symbolic_content>tapettus</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapetus</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb354260436a0acc5b2ffab668e16a9f796a06ca6f3ad5ab744d0fb621612959119">
     <crm:P190_has_symbolic_content>tapstery</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -106,75 +36,13 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb1f6722458d6c226cc986c9902d3e2ba428f6a198832df705033432dba5cc08f80">
-    <crm:P190_has_symbolic_content>tapystrye</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapistrie</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb20e04bc5f01c22da76f0fb8554f6c1b77bf4356d9601f74814c72122a8f1b20ad">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb21fb9464646be8a982ffdcaf10d8de20fd37b1fd6e46f8a05d5de6585851c9988">
-    <crm:P190_has_symbolic_content>tapestrie</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapestriː</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb223a47ffaba69dae3f5421e3e0574d9af208af33c85157108f8776633b122815a">
-    <crm:P190_has_symbolic_content>tapesery</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapeseri</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb2b745d4e6783b9215fbcbfd7294515e0af6f60735b428cee9528c524b5743ea21">
-    <crm:P190_has_symbolic_content>tapitum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapitum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb22655529ffa2e9847c2253c51f39952e429f6a21b032678098c0001018d268ae1">
-    <crm:P190_has_symbolic_content>tapittum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapitum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb1ba7ee02372ad9b76f3bdad5d1dc2f927a9a4c463ae1cfc7f26a45b2904e7fe85">
-    <crm:P190_has_symbolic_content>tapsery</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapseri</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb1b7b9b770330a6a57ae3b6e4370e5a9f072c1e828a4242c73ed871841fcb9f7c9">
-    <crm:P190_has_symbolic_content>tappestre</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapestrə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cbe8e86322a3f58ba0d27a38e2a2a9c4267325cdaae77b62c43e5a695cacfdeef8">
-    <crm:P190_has_symbolic_content>tapstrywerk</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapstriwerk</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cba8b3a8b294356d0ca73c2b86c1ae26babf385ccf01e82992e6e4d4f23e0833ba">
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb159b099c87bf1f8354ce3e133e3ce17a6f3cf7f365e1793ff48f0f02ecb7c1df5">
     <crm:P190_has_symbolic_content>tapstry</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -182,15 +50,230 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1492</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb24c27c614a111228d04d3df8cf6aace991b7800628c048997b5d7c1fa98707ce9">
-    <crm:P190_has_symbolic_content>tapistrey</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tapestry#rate-1558-inward-1079">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Tapstrye of heare course the elle Flemyshe 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_tapestry_cb20e04bc5f01c22da76f0fb8554f6c1b77bf4356d9601f74814c72122a8f1b20ad"/>
+    <hector:perQuantity rdf:nodeID="commodity_tapestry_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_tapestry_cb108e76052be13b28b8511b8690d9c01fc2d60398294c6a15d88437f65a5d37954"/>
+    <hector:qualifier rdf:nodeID="commodity_tapestry_cb1d499e81fdbc7d373bc04bc301db7b04c20e4fa39c682ceb6c9ab828bec725648"/>
+    <hector:qualifier rdf:nodeID="commodity_tapestry_cb2d64ebdbd6fda5a0b39bcdb91df5f74ee13f4896b6dc397ebd991688ddcd650fa"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1079 (transcribed by Stuart Jenks): 'Tapstrye of heare course the elle Flemyshe' 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb20d18f2dbcf7728441e0789639a0f1d111ca4b14bc2ea60f0f1e42f9404b9e6c6">
+    <crm:P190_has_symbolic_content>tapestery</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapistrei</hector:phoneticKey>
+    <hector:phoneticKey>tapesteri</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb17a85cde8b42a8694526a3aec6c8f72a7ce6b381f27b45f8841c14e77f2f8ac4f">
+    <crm:P190_has_symbolic_content>tapstere</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapsterə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb22762ac23e77e4722052ba3e0ae31ffb2cfcb4ccbb83a18dbfe46afa2d1ab5e77">
+    <crm:P190_has_symbolic_content>tapsry</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapsri</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb23bbd0334f9689267f2d39b0151c831dbc4c32b7a270d646a6737aab57f255f3b">
+    <crm:P190_has_symbolic_content>tapeti</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapeti</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb1d8e0f13214d28832d93dfed429316e920cbcc66eb674180c59a7a8556ba938d6">
+    <crm:P190_has_symbolic_content>tapestre</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapestrə</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb12c9b052248343255821adc2cbc40f96e800792035c1c11843eec5fab7a1f131f">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tapestry#rate-1507-none-298">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Tapestry or verderes with cades the Flemyche elle 12d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_tapestry_cb33c104b15f23414e2885487f17dda57c9e946c9fd94cf6f883aa1fb2c5c0b645a"/>
+    <hector:perQuantity rdf:nodeID="commodity_tapestry_cb1aed293601a48bd3e74ca8bcf9446942e9225fdc94b640aff1ba6bf5d6f0ec92d"/>
+    <hector:qualifier rdf:nodeID="commodity_tapestry_cb1b99cad08f45890bf2b082fe05cac4b3f850cfcc9a3afc8699093305243ae82bb"/>
+    <hector:sourceText>Book of Rates 1507, line 298 (transcribed by Stuart Jenks): 'Tapestry or verderes with cades the Flemyche elle' 12d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tapestry#rate-1507-none-297">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Tapestry or verderes withowt sylke the Flemyche elle 5d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_tapestry_cb22610cd923f3ad07320a0cc9e74fafa95e320cc76df74122d01963883df189c6b"/>
+    <hector:perQuantity rdf:nodeID="commodity_tapestry_cb1beeba939988afc081304d8b89ae834f58afeb8a17777a9847ccb9fd805d912af"/>
+    <hector:qualifier rdf:nodeID="commodity_tapestry_cb106cbedfb4be29c34f4b4b6e9a0b0243beebdb4b17ee196c5e707e8870b3f7156"/>
+    <hector:qualifier rdf:nodeID="commodity_tapestry_cb19240fe2051e2b45b998844159342d28ade12ebce17c089c66e45028230a87a7d"/>
+    <hector:sourceText>Book of Rates 1507, line 297 (transcribed by Stuart Jenks): 'Tapestry or verderes withowt sylke the Flemyche elle' 5d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tapestry">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb126eac3e281b5953d9f3ec6129e3294244ae1668d236046fa0aa53ed0c6858237"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb149ebf7fed7143de0e6cf43cbbf30ad8447b8f4afc15ae6bb7a076513a44687f4"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb14bac3a241b5de88e63b87f3b5871ea9720463ea60021d6467c2cc42c9d7654a8"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb155b587a6fd06398d220f3c84a94aae0d05160157524478ce6afa021504edef9a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb159b099c87bf1f8354ce3e133e3ce17a6f3cf7f365e1793ff48f0f02ecb7c1df5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb1642ee56a6eb086d1454a4c1e546163fa7b3a9a7085bb36ca816b4d4a61423074"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb168b0e93185c82cee782ef057f25618b87617438f9312b64c14d91b215b5bee71"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb17a85cde8b42a8694526a3aec6c8f72a7ce6b381f27b45f8841c14e77f2f8ac4f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb1adafd0e05c15b5591dd8d008665255dedef28b33928b1e153bb92bb76bcebd12"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb1c90adeb5ed87672e250e103781d4cf90d0dcfc22275ad8c259369d6529f9d419"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb1d6caec72063420908fd911520d169b19130094cb4829f1362ac77cc320113952"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb1d8e0f13214d28832d93dfed429316e920cbcc66eb674180c59a7a8556ba938d6"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb1d990152545d751afd55b506bb9f3ea5049e371065222c14163e4bfaa283f400e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb20d18f2dbcf7728441e0789639a0f1d111ca4b14bc2ea60f0f1e42f9404b9e6c6"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb216eead43c7ae3760aad18f90c8636cfb07769660283af51f3c3b8dc94ba6d08f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb21b9b5bb5eadb89656517bdc51e10dc4fdcda5dcb4eaf28a43f8ecdda5e5f3e04"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb225a1296b5a7653583bdca393b37b743072eb66f9fc8565b53498eec85a6ed130"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb22762ac23e77e4722052ba3e0ae31ffb2cfcb4ccbb83a18dbfe46afa2d1ab5e77"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb22afab7e40831f0339bb2961444e40ba37a824fc0ae1129807ce86c990537e8dc"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb231ad62d1e486354dff828f71507cd2bf47b52c93e8b65ef1b4d257877bce0a0d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb23bbd0334f9689267f2d39b0151c831dbc4c32b7a270d646a6737aab57f255f3b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb23eca7b4819e840d1119b6dffa9bed33873b9cc7988754ec8131eca06a873db11"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb242b5b4fc8d93911cd6dfc14ca1a5cad7c0c99fdf291b35cb35b7cab4d479c2e3"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb2456687a1cd584e80a3c2df608fca440cca354ebda72c3ccbc9406582b07dcc6a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb26b38fb16743ad8c5e671829b92dbbfc1bbb6ad05300a4e59f318267bbbc7be72"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb27610bbb0a954fdd888bab249def6c34f903287e5a4afaa80142ee76712b6d80d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb28d32b26ddb5680c5cd38dcdb1f538ed3667cdcab90f6f7c61208eafcf4cd7985"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb2913f075006e42b0bc80a06bb976ae964110060c16134abdd8887f536dc40c2ac"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb29dfd1f4727f76a14f70e91038a79e0cf79f22e2e19b2106265e591cd6e2acbe0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb29fcc6bed6d4be84d1774a32053ed36f337f787434a016d84506fa8ec24d30e07"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb2c74fa3bcbacc830e2e562ac4c48c63643a0892d7ffcad5935fb2f5339e3cbc5a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb2d65709e84b65484edd69a08130824f339734b3d8582e93ab8fccb6cc7a9b2baa"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb2deab1b09aae3734f2303f94820d33260041ac32f46ceca0c9ebe6dc5acf18c9c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb2e8fef85b434051ddbbe76aa59e033834c62c4a6db51d1e9f377ce3062b3f8f88"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb2ed0c25a2a24af559398425783fc7ab6a741de1299e30734219f1f851ed386f9f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb33dcadb4790d3183aa0328c7c243bcb3cbcc22fb6dca7d6c6d650b91a60bac887"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb3427f59c2d5faf0955b1c9974461d823fe20a25b3d2b5854b17ff52f833e2359e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cb354260436a0acc5b2ffab668e16a9f796a06ca6f3ad5ab744d0fb621612959119"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tapestry_cbdcfcfc3753261fc061f40f0f4e72d2f6e14cc1d94469235e5449c8abbbadf7f9"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_tapestry_cb1320638ea1a001d4eed6619ed775014b7d68eaacc14acc2543ae279a54d0c9633"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tapestry</rdfs:label>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/tapestry"/>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300205002"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">368</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/tapestry#rate-1507-none-296"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/tapestry#rate-1507-none-297"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/tapestry#rate-1507-none-298"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/tapestry#rate-1558-inward-1076"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/tapestry#rate-1558-inward-1077"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/tapestry#rate-1558-inward-1078"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/tapestry#rate-1558-inward-1079"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb1aed293601a48bd3e74ca8bcf9446942e9225fdc94b640aff1ba6bf5d6f0ec92d">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/ell"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tapestry#rate-1558-inward-1076">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Tapstrye with sylke the elle Flemmysh 3s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_tapestry_cb2aac4e722d8c1e2a95294cc3dcbf3f7ea5d9478426c94887892f74cdc2ff88559"/>
+    <hector:perQuantity rdf:nodeID="commodity_tapestry_cb254a117ec70bf7d4ef2fffc07d41b257852206f011a38f00287038d772580dfcc"/>
+    <hector:qualifier rdf:nodeID="commodity_tapestry_cb24504464a8842249dcb595fb0ff231c9cdaf764a9947dd8898aa858fbb329f6ca"/>
+    <hector:qualifier rdf:nodeID="commodity_tapestry_cb3b23d8d30c1bc043174af98f4a8aa34408632ccbd31c4f8460d9a35be3cd4c52c"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1076 (transcribed by Stuart Jenks): 'Tapstrye with sylke the elle Flemmysh' 3s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/ell"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb2456687a1cd584e80a3c2df608fca440cca354ebda72c3ccbc9406582b07dcc6a">
+    <crm:P190_has_symbolic_content>tapittum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapitum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tapestry#rate-1558-inward-1077">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Tapstrye with cadysse the elle Flemmyshe 2s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_tapestry_cb2fa846f7a82ff6ced7a2a366c6ceb81caa3d238cff48290fc8e7a0d741aedf74f"/>
+    <hector:perQuantity rdf:nodeID="commodity_tapestry_cb21d3568c5bac13c9617a4991c2f606d4181934e95bc05d12cf5d7973b915a2020"/>
+    <hector:qualifier rdf:nodeID="commodity_tapestry_cb172447c84a5560a6cf474b1f406cacccc5eed73453569320c410e2484b6196af6"/>
+    <hector:qualifier rdf:nodeID="commodity_tapestry_cb30a66540bcb06f226e0900105ebeb9d57e38c12901a3659559f09adf11cc6b004"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1077 (transcribed by Stuart Jenks): 'Tapstrye with cadysse the elle Flemmyshe' 2s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb203febe74d6f28094d61176d087b0a5079e39c624b67085a60faa31240032567b">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>verderes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb225a1296b5a7653583bdca393b37b743072eb66f9fc8565b53498eec85a6ed130">
+    <crm:P190_has_symbolic_content>tapstre</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapstrə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb3427f59c2d5faf0955b1c9974461d823fe20a25b3d2b5854b17ff52f833e2359e">
+    <crm:P190_has_symbolic_content>tapistrye</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapistrie</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb1c90adeb5ed87672e250e103781d4cf90d0dcfc22275ad8c259369d6529f9d419">
+    <crm:P190_has_symbolic_content>tapistrie</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapistriː</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300243428">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>silk (textile)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb24504464a8842249dcb595fb0ff231c9cdaf764a9947dd8898aa858fbb329f6ca">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>silk</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300243428"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb1b99cad08f45890bf2b082fe05cac4b3f850cfcc9a3afc8699093305243ae82bb">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>verderes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb2c74fa3bcbacc830e2e562ac4c48c63643a0892d7ffcad5935fb2f5339e3cbc5a">
+    <crm:P190_has_symbolic_content>tapetum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapetum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb14bac3a241b5de88e63b87f3b5871ea9720463ea60021d6467c2cc42c9d7654a8">
     <crm:P190_has_symbolic_content>tapessery</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -198,15 +281,230 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb12adac2fd03ea87a80531a0bd22ffbc5ba77a480d1d5521f93cc7009280ef466b">
-    <crm:P190_has_symbolic_content>tapistery</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb3bd84675886627aa92e348d4a4799322252ff79753d16d1964f9f9787bd370bbd">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>County of Flanders</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q157070"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q157070">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>County of Flanders</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb28d32b26ddb5680c5cd38dcdb1f538ed3667cdcab90f6f7c61208eafcf4cd7985">
+    <crm:P190_has_symbolic_content>tapystrey</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapisteri</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+    <hector:phoneticKey>tapistrei</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb27768771e8bfa843827e36dbcbd4dc98a39de4747d1566bf50399ae3e78f71515">
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb242b5b4fc8d93911cd6dfc14ca1a5cad7c0c99fdf291b35cb35b7cab4d479c2e3">
+    <crm:P190_has_symbolic_content>tapesery</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapeseri</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb2ed0c25a2a24af559398425783fc7ab6a741de1299e30734219f1f851ed386f9f">
+    <crm:P190_has_symbolic_content>tapitti</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapiti</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb1d6caec72063420908fd911520d169b19130094cb4829f1362ac77cc320113952">
+    <crm:P190_has_symbolic_content>tappestre</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapestrə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb216eead43c7ae3760aad18f90c8636cfb07769660283af51f3c3b8dc94ba6d08f">
+    <crm:P190_has_symbolic_content>tappestrii</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapestri</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb29fcc6bed6d4be84d1774a32053ed36f337f787434a016d84506fa8ec24d30e07">
+    <crm:P190_has_symbolic_content>tapstrye</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapstrie</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb29dfd1f4727f76a14f70e91038a79e0cf79f22e2e19b2106265e591cd6e2acbe0">
+    <crm:P190_has_symbolic_content>tapstrywerk</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapstriwerk</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cbdcfcfc3753261fc061f40f0f4e72d2f6e14cc1d94469235e5449c8abbbadf7f9">
+    <crm:P190_has_symbolic_content>tapecery</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapeseri</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb2d65709e84b65484edd69a08130824f339734b3d8582e93ab8fccb6cc7a9b2baa">
+    <crm:P190_has_symbolic_content>tapitum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapitum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb2fa846f7a82ff6ced7a2a366c6ceb81caa3d238cff48290fc8e7a0d741aedf74f">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb155b587a6fd06398d220f3c84a94aae0d05160157524478ce6afa021504edef9a">
+    <crm:P190_has_symbolic_content>tapistre</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapistrə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb108e76052be13b28b8511b8690d9c01fc2d60398294c6a15d88437f65a5d37954">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>coarse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb172447c84a5560a6cf474b1f406cacccc5eed73453569320c410e2484b6196af6">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>cadysse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb21b9b5bb5eadb89656517bdc51e10dc4fdcda5dcb4eaf28a43f8ecdda5e5f3e04">
+    <crm:P190_has_symbolic_content>tapestrye</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapestrie</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb21d3568c5bac13c9617a4991c2f606d4181934e95bc05d12cf5d7973b915a2020">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/ell"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb33c104b15f23414e2885487f17dda57c9e946c9fd94cf6f883aa1fb2c5c0b645a">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>12d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb247c3400a5edde3e8ce04c5f7258bf52f75c2c5f8933b949ba127b6400f25fefc">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>wooll or verder</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb2deab1b09aae3734f2303f94820d33260041ac32f46ceca0c9ebe6dc5acf18c9c">
+    <crm:P190_has_symbolic_content>tapiti</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapiti</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb3b23d8d30c1bc043174af98f4a8aa34408632ccbd31c4f8460d9a35be3cd4c52c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>County of Flanders</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q157070"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb3260d453fec0dfd36d95a2011106dac9b890d7635d254239f950fffaceba0356c">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>12d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb3423be126707ec228ef1e05414b2dac7d3e0f7746bb414d9998f5da73faacd8e4">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb2913f075006e42b0bc80a06bb976ae964110060c16134abdd8887f536dc40c2ac">
+    <crm:P190_has_symbolic_content>tapistri</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapistri</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb26b38fb16743ad8c5e671829b92dbbfc1bbb6ad05300a4e59f318267bbbc7be72">
+    <crm:P190_has_symbolic_content>tapistrey</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapistrei</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb2aac4e722d8c1e2a95294cc3dcbf3f7ea5d9478426c94887892f74cdc2ff88559">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>3s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tapestry#rate-1558-inward-1078">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Tapstrye with wooll or verder the elle Flemmyshe 12d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_tapestry_cb3260d453fec0dfd36d95a2011106dac9b890d7635d254239f950fffaceba0356c"/>
+    <hector:perQuantity rdf:nodeID="commodity_tapestry_cb252abbc40f9acb5f4ec34c6ef6652b721a57efec8d5868b9a32196e38d5ccba41"/>
+    <hector:qualifier rdf:nodeID="commodity_tapestry_cb247c3400a5edde3e8ce04c5f7258bf52f75c2c5f8933b949ba127b6400f25fefc"/>
+    <hector:qualifier rdf:nodeID="commodity_tapestry_cb3bd84675886627aa92e348d4a4799322252ff79753d16d1964f9f9787bd370bbd"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1078 (transcribed by Stuart Jenks): 'Tapstrye with wooll or verder the elle Flemmyshe' 12d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb1642ee56a6eb086d1454a4c1e546163fa7b3a9a7085bb36ca816b4d4a61423074">
+    <crm:P190_has_symbolic_content>tapstri</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapstri</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb22afab7e40831f0339bb2961444e40ba37a824fc0ae1129807ce86c990537e8dc">
+    <crm:P190_has_symbolic_content>tappestri</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapestri</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb168b0e93185c82cee782ef057f25618b87617438f9312b64c14d91b215b5bee71">
+    <crm:P190_has_symbolic_content>tapystre</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapistrə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb252abbc40f9acb5f4ec34c6ef6652b721a57efec8d5868b9a32196e38d5ccba41">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/ell"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb23eca7b4819e840d1119b6dffa9bed33873b9cc7988754ec8131eca06a873db11">
+    <crm:P190_has_symbolic_content>tapestrie</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapestriː</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb33dcadb4790d3183aa0328c7c243bcb3cbcc22fb6dca7d6c6d650b91a60bac887">
     <crm:P190_has_symbolic_content>tapstrie</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -214,13 +512,58 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb107d98ee0ae8bdf04bda123040201a2fbaaa2b9ea7f5a8237cd64da4fa32e40ae">
-    <crm:P190_has_symbolic_content>tapettus</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb149ebf7fed7143de0e6cf43cbbf30ad8447b8f4afc15ae6bb7a076513a44687f4">
+    <crm:P190_has_symbolic_content>tapistery</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapetus</hector:phoneticKey>
+    <hector:phoneticKey>tapisteri</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb1d2a4a43d5bd490067c7a7ef22a94746bc7cd1a58cde828470d0184ef98340fb3">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tapestry#rate-1507-none-296">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Tapestre or verderes with sylke the Flemyche elle 20d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_tapestry_cb3423be126707ec228ef1e05414b2dac7d3e0f7746bb414d9998f5da73faacd8e4"/>
+    <hector:perQuantity rdf:nodeID="commodity_tapestry_cb1b35779a82f285dd2a1b0c3897d9da5dde64156ec4170acbfb979631bb93383a6"/>
+    <hector:qualifier rdf:nodeID="commodity_tapestry_cb1fa53ae23d0495c2513d1f2544c89f8d6cdfc15351086f4591b9eda8ea47d521d"/>
+    <hector:qualifier rdf:nodeID="commodity_tapestry_cb203febe74d6f28094d61176d087b0a5079e39c624b67085a60faa31240032567b"/>
+    <hector:sourceText>Book of Rates 1507, line 296 (transcribed by Stuart Jenks): 'Tapestre or verderes with sylke the Flemyche elle' 20d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb19240fe2051e2b45b998844159342d28ade12ebce17c089c66e45028230a87a7d">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>silk</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300243428"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb1beeba939988afc081304d8b89ae834f58afeb8a17777a9847ccb9fd805d912af">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/ell"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb1b35779a82f285dd2a1b0c3897d9da5dde64156ec4170acbfb979631bb93383a6">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/ell"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/ell">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>ell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb1d499e81fdbc7d373bc04bc301db7b04c20e4fa39c682ceb6c9ab828bec725648">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>heare</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb1d990152545d751afd55b506bb9f3ea5049e371065222c14163e4bfaa283f400e">
+    <crm:P190_has_symbolic_content>tapsery</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapseri</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb231ad62d1e486354dff828f71507cd2bf47b52c93e8b65ef1b4d257877bce0a0d">
     <crm:P190_has_symbolic_content>tapestry</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -229,163 +572,66 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb1b9cfbc3041a8d1f9f7a05bc58d007d696c7e19cc126e534a1c6743d44851f74d">
-    <crm:P190_has_symbolic_content>tapestre</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapestrə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb30a66540bcb06f226e0900105ebeb9d57e38c12901a3659559f09adf11cc6b004">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>County of Flanders</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q157070"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb2bf99e607d7b9bd164166563984a2413763dc168ca2c9054a617e0944899a4b13">
-    <crm:P190_has_symbolic_content>tapiti</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapiti</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb348e321d9ef328e3656df39011159310947fb310a081e6b20e595011601f881b">
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb1320638ea1a001d4eed6619ed775014b7d68eaacc14acc2543ae279a54d0c9633">
     <crm:P190_has_symbolic_content>Tapestry: a figured textile used as a wall-hanging, carpet, bench-covering (banker) or bedspread (OED s.v. tapestry). Worked in wool, silk, caddis (crewel), hair, gold thread or verdure (foliage) designs; of fine or coarse quality; from France and Flanders.</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb19c309ef9f16cd759d64a444f8a6a91908b065c2618d825a8c90a1f4fd13b0a59">
-    <crm:P190_has_symbolic_content>tapystrey</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb106cbedfb4be29c34f4b4b6e9a0b0243beebdb4b17ee196c5e707e8870b3f7156">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapistrei</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb15b7498e6e100d05b70cc97ddd05e817f2e2c8b7c83ae9ac60480e9f6cfa16ac6">
-    <crm:P190_has_symbolic_content>tapstere</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapsterə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb20be982e2350839faba14f305a8b31a7ada43a31e0a0b64be3fa80817e1e0a753">
-    <crm:P190_has_symbolic_content>tappestri</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapestri</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb256ff86aed62b479fa71d0f3b42c5d226eff3db4300a9e5bdd6ee82e5ef5f9684">
-    <crm:P190_has_symbolic_content>tapesry</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapesri</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb198f1720dffcd364713fffd6e2818f7030d5543867de5ea18de1cb2f3ca8566f0">
-    <crm:P190_has_symbolic_content>tapstre</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapstrə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb3236e24c102d13a5c797ef665a9ec911741cb79112eafc088dabeee77108af415">
-    <crm:P190_has_symbolic_content>tapistrye</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapistrie</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb1ee07bdd9fc4d720b3c69e654fdde2be87c6604a91ee49c2eb4a3cb12e162a53d">
-    <crm:P190_has_symbolic_content>tapestery</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapesteri</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb136a452a529dc8354407199760d19bce464d754b4ae3eb40c2db99d93e196ae11">
-    <crm:P190_has_symbolic_content>tapistre</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapistrə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>verderes withowt</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300205002">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>tapestries</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb2722dd24e33ba74d2e66c63acfb39f83b70c1b41ebd2ee71b4b4790b5b8e98123">
-    <crm:P190_has_symbolic_content>tapistri</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/tapestry">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tapestry (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb1adafd0e05c15b5591dd8d008665255dedef28b33928b1e153bb92bb76bcebd12">
+    <crm:P190_has_symbolic_content>tapstare</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapistri</hector:phoneticKey>
+    <hector:phoneticKey>tapstarə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb2d64ebdbd6fda5a0b39bcdb91df5f74ee13f4896b6dc397ebd991688ddcd650fa">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>County of Flanders</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q157070"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb2e8fef85b434051ddbbe76aa59e033834c62c4a6db51d1e9f377ce3062b3f8f88">
+    <crm:P190_has_symbolic_content>tapystrye</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tapistrie</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb2cdfaf0a0cf213f2057e68269a396ba41d3df3486fa2aae7fdcb193d0c9e12e16">
-    <crm:P190_has_symbolic_content>tapitti</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapiti</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb254a117ec70bf7d4ef2fffc07d41b257852206f011a38f00287038d772580dfcc">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/ell"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb1a9f9a9b41a5db0f543706d28e5a3de68309e4f7f835514001bf638e406a29290">
-    <crm:P190_has_symbolic_content>tapistrie</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapistriː</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb1f7dd7841f4848127c933ec822c327bd26737e9bd8435305cfefb2948284f8f06">
-    <crm:P190_has_symbolic_content>tappestrii</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapestri</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb2a83e6ebae7a2ccd54cb887b6285b723b99c9e6355bc510d1227290b27ae57ad1">
-    <crm:P190_has_symbolic_content>tapetum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapetum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb111f6406411d5148421fcb918b1419f5b4b8043a85f079d37254119c7379d5417">
-    <crm:P190_has_symbolic_content>tapystre</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapistrə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cbbdebc7357ffc698780566c00b241e1ce410e1536a0635e9c1709642a9856b670">
-    <crm:P190_has_symbolic_content>tapecery</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapeseri</hector:phoneticKey>
+  <rdf:Description rdf:nodeID="commodity_tapestry_cb1fa53ae23d0495c2513d1f2544c89f8d6cdfc15351086f4591b9eda8ea47d521d">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>silk</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300243428"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>attested variant</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/tapestry">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>tapestry (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tapestry_cb1e139c432d21afd6498ded09c1626e1ee151f5e1d638b587ef38e0b0ba23aed6a">
-    <crm:P190_has_symbolic_content>tapstrye</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tapstrie</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

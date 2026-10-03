@@ -11,17 +11,17 @@
     rdfs:label "tin" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "stagnum" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "stagnum" ;
+            hector:validFrom "1380"^^xsd:gYear ;
+            hector:validThrough "1553"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "stamin" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "stamin" ;
             hector:validFrom "1507"^^xsd:gYear ;
             hector:validThrough "1508"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "tynne" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "tinə" ;
-            hector:validFrom "1553"^^xsd:gYear ;
-            hector:validThrough "1555"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "stanneum" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -32,12 +32,6 @@
             crm:P190_has_symbolic_content "tyne" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "tinə" ;
-            hector:validFrom "1553"^^xsd:gYear ;
-            hector:validThrough "1555"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "tynn" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "tin" ;
             hector:validFrom "1553"^^xsd:gYear ;
             hector:validThrough "1555"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
@@ -77,22 +71,27 @@
             hector:validFrom "1553"^^xsd:gYear ;
             hector:validThrough "1555"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "tynn" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "tin" ;
+            hector:validFrom "1553"^^xsd:gYear ;
+            hector:validThrough "1555"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "stamen" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "stamen" ;
             hector:validFrom "1507"^^xsd:gYear ;
             hector:validThrough "1508"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "stani" ;
+            crm:P190_has_symbolic_content "tynne" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "stani" ;
+            hector:phoneticKey "tinə" ;
             hector:validFrom "1553"^^xsd:gYear ;
             hector:validThrough "1555"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "tin" ;
-            crm:P2_has_type aat:300404670,
-                hector:AttestedVariant ;
-            hector:phoneticKey "tin" ;
+            crm:P190_has_symbolic_content "stani" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "stani" ;
             hector:validFrom "1553"^^xsd:gYear ;
             hector:validThrough "1555"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
@@ -114,11 +113,12 @@
             hector:validFrom "1553"^^xsd:gYear ;
             hector:validThrough "1555"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "stagnum" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "stagnum" ;
-            hector:validFrom "1380"^^xsd:gYear ;
-            hector:validThrough "1553"^^xsd:gYear ] ;
+            crm:P190_has_symbolic_content "tin" ;
+            crm:P2_has_type aat:300404670,
+                hector:AttestedVariant ;
+            hector:phoneticKey "tin" ;
+            hector:validFrom "1553"^^xsd:gYear ;
+            hector:validThrough "1555"^^xsd:gYear ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "tin, the metal, raw or wrought; imported and exported; including Cornish and Devon tin, cast in bars, rods, shot, or bowls" ;
             crm:P2_has_type aat:300435416 ] ;
@@ -131,7 +131,12 @@
     hector:attestationCount 2021 ;
     hector:taxation <https://w3id.org/hector/commodity/tin#rate-1507-none-309>,
         <https://w3id.org/hector/commodity/tin#rate-1507-none-49>,
-        <https://w3id.org/hector/commodity/tin#rate-1545-inward-723> .
+        <https://w3id.org/hector/commodity/tin#rate-1545-inward-723>,
+        <https://w3id.org/hector/commodity/tin#rate-1545-inward-724>,
+        <https://w3id.org/hector/commodity/tin#rate-1558-inward-1088>,
+        <https://w3id.org/hector/commodity/tin#rate-1558-outward-65>,
+        <https://w3id.org/hector/commodity/tin#rate-1558-outward-67>,
+        <https://w3id.org/hector/commodity/tin#rate-1558-outward-68> .
 
 aat:300133748 a crm:E55_Type ;
     rdfs:label "tin (metal)" .
@@ -154,6 +159,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundredweight> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "glass" ;
+            la:equivalent aat:300010797 ] ;
     hector:sourceText "Book of Rates 1507, line 309 (transcribed by Stuart Jenks): 'Tyne glasse the C wayte' 26s 8d" ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
@@ -167,6 +175,12 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 12 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Corsses" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "corssys" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1507, line 49 (transcribed by Stuart Jenks): 'Corsses called tyne corssys the dossen' 8s" ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
@@ -180,9 +194,90 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 144 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "file" ] ;
     hector:sourceText "Book of Rates 1545, inward, line 723 (transcribed by Stuart Jenks): 'Tynne foyle the groce' 12d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/tin#rate-1545-inward-724> a hector:Rate ;
+    rdfs:label "1545 inward: Tynne glasse the hundreth 40s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "40s" ;
+            hector:valueInPence 480.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "glass" ;
+            la:equivalent aat:300010797 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 724 (transcribed by Stuart Jenks): 'Tynne glasse the hundreth' 40s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/tin#rate-1558-inward-1088> a hector:Rate ;
+    rdfs:label "1558 inward: Tynne glasse þe C conteyninge 112 lb 50s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "50s" ;
+            hector:valueInPence 600.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "glass" ;
+            la:equivalent aat:300010797 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 1088 (transcribed by Stuart Jenks): 'Tynne glasse þe C conteyninge 112 lb' 50s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/tin#rate-1558-outward-65> a hector:Rate ;
+    rdfs:label "1558 outward: Tynne of Devonshyre the C cont’ 112 lb 30s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "30s" ;
+            hector:valueInPence 360.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Devonshyre" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, outward, line 65 (transcribed by Stuart Jenks): 'Tynne of Devonshyre the C cont’ 112 lb' 30s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/tin#rate-1558-outward-67> a hector:Rate ;
+    rdfs:label "1558 outward: Tynne Cornyshe the C cont’ 112 lb 33s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "33s 4d" ;
+            hector:valueInPence 400.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Cornyshe" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, outward, line 67 (transcribed by Stuart Jenks): 'Tynne Cornyshe the C cont’ 112 lb' 33s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/tin#rate-1558-outward-68> a hector:Rate ;
+    rdfs:label "1558 outward: Tynne wrought the C cont’ 112 lb 46s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "46s 8d" ;
+            hector:valueInPence 560.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "worked" ] ;
+    hector:sourceText "Book of Rates 1558, outward, line 68 (transcribed by Stuart Jenks): 'Tynne wrought the C cont’ 112 lb' 46s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/tin-foil> a crm:E55_Type ;
     rdfs:label "tin foil" .
@@ -204,6 +299,12 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/mlca/glossary/tin> a crm:E55_Type ;
     rdfs:label "tin (London Customs Accounts glossary)" .
+
+aat:300010797 a crm:E55_Type ;
+    rdfs:label "glass (material)" .
+
+<https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
+    rdfs:label "hundred" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

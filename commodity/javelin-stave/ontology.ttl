@@ -62,6 +62,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/each> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "without heddes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 596 (transcribed by Stuart Jenks): 'Javelinge staves without heddes the staffe' 6d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .

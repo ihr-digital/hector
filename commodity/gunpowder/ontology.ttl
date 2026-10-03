@@ -11,11 +11,18 @@
     rdfs:label "gunpowder" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "gunne powdir" ;
+            crm:P190_has_symbolic_content "gunpowder" ;
+            crm:P2_has_type aat:300404670,
+                hector:AttestedVariant ;
+            hector:phoneticKey "gunpuːder" ;
+            hector:validFrom "1490"^^xsd:gYear ;
+            hector:validThrough "1492"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "gunne poudir" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "gunə puːdir" ;
-            hector:validFrom "1445"^^xsd:gYear ;
-            hector:validThrough "1446"^^xsd:gYear ],
+            hector:validFrom "1480"^^xsd:gYear ;
+            hector:validThrough "1481"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "gunne pouder" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -23,11 +30,11 @@
             hector:validFrom "1445"^^xsd:gYear ;
             hector:validThrough "1446"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "gunne powder" ;
+            crm:P190_has_symbolic_content "gunpouder" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "gunə puːder" ;
-            hector:validFrom "1472"^^xsd:gYear ;
-            hector:validThrough "1477"^^xsd:gYear ],
+            hector:phoneticKey "gunpuːder" ;
+            hector:validFrom "1519"^^xsd:gYear ;
+            hector:validThrough "1520"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "gon gowne" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -47,11 +54,23 @@
             hector:validFrom "1513"^^xsd:gYear ;
             hector:validThrough "1514"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "gunne powder" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "gunə puːder" ;
+            hector:validFrom "1472"^^xsd:gYear ;
+            hector:validThrough "1477"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "gonpowder" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "gonpuːder" ;
             hector:validFrom "1512"^^xsd:gYear ;
             hector:validThrough "1513"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "gunne powdir" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "gunə puːdir" ;
+            hector:validFrom "1445"^^xsd:gYear ;
+            hector:validThrough "1446"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "gonn powder" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -59,36 +78,17 @@
             hector:validFrom "1512"^^xsd:gYear ;
             hector:validThrough "1513"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "gunpowder" ;
-            crm:P2_has_type aat:300404670,
-                hector:AttestedVariant ;
-            hector:phoneticKey "gunpuːder" ;
-            hector:validFrom "1490"^^xsd:gYear ;
-            hector:validThrough "1492"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "gon gonpouder" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "gon gonpuːder" ;
             hector:validFrom "1513"^^xsd:gYear ;
             hector:validThrough "1514"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "gunne poudir" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "gunə puːdir" ;
-            hector:validFrom "1480"^^xsd:gYear ;
-            hector:validThrough "1481"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "gonne powder" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "gonə puːder" ;
             hector:validFrom "1512"^^xsd:gYear ;
-            hector:validThrough "1513"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "gunpouder" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "gunpuːder" ;
-            hector:validFrom "1519"^^xsd:gYear ;
-            hector:validThrough "1520"^^xsd:gYear ] ;
+            hector:validThrough "1513"^^xsd:gYear ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "Intimate mixture of saltpeter, sulfur, and charcoal, used as a blasting, priming, and propellant explosive. [Source: Getty AAT]" ;
             crm:P2_has_type aat:300435416 ] ;
@@ -97,7 +97,9 @@
         <https://w3id.org/hector/commodity/gun>,
         <https://w3id.org/hector/commodity/pulvis> ;
     la:equivalent aat:300015125 ;
-    hector:attestationCount 49 .
+    hector:attestationCount 49 ;
+    hector:taxation <https://w3id.org/hector/commodity/gunpowder#rate-1558-inward-482>,
+        <https://w3id.org/hector/commodity/gunpowder#rate-1558-inward-483> .
 
 aat:300015125 a crm:E55_Type ;
     rdfs:label "gunpowder" .
@@ -114,11 +116,49 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/hector/commodity/gun> a crm:E55_Type ;
     rdfs:label "gun" .
 
+<https://w3id.org/hector/commodity/gunpowder#rate-1558-inward-482> a hector:Rate ;
+    rdfs:label "1558 inward: Gonne powder voc’ corne powder the C lb. cont’ fyve skore 33s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "33s 4d" ;
+            hector:valueInPence 400.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "corne" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 482 (transcribed by Stuart Jenks): 'Gonne powder voc’ corne powder the C lb. cont’ fyve skore' 33s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/gunpowder#rate-1558-inward-483> a hector:Rate ;
+    rdfs:label "1558 inward: Gonne powder voc’ serpentyne the C lb. cont’ fyve skore 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "serpentyne" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 483 (transcribed by Stuart Jenks): 'Gonne powder voc’ serpentyne the C lb. cont’ fyve skore' 20s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/pulvis> a crm:E55_Type ;
     rdfs:label "pulvis" .
 
 <https://w3id.org/mlca/glossary/gunpowder> a crm:E55_Type ;
     rdfs:label "gunpowder (London Customs Accounts glossary)" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
+<https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
+    rdfs:label "hundred" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

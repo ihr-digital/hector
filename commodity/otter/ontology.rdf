@@ -8,42 +8,15 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_otter_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pane"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_otter_cbae2df8de9fd5a381ea698768bedff0f9b34d2e8d4d1b0ce29edb21965ed80f6d">
-    <crm:P190_has_symbolic_content>oter</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>oter</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/otter#rate-1507-none-199">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/otter#rate-1558-outward-46">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1507: Otter the tymber that ys to saye 40 skynnes to the tymber 40s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_otter_cb300be2901c7519d4a476a7c090cf5d8ffe60babcca38acffe81fd62e141e00488"/>
-    <hector:perQuantity rdf:nodeID="commodity_otter_cb1f7cc1a3d943edbf5e12d145f94bafb9bf7f8dbe68da71da8134ac01375203b7f"/>
-    <hector:sourceText>Book of Rates 1507, line 199 (transcribed by Stuart Jenks): 'Otter the tymber that ys to saye 40 skynnes to the tymber' 40s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_otter_cb214f8453efe7ab7f7d3b67adc6f58646e3990a153d9a1b83c2d0173dd73854f30">
-    <crm:P190_has_symbolic_content>otter</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>oter</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_otter_cb32484ea577e321f83ced1581e0eadad6ef1703a80bf404c47f8209f09367c41ae">
-    <crm:P190_has_symbolic_content>ottres otter</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>otrəs oter</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+    <rdfs:label>1558 outward: Otter wombes the mantell 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_otter_cb31743ad82f3df34df539d7383841edffbbb4ce3d8bd5280dcce831f9c10b00577"/>
+    <hector:perQuantity rdf:nodeID="commodity_otter_cb2851f0531d5d48be0575af8f04d55dbb45e2a5310d030a6ffb80d1f9133d2c7e0"/>
+    <hector:qualifier rdf:nodeID="commodity_otter_cb1e22ce34d3ce8d5516f01000ead35f2ec7000123d6e915c279b619d4bc6c00d30"/>
+    <hector:sourceText>Book of Rates 1558, outward, line 46 (transcribed by Stuart Jenks): 'Otter wombes the mantell' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/otter">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
@@ -71,67 +44,37 @@
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300011811"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</hector:attestationCount>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/otter#rate-1507-none-199"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/otter#rate-1545-inward-530"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/otter#rate-1558-inward-773"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/otter#rate-1558-outward-46"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/otter#rate-1558-outward-47"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/otter#rate-1558-outward-50"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/otter#rate-1558-outward-50">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 outward: Otter skynnes tawed the pece 16d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_otter_cb295869b668ce22cd693ec1086b0acacd5216a5594809381e47607ceff329b4d38"/>
+    <hector:perQuantity rdf:nodeID="commodity_otter_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_otter_cb110dd79af76d331b8b6d12e0acda406d535b23fc72b6d4c72c649b957adaae293"/>
+    <hector:qualifier rdf:nodeID="commodity_otter_cb15e5eaf958317eeca3fbac6017d99fa8ac27d01d9aa5486a1d09b5e1a01c5332f"/>
+    <hector:sourceText>Book of Rates 1558, outward, line 50 (transcribed by Stuart Jenks): 'Otter skynnes tawed the pece' 16d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/otter#rate-1558-outward-47">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 outward: Otter skynnes rawe the pece 12d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_otter_cb326920f67e229590ac01753b582ca2f6097652c02c32f533e711552f792094f5d"/>
+    <hector:perQuantity rdf:nodeID="commodity_otter_cb25aca2519936593a9651fd4d252bac9a0bf8c153bc9ba809b9aa56f34dfeb78cf"/>
+    <hector:qualifier rdf:nodeID="commodity_otter_cb15d5ca244394ccda443aae42f1e988792896a058ec68f83489ed3ee112d63df43"/>
+    <hector:qualifier rdf:nodeID="commodity_otter_cb205830718bf1002bc324f595547a8f9e993b9cfe5e133cf6e2d80c1dab0e3a012"/>
+    <hector:sourceText>Book of Rates 1558, outward, line 47 (transcribed by Stuart Jenks): 'Otter skynnes rawe the pece' 12d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_otter_cb31c5d2e8af05bf86b81ad3fea2a30002c6795672a316f22aacb58d0d7e7c10fde">
-    <crm:P190_has_symbolic_content>otres</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>otrəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/rig-otter">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>rig’ otter</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300011811">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>fur (hair material)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/pane">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>pane</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_otter_cbfdde2f772982d629b799215597ba570eeaad52120e2f7a9cdee4f699e6649807">
-    <crm:P190_has_symbolic_content>de otir</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>de otir</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_otter_cb1d30b62b80dca2b5c2b337e3136b8ef9c584f5e28cc49fa52861f903029de2fb3">
-    <crm:P190_has_symbolic_content>fur of the otter | fur from the belly of an otter | skins of the backs of otters</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_otter_cb153da96ea9dffd8fadcb7c2635b4120e1b648566d8a60fbefd8ef58cedde96c9e">
-    <crm:P190_has_symbolic_content>otters</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>oters</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_otter_cb1f7cc1a3d943edbf5e12d145f94bafb9bf7f8dbe68da71da8134ac01375203b7f">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/timber"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_otter_cb22867353fa1f7730811ed4729bdc68d21d4c5245c0d23eb3005cf7fef1793a177">
-    <crm:P190_has_symbolic_content>otteres otterskyns grett and smale untawyd</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>oterəs oterskins gret and smalə untauid</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_otter_cb1f9c9da481d95325cc3223d84ddcb46dd1374ae75964cb777a0ba70a2e2933fa0">
     <crm:P190_has_symbolic_content>otteres skyns grett and smale untawyd</crm:P190_has_symbolic_content>
@@ -141,23 +84,10 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_otter_cb17a50ab438be4cda2466ed6ed0bda5f8c0abd1ab1d5dd9ebc8047e5b8fd49963b">
-    <crm:P190_has_symbolic_content>de otre</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>de otrə</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_otter_cb38ddcebdc1f6d9d127af3574304a4be7cbd1e37bfe754fda2c3ed45c6af83f4ec">
-    <crm:P190_has_symbolic_content>otre</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>otrə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_otter_cb230aced4d34ce38e4080b80f1682e743baf40a563af2081f568c538a5e99c60ae">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_otter_cb326e2d9a6f52628c21d1e865a7069b13e2fd51a5d8313733f3d9cd5d7a29eae8b">
     <crm:P190_has_symbolic_content>otyres ventribus</crm:P190_has_symbolic_content>
@@ -166,6 +96,115 @@
     <hector:phoneticKey>otirəs ventribus</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cbae2df8de9fd5a381ea698768bedff0f9b34d2e8d4d1b0ce29edb21965ed80f6d">
+    <crm:P190_has_symbolic_content>oter</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>oter</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/rig-otter">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>rig’ otter</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb153da96ea9dffd8fadcb7c2635b4120e1b648566d8a60fbefd8ef58cedde96c9e">
+    <crm:P190_has_symbolic_content>otters</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>oters</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb22867353fa1f7730811ed4729bdc68d21d4c5245c0d23eb3005cf7fef1793a177">
+    <crm:P190_has_symbolic_content>otteres otterskyns grett and smale untawyd</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>oterəs oterskins gret and smalə untauid</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/otter#rate-1545-inward-530">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Otter skynnes the pece 12d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_otter_cb32e09a9fcca21357e305ddb061de6d54e5e961d957924629c91f9f260e07bbdaa"/>
+    <hector:perQuantity rdf:nodeID="commodity_otter_cb230aced4d34ce38e4080b80f1682e743baf40a563af2081f568c538a5e99c60ae"/>
+    <hector:qualifier rdf:nodeID="commodity_otter_cb15c4f9ce1918745a7dafa74900e68aa787a444668bd87d7ade2be3649540f32b9"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 530 (transcribed by Stuart Jenks): 'Otter skynnes the pece' 12d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb295869b668ce22cd693ec1086b0acacd5216a5594809381e47607ceff329b4d38">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>16d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb110dd79af76d331b8b6d12e0acda406d535b23fc72b6d4c72c649b957adaae293">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>skin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb15c4f9ce1918745a7dafa74900e68aa787a444668bd87d7ade2be3649540f32b9">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>skin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb164dd5102150b24c37aae3adfd916f40f35141e7a9b3794d0eba23227a82808f1">
+    <crm:P190_has_symbolic_content>pellis otters skynnys</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>pelis oters skinis</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb31743ad82f3df34df539d7383841edffbbb4ce3d8bd5280dcce831f9c10b00577">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cbfdde2f772982d629b799215597ba570eeaad52120e2f7a9cdee4f699e6649807">
+    <crm:P190_has_symbolic_content>de otir</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>de otir</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb14b1bda9b6095b6fe2f0c5c70130106313bbb0722b57dabbfb17406e8ff8ac85e">
+    <crm:P190_has_symbolic_content>de otter</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>de oter</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb25f643c5cc2436e7b53fe27a4df03e88439583f28f80f853edab166420bec0b8b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb32e09a9fcca21357e305ddb061de6d54e5e961d957924629c91f9f260e07bbdaa">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>12d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb20967be6fd4620fa1f8fb7f09e96a5606a5b8bf3b8ff10bce9b0563e8d2c80d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb1f7cc1a3d943edbf5e12d145f94bafb9bf7f8dbe68da71da8134ac01375203b7f">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/timber"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb214f8453efe7ab7f7d3b67adc6f58646e3990a153d9a1b83c2d0173dd73854f30">
+    <crm:P190_has_symbolic_content>otter</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>oter</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300221288">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>unfinished</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_otter_cb284297207c7c43e5de349911d4f6e4b1fc5b713b84962d3a0d2c55c716ab19ce5">
     <crm:P190_has_symbolic_content>ottres skynnes</crm:P190_has_symbolic_content>
@@ -181,9 +220,109 @@
     <hector:lsd>40s</hector:lsd>
     <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pecia">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pecia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb17a50ab438be4cda2466ed6ed0bda5f8c0abd1ab1d5dd9ebc8047e5b8fd49963b">
+    <crm:P190_has_symbolic_content>de otre</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>de otrə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb1d30b62b80dca2b5c2b337e3136b8ef9c584f5e28cc49fa52861f903029de2fb3">
+    <crm:P190_has_symbolic_content>fur of the otter | fur from the belly of an otter | skins of the backs of otters</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/otter#rate-1558-inward-773">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Otter skynnes the pece 2s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_otter_cb25f643c5cc2436e7b53fe27a4df03e88439583f28f80f853edab166420bec0b8b"/>
+    <hector:perQuantity rdf:nodeID="commodity_otter_cb20967be6fd4620fa1f8fb7f09e96a5606a5b8bf3b8ff10bce9b0563e8d2c80d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_otter_cb1d66cd108b3236d7e5379ab1f4b03245455b66f34623e9d47e54fb85ba9aa7b3c"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 773 (transcribed by Stuart Jenks): 'Otter skynnes the pece' 2s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/otter#rate-1507-none-199">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Otter the tymber that ys to saye 40 skynnes to the tymber 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_otter_cb300be2901c7519d4a476a7c090cf5d8ffe60babcca38acffe81fd62e141e00488"/>
+    <hector:perQuantity rdf:nodeID="commodity_otter_cb1f7cc1a3d943edbf5e12d145f94bafb9bf7f8dbe68da71da8134ac01375203b7f"/>
+    <hector:sourceText>Book of Rates 1507, line 199 (transcribed by Stuart Jenks): 'Otter the tymber that ys to saye 40 skynnes to the tymber' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb25aca2519936593a9651fd4d252bac9a0bf8c153bc9ba809b9aa56f34dfeb78cf">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb15d5ca244394ccda443aae42f1e988792896a058ec68f83489ed3ee112d63df43">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>skin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb32484ea577e321f83ced1581e0eadad6ef1703a80bf404c47f8209f09367c41ae">
+    <crm:P190_has_symbolic_content>ottres otter</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>otrəs oter</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb205830718bf1002bc324f595547a8f9e993b9cfe5e133cf6e2d80c1dab0e3a012">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>raw</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300221288"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb38ddcebdc1f6d9d127af3574304a4be7cbd1e37bfe754fda2c3ed45c6af83f4ec">
+    <crm:P190_has_symbolic_content>otre</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>otrə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb31c5d2e8af05bf86b81ad3fea2a30002c6795672a316f22aacb58d0d7e7c10fde">
+    <crm:P190_has_symbolic_content>otres</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>otrəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb2851f0531d5d48be0575af8f04d55dbb45e2a5310d030a6ffb80d1f9133d2c7e0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pane"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb326920f67e229590ac01753b582ca2f6097652c02c32f533e711552f792094f5d">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>12d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/otter">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>otter (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pane">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pane</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb1e22ce34d3ce8d5516f01000ead35f2ec7000123d6e915c279b619d4bc6c00d30">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>womb</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_otter_cbc4cd7524c51be6815c5c31d12dcec1c7c872a0033664d52b91c87d0b2fa86f66">
     <crm:P190_has_symbolic_content>otyr</crm:P190_has_symbolic_content>
@@ -191,43 +330,33 @@
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>otir</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/otter#rate-1558-outward-46">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 outward: Otter wombes the mantell 10s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_otter_cb26a75508829d013cce5bc1b2db191d24f5a023296a1de6f76144df9196dc83438"/>
-    <hector:perQuantity rdf:nodeID="commodity_otter_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
-    <hector:sourceText>Book of Rates 1558, outward, line 46 (transcribed by Stuart Jenks): 'Otter wombes the mantell' 10s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/otter">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300011811">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>otter (London Customs Accounts glossary)</rdfs:label>
+    <rdfs:label>fur (hair material)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_otter_cb26a75508829d013cce5bc1b2db191d24f5a023296a1de6f76144df9196dc83438">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>10s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  <rdf:Description rdf:nodeID="commodity_otter_cb1d66cd108b3236d7e5379ab1f4b03245455b66f34623e9d47e54fb85ba9aa7b3c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>skin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_otter_cb15e5eaf958317eeca3fbac6017d99fa8ac27d01d9aa5486a1d09b5e1a01c5332f">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tawed</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300395532">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>pelts (animal skins)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_otter_cb14b1bda9b6095b6fe2f0c5c70130106313bbb0722b57dabbfb17406e8ff8ac85e">
-    <crm:P190_has_symbolic_content>de otter</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>de oter</hector:phoneticKey>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/unit/timber">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
     <rdfs:label>timber</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_otter_cb164dd5102150b24c37aae3adfd916f40f35141e7a9b3794d0eba23227a82808f1">
-    <crm:P190_has_symbolic_content>pellis otters skynnys</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pelis oters skinis</hector:phoneticKey>
   </rdf:Description>
 </rdf:RDF>

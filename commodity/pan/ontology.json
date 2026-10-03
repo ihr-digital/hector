@@ -256,7 +256,31 @@
       },
       "validFrom": "1507",
       "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 66 (transcribed by Stuart Jenks): 'Droppyn pans of yerne the C wyte' 10s"
+      "sourceText": "Book of Rates 1507, line 66 (transcribed by Stuart Jenks): 'Droppyn pans of yerne the C wyte' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Droppyn",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "yerne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/pan#rate-1558-inward-1152",
@@ -283,7 +307,31 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 1152 (transcribed by Stuart Jenks): 'Warmynge pannes or bedde pannes the dossyn' 30s"
+      "sourceText": "Book of Rates 1558, inward, line 1152 (transcribed by Stuart Jenks): 'Warmynge pannes or bedde pannes the dossyn' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Warmynge",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "bedde",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

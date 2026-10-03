@@ -583,5 +583,430 @@
     }
   ],
   "attestationCount": 1366,
-  "modified": "2026-10-03"
+  "modified": "2026-10-03",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/velvet#rate-1507-none-322",
+      "type": "Rate",
+      "_label": "1507: Velvettes of all manner colors save ryght crymson þe yard 7s 6d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "90",
+        "lsd": "7s 6d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 322 (transcribed by Stuart Jenks): 'Velvettes of all manner colors save ryght crymson þe yard' 7s 6d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "colors save ryght",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "crimson",
+          "equivalent": [
+            {
+              "id": "aat:300311345",
+              "type": "Type",
+              "_label": "crimson (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/velvet#rate-1507-none-323",
+      "type": "Rate",
+      "_label": "1507: Vellvett called ryght crymsen þe yard 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 323 (transcribed by Stuart Jenks): 'Vellvett called ryght crymsen þe yard' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "ryght",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "crimson",
+          "equivalent": [
+            {
+              "id": "aat:300311345",
+              "type": "Type",
+              "_label": "crimson (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/velvet#rate-1545-inward-766",
+      "type": "Rate",
+      "_label": "1545 inward: Velvet ryght crymysyn in graine the yarde 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 766 (transcribed by Stuart Jenks): 'Velvet ryght crymysyn in graine the yarde' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "ryght crymysyn in graine",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/velvet#rate-1545-inward-767",
+      "type": "Rate",
+      "_label": "1545 inward: Velvette of all collors out of grayne the yarde 7s 6d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "90",
+        "lsd": "7s 6d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 767 (transcribed by Stuart Jenks): 'Velvette of all collors out of grayne the yarde' 7s 6d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "dye"
+        },
+        {
+          "type": "Type",
+          "_label": "out of grayne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/velvet#rate-1545-inward-774",
+      "type": "Rate",
+      "_label": "1545 inward: Velvet bagges small the dossen 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 774 (transcribed by Stuart Jenks): 'Velvet bagges small the dossen' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "small",
+          "equivalent": [
+            {
+              "id": "aat:300073768",
+              "type": "Type",
+              "_label": "small"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/velvet#rate-1545-inward-775",
+      "type": "Rate",
+      "_label": "1545 inward: Velvet bagges great the dossen 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 775 (transcribed by Stuart Jenks): 'Velvet bagges great the dossen' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "large",
+          "equivalent": [
+            {
+              "id": "aat:300073756",
+              "type": "Type",
+              "_label": "large"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/velvet#rate-1558-inward-1110",
+      "type": "Rate",
+      "_label": "1558 inward: Touche boxes covered with velvet the dosen 8s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "96",
+        "lsd": "8s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1110 (transcribed by Stuart Jenks): 'Touche boxes covered with velvet the dosen' 8s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Touche",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "covered"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/velvet#rate-1558-inward-905",
+      "type": "Rate",
+      "_label": "1558 inward: Rapers blacke with velvett sheathes the dosen £4",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "960",
+        "lsd": "£4"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 905 (transcribed by Stuart Jenks): 'Rapers blacke with velvett sheathes the dosen' £4",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Rapers",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "black",
+          "equivalent": [
+            {
+              "id": "aat:300130920",
+              "type": "Type",
+              "_label": "black (color)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "sheathes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/velvet#rate-1558-inward-906",
+      "type": "Rate",
+      "_label": "1558 inward: Rapers gilte with velvett sheathes the dossen £8",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "1920",
+        "lsd": "£8"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 906 (transcribed by Stuart Jenks): 'Rapers gilte with velvett sheathes the dossen' £8",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Rapers gilte",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "sheathes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

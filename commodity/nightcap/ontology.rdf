@@ -3,128 +3,22 @@
    xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
    xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:hector="https://w3id.org/hector/ontology#"
+   xmlns:la="https://linked.art/ns/terms/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_nightcap_cbaa8a214a6de3c60f1a6c65e994b873c6e2bed8930d690b7b83fcdfdbfc282c3f">
-    <crm:P190_has_symbolic_content>night cap | unlined night cap | night-cap (see also cappa pro noctibus)</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nightcap_cb1d9dbaf642b35f100696c89038c3b9c811d64d08100e56c60912ab9967c87e17d">
-    <crm:P190_has_symbolic_content>night cappe</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>nixt kapə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/nightcap">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb128a2e74635e0f982db44655d5ed96603beb673170f8720cedfc837bbfaa903fe"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb14031378f34ab3359acf4ae279bc598f6ae1eedb3d51d50da408c49bf280d503a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb16c18e53ef582908f76bc32bc3f3df5c18aae5a5eac41d41f2995228763182b09"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb170979956b0982ab34c53be2e764e2f62778968ce42fb460ce840616b3fd7cfd0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb17a4a0577e666f83726518d7bebdf2e106810e0afecf4a1efe140ad2cc40092b1"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb17b802f29971ec42513bb73a651cf37316a5180663c7b647111bf4576fd705ec7"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb1848fabcb6efc07bb093b3a9a793432b5fc83533aa0cb276d2e1d8e86f81eed90"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb1865e981cf78cd4e248e7f1d059702f487649dc1faf85a226cc63d1799b7813d4"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb18727f4ea9e5630589e3476c544edc2338c1e6727060cbb35a8337160bc6706b9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb18de984f5f7d589cc69e16865cd91523e366d3c42ab41235f11f49d12733bc3a5"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb19811adb25ee332e9238bf4f60eaa03bb55eb5afc86f99fb36f817ca2bb910262"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb1d9dbaf642b35f100696c89038c3b9c811d64d08100e56c60912ab9967c87e17d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb2145c2d24f809c4dff7bcbb9b5b9b14ba93f2d5f2fdeac4b28ff720b4a3593f2b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb239231e9f1ef36a6ef9b0a3366ba94ede7497dd202ece853ce7d569bcad6c4027"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cbe2e550bd26983cdf96f99b40abd9348796ac795ce7c2ca95b977f971b3a9b4a4"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cbee74ee851bd6e55a1cf85aa7e165b44bf4d63a23dc5a98b898876d07690baf58"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_nightcap_cbaa8a214a6de3c60f1a6c65e994b873c6e2bed8930d690b7b83fcdfdbfc282c3f"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>nightcap</rdfs:label>
-    <skos:broader rdf:resource="http://vocab.getty.edu/aat/300046094"/>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/nightcap"/>
-    <skos:related rdf:resource="https://w3id.org/hector/commodity/nyght-coyve"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</hector:attestationCount>
-    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/nightcap#rate-1545-inward-493"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nightcap_cb19811adb25ee332e9238bf4f60eaa03bb55eb5afc86f99fb36f817ca2bb910262">
-    <crm:P190_has_symbolic_content>nyghtcaps</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>nixtkaps</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/nightcap#rate-1545-inward-493">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/nightcap#rate-1558-inward-746">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Night cappes the dossen 6s 8d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_nightcap_cbfd914665f466c23e4f3983804bc7fba7d997b4177e904a6c4784a0430f9a0371"/>
-    <hector:perQuantity rdf:nodeID="commodity_nightcap_cb368438ac5b64f6a74d55450fed76c89d095feefafcdff9b740f6542b1fa254d7"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 493 (transcribed by Stuart Jenks): 'Night cappes the dossen' 6s 8d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+    <rdfs:label>1558 inward: Night cappes of satten the dosen 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_nightcap_cb31a063e784daa62fd4b013d29b81a1036a5e212cb9201ea95ea0a4c4fa6b3345c"/>
+    <hector:perQuantity rdf:nodeID="commodity_nightcap_cb13b76574608ebc3ea2070b0965e11fa7714e24ef063d32f2c93624168032496c1"/>
+    <hector:qualifier rdf:nodeID="commodity_nightcap_cb25b366fff2ed754ca9048711bccd4e4d3a607822f5f57c1034a1e5297421de207"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 746 (transcribed by Stuart Jenks): 'Night cappes of satten the dosen' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>dozen</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nightcap_cb18727f4ea9e5630589e3476c544edc2338c1e6727060cbb35a8337160bc6706b9">
-    <crm:P190_has_symbolic_content>night cappes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>nixt kapəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nightcap_cb1865e981cf78cd4e248e7f1d059702f487649dc1faf85a226cc63d1799b7813d4">
-    <crm:P190_has_symbolic_content>nyght cappa</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>nixt kapa</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nightcap_cb1848fabcb6efc07bb093b3a9a793432b5fc83533aa0cb276d2e1d8e86f81eed90">
-    <crm:P190_has_symbolic_content>nyghtcappe</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>nixtkapə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nightcap_cbe2e550bd26983cdf96f99b40abd9348796ac795ce7c2ca95b977f971b3a9b4a4">
-    <crm:P190_has_symbolic_content>nyghtcappes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>nixtkapəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nightcap_cb239231e9f1ef36a6ef9b0a3366ba94ede7497dd202ece853ce7d569bcad6c4027">
-    <crm:P190_has_symbolic_content>night capp</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>nixt kap</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nightcap_cb17a4a0577e666f83726518d7bebdf2e106810e0afecf4a1efe140ad2cc40092b1">
-    <crm:P190_has_symbolic_content>nyghtcap</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>nixtkap</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nightcap_cb17b802f29971ec42513bb73a651cf37316a5180663c7b647111bf4576fd705ec7">
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb1bc771cfe5b96e7060c3df83524679ca0efef3fc08bb6f88142f9188e2a0d16da">
     <crm:P190_has_symbolic_content>nygth cappe</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -132,28 +26,81 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nightcap_cbfd914665f466c23e4f3983804bc7fba7d997b4177e904a6c4784a0430f9a0371">
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb32cafa9bf1e454f0ed8ba9011ff2548ab3aa3fef76c2038c483edab660c0073ab">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb2a2f26b50485f5c7642e0fe984fd1ae83b9b23bceaaadbc5618de9843c6b2ffc8">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
     <hector:lsd>6s 8d</hector:lsd>
     <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nightcap_cb14031378f34ab3359acf4ae279bc598f6ae1eedb3d51d50da408c49bf280d503a">
-    <crm:P190_has_symbolic_content>nightcap</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb1f71018c615bf09a5bf209fd0b3f0778f8bd40b74cac7d6d0d3716801e69fa0f8">
+    <crm:P190_has_symbolic_content>nyghtcaps</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>nixtkaps</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300243428">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>silk (textile)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb296e0ce85d4c7efe161a0af4a18600ae0638334bf4c87a61ba078201560e8ec18">
+    <crm:P190_has_symbolic_content>nyghtcap</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>nixtkap</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nightcap_cb2145c2d24f809c4dff7bcbb9b5b9b14ba93f2d5f2fdeac4b28ff720b4a3593f2b">
-    <crm:P190_has_symbolic_content>nyght cappe</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>nixt kapə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb1042aaf59a70c5a7d84753d6a7e196574e596d2a1f9043d998628b9b9d4cec1a9">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nightcap_cb18de984f5f7d589cc69e16865cd91523e366d3c42ab41235f11f49d12733bc3a5">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/nightcap">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb1362f080ad836d891d9cfe23b2022c4e5c53ad9140b1432d786c65bf1db2f81e9"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb19f39f623bd5cd8a12ffcbea6c1adf74a2e06ffeeefeb8784e85d1c570ba74a94"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb1a63929ec717fe6917fd219d3e11eb35c2c5d13c9aa127ff7e573d5e1dfbe4842"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb1bc771cfe5b96e7060c3df83524679ca0efef3fc08bb6f88142f9188e2a0d16da"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb1d8f63a1792f88eae57748842756a30c028e12830d2c70e60f76d146d03293302"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb1f71018c615bf09a5bf209fd0b3f0778f8bd40b74cac7d6d0d3716801e69fa0f8"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb1f8ece465fe5fa7394b0a2c12286c8da9bda37d23a4eb3122ce6b1e179fdf2306"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb1fee0ec334a2d504a7b2a174d5f0d609993026ddebf286b8fc5db3d5bf5f8d500"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb212ac1afc35e1cac3050a3567a535d3a6bb6942aab35a4949e8bd771865167a9a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb2422ec24eee08ca27774ff9aba2adbfff1cee14e4e281937a915bffcdd67b5ee5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb2491f9b473947fe9ccd87a6c3356f7ec4ba63d13e1a9c2e56584ef9d894254fc2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb250c336f5e7c1f52412485a982036b8205faabb1afd812af6565fee51bc10ff97"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb2583453a0f21d20a7db4e464507da400714d689c2d2d449ff2515ce3dd0c381b0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb278eeb0c31616b97f9d1256887322e10c9d0564f2016a10c2c886ec27169e7456"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb286f46cf4cdd3b54b68fb75b425300c146b31e4bf739b7b4a3ebe858aaf7e4716"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_nightcap_cb296e0ce85d4c7efe161a0af4a18600ae0638334bf4c87a61ba078201560e8ec18"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_nightcap_cb1a8022816e8f0ba7aa2648c46faf2f56e24cdd04e8193e71db086096fe9153a57"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>nightcap</rdfs:label>
+    <skos:broader rdf:resource="http://vocab.getty.edu/aat/300046094"/>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/nightcap"/>
+    <skos:related rdf:resource="https://w3id.org/hector/commodity/nyght-coyve"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/nightcap#rate-1545-inward-493"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/nightcap#rate-1545-inward-494"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/nightcap#rate-1558-inward-739"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/nightcap#rate-1558-inward-745"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/nightcap#rate-1558-inward-746"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/nightcap#rate-1558-inward-747"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/nightcap#rate-1558-inward-748"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb2422ec24eee08ca27774ff9aba2adbfff1cee14e4e281937a915bffcdd67b5ee5">
     <crm:P190_has_symbolic_content>nygth cappes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -161,40 +108,97 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/nightcap#rate-1545-inward-494">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Night cappes of skarlet the dossen 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_nightcap_cb2be88fecf379fb6bcc96176f268a0652d6a7c6d9033223f7031b6145d9585e9ed"/>
+    <hector:perQuantity rdf:nodeID="commodity_nightcap_cb1c104da19bc0401581f59771c72e1c94213a479c4dc72c6a8137c5e2030613bcd"/>
+    <hector:qualifier rdf:nodeID="commodity_nightcap_cb1b002d25c6e2583dae25fb91e2eccef600ea5c8a4091664967687ccdcb12c7858"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 494 (transcribed by Stuart Jenks): 'Night cappes of skarlet the dossen' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nightcap_cb368438ac5b64f6a74d55450fed76c89d095feefafcdff9b740f6542b1fa254d7">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/nyght-coyve">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>nyght coyve</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb1a63929ec717fe6917fd219d3e11eb35c2c5d13c9aa127ff7e573d5e1dfbe4842">
+    <crm:P190_has_symbolic_content>night cappes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>nixt kapəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nightcap_cbee74ee851bd6e55a1cf85aa7e165b44bf4d63a23dc5a98b898876d07690baf58">
-    <crm:P190_has_symbolic_content>nyght cap</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb286f46cf4cdd3b54b68fb75b425300c146b31e4bf739b7b4a3ebe858aaf7e4716">
+    <crm:P190_has_symbolic_content>nyghtcappes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>nixt kap</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+    <hector:phoneticKey>nixtkapəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/nightcap#rate-1558-inward-748">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Night cappes of lynnen the dosen 4s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_nightcap_cb1c301b00b2d6846777a00721b2ec09fb6b3b98dc402a3f1d783c3ae5dba7ee785"/>
+    <hector:perQuantity rdf:nodeID="commodity_nightcap_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_nightcap_cb128db862969863f51dd11baa446504309f13f488c346412106b23617a6465cec3"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 748 (transcribed by Stuart Jenks): 'Night cappes of lynnen the dosen' 4s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nightcap_cb128a2e74635e0f982db44655d5ed96603beb673170f8720cedfc837bbfaa903fe">
-    <crm:P190_has_symbolic_content>nyght caps</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb278eeb0c31616b97f9d1256887322e10c9d0564f2016a10c2c886ec27169e7456">
+    <crm:P190_has_symbolic_content>nyght cappe</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>nixt kaps</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+    <hector:phoneticKey>nixt kapə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/nightcap">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/nightcap#rate-1558-inward-745">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Night cappes of vellet the dosen 30s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_nightcap_cb235412f1b196767a36255b3a22c98380ccddff2f0d1d74a229e8ce0c1ce3dd320"/>
+    <hector:perQuantity rdf:nodeID="commodity_nightcap_cb1d1d72680db65b0ca89b78cc25dbc8730f73a8409fb52803ea97b6d3249d2fb62"/>
+    <hector:qualifier rdf:nodeID="commodity_nightcap_cb1b2dad87b98f119a281aa19400588aa417954e59228ea92989465648fd7a7344d"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 745 (transcribed by Stuart Jenks): 'Night cappes of vellet the dosen' 30s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb25b366fff2ed754ca9048711bccd4e4d3a607822f5f57c1034a1e5297421de207">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>nightcap (London Customs Accounts glossary)</rdfs:label>
+    <rdfs:label>satten</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nightcap_cb16c18e53ef582908f76bc32bc3f3df5c18aae5a5eac41d41f2995228763182b09">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/nightcap#rate-1558-inward-739">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Night cappes of wollen the dosen 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_nightcap_cb2a191269ba4cbb8366997cfc6df8e6a920e4e70a48a590c9f2229728cf2120c26"/>
+    <hector:perQuantity rdf:nodeID="commodity_nightcap_cb1190f002eaea16619dd7bbda51017454b162509ff469190de6dade796e65c6a01"/>
+    <hector:qualifier rdf:nodeID="commodity_nightcap_cb2aff18f10d9c2d0cbacfdeed454e0eb5140ee3dc1b1af2dd6413ae21ad5b82ba7"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 739 (transcribed by Stuart Jenks): 'Night cappes of wollen the dosen' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb19f39f623bd5cd8a12ffcbea6c1adf74a2e06ffeeefeb8784e85d1c570ba74a94">
+    <crm:P190_has_symbolic_content>nightcap</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>nixtkap</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb1b002d25c6e2583dae25fb91e2eccef600ea5c8a4091664967687ccdcb12c7858">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>scarlet</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300126225"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb2491f9b473947fe9ccd87a6c3356f7ec4ba63d13e1a9c2e56584ef9d894254fc2">
     <crm:P190_has_symbolic_content>nyght cappes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -202,7 +206,22 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nightcap_cb170979956b0982ab34c53be2e764e2f62778968ce42fb460ce840616b3fd7cfd0">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300243430">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>wool (textile)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/nightcap#rate-1558-inward-747">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Night cappes knyt of sylk the dosen 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_nightcap_cb32cafa9bf1e454f0ed8ba9011ff2548ab3aa3fef76c2038c483edab660c0073ab"/>
+    <hector:perQuantity rdf:nodeID="commodity_nightcap_cb1042aaf59a70c5a7d84753d6a7e196574e596d2a1f9043d998628b9b9d4cec1a9"/>
+    <hector:qualifier rdf:nodeID="commodity_nightcap_cb1f8853b0a8995dfca3eb5f22db6e38abf2d2520772bce5a9d82f6e2a33363377a"/>
+    <hector:qualifier rdf:nodeID="commodity_nightcap_cb26c9714ba4dfed3e4762d35e0c817ebd4ec21a9618bc2634e11efb8870b34bfbb"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 747 (transcribed by Stuart Jenks): 'Night cappes knyt of sylk the dosen' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb250c336f5e7c1f52412485a982036b8205faabb1afd812af6565fee51bc10ff97">
     <crm:P190_has_symbolic_content>nyght cappae</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -210,12 +229,177 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb2583453a0f21d20a7db4e464507da400714d689c2d2d449ff2515ce3dd0c381b0">
+    <crm:P190_has_symbolic_content>night capp</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>nixt kap</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300126225">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>red (color)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb13b76574608ebc3ea2070b0965e11fa7714e24ef063d32f2c93624168032496c1">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb1d8f63a1792f88eae57748842756a30c028e12830d2c70e60f76d146d03293302">
+    <crm:P190_has_symbolic_content>nyght caps</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>nixt kaps</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb2be88fecf379fb6bcc96176f268a0652d6a7c6d9033223f7031b6145d9585e9ed">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb31a063e784daa62fd4b013d29b81a1036a5e212cb9201ea95ea0a4c4fa6b3345c">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb1362f080ad836d891d9cfe23b2022c4e5c53ad9140b1432d786c65bf1db2f81e9">
+    <crm:P190_has_symbolic_content>nyght cap</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>nixt kap</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/nightcap">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>nightcap (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb1c104da19bc0401581f59771c72e1c94213a479c4dc72c6a8137c5e2030613bcd">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb1a8022816e8f0ba7aa2648c46faf2f56e24cdd04e8193e71db086096fe9153a57">
+    <crm:P190_has_symbolic_content>night cap | unlined night cap | night-cap (see also cappa pro noctibus)</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb1fee0ec334a2d504a7b2a174d5f0d609993026ddebf286b8fc5db3d5bf5f8d500">
+    <crm:P190_has_symbolic_content>nyght cappa</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>nixt kapa</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb2aff18f10d9c2d0cbacfdeed454e0eb5140ee3dc1b1af2dd6413ae21ad5b82ba7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>wool</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300243430"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb1b2dad87b98f119a281aa19400588aa417954e59228ea92989465648fd7a7344d">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>velvet</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300133711"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb1190f002eaea16619dd7bbda51017454b162509ff469190de6dade796e65c6a01">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb1f8ece465fe5fa7394b0a2c12286c8da9bda37d23a4eb3122ce6b1e179fdf2306">
+    <crm:P190_has_symbolic_content>night cappe</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>nixt kapə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb1d1d72680db65b0ca89b78cc25dbc8730f73a8409fb52803ea97b6d3249d2fb62">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb1c301b00b2d6846777a00721b2ec09fb6b3b98dc402a3f1d783c3ae5dba7ee785">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb10569f7292e0e4f7656682d0ce2c4b60f0cc431720d9563491e7668064648da60">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb128db862969863f51dd11baa446504309f13f488c346412106b23617a6465cec3">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>lynnen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb212ac1afc35e1cac3050a3567a535d3a6bb6942aab35a4949e8bd771865167a9a">
+    <crm:P190_has_symbolic_content>nyghtcappe</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>nixtkapə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/nightcap#rate-1545-inward-493">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Night cappes the dossen 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_nightcap_cb2a2f26b50485f5c7642e0fe984fd1ae83b9b23bceaaadbc5618de9843c6b2ffc8"/>
+    <hector:perQuantity rdf:nodeID="commodity_nightcap_cb10569f7292e0e4f7656682d0ce2c4b60f0cc431720d9563491e7668064648da60"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 493 (transcribed by Stuart Jenks): 'Night cappes the dossen' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb2a191269ba4cbb8366997cfc6df8e6a920e4e70a48a590c9f2229728cf2120c26">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb1f8853b0a8995dfca3eb5f22db6e38abf2d2520772bce5a9d82f6e2a33363377a">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>silk</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300243428"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300133711">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>velvet (fabric weave)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb235412f1b196767a36255b3a22c98380ccddff2f0d1d74a229e8ce0c1ce3dd320">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>30s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
+  </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300046094">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>caps (headgear)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/nyght-coyve">
+  <rdf:Description rdf:nodeID="commodity_nightcap_cb26c9714ba4dfed3e4762d35e0c817ebd4ec21a9618bc2634e11efb8870b34bfbb">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>nyght coyve</rdfs:label>
+    <rdfs:label>knitted</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

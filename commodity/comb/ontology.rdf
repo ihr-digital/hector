@@ -8,58 +8,24 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/comb#rate-1558-inward-235">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/comb#rate-1558-inward-233">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Combes the boxe cont’ di’ grosse 5s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_comb_cb22fca5254808429f9a4667b09b6ff828b12cb8a3ad66f75b1e2809154aa8813b0"/>
-    <hector:perQuantity rdf:nodeID="commodity_comb_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 235 (transcribed by Stuart Jenks): 'Combes the boxe cont’ di’ grosse' 5s</hector:sourceText>
+    <rdfs:label>1558 inward: Combes the grosse 5s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_comb_cb2a2c6c0c8b0112ae837cb20a413ec996076d0170b358780693e0adae42e3771e9"/>
+    <hector:perQuantity rdf:nodeID="commodity_comb_cb1b6531c5fece3009505fbfafc70d828a95a7c990d05e8d77b67e1e8bea6bd72b2"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 233 (transcribed by Stuart Jenks): 'Combes the grosse' 5s</hector:sourceText>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb2398d6e28dc5564f171529bf85a7aaaa1068aed962fe3ed6c3f25054ab52068e6">
-    <crm:P190_has_symbolic_content>comebes</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_comb_cb245a221ba081377bf5d7a86df44979d371e83f853d02d2647a33f875c8286bf54">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>komebəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb256798271126637e735545bbdd1dbced297fe82d9983e2053e3510cbed66f3195">
-    <crm:P190_has_symbolic_content>comb</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>komb</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb20f3416897988c23d5010eab03dd742664c1c02ac1a8923d2f1b213babb848631">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>4s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
+    <rdfs:label>doble</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/comb#rate-1558-inward-234">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Combes the case 20s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_comb_cb3f2fafb9ecaf5d7adde379a335dc3587c40ff1aef5e9ffcc78c7b1f32058dc9b2"/>
-    <hector:perQuantity rdf:nodeID="commodity_comb_cb29507b799fdfe4033155c3e84e615b167f33c5e4f621a7969a8bfdadd4416c4d9"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 234 (transcribed by Stuart Jenks): 'Combes the case' 20s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb28210246f321fca9c5fea4fde4740fff6a0499599a138542f4f659a8d97401915">
-    <crm:P190_has_symbolic_content>combys</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kombis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_comb_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/bale"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/comb">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
@@ -94,71 +60,123 @@
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">988</hector:attestationCount>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/comb#rate-1545-inward-156"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/comb#rate-1545-inward-157"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/comb#rate-1545-inward-158"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/comb#rate-1545-inward-159"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/comb#rate-1545-inward-160"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/comb#rate-1545-inward-161"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/comb#rate-1545-inward-226"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/comb#rate-1545-inward-507"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/comb#rate-1558-inward-233"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/comb#rate-1558-inward-234"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/comb#rate-1558-inward-235"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/comb#rate-1558-inward-236"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/comb#rate-1558-inward-237"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/comb#rate-1558-inward-307"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/comb#rate-1558-inward-311"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/comb#rate-1558-inward-737"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb1c54378396a82017617e94f0595175a6a6f552e2bdb844cb3aab8756442a3929e">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/box"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb1b61271328d771002a286c76221d18627f74e05a1a8f275e14aeee02a37a98600">
-    <crm:P190_has_symbolic_content>come</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>komə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/comb#rate-1545-inward-159">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Combes the box 4s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_comb_cb21a2581a03376474c7e42080e9decce604c4b537420bafd4f1f2511bbbee237c7"/>
-    <hector:perQuantity rdf:nodeID="commodity_comb_cb1c54378396a82017617e94f0595175a6a6f552e2bdb844cb3aab8756442a3929e"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 159 (transcribed by Stuart Jenks): 'Combes the box' 4s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb10f7f6a439c17ce723be07efe8d986d721ffc8e54f849b8fc3e7cad8d16f5f55f">
-    <crm:P190_has_symbolic_content>pectenum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pektenum</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
+    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb1f88bbe626d176d752412f8763643d2aa3953e3bd7fd59e0de7d42ff31e1908e7">
-    <crm:P190_has_symbolic_content>combes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kombəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb91772e59a2118b71e98c033a64d532653958542e5718e8c869001e2a47b28b17">
-    <crm:P190_has_symbolic_content>kombes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kombəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb18fa7c52ca7824489402745dc7cb187c61d06cdca84d1aace6c26e16c01ff5fd7">
-    <crm:P190_has_symbolic_content>combis</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_comb_cb28210246f321fca9c5fea4fde4740fff6a0499599a138542f4f659a8d97401915">
+    <crm:P190_has_symbolic_content>combys</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>kombis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/box"/>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/comb#rate-1545-inward-158">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Combes smale the groce 2s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_comb_cb32f3dd768e4fffe05992a9719059f60b6af712f2f06a538be6396b201aa099286"/>
+    <hector:perQuantity rdf:nodeID="commodity_comb_cb10d948a740e9cf1e5e65e9238f34cac44f379e2870d08dcf2ede974987fd39280"/>
+    <hector:qualifier rdf:nodeID="commodity_comb_cb2a19b7e5f8df5ad637c6a268765e4be9c5520e75d3cc6b0aec2939303217a49dd"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 158 (transcribed by Stuart Jenks): 'Combes smale the groce' 2s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hatchel">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>hatchel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/comb#rate-1558-inward-311">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Combes of horne for barbors the dossen 12d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_comb_cb280655fe811943cec1bc3df3d66dc8cbba9f92f8c4fe9c961047c80684170059e"/>
+    <hector:perQuantity rdf:nodeID="commodity_comb_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_comb_cb12fcb2e59baa315ac7da229548924908519289387b69a6de845c1fa8e1afafb1b"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 311 (transcribed by Stuart Jenks): 'Combes of horne for barbors the dossen' 12d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cbef5498ec7cfd5a46840515b230d884ef0d7429e020affab4b1fc797f1a6a2fe1">
+    <crm:P190_has_symbolic_content>pectines</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>pektinəs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/comb#rate-1558-inward-234">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Combes the case 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_comb_cb3f2fafb9ecaf5d7adde379a335dc3587c40ff1aef5e9ffcc78c7b1f32058dc9b2"/>
+    <hector:perQuantity rdf:nodeID="commodity_comb_cb29507b799fdfe4033155c3e84e615b167f33c5e4f621a7969a8bfdadd4416c4d9"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 234 (transcribed by Stuart Jenks): 'Combes the case' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/comb#rate-1545-inward-226">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Combes for horsmaines the groce 12s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_comb_cb34656bf67c494202dcb6597affd1a56c75503e8796e37880478ab095448d8c25c"/>
+    <hector:perQuantity rdf:nodeID="commodity_comb_cb190a2966fa70e7a55804edd229696cac44fd4990c3fc7312abf67043a4964c5fe"/>
+    <hector:qualifier rdf:nodeID="commodity_comb_cb2436cf47d4b7e88fbaffed3d7be86dd59c9121a064679a22128b4d605274b374b"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 226 (transcribed by Stuart Jenks): 'Combes for horsmaines the groce' 12s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb230fb01c2fca07e05db2373e34661428fbd8778e2e0edc0cc6dffec844c905617">
+    <crm:P190_has_symbolic_content>comebe</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>komebə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb1773059646a0266ec2aa5f36aeb6cb84d52fa8c1212c667fbae89bf704f584c60">
+    <crm:P190_has_symbolic_content>combz</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kombz</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb30b7f80832d38cc286f323f87c6e3f85efb3e3569915cc94dc5ffa27ecee42aa5">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/comb#rate-1545-inward-507">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Naverne boxe for combes the bale 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_comb_cb245914d8f86e7485d648f32566dc981bfa419044c9a0f10051381e64709d63267"/>
+    <hector:perQuantity rdf:nodeID="commodity_comb_cb263ed09c36958fec7ecf368f3841c2bedf7040afef5a9fe5e9585134b89bbec32"/>
+    <hector:qualifier rdf:nodeID="commodity_comb_cb168b092d42503ba67d9f497ccb02d623598f3c23b05803dc7221f04e5e2983f88"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 507 (transcribed by Stuart Jenks): 'Naverne boxe for combes the bale' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb18ad552245c953f3e1c6faadc6b375b9ee95134725b1d4b27a05e2bb8fb1f9be3">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb2a19b7e5f8df5ad637c6a268765e4be9c5520e75d3cc6b0aec2939303217a49dd">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>small</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073768"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/comb#rate-1545-inward-157">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
@@ -169,23 +187,23 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cbef5498ec7cfd5a46840515b230d884ef0d7429e020affab4b1fc797f1a6a2fe1">
-    <crm:P190_has_symbolic_content>pectines</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_comb_cb24ef906a3c8c59e8bc419a872079ffdcfc2a28c0e7e47b03eb8c0f9deda8f42e6">
+    <crm:P190_has_symbolic_content>pectinis</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pektinəs</hector:phoneticKey>
+    <hector:phoneticKey>pektinis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb230fb01c2fca07e05db2373e34661428fbd8778e2e0edc0cc6dffec844c905617">
-    <crm:P190_has_symbolic_content>comebe</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>komebə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hatchel">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>hatchel</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/comb#rate-1558-inward-236">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Combe cases syngle the grosse 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_comb_cb2376dcbe91536c354de93efecbefd7b0586dcd35be27ab8c2a6b6cd85af17a6e8"/>
+    <hector:perQuantity rdf:nodeID="commodity_comb_cb16967fb96639dfa6cb19eec89dd580e0997ddd961a1d28fa24c5c1b90ec7ae373"/>
+    <hector:qualifier rdf:nodeID="commodity_comb_cb13610a65ba89d93eff3681b3e4ea6c06e0b248be64875d3e44575d1d74e602f9e"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 236 (transcribed by Stuart Jenks): 'Combe cases syngle the grosse' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/comb#rate-1545-inward-156">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
@@ -196,6 +214,67 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/comb#rate-1558-inward-235">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Combes the boxe cont’ di’ grosse 5s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_comb_cb2e9ab30269f27f3329792c078cbf7b8f3f3ba41746a39d6af6fc6420f1a397920"/>
+    <hector:perQuantity rdf:nodeID="commodity_comb_cb22b374cf4405cc3d23d917d370c6c6967e1174f6447758773a8b8090a82c4835a"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 235 (transcribed by Stuart Jenks): 'Combes the boxe cont’ di’ grosse' 5s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb2c3db348cf07870bd9b075029d21d01865bca2edf03fc77471de4d664b0257b2d">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb2a2c6c0c8b0112ae837cb20a413ec996076d0170b358780693e0adae42e3771e9">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>5s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb32f3dd768e4fffe05992a9719059f60b6af712f2f06a538be6396b201aa099286">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/comb#rate-1545-inward-160">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Combe caces the groce 12d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_comb_cb31c006b494f6b717d4f19a9d21a3a96b7a1ed52cdcafdde2f7446fa48a54b33e1"/>
+    <hector:perQuantity rdf:nodeID="commodity_comb_cb18ad552245c953f3e1c6faadc6b375b9ee95134725b1d4b27a05e2bb8fb1f9be3"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 160 (transcribed by Stuart Jenks): 'Combe caces the groce' 12d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/comb">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>comb (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb12097fd9cb851589c6f37f71186b3789a4369927aa06affed92acd3d5f5386781">
+    <crm:P190_has_symbolic_content>pectinum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>pektinum</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb1569acd53e40f24c9d65b697202195305dda37534a19c128fd30067ebfc48a5de">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb168b092d42503ba67d9f497ccb02d623598f3c23b05803dc7221f04e5e2983f88">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Naverne</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_comb_cb12f21fc8da78482596158c285dc7772bdf92d4462e50c9f76fbf35b2e275d1ce5">
     <crm:P190_has_symbolic_content>pectin</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -204,124 +283,22 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb1b61271328d771002a286c76221d18627f74e05a1a8f275e14aeee02a37a98600">
+    <crm:P190_has_symbolic_content>come</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>komə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb1619ee79a378add34a118601a6472ebb143c53c2af6c0f6ab220fad6b9c3756c7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>double</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_comb_cb2173119cf3d1423d1de90d1625087088b0a3bf8e0f2e8aefed861ce34cfe6c107">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/case"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>gross</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb141960103c34e5af15af0d90d698ceaec912ecfd1381fe9f82f4535c6c4d1eac5">
-    <crm:P190_has_symbolic_content>pecteninis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pekteninis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb29507b799fdfe4033155c3e84e615b167f33c5e4f621a7969a8bfdadd4416c4d9">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/case"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb12097fd9cb851589c6f37f71186b3789a4369927aa06affed92acd3d5f5386781">
-    <crm:P190_has_symbolic_content>pectinum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pektinum</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb22fca5254808429f9a4667b09b6ff828b12cb8a3ad66f75b1e2809154aa8813b0">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>5s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb239a8425a54a7139571bbfc0653032d64c4ff89392656c58ce7dd80a261ae4ceb">
-    <crm:P190_has_symbolic_content>combe</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kombə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cbd4b619781e55f10a9a4664b4378184edcd2ec644d55c8ece5fd0dc93bdf5057a">
-    <crm:P190_has_symbolic_content>komb</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>komb</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/comb#rate-1558-inward-233">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Combes the grosse 5s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_comb_cb2a2c6c0c8b0112ae837cb20a413ec996076d0170b358780693e0adae42e3771e9"/>
-    <hector:perQuantity rdf:nodeID="commodity_comb_cb1b6531c5fece3009505fbfafc70d828a95a7c990d05e8d77b67e1e8bea6bd72b2"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 233 (transcribed by Stuart Jenks): 'Combes the grosse' 5s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb1b6531c5fece3009505fbfafc70d828a95a7c990d05e8d77b67e1e8bea6bd72b2">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cbfc8ff06cb5819f74999474655ca25cee830aa7d09eb547b9decfd82c10b6a8fd">
-    <crm:P190_has_symbolic_content>pectinibus</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pektinibus</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb222be86dc4b4884458792cfea47e47c0eecb784fca15bd15f3113d08ea55ea2b6">
-    <crm:P190_has_symbolic_content>comes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>koməs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb3f2fafb9ecaf5d7adde379a335dc3587c40ff1aef5e9ffcc78c7b1f32058dc9b2">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>20s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/box">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>box</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb2273beb5412ea583dd21b1ea39666333bde482aa95057e88165b933293e7d6109">
-    <crm:P190_has_symbolic_content>pecten</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pekten</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb24ef906a3c8c59e8bc419a872079ffdcfc2a28c0e7e47b03eb8c0f9deda8f42e6">
-    <crm:P190_has_symbolic_content>pectinis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pektinis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb33c54234a1887d99cf67fdc28ba48c5c848bbfcbf4dfc389699161f34b91e00f4">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>20s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300236397">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>combs (grooming tools)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb14f47482cd3b7877758d4a3239d14e5aeb68a616c0249dc7a84969bc94e8dc0ab">
-    <crm:P190_has_symbolic_content>Implements having a row of teeth on one or both edges or sides, used for adjusting, distangling, or cleaning the hair. For such tools that are intended primarily to be decorative and displayed in the hair, use "combs (hair ornaments)." [Source: Getty AAT] | Any of various toothed devices used in handling or ordering textile fibers. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_comb_cb184dd238a23b0be2d5f5a09afda06c59f84ebd03c0dce2189094ac7ae630971d6">
     <crm:P190_has_symbolic_content>kombys</crm:P190_has_symbolic_content>
@@ -331,17 +308,172 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb1773059646a0266ec2aa5f36aeb6cb84d52fa8c1212c667fbae89bf704f584c60">
-    <crm:P190_has_symbolic_content>combz</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_comb_cb190a2966fa70e7a55804edd229696cac44fd4990c3fc7312abf67043a4964c5fe">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/comb#rate-1558-inward-307">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Casses garnyshed with woodden combes the dossen 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_comb_cb2c3db348cf07870bd9b075029d21d01865bca2edf03fc77471de4d664b0257b2d"/>
+    <hector:perQuantity rdf:nodeID="commodity_comb_cb1e6d21a661f1331c499cac0a2da6cafd8b0a51602039c4388f8eab9ac77120416"/>
+    <hector:qualifier rdf:nodeID="commodity_comb_cb17ebbd2001585b70ed8ab3f6e177fe8885e51477bfdd3e0a403c7cc7b51977adc"/>
+    <hector:qualifier rdf:nodeID="commodity_comb_cb223fd81167135e50620758a1e3c0592ba38fbeac08e973b31ad9d42b1334ec5de"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 307 (transcribed by Stuart Jenks): 'Casses garnyshed with woodden combes the dossen' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cbfc8ff06cb5819f74999474655ca25cee830aa7d09eb547b9decfd82c10b6a8fd">
+    <crm:P190_has_symbolic_content>pectinibus</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kombz</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+    <hector:phoneticKey>pektinibus</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+  <rdf:Description rdf:nodeID="commodity_comb_cb91772e59a2118b71e98c033a64d532653958542e5718e8c869001e2a47b28b17">
+    <crm:P190_has_symbolic_content>kombes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kombəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/comb#rate-1558-inward-737">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Naverne boxes for combes the bale 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_comb_cb317b9bdad67b94de8f1f8c41b814818b7bbc0ca13535fb0745764685728ac77b7"/>
+    <hector:perQuantity rdf:nodeID="commodity_comb_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_comb_cb106384f2b4d43b40fe92fb120c55208097f87054517a72611e471f4dfa4e633fd"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 737 (transcribed by Stuart Jenks): 'Naverne boxes for combes the bale' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb1e6d21a661f1331c499cac0a2da6cafd8b0a51602039c4388f8eab9ac77120416">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb29507b799fdfe4033155c3e84e615b167f33c5e4f621a7969a8bfdadd4416c4d9">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/case"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb3f2fafb9ecaf5d7adde379a335dc3587c40ff1aef5e9ffcc78c7b1f32058dc9b2">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb1c54378396a82017617e94f0595175a6a6f552e2bdb844cb3aab8756442a3929e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/box"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb317b9bdad67b94de8f1f8c41b814818b7bbc0ca13535fb0745764685728ac77b7">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb256798271126637e735545bbdd1dbced297fe82d9983e2053e3510cbed66f3195">
+    <crm:P190_has_symbolic_content>comb</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>komb</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300239965">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
+    <rdfs:label>combs (textile working equipment)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/comb#rate-1545-inward-161">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Combe caces double the groce 2s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_comb_cb30b7f80832d38cc286f323f87c6e3f85efb3e3569915cc94dc5ffa27ecee42aa5"/>
+    <hector:perQuantity rdf:nodeID="commodity_comb_cb153c8bbdd4694baf1bc4df22b3edd9d12099f36bb6dbd9ffe09e2f2ec18f89e58"/>
+    <hector:qualifier rdf:nodeID="commodity_comb_cb1619ee79a378add34a118601a6472ebb143c53c2af6c0f6ab220fad6b9c3756c7"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 161 (transcribed by Stuart Jenks): 'Combe caces double the groce' 2s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb1ee4de57301d1734512a5338938273eb3bb123402dd2aeb104f5d034c476c1525">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb263ed09c36958fec7ecf368f3841c2bedf7040afef5a9fe5e9585134b89bbec32">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/bale"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb2e9ab30269f27f3329792c078cbf7b8f3f3ba41746a39d6af6fc6420f1a397920">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>5s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb18fa7c52ca7824489402745dc7cb187c61d06cdca84d1aace6c26e16c01ff5fd7">
+    <crm:P190_has_symbolic_content>combis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kombis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb34656bf67c494202dcb6597affd1a56c75503e8796e37880478ab095448d8c25c">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>12s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">144</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb280655fe811943cec1bc3df3d66dc8cbba9f92f8c4fe9c961047c80684170059e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>12d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300236397">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>combs (grooming tools)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300073768">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>small</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb22b374cf4405cc3d23d917d370c6c6967e1174f6447758773a8b8090a82c4835a">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/box"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb223fd81167135e50620758a1e3c0592ba38fbeac08e973b31ad9d42b1334ec5de">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>woodden</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/comb#rate-1545-inward-159">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Combes the box 4s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_comb_cb21a2581a03376474c7e42080e9decce604c4b537420bafd4f1f2511bbbee237c7"/>
+    <hector:perQuantity rdf:nodeID="commodity_comb_cb1c54378396a82017617e94f0595175a6a6f552e2bdb844cb3aab8756442a3929e"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 159 (transcribed by Stuart Jenks): 'Combes the box' 4s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb239a8425a54a7139571bbfc0653032d64c4ff89392656c58ce7dd80a261ae4ceb">
+    <crm:P190_has_symbolic_content>combe</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kombə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb3b41f9a75e0b8a0fbbc1459125913644608c8dd61c518f31eaab2bd717059f25e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_comb_cb21a2581a03376474c7e42080e9decce604c4b537420bafd4f1f2511bbbee237c7">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
@@ -349,31 +481,178 @@
     <hector:lsd>4s</hector:lsd>
     <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/case">
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>case</rdfs:label>
+    <rdfs:label>gross</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb2a2c6c0c8b0112ae837cb20a413ec996076d0170b358780693e0adae42e3771e9">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>5s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
+  <rdf:Description rdf:nodeID="commodity_comb_cb12fcb2e59baa315ac7da229548924908519289387b69a6de845c1fa8e1afafb1b">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>horne for barbors</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_comb_cb1569acd53e40f24c9d65b697202195305dda37534a19c128fd30067ebfc48a5de">
+  <rdf:Description rdf:nodeID="commodity_comb_cb13610a65ba89d93eff3681b3e4ea6c06e0b248be64875d3e44575d1d74e602f9e">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>single</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/comb#rate-1558-inward-237">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Combe cases doble the grosse 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_comb_cb3b41f9a75e0b8a0fbbc1459125913644608c8dd61c518f31eaab2bd717059f25e"/>
+    <hector:perQuantity rdf:nodeID="commodity_comb_cb1ee4de57301d1734512a5338938273eb3bb123402dd2aeb104f5d034c476c1525"/>
+    <hector:qualifier rdf:nodeID="commodity_comb_cb245a221ba081377bf5d7a86df44979d371e83f853d02d2647a33f875c8286bf54"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 237 (transcribed by Stuart Jenks): 'Combe cases doble the grosse' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb153c8bbdd4694baf1bc4df22b3edd9d12099f36bb6dbd9ffe09e2f2ec18f89e58">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/comb">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>comb (London Customs Accounts glossary)</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_comb_cb2273beb5412ea583dd21b1ea39666333bde482aa95057e88165b933293e7d6109">
+    <crm:P190_has_symbolic_content>pecten</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>pekten</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300239965">
+  <rdf:Description rdf:nodeID="commodity_comb_cb222be86dc4b4884458792cfea47e47c0eecb784fca15bd15f3113d08ea55ea2b6">
+    <crm:P190_has_symbolic_content>comes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>koməs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb10d948a740e9cf1e5e65e9238f34cac44f379e2870d08dcf2ede974987fd39280">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb17ebbd2001585b70ed8ab3f6e177fe8885e51477bfdd3e0a403c7cc7b51977adc">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>combs (textile working equipment)</rdfs:label>
+    <rdfs:label>decorated</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/box">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>box</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cbd4b619781e55f10a9a4664b4378184edcd2ec644d55c8ece5fd0dc93bdf5057a">
+    <crm:P190_has_symbolic_content>komb</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>komb</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/case">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>case</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb1f88bbe626d176d752412f8763643d2aa3953e3bd7fd59e0de7d42ff31e1908e7">
+    <crm:P190_has_symbolic_content>combes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kombəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb106384f2b4d43b40fe92fb120c55208097f87054517a72611e471f4dfa4e633fd">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Naverne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb16967fb96639dfa6cb19eec89dd580e0997ddd961a1d28fa24c5c1b90ec7ae373">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb1b6531c5fece3009505fbfafc70d828a95a7c990d05e8d77b67e1e8bea6bd72b2">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb20f3416897988c23d5010eab03dd742664c1c02ac1a8923d2f1b213babb848631">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb10f7f6a439c17ce723be07efe8d986d721ffc8e54f849b8fc3e7cad8d16f5f55f">
+    <crm:P190_has_symbolic_content>pectenum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>pektenum</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb245914d8f86e7485d648f32566dc981bfa419044c9a0f10051381e64709d63267">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb2376dcbe91536c354de93efecbefd7b0586dcd35be27ab8c2a6b6cd85af17a6e8">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb31c006b494f6b717d4f19a9d21a3a96b7a1ed52cdcafdde2f7446fa48a54b33e1">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>12d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb141960103c34e5af15af0d90d698ceaec912ecfd1381fe9f82f4535c6c4d1eac5">
+    <crm:P190_has_symbolic_content>pecteninis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>pekteninis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
     <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/bale">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>bale</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb33c54234a1887d99cf67fdc28ba48c5c848bbfcbf4dfc389699161f34b91e00f4">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb2398d6e28dc5564f171529bf85a7aaaa1068aed962fe3ed6c3f25054ab52068e6">
+    <crm:P190_has_symbolic_content>comebes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>komebəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb2436cf47d4b7e88fbaffed3d7be86dd59c9121a064679a22128b4d605274b374b">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>horsmaines</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_comb_cb14f47482cd3b7877758d4a3239d14e5aeb68a616c0249dc7a84969bc94e8dc0ab">
+    <crm:P190_has_symbolic_content>Implements having a row of teeth on one or both edges or sides, used for adjusting, distangling, or cleaning the hair. For such tools that are intended primarily to be decorative and displayed in the hair, use "combs (hair ornaments)." [Source: Getty AAT] | Any of various toothed devices used in handling or ordering textile fibers. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
   </rdf:Description>
 </rdf:RDF>

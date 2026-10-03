@@ -5,6 +5,7 @@
 @prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/hector/commodity/knife> a crm:E55_Type ;
@@ -112,10 +113,28 @@
         <https://w3id.org/hector/commodity/sword-scale> ;
     la:equivalent aat:300024668 ;
     hector:attestationCount 1083 ;
-    hector:taxation <https://w3id.org/hector/commodity/knife#rate-1545-inward-216>,
+    hector:taxation <https://w3id.org/hector/commodity/knife#rate-1507-none-145>,
+        <https://w3id.org/hector/commodity/knife#rate-1545-inward-163>,
+        <https://w3id.org/hector/commodity/knife#rate-1545-inward-216>,
+        <https://w3id.org/hector/commodity/knife#rate-1545-inward-415>,
         <https://w3id.org/hector/commodity/knife#rate-1545-inward-416>,
+        <https://w3id.org/hector/commodity/knife#rate-1545-inward-417>,
+        <https://w3id.org/hector/commodity/knife#rate-1545-inward-418>,
+        <https://w3id.org/hector/commodity/knife#rate-1545-inward-419>,
+        <https://w3id.org/hector/commodity/knife#rate-1545-inward-420>,
         <https://w3id.org/hector/commodity/knife#rate-1545-inward-421>,
-        <https://w3id.org/hector/commodity/knife#rate-1558-inward-184> .
+        <https://w3id.org/hector/commodity/knife#rate-1545-inward-426>,
+        <https://w3id.org/hector/commodity/knife#rate-1545-inward-427>,
+        <https://w3id.org/hector/commodity/knife#rate-1558-inward-183>,
+        <https://w3id.org/hector/commodity/knife#rate-1558-inward-184>,
+        <https://w3id.org/hector/commodity/knife#rate-1558-inward-633>,
+        <https://w3id.org/hector/commodity/knife#rate-1558-inward-634>,
+        <https://w3id.org/hector/commodity/knife#rate-1558-inward-635>,
+        <https://w3id.org/hector/commodity/knife#rate-1558-inward-638>,
+        <https://w3id.org/hector/commodity/knife#rate-1558-inward-639>,
+        <https://w3id.org/hector/commodity/knife#rate-1558-inward-640>,
+        <https://w3id.org/hector/commodity/knife#rate-1558-inward-643>,
+        <https://w3id.org/hector/commodity/knife#rate-1558-inward-644> .
 
 aat:300024668 a crm:E55_Type ;
     rdfs:label "knives" .
@@ -126,8 +145,43 @@ aat:300404670 a crm:E55_Type ;
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
+wd:Q365 a crm:E53_Place ;
+    rdfs:label "Cologne" .
+
 <https://w3id.org/hector/commodity/holmose> a crm:E55_Type ;
     rdfs:label "holmose" .
+
+<https://w3id.org/hector/commodity/knife#rate-1507-none-145> a hector:Rate ;
+    rdfs:label "1507: Knyves called prages the grosse 5s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "5s" ;
+            hector:valueInPence 60.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "prages" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 145 (transcribed by Stuart Jenks): 'Knyves called prages the grosse' 5s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/knife#rate-1545-inward-163> a hector:Rate ;
+    rdfs:label "1545 inward: Carvyng knyves the dossen 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Carvyng" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 163 (transcribed by Stuart Jenks): 'Carvyng knyves the dossen' 20s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/knife#rate-1545-inward-216> a hector:Rate ;
     rdfs:label "1545 inward: Carvinge knyves the cace 3s 4d" ;
@@ -138,7 +192,26 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/case> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Carvinge" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1545, inward, line 216 (transcribed by Stuart Jenks): 'Carvinge knyves the cace' 3s 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/knife#rate-1545-inward-415> a hector:Rate ;
+    rdfs:label "1545 inward: Knyves called carvynge knyves the dossen 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "carvynge" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 415 (transcribed by Stuart Jenks): 'Knyves called carvynge knyves the dossen' 20s" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
@@ -151,7 +224,74 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/case> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "carvynge" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1545, inward, line 416 (transcribed by Stuart Jenks): 'Knyves called carvynge knyves the cace' 3s 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/knife#rate-1545-inward-417> a hector:Rate ;
+    rdfs:label "1545 inward: Knyves of Almayne the groce 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Almain" ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 417 (transcribed by Stuart Jenks): 'Knyves of Almayne the groce' 20s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/knife#rate-1545-inward-418> a hector:Rate ;
+    rdfs:label "1545 inward: Knyves cours the groce 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "coarse" ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 418 (transcribed by Stuart Jenks): 'Knyves cours the groce' 13s 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/knife#rate-1545-inward-419> a hector:Rate ;
+    rdfs:label "1545 inward: Knyves of Fraunce cours the groce 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "coarse" ],
+        [ a crm:E55_Type ;
+            rdfs:label "France" ;
+            hector:originPlace wd:Q142 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 419 (transcribed by Stuart Jenks): 'Knyves of Fraunce cours the groce' 6s 8d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/knife#rate-1545-inward-420> a hector:Rate ;
+    rdfs:label "1545 inward: Knyves of Collayne the groce 30s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "30s" ;
+            hector:valueInPence 360.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Collayne" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 420 (transcribed by Stuart Jenks): 'Knyves of Collayne the groce' 30s" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
@@ -168,6 +308,56 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/knife#rate-1545-inward-426> a hector:Rate ;
+    rdfs:label "1545 inward: Knyves called rasures the groce 5s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "5s" ;
+            hector:valueInPence 60.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "rasures" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 426 (transcribed by Stuart Jenks): 'Knyves called rasures the groce' 5s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/knife#rate-1545-inward-427> a hector:Rate ;
+    rdfs:label "1545 inward: Knyves called swerd blades the dossen 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "sword" ],
+        [ a crm:E55_Type ;
+            rdfs:label "blades" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 427 (transcribed by Stuart Jenks): 'Knyves called swerd blades the dossen' 6s 8d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/knife#rate-1558-inward-183> a hector:Rate ;
+    rdfs:label "1558 inward: Carvinge knives the dosen 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Carvinge" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 183 (transcribed by Stuart Jenks): 'Carvinge knives the dosen' 20s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/knife#rate-1558-inward-184> a hector:Rate ;
     rdfs:label "1558 inward: Carvinge knives the case 6s 8d" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -177,7 +367,166 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/case> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Carvinge" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 184 (transcribed by Stuart Jenks): 'Carvinge knives the case' 6s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/knife#rate-1558-inward-633> a hector:Rate ;
+    rdfs:label "1558 inward: Knyves paires voc’ Almayne knyves and other course knyves the grosse 30s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "30s" ;
+            hector:valueInPence 360.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "other" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "coarse" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Almain" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 633 (transcribed by Stuart Jenks): 'Knyves paires voc’ Almayne knyves and other course knyves the grosse' 30s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/knife#rate-1558-inward-634> a hector:Rate ;
+    rdfs:label "1558 inward: Knyves paires voc’ Frenche knyves course the grosse 30s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "30s" ;
+            hector:valueInPence 360.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "coarse" ],
+        [ a crm:E55_Type ;
+            rdfs:label "France" ;
+            hector:originPlace wd:Q142 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 634 (transcribed by Stuart Jenks): 'Knyves paires voc’ Frenche knyves course the grosse' 30s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/knife#rate-1558-inward-635> a hector:Rate ;
+    rdfs:label "1558 inward: Knyves paires voc’ Cullen knives the grosse £3 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£3 6s 8d" ;
+            hector:valueInPence 800.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "knives" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "Cologne" ;
+            hector:originPlace wd:Q365 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 635 (transcribed by Stuart Jenks): 'Knyves paires voc’ Cullen knives the grosse' £3 6s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/knife#rate-1558-inward-638> a hector:Rate ;
+    rdfs:label "1558 inward: Knyves voc’ penknyves the grosse 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "penknyves" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 638 (transcribed by Stuart Jenks): 'Knyves voc’ penknyves the grosse' 10s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/knife#rate-1558-inward-639> a hector:Rate ;
+    rdfs:label "1558 inward: Knives voc’ stockes with knives course ungilte þe dosen 26s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "26s 8d" ;
+            hector:valueInPence 320.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "ungilt" ],
+        [ a crm:E55_Type ;
+            rdfs:label "coarse" ],
+        [ a crm:E55_Type ;
+            rdfs:label "stockes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 639 (transcribed by Stuart Jenks): 'Knives voc’ stockes with knives course ungilte þe dosen' 26s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/knife#rate-1558-inward-640> a hector:Rate ;
+    rdfs:label "1558 inward: Knives voc’ stockes with knives guilt þe dosen stockes 53s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "53s 4d" ;
+            hector:valueInPence 640.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "stockes" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "guilt" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 640 (transcribed by Stuart Jenks): 'Knives voc’ stockes with knives guilt þe dosen stockes' 53s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/knife#rate-1558-inward-643> a hector:Rate ;
+    rdfs:label "1558 inward: Knives with vellet shethes course for children the grosse 30s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "30s" ;
+            hector:valueInPence 360.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "shethes" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "coarse" ],
+        [ a crm:E55_Type ;
+            rdfs:label "children’s" ],
+        [ a crm:E55_Type ;
+            rdfs:label "velvet" ;
+            la:equivalent aat:300133711 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 643 (transcribed by Stuart Jenks): 'Knives with vellet shethes course for children the grosse' 30s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/knife#rate-1558-inward-644> a hector:Rate ;
+    rdfs:label "1558 inward: Knives fyne with vellet shethes the grosse £5" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£5" ;
+            hector:valueInPence 1200.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "velvet" ;
+            la:equivalent aat:300133711 ],
+        [ a crm:E55_Type ;
+            rdfs:label "shethes" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "fine" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 644 (transcribed by Stuart Jenks): 'Knives fyne with vellet shethes the grosse' £5" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
@@ -193,8 +542,20 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/mlca/glossary/knife> a crm:E55_Type ;
     rdfs:label "knife (London Customs Accounts glossary)" .
 
+aat:300133711 a crm:E55_Type ;
+    rdfs:label "velvet (fabric weave)" .
+
+wd:Q142 a crm:E53_Place ;
+    rdfs:label "France" .
+
 <https://w3id.org/hector/unit/case> a crm:E58_Measurement_Unit ;
     rdfs:label "case" .
+
+<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
+    rdfs:label "dozen" .
+
+<https://w3id.org/hector/unit/gross> a crm:E58_Measurement_Unit ;
+    rdfs:label "gross" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

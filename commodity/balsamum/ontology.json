@@ -112,7 +112,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 415 (transcribed by Stuart Jenks): 'Excella balsami the pounde' 6s 8d"
+      "sourceText": "Book of Rates 1558, inward, line 415 (transcribed by Stuart Jenks): 'Excella balsami the pounde' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Excella",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

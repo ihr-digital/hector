@@ -180,7 +180,20 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 575 (transcribed by Stuart Jenks): 'Playster of Parys the mounte' 3s 4d"
+      "sourceText": "Book of Rates 1545, inward, line 575 (transcribed by Stuart Jenks): 'Playster of Parys the mounte' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Paris",
+          "originPlace": [
+            {
+              "id": "wd:Q90",
+              "type": "Place",
+              "_label": "Paris"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/plaster#rate-1558-inward-841",
@@ -207,7 +220,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 841 (transcribed by Stuart Jenks): 'Playster of Parys the mount cont’ 30 C at 112 lb. the C' 20s"
+      "sourceText": "Book of Rates 1558, inward, line 841 (transcribed by Stuart Jenks): 'Playster of Parys the mount cont’ 30 C at 112 lb. the C' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Paris",
+          "originPlace": [
+            {
+              "id": "wd:Q90",
+              "type": "Place",
+              "_label": "Paris"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

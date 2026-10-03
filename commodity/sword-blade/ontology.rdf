@@ -9,88 +9,82 @@
    xmlns:schema1="http://schema.org/"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_sword_blade_cba2d4642fbe564c506635a024cb122bbe64273b80807ce69c01b49751ac349b14">
-    <crm:P190_has_symbolic_content>sword blad</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sword blad</hector:phoneticKey>
+  <rdf:Description rdf:nodeID="commodity_sword_blade_cb108e76052be13b28b8511b8690d9c01fc2d60398294c6a15d88437f65a5d37954">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>coarse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sword_blade_cb36b8f5329f140a1ae76ea436c990f23c1c14a0d2ff201986a8eb57017d80b088d">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/sword-blade">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
     <schema1:material rdf:resource="http://vocab.getty.edu/aat/300010900"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_sword_blade_cb0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_sword_blade_cb15072ad2f0dd5764b7fc19d408bc4f5555f50f18d567ca0955dae32da01d5c0f6"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_sword_blade_cb1845d585b4bfdf12d8c4b85f48a5615e11c4aa80cc40999b2520d54a68b7849a7"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_sword_blade_cb2e113ab227fb36ae7be9d6ca4f4614442aa21b1150f163bdbd91bce35832a38c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_sword_blade_cb8be8aa3dcc54e6402b80505ef3c5aa2f0d5fae6ef8726a8630bce7ef2b46c654"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_sword_blade_cba2d4642fbe564c506635a024cb122bbe64273b80807ce69c01b49751ac349b14"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_sword_blade_cbd07d586904750a7ac594fad4ce5d53db4f96a9eaf30742dd8bbd6a69841aa880"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_sword_blade_cbe9e986344b284186d8a3b40ed8029d08d06df200370098f14779a05f8233e049"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_sword_blade_cbaaae757e0f905cad6546e68de240e00ee9dd4ae0b0d3391b8f4a5d17ac822bb8"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_sword_blade_cb11b63f55cf2c6cec8e51ee0c95291a4aa740285d2f9ce696ba7b0a5ccbcf529e2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_sword_blade_cb16f83e230e0ff2c84615f404f27f5e67dff8f9e2ffa8265579aee975b252d027f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_sword_blade_cb1746332996bcac768cf3cf742eee1d42a2c0443915c2ecf0068e9f918257343fb"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_sword_blade_cb18381cb0f2290c962703c7764f5d50719d16f97a0a081883d0be7f41fe9ac8d4a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_sword_blade_cb1a36e8d5d1f27a7666de9290326870709bc8954af680f5e748f4db927aecf8b30"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_sword_blade_cb408482dfb4fc7bee87721e0ac934606b0eaad193139e4ea54ffe805e8097f368"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_sword_blade_cbaaf9df3f9f7e9c790d1df36d8ff69b57ad9e5b119c782f486dfd4c704e9e07dd"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_sword_blade_cbc1e599319180028947d3433367431ce70465e8232482ab5e3ef4fbd2cf8bdc9d"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_sword_blade_cb1a8267c4a8a9d5118ed3f0ceb487b61b62bec429c24fe14bdbbd386ab996f39d0"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>sword blade</rdfs:label>
     <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/sword%20blade"/>
     <skos:related rdf:resource="https://w3id.org/hector/commodity/sword"/>
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300024917"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/sword-blade#rate-1558-inward-1062"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/sword-blade#rate-1558-inward-970"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_sword_blade_cb0">
-    <crm:P190_has_symbolic_content>sworde blades</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>swordə bladəs</hector:phoneticKey>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/sword-blade#rate-1558-inward-970">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Sworde blades course the dosen 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_sword_blade_cb317b9bdad67b94de8f1f8c41b814818b7bbc0ca13535fb0745764685728ac77b7"/>
+    <hector:perQuantity rdf:nodeID="commodity_sword_blade_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_sword_blade_cb108e76052be13b28b8511b8690d9c01fc2d60398294c6a15d88437f65a5d37954"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 970 (transcribed by Stuart Jenks): 'Sworde blades course the dosen' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/sword">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>sword</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_sword_blade_cb8be8aa3dcc54e6402b80505ef3c5aa2f0d5fae6ef8726a8630bce7ef2b46c654">
-    <crm:P190_has_symbolic_content>swerdblades</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>swerdbladəs</hector:phoneticKey>
+  <rdf:Description rdf:nodeID="commodity_sword_blade_cb317b9bdad67b94de8f1f8c41b814818b7bbc0ca13535fb0745764685728ac77b7">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300010900">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E57_Material"/>
     <rdfs:label>metal</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/sword-blade#rate-1558-inward-1062">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Sworde blades of Slavonye the dossyn 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_sword_blade_cb36b8f5329f140a1ae76ea436c990f23c1c14a0d2ff201986a8eb57017d80b088d"/>
+    <hector:perQuantity rdf:nodeID="commodity_sword_blade_cb1729ee783cf8d11fdab65086ffab5e3b4adb9315feba5f4c0f346ac1fc6c4f090"/>
+    <hector:qualifier rdf:nodeID="commodity_sword_blade_cb1adb2a32c25d7f970de9076ef946804ed9bd439ff8202773484f701c206621cbf"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1062 (transcribed by Stuart Jenks): 'Sworde blades of Slavonye the dossyn' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sword_blade_cbc1e599319180028947d3433367431ce70465e8232482ab5e3ef4fbd2cf8bdc9d">
+    <crm:P190_has_symbolic_content>sword blad</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sword blad</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300024917">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
+    <rdfs:label>blades (tool and equipment components)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_sword_blade_cbd07d586904750a7ac594fad4ce5d53db4f96a9eaf30742dd8bbd6a69841aa880">
-    <crm:P190_has_symbolic_content>sword blades</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sword bladəs</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_sword_blade_cbaaae757e0f905cad6546e68de240e00ee9dd4ae0b0d3391b8f4a5d17ac822bb8">
-    <crm:P190_has_symbolic_content>The sharpened, flat-edged cutting part of a tool or weapon. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_sword_blade_cbe9e986344b284186d8a3b40ed8029d08d06df200370098f14779a05f8233e049">
-    <crm:P190_has_symbolic_content>sword bladys</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sword bladis</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_sword_blade_cb2e113ab227fb36ae7be9d6ca4f4614442aa21b1150f163bdbd91bce35832a38c">
-    <crm:P190_has_symbolic_content>sword blade</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sword bladə</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_sword_blade_cb15072ad2f0dd5764b7fc19d408bc4f5555f50f18d567ca0955dae32da01d5c0f6">
+  <rdf:Description rdf:nodeID="commodity_sword_blade_cb16f83e230e0ff2c84615f404f27f5e67dff8f9e2ffa8265579aee975b252d027f">
     <crm:P190_has_symbolic_content>swerd blades</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -100,14 +94,81 @@
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>sword blade (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_sword_blade_cb1845d585b4bfdf12d8c4b85f48a5615e11c4aa80cc40999b2520d54a68b7849a7">
+  <rdf:Description rdf:nodeID="commodity_sword_blade_cbaaf9df3f9f7e9c790d1df36d8ff69b57ad9e5b119c782f486dfd4c704e9e07dd">
+    <crm:P190_has_symbolic_content>swerdblades</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>swerdbladəs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sword_blade_cb1729ee783cf8d11fdab65086ffab5e3b4adb9315feba5f4c0f346ac1fc6c4f090">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sword_blade_cb1746332996bcac768cf3cf742eee1d42a2c0443915c2ecf0068e9f918257343fb">
+    <crm:P190_has_symbolic_content>sword blades</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sword bladəs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sword_blade_cb11b63f55cf2c6cec8e51ee0c95291a4aa740285d2f9ce696ba7b0a5ccbcf529e2">
+    <crm:P190_has_symbolic_content>sword blade</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sword bladə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sword_blade_cb18381cb0f2290c962703c7764f5d50719d16f97a0a081883d0be7f41fe9ac8d4a">
+    <crm:P190_has_symbolic_content>sword bladys</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sword bladis</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sword_blade_cb1a36e8d5d1f27a7666de9290326870709bc8954af680f5e748f4db927aecf8b30">
     <crm:P190_has_symbolic_content>swerdblade</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>swerdbladə</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300024917">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/sword">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>blades (tool and equipment components)</rdfs:label>
+    <rdfs:label>sword</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sword_blade_cb408482dfb4fc7bee87721e0ac934606b0eaad193139e4ea54ffe805e8097f368">
+    <crm:P190_has_symbolic_content>sworde blades</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>swordə bladəs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sword_blade_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sword_blade_cb1adb2a32c25d7f970de9076ef946804ed9bd439ff8202773484f701c206621cbf">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Slavonye</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_sword_blade_cb1a8267c4a8a9d5118ed3f0ceb487b61b62bec429c24fe14bdbbd386ab996f39d0">
+    <crm:P190_has_symbolic_content>The sharpened, flat-edged cutting part of a tool or weapon. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
   </rdf:Description>
 </rdf:RDF>

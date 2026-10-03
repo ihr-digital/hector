@@ -7,78 +7,32 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/gross">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cb10fc878a758d32e10717949e623a515465be74b571207dd2ee4e5e1b245e012c9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cb124002f5b3ab8b5cc535d2fb1bec633b9a60e8f6d751354f63c2f1af43df7004a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cb125405f3cf3026b118d1340bff2ad110d2e20159dd5521c0254f0bfc40018ee5f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cb16fd1c8c908d87b7d6c33b2fdcd11344d19616fa6fe8f0d3328141d3581e1dabc"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cb1cc3d26a391c3f41ec6d2d21241a4eea58f944bb96b3e4a9af37f8e1f059344a5"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cb1dd3c5b3ddb667bf25e3d9679fccac0a054d04d76c54fd52371ae056a0af72905"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cb222bf89e7cfbd89088bf1f90b6f7fade9090fd12099a51f9b1c7f942edde00023"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cb22fa23ece000443d37b430f751b3ac8c8394aa4e047c28f4d53b6fea28e4088a6"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cb93ecdd03b6aaa4181c239c7a1a9a45846f063581719439c1fe6b7b4cdce7262c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cbe156d92febc27eec2c37c6e8ae46cf94ac6f10cb96ff5ad0e336e44f2215967a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cbe8e86322a3f58ba0d27a38e2a2a9c4267325cdaae77b62c43e5a695cacfdeef8"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cbef6a1fbbf0b7ed0808d60704350bade032ced234bb214e16a2ae931da174540a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cbf69774d676eb8c000b2a9b3d912ef10806b951eab0c5fa23e5a93c0bec0ae87f"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_gross_cb0"/>
+  <rdf:Description rdf:nodeID="commodity_gross_cb2645396d4aaa3bdcd1fb58ac1165cf6037645b9ed7c78a7e688f46b5c4108832d">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£3</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">720</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/gross#rate-1558-inward-529">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: the grosse of all sortes above these rates £3</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_gross_cb2645396d4aaa3bdcd1fb58ac1165cf6037645b9ed7c78a7e688f46b5c4108832d"/>
+    <hector:perQuantity rdf:nodeID="commodity_gross_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50"/>
+    <hector:qualifier rdf:nodeID="commodity_gross_cb1854efc57a49644f3785770d5186dd27cd3d9b62c827f02d34bb3bffa117d56b7"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 529 (transcribed by Stuart Jenks): 'the grosse of all sortes above these rates' £3</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_gross_cb1425e5cd650a56702a9faf977d432fc48d3d9ee4d16f100eab57d9e841346cfc6">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>gross</rdfs:label>
-    <skos:broader rdf:resource="http://vocab.getty.edu/aat/300386648"/>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/gross"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6631</hector:attestationCount>
+    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_gross_cb222bf89e7cfbd89088bf1f90b6f7fade9090fd12099a51f9b1c7f942edde00023">
-    <crm:P190_has_symbolic_content>groces</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>grosəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_gross_cbf69774d676eb8c000b2a9b3d912ef10806b951eab0c5fa23e5a93c0bec0ae87f">
-    <crm:P190_has_symbolic_content>grossus</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>grosus</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_gross_cb124002f5b3ab8b5cc535d2fb1bec633b9a60e8f6d751354f63c2f1af43df7004a">
-    <crm:P190_has_symbolic_content>grossi</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>grosi</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_gross_cb10fc878a758d32e10717949e623a515465be74b571207dd2ee4e5e1b245e012c9">
-    <crm:P190_has_symbolic_content>gross</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>gros</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_gross_cb22fa23ece000443d37b430f751b3ac8c8394aa4e047c28f4d53b6fea28e4088a6">
-    <crm:P190_has_symbolic_content>groos</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>groːs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_gross_cbe8e86322a3f58ba0d27a38e2a2a9c4267325cdaae77b62c43e5a695cacfdeef8">
-    <crm:P190_has_symbolic_content>grote</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>grotə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_gross_cb16fd1c8c908d87b7d6c33b2fdcd11344d19616fa6fe8f0d3328141d3581e1dabc">
+  <rdf:Description rdf:nodeID="commodity_gross_cb18f0e8955cc9d70fad52d0ac95ab0978b4e2e24d115851f60d76a0d5f90ea5d74">
     <crm:P190_has_symbolic_content>grose</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -86,31 +40,7 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_gross_cb93ecdd03b6aaa4181c239c7a1a9a45846f063581719439c1fe6b7b4cdce7262c">
-    <crm:P190_has_symbolic_content>grosse</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>grosə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_gross_cb1cc3d26a391c3f41ec6d2d21241a4eea58f944bb96b3e4a9af37f8e1f059344a5">
-    <crm:P190_has_symbolic_content>groce</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>grosə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_gross_cbef6a1fbbf0b7ed0808d60704350bade032ced234bb214e16a2ae931da174540a">
+  <rdf:Description rdf:nodeID="commodity_gross_cb1d98a027e19827fb6e4fdccdc21b23d4d9040a69469c5336935f1b81cddd84176">
     <crm:P190_has_symbolic_content>grossum</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -122,24 +52,16 @@
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>gross (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/gross#rate-1558-inward-2">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: the grosse conteynynge 12 dosen: paper 3s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_gross_cb3e859d88c2a231ec0908859f67b47bc54fd28846966aa1458fdc8e9185a88ddab"/>
+    <hector:perQuantity rdf:nodeID="commodity_gross_cb1425e5cd650a56702a9faf977d432fc48d3d9ee4d16f100eab57d9e841346cfc6"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 2 (transcribed by Stuart Jenks): 'the grosse conteynynge 12 dosen: paper' 3s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_gross_cb0">
-    <crm:P190_has_symbolic_content>gross, a measure of quantity (144 pieces) (Zupko 173-4) | gross, a measure of quantity (144 pieces), as opposed to the great gross (= 12 gross) (Zupko 173-4, OED s.v. gross n.3) | meaning unknown | a measure of quantity (144 pieces) (Zupko 173-4) | gross, a measure of quantity (144 pieces) (Zupko 173-4) 13. | a packing unit for , containing 12 small groce</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_gross_cb125405f3cf3026b118d1340bff2ad110d2e20159dd5521c0254f0bfc40018ee5f">
-    <crm:P190_has_symbolic_content>groes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>gres</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_gross_cb1dd3c5b3ddb667bf25e3d9679fccac0a054d04d76c54fd52371ae056a0af72905">
+  <rdf:Description rdf:nodeID="commodity_gross_cb2cd67bef7c7bd353c16cb132bb4cdaa879ed15f8443db04cee6fccb9eb511c47c">
     <crm:P190_has_symbolic_content>groses</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -147,7 +69,40 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_gross_cbe156d92febc27eec2c37c6e8ae46cf94ac6f10cb96ff5ad0e336e44f2215967a">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/gross">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cb100680e31beec35250dd569f74a77c0bd4cadbd6e3b051f93207748d0456cd803"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cb14451943ec62c214a6eb0e3ce8ede0235ce5ec2407957e0c49231244523702fe8"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cb18f0e8955cc9d70fad52d0ac95ab0978b4e2e24d115851f60d76a0d5f90ea5d74"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cb1c8f8469af037cfc0366cc593316508a34c448ba4eecf968430e2d7dc6a6b824f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cb1d98a027e19827fb6e4fdccdc21b23d4d9040a69469c5336935f1b81cddd84176"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cb1eb79e7305588e99c2fcc29ddcf4451e3c46100e382345cc8a2d57e49149bc75d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cb20c02207389f3bd0037a2ebb7585296456dcd0cd1fc36cfeb0cbdd7e70cf49cb1"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cb247477206c0cac604d224d4f463a3519af0602d657426b731ad9ffcfddb06549a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cb2a17b9cf4df163930cedb413bb0fc5d85679c5ea0b3531128b857e9f589a79ead"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cb2cd67bef7c7bd353c16cb132bb4cdaa879ed15f8443db04cee6fccb9eb511c47c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cb2e044bf55acd45455a4995410fcb39bd46f89eb4f855852f8718f686de31d33d5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cb312eaeda1bc144252447f75bd278297d05310e32e18304f4691ce5a6387fa9b9a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_gross_cbdbea98babe10b3b074e4d38b0ce529c67ffbe89f5a83673effa5e992750ebffc"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_gross_cb11927c749cb21f239f3aa7a270ea059686f3ff12829071edf3328c39a6704fdbf"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gross</rdfs:label>
+    <skos:broader rdf:resource="http://vocab.getty.edu/aat/300386648"/>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/gross"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6631</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/gross#rate-1558-inward-2"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/gross#rate-1558-inward-529"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_gross_cb247477206c0cac604d224d4f463a3519af0602d657426b731ad9ffcfddb06549a">
+    <crm:P190_has_symbolic_content>gross</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>gros</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_gross_cb100680e31beec35250dd569f74a77c0bd4cadbd6e3b051f93207748d0456cd803">
     <crm:P190_has_symbolic_content>gros</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -155,8 +110,109 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_gross_cb2a17b9cf4df163930cedb413bb0fc5d85679c5ea0b3531128b857e9f589a79ead">
+    <crm:P190_has_symbolic_content>grossus</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>grosus</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_gross_cb1eb79e7305588e99c2fcc29ddcf4451e3c46100e382345cc8a2d57e49149bc75d">
+    <crm:P190_has_symbolic_content>groce</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>grosə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_gross_cb1c8f8469af037cfc0366cc593316508a34c448ba4eecf968430e2d7dc6a6b824f">
+    <crm:P190_has_symbolic_content>grossi</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>grosi</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_gross_cb11927c749cb21f239f3aa7a270ea059686f3ff12829071edf3328c39a6704fdbf">
+    <crm:P190_has_symbolic_content>gross, a measure of quantity (144 pieces) (Zupko 173-4) | gross, a measure of quantity (144 pieces), as opposed to the great gross (= 12 gross) (Zupko 173-4, OED s.v. gross n.3) | meaning unknown | a measure of quantity (144 pieces) (Zupko 173-4) | gross, a measure of quantity (144 pieces) (Zupko 173-4) 13. | a packing unit for , containing 12 small groce</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_gross_cb3e859d88c2a231ec0908859f67b47bc54fd28846966aa1458fdc8e9185a88ddab">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>3s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_gross_cb2e044bf55acd45455a4995410fcb39bd46f89eb4f855852f8718f686de31d33d5">
+    <crm:P190_has_symbolic_content>groos</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>groːs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_gross_cb312eaeda1bc144252447f75bd278297d05310e32e18304f4691ce5a6387fa9b9a">
+    <crm:P190_has_symbolic_content>groces</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>grosəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_gross_cb1854efc57a49644f3785770d5186dd27cd3d9b62c827f02d34bb3bffa117d56b7">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>above these rates</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300386648">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>weights and measures (general, standards)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_gross_cb20c02207389f3bd0037a2ebb7585296456dcd0cd1fc36cfeb0cbdd7e70cf49cb1">
+    <crm:P190_has_symbolic_content>grote</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>grotə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_gross_cb14451943ec62c214a6eb0e3ce8ede0235ce5ec2407957e0c49231244523702fe8">
+    <crm:P190_has_symbolic_content>groes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>gres</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>gross</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_gross_cbdbea98babe10b3b074e4d38b0ce529c67ffbe89f5a83673effa5e992750ebffc">
+    <crm:P190_has_symbolic_content>grosse</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>grosə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_gross_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

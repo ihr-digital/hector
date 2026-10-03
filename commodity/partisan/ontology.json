@@ -190,5 +190,91 @@
     }
   ],
   "attestationCount": 4,
-  "modified": "2026-10-03"
+  "modified": "2026-10-03",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/partisan#rate-1558-inward-847",
+      "type": "Rate",
+      "_label": "1558 inward: Partesans or bore speares gylte the dossen £3",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "720",
+        "lsd": "£3"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 847 (transcribed by Stuart Jenks): 'Partesans or bore speares gylte the dossen' £3",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "bore speares gylte",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/partisan#rate-1558-inward-848",
+      "type": "Rate",
+      "_label": "1558 inward: Partesans or bore speares ungilte the dossen 26s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "320",
+        "lsd": "26s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 848 (transcribed by Stuart Jenks): 'Partesans or bore speares ungilte the dossen' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "bore speares",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "ungilt"
+        }
+      ]
+    }
+  ]
 }

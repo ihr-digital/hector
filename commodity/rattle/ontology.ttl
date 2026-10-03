@@ -135,6 +135,8 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 144 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "children’s" ] ;
     hector:sourceText "Book of Rates 1558, inward, line 889 (transcribed by Stuart Jenks): 'Rattelles for children the grosse' 10s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .

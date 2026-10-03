@@ -44,7 +44,6 @@
             <div class="filters" role="group" aria-label="Filter results">
                 <button type="button" data-kind="" aria-pressed="true">All</button>
                 <button type="button" data-kind="c" aria-pressed="false">Commodities</button>
-                <button type="button" data-kind="q" aria-pressed="false">As priced in the Books of Rates</button>
                 <button type="button" data-kind="u" aria-pressed="false">Units</button>
             </div>
             <p id="search-status" class="muted" aria-live="polite"></p>
@@ -57,8 +56,8 @@
                 <ul id="stats" class="stats"><li class="muted">Loading…</li></ul>
                 <p class="muted small">So far, the commodities come from the curated glossary of the
                     <a href="https://docuracy.github.io/London_Customs_Accounts/">London Customs Accounts</a> project;
-                    the qualified commodities are the goods as the Books of Rates price them (“looking glasses of steel,
-                    large”), each linked to its commodity and carrying its rates.</p>
+                    the rates are on the commodities they are set on, each naming the qualifier its book gives the
+                    goods (“looking glasses of steel, large”).</p>
             </div>
             <div>
                 <h2>Using the data</h2>
@@ -70,7 +69,7 @@
                         layered on the <a href="https://linked.art/">Linked Art</a> context.</li>
                     <li>Vocabulary of HECTOR’s own terms: <a href="?path=ontology"><code>https://w3id.org/hector/ontology</code></a>.</li>
                     <li>Slug ledgers (how each URI was minted, and what replaced it):
-                        <a href="./ledger/commodities.tsv">commodities</a>, <a href="./ledger/qualified.tsv">qualified</a>,
+                        <a href="./ledger/commodities.tsv">commodities</a>, <a href="./ledger/qualified.tsv">qualified (withdrawn)</a>,
                         <a href="./ledger/units.tsv">units</a>.</li>
                     <li>Every record also as Turtle and RDF/XML, beside its JSON-LD (<code>…/ontology.ttl</code>,
                         <code>…/ontology.rdf</code>), and all of HECTOR in one file:

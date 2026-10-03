@@ -93,6 +93,72 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/buske#rate-1545-inward-35",
+      "type": "Rate",
+      "_label": "1545 inward: Buske brode the 100 elles 30s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "360",
+        "lsd": "30s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 35 (transcribed by Stuart Jenks): 'Buske brode the 100 elles' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "broad"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/buske#rate-1558-inward-104",
+      "type": "Rate",
+      "_label": "1558 inward: Buske clothe brode the C elles cont’ five score 50s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "600",
+        "lsd": "50s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 104 (transcribed by Stuart Jenks): 'Buske clothe brode the C elles cont’ five score' 50s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "broad"
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/buske#rate-1558-inward-105",
       "type": "Rate",
       "_label": "1558 inward: Buske clothe narowe and allmaner clothe in Holland ploye þe pece 24s",
@@ -117,7 +183,35 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 105 (transcribed by Stuart Jenks): 'Buske clothe narowe and allmaner clothe in Holland ploye þe pece' 24s"
+      "sourceText": "Book of Rates 1558, inward, line 105 (transcribed by Stuart Jenks): 'Buske clothe narowe and allmaner clothe in Holland ploye þe pece' 24s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "narrow"
+        },
+        {
+          "type": "Type",
+          "_label": "allmaner",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "Holland",
+          "originPlace": [
+            {
+              "id": "wd:Q762943",
+              "type": "Place",
+              "_label": "County of Holland"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

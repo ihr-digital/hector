@@ -8,34 +8,51 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
+  <rdf:Description rdf:nodeID="commodity_cloth_cb2475668ea167ace337498fb399dcb760a75fde7bacb279a1e5960db8f4fdd8258">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb28b354aadc81d9a5b643e22d9dfce4a211beaf57c1b0bc882b66f193176da8959">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb37993212acbe34427d1c33c770e63cd9fc13f3d606e997f28d53d1c5c017b227e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb10ba48d59a4eb1df3a9298af7fbd4ed8a24365169359c06baba8846e0bcae8122"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb13e1f44c07b919ee61addd93fdc682bf0a7629070b5c5764b50a255d4293725ba"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb145a5338ecd2be6da05bd26b028935bcf79c34fca0458060acb563f7ed4d86d82"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb164f6e4422135e146313fb0729fea6b04c535ff8b79307348b7f020e0830d6eef"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb17845f9b07ef957397074889acf583bbc62beff33eeefdd797be134c2cbb1ba61"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb18df529393f93d101aac482864ccdd447f4059cc712ea36eaf3f96e0f4c9690eb"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb19ac0ef95906ee9e8215bc01b3c2a96f01464701565da14289cf5509d50a3b012"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb1b70400031174917ea5e61fca0d22eada23810ff110ffc9803d61daf9401ed0c9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb1e9857b8299f2ba2c455893b9605f5220ff6faa957cc39a5eb2e8dfe1ca45f26c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb1fb16059f5edf07dba2ff683982a9ba2125ee2f460fb04d55ee1d79d3a186c6c4"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb21421ca125e94efbb96067f20e0f0dfce1df59e9c86af7e9e647af9f0333beb5c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb21d206b09b86633b202bbe5f2af18bf0fea1b79f41cc7dfde8668f310af529c10"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb22be641bbfa9568feadf9accd29acd667389d63119568ca6320344356206f7e26"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb25bdfc6bab79818d323a0c6d0033f8b2eb99fe54e1531d52c4439527905f399e9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb287518c54438975b48d7382b315c11f1a5d7a27e77ccfe479a7f01139086c2b2a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb293673d86cb1e360b1119eba64cdc9674fd04f18c9aa4704480f5ae8b0c6bf3de"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb2ca7847d46add906f740e3486b938e0b1dbcf28306222c75134f8aaa580e8feff"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb66663d15472502118a7f00b4bd1a57a5eb1e2ad2a8bffd8bb2820a341cb725dc"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cbb05110ad8150ded5283c8e8b5b03dde532e30164246e7d7c0759a6d21d0eb9a1"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cbc255359ed31d8e0282e1dee48e1e8332bc76c15cd826b6b1981db59e70cba524"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cbd73d99616afb48a4adf0bf21732a9bb7922143a1b58e53a4bb5b7c2368df55f8"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cbd9b83c684ff7603a6bbcd3760eac28f1a7affc513b134e157c855de49ee2e79c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cbdd44f984156069284d00eddeb499d98f6b0979919b6069d63986ca064b24a882"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cbeb3893d0d249e970c00af1df4254fb39bb41bacea1ff68f0acd2c2141d884263"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_cloth_cbd80220b96bb6f46ed46c1e63019c82eaf78d7f00ca46932beb8c9d336ca02bf5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb164b66890a0559d12e75ac9bec4c44cf81a01fc6ca85dcacd0896a3fff82faf0b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb184081943f45f977f12dd53813c1b5c2d6574ac2e1d36380af5308561a664b078"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb197572eb252230d7252122ba96b892ce502fdabd692f5a23bb9219943ef08fbea"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb1aa25d0b22bb80203a3a245db45aed92837cf26ea832d1f02c02cb6aef064f88b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb1b9d224976398a02102f96329d85b8818b4a31cb809dfd8eada35b51e73faf19b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb1d6153504e49e47b78783c2d8a953dc02c3bfbc93b5058e427aa23f7a63761252"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb20896b0846d1c706526f636c7fc9043499fae573820c95f20f0294462ed9d33f5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb20cfff7fa5691d7c39243935447a9c7c4588c4cb36e733ec2fb8d19ed6b409d84"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb21a273aa13208be14849d0b481edaab49c62cdbe8b3b612182b5dde54c4de084d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb21b00055bda4218e8e2eb4d1dc5e1b0ea4a1547e9f4e32ab1c229554c78a0d524"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb23332ff1431bea5f477a4222f7d21d0f6be344b3f2ab54360a1bb5e7156932ce5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb24af776bdcdbf1f378f974fdbc5ddc78fd8dc0fb4396e8f255d74a7d743c6bfaf"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb27af0fbbc8ac1cf0c053e69de9f707c5759de91f0b93799ee8179b6fa294adb72"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb28696b93c1283199153fd9ebb6c33ad3be561b33a2937766bbb9ca2053d477ce5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb2a662c15616b32bed6f1125c1b1f21042fdb8d48a20d5a93be53075ba2bc36cb3"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb2a96c6e0e462181cd201dba6ab703c1a06b5a78be52d854ea30be41ef7cd10391"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb2b27872889e47ec43f2b78eb4e90d879d9d439e2f3eaa3506be36130c2fc33567"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb329810668f38f35b6f7164505df213f055bb73a6b7cf0fdfbdcc97d3d6482f959"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cb857772171a4eb84a6c1ca3c3594b48ce8b5cd7754cc5c24defc26eb5400e6765"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cbcf6245af547a950e09da3199f734cf0dd321ae06c874423e449a0b534065fb2a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cbd552673d34296ba0a31a6dd9cfac5cec6ce9288c7c9d628fd1c6d0ff3640fed7"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cbe1666aa0a647443b647f81f32a4f745b5cb56dff7c2c7b73d55e1a1f9422e6ad"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cbf64ece633e24fedd8f8e62300f5b8ce0325ff04459941866f89be0a48c369781"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cbf8c9716a232116734d5a7684aadd1a1a47eea8f3df1912d7b9c5c265c23a2925"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cloth_cbfc562e85e88a1f612e9e90ed50cacab80b4826343f662e9876c72e876e7bea0b"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_cloth_cb1d57a2785e6c3e8da5c6444c067d70492399c76bc3e716ece1815c6c7598d3a0d"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>cloth</rdfs:label>
     <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/cloth"/>
@@ -47,93 +64,52 @@
     <skos:related rdf:resource="https://w3id.org/hector/commodity/tonnante"/>
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300162391"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66846</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1507-none-134"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1507-none-147"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1507-none-149"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1507-none-150"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1507-none-174"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1507-none-175"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300162391">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>cloth</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cb10ba48d59a4eb1df3a9298af7fbd4ed8a24365169359c06baba8846e0bcae8122">
-    <crm:P190_has_symbolic_content>tella</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tela</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1507-none-325"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1545-inward-207"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1545-inward-232"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1545-inward-233"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1545-inward-352"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1545-inward-38"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1545-inward-39"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1558-inward-1016"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1558-inward-123"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1558-inward-124"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1558-inward-284"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1558-inward-339"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1558-inward-340"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1558-inward-341"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1558-inward-342"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1558-inward-343"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1558-inward-359"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1558-inward-360"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1558-inward-465"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1558-inward-466"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1558-inward-532"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1558-inward-536"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1558-inward-537"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cloth#rate-1558-inward-624"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cb18df529393f93d101aac482864ccdd447f4059cc712ea36eaf3f96e0f4c9690eb">
-    <crm:P190_has_symbolic_content>tellae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tele</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1558-inward-284">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Clothe of Calycowe the peace 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb23f2f6eb64cac189955873c3a8eb66b32abf0551f4f860c8f2b2a7f1e591c2e37"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb263d2232cb276309ea9ec228ec47826ac00fbc19fa757aa43d445c535eba31103"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb20fc3a8f1756b3ccdaab6c3af0ceea66c73f082f0e302cae702d26cca18d2c0b5"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 284 (transcribed by Stuart Jenks): 'Clothe of Calycowe the peace' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cb21421ca125e94efbb96067f20e0f0dfce1df59e9c86af7e9e647af9f0333beb5c">
-    <crm:P190_has_symbolic_content>clothe</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kloθə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cb22be641bbfa9568feadf9accd29acd667389d63119568ca6320344356206f7e26">
-    <crm:P190_has_symbolic_content>pannys</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>panis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cbeb3893d0d249e970c00af1df4254fb39bb41bacea1ff68f0acd2c2141d884263">
-    <crm:P190_has_symbolic_content>tele</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>telə</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cb164f6e4422135e146313fb0729fea6b04c535ff8b79307348b7f020e0830d6eef">
-    <crm:P190_has_symbolic_content>pannis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>panis</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cb19ac0ef95906ee9e8215bc01b3c2a96f01464701565da14289cf5509d50a3b012">
-    <crm:P190_has_symbolic_content>pann</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pan</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cb21d206b09b86633b202bbe5f2af18bf0fea1b79f41cc7dfde8668f310af529c10">
-    <crm:P190_has_symbolic_content>tely</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>teli</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cb25bdfc6bab79818d323a0c6d0033f8b2eb99fe54e1531d52c4439527905f399e9">
-    <crm:P190_has_symbolic_content>telae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tele</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/plica">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>plica</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cb2ca7847d46add906f740e3486b938e0b1dbcf28306222c75134f8aaa580e8feff">
+  <rdf:Description rdf:nodeID="commodity_cloth_cb329810668f38f35b6f7164505df213f055bb73a6b7cf0fdfbdcc97d3d6482f959">
     <crm:P190_has_symbolic_content>cloth</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -142,50 +118,62 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/roll"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cbc255359ed31d8e0282e1dee48e1e8332bc76c15cd826b6b1981db59e70cba524">
-    <crm:P190_has_symbolic_content>cloþes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kloθəs</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cbf84bfd93df281dd3d3597785b4ca1f954c6d9c035f2cc9599ca38aba06e456ef">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>£10</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2400</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1507-none-175">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1507-none-325">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1507: Mynster clothe the rowlle £10</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_cloth_cbf84bfd93df281dd3d3597785b4ca1f954c6d9c035f2cc9599ca38aba06e456ef"/>
-    <hector:perQuantity rdf:nodeID="commodity_cloth_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109"/>
-    <hector:sourceText>Book of Rates 1507, line 175 (transcribed by Stuart Jenks): 'Mynster clothe the rowlle' £10</hector:sourceText>
+    <rdfs:label>1507: Whyte Normandy clothe 100 elles 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb37993212acbe34427d1c33c770e63cd9fc13f3d606e997f28d53d1c5c017b227e"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb1f9eb5833062a601b3ce830a2187ec6a8f7e61b5a744da4ee4ce85e8f506ea160"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb1d68b374aa0d68804d8cb316dafcfd2f90bb4551222dd79699cc112661d3c11c0"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb24ca8570517c74d9abad0faa1b080270d91bf88723715d3101f68b83e3883dade"/>
+    <hector:sourceText>Book of Rates 1507, line 325 (transcribed by Stuart Jenks): 'Whyte Normandy clothe 100 elles' 40s</hector:sourceText>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cbd80220b96bb6f46ed46c1e63019c82eaf78d7f00ca46932beb8c9d336ca02bf5">
-    <crm:P190_has_symbolic_content>Generally, textile that is woven, felted, knit, pounded, or otherwise made into a flat piece. For textile in the form of continuous strands made from filaments of fiber by reeling, spinning, twisting, or throwing, see "yarn." [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1558-inward-340">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Clothe of gold wrought the yerde 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb3b68c9f0d62cf7b62fd1db73c7936373c2b611bfd308e431c3d3ad632b7664000"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb1f4a951675f08e55a7aad5905275c26acb6baeadde3b4388a202dd3a3e3c1dc09"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb24759f8fcd52318c6fabe25629c47a129ebf6a3b5aeb736bfd07d05bbff19ba1c"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb2571746910e269e429c7282fd9407abd8605427227e0c79607aba0c27ed7eddd7"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 340 (transcribed by Stuart Jenks): 'Clothe of gold wrought the yerde' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cb287518c54438975b48d7382b315c11f1a5d7a27e77ccfe479a7f01139086c2b2a">
-    <crm:P190_has_symbolic_content>teli</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb259cd4ea509bc4d4dc23e5948fdc7f9811721a21bd6af13f320292e4fadd01870">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>26s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1558-inward-537">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Hasbrough cloth browne the C elles cont’ 5 score 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb2baee34f151473968a3c45d9de640fbcae4e31d5563a3247779051fe7185cb0a4"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb148ab670c330cf7e7d114310da8bf3011e8069cacf36eb620392a195ca59cc35e"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb18922b2ff324f16c09005e45ac7c495835d9668664869bb7db6a2a1f2ad11eabd"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb1e6ebf383ec3d0ddcb000db6862d966fe7832fb168a4adc5d19f5adca5b165176"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 537 (transcribed by Stuart Jenks): 'Hasbrough cloth browne the C elles cont’ 5 score' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cbf64ece633e24fedd8f8e62300f5b8ce0325ff04459941866f89be0a48c369781">
+    <crm:P190_has_symbolic_content>pannorum</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>teli</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+    <hector:phoneticKey>panorum</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cb1e9857b8299f2ba2c455893b9605f5220ff6faa957cc39a5eb2e8dfe1ca45f26c">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1545-inward-233">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Dyoper table cloth the pece 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb32afa3d92da8ed3134c8543f81caf8f764f06e874e4cbf8789adbb80923a94e0c"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb24f7bf48f655c0650b472e1f8c45a356e5317432c5316fc4664628631bd82414d"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb24bc77c93a987bb42f34a752f8d5673f9714657021af40603bf1fbbcfd6a1b019"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 233 (transcribed by Stuart Jenks): 'Dyoper table cloth the pece' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb20896b0846d1c706526f636c7fc9043499fae573820c95f20f0294462ed9d33f5">
     <crm:P190_has_symbolic_content>tela</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -193,21 +181,17 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cbd9b83c684ff7603a6bbcd3760eac28f1a7affc513b134e157c855de49ee2e79c">
-    <crm:P190_has_symbolic_content>pannos</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>panos</hector:phoneticKey>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb280b5c482828465864a7bef82334b2eb43036c99c6dc2316a76c76afbae94e39c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Münster</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q2742"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cb17845f9b07ef957397074889acf583bbc62beff33eeefdd797be134c2cbb1ba61">
-    <crm:P190_has_symbolic_content>panni</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb24bc77c93a987bb42f34a752f8d5673f9714657021af40603bf1fbbcfd6a1b019">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pani</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Dyoper table</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cb13e1f44c07b919ee61addd93fdc682bf0a7629070b5c5764b50a255d4293725ba">
+  <rdf:Description rdf:nodeID="commodity_cloth_cb2a96c6e0e462181cd201dba6ab703c1a06b5a78be52d854ea30be41ef7cd10391">
     <crm:P190_has_symbolic_content>telum</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -215,17 +199,372 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/terlinge">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300162391">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>terlinge</rdfs:label>
+    <rdfs:label>cloth</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cbb05110ad8150ded5283c8e8b5b03dde532e30164246e7d7c0759a6d21d0eb9a1">
-    <crm:P190_has_symbolic_content>cloþis</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1558-inward-343">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Clothe of tyssue the yearde 66s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb23bde0ada437a587178ea300c1fc69d71c7556457e381df4206c9312f5298ebeb"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb27b8301192d3588f01e5322f14cd12ff740d350809b98ce42a7cc40e82ee73881"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb219de41e48b28db057a84a7eddf6b056f221c877b04420353de026c5eb5daad1e"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 343 (transcribed by Stuart Jenks): 'Clothe of tyssue the yearde' 66s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1507-none-147">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Lyneng clothe caled Camemerycke the pece 26s 3d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb2ceaad30aa4f02c42220a609ffbb77f302b18d9309492eec1595608ca13efa25a"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb24bd80b9f07cd9a8c38cdad31c9a986c8befe1923348d9642c454bfb1e9fee052"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb14809bd9b8180ef828ce09138490f928ff5112731260033c6faa35246a45c75fa"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb1d42826c0f43fd0f4f575b43933d681d971c651f27dec1e562c1ee98a1095c254"/>
+    <hector:sourceText>Book of Rates 1507, line 147 (transcribed by Stuart Jenks): 'Lyneng clothe caled Camemerycke the pece' 26s 3d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1d080d16cbd45b834e26a84ea9cc01367117bb13eebc44b1e8136ce1acac70bba">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb23f2f6eb64cac189955873c3a8eb66b32abf0551f4f860c8f2b2a7f1e591c2e37">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb204d7933a70f3dc2a804376a3a3c1695bb56da770832c7b6c905f70f52a54ce93">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>white</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300129784"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q15878">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Normandy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb37bde712f45184c5cac4be6bcd85dcabeee501dcfb8e93b369a4d1474cd4640f9">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb24759f8fcd52318c6fabe25629c47a129ebf6a3b5aeb736bfd07d05bbff19ba1c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>worked</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1545-inward-352">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Hasborough clothe the 100 eles 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb2f78dae55f33ff3dc91a665c4797b2d6560ec0a5459e431d1006d99400792f8db"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb1aabdfb25d7860c89308e1b36c4efb10b507177daf57db443db69612381fbde93"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb1d467b5a8bd7ceb9b2d8f9dec1aa82dcf13f1c7fb89c6931ea9be366a535decf6"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 352 (transcribed by Stuart Jenks): 'Hasborough clothe the 100 eles' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb3899cd36cbaea955be6be6f5706e97f9bc746d1c7e6dc7642e5b37a88f06e9898">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb23bde0ada437a587178ea300c1fc69d71c7556457e381df4206c9312f5298ebeb">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>66s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">800</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1d8044f5aff84239cee33404820d18b87382dfd22a7e5f2abc56363dbce3f903a">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1558-inward-532">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Gentishe cloth the pece 24s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb25900419d63f31dfc5175b63fefb0f01948957a1a21e0cc9ec5307217f92891a7"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb214ccf7fb888c250e1cef864daaafb4da0a6a3f41705e3cc3bc2d07d08e809679"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb2059c3b05f78d0694cccd0f92fa53e0253b87c053e74ad0bf42c203290b44970b"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 532 (transcribed by Stuart Jenks): 'Gentishe cloth the pece' 24s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb2059c3b05f78d0694cccd0f92fa53e0253b87c053e74ad0bf42c203290b44970b">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Ghent</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q1296"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb23332ff1431bea5f477a4222f7d21d0f6be344b3f2ab54360a1bb5e7156932ce5">
+    <crm:P190_has_symbolic_content>clothe</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kloθis</hector:phoneticKey>
+    <hector:phoneticKey>kloθə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cb293673d86cb1e360b1119eba64cdc9674fd04f18c9aa4704480f5ae8b0c6bf3de">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1507-none-174">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Mynster clothe the C containing 240 elles 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb384529fb8baaef0186b32e75518efa876a72a0ee2ad7a87e3a3add81dc4e5d39f"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb1eccfc5a51b0de40db0d3beffe42bd4f826374446ff726de8acb970ec760f7a55"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb280b5c482828465864a7bef82334b2eb43036c99c6dc2316a76c76afbae94e39c"/>
+    <hector:sourceText>Book of Rates 1507, line 174 (transcribed by Stuart Jenks): 'Mynster clothe the C containing 240 elles' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1abfc36e30f54a27b0315e4990c081aee3e4cb7c85b2ccb2ca2b3903c8509ea59">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Hastrey</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1558-inward-1016">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Styched cloth to worke on, the elle 20d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb2b1b842a6f8eec438618baba716d2a23f5451287762211559599e7d87fd7c8f16"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb25d7cf95407a256cba023f74c4b4a95224c323892edc844901ea4c8e2d014b9d7"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb19177185726de1b5488bf92cca2868f2e56ae029be331bfb19f702c7ab43bd6a1"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb27a50649ef91c7d5f7b471dde2233fdb224a47eda2f357976b970d787358b94a6"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1016 (transcribed by Stuart Jenks): 'Styched cloth to worke on, the elle' 20d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q2742">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Münster</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb24ca8570517c74d9abad0faa1b080270d91bf88723715d3101f68b83e3883dade">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>white</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300129784"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb21fdf1e87cdeaa9c8354244211394fd9d0a2e104eafd99f15eb071047964d4984">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>ryght</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1c8bda20199d3fdca7030a01babb687bb767d1a8f8feffcbffd4813a6211326a4">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb2bb6ae2315dcf9f4d2e993263f542622e0d77813e57ccffb6fe1d277aa387be02">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Brittany</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q12130"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb27af0fbbc8ac1cf0c053e69de9f707c5759de91f0b93799ee8179b6fa294adb72">
+    <crm:P190_has_symbolic_content>telae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tele</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb2a662c15616b32bed6f1125c1b1f21042fdb8d48a20d5a93be53075ba2bc36cb3">
+    <crm:P190_has_symbolic_content>teli</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>teli</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb2567721cc1a7296eb8a99fcada2b876d747604d3053596afe7ee8ef18d8ccae79">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>33s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">400</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300243430">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>wool (textile)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pecia">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pecia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1507-none-150">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Lynynge clothe called ryght Brusell, cunterfet Brusell the pece 11s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb248f4a278f308ce1aeff694cc4728f13296354070155fc520e29e43757928e6d7"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb22d0eddf852783185db8caa45eb5dc68497c2702862cbb2dfc1e24ecb6180c67d"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb176c8940eeea7126be86cc1c57968d17d62b2002f328b08fe860cdf28f51a9781"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb1a1104464deb37e3dcbe4a98f13fdb0a502975e89ce988576e4ce54ec27f1fb9e"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb21fdf1e87cdeaa9c8354244211394fd9d0a2e104eafd99f15eb071047964d4984"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb259214b2795a4d4eb47f42e34916bbd2de87e4e7e5b705b74066998df2c745cf7"/>
+    <hector:sourceText>Book of Rates 1507, line 150 (transcribed by Stuart Jenks): 'Lynynge clothe called ryght Brusell, cunterfet Brusell the pece' 11s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1545-inward-38">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Bresill cloth the pece 11s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb2a41e33d79c6b47b7a4f856489d39a834555427c8dba1352046b85cce87dd9121"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb2986e9432b4e7784578ee864a49e5e967b6741d47c4897437ebd26fe9edde348f"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb1b8a16e09ef577c90e3bc64ce75830f17fe18bd4beb0b1276e88a425db74d8a49"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 38 (transcribed by Stuart Jenks): 'Bresill cloth the pece' 11s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb20087a73c702b5a2ed4fe4f88fbe901f5158153939bb4757594e1581484a117ab">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Lynynge</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1a1104464deb37e3dcbe4a98f13fdb0a502975e89ce988576e4ce54ec27f1fb9e">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Lynynge</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1558-inward-536">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Hasbrough cloth white the C elles cont’ 5 score 50s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb2a657688260d4e1684606d9f49bcc7556f0fa7fa3c4c01c1583a5c5f962e14f74"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb1b806be6cdc5a640a7ad0e8d805f132d86623c4014a5e907dec5448bc741b37ad"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb1e6d9856f2938613c305cb847a4584c283775566aab9516304fee6d5df2e157e0"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb204d7933a70f3dc2a804376a3a3c1695bb56da770832c7b6c905f70f52a54ce93"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 536 (transcribed by Stuart Jenks): 'Hasbrough cloth white the C elles cont’ 5 score' 50s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/ell">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>ell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb28696b93c1283199153fd9ebb6c33ad3be561b33a2937766bbb9ca2053d477ce5">
+    <crm:P190_has_symbolic_content>tely</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>teli</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1aabdfb25d7860c89308e1b36c4efb10b507177daf57db443db69612381fbde93">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb24f7bf48f655c0650b472e1f8c45a356e5317432c5316fc4664628631bd82414d">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1d42826c0f43fd0f4f575b43933d681d971c651f27dec1e562c1ee98a1095c254">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>caled Camemerycke</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1e0035a53ba1a8b94fa1a305df68b8835211ffffa41e9dbb80ca59db5a9a9cf66">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>wool</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300243430"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1558-inward-359">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Diapor table clothe the pece cont’ 20 yerdes 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb2fb98885b12e9a7a812ab9bdc35c347f36a107cc37c58670f499ddd070286012b"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb242803c962c99210426860c6df2b665927d3517f7ecc1481ddce20eb3316cfa5c"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb17ab6d26fae68247100d8edc93c964157206e43463ece435e095ad88e8b67b0b1"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 359 (transcribed by Stuart Jenks): 'Diapor table clothe the pece cont’ 20 yerdes' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb2fb98885b12e9a7a812ab9bdc35c347f36a107cc37c58670f499ddd070286012b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1558-inward-360">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Diapor table clothe the yearde 2s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb2475668ea167ace337498fb399dcb760a75fde7bacb279a1e5960db8f4fdd8258"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb1c8bda20199d3fdca7030a01babb687bb767d1a8f8feffcbffd4813a6211326a4"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb1e0c09bec8f146e1a4058ad11236e1e6d4546ad1ffa4ac387ef2082b736460156"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 360 (transcribed by Stuart Jenks): 'Diapor table clothe the yearde' 2s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb2663687c7730e1bc008c4e0d5c7499a8da0b62c4e8f321b5816a3ae3ad86b434f">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q11131">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Hazebrouck</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1558-inward-124">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Bretishe clothe thole pece cont’ 5 score elles 33s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb2567721cc1a7296eb8a99fcada2b876d747604d3053596afe7ee8ef18d8ccae79"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb1bac5349aede2b6b8524b0cbce922397f65817767f77b5f7c776e9efc4d99f6a7"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb2bb6ae2315dcf9f4d2e993263f542622e0d77813e57ccffb6fe1d277aa387be02"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 124 (transcribed by Stuart Jenks): 'Bretishe clothe thole pece cont’ 5 score elles' 33s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1223e2f16eb6ffbff6b346e8e3842c8c81973d9ea6cc2d316c9adf124c836f26e">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>creste</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1507-none-149">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Lynynge clothe called Brabond þe pece 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb3899cd36cbaea955be6be6f5706e97f9bc746d1c7e6dc7642e5b37a88f06e9898"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb204978f936dd0510d007923cf1d79b8678d4dd4ffc7348abc13d7b39bafa78c49"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb1ed5a645c36e154725cbfc92d11b21947b2690e40fb1f87ab47d486fc4a5b1b05"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb20087a73c702b5a2ed4fe4f88fbe901f5158153939bb4757594e1581484a117ab"/>
+    <hector:sourceText>Book of Rates 1507, line 149 (transcribed by Stuart Jenks): 'Lynynge clothe called Brabond þe pece' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb392f1d51845f272ed817325e0083ed7f0b0e098b8be1097e72d0e39de8adb20c7">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1545-inward-232">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Doughlas, Bretysshe clothe, creste clothe or lokeram conteynyng 5 score elles 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb3cbbc71295ee77f88594c1a0582861083954530f1b2e1089966723807ac1d48ad"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb29ef0014d0e498055a9ade617ef5b52ff43c246fdbd1d505d4cda20c8dd801437"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb1223e2f16eb6ffbff6b346e8e3842c8c81973d9ea6cc2d316c9adf124c836f26e"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb188ae3e501afe925b917256b9e85c606e0199eb5446e2f4670d8504eb3565bda3"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb1e32e9205c80f9ca0c04c043ce0000dae61d533a6b8b642fc7f92b81f16e5d254"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 232 (transcribed by Stuart Jenks): 'Doughlas, Bretysshe clothe, creste clothe or lokeram conteynyng 5 score elles' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb17ab6d26fae68247100d8edc93c964157206e43463ece435e095ad88e8b67b0b1">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Diapor table</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb188ae3e501afe925b917256b9e85c606e0199eb5446e2f4670d8504eb3565bda3">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>lokeram conteynyng</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb23e40fc03b946c4a4436a098a85d7de7faf068ace0211ee320b449e5e00ddd056">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb29ef0014d0e498055a9ade617ef5b52ff43c246fdbd1d505d4cda20c8dd801437">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/ell"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb2b27872889e47ec43f2b78eb4e90d879d9d439e2f3eaa3506be36130c2fc33567">
     <crm:P190_has_symbolic_content>clothes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -233,11 +572,96 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1558-inward-341">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Cloth of sylver playne the yearde 26s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb1e6b701774794fa7be417dd22fc230b8ee686fe1f52eb37b121f006bfbf5f190c"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb28b354aadc81d9a5b643e22d9dfce4a211beaf57c1b0bc882b66f193176da8959"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb1703d0842de2cd9b4ca4835b09f932af2c4072363a1d692acf14a2927d3f0e7a2"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb249c752b38d1092bcbbedf9e738f8a091cab2e204c22cefc1332e1342da377f23"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 341 (transcribed by Stuart Jenks): 'Cloth of sylver playne the yearde' 26s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cb1fb16059f5edf07dba2ff683982a9ba2125ee2f460fb04d55ee1d79d3a186c6c4">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1507-none-134">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Hastrey clothe called browne Hastrey the 100 elles 30s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb1b8ac1e4a82cc5466c0e82c9c39b287c667e2e49dcd3059ca08eccdf9188753cd"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb1cefe8c04c6797fa2488ed84b52a7fe578ec5ba2aadbbc7d8d4fdbbc5b977d81f"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb1abfc36e30f54a27b0315e4990c081aee3e4cb7c85b2ccb2ca2b3903c8509ea59"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb1e79adc49fb6dc3298653d41c6454c1a3a039c98a46c92bec193b15cf2ef95afd"/>
+    <hector:sourceText>Book of Rates 1507, line 134 (transcribed by Stuart Jenks): 'Hastrey clothe called browne Hastrey the 100 elles' 30s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb22d0eddf852783185db8caa45eb5dc68497c2702862cbb2dfc1e24ecb6180c67d">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb2472b9db61275ef2b5cd34e0d1c3a6417cc1811dacfafa6fa625a23ce76ae47d4">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1558-inward-339">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Clothes of gold playne the yearde 26s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb259cd4ea509bc4d4dc23e5948fdc7f9811721a21bd6af13f320292e4fadd01870"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb2663687c7730e1bc008c4e0d5c7499a8da0b62c4e8f321b5816a3ae3ad86b434f"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb149abf717693d80730221079184495a8397accc8d2e568c4f6f5da6648d7d7cf9"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb22ed94faeaa880613a8ac30c242572706c6d89c5d9cf6da49e890f0b71e370ff2"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 339 (transcribed by Stuart Jenks): 'Clothes of gold playne the yearde' 26s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb176c8940eeea7126be86cc1c57968d17d62b2002f328b08fe860cdf28f51a9781">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>cunterfet</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb3b68c9f0d62cf7b62fd1db73c7936373c2b611bfd308e431c3d3ad632b7664000">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1545-inward-39">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Bretisshe cloth, the pece conteinynge 5 score elles 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb37bde712f45184c5cac4be6bcd85dcabeee501dcfb8e93b369a4d1474cd4640f9"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb1d080d16cbd45b834e26a84ea9cc01367117bb13eebc44b1e8136ce1acac70bba"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb1e0c1b238d2bd1251e33644f36b7bed983746c7e1a331d1845cc0d1cd2e6eaff5"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 39 (transcribed by Stuart Jenks): 'Bretisshe cloth, the pece conteinynge 5 score elles' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tick-2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tick_2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb2d99e77c43fbe8b66b08bf13c41019a7c1b0bc1f8e93298ad6029b7807caf2b2d">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£6</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1440</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1558-inward-624">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Isingham cloth the pece 24s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb1a9ffe90a0486e04a7173f5b94dd35a2deebf33a44db9175afed760488a01d73c"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb13370dff3a2be48980b9adfa9a86dbe272a336ee67d494f344cea64f5834461eb"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 624 (transcribed by Stuart Jenks): 'Isingham cloth the pece' 24s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1f4a951675f08e55a7aad5905275c26acb6baeadde3b4388a202dd3a3e3c1dc09">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb21a273aa13208be14849d0b481edaab49c62cdbe8b3b612182b5dde54c4de084d">
     <crm:P190_has_symbolic_content>pannus</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -245,64 +669,589 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cbdd44f984156069284d00eddeb499d98f6b0979919b6069d63986ca064b24a882">
-    <crm:P190_has_symbolic_content>panno</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pano</hector:phoneticKey>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb248f4a278f308ce1aeff694cc4728f13296354070155fc520e29e43757928e6d7">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>11s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">132</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/pentice-cloth">
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/hundred">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>hundred</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb215e0c6b1e90a7d24390255b2de741f3c3fbd5cc68e50191c717c97820c28f3a2">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb32afa3d92da8ed3134c8543f81caf8f764f06e874e4cbf8789adbb80923a94e0c">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1558-inward-465">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Frenche wollen cloth the pece cont’ 12 yardes £6</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb2d99e77c43fbe8b66b08bf13c41019a7c1b0bc1f8e93298ad6029b7807caf2b2d"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb23e40fc03b946c4a4436a098a85d7de7faf068ace0211ee320b449e5e00ddd056"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb1df7381e91c106cf53de9f8284cc0594d16bea6e6481822f1c333ac5c1d39b4be"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb1e0035a53ba1a8b94fa1a305df68b8835211ffffa41e9dbb80ca59db5a9a9cf66"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 465 (transcribed by Stuart Jenks): 'Frenche wollen cloth the pece cont’ 12 yardes' £6</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb18922b2ff324f16c09005e45ac7c495835d9668664869bb7db6a2a1f2ad11eabd">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>pentice cloth</rdfs:label>
+    <rdfs:label>Hazebrouck</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q11131"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cb0">
-    <crm:P190_has_symbolic_content>telle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>telə</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tonnante">
+  <rdf:Description rdf:nodeID="commodity_cloth_cb22ed94faeaa880613a8ac30c242572706c6d89c5d9cf6da49e890f0b71e370ff2">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>tonnante</rdfs:label>
+    <rdfs:label>gold</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300011021"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cb145a5338ecd2be6da05bd26b028935bcf79c34fca0458060acb563f7ed4d86d82">
-    <crm:P190_has_symbolic_content>teleis</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1b8a16e09ef577c90e3bc64ce75830f17fe18bd4beb0b1276e88a425db74d8a49">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>teleis</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cb66663d15472502118a7f00b4bd1a57a5eb1e2ad2a8bffd8bb2820a341cb725dc">
-    <crm:P190_has_symbolic_content>clothis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kloθis</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cb1b70400031174917ea5e61fca0d22eada23810ff110ffc9803d61daf9401ed0c9">
-    <crm:P190_has_symbolic_content>cloethez</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kleθez</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/shortcloth">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>shortcloth</rdfs:label>
+    <rdfs:label>Bresill</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tick-2">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>tick_2</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cloth_cbd73d99616afb48a4adf0bf21732a9bb7922143a1b58e53a4bb5b7c2368df55f8">
-    <crm:P190_has_symbolic_content>pannorum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>panorum</hector:phoneticKey>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1cefe8c04c6797fa2488ed84b52a7fe578ec5ba2aadbbc7d8d4fdbbc5b977d81f">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/mlca/glossary/cloth">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>cloth (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb2c0ca6472cbefce3293f974914a0bfac6cb367e98994300c3f6e8aafc5d9483d1">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£10</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2400</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1e6b701774794fa7be417dd22fc230b8ee686fe1f52eb37b121f006bfbf5f190c">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>26s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1558-inward-466">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Florence wollen cloth the yarde 5s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb24d6f273ab88d0b60afb35d02d33b8af2f452116c2e970b5870f21ec1996c447a"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb1d8044f5aff84239cee33404820d18b87382dfd22a7e5f2abc56363dbce3f903a"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb2353836583f69602710d79f0c739084749f6c5a0e8bc71d8374a63adc4a90a255"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb25de6e4918386c626018e432e3f4dbaf9b120c08a1fdc98c4549a0b537241a871"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 466 (transcribed by Stuart Jenks): 'Florence wollen cloth the yarde' 5s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb24d6f273ab88d0b60afb35d02d33b8af2f452116c2e970b5870f21ec1996c447a">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>5s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb2b1b842a6f8eec438618baba716d2a23f5451287762211559599e7d87fd7c8f16">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb857772171a4eb84a6c1ca3c3594b48ce8b5cd7754cc5c24defc26eb5400e6765">
+    <crm:P190_has_symbolic_content>clothis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kloθis</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb2986e9432b4e7784578ee864a49e5e967b6741d47c4897437ebd26fe9edde348f">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1d68b374aa0d68804d8cb316dafcfd2f90bb4551222dd79699cc112661d3c11c0">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Normandy</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q15878"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb2a41e33d79c6b47b7a4f856489d39a834555427c8dba1352046b85cce87dd9121">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>11s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">132</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1a9ffe90a0486e04a7173f5b94dd35a2deebf33a44db9175afed760488a01d73c">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>24s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">288</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb197572eb252230d7252122ba96b892ce502fdabd692f5a23bb9219943ef08fbea">
+    <crm:P190_has_symbolic_content>panni</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>pani</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1545-inward-207">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Callico clothe the pece 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb3bbaf7eee902456025df4b9112fadb6c6b910b51e5dabcfc093ec27485e3eceef"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb215e0c6b1e90a7d24390255b2de741f3c3fbd5cc68e50191c717c97820c28f3a2"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb1b3884e834ee3c2aff5a244557016ff1eb66ce4d3426984c3833c43ed271cba4d"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 207 (transcribed by Stuart Jenks): 'Callico clothe the pece' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/yard">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>yard</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1507-none-175">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Mynster clothe the rowlle £10</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb2c0ca6472cbefce3293f974914a0bfac6cb367e98994300c3f6e8aafc5d9483d1"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb1c03ecdbcf44c52cbae75ef28be6d9ee691e974cd143940f0ceef7a8cf1e2fd43"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb29a56c6f5219bb5885b957b1b025361852878bd7b5cb123c3edd4d875b7b9b16f"/>
+    <hector:sourceText>Book of Rates 1507, line 175 (transcribed by Stuart Jenks): 'Mynster clothe the rowlle' £10</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb29a56c6f5219bb5885b957b1b025361852878bd7b5cb123c3edd4d875b7b9b16f">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Münster</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q2742"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1558-inward-342">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Clothe of sylver wrought the yeard 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb392f1d51845f272ed817325e0083ed7f0b0e098b8be1097e72d0e39de8adb20c7"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb22fced1329780d1a66a6e6bb724bc9918ca7022eb332e8ae3cdfdf3a7ef57cd78"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb22988ac1d1ca2ec36c46d86e4831f9bc6b576a6635e146bd078b45d6dd94ba8a2"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb22da2eb8ac33fa519b13c7f8556374f91015418a0df1fbd8aeba203a23d3dd0e5"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 342 (transcribed by Stuart Jenks): 'Clothe of sylver wrought the yeard' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1b8ac1e4a82cc5466c0e82c9c39b287c667e2e49dcd3059ca08eccdf9188753cd">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>30s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb22fced1329780d1a66a6e6bb724bc9918ca7022eb332e8ae3cdfdf3a7ef57cd78">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1d467b5a8bd7ceb9b2d8f9dec1aa82dcf13f1c7fb89c6931ea9be366a535decf6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Hazebrouck</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q11131"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb25900419d63f31dfc5175b63fefb0f01948957a1a21e0cc9ec5307217f92891a7">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>24s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">288</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb22988ac1d1ca2ec36c46d86e4831f9bc6b576a6635e146bd078b45d6dd94ba8a2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>worked</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb249c752b38d1092bcbbedf9e738f8a091cab2e204c22cefc1332e1342da377f23">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>sylver</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300011021">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gold (metal)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb148ab670c330cf7e7d114310da8bf3011e8069cacf36eb620392a195ca59cc35e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb24af776bdcdbf1f378f974fdbc5ddc78fd8dc0fb4396e8f255d74a7d743c6bfaf">
+    <crm:P190_has_symbolic_content>pannys</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>panis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/pentice-cloth">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>pentice cloth</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1c03ecdbcf44c52cbae75ef28be6d9ee691e974cd143940f0ceef7a8cf1e2fd43">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/roll"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1b9d224976398a02102f96329d85b8818b4a31cb809dfd8eada35b51e73faf19b">
+    <crm:P190_has_symbolic_content>pann</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>pan</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1e6d9856f2938613c305cb847a4584c283775566aab9516304fee6d5df2e157e0">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Hazebrouck</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q11131"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1b3884e834ee3c2aff5a244557016ff1eb66ce4d3426984c3833c43ed271cba4d">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Callico</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1ed5a645c36e154725cbfc92d11b21947b2690e40fb1f87ab47d486fc4a5b1b05">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Brabond</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb259214b2795a4d4eb47f42e34916bbd2de87e4e7e5b705b74066998df2c745cf7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>City of Brussels</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q239"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb20cfff7fa5691d7c39243935447a9c7c4588c4cb36e733ec2fb8d19ed6b409d84">
+    <crm:P190_has_symbolic_content>tellae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tele</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb21b00055bda4218e8e2eb4d1dc5e1b0ea4a1547e9f4e32ab1c229554c78a0d524">
+    <crm:P190_has_symbolic_content>tella</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tela</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb263d2232cb276309ea9ec228ec47826ac00fbc19fa757aa43d445c535eba31103">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/plica">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>plica</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb22da2eb8ac33fa519b13c7f8556374f91015418a0df1fbd8aeba203a23d3dd0e5">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>sylver</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q142">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>France</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb20fc3a8f1756b3ccdaab6c3af0ceea66c73f082f0e302cae702d26cca18d2c0b5">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Calycowe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cbfc562e85e88a1f612e9e90ed50cacab80b4826343f662e9876c72e876e7bea0b">
+    <crm:P190_has_symbolic_content>panno</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>pano</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cloth#rate-1558-inward-123">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Brisell clothe the pece 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cloth_cb341dc47151b7208e63fb4d4f73590583322655a13682ceafed1af1c07f5653f71"/>
+    <hector:perQuantity rdf:nodeID="commodity_cloth_cb2472b9db61275ef2b5cd34e0d1c3a6417cc1811dacfafa6fa625a23ce76ae47d4"/>
+    <hector:qualifier rdf:nodeID="commodity_cloth_cb2a51bf501dfd9361fda1822a99fb1b82a5ec9d4f886591cef45f87c7d07845693"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 123 (transcribed by Stuart Jenks): 'Brisell clothe the pece' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1f9eb5833062a601b3ce830a2187ec6a8f7e61b5a744da4ee4ce85e8f506ea160">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb27b8301192d3588f01e5322f14cd12ff740d350809b98ce42a7cc40e82ee73881">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1e6ebf383ec3d0ddcb000db6862d966fe7832fb168a4adc5d19f5adca5b165176">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>brown</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300127490"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1e0c09bec8f146e1a4058ad11236e1e6d4546ad1ffa4ac387ef2082b736460156">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Diapor table</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1df7381e91c106cf53de9f8284cc0594d16bea6e6481822f1c333ac5c1d39b4be">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>France</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q142"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb27a50649ef91c7d5f7b471dde2233fdb224a47eda2f357976b970d787358b94a6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>worked</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb214ccf7fb888c250e1cef864daaafb4da0a6a3f41705e3cc3bc2d07d08e809679">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb25d7cf95407a256cba023f74c4b4a95224c323892edc844901ea4c8e2d014b9d7">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/ell"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cbe1666aa0a647443b647f81f32a4f745b5cb56dff7c2c7b73d55e1a1f9422e6ad">
+    <crm:P190_has_symbolic_content>cloþes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kloθəs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300129784">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>white (color)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb204978f936dd0510d007923cf1d79b8678d4dd4ffc7348abc13d7b39bafa78c49">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/shortcloth">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>shortcloth</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb2571746910e269e429c7282fd9407abd8605427227e0c79607aba0c27ed7eddd7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gold</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300011021"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb14809bd9b8180ef828ce09138490f928ff5112731260033c6faa35246a45c75fa">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Lyneng</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1d57a2785e6c3e8da5c6444c067d70492399c76bc3e716ece1815c6c7598d3a0d">
+    <crm:P190_has_symbolic_content>Generally, textile that is woven, felted, knit, pounded, or otherwise made into a flat piece. For textile in the form of continuous strands made from filaments of fiber by reeling, spinning, twisting, or throwing, see "yarn." [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1b806be6cdc5a640a7ad0e8d805f132d86623c4014a5e907dec5448bc741b37ad">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/terlinge">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>terlinge</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1bac5349aede2b6b8524b0cbce922397f65817767f77b5f7c776e9efc4d99f6a7">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb2f78dae55f33ff3dc91a665c4797b2d6560ec0a5459e431d1006d99400792f8db">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb242803c962c99210426860c6df2b665927d3517f7ecc1481ddce20eb3316cfa5c">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb2a51bf501dfd9361fda1822a99fb1b82a5ec9d4f886591cef45f87c7d07845693">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Brisell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1eccfc5a51b0de40db0d3beffe42bd4f826374446ff726de8acb970ec760f7a55">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1aa25d0b22bb80203a3a245db45aed92837cf26ea832d1f02c02cb6aef064f88b">
+    <crm:P190_has_symbolic_content>tele</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>telə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb2a657688260d4e1684606d9f49bcc7556f0fa7fa3c4c01c1583a5c5f962e14f74">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>50s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">600</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb384529fb8baaef0186b32e75518efa876a72a0ee2ad7a87e3a3add81dc4e5d39f">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cbcf6245af547a950e09da3199f734cf0dd321ae06c874423e449a0b534065fb2a">
+    <crm:P190_has_symbolic_content>cloþis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kloθis</hector:phoneticKey>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/unit/roll">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
     <rdfs:label>roll</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb2ceaad30aa4f02c42220a609ffbb77f302b18d9309492eec1595608ca13efa25a">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>26s 3d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">315</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb3bbaf7eee902456025df4b9112fadb6c6b910b51e5dabcfc093ec27485e3eceef">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb2353836583f69602710d79f0c739084749f6c5a0e8bc71d8374a63adc4a90a255">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>florauns</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb3cbbc71295ee77f88594c1a0582861083954530f1b2e1089966723807ac1d48ad">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1d6153504e49e47b78783c2d8a953dc02c3bfbc93b5058e427aa23f7a63761252">
+    <crm:P190_has_symbolic_content>cloethez</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kleθez</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q12130">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Brittany</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb24bd80b9f07cd9a8c38cdad31c9a986c8befe1923348d9642c454bfb1e9fee052">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb25de6e4918386c626018e432e3f4dbaf9b120c08a1fdc98c4549a0b537241a871">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>wool</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300243430"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1703d0842de2cd9b4ca4835b09f932af2c4072363a1d692acf14a2927d3f0e7a2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>plain</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb184081943f45f977f12dd53813c1b5c2d6574ac2e1d36380af5308561a664b078">
+    <crm:P190_has_symbolic_content>pannis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>panis</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb164b66890a0559d12e75ac9bec4c44cf81a01fc6ca85dcacd0896a3fff82faf0b">
+    <crm:P190_has_symbolic_content>teleis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>teleis</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb13370dff3a2be48980b9adfa9a86dbe272a336ee67d494f344cea64f5834461eb">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>hesigham</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cbf8c9716a232116734d5a7684aadd1a1a47eea8f3df1912d7b9c5c265c23a2925">
+    <crm:P190_has_symbolic_content>pannos</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>panos</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1e32e9205c80f9ca0c04c043ce0000dae61d533a6b8b642fc7f92b81f16e5d254">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Doughlas Bretysshe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb341dc47151b7208e63fb4d4f73590583322655a13682ceafed1af1c07f5653f71">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb19177185726de1b5488bf92cca2868f2e56ae029be331bfb19f702c7ab43bd6a1">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Styched</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1e0c1b238d2bd1251e33644f36b7bed983746c7e1a331d1845cc0d1cd2e6eaff5">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Bretisshe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb2baee34f151473968a3c45d9de640fbcae4e31d5563a3247779051fe7185cb0a4">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tonnante">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tonnante</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb219de41e48b28db057a84a7eddf6b056f221c877b04420353de026c5eb5daad1e">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tissue</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb1e79adc49fb6dc3298653d41c6454c1a3a039c98a46c92bec193b15cf2ef95afd">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>brown</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300127490"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cbd552673d34296ba0a31a6dd9cfac5cec6ce9288c7c9d628fd1c6d0ff3640fed7">
+    <crm:P190_has_symbolic_content>telle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>telə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cloth_cb149abf717693d80730221079184495a8397accc8d2e568c4f6f5da6648d7d7cf9">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>plain</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q1296">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Ghent</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300127490">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>brown (color)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q239">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>City of Brussels</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

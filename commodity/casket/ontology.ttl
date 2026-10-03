@@ -90,10 +90,20 @@
     la:equivalent aat:300039006 ;
     hector:attestationCount 85 ;
     hector:taxation <https://w3id.org/hector/commodity/casket#rate-1545-inward-412>,
-        <https://w3id.org/hector/commodity/casket#rate-1545-inward-413> .
+        <https://w3id.org/hector/commodity/casket#rate-1545-inward-413>,
+        <https://w3id.org/hector/commodity/casket#rate-1558-inward-195>,
+        <https://w3id.org/hector/commodity/casket#rate-1558-inward-196>,
+        <https://w3id.org/hector/commodity/casket#rate-1558-inward-197>,
+        <https://w3id.org/hector/commodity/casket#rate-1558-inward-642> .
 
 aat:300039006 a crm:E55_Type ;
     rdfs:label "caskets (personal gear)" .
+
+aat:300073756 a crm:E55_Type ;
+    rdfs:label "large" .
+
+aat:300073768 a crm:E55_Type ;
+    rdfs:label "small" .
 
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
@@ -123,9 +133,74 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 12 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "mid" ] ;
     hector:sourceText "Book of Rates 1545, inward, line 413 (transcribed by Stuart Jenks): 'Kaskettes the dossen myddell' 13s 4d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/casket#rate-1558-inward-195> a hector:Rate ;
+    rdfs:label "1558 inward: Caskettes great the dosen 30s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "30s" ;
+            hector:valueInPence 360.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "large" ;
+            la:equivalent aat:300073756 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 195 (transcribed by Stuart Jenks): 'Caskettes great the dosen' 30s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/casket#rate-1558-inward-196> a hector:Rate ;
+    rdfs:label "1558 inward: Caskettes mydle the dosen 24s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "24s" ;
+            hector:valueInPence 288.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "mid" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 196 (transcribed by Stuart Jenks): 'Caskettes mydle the dosen' 24s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/casket#rate-1558-inward-197> a hector:Rate ;
+    rdfs:label "1558 inward: Caskettes small the dosen 15s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "15s" ;
+            hector:valueInPence 180.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "small" ;
+            la:equivalent aat:300073768 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 197 (transcribed by Stuart Jenks): 'Caskettes small the dosen' 15s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/casket#rate-1558-inward-642> a hector:Rate ;
+    rdfs:label "1558 inward: Kaskettes voc’ steele caskettes the dosen £3" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£3" ;
+            hector:valueInPence 720.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "steele caskettes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 642 (transcribed by Stuart Jenks): 'Kaskettes voc’ steele caskettes the dosen' £3" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/mlca/glossary/casket> a crm:E55_Type ;
     rdfs:label "casket (London Customs Accounts glossary)" .

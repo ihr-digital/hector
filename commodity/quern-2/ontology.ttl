@@ -15,11 +15,9 @@
             crm:P2_has_type aat:300404670 ;
             hector:phoneticKey "kwern" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "qwerns" ;
+            crm:P190_has_symbolic_content "quernys" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kwerns" ;
-            hector:validFrom "1461"^^xsd:gYear ;
-            hector:validThrough "1465"^^xsd:gYear ],
+            hector:phoneticKey "kwernis" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "queren" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -57,15 +55,17 @@
             hector:validFrom "1461"^^xsd:gYear ;
             hector:validThrough "1465"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "qwerns" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kwerns" ;
+            hector:validFrom "1461"^^xsd:gYear ;
+            hector:validThrough "1465"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "quern" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kwern" ;
             hector:validFrom "1461"^^xsd:gYear ;
-            hector:validThrough "1465"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "quernys" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kwernis" ] ;
+            hector:validThrough "1465"^^xsd:gYear ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "Simple, hand-operated mills consisting of two circular stones; used to grind grain. [Source: Getty AAT]" ;
             crm:P2_has_type aat:300435416 ] ;
@@ -73,7 +73,11 @@
     skos:related <https://w3id.org/hector/commodity/pepper-quern>,
         <https://w3id.org/hector/commodity/quernstone> ;
     la:equivalent aat:300200181 ;
-    hector:attestationCount 14 .
+    hector:attestationCount 14 ;
+    hector:taxation <https://w3id.org/hector/commodity/quern-2#rate-1545-inward-596>,
+        <https://w3id.org/hector/commodity/quern-2#rate-1545-inward-598>,
+        <https://w3id.org/hector/commodity/quern-2#rate-1558-inward-879>,
+        <https://w3id.org/hector/commodity/quern-2#rate-1558-inward-881> .
 
 aat:300200181 a crm:E55_Type ;
     rdfs:label "querns" .
@@ -87,11 +91,72 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/hector/commodity/pepper-quern> a crm:E55_Type ;
     rdfs:label "pepper quern" .
 
+<https://w3id.org/hector/commodity/quern-2#rate-1545-inward-596> a hector:Rate ;
+    rdfs:label "1545 inward: Querne stones the last conteyninge 12 payre 40s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "40s" ;
+            hector:valueInPence 480.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 596 (transcribed by Stuart Jenks): 'Querne stones the last conteyninge 12 payre' 40s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/quern-2#rate-1545-inward-598> a hector:Rate ;
+    rdfs:label "1545 inward: Querne stones for musterde the last 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "musterde" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 598 (transcribed by Stuart Jenks): 'Querne stones for musterde the last' 10s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/quern-2#rate-1558-inward-879> a hector:Rate ;
+    rdfs:label "1558 inward: Querne stones the laste cont’ 12 payer of the grete sorte 40s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "40s" ;
+            hector:valueInPence 480.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 879 (transcribed by Stuart Jenks): 'Querne stones the laste cont’ 12 payer of the grete sorte' 40s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/quern-2#rate-1558-inward-881> a hector:Rate ;
+    rdfs:label "1558 inward: Querne stones the laste of the smaller sorte 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 881 (transcribed by Stuart Jenks): 'Querne stones the laste of the smaller sorte' 13s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/quernstone> a crm:E55_Type ;
     rdfs:label "quernstone" .
 
 <https://w3id.org/mlca/glossary/quern_2> a crm:E55_Type ;
     rdfs:label "quern_2 (London Customs Accounts glossary)" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
+<https://w3id.org/hector/unit/last> a crm:E58_Measurement_Unit ;
+    rdfs:label "last" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

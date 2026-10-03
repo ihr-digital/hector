@@ -17,7 +17,7 @@
         geonames: "https://sws.geonames.org/", skos: "http://www.w3.org/2004/02/skos/core#",
         owl: "http://www.w3.org/2002/07/owl#", rdfs: "http://www.w3.org/2000/01/rdf-schema#",
     };
-    const KIND = {c: "Commodity", q: "Commodity, as priced in the Books of Rates", u: "Unit"};
+    const KIND = {c: "Commodity", u: "Unit"};
     const AAT_PREFERRED = "aat:300404670";
     const AAT_NOTE = "aat:300435416";
 
@@ -80,7 +80,7 @@
         const label = d._label || path;
         document.title = `${label} · HECTOR`;
         const isUnit = d.type === "MeasurementUnit";
-        const kind = isUnit ? "Unit" : d.compoundOf ? KIND.q : "Commodity";
+        const kind = isUnit ? "Unit" : "Commodity";
         const h = [];
         h.push(`<p class="crumb"><a href="./">HECTOR</a> › ${esc(kind)}</p>`);
         h.push(`<h1>${esc(label)}</h1>`);
@@ -92,7 +92,7 @@
 
         if (d.deprecated) {
             const to = d.isReplacedBy ? ref(d.isReplacedBy) : "nothing";
-            h.push(`<div class="callout"><strong>This record has been merged.</strong> It is replaced by ${to}.
+            h.push(`<div class="callout"><strong>This record has been retired.</strong> It is replaced by ${to}.
                     The URI is kept so that existing links still resolve.</div>`);
         }
 
@@ -148,11 +148,16 @@
             const rows = rates.map((r) => {
                 const per = r.perQuantity ? `${r.perQuantity.value !== 1 ? esc(r.perQuantity.value) + " " : ""}${ref(r.perQuantity.unit)}` : "";
                 const when = r.validFrom ? `${esc(r.validFrom)}${r.validThrough ? "–" + esc(r.validThrough) : ""}` : "";
-                return `<tr><td>${when}</td><td>${esc(r.amount?.lsd || "")}</td><td>${per}</td><td class="small">${esc(r.sourceText || r._label || "")}</td></tr>`;
+                // a qualifier in LCA's list by its modern name; otherwise the book's words, quoted
+                const qual = (r.qualifier || []).map((q) => (q.classified_as || []).length
+                    ? `“${esc(q._label)}”` : esc(q._label)).join(", ");
+                return `<tr><td>${when}</td><td>${qual}</td><td>${esc(r.amount?.lsd || "")}</td><td>${per}</td><td class="small">${esc(r.sourceText || r._label || "")}</td></tr>`;
             }).join("");
             h.push(`<section><h2>Customs rates <span class="count">${rates.length}</span></h2>
-                <p class="muted small">The official valuation per unit, with the source of each.</p>
-                <div class="scroll"><table><thead><tr><th>In force</th><th>Rate</th><th>Per</th><th>Source</th></tr></thead>
+                <p class="muted small">The official valuation per unit, with the source of each. Where the book
+                qualifies the goods (“of beyownd the se”), the qualifier is given by its modern name, or in quotation
+                marks in the book's own words where no modern name has been assigned.</p>
+                <div class="scroll"><table><thead><tr><th>In force</th><th>Qualified as</th><th>Rate</th><th>Per</th><th>Source</th></tr></thead>
                 <tbody>${rows}</tbody></table></div></section>`);
         }
 
@@ -241,8 +246,8 @@
         if (INDEX) return INDEX;
         const res = await fetch(new URL("search/index.json", BASE));
         if (!res.ok) throw new Error(res.status);
-        INDEX = (await res.json()).map(([path, label, kind, names, dep]) => ({
-            path, label, kind, names, dep, keys: [label, ...names].map(normalise),
+        INDEX = (await res.json()).map(([path, label, kind, names, dep, rates]) => ({
+            path, label, kind, names, dep, rates: rates || 0, keys: [label, ...names].map(normalise),
         }));
         return INDEX;
     }
@@ -250,9 +255,11 @@
     function stats(index) {
         const n = (k) => index.filter((r) => r.kind === k && !r.dep).length;
         const spellings = index.reduce((a, r) => a + r.names.length + 1, 0);
+        const rated = index.filter((r) => r.rates && !r.dep).length;
+        const rates = index.reduce((a, r) => a + (r.dep ? 0 : r.rates), 0);
         $("#stats").innerHTML = [
             `<li><strong>${n("c").toLocaleString("en-GB")}</strong> commodities</li>`,
-            `<li><strong>${n("q").toLocaleString("en-GB")}</strong> commodities as priced in the Books of Rates, with their rates</li>`,
+            `<li><strong>${rated.toLocaleString("en-GB")}</strong> of them with customs rates from the Books of Rates (<strong>${rates.toLocaleString("en-GB")}</strong> rates)</li>`,
             `<li><strong>${n("u").toLocaleString("en-GB")}</strong> units of measure</li>`,
             `<li><strong>${spellings.toLocaleString("en-GB")}</strong> spellings, searchable here</li>`,
         ].join("");
@@ -277,7 +284,7 @@
         status.textContent = hits.length ? `${hits.length.toLocaleString("en-GB")} match${hits.length === 1 ? "" : "es"}${hits.length > shown.length ? `, first ${shown.length} shown` : ""}`
             : "No matches. Try a shorter part of the word.";
         const item = ({r, via}) => `<li><a href="?path=${encodeURIComponent(r.path)}">${esc(r.label)}</a>
-            <span class="kind">${esc(KIND[r.kind])}${r.dep ? " · merged" : ""}</span>
+            <span class="kind">${esc(KIND[r.kind])}${r.dep ? " · retired" : ""}</span>
             ${via ? `<span class="via">spelled “${esc(via)}”</span>` : ""}</li>`;
         out.innerHTML = shown.map(item).join("");
         if (hits.length >= FUZZY_WHEN_FEWER || Array.from(nq).length < 3) return;

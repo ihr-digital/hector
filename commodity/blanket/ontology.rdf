@@ -8,83 +8,59 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_blanket_cb1470d042e0d2eff25bfc1724ef8e3d32038bc0445af7d5ecbd733ebd058b6e623">
-    <crm:P190_has_symbolic_content>spanishe blanckettes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>spaniʃə blanketəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_blanket_cb250bbeeab4ea2bf39ae88b3c60edfcd7806207503bc8bd9c42cdcbef8d76b6669">
-    <crm:P190_has_symbolic_content>blankete</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>blaŋketə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_blanket_cb1d0e735cf02b7019641a0dabb21e5000005d8294ccfec4d6e6edc67aada64f12c">
-    <crm:P190_has_symbolic_content>blanckete</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>blanketə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_blanket_cb126668cc6bac6bb4232ee4d9f092370d935adeb0c6623e11893821c0cd2bbc3c5">
-    <crm:P190_has_symbolic_content>blandketes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>blandketəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_blanket_cb279ef596fa82d7f0541cf7c22af29ad12004116a143d5e7f9ede143a58f48498b">
-    <crm:P190_has_symbolic_content>blanckettes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>blanketəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/blanket">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb126668cc6bac6bb4232ee4d9f092370d935adeb0c6623e11893821c0cd2bbc3c5"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb138b6b133e53a05e6feba7035e226595f0493b6fa9a25d0011890fb4849aa8188"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb1470d042e0d2eff25bfc1724ef8e3d32038bc0445af7d5ecbd733ebd058b6e623"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb15c70507102f26787eec3191ed7a0ac5b17300c07521af24c1b9f82c7da083d3d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb16bc9f0e8af5dfec38774d8970669bd2832a0bb16d6dfb5fbefaa1692f16bd29e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb17e39525cbedd4e4f198e488da4b97182d8a4220718108bf2266e4d4314bb2c2e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb1867dbcebb05796b4462cb2b13b8db43ad49afa598071f268a97cd55b7d9dc09e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb1d0e735cf02b7019641a0dabb21e5000005d8294ccfec4d6e6edc67aada64f12c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb1d949ae441ebb34fffa2637bdb39c53ed3fc5a1d5702d53106bd58fb4f9bfe85e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb1e74b28ed8cb51b19e9e489bc14e26898844c1e09bb913ae69679be0aaee0cc1a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb1e8de54a159407a7cc14739ec38f6e6b6f565dab25ccc09e18f40882b3e438a30"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb1f16626bb3cdfd30a4b61e7c47628c60975708c208c366c85522d6ea78a23e8ec"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb20ca09e5005e608d8ed77a890d220535ae6f7f8569000f3fa0d3811e7bf1e2a64"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb20f1f028a0c6fb3a0b465d385561c18a5c800ba25f2c8a0b0182cd0d7e8ab0cb7"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb21065d365ccf768569183526bbbb1abacabec975b12e018ebb47c0b9d0da52cbe"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb21b03bfba65345ca0f9d150f9ce5c3158125a40efa97efeefd5937cd41fd2ab79"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb21b06e2b3974f0bee120cadcaff394d3ac9d84383c3feeee71856256055386d89"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb2260b8dcf9e39f68efc49aabedf2118a65395ee220ab28bb13d223cdff822a0a2"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb2337e6a0423bbc869a9071768d63c090f6f24dbc3ddc86e6c5d0bf49a36f9d15f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb250bbeeab4ea2bf39ae88b3c60edfcd7806207503bc8bd9c42cdcbef8d76b6669"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb26a67e36c116863cc7e6cddccede9792707df5a7134bd93a56f44c4d9325e1513"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb279ef596fa82d7f0541cf7c22af29ad12004116a143d5e7f9ede143a58f48498b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cbee9e20f0906a37e70d15833beb5154b7c34e7ee2acb1f98c480349bd29974d0a"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_blanket_cbac7d0fd21a5fee5200e3809a25a31d88ac27a4d7ccef15271ebebd40b273b14f"/>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb192e523ab49eb1b376f37bd026a83be01a1bd72143b74128212ecc35f828cec4d">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>blanket</rdfs:label>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/blanket"/>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300197367"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</hector:attestationCount>
+    <rdfs:label>red</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300126225"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb210775bbd100989432cff8ad31259b73215af38c3303c31478f6dd328ad7b2a75">
+    <crm:P190_has_symbolic_content>blancket</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>blanket</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb31964ea66affa7d378b1d25dcf1892d8f225814ab6a80e6910739be1cd84381c1">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/blanket#rate-1558-inward-152">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Blankettes voc’ Paris mantelles redde or colored, the mantell 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_blanket_cb317b9bdad67b94de8f1f8c41b814818b7bbc0ca13535fb0745764685728ac77b7"/>
+    <hector:perQuantity rdf:nodeID="commodity_blanket_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_blanket_cb1137a818f4eb4bcc56f8fda476c2301c728ddfaa99a3ccfe92af86291eaf1c026"/>
+    <hector:qualifier rdf:nodeID="commodity_blanket_cb11c02ea1944510f0019ed3c97ce06ee57f2d96c0f766e4e22bad13cdbb322c035"/>
+    <hector:qualifier rdf:nodeID="commodity_blanket_cb17d85a7c1581bf8590e3e543ca21bc0422e6ce307dbb7ce4ef58ed37cf3eca7ea"/>
+    <hector:qualifier rdf:nodeID="commodity_blanket_cb192e523ab49eb1b376f37bd026a83be01a1bd72143b74128212ecc35f828cec4d"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 152 (transcribed by Stuart Jenks): 'Blankettes voc’ Paris mantelles redde or colored, the mantell' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_blanket_cb1e8de54a159407a7cc14739ec38f6e6b6f565dab25ccc09e18f40882b3e438a30">
+  <rdf:Description rdf:nodeID="commodity_blanket_cb28979186de4921a05600a80db8a1a6a4fa81e0713d8c35867ac85295a55b5569c">
+    <crm:P190_has_symbolic_content>blankette</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>blaŋketə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb2065c5def5fded152cb822ccab11359c1248acaac5f96ffa8d3ba228bd2380da3">
+    <crm:P190_has_symbolic_content>blaunckates</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>blaunkatəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb207ef89a32c6a30b5a2e4dcfad527d7df95a4875500d1cea3cc80ecac619acbb9">
     <crm:P190_has_symbolic_content>blanketes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -92,7 +68,152 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_blanket_cb20f1f028a0c6fb3a0b465d385561c18a5c800ba25f2c8a0b0182cd0d7e8ab0cb7">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/blanket">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb10daf55f26393ee1feeb3264a878245e0638d2b8550b7be4e8543ae3e4cee8e93"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb14577c1c88df0717b148bf0ada5546201d5ec97af0a29a5dad0c2808df613054e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb157c7e635b863bc1fe05813447e574a87a4d2639d3e2b94c355d15fc96d01c311"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb17b818572d61c1dc0d060bc2d73d19d83b76eb8a9f620b70e58dfe748fd5f7ec6"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb18adb25ea8287b4fc69127ba5a29aae50d2df67b97ae57abe2cea7b1414c31427"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb19d4a875e92070487fb2beb9c40ea62ab78e2cea9bc1650b463aeb1c438126db7"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb1a58ef1ed83814ced27ca55bfd7bea56374d9a6fc2477b72ae6bd39dca0f50227"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb1eff86ad0d5e0b7cf233e7dc9be15f128a616d5ef73f21230ac1ccc2bfdbc32b5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb1f85ae345f1e4eb38dbc3dacc4fcd4515e0044e78143317d2a915f4361d1729e7"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb2065c5def5fded152cb822ccab11359c1248acaac5f96ffa8d3ba228bd2380da3"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb207ef89a32c6a30b5a2e4dcfad527d7df95a4875500d1cea3cc80ecac619acbb9"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb210775bbd100989432cff8ad31259b73215af38c3303c31478f6dd328ad7b2a75"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb22bb1d351d90fbf11cf154b9f6e5144838736a4f93406b8bc4a787668e2756bed"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb22f770867a0211e8f7320f57a57e29cd54c2b43fdb6e5ddadf1bc701e30fc6e47"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb23a14f4bc385e12d9db6ef4086a8d2280b298ed924d84c3b212d3e1554329ed02"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb23a1817b56a78c226f3aa50d99b6a3e636a16f0266804b3a9559689e1788faf12"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb2451cc2d17163acc7dde74dcd7b5209cef3d49ac4aeb850737a62a1611b79e22b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb26e27c11e952158e8376de4047c0476f947e8cc610d96d75abffda36fcc450711"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb26fcd23ad21cc7572902656d4ab10bea0a65f21a660919e866a1d2379fac2a7f2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb28979186de4921a05600a80db8a1a6a4fa81e0713d8c35867ac85295a55b5569c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb299008e717b57353e236d1f314b5a9e3aa07fc343e7dbacbc2b21a826b29f8b14"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb2ed1d7a2bd071cf257a00e6fd67b6eb6d8036a6eb0d27bd6dc52ac09b72c477bf"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_blanket_cb301d4699d51cea51908bb314f0d94ffb75526c4407bbf7a4661214b9d30664215"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_blanket_cb1a9f5169e956ce2bd88dba6f78bdd9f2fee369c934119f0c94b47e6d49f60bf67"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>blanket</rdfs:label>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/blanket"/>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300197367"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/blanket#rate-1558-inward-151"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/blanket#rate-1558-inward-152"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb1fa9b6610863e46d039bb12c7f999188a99d27435eab058629f303522f1bd129d">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pane"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb1dcb331e7321978099eb62721ea7eb1dc3b2d15561b4023e37f97ba24a9f6a046">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>mantelles</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb246be58193b80b39d3d64a1172077705740bbfdb45cbb22494a2e2b0fb2f1880a">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Paris</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q90"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb23a14f4bc385e12d9db6ef4086a8d2280b298ed924d84c3b212d3e1554329ed02">
+    <crm:P190_has_symbolic_content>blanckett</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>blanket</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb2ed1d7a2bd071cf257a00e6fd67b6eb6d8036a6eb0d27bd6dc52ac09b72c477bf">
+    <crm:P190_has_symbolic_content>spanishe blanckettes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>spaniʃə blanketəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb1a58ef1ed83814ced27ca55bfd7bea56374d9a6fc2477b72ae6bd39dca0f50227">
+    <crm:P190_has_symbolic_content>blankettum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>blaŋketum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1450</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb299008e717b57353e236d1f314b5a9e3aa07fc343e7dbacbc2b21a826b29f8b14">
+    <crm:P190_has_symbolic_content>blanckettes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>blanketəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb17d85a7c1581bf8590e3e543ca21bc0422e6ce307dbb7ce4ef58ed37cf3eca7ea">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Paris</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q90"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb2705971225d6f4cf30f12ef91458962cbedddd418a10474b44bb2fd1ca38a4190">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>white</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300129784"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb157c7e635b863bc1fe05813447e574a87a4d2639d3e2b94c355d15fc96d01c311">
+    <crm:P190_has_symbolic_content>blancketes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>blanketəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb26fcd23ad21cc7572902656d4ab10bea0a65f21a660919e866a1d2379fac2a7f2">
+    <crm:P190_has_symbolic_content>blankete</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>blaŋketə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb11c02ea1944510f0019ed3c97ce06ee57f2d96c0f766e4e22bad13cdbb322c035">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>dye</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb10daf55f26393ee1feeb3264a878245e0638d2b8550b7be4e8543ae3e4cee8e93">
+    <crm:P190_has_symbolic_content>blanketh</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>blaŋkeθ</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb22f770867a0211e8f7320f57a57e29cd54c2b43fdb6e5ddadf1bc701e30fc6e47">
+    <crm:P190_has_symbolic_content>blanckette</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>blanketə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300129784">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>white (color)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb317b9bdad67b94de8f1f8c41b814818b7bbc0ca13535fb0745764685728ac77b7">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb19d4a875e92070487fb2beb9c40ea62ab78e2cea9bc1650b463aeb1c438126db7">
+    <crm:P190_has_symbolic_content>blankettes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>blaŋketəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb26e27c11e952158e8376de4047c0476f947e8cc610d96d75abffda36fcc450711">
     <crm:P190_has_symbolic_content>blanket</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -101,116 +222,24 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_blanket_cb16bc9f0e8af5dfec38774d8970669bd2832a0bb16d6dfb5fbefaa1692f16bd29e">
-    <crm:P190_has_symbolic_content>blankeths</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>blaŋkeθs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/blanket#rate-1558-inward-151">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Blankettes voc’ Parys mantelles, white, the mantell 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_blanket_cb31964ea66affa7d378b1d25dcf1892d8f225814ab6a80e6910739be1cd84381c1"/>
+    <hector:perQuantity rdf:nodeID="commodity_blanket_cb1fa9b6610863e46d039bb12c7f999188a99d27435eab058629f303522f1bd129d"/>
+    <hector:qualifier rdf:nodeID="commodity_blanket_cb1dcb331e7321978099eb62721ea7eb1dc3b2d15561b4023e37f97ba24a9f6a046"/>
+    <hector:qualifier rdf:nodeID="commodity_blanket_cb246be58193b80b39d3d64a1172077705740bbfdb45cbb22494a2e2b0fb2f1880a"/>
+    <hector:qualifier rdf:nodeID="commodity_blanket_cb2705971225d6f4cf30f12ef91458962cbedddd418a10474b44bb2fd1ca38a4190"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 151 (transcribed by Stuart Jenks): 'Blankettes voc’ Parys mantelles, white, the mantell' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_blanket_cb1d949ae441ebb34fffa2637bdb39c53ed3fc5a1d5702d53106bd58fb4f9bfe85e">
-    <crm:P190_has_symbolic_content>blandkete</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>blandketə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_blanket_cb2260b8dcf9e39f68efc49aabedf2118a65395ee220ab28bb13d223cdff822a0a2">
-    <crm:P190_has_symbolic_content>blanketti</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>blaŋketi</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1450</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_blanket_cb17e39525cbedd4e4f198e488da4b97182d8a4220718108bf2266e4d4314bb2c2e">
-    <crm:P190_has_symbolic_content>blankettes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>blaŋketəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_blanket_cb2337e6a0423bbc869a9071768d63c090f6f24dbc3ddc86e6c5d0bf49a36f9d15f">
-    <crm:P190_has_symbolic_content>spanishe blanckette</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>spaniʃə blanketə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_blanket_cb1867dbcebb05796b4462cb2b13b8db43ad49afa598071f268a97cd55b7d9dc09e">
-    <crm:P190_has_symbolic_content>blankettum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>blaŋketum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1450</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_blanket_cbac7d0fd21a5fee5200e3809a25a31d88ac27a4d7ccef15271ebebd40b273b14f">
+  <rdf:Description rdf:nodeID="commodity_blanket_cb1a9f5169e956ce2bd88dba6f78bdd9f2fee369c934119f0c94b47e6d49f60bf67">
     <crm:P190_has_symbolic_content>a kind of woollen cloth, often white or undyed (MED s.v. blanket n.) | Large rectangular coverings of thick but soft material, used especially for warmth. [Source: Getty AAT]</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_blanket_cb1e74b28ed8cb51b19e9e489bc14e26898844c1e09bb913ae69679be0aaee0cc1a">
-    <crm:P190_has_symbolic_content>blaunckates</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>blaunkatəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_blanket_cb26a67e36c116863cc7e6cddccede9792707df5a7134bd93a56f44c4d9325e1513">
-    <crm:P190_has_symbolic_content>blankette</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>blaŋketə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_blanket_cb21b06e2b3974f0bee120cadcaff394d3ac9d84383c3feeee71856256055386d89">
-    <crm:P190_has_symbolic_content>blankett</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>blaŋket</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_blanket_cb1f16626bb3cdfd30a4b61e7c47628c60975708c208c366c85522d6ea78a23e8ec">
-    <crm:P190_has_symbolic_content>blancket</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>blanket</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_blanket_cbee9e20f0906a37e70d15833beb5154b7c34e7ee2acb1f98c480349bd29974d0a">
-    <crm:P190_has_symbolic_content>blanketh</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>blaŋkeθ</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_blanket_cb15c70507102f26787eec3191ed7a0ac5b17300c07521af24c1b9f82c7da083d3d">
-    <crm:P190_has_symbolic_content>blanckets</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>blankets</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_blanket_cb20ca09e5005e608d8ed77a890d220535ae6f7f8569000f3fa0d3811e7bf1e2a64">
+  <rdf:Description rdf:nodeID="commodity_blanket_cb22bb1d351d90fbf11cf154b9f6e5144838736a4f93406b8bc4a787668e2756bed">
     <crm:P190_has_symbolic_content>blaunckate</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -218,36 +247,110 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_blanket_cb138b6b133e53a05e6feba7035e226595f0493b6fa9a25d0011890fb4849aa8188">
-    <crm:P190_has_symbolic_content>blancketes</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pane"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb1f85ae345f1e4eb38dbc3dacc4fcd4515e0044e78143317d2a915f4361d1729e7">
+    <crm:P190_has_symbolic_content>blandkete</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>blanketəs</hector:phoneticKey>
+    <hector:phoneticKey>blandketə</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb14577c1c88df0717b148bf0ada5546201d5ec97af0a29a5dad0c2808df613054e">
+    <crm:P190_has_symbolic_content>blandketes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>blandketəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb301d4699d51cea51908bb314f0d94ffb75526c4407bbf7a4661214b9d30664215">
+    <crm:P190_has_symbolic_content>spanishe blanckette</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>spaniʃə blanketə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/mlca/glossary/blanket">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>blanket (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_blanket_cb21065d365ccf768569183526bbbb1abacabec975b12e018ebb47c0b9d0da52cbe">
-    <crm:P190_has_symbolic_content>blanckette</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300126225">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>red (color)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb1eff86ad0d5e0b7cf233e7dc9be15f128a616d5ef73f21230ac1ccc2bfdbc32b5">
+    <crm:P190_has_symbolic_content>blanckete</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>blanketə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb2451cc2d17163acc7dde74dcd7b5209cef3d49ac4aeb850737a62a1611b79e22b">
+    <crm:P190_has_symbolic_content>blanketti</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>blaŋketi</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1450</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb18adb25ea8287b4fc69127ba5a29aae50d2df67b97ae57abe2cea7b1414c31427">
+    <crm:P190_has_symbolic_content>blankeths</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>blaŋkeθs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb17b818572d61c1dc0d060bc2d73d19d83b76eb8a9f620b70e58dfe748fd5f7ec6">
+    <crm:P190_has_symbolic_content>blanckets</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>blankets</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pane">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pane</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb23a1817b56a78c226f3aa50d99b6a3e636a16f0266804b3a9559689e1788faf12">
+    <crm:P190_has_symbolic_content>blankett</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>blaŋket</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q90">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Paris</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300197367">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>blankets (coverings)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_blanket_cb21b03bfba65345ca0f9d150f9ce5c3158125a40efa97efeefd5937cd41fd2ab79">
-    <crm:P190_has_symbolic_content>blanckett</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_blanket_cb1137a818f4eb4bcc56f8fda476c2301c728ddfaa99a3ccfe92af86291eaf1c026">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>blanket</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>mantelles</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

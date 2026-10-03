@@ -351,7 +351,108 @@
       },
       "validFrom": "1507",
       "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 52 (transcribed by Stuart Jenks): 'Coper spleten the barrelle' 33s 4d"
+      "sourceText": "Book of Rates 1507, line 52 (transcribed by Stuart Jenks): 'Coper spleten the barrelle' 33s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "spleten",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/copper#rate-1507-none-53",
+      "type": "Rate",
+      "_label": "1507: Coper gowle the grose 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 53 (transcribed by Stuart Jenks): 'Coper gowle the grose' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "gowle",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/copper#rate-1507-none-65",
+      "type": "Rate",
+      "_label": "1507: Coper called rede coper whether ytt be rownd or square þe C 16s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "200",
+        "lsd": "16s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 65 (transcribed by Stuart Jenks): 'Coper called rede coper whether ytt be rownd or square þe C' 16s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "red",
+          "equivalent": [
+            {
+              "id": "aat:300126225",
+              "type": "Type",
+              "_label": "red (color)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "round"
+        },
+        {
+          "type": "Type",
+          "_label": "square"
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/copper#rate-1545-inward-166",
@@ -378,7 +479,305 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 166 (transcribed by Stuart Jenks): 'Copper golde the maste' 8s"
+      "sourceText": "Book of Rates 1545, inward, line 166 (transcribed by Stuart Jenks): 'Copper golde the maste' 8s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "gold",
+          "equivalent": [
+            {
+              "id": "aat:300011021",
+              "type": "Type",
+              "_label": "gold (metal)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/copper#rate-1545-inward-167",
+      "type": "Rate",
+      "_label": "1545 inward: Coper golde upon quylles the pound 4s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "48",
+        "lsd": "4s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 167 (transcribed by Stuart Jenks): 'Coper golde upon quylles the pound' 4s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "gold",
+          "equivalent": [
+            {
+              "id": "aat:300011021",
+              "type": "Type",
+              "_label": "gold (metal)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "upon quylles",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/copper#rate-1545-inward-168",
+      "type": "Rate",
+      "_label": "1545 inward: Copper golde the groce conteininge twelve rolles 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 168 (transcribed by Stuart Jenks): 'Copper golde the groce conteininge twelve rolles' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "gold",
+          "equivalent": [
+            {
+              "id": "aat:300011021",
+              "type": "Type",
+              "_label": "gold (metal)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/copper#rate-1545-inward-182",
+      "type": "Rate",
+      "_label": "1545 inward: Copper rounde or square the hundreth 16s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "200",
+        "lsd": "16s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 182 (transcribed by Stuart Jenks): 'Copper rounde or square the hundreth' 16s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "round"
+        },
+        {
+          "type": "Type",
+          "_label": "square"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/copper#rate-1558-inward-239",
+      "type": "Rate",
+      "_label": "1558 inward: Copper goolde, quylls or rolles, the pound cont’ 12 oz 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 239 (transcribed by Stuart Jenks): 'Copper goolde, quylls or rolles, the pound cont’ 12 oz' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "goolde quylls",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/copper#rate-1558-inward-241",
+      "type": "Rate",
+      "_label": "1558 inward: Copper rounde or square the C lb. cont’ 112 lb 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 241 (transcribed by Stuart Jenks): 'Copper rounde or square the C lb. cont’ 112 lb' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "round"
+        },
+        {
+          "type": "Type",
+          "_label": "square"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/copper#rate-1558-inward-297",
+      "type": "Rate",
+      "_label": "1558 inward: Copper cheynes the grosse 4s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "48",
+        "lsd": "4s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 297 (transcribed by Stuart Jenks): 'Copper cheynes the grosse' 4s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "cheynes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/copper#rate-1558-inward-298",
+      "type": "Rate",
+      "_label": "1558 inward: Copper browches the grosse 6s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "72",
+        "lsd": "6s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 298 (transcribed by Stuart Jenks): 'Copper browches the grosse' 6s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "browches",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/copper#rate-1558-inward-317",
@@ -405,7 +804,24 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 317 (transcribed by Stuart Jenks): 'Copper rynges fyne with stones the dossen' 3s 4d"
+      "sourceText": "Book of Rates 1558, inward, line 317 (transcribed by Stuart Jenks): 'Copper rynges fyne with stones the dossen' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "rynges",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "fine"
+        }
+      ]
     }
   ]
 }

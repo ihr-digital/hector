@@ -155,5 +155,87 @@
     }
   ],
   "attestationCount": 21,
-  "modified": "2026-09-29"
+  "modified": "2026-09-29",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/wood#rate-1558-inward-689",
+      "type": "Rate",
+      "_label": "1558 inward: Lignum balsamum the pound 2s 6d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "30",
+        "lsd": "2s 6d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 689 (transcribed by Stuart Jenks): 'Lignum balsamum the pound' 2s 6d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "balsamum",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/wood#rate-1558-inward-690",
+      "type": "Rate",
+      "_label": "1558 inward: Lignum allus the pound 20d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "20",
+        "lsd": "20d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 690 (transcribed by Stuart Jenks): 'Lignum allus the pound' 20d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "allus",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

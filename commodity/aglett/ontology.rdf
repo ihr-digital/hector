@@ -8,155 +8,7 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/aglett">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb1546a687afa575af0ec43ebb1f7633bea82f110942654738aee6ba90776e2baf9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb15dcc3f31182cb16aeeb24516eb0d1a0e4a8b3d11ac9bf0736b2db639c36a9dcf"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb16d19d54b193f5ea8a20c3dbb8c874a56953505f403f767de881737b2b3c9a769"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb16f71eb31f36c78d7884d2e32d46067b8088e3a1ae776c811f662e2f7a8cdae61"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb177b4ac892bc81f8076091bca71d42259be51290e5bd8e7cf55d30783ab4dca5f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb186027338ff53696e51e822d7df106d1e2e48cb2c5b09b6c27a940903f2c6e1c2"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb1ab3fafb8b192ed81b0a5880c457212e11dc4b53b3557a431013cad07904ebca6"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb1c0abdb9f98899e16fe588fd287ff90f47db20a2741d4381200d8a4dc21de2411"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb1d4779227d97884d1b883967ea11b5375a24e0d1802e93bcee1dd47dfb78ec371"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb1e87bd48929f043f106db1823c38db5467f0b40cf3615d1f506417db1ded95f39"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb1fb98b186794ae6a575c6a99032770f98bc91bfec585dbbb4d72b92d72a4aa833"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb21401fd4b72ccc88e0a1ac70be81db75fbf2f396f3fe18f27be5bf8ca93536abe"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb2303ce38c2e304882e1467b6ae93a49559da74328e311563afa9da0a4d350e7d2"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb24c2cd1aa140b9d02a1f73ad9d6855775016feb43f14039107aa19e0445336e62"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb27a7b8228b87985fa72dda381109985b3bbdf71e632003cf1a85757804e56676e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb28a107f87033326f00298d73b31206c25a5f2c3285bfdef1080d3e049969e8c64"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb2b48b5d91920c9bc3bc6f56088788d283de1fcdf2074720ffcf0e6bf322f8e00"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb2e66d101146dd73c0969e64d09581bca31ddcb924e4cb6faa427472fccdad5a80"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb35452dba9d2ba90c4bbd038497cad2df9358c101d11281e89ffc92e26b7a94f06"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb35533d187a39f7f2ba10073e0c45cddc2a9a4a20ee7757349ab811cd6fc79ea64"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb97a684c2b07ff0ace8cb64a461de3df0c43e3cb8d8ef2cfbf5139181bc87e7ee"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cba673c4e14418bef34c6591c7dd2ba5eb8cec3c5ddedee81ad798e2493f86a836"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cbad9aa0aca3b3d0ff7035af20b8a3869b0b621c5e9a41ee4d73db1da9c8fa8693"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cbd745a31b8de001af87a8262ce10e7f9343682c1243a0ad11d1b05abb8e442e6a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cbf5cfad31bddede80de6f45567c8b1f5a2165e58052e5f3909e384942472233a1"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_aglett_cb94f71a81e982e09ee86c9de262a8ec6fbfdcf755b503a5fc6d6dd23483205c5d"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>aglett</rdfs:label>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/aglett"/>
-    <skos:related rdf:resource="https://w3id.org/hector/commodity/lace"/>
-    <skos:related rdf:resource="https://w3id.org/hector/commodity/point"/>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300212059"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</hector:attestationCount>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cbad9aa0aca3b3d0ff7035af20b8a3869b0b621c5e9a41ee4d73db1da9c8fa8693">
-    <crm:P190_has_symbolic_content>auglette</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>augletə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cb35452dba9d2ba90c4bbd038497cad2df9358c101d11281e89ffc92e26b7a94f06">
-    <crm:P190_has_symbolic_content>agelottes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>adʒelotəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cb24c2cd1aa140b9d02a1f73ad9d6855775016feb43f14039107aa19e0445336e62">
-    <crm:P190_has_symbolic_content>agulettus</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aguletus</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cba673c4e14418bef34c6591c7dd2ba5eb8cec3c5ddedee81ad798e2493f86a836">
-    <crm:P190_has_symbolic_content>auglett</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>auglet</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cb21401fd4b72ccc88e0a1ac70be81db75fbf2f396f3fe18f27be5bf8ca93536abe">
-    <crm:P190_has_symbolic_content>aglettes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>agletəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cbd745a31b8de001af87a8262ce10e7f9343682c1243a0ad11d1b05abb8e442e6a">
-    <crm:P190_has_symbolic_content>agglettes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>agletəs</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cb16d19d54b193f5ea8a20c3dbb8c874a56953505f403f767de881737b2b3c9a769">
-    <crm:P190_has_symbolic_content>agulett</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>agulet</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cb177b4ac892bc81f8076091bca71d42259be51290e5bd8e7cf55d30783ab4dca5f">
-    <crm:P190_has_symbolic_content>aguletes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aguletəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cbf5cfad31bddede80de6f45567c8b1f5a2165e58052e5f3909e384942472233a1">
-    <crm:P190_has_symbolic_content>agulettis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aguletis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cb1d4779227d97884d1b883967ea11b5375a24e0d1802e93bcee1dd47dfb78ec371">
-    <crm:P190_has_symbolic_content>andglette</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>andgletə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cb2e66d101146dd73c0969e64d09581bca31ddcb924e4cb6faa427472fccdad5a80">
-    <crm:P190_has_symbolic_content>agulette</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aguletə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300212059">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>aglets</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cb97a684c2b07ff0ace8cb64a461de3df0c43e3cb8d8ef2cfbf5139181bc87e7ee">
-    <crm:P190_has_symbolic_content>agulettorum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aguletorum</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cb1ab3fafb8b192ed81b0a5880c457212e11dc4b53b3557a431013cad07904ebca6">
-    <crm:P190_has_symbolic_content>anglettes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aŋletəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cb15dcc3f31182cb16aeeb24516eb0d1a0e4a8b3d11ac9bf0736b2db639c36a9dcf">
+  <rdf:Description rdf:nodeID="commodity_aglett_cb196312db1eb8ac376bb2a9450a2c8759e249e4c27d460942749e3f6051f30adf2">
     <crm:P190_has_symbolic_content>angdlettes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -164,23 +16,87 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cb1c0abdb9f98899e16fe588fd287ff90f47db20a2741d4381200d8a4dc21de2411">
-    <crm:P190_has_symbolic_content>andglettes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>andgletəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_aglett_cb31c80b7013cdbd52b85098d328336c3fb00680379f0030ef0f0e686d5597631a0">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>5s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cb27a7b8228b87985fa72dda381109985b3bbdf71e632003cf1a85757804e56676e">
-    <crm:P190_has_symbolic_content>aguletti</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_aglett_cb18c2b0a4cec6914e183a9e0ca28b83b7f3573b296a7fd2ca0c5579c33d720e8f2">
+    <crm:P190_has_symbolic_content>agulett</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aguleti</hector:phoneticKey>
+    <hector:phoneticKey>agulet</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aglett_cb26b3e06abe735533b8394dde872b6489da1ae97e69545fdd2b7e20285688aafeb">
+    <crm:P190_has_symbolic_content>agulettus</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>aguletus</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cb186027338ff53696e51e822d7df106d1e2e48cb2c5b09b6c27a940903f2c6e1c2">
+  <rdf:Description rdf:nodeID="commodity_aglett_cb24ac6d2c6ac759415650e2c5d0068a46c423e9881cb6d42308ee40192f990feff">
+    <crm:P190_has_symbolic_content>anglettes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>aŋletəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aglett_cb23313324d45f67ec6ebb86a1a844ea8885f6de611e3e753e9fb9c5d4bb6aaac47">
+    <crm:P190_has_symbolic_content>aglettes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>agletəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/aglett">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb114e0e233910894b9c00ce86518bc1082c1a49222f6ebb852db78adc36a79752a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb172208367715cd92e478dbe4b7cd33d2ce520aa3395661b3ad394d8c580a818d1"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb18c2b0a4cec6914e183a9e0ca28b83b7f3573b296a7fd2ca0c5579c33d720e8f2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb18e832033c6962f1069ead141709158e0a8cce6bd8b7c8cd433a34778cc24efea"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb194cfe7b699508174c1c47c25f67c6a0e42a72d01e46a6ded4c951f904eb01519"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb196312db1eb8ac376bb2a9450a2c8759e249e4c27d460942749e3f6051f30adf2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb196c5e18afef1d5b957a6bed90e0513825e8fd5b0ffdeac9193136c04cea50be8"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb1a513a83ad27d1fa73385c5e67b415e46ce8777ceff0f7b84b7d46d85161e234b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb1dfbd10a16bb3544fdff632e12430821d1df0b6c9e5d9fcd43e19095d4535659a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb1f388c729aca23b0a9a21398d3d4c449e428cb9baa6ef00911f1dac60dae604fa"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb2078d098afd19fa29e878bb325fbea66f1f49ed71da1b96b74381e2330230a0c2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb21ff6e3d02c261fc93cc1d5432da05969131a91bea19f3a1c574da277de2f65d2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb23313324d45f67ec6ebb86a1a844ea8885f6de611e3e753e9fb9c5d4bb6aaac47"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb23fd27422c78014db01a7e4b0c15772cff023d81a91b653491bf6c5da62fdc4ce"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb24ac6d2c6ac759415650e2c5d0068a46c423e9881cb6d42308ee40192f990feff"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb24f4e188e0159febbc2e41e79856b3a7e3de5efcb87171afd37de0525f6a8295b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb26b3e06abe735533b8394dde872b6489da1ae97e69545fdd2b7e20285688aafeb"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb2998cb72a8ba33c33547b468facca76dc5c1e1e88d60601b3e597bc0171ada8f7"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb2a921b488d65cdd28e4367a49cd515d4e46316fcb0003b3d2be1444cab9f5cded"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb2c09f9344438db5fbaa5a5129eb5e3dcb4309abcdb26756834a4945ed38c4be0d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb3057e45131a0729f9783c07df31b2adcbbe1b65c788d1346c7fb4d77df1049c09"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb3736410aba5e446fd9d6ddb5818de1f21d5cabcbfb52de34c3d0992a7db00908f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cb3b43c901c2c5124732408845fea453c16298cb44a0243a9f45351ef6ee013e4be"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cbb6b7b9c483a9a6e5ca6907b2fe0f2f19647ce95b7cf4f1be3253f602dfdf2977"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_aglett_cbf656d81d6109b7e86945c93b7d3f70bbe3a6d8b4e7a671d40ef0bf3cb19b6ff3"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_aglett_cb1926f214e648fd50a7064c43fc8e36e1701ebef11292e819e99f6fbc8700d6a75"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>aglett</rdfs:label>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/aglett"/>
+    <skos:related rdf:resource="https://w3id.org/hector/commodity/lace"/>
+    <skos:related rdf:resource="https://w3id.org/hector/commodity/point"/>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300212059"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/aglett#rate-1558-inward-39"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/aglett#rate-1558-inward-40"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aglett_cb1a513a83ad27d1fa73385c5e67b415e46ce8777ceff0f7b84b7d46d85161e234b">
     <crm:P190_has_symbolic_content>agulet</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -188,7 +104,59 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cb2303ce38c2e304882e1467b6ae93a49559da74328e311563afa9da0a4d350e7d2">
+  <rdf:Description rdf:nodeID="commodity_aglett_cb196c5e18afef1d5b957a6bed90e0513825e8fd5b0ffdeac9193136c04cea50be8">
+    <crm:P190_has_symbolic_content>aguletes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>aguletəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aglett_cb172208367715cd92e478dbe4b7cd33d2ce520aa3395661b3ad394d8c580a818d1">
+    <crm:P190_has_symbolic_content>auglett</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>auglet</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aglett_cb1baa68a97ea63ced816d42a3d1b01aeb8abd78f9745f0460f10cdacc2b6ce1e9d">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>coper</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300011020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/aglett#rate-1558-inward-39">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Agglettes or buttons for childrens cappes þe grosse cont’ 12 dosen 5s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_aglett_cb31c80b7013cdbd52b85098d328336c3fb00680379f0030ef0f0e686d5597631a0"/>
+    <hector:perQuantity rdf:nodeID="commodity_aglett_cb11621269562ee77b8b27578ced40821c5848c4f7488c21e363af9b3ee322d2ede"/>
+    <hector:qualifier rdf:nodeID="commodity_aglett_cb1612f21663b8316e6053308b592c8ec25cc6a531858674f01f3f6d430083bc3d4"/>
+    <hector:qualifier rdf:nodeID="commodity_aglett_cb193b1a01b39de44dd68a7abd7f8cc6887eff34a34c46043ad35d71019b37e06ba"/>
+    <hector:qualifier rdf:nodeID="commodity_aglett_cb2117e90767ed59aef32edbc8a5cfc86178fa5ff812662b40cd43513b51466c6e1"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 39 (transcribed by Stuart Jenks): 'Agglettes or buttons for childrens cappes þe grosse cont’ 12 dosen' 5s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/aglett#rate-1558-inward-40">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Aglettes or buttons for other cappes of coper the grosse 3s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_aglett_cb27e0022a87be271beeea11c5dd5611959c34aeb14e41d7d42fd92e20d934685ea"/>
+    <hector:perQuantity rdf:nodeID="commodity_aglett_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50"/>
+    <hector:qualifier rdf:nodeID="commodity_aglett_cb14e32753ec5cfe734962a7db936d95f96a311520c63ef2c3da056dc97a1c7e54c"/>
+    <hector:qualifier rdf:nodeID="commodity_aglett_cb1baa68a97ea63ced816d42a3d1b01aeb8abd78f9745f0460f10cdacc2b6ce1e9d"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 40 (transcribed by Stuart Jenks): 'Aglettes or buttons for other cappes of coper the grosse' 3s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aglett_cb114e0e233910894b9c00ce86518bc1082c1a49222f6ebb852db78adc36a79752a">
+    <crm:P190_has_symbolic_content>agulettis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>aguletis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aglett_cb24f4e188e0159febbc2e41e79856b3a7e3de5efcb87171afd37de0525f6a8295b">
     <crm:P190_has_symbolic_content>agulettes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -196,7 +164,7 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cb35533d187a39f7f2ba10073e0c45cddc2a9a4a20ee7757349ab811cd6fc79ea64">
+  <rdf:Description rdf:nodeID="commodity_aglett_cb3b43c901c2c5124732408845fea453c16298cb44a0243a9f45351ef6ee013e4be">
     <crm:P190_has_symbolic_content>aglett</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -205,19 +173,7 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/point">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>point</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/aglett">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>aglett (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cb1fb98b186794ae6a575c6a99032770f98bc91bfec585dbbb4d72b92d72a4aa833">
+  <rdf:Description rdf:nodeID="commodity_aglett_cb2c09f9344438db5fbaa5a5129eb5e3dcb4309abcdb26756834a4945ed38c4be0d">
     <crm:P190_has_symbolic_content>anglette</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -225,15 +181,7 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cb1e87bd48929f043f106db1823c38db5467f0b40cf3615d1f506417db1ded95f39">
-    <crm:P190_has_symbolic_content>aglette</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>agletə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cb28a107f87033326f00298d73b31206c25a5f2c3285bfdef1080d3e049969e8c64">
+  <rdf:Description rdf:nodeID="commodity_aglett_cb2a921b488d65cdd28e4367a49cd515d4e46316fcb0003b3d2be1444cab9f5cded">
     <crm:P190_has_symbolic_content>agelotte</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -241,7 +189,66 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cb2b48b5d91920c9bc3bc6f56088788d283de1fcdf2074720ffcf0e6bf322f8e00">
+  <rdf:Description rdf:nodeID="commodity_aglett_cb14e32753ec5cfe734962a7db936d95f96a311520c63ef2c3da056dc97a1c7e54c">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>buttons for other cappes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aglett_cbb6b7b9c483a9a6e5ca6907b2fe0f2f19647ce95b7cf4f1be3253f602dfdf2977">
+    <crm:P190_has_symbolic_content>agulettorum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>aguletorum</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aglett_cb1926f214e648fd50a7064c43fc8e36e1701ebef11292e819e99f6fbc8700d6a75">
+    <crm:P190_has_symbolic_content>Tags or ornaments at the ends of laces, ribbons, or points that tie garments or footwear. Also refers to any of various ornamental tags, studs, or plates worn on costume; may be at pendent end of a cord or similar object or sewn directly onto garments or headgear. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aglett_cb3057e45131a0729f9783c07df31b2adcbbe1b65c788d1346c7fb4d77df1049c09">
+    <crm:P190_has_symbolic_content>agulette</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>aguletə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aglett_cb2117e90767ed59aef32edbc8a5cfc86178fa5ff812662b40cd43513b51466c6e1">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>buttons</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aglett_cb21ff6e3d02c261fc93cc1d5432da05969131a91bea19f3a1c574da277de2f65d2">
+    <crm:P190_has_symbolic_content>angdlette</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>aŋdletə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aglett_cbf656d81d6109b7e86945c93b7d3f70bbe3a6d8b4e7a671d40ef0bf3cb19b6ff3">
+    <crm:P190_has_symbolic_content>agglettes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>agletəs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aglett_cb2078d098afd19fa29e878bb325fbea66f1f49ed71da1b96b74381e2330230a0c2">
+    <crm:P190_has_symbolic_content>aglette</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>agletə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aglett_cb3736410aba5e446fd9d6ddb5818de1f21d5cabcbfb52de34c3d0992a7db00908f">
+    <crm:P190_has_symbolic_content>agelottes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>adʒelotəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aglett_cb194cfe7b699508174c1c47c25f67c6a0e42a72d01e46a6ded4c951f904eb01519">
     <crm:P190_has_symbolic_content>auglettes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -249,27 +256,103 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aglett_cb1dfbd10a16bb3544fdff632e12430821d1df0b6c9e5d9fcd43e19095d4535659a">
+    <crm:P190_has_symbolic_content>andglettes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>andgletəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aglett_cb2998cb72a8ba33c33547b468facca76dc5c1e1e88d60601b3e597bc0171ada8f7">
+    <crm:P190_has_symbolic_content>aguletti</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>aguleti</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aglett_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aglett_cb11621269562ee77b8b27578ced40821c5848c4f7488c21e363af9b3ee322d2ede">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aglett_cb23fd27422c78014db01a7e4b0c15772cff023d81a91b653491bf6c5da62fdc4ce">
+    <crm:P190_has_symbolic_content>auglette</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>augletə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300212059">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>aglets</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/lace">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>lace</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cb16f71eb31f36c78d7884d2e32d46067b8088e3a1ae776c811f662e2f7a8cdae61">
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>gross</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aglett_cb18e832033c6962f1069ead141709158e0a8cce6bd8b7c8cd433a34778cc24efea">
     <crm:P190_has_symbolic_content>agglette</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>agletə</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cb94f71a81e982e09ee86c9de262a8ec6fbfdcf755b503a5fc6d6dd23483205c5d">
-    <crm:P190_has_symbolic_content>Tags or ornaments at the ends of laces, ribbons, or points that tie garments or footwear. Also refers to any of various ornamental tags, studs, or plates worn on costume; may be at pendent end of a cord or similar object or sewn directly onto garments or headgear. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  <rdf:Description rdf:nodeID="commodity_aglett_cb1612f21663b8316e6053308b592c8ec25cc6a531858674f01f3f6d430083bc3d4">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>children’s</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_aglett_cb1546a687afa575af0ec43ebb1f7633bea82f110942654738aee6ba90776e2baf9">
-    <crm:P190_has_symbolic_content>angdlette</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_aglett_cb1f388c729aca23b0a9a21398d3d4c449e428cb9baa6ef00911f1dac60dae604fa">
+    <crm:P190_has_symbolic_content>andglette</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>aŋdletə</hector:phoneticKey>
+    <hector:phoneticKey>andgletə</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aglett_cb27e0022a87be271beeea11c5dd5611959c34aeb14e41d7d42fd92e20d934685ea">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>3s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_aglett_cb193b1a01b39de44dd68a7abd7f8cc6887eff34a34c46043ad35d71019b37e06ba">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>cappes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/aglett">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>aglett (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300011020">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>copper (metal)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/point">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>point</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

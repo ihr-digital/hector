@@ -491,7 +491,20 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 235 (transcribed by Stuart Jenks): 'Dioper towell the pece' 13s 4d"
+      "sourceText": "Book of Rates 1545, inward, line 235 (transcribed by Stuart Jenks): 'Dioper towell the pece' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Dioper",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -306,7 +306,24 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 867 (transcribed by Stuart Jenks): 'Peticotes knytte of silke the dosen' £12"
+      "sourceText": "Book of Rates 1558, inward, line 867 (transcribed by Stuart Jenks): 'Peticotes knytte of silke the dosen' £12",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "knitted"
+        },
+        {
+          "type": "Type",
+          "_label": "silk",
+          "equivalent": [
+            {
+              "id": "aat:300243428",
+              "type": "Type",
+              "_label": "silk (textile)"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -31,6 +31,12 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kokliarium" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "spoun" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "spuːn" ;
+            hector:validFrom "1434"^^xsd:gYear ;
+            hector:validThrough "1438"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "spon" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "spon" ;
@@ -55,11 +61,22 @@
             hector:validFrom "1461"^^xsd:gYear ;
             hector:validThrough "1465"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "spoon" ;
+            crm:P2_has_type aat:300404670,
+                hector:AttestedVariant ;
+            hector:phoneticKey "spoːn" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "spone" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "sponə" ;
             hector:validFrom "1531"^^xsd:gYear ;
             hector:validThrough "1533"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "spounes" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "spuːnəs" ;
+            hector:validFrom "1434"^^xsd:gYear ;
+            hector:validThrough "1438"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "lepulles" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -105,30 +122,15 @@
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "cocleari" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "koklɛːri" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "spounes" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "spuːnəs" ;
-            hector:validFrom "1434"^^xsd:gYear ;
-            hector:validThrough "1438"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "spoun" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "spuːn" ;
-            hector:validFrom "1434"^^xsd:gYear ;
-            hector:validThrough "1438"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "spoon" ;
-            crm:P2_has_type aat:300404670,
-                hector:AttestedVariant ;
-            hector:phoneticKey "spoːn" ] ;
+            hector:phoneticKey "koklɛːri" ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "wooden spoon | spoon (MNW s.v. lepel) | tin spoon | spoon, made of box-wood | (spoone of alkemie, spones of aulcamyn) alchemy: a substance produced by alchemy; specifically any of various metal alloys made in imitation of gold or resembling it in color, as varieties of brass or latten, sometimes containing arsenic compounds (OED s.v. alchemy 2), especially quote of 1773: J. Buchanan in J. Milton Paradise Lost (new ed.) 128 (note) Alchemy is a mixture of metals of which spoons, &c. are made | silver spoon | spoon, made of latten" ;
             crm:P2_has_type aat:300435416 ] ;
     skos:exactMatch <https://w3id.org/mlca/glossary/spoon> ;
     la:equivalent aat:300043149 ;
-    hector:attestationCount 47 .
+    hector:attestationCount 47 ;
+    hector:taxation <https://w3id.org/hector/commodity/spoon#rate-1545-inward-697>,
+        <https://w3id.org/hector/commodity/spoon#rate-1558-inward-986> .
 
 aat:300043149 a crm:E55_Type ;
     rdfs:label "spoons" .
@@ -139,8 +141,45 @@ aat:300404670 a crm:E55_Type ;
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
+<https://w3id.org/hector/commodity/spoon#rate-1545-inward-697> a hector:Rate ;
+    rdfs:label "1545 inward: Spones of aulcamyn the groce 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "aulcamyn" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 697 (transcribed by Stuart Jenks): 'Spones of aulcamyn the groce' 10s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/spoon#rate-1558-inward-986> a hector:Rate ;
+    rdfs:label "1558 inward: Spones of alcumye the grosse 16s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "16s 8d" ;
+            hector:valueInPence 200.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "alchemy" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 986 (transcribed by Stuart Jenks): 'Spones of alcumye the grosse' 16s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/mlca/glossary/spoon> a crm:E55_Type ;
     rdfs:label "spoon (London Customs Accounts glossary)" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
+<https://w3id.org/hector/unit/gross> a crm:E58_Measurement_Unit ;
+    rdfs:label "gross" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

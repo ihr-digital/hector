@@ -8,27 +8,60 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_primer_cbc87f5c2bb124f7264e8d6e68d61083e62c2c8e9df23b885ebf255f0a0431bad4">
-    <crm:P190_has_symbolic_content>primers</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/primer#rate-1545-inward-553">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Prymers prynted the groce 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_primer_cb361512419972aed51fee089ac6eac6856893341b3f3a4c3fbf117f87eeddda0f9"/>
+    <hector:perQuantity rdf:nodeID="commodity_primer_cb10dde498696a05a31a1abb0386214ccb991183591702dc3fc8452d7d446c0668b"/>
+    <hector:qualifier rdf:nodeID="commodity_primer_cb1a2028f9805353477e6a7880c15d4db4b9ea6db3b921e1d7528f325ed0d16fe0d"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 553 (transcribed by Stuart Jenks): 'Prymers prynted the groce' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/abc">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>abc</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_primer_cb10dde498696a05a31a1abb0386214ccb991183591702dc3fc8452d7d446c0668b">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/primer#rate-1507-none-215">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Prynted prymers the dossen 20d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_primer_cb32c68063290fdffd13ae2447e0de48e6716c5a6afa889dfca59cad4ec88775452"/>
+    <hector:perQuantity rdf:nodeID="commodity_primer_cb120e97e50af907fe6f9c7caa6c4ba2f89ba5b012c5c6ff1da8529317c3c698eb1"/>
+    <hector:qualifier rdf:nodeID="commodity_primer_cb1a97153545a3aedbbebb6ed4d43fa882467b05e6ba60467fb03bd397537981df4"/>
+    <hector:sourceText>Book of Rates 1507, line 215 (transcribed by Stuart Jenks): 'Prynted prymers the dossen' 20d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_primer_cb22a33a2cbd71f9c4fa0dd14e2f3784d605d6bc0c8102861b1cf68e335539a788e">
+    <crm:P190_has_symbolic_content>prymers</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>primers</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/primer">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_primer_cb1304f99d5e640bacac5b2eecaa764277de761b28cde46d0efdfceafc42cebd383"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_primer_cb162bca966c61af247ac2790b63ce1bc2e548fd0f0359e474329e664b7d005098d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_primer_cb183cfcd31405eec1251b4ca175af724945817d1a252a5fcd2a36a6d92c0bba680"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_primer_cb18d8b683f58444456318e212cff5c32fb074e266d71413cdb7900bc128118dbd3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_primer_cb1f58a4c7cdd265c96c6bfda9c9162cc7a59a2c7204ea50df64a247fe6e451f26c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_primer_cb2006861221903e67c93e6f7eed058a27eb1b5ac652f340364ed75eadc6f9e4349"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_primer_cb215385e04d9a5feda76ba713284e077553cd7cb9f35dfc795cc48e2611b36a2c1"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_primer_cb9bbe01d262ba218213a17bbd6a76f500c1072fe1f7aed6399527e4acb954e334"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_primer_cbc87f5c2bb124f7264e8d6e68d61083e62c2c8e9df23b885ebf255f0a0431bad4"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_primer_cbef3e352dbcd852c99fa3570a1e09f21731bd4ef76c0e021c58c3a27b4d24b631"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_primer_cbef4ff08b2894ef2e9af86062f897714b917466ca02be5ef8f2840c86a937dbb1"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_primer_cb181cdde689944a8808dc533c4d912ad56f4ce7d92d9a40c056726c938f35c4b16"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_primer_cb18f2f496b23538f46611dcbf519f95ce525828817ec58595a83a686a60965b385"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_primer_cb1ac9c9d412b6dfa8f132bc43b9b8d2423a78cd3101547019db6412093a4701d5c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_primer_cb2149b817eb05012cfa85d7dab2d93bda2f9e173c2f2aad2b88764e46807a933f5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_primer_cb22a33a2cbd71f9c4fa0dd14e2f3784d605d6bc0c8102861b1cf68e335539a788e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_primer_cb234499306accfb513585814412111687ddd167841d9e58c58098946e23e8de44a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_primer_cb25f711fb6a1b58bc416ef086df64100d2319dbea04a023a0f9546bd7453383da3"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_primer_cb26b5d1d00de51ac6da3f9e276daa89f1dd287bb6f314d8e2c54d3347a1442c02b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_primer_cb283145c6eb4a5f3d6bec0aaa5667294e35dde6747fd579c3434e2481825575310"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_primer_cb29d394b94e4dc81a2c077396418cfcaceb6eee445a6881014bd96fda2dbb8f5e5"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_primer_cb1ecc7f757a3a1e39a22f086c05ed1f2f2d3835e8576e93a9b1f0d361a9624e9c9"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>primer</rdfs:label>
     <skos:closeMatch rdf:resource="http://vocab.getty.edu/aat/300026378"/>
@@ -37,18 +70,65 @@
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300026476"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</hector:attestationCount>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/primer#rate-1507-none-215"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/primer#rate-1545-inward-553"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/primer#rate-1558-inward-837"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/primer#rate-1507-none-215">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1507: Prynted prymers the dossen 20d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_primer_cb1703c89e6b570119964b60b6c4281984b6859ccedd5ab77424a9fa7d26e3c2333"/>
-    <hector:perQuantity rdf:nodeID="commodity_primer_cb368438ac5b64f6a74d55450fed76c89d095feefafcdff9b740f6542b1fa254d7"/>
-    <hector:sourceText>Book of Rates 1507, line 215 (transcribed by Stuart Jenks): 'Prynted prymers the dossen' 20d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300026378">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>primers (books)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_primer_cb2006861221903e67c93e6f7eed058a27eb1b5ac652f340364ed75eadc6f9e4349">
+  <rdf:Description rdf:nodeID="commodity_primer_cb29d394b94e4dc81a2c077396418cfcaceb6eee445a6881014bd96fda2dbb8f5e5">
+    <crm:P190_has_symbolic_content>prymer</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>primer</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_primer_cb26b5d1d00de51ac6da3f9e276daa89f1dd287bb6f314d8e2c54d3347a1442c02b">
+    <crm:P190_has_symbolic_content>primers</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>primers</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_primer_cb361512419972aed51fee089ac6eac6856893341b3f3a4c3fbf117f87eeddda0f9">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_primer_cb181cdde689944a8808dc533c4d912ad56f4ce7d92d9a40c056726c938f35c4b16">
+    <crm:P190_has_symbolic_content>premmers</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>premers</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_primer_cb1a97153545a3aedbbebb6ed4d43fa882467b05e6ba60467fb03bd397537981df4">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>printed</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_primer_cb234499306accfb513585814412111687ddd167841d9e58c58098946e23e8de44a">
+    <crm:P190_has_symbolic_content>premers</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>premers</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/primer#rate-1558-inward-837">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Prymers the grosse 30s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_primer_cb1559642a96dce9cbecc814feabb0e5870f4a7690d5fb3b8688995cb98cc9b79b2"/>
+    <hector:perQuantity rdf:nodeID="commodity_primer_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 837 (transcribed by Stuart Jenks): 'Prymers the grosse' 30s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_primer_cb25f711fb6a1b58bc416ef086df64100d2319dbea04a023a0f9546bd7453383da3">
     <crm:P190_has_symbolic_content>primer</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -57,7 +137,23 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_primer_cb9bbe01d262ba218213a17bbd6a76f500c1072fe1f7aed6399527e4acb954e334">
+  <rdf:Description rdf:nodeID="commodity_primer_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_primer_cb1ecc7f757a3a1e39a22f086c05ed1f2f2d3835e8576e93a9b1f0d361a9624e9c9">
+    <crm:P190_has_symbolic_content>Elementary books for teaching children to read. [Source: Getty AAT] | a printed prayer book for the use of the laity (OED s.v. primer n.1 1, 2a), here small | a printed prayer book for the use of the laity (OED s.v. primer n.1 1, 2a), here written (printed?) on parchment and bound in velvet | an elementary school-book for teaching children to read (OED s.v. primer n.^1 2a) | a printed prayer book for the use of the laity (OED s.v. primer n.1 1, 2a) | an elementary school-book for teaching children to read, less likely a printed prayer book for the use of the laity for understanding the (Latin) mass (OED s.v. primer n.1 1, 2a) | either a printed prayer book for the use of the laity or an elementary school-book for teaching children to read (OED s.v. primer n.1 1, 2a) | probably a prayer book rather than an elementary school-book (since only one was imported) | either a printed prayer book for the use of the laity (to follow the Latin mass) or an elementary school-book for teaching children to read (OED s.v. primer n.1 1, 2a) | an elementary school-book for teaching children to read (OED s.v. primer n.1 1, 2a)</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_primer_cb32c68063290fdffd13ae2447e0de48e6716c5a6afa889dfca59cad4ec88775452">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_primer_cb283145c6eb4a5f3d6bec0aaa5667294e35dde6747fd579c3434e2481825575310">
     <crm:P190_has_symbolic_content>prymmers</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -65,88 +161,11 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_primer_cb1304f99d5e640bacac5b2eecaa764277de761b28cde46d0efdfceafc42cebd383">
-    <crm:P190_has_symbolic_content>prymmer</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>primer</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/primer#rate-1558-inward-837">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Prymers the grosse 30s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_primer_cb227d75498fc896a395aeca73141aad01fe75a598e27ba0d9396f3b7c00fdbb50"/>
-    <hector:perQuantity rdf:nodeID="commodity_primer_cb37c7d7746513cb807620cc92a2b0d60d4c3382e00a8bf9d37b041188aa4463b9"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 837 (transcribed by Stuart Jenks): 'Prymers the grosse' 30s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
     <rdfs:label>dozen</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_primer_cb1703c89e6b570119964b60b6c4281984b6859ccedd5ab77424a9fa7d26e3c2333">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>20d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300026378">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>primers (books)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_primer_cb1f58a4c7cdd265c96c6bfda9c9162cc7a59a2c7204ea50df64a247fe6e451f26c">
-    <crm:P190_has_symbolic_content>premmer</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>premer</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_primer_cb227d75498fc896a395aeca73141aad01fe75a598e27ba0d9396f3b7c00fdbb50">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>30s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_primer_cb215385e04d9a5feda76ba713284e077553cd7cb9f35dfc795cc48e2611b36a2c1">
-    <crm:P190_has_symbolic_content>premers</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>premers</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_primer_cb183cfcd31405eec1251b4ca175af724945817d1a252a5fcd2a36a6d92c0bba680">
-    <crm:P190_has_symbolic_content>prymer</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>primer</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300026476">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>prayer books</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_primer_cbef3e352dbcd852c99fa3570a1e09f21731bd4ef76c0e021c58c3a27b4d24b631">
-    <crm:P190_has_symbolic_content>prymers</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>primers</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_primer_cb18d8b683f58444456318e212cff5c32fb074e266d71413cdb7900bc128118dbd3">
+  <rdf:Description rdf:nodeID="commodity_primer_cb1ac9c9d412b6dfa8f132bc43b9b8d2423a78cd3101547019db6412093a4701d5c">
     <crm:P190_has_symbolic_content>premer</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -154,47 +173,59 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
   </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300026476">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>prayer books</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>attested variant</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_primer_cbef4ff08b2894ef2e9af86062f897714b917466ca02be5ef8f2840c86a937dbb1">
-    <crm:P190_has_symbolic_content>Elementary books for teaching children to read. [Source: Getty AAT] | a printed prayer book for the use of the laity (OED s.v. primer n.1 1, 2a), here small | a printed prayer book for the use of the laity (OED s.v. primer n.1 1, 2a), here written (printed?) on parchment and bound in velvet | an elementary school-book for teaching children to read (OED s.v. primer n.^1 2a) | a printed prayer book for the use of the laity (OED s.v. primer n.1 1, 2a) | an elementary school-book for teaching children to read, less likely a printed prayer book for the use of the laity for understanding the (Latin) mass (OED s.v. primer n.1 1, 2a) | either a printed prayer book for the use of the laity or an elementary school-book for teaching children to read (OED s.v. primer n.1 1, 2a) | probably a prayer book rather than an elementary school-book (since only one was imported) | either a printed prayer book for the use of the laity (to follow the Latin mass) or an elementary school-book for teaching children to read (OED s.v. primer n.1 1, 2a) | an elementary school-book for teaching children to read (OED s.v. primer n.1 1, 2a)</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  <rdf:Description rdf:nodeID="commodity_primer_cb18f2f496b23538f46611dcbf519f95ce525828817ec58595a83a686a60965b385">
+    <crm:P190_has_symbolic_content>prymmer</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>primer</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_primer_cb120e97e50af907fe6f9c7caa6c4ba2f89ba5b012c5c6ff1da8529317c3c698eb1">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_primer_cb2149b817eb05012cfa85d7dab2d93bda2f9e173c2f2aad2b88764e46807a933f5">
+    <crm:P190_has_symbolic_content>premmer</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>premer</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
     <rdfs:label>gross</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_primer_cb162bca966c61af247ac2790b63ce1bc2e548fd0f0359e474329e664b7d005098d">
-    <crm:P190_has_symbolic_content>premmers</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>premers</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/abc">
+  <rdf:Description rdf:nodeID="commodity_primer_cb1a2028f9805353477e6a7880c15d4db4b9ea6db3b921e1d7528f325ed0d16fe0d">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>abc</rdfs:label>
+    <rdfs:label>printed</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_primer_cb1559642a96dce9cbecc814feabb0e5870f4a7690d5fb3b8688995cb98cc9b79b2">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>30s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/mlca/glossary/primer">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>primer (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_primer_cb37c7d7746513cb807620cc92a2b0d60d4c3382e00a8bf9d37b041188aa4463b9">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_primer_cb368438ac5b64f6a74d55450fed76c89d095feefafcdff9b740f6542b1fa254d7">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

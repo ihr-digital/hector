@@ -25,9 +25,8 @@ which LCA measured best for this material (0.881 top-1 on held-out glossary spel
 
 | | records | where |
 |---|---:|---|
-| Commodities | 2,452 | `commodity/<slug>/ontology.json` |
-| Commodities as the Books of Rates price them ("looking glasses of steel, large"), each linked to its commodity | 688 | `commodity/<slug>/ontology.json` |
-| Customs rates, 1507–1558, with the source line quoted | 1,834 | inside the commodity records (`taxation`) |
+| Commodities | 2,455 | `commodity/<slug>/ontology.json` |
+| Customs rates, 1507–1558, with the source line quoted, on 572 of the commodities; each names the qualifier its book gives the goods ("of beyownd the se": *overseas*) | 1,834 | inside the commodity records (`taxation`) |
 | Units of measure, with definitions and conversions where the sources give them | 248 | `unit/<slug>/ontology.json` |
 | Kinds of quantity (mass, length, volume, count, package) | 5 | `unit/dimension/<kind>/ontology.json` |
 | Merged or moved records, kept so their URIs still resolve | 3 | deprecation records (`deprecated`, `isReplacedBy`) |
@@ -66,7 +65,9 @@ letter values for matching variants); its description (`referred_to_by`); its id
 to related records (`related`, `compoundOf`, `material`, `originPlace`) and to the London Customs
 Accounts glossary (`exactMatch`); a count of occurrences in the London customs accounts
 (`attestationCount`); and, for priced goods, `taxation`: each rate in pence and £ s d, per a
-quantity of a unit, with the book's dates and the source line quoted. Units add `quantityKind`,
+quantity of a unit, with the book's dates, the source line quoted and the goods' `qualifier`s
+(by the London Customs Accounts qualifier list's modern name where it has one, otherwise in the
+book's words). Units add `quantityKind`,
 `definedAs` and, where it can be stated, `conversionToGram` (a modern reference value). The
 worked example of the shape is `tests/fixtures/exemplar/commodity/saffron/ontology.json`.
 
@@ -83,7 +84,7 @@ The pipeline (Python, in `tools/`; everything is written to the git-ignored `bui
 .venv/bin/python -m tools.rates.parse_bor           # Books of Rates -> build/rates/
 .venv/bin/python -m tools.export.export_hector      # LCA glossary -> build/site/commodity/, build/ledger/
 .venv/bin/python -m tools.units.build_units         # -> build/site/unit/, build/ledger/units.tsv
-.venv/bin/python -m tools.rates.link_rates          # rates onto commodities and units; qualified records
+.venv/bin/python -m tools.rates.link_rates          # rates, with their qualifiers, onto commodities and units
 .venv/bin/python -m tools.site.build_search_index   # -> build/site/search/index.json
 .venv/bin/python -m tools.site.build_rdf            # -> ontology.ttl / ontology.rdf beside each record, dump/
 node tools/site/build_fuzzy.mjs build/site          # -> build/site/search/fuzzy.*, similar-spelling vectors

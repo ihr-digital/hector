@@ -404,7 +404,31 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 615 (transcribed by Stuart Jenks): 'Iron voc’ Ames iron the C lb. cont’ 112 lb' 5s"
+      "sourceText": "Book of Rates 1558, inward, line 615 (transcribed by Stuart Jenks): 'Iron voc’ Ames iron the C lb. cont’ 112 lb' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Iron",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "iron",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/aum#rate-1558-inward-616",
@@ -431,7 +455,31 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 616 (transcribed by Stuart Jenks): 'Iron voc’ Ames iron the tonne' £5"
+      "sourceText": "Book of Rates 1558, inward, line 616 (transcribed by Stuart Jenks): 'Iron voc’ Ames iron the tonne' £5",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Iron",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "iron",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

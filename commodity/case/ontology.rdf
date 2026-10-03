@@ -8,49 +8,39 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_case_cbef6a1fbbf0b7ed0808d60704350bade032ced234bb214e16a2ae931da174540a">
-    <crm:P190_has_symbolic_content>cays</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_case_cb1887da5bf730110020122124faae0e08486a262024a46f85ebcdd88af0fb82f54">
+    <crm:P190_has_symbolic_content>case, chest, as a packing unit of no particular size | A receptacle, holder, box, chest, bag, sheath, or covering fitted to contain or enclose something else; typically used for transporting or protecting the enclosed item or items. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb257c081d88aca3c851fd6ae0d1518c524b4cdfd96c2abe06f8854a3c830111c9d">
+    <crm:P190_has_symbolic_content>cas</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kais</hector:phoneticKey>
+    <hector:phoneticKey>kas</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_case_cb0">
-    <crm:P190_has_symbolic_content>cassis</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_case_cb1e3d47e84e6b967ec4e1acfb4fd38d27196141e567ee732c8e668a1f91d971879">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kasis</hector:phoneticKey>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Spectakle</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_case_cbf89e3b8588f3b8788fe789e34b7facea7182de3c8d474f9e4bf3e8567d51114e">
-    <crm:P190_has_symbolic_content>cace</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_case_cb27ce2d33f93c71dc0ca9463e395857306bf1c20bf97db29a6a531f2e2ecc54c9b">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kasə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>garneshed</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_case_cb1a72e69688ba76ed1891016d8afa84673e6ac5962bfc5bb6da82113fc7c77cef8">
-    <crm:P190_has_symbolic_content>casse</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_case_cbf4a305028ce2be4166b91318e8cf487f9142bbd6591d9a6f54ee04d663ed6786">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kasə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validThrough>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>combes</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_case_cb18e953a5728d4b9c10c170083d0076ea25a5116169da9fe7560e24098b4bbf0b0">
-    <crm:P190_has_symbolic_content>casses</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kasəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_case_cb200f1948d36b0640dbc3a06a3faff7784ac17a9ed8051c4113b740fa853e8170b">
+  <rdf:Description rdf:nodeID="commodity_case_cb308d3a3985923e76adde67df34f732574dccb4f50c601cabd8bbae8aea62f766c">
     <crm:P190_has_symbolic_content>case</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -59,131 +49,73 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1485</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_case_cb1b0906b7a7006288e392c5f5d9791fbede3f7c174ec50a3c7e6c453c7cb793408">
-    <crm:P190_has_symbolic_content>cassae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kase</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/case#rate-1558-inward-309">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Cases garneshed with ivery combes of midle sorte the dossen 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_case_cb346f32c93b9bea54b541becbbea190347b9548c1dc93f3082ef112aeae7a1555e"/>
+    <hector:perQuantity rdf:nodeID="commodity_case_cb18885a644d4b8557b6573044837e9931873678f7eb01c46226cee15079f92ec3e"/>
+    <hector:qualifier rdf:nodeID="commodity_case_cb1a87d9dbebdf114c446072b2883d596fec442c5c5a22baa31079ad4a2169747a8"/>
+    <hector:qualifier rdf:nodeID="commodity_case_cb25ed7a1476d629e224555ce54892e63bb38eb2801b585b91267a22d6be1977c8c"/>
+    <hector:qualifier rdf:nodeID="commodity_case_cb276d87179c71095cf0f30e578c439fa0a22cdd8ea87eb6aed9d10f2be039f36a3"/>
+    <hector:qualifier rdf:nodeID="commodity_case_cb27ce2d33f93c71dc0ca9463e395857306bf1c20bf97db29a6a531f2e2ecc54c9b"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 309 (transcribed by Stuart Jenks): 'Cases garneshed with ivery combes of midle sorte the dossen' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_case_cb1bf08d872bce3fab511874e0cb0fabe968b38c9e8e621041faff55f44e144e096">
-    <crm:P190_has_symbolic_content>cas</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_case_cb1a87d9dbebdf114c446072b2883d596fec442c5c5a22baa31079ad4a2169747a8">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kas</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_case_cb12a4fff56375b2cdd9ef412e25470e12b57b72bde7a686a04a66c6f28f024398c">
-    <crm:P190_has_symbolic_content>caces</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kasəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_case_cb25a00f2e783957b35cf7866acc6dcf54c3bcb74c2096fa993cf88a3e3f8378d88">
-    <crm:P190_has_symbolic_content>cassa</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kasa</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_case_cb14099663d675e7eac59188d02bb8275e629d466ef5c99a7aaadf763a6df9db145">
-    <crm:P190_has_symbolic_content>cases</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kasəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1485</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/case">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>case (London Customs Accounts glossary)</rdfs:label>
+    <rdfs:label>combes</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/case">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb12a4fff56375b2cdd9ef412e25470e12b57b72bde7a686a04a66c6f28f024398c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb14099663d675e7eac59188d02bb8275e629d466ef5c99a7aaadf763a6df9db145"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb18e953a5728d4b9c10c170083d0076ea25a5116169da9fe7560e24098b4bbf0b0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb19a9059561896e48ea2ce4f839809535d331f0269345cd8ad97be212ce513e9eb"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb1a72e69688ba76ed1891016d8afa84673e6ac5962bfc5bb6da82113fc7c77cef8"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb1a8d745519d70386b3a88c8c4ac712d8d26ed5c9f7f8ce21dea7f23dba5d31373"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb1b0906b7a7006288e392c5f5d9791fbede3f7c174ec50a3c7e6c453c7cb793408"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb1bf08d872bce3fab511874e0cb0fabe968b38c9e8e621041faff55f44e144e096"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb1c13f85a411c707dc37c4a333fbf133b512f46e9cd0c444e52559cfeb2aded852"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb1d379bbb8e55a9757cc665cefa7da6eff59fa3ebbb2ee60a2ee1d152d6eacb74d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb200f1948d36b0640dbc3a06a3faff7784ac17a9ed8051c4113b740fa853e8170b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb25a00f2e783957b35cf7866acc6dcf54c3bcb74c2096fa993cf88a3e3f8378d88"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb8bc056b5c0461312b2e4450c0fbd672813d0700cbb5d36ce492b66259111e218"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cbbb2abe503a6718f775fbbedcdfb6dabcc79ad0220aff2d948c4848e24c62ee4f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cbef6a1fbbf0b7ed0808d60704350bade032ced234bb214e16a2ae931da174540a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cbf89e3b8588f3b8788fe789e34b7facea7182de3c8d474f9e4bf3e8567d51114e"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_case_cb8b059ef2f7f41b967929ebf244a65edd44936a46d61c1cbc90545f1b22cb213c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb16b27b864578ff0811b664bcc32872d1b887eac293b849bb58569840656274af1"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb16bb12fb587260cfcb75033b2877aaf2c1b1728d641af734969d33e4926c61150"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb17dffb9c46af465e61e3bc7d72bdf88f348a13346b6e41c2d14b68d71d316c527"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb17ee3eaaa6d9d2b55dbe0a1be771a2356eabc692dc00d85cbbcc38a0d7aed1754"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb1952d51919da07d2496051bdede2bb811bcd9a43ea23ec371c44e7e8b6a668f0d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb196dea7f5d4e0726335109594a39c470f37a6cd5e4e42f54dd94d0a76ae3a6716"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb1c088c0fdf5df4cc7102993c2163bedafc28d1e075c2ee46231aa53460f55b7de"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb237912b72e1f399a4d6135a0a0bb9701f156749fcc9174c270ed880fb77ea00c5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb257c081d88aca3c851fd6ae0d1518c524b4cdfd96c2abe06f8854a3c830111c9d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb265aad15ebabc2bb49029e4a28db59e90634c9fdf7806d63b26a1866d8c6d6951"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb26b93e6da07e57a2f4f76c26384006de3a3675cd8d3aa632e04023eeaea879726"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb26f18eee0f8930320095220b77a64873937b6992d8ead50318dd77eec0e7c7588"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb2801a0c6cf38e30361f36f15de2a967e493747eaf3fd900a422eb7cd71db60668"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb28466e8098fadd375e41021072ecf050975be7ee6c0cb0b9afcfae1a7fd633b7a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb28e7d37187d39e8f8e2b0bff59448e0f51969da1f9a4820090b5b00508dbb1a6b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb2d05298b653c20cfe6dc71d82d6a531b63e3e502201c2b0d5b90754f44542b5fb"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_case_cb308d3a3985923e76adde67df34f732574dccb4f50c601cabd8bbae8aea62f766c"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_case_cb1887da5bf730110020122124faae0e08486a262024a46f85ebcdd88af0fb82f54"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>case</rdfs:label>
     <skos:closeMatch rdf:resource="http://vocab.getty.edu/aat/300386648"/>
     <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/case"/>
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300045659"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1616</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/case#rate-1558-inward-1068"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/case#rate-1558-inward-1069"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/case#rate-1558-inward-309"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/case#rate-1558-inward-310"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_case_cbbb2abe503a6718f775fbbedcdfb6dabcc79ad0220aff2d948c4848e24c62ee4f">
-    <crm:P190_has_symbolic_content>casys</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kasis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/case#rate-1558-inward-310">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Cases garnyshed with large ivery combes the dossen 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_case_cb2baee34f151473968a3c45d9de640fbcae4e31d5563a3247779051fe7185cb0a4"/>
+    <hector:perQuantity rdf:nodeID="commodity_case_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_case_cb1c2fdd8bd96023f4c2fe2cd692933ab8aefcdcefb3edd5b2bea6422f250f55681"/>
+    <hector:qualifier rdf:nodeID="commodity_case_cbddc6a4080c93cca5debd0da21f4d7ace16d6415f10420e8583d9414e0211f6cc"/>
+    <hector:qualifier rdf:nodeID="commodity_case_cbf4a305028ce2be4166b91318e8cf487f9142bbd6591d9a6f54ee04d663ed6786"/>
+    <hector:qualifier rdf:nodeID="commodity_case_cbfdbd2c5684283b8432f611479f165f1a46872d0114545e2e7591af6156ce785b"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 310 (transcribed by Stuart Jenks): 'Cases garnyshed with large ivery combes the dossen' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_case_cb19a9059561896e48ea2ce4f839809535d331f0269345cd8ad97be212ce513e9eb">
-    <crm:P190_has_symbolic_content>cakce</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kaksə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_case_cb1d379bbb8e55a9757cc665cefa7da6eff59fa3ebbb2ee60a2ee1d152d6eacb74d">
-    <crm:P190_has_symbolic_content>casae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kase</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/case">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
+    <rdfs:label>case (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_case_cb1c13f85a411c707dc37c4a333fbf133b512f46e9cd0c444e52559cfeb2aded852">
-    <crm:P190_has_symbolic_content>casa</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kasa</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_case_cb8b059ef2f7f41b967929ebf244a65edd44936a46d61c1cbc90545f1b22cb213c">
-    <crm:P190_has_symbolic_content>case, chest, as a packing unit of no particular size | A receptacle, holder, box, chest, bag, sheath, or covering fitted to contain or enclose something else; typically used for transporting or protecting the enclosed item or items. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_case_cb8bc056b5c0461312b2e4450c0fbd672813d0700cbb5d36ce492b66259111e218">
-    <crm:P190_has_symbolic_content>casez</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kasez</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_case_cb1a8d745519d70386b3a88c8c4ac712d8d26ed5c9f7f8ce21dea7f23dba5d31373">
+  <rdf:Description rdf:nodeID="commodity_case_cb28466e8098fadd375e41021072ecf050975be7ee6c0cb0b9afcfae1a7fd633b7a">
     <crm:P190_has_symbolic_content>casis</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -191,12 +123,249 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1483</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1485</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300045659">
+  <rdf:Description rdf:nodeID="commodity_case_cb1b55791163f2ff99a0d132dd8f898276e1446e4ea2c5c4421f6b5d14be2db36c4">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>cases (containers)</rdfs:label>
+    <rdfs:label>ungilt</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb28e7d37187d39e8f8e2b0bff59448e0f51969da1f9a4820090b5b00508dbb1a6b">
+    <crm:P190_has_symbolic_content>casae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kase</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb17dffb9c46af465e61e3bc7d72bdf88f348a13346b6e41c2d14b68d71d316c527">
+    <crm:P190_has_symbolic_content>cassis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kasis</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb2d05298b653c20cfe6dc71d82d6a531b63e3e502201c2b0d5b90754f44542b5fb">
+    <crm:P190_has_symbolic_content>cassa</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kasa</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb232357dbf9f9506b1feb01ecb63b214d57eec0000136b137889102a42732d6e63">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb276d87179c71095cf0f30e578c439fa0a22cdd8ea87eb6aed9d10f2be039f36a3">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>ivory</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300011857"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb26b93e6da07e57a2f4f76c26384006de3a3675cd8d3aa632e04023eeaea879726">
+    <crm:P190_has_symbolic_content>cassae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kase</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb17ee3eaaa6d9d2b55dbe0a1be771a2356eabc692dc00d85cbbcc38a0d7aed1754">
+    <crm:P190_has_symbolic_content>caces</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kasəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb265aad15ebabc2bb49029e4a28db59e90634c9fdf7806d63b26a1866d8c6d6951">
+    <crm:P190_has_symbolic_content>casses</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kasəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/case#rate-1558-inward-1068">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Spectakle casys gylte the grosse 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_case_cb3ea31574da0ae93791d9da4df84f8e0a817f28a54c713905c2e620cc2d671b57d"/>
+    <hector:perQuantity rdf:nodeID="commodity_case_cb1df334a876dfe9e7695edcf90b89a42039df51057c3ad01283a028f6b74285eec"/>
+    <hector:qualifier rdf:nodeID="commodity_case_cb147c366563b93eaf92a61fe89316323cf905bf673171481b83bd99171ede12a2b"/>
+    <hector:qualifier rdf:nodeID="commodity_case_cb18f7aa8f06905876ee69936ef3321f9c4eb3db2206b987de1b821827aa76a5a06"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1068 (transcribed by Stuart Jenks): 'Spectakle casys gylte the grosse' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb196dea7f5d4e0726335109594a39c470f37a6cd5e4e42f54dd94d0a76ae3a6716">
+    <crm:P190_has_symbolic_content>casys</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kasis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/case#rate-1558-inward-1069">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Spectakle casys ungylt the grosse 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_case_cb232357dbf9f9506b1feb01ecb63b214d57eec0000136b137889102a42732d6e63"/>
+    <hector:perQuantity rdf:nodeID="commodity_case_cb1f4d83b2bb08f85110396ec7668c9b78c1f9fcb87c0e56c2569cd796246bbca24"/>
+    <hector:qualifier rdf:nodeID="commodity_case_cb1b55791163f2ff99a0d132dd8f898276e1446e4ea2c5c4421f6b5d14be2db36c4"/>
+    <hector:qualifier rdf:nodeID="commodity_case_cb1e3d47e84e6b967ec4e1acfb4fd38d27196141e567ee732c8e668a1f91d971879"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1069 (transcribed by Stuart Jenks): 'Spectakle casys ungylt the grosse' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb16b27b864578ff0811b664bcc32872d1b887eac293b849bb58569840656274af1">
+    <crm:P190_has_symbolic_content>casez</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kasez</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb1df334a876dfe9e7695edcf90b89a42039df51057c3ad01283a028f6b74285eec">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb1c088c0fdf5df4cc7102993c2163bedafc28d1e075c2ee46231aa53460f55b7de">
+    <crm:P190_has_symbolic_content>cace</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kasə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb1c2fdd8bd96023f4c2fe2cd692933ab8aefcdcefb3edd5b2bea6422f250f55681">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>ivory</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300011857"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb26f18eee0f8930320095220b77a64873937b6992d8ead50318dd77eec0e7c7588">
+    <crm:P190_has_symbolic_content>casse</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kasə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb2baee34f151473968a3c45d9de640fbcae4e31d5563a3247779051fe7185cb0a4">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb1952d51919da07d2496051bdede2bb811bcd9a43ea23ec371c44e7e8b6a668f0d">
+    <crm:P190_has_symbolic_content>cases</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kasəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1485</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb3ea31574da0ae93791d9da4df84f8e0a817f28a54c713905c2e620cc2d671b57d">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb237912b72e1f399a4d6135a0a0bb9701f156749fcc9174c270ed880fb77ea00c5">
+    <crm:P190_has_symbolic_content>casa</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kasa</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb346f32c93b9bea54b541becbbea190347b9548c1dc93f3082ef112aeae7a1555e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cbfdbd2c5684283b8432f611479f165f1a46872d0114545e2e7591af6156ce785b">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>large</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300386648">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>weights and measures (general, standards)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cbddc6a4080c93cca5debd0da21f4d7ace16d6415f10420e8583d9414e0211f6cc">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>decorated</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb18f7aa8f06905876ee69936ef3321f9c4eb3db2206b987de1b821827aa76a5a06">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gylte</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb2801a0c6cf38e30361f36f15de2a967e493747eaf3fd900a422eb7cd71db60668">
+    <crm:P190_has_symbolic_content>cakce</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kaksə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb1f4d83b2bb08f85110396ec7668c9b78c1f9fcb87c0e56c2569cd796246bbca24">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300011857">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>ivory (material)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb147c366563b93eaf92a61fe89316323cf905bf673171481b83bd99171ede12a2b">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Spectakle</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>gross</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb25ed7a1476d629e224555ce54892e63bb38eb2801b585b91267a22d6be1977c8c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>mid</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb16bb12fb587260cfcb75033b2877aaf2c1b1728d641af734969d33e4926c61150">
+    <crm:P190_has_symbolic_content>cays</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kais</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300045659">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>cases (containers)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_case_cb18885a644d4b8557b6573044837e9931873678f7eb01c46226cee15079f92ec3e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

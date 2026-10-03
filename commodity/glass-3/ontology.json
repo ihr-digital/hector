@@ -475,6 +475,126 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/glass-3#rate-1507-none-19",
+      "type": "Rate",
+      "_label": "1507: Ballme glasses the grosse 12d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "12",
+        "lsd": "12d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 19 (transcribed by Stuart Jenks): 'Ballme glasses the grosse' 12d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Ballme",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/glass-3#rate-1545-inward-330",
+      "type": "Rate",
+      "_label": "1545 inward: Glasses called lokyng glasses the groce 4s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "48",
+        "lsd": "4s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 330 (transcribed by Stuart Jenks): 'Glasses called lokyng glasses the groce' 4s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "lokyng",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/glass-3#rate-1545-inward-331",
+      "type": "Rate",
+      "_label": "1545 inward: Glasses for spectacles the groce 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "40",
+        "lsd": "3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 331 (transcribed by Stuart Jenks): 'Glasses for spectacles the groce' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "spectacles",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/glass-3#rate-1545-inward-338",
       "type": "Rate",
       "_label": "1545 inward: Glasses of Borgoyn collored the chest 26s 8d",
@@ -499,7 +619,560 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 338 (transcribed by Stuart Jenks): 'Glasses of Borgoyn collored the chest' 26s 8d"
+      "sourceText": "Book of Rates 1545, inward, line 338 (transcribed by Stuart Jenks): 'Glasses of Borgoyn collored the chest' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Borgoyn collored",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/glass-3#rate-1545-inward-347",
+      "type": "Rate",
+      "_label": "1545 inward: Glasses to drynke on, the groce 4s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "48",
+        "lsd": "4s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 347 (transcribed by Stuart Jenks): 'Glasses to drynke on, the groce' 4s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "drynke",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/glass-3#rate-1545-inward-350",
+      "type": "Rate",
+      "_label": "1545 inward: Glasses of the Frenche makyng the dossen 6d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "6",
+        "lsd": "6d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 350 (transcribed by Stuart Jenks): 'Glasses of the Frenche makyng the dossen' 6d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "France",
+          "originPlace": [
+            {
+              "id": "wd:Q142",
+              "type": "Place",
+              "_label": "France"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "makyng",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/glass-3#rate-1545-inward-533",
+      "type": "Rate",
+      "_label": "1545 inward: Ower glasses the dossen 12d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "12",
+        "lsd": "12d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 533 (transcribed by Stuart Jenks): 'Ower glasses the dossen' 12d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Ower",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/glass-3#rate-1545-inward-83",
+      "type": "Rate",
+      "_label": "1545 inward: Bawme glasses the groce 12d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "12",
+        "lsd": "12d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 83 (transcribed by Stuart Jenks): 'Bawme glasses the groce' 12d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Bawme",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/glass-3#rate-1558-inward-379",
+      "type": "Rate",
+      "_label": "1558 inward: Drynking glasses Frenche makyng the dossen 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "8",
+        "lsd": "8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 379 (transcribed by Stuart Jenks): 'Drynking glasses Frenche makyng the dossen' 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "for drinking"
+        },
+        {
+          "type": "Type",
+          "_label": "France",
+          "originPlace": [
+            {
+              "id": "wd:Q142",
+              "type": "Place",
+              "_label": "France"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "makyng",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/glass-3#rate-1558-inward-381",
+      "type": "Rate",
+      "_label": "1558 inward: Drynking glasses of Venyce making the dossen 4s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "48",
+        "lsd": "4s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 381 (transcribed by Stuart Jenks): 'Drynking glasses of Venyce making the dossen' 4s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "for drinking"
+        },
+        {
+          "type": "Type",
+          "_label": "Venice",
+          "originPlace": [
+            {
+              "id": "wd:Q641",
+              "type": "Place",
+              "_label": "Venice"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "making",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/glass-3#rate-1558-inward-69",
+      "type": "Rate",
+      "_label": "1558 inward: Balme glasses the grosse 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "40",
+        "lsd": "3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 69 (transcribed by Stuart Jenks): 'Balme glasses the grosse' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Balme",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/glass-3#rate-1558-inward-774",
+      "type": "Rate",
+      "_label": "1558 inward: Ower glasses the dosen 20d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "20",
+        "lsd": "20d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 774 (transcribed by Stuart Jenks): 'Ower glasses the dosen' 20d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Ower",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/glass-3#rate-1558-inward-775",
+      "type": "Rate",
+      "_label": "1558 inward: Ower glasses of Venys making the dosen 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 775 (transcribed by Stuart Jenks): 'Ower glasses of Venys making the dosen' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Ower",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "Venice",
+          "originPlace": [
+            {
+              "id": "wd:Q641",
+              "type": "Place",
+              "_label": "Venice"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "making",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/glass-3#rate-1558-inward-776",
+      "type": "Rate",
+      "_label": "1558 inward: Ower glasses Flaunders making of þe fyne sorte þe dosen 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 776 (transcribed by Stuart Jenks): 'Ower glasses Flaunders making of þe fyne sorte þe dosen' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Ower",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "County of Flanders",
+          "originPlace": [
+            {
+              "id": "wd:Q157070",
+              "type": "Place",
+              "_label": "County of Flanders"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "making",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "fine"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/glass-3#rate-1558-inward-911",
+      "type": "Rate",
+      "_label": "1558 inward: Rosewater or other swete water in glasses of Venis makinge or other swete oyles in the lyke glasses the dosen 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 911 (transcribed by Stuart Jenks): 'Rosewater or other swete water in glasses of Venis makinge or other swete oyles in the lyke glasses the dosen' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Rosewater or other swete water",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "makinge or other swete oyles in the lyke",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

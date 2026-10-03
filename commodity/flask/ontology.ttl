@@ -29,10 +29,15 @@
     skos:exactMatch <https://w3id.org/mlca/glossary/flask> ;
     skos:related <https://w3id.org/hector/commodity/flaskete> ;
     la:equivalent aat:300045671 ;
-    hector:attestationCount 1 .
+    hector:attestationCount 1 ;
+    hector:taxation <https://w3id.org/hector/commodity/flask#rate-1558-inward-458>,
+        <https://w3id.org/hector/commodity/flask#rate-1558-inward-459> .
 
 aat:300045671 a crm:E55_Type ;
     rdfs:label "flasks (bottles)" .
+
+aat:300133711 a crm:E55_Type ;
+    rdfs:label "velvet (fabric weave)" .
 
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
@@ -40,11 +45,58 @@ aat:300404670 a crm:E55_Type ;
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
+<https://w3id.org/hector/commodity/flask#rate-1558-inward-458> a hector:Rate ;
+    rdfs:label "1558 inward: Flaskes for gonne powder covered with lether the dosen 3s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "3s 4d" ;
+            hector:valueInPence 40.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "covered" ],
+        [ a crm:E55_Type ;
+            rdfs:label "powdered" ],
+        [ a crm:E55_Type ;
+            rdfs:label "gonne" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "lether" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 458 (transcribed by Stuart Jenks): 'Flaskes for gonne powder covered with lether the dosen' 3s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/flask#rate-1558-inward-459> a hector:Rate ;
+    rdfs:label "1558 inward: Flaskes covered with vellet the dosen 26s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "26s 8d" ;
+            hector:valueInPence 320.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "velvet" ;
+            la:equivalent aat:300133711 ],
+        [ a crm:E55_Type ;
+            rdfs:label "covered" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 459 (transcribed by Stuart Jenks): 'Flaskes covered with vellet the dosen' 26s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/flaskete> a crm:E55_Type ;
     rdfs:label "flaskete" .
 
 <https://w3id.org/mlca/glossary/flask> a crm:E55_Type ;
     rdfs:label "flask (London Customs Accounts glossary)" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
+<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
+    rdfs:label "dozen" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

@@ -182,7 +182,20 @@
       },
       "validFrom": "1507",
       "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 263 (transcribed by Stuart Jenks): 'Shankes in tawlynges the C' 6s 8d"
+      "sourceText": "Book of Rates 1507, line 263 (transcribed by Stuart Jenks): 'Shankes in tawlynges the C' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "tawlynges",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/shank#rate-1507-none-304",
@@ -209,7 +222,20 @@
       },
       "validFrom": "1507",
       "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 304 (transcribed by Stuart Jenks): 'Tavelynges of shankes the C' 6s 8d"
+      "sourceText": "Book of Rates 1507, line 304 (transcribed by Stuart Jenks): 'Tavelynges of shankes the C' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Tavelynges",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/shank#rate-1545-inward-694",

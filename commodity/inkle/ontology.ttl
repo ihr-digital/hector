@@ -2,6 +2,7 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix hector: <https://w3id.org/hector/ontology#> .
+@prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -129,13 +130,18 @@
         <https://w3id.org/hector/commodity/inkle#rate-1545-inward-268>,
         <https://w3id.org/hector/commodity/inkle#rate-1545-inward-269>,
         <https://w3id.org/hector/commodity/inkle#rate-1545-inward-401>,
-        <https://w3id.org/hector/commodity/inkle#rate-1545-inward-402> .
+        <https://w3id.org/hector/commodity/inkle#rate-1545-inward-402>,
+        <https://w3id.org/hector/commodity/inkle#rate-1558-inward-610>,
+        <https://w3id.org/hector/commodity/inkle#rate-1558-inward-611> .
 
 aat:300014069 a crm:E55_Type ;
     rdfs:label "linen (material)" .
 
 aat:300014685 a crm:E55_Type ;
     rdfs:label "tape (material)" .
+
+aat:300129784 a crm:E55_Type ;
+    rdfs:label "white (color)" .
 
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
@@ -165,6 +171,8 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 100 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "unwrought" ] ;
     hector:sourceText "Book of Rates 1545, inward, line 268 (transcribed by Stuart Jenks): 'Enkyll the hundreth pounde unwrought' 33s 4d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
@@ -178,6 +186,8 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "unwrought" ] ;
     hector:sourceText "Book of Rates 1545, inward, line 269 (transcribed by Stuart Jenks): 'Enkyll the pounde unwrought' 4d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
@@ -191,6 +201,8 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 100 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "unwrought" ] ;
     hector:sourceText "Book of Rates 1545, inward, line 401 (transcribed by Stuart Jenks): 'Incle the hundreth pounde unwrought' 33s 4d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
@@ -204,21 +216,62 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "unwrought" ] ;
     hector:sourceText "Book of Rates 1545, inward, line 402 (transcribed by Stuart Jenks): 'Incle the pounde unwrought' 4d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
-<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
-    rdfs:label "dozen" .
+<https://w3id.org/hector/commodity/inkle#rate-1558-inward-610> a hector:Rate ;
+    rdfs:label "1558 inward: Inkle unwrought called whit thred single and double the C lb £3 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£3 6s 8d" ;
+            hector:valueInPence 800.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "single" ],
+        [ a crm:E55_Type ;
+            rdfs:label "double" ],
+        [ a crm:E55_Type ;
+            rdfs:label "unwrought" ],
+        [ a crm:E55_Type ;
+            rdfs:label "white" ;
+            la:equivalent aat:300129784 ],
+        [ a crm:E55_Type ;
+            rdfs:label "file" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 610 (transcribed by Stuart Jenks): 'Inkle unwrought called whit thred single and double the C lb' £3 6s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/inkle#rate-1558-inward-611> a hector:Rate ;
+    rdfs:label "1558 inward: Inkle wrought the dosen lb 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "worked" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 611 (transcribed by Stuart Jenks): 'Inkle wrought the dosen lb' 13s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/mlca/glossary/inkle> a crm:E55_Type ;
     rdfs:label "inkle (London Customs Accounts glossary)" .
 
-<https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
-    rdfs:label "hundred" .
+<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
+    rdfs:label "dozen" .
 
 <https://w3id.org/hector/unit/pound> a crm:E58_Measurement_Unit ;
     rdfs:label "pound" .
+
+<https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
+    rdfs:label "hundred" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

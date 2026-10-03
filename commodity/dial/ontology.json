@@ -392,7 +392,100 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 248 (transcribed by Stuart Jenks): 'Dyall bordes the pece' 20d"
+      "sourceText": "Book of Rates 1545, inward, line 248 (transcribed by Stuart Jenks): 'Dyall bordes the pece' 20d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "bordes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/dial#rate-1558-inward-372",
+      "type": "Rate",
+      "_label": "1558 inward: Dyalles of wood the dossen 12d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "12",
+        "lsd": "12d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 372 (transcribed by Stuart Jenks): 'Dyalles of wood the dossen' 12d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "wood",
+          "equivalent": [
+            {
+              "id": "aat:300011914",
+              "type": "Type",
+              "_label": "wood (plant material)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/dial#rate-1558-inward-373",
+      "type": "Rate",
+      "_label": "1558 inward: Dyalles of boane the dossen 2s 6d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "30",
+        "lsd": "2s 6d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 373 (transcribed by Stuart Jenks): 'Dyalles of boane the dossen' 2s 6d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "bone",
+          "equivalent": [
+            {
+              "id": "aat:300011798",
+              "type": "Type",
+              "_label": "bone (material)"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -7,61 +7,69 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_quille_cba87abb316b0d72b761302757c2ac7f551c3fddd655397c3a02516d74af812db7">
-    <crm:P190_has_symbolic_content>swan quyllis</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_quille_cb23c47e7b5842c07d4679d0345c4e5c4df665d5cdd7217d4f20183f06b7c78c54e">
+    <crm:P190_has_symbolic_content>quylle</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>swan kwilis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+    <hector:phoneticKey>kwilə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/quille#rate-1545-inward-593">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Quyles the pece 2s 6d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_quille_cb183f3860e7194532b7b0fbe1b25a974fe84acffcb1e3aba864c036180238edf54"/>
-    <hector:perQuantity rdf:nodeID="commodity_quille_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 593 (transcribed by Stuart Jenks): 'Quyles the pece' 2s 6d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_quille_cb1396cf160f29468a83f51124173627813ede1299ba859ef519522ff5945286d47">
-    <crm:P190_has_symbolic_content>swan quylle</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_quille_cb2a3e017fc55603ce0b0ff2ec0840eb8b375eb71d10ea2b9af25b8f847dc64bd1f">
+    <crm:P190_has_symbolic_content>quylles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>swan kwilə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+    <hector:phoneticKey>kwiləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_quille_cb26142c5cc8a245cb007ae43db0ed6d1b75ffae05d209671d05eb3c48f139b980">
-    <crm:P190_has_symbolic_content>goose quill</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_quille_cb197fc3a494d20780c7fd9b088c5c63140dbfb4baf3559cf3071b1f997199194b3">
+    <crm:P190_has_symbolic_content>quille</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>goːsə kwil</hector:phoneticKey>
+    <hector:phoneticKey>kwilə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_quille_cb1d319456d627ac0912b053dbf80b2661653b00b14d5ba4a7ab27c90cbebbca03f">
+    <crm:P190_has_symbolic_content>goose quyle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>goːsə kwilə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_quille_cb2ea5c0758b07425376bf858adb7064292f96c28fef967ff8c3d3a4a405a1c2c57">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s 6d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/quille">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb10c4e563efd38a844b491a7de4b552a93641610cc0f422eb677f0be6deb902919"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb138f37bb4c46ed2c4fcd1a0099fddd2ed5c1339741a8b9885c9e126ff35f79a59"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb1396cf160f29468a83f51124173627813ede1299ba859ef519522ff5945286d47"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb14818a0434c5eb1ea93bce960ebfc8ffffa6e565667736cd6690e01de37cb26cb"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb14c96ff69c9a7805b15a9cdf67891020c6c395e58b6de14b0fddb90638ed71f0f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb168d68a19c3bb127308a5b2c529968d087530c75dc1d51839a2edb95649ce22d3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb19822885c765107c959dbea3602f486e796f6fd358b8bee800dc8736e9189a530"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb1b408106b8f510a5849679ab0e48174edb3715e7231b485b8753c2c4ac8655eb6"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb1c163906b268db03f38aa28e5f015f671909e9fba8553fadac0598e2f43b9f0fe"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb1f05c8fa438207d0483b6829e2e755b26b6da81ec1a55f68b1b1272c97f5c1df8"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb2097109ce967d487838ee25ae84412c3f6ba811d50762449dba4889cc38f13bc7"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb21d36b2b3b102519b85ff603728b4d3b6c61eb03ace12102fc4438bea592183c5"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb23c2a5113240455af9b4f8080ad50832983fa0d57e0a83f6efcf6de680a80a4d7"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb24234d946a1fdc7563d8a5aa27c502f9e0885cc5ea99a377daac645e13c6d8ab3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb260276a5bd1bf7380169d749eeee96e2bb93258259504417c2459fb54166ae7ef"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb26142c5cc8a245cb007ae43db0ed6d1b75ffae05d209671d05eb3c48f139b980"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb2685c1f337f7d09528c36bb7f15a03777fc749e85b86d6a48f4aaadc1002268d7"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb27fe6e47f5f069a7e056cf52bab05312f79077e24a3b1d8f4dd4f8a27e954881c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb284cee2fa823686a7cf618bb1e7ddc78ad5acc52e6a9cf4ece87893c6b90d7b96"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb9bbe01d262ba218213a17bbd6a76f500c1072fe1f7aed6399527e4acb954e334"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cba87abb316b0d72b761302757c2ac7f551c3fddd655397c3a02516d74af812db7"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_quille_cb318d714edfbab31403c514ffd1670305142ada9a8d7fef0b4772b4ce84132af3"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb12b5f8b40d0625e7d962f4aece7861bbc0454bd6eb347f378b53122ef0ee76aa2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb16ba8346b9cd13693f747710514c1f3350c780afb5ae3d9733b1bf4e4b22e6098"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb1817d9692130b1babdb67f87d60011359b33e60a1472733f4e0f67da50a43fcfa"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb19721f7461501160e975591fa3ff8424b997d65802dcd7f4e3a18575846b990fb"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb197fc3a494d20780c7fd9b088c5c63140dbfb4baf3559cf3071b1f997199194b3"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb1b733bd5e497abe023b798d449f2578103735a9d82f91b3424b08d7efb4e0e6b9"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb1d319456d627ac0912b053dbf80b2661653b00b14d5ba4a7ab27c90cbebbca03f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb1e074c56cf9b766781a47cbf48c46e79a30dd4c5d2959bf9cfd99f2b067113287"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb1ff6bdbbde7f2597fac1ed6b74a1b1d8f3d19817ee61bb842a2502342a40e75a5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb20f6dc4a60b4a333d655425accaa64c4f57192e8ebe5bbb4d5852d74aa2b35f81"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb21912fff4714b155c0a0f0800d019f204b507803bf68fb297ecdf15eba810434e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb228823ed069a6feb11a8bc8bd20721d680be6be77ab68095ff788ee4d5c487d50"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb23c47e7b5842c07d4679d0345c4e5c4df665d5cdd7217d4f20183f06b7c78c54e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb25b3b8614f72e0be87ced238f498174522438b9fa84ae04313a3742e92dd7e660"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb261460e4875277d8f1f27fdb1188120c6a8c479014d9ffc3fe806aa625fc4cc3c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb2668c589f26ae3c8f87df7ef54fca90f52a041da6608e747edd9ce55aa424e587"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb27f389f5da4e929b8f83b17ad8b1a5f54597104c8390a063e619a5fd539c22978"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb2876d543552a6bf8b6dd45e8db1d128a09cb34b285c732f0b31eb12422379aa60"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb29ef81981323050b6e70a983a4736225819462ac747b79db71a8feea90cabc9a5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb2a3e017fc55603ce0b0ff2ec0840eb8b375eb71d10ea2b9af25b8f847dc64bd1f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_quille_cb4525615e9bcbfc03e218874c4d1e5e44163e5aa8760f2bdf432ba0ca1490fb09"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_quille_cb12f05781b5ac7a77f8bbd3b5d37a184ac5639d25601aacaad73fbde627100390b"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>quille</rdfs:label>
     <skos:broader rdf:resource="http://vocab.getty.edu/aat/300022452"/>
@@ -71,53 +79,37 @@
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</hector:attestationCount>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/quille#rate-1545-inward-593"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/quille#rate-1545-inward-674"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_quille_cb1c163906b268db03f38aa28e5f015f671909e9fba8553fadac0598e2f43b9f0fe">
-    <crm:P190_has_symbolic_content>goose quyles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>goːsə kwiləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_quille_cb284cee2fa823686a7cf618bb1e7ddc78ad5acc52e6a9cf4ece87893c6b90d7b96">
-    <crm:P190_has_symbolic_content>quylles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/quille#rate-1558-outward-23"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_quille_cb318d714edfbab31403c514ffd1670305142ada9a8d7fef0b4772b4ce84132af3">
-    <crm:P190_has_symbolic_content>a bird's feather formed into a pen by sharpening and slitting the lower end of the barrel (OED s.v. quill n.1 3b); in the case of gose quylle, a goose feather so formed</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_quille_cb2685c1f337f7d09528c36bb7f15a03777fc749e85b86d6a48f4aaadc1002268d7">
-    <crm:P190_has_symbolic_content>quyle</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_quille_cb1ff6bdbbde7f2597fac1ed6b74a1b1d8f3d19817ee61bb842a2502342a40e75a5">
+    <crm:P190_has_symbolic_content>swan quylle</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwilə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+    <hector:phoneticKey>swan kwilə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/pen-2">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>pen_2</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_quille_cb1817d9692130b1babdb67f87d60011359b33e60a1472733f4e0f67da50a43fcfa">
+    <crm:P190_has_symbolic_content>swan quyllis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>swan kwilis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300022452">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>pens (drawing and writing implements)</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_quille_cb21912fff4714b155c0a0f0800d019f204b507803bf68fb297ecdf15eba810434e">
+    <crm:P190_has_symbolic_content>swan quylles</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>swan kwiləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/quille">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>quille (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_quille_cb23c2a5113240455af9b4f8080ad50832983fa0d57e0a83f6efcf6de680a80a4d7">
+  <rdf:Description rdf:nodeID="commodity_quille_cb25b3b8614f72e0be87ced238f498174522438b9fa84ae04313a3742e92dd7e660">
     <crm:P190_has_symbolic_content>gose quyles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -125,107 +117,31 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_quille_cb9bbe01d262ba218213a17bbd6a76f500c1072fe1f7aed6399527e4acb954e334">
-    <crm:P190_has_symbolic_content>swannes quylle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>swanəs kwilə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_quille_cb1b408106b8f510a5849679ab0e48174edb3715e7231b485b8753c2c4ac8655eb6">
-    <crm:P190_has_symbolic_content>goose quyle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>goːsə kwilə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_quille_cb27fe6e47f5f069a7e056cf52bab05312f79077e24a3b1d8f4dd4f8a27e954881c">
-    <crm:P190_has_symbolic_content>gose quyle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>gosə kwilə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_quille_cb260276a5bd1bf7380169d749eeee96e2bb93258259504417c2459fb54166ae7ef">
-    <crm:P190_has_symbolic_content>gose quile</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>gosə kwilə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_quille_cb19822885c765107c959dbea3602f486e796f6fd358b8bee800dc8736e9189a530">
-    <crm:P190_has_symbolic_content>quill swaneses</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwil swanesəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_quille_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_quille_cb14c96ff69c9a7805b15a9cdf67891020c6c395e58b6de14b0fddb90638ed71f0f">
-    <crm:P190_has_symbolic_content>quilles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_quille_cb183f3860e7194532b7b0fbe1b25a974fe84acffcb1e3aba864c036180238edf54">
+  <rdf:Description rdf:nodeID="commodity_quille_cb280655fe811943cec1bc3df3d66dc8cbba9f92f8c4fe9c961047c80684170059e">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>2s 6d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</hector:valueInPence>
+    <hector:lsd>12d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/pecia">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>pecia</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/quille#rate-1558-outward-23">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 outward: Gose quylles the thowsaunde 12d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_quille_cb280655fe811943cec1bc3df3d66dc8cbba9f92f8c4fe9c961047c80684170059e"/>
+    <hector:perQuantity rdf:nodeID="commodity_quille_cbd2e7e7fae8ec762c68afd9b7ffc530d30c2da3462c201c236da841029f633df4"/>
+    <hector:qualifier rdf:nodeID="commodity_quille_cb12b065a0784058c2633f46b6a88e4e58f999ce32b2a1a5c131bde0778ff31f60c"/>
+    <hector:sourceText>Book of Rates 1558, outward, line 23 (transcribed by Stuart Jenks): 'Gose quylles the thowsaunde' 12d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_quille_cb14ae755489ddc6ba3b7ce96e62e6d6deacd1927a066e565b3ad6c51f0c7a8c788">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>3s 4d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_quille_cbca6add30ce2e0caa441b254810acb6510ac37deeb5391a3e0e21d736f7d655d">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/thousand"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_quille_cb138f37bb4c46ed2c4fcd1a0099fddd2ed5c1339741a8b9885c9e126ff35f79a59">
-    <crm:P190_has_symbolic_content>quille</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+  <rdf:Description rdf:nodeID="commodity_quille_cb2876d543552a6bf8b6dd45e8db1d128a09cb34b285c732f0b31eb12422379aa60">
+    <crm:P190_has_symbolic_content>quyle</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>kwilə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validThrough>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/quille#rate-1545-inward-674">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Swan quylles the 1000 3s 4d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_quille_cb14ae755489ddc6ba3b7ce96e62e6d6deacd1927a066e565b3ad6c51f0c7a8c788"/>
-    <hector:perQuantity rdf:nodeID="commodity_quille_cbca6add30ce2e0caa441b254810acb6510ac37deeb5391a3e0e21d736f7d655d"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 674 (transcribed by Stuart Jenks): 'Swan quylles the 1000' 3s 4d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_quille_cb168d68a19c3bb127308a5b2c529968d087530c75dc1d51839a2edb95649ce22d3">
+  <rdf:Description rdf:nodeID="commodity_quille_cb19721f7461501160e975591fa3ff8424b997d65802dcd7f4e3a18575846b990fb">
     <crm:P190_has_symbolic_content>swan quyll</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -233,7 +149,30 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_quille_cb24234d946a1fdc7563d8a5aa27c502f9e0885cc5ea99a377daac645e13c6d8ab3">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/quille#rate-1545-inward-674">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Swan quylles the 1000 3s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_quille_cb37a33dbf4c32e79cc64c7dec67d3f4b759901374a1d024bcdf315f5054d4a72e6"/>
+    <hector:perQuantity rdf:nodeID="commodity_quille_cb1300eeda1bcccd2e832dd3535dee25c4e968839921c89de92d233262a7ed6098e"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 674 (transcribed by Stuart Jenks): 'Swan quylles the 1000' 3s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_quille_cb12b5f8b40d0625e7d962f4aece7861bbc0454bd6eb347f378b53122ef0ee76aa2">
+    <crm:P190_has_symbolic_content>goose quills</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>goːsə kwils</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_quille_cb1b733bd5e497abe023b798d449f2578103735a9d82f91b3424b08d7efb4e0e6b9">
+    <crm:P190_has_symbolic_content>quill swaneses</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwil swanesəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_quille_cb261460e4875277d8f1f27fdb1188120c6a8c479014d9ffc3fe806aa625fc4cc3c">
     <crm:P190_has_symbolic_content>quyles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -241,21 +180,115 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_quille_cb10c4e563efd38a844b491a7de4b552a93641610cc0f422eb677f0be6deb902919">
-    <crm:P190_has_symbolic_content>goose quills</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>goːsə kwils</hector:phoneticKey>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/thousand">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>thousand</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/quille#rate-1545-inward-593">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Quyles the pece 2s 6d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_quille_cb2ea5c0758b07425376bf858adb7064292f96c28fef967ff8c3d3a4a405a1c2c57"/>
+    <hector:perQuantity rdf:nodeID="commodity_quille_cb29098bac139f7cf310f316c8912b44b70e2ad6cd266be1c067948d47e3540cb02"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 593 (transcribed by Stuart Jenks): 'Quyles the pece' 2s 6d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300400474">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>feathers (animal components)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_quille_cb1f05c8fa438207d0483b6829e2e755b26b6da81ec1a55f68b1b1272c97f5c1df8">
+  <rdf:Description rdf:nodeID="commodity_quille_cb4525615e9bcbfc03e218874c4d1e5e44163e5aa8760f2bdf432ba0ca1490fb09">
+    <crm:P190_has_symbolic_content>goose quill</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>goːsə kwil</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_quille_cb1300eeda1bcccd2e832dd3535dee25c4e968839921c89de92d233262a7ed6098e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/thousand"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/quille">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>quille (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_quille_cb1e074c56cf9b766781a47cbf48c46e79a30dd4c5d2959bf9cfd99f2b067113287">
+    <crm:P190_has_symbolic_content>goose quyles</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>goːsə kwiləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300022452">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>pens (drawing and writing implements)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/pen-2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>pen_2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_quille_cb29098bac139f7cf310f316c8912b44b70e2ad6cd266be1c067948d47e3540cb02">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_quille_cb12f05781b5ac7a77f8bbd3b5d37a184ac5639d25601aacaad73fbde627100390b">
+    <crm:P190_has_symbolic_content>a bird's feather formed into a pen by sharpening and slitting the lower end of the barrel (OED s.v. quill n.1 3b); in the case of gose quylle, a goose feather so formed</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_quille_cb29ef81981323050b6e70a983a4736225819462ac747b79db71a8feea90cabc9a5">
+    <crm:P190_has_symbolic_content>gose quyle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>gosə kwilə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_quille_cb16ba8346b9cd13693f747710514c1f3350c780afb5ae3d9733b1bf4e4b22e6098">
+    <crm:P190_has_symbolic_content>quilles</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwiləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_quille_cb12b065a0784058c2633f46b6a88e4e58f999ce32b2a1a5c131bde0778ff31f60c">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Gose</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pecia">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pecia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_quille_cb27f389f5da4e929b8f83b17ad8b1a5f54597104c8390a063e619a5fd539c22978">
+    <crm:P190_has_symbolic_content>gose quile</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>gosə kwilə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_quille_cbd2e7e7fae8ec762c68afd9b7ffc530d30c2da3462c201c236da841029f633df4">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/thousand"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_quille_cb2668c589f26ae3c8f87df7ef54fca90f52a041da6608e747edd9ce55aa424e587">
+    <crm:P190_has_symbolic_content>swannes quylle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>swanəs kwilə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_quille_cb20f6dc4a60b4a333d655425accaa64c4f57192e8ebe5bbb4d5852d74aa2b35f81">
     <crm:P190_has_symbolic_content>quill swanes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -263,7 +296,7 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_quille_cb2097109ce967d487838ee25ae84412c3f6ba811d50762449dba4889cc38f13bc7">
+  <rdf:Description rdf:nodeID="commodity_quille_cb228823ed069a6feb11a8bc8bd20721d680be6be77ab68095ff788ee4d5c487d50">
     <crm:P190_has_symbolic_content>gose quiles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -271,24 +304,18 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_quille_cb21d36b2b3b102519b85ff603728b4d3b6c61eb03ace12102fc4438bea592183c5">
-    <crm:P190_has_symbolic_content>quylle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwilə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_quille_cb37a33dbf4c32e79cc64c7dec67d3f4b759901374a1d024bcdf315f5054d4a72e6">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>3s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/thousand">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>thousand</rdfs:label>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_quille_cb14818a0434c5eb1ea93bce960ebfc8ffffa6e565667736cd6690e01de37cb26cb">
-    <crm:P190_has_symbolic_content>swan quylles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>swan kwiləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

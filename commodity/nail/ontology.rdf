@@ -8,6 +8,25 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
+  <rdf:Description rdf:nodeID="commodity_nail_cb24be6f2ef5cad797196614e7577f535f0321590df346841c5731492148ad7effe">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>6d</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/nail#rate-1558-inward-734">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Nayles small the barrell £8</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_nail_cb3a5df8892134080971b98597123bea55491e3bac147e38741e5ddc12e910b00ce"/>
+    <hector:perQuantity rdf:nodeID="commodity_nail_cb1b36033f9ed5362869c34c1a3a6aec630f401356c56e3e6601f26c5229e5fd839"/>
+    <hector:qualifier rdf:nodeID="commodity_nail_cb2701890a0303d3b57c8bfa50e1e7defce399b09993c43b75616d62c946b404e30"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 734 (transcribed by Stuart Jenks): 'Nayles small the barrell' £8</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/coupernaile">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>coupernaile</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/nail">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
     <crm:P1_is_identified_by rdf:nodeID="commodity_nail_cb102dc66ec8fc316d8d0c4a7e3787d66ef06592e6c4d0b04c3842d06d690c4e338"/>
@@ -41,68 +60,136 @@
     <skos:related rdf:resource="https://w3id.org/hector/commodity/patene-nayle"/>
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300033565"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">398</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/nail#rate-1507-none-180"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/nail#rate-1507-none-186"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/nail#rate-1545-inward-498"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/nail#rate-1545-inward-499"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/nail#rate-1558-inward-186"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/nail#rate-1558-inward-732"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/nail#rate-1558-inward-733"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/nail#rate-1558-inward-734"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/nail#rate-1558-inward-735"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nail_cb14e6c4bd5cc656aef97434e944462aebdc7990beb8872219e4152e54e95db3745">
-    <crm:P190_has_symbolic_content>clavus ferri</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb26f536b9a19576372d5669da061717a3ae926c426a026ee3afbf962ff72b1e812">
+    <crm:P190_has_symbolic_content>nales</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>klavus feri</hector:phoneticKey>
+    <hector:phoneticKey>naləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nail_cb3272253be475ecd5b9c734ff5fd56629a9f72c59ca4c276661ce32d2dda3b24fd">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>40s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  <rdf:Description rdf:nodeID="commodity_nail_cb14af25435af25e3e1158d9ff754aec62bb942b24cdf8638d406c3c8af8801de9d">
+    <crm:P190_has_symbolic_content>nayl</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>nail</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1492</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nail_cbe62e58a0fb6d948b2b5ae2a20a37a2164b8c365bf991b2b9a50371895d699fe5">
-    <crm:P190_has_symbolic_content>nailles</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_nail_cb27f439dc025e4f48dea27349e8d7bc01b11ee61bfbd54c81278a807fc5582ec95">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/lath-nail">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>lath nail</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cbe660c2e5b74c9d8e14db5e0211730fd028222309a681aa0c0a4e7c55104a0c12">
+    <crm:P190_has_symbolic_content>nayles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>nailəs</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nail_cb19ca68acec5ec001f2517cafcc98219b3edde2feeeddd9f6472dc564178d772a4">
-    <crm:P190_has_symbolic_content>nail (see also clavus) | nail (cf. clavus) | nail | nails 481, 484 (see also clavus) | nail for making brigandines, body-armor for foot-soldiers made of iron rings or small thin iron plates sewn onto canvas, linen or leather and covered with a similar material. Originally in pairs (front and back), ergo often in the plural (OED s.v. brigandine) | 25, | arming-nail, forming part of armor (OED arming vgl. n. 1b) | nail for making brigandyns | middle quality nails</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/nail#rate-1545-inward-498">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Nayles, the great, barrell 40s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_nail_cb3272253be475ecd5b9c734ff5fd56629a9f72c59ca4c276661ce32d2dda3b24fd"/>
-    <hector:perQuantity rdf:nodeID="commodity_nail_cb27f439dc025e4f48dea27349e8d7bc01b11ee61bfbd54c81278a807fc5582ec95"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 498 (transcribed by Stuart Jenks): 'Nayles, the great, barrell' 40s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+  <rdf:Description rdf:nodeID="commodity_nail_cb2ed8c0b08bccf6fa64bd0ff35388ed14dab96e7626409871fb9241ca2f6a4cbfe">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
+    <rdfs:label>small</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073768"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nail_cb362f937c9c893d61991b48800d24b312541a5edf32b7f4d9c67830e4c4fd6b1fe">
-    <crm:P190_has_symbolic_content>naylle</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_nail_cbc743d0d85683c473dca9490695c00e6f7dc595aaff6b0547760c697e76669e70">
+    <crm:P190_has_symbolic_content>clavis ferri</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>nailə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+    <hector:phoneticKey>klavis feri</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nail_cba6b4e66d852b22c43af74a84784032642b7550e50b1b332c4c9720f93ad310f3">
-    <crm:P190_has_symbolic_content>clavorum ferri</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_nail_cb308f44fa1da1f26274b54bbdbe8f4cbd6e6190ba3f1c3c7232fc5aae6b5508a92">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£4</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">960</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/nail#rate-1558-inward-732">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Nayles grete voc’ hed nayle the barrell £4</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_nail_cb308f44fa1da1f26274b54bbdbe8f4cbd6e6190ba3f1c3c7232fc5aae6b5508a92"/>
+    <hector:perQuantity rdf:nodeID="commodity_nail_cb238a4dc949f3f5a7a347664b13d888be1920e717868d819923e9427d453e7034a"/>
+    <hector:qualifier rdf:nodeID="commodity_nail_cb139d96d4c35d8df208493649dfc3e1e21690f9bd06ba9798498bd8e6e50623c63"/>
+    <hector:qualifier rdf:nodeID="commodity_nail_cb174a5180dcd1fbc9aa1184024f54ba0bc3a97736bcb42165512861cd757bcdc38"/>
+    <hector:qualifier rdf:nodeID="commodity_nail_cb1950bb22006e15bfd2f5f515f2fec8ef52ac46304dd4a25d519227b7739b1dd3d"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 732 (transcribed by Stuart Jenks): 'Nayles grete voc’ hed nayle the barrell' £4</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb2701890a0303d3b57c8bfa50e1e7defce399b09993c43b75616d62c946b404e30">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>small</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073768"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb1dc7f5e66571b024289d7b2134e6ff9561f8c308b74e4dec64b84854591f4bda0">
+    <crm:P190_has_symbolic_content>clavo ferri</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>klavorum feri</hector:phoneticKey>
+    <hector:phoneticKey>klavo feri</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nail_cb2199c9495bde072c3ceeaf9e9cf8511d03de0a2d36b167e46fdf09f2a61ad8ccb">
-    <crm:P190_has_symbolic_content>naille</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_nail_cb2d6599252a69de5d094238b518dfc3dda8160579fcb967fed72d1a84f57a6ce76">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/nail#rate-1507-none-186">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Naylle called grett naylle thatt ys to saye 4d naylle, 5d naylle and 6d naylle the barrelle 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_nail_cb3a1f198d9bf26d689d13a26f457826b1b791a09d4231cf9836645dc9efdedfb5b"/>
+    <hector:perQuantity rdf:nodeID="commodity_nail_cb1dd3d9c9d24e5413a62816897089c5f602770128254ceb77cdca296aee2a4c34b"/>
+    <hector:qualifier rdf:nodeID="commodity_nail_cb189df3fa06edf7663e14f8edc776da4ea0c7fa8e64d888cf3bb7f22e2978bfc36"/>
+    <hector:qualifier rdf:nodeID="commodity_nail_cb1b6d035c48923ef2d4a5567fe5d45099249a44e074392afa647ff10309cfb45fe"/>
+    <hector:qualifier rdf:nodeID="commodity_nail_cb1de4e2dec22180f7892c9f7b244d1ef7bf1c59210130e1ef00e18a4c158c07832"/>
+    <hector:qualifier rdf:nodeID="commodity_nail_cb24be6f2ef5cad797196614e7577f535f0321590df346841c5731492148ad7effe"/>
+    <hector:sourceText>Book of Rates 1507, line 186 (transcribed by Stuart Jenks): 'Naylle called grett naylle thatt ys to saye 4d naylle, 5d naylle and 6d naylle the barrelle' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb9b57efe7b26f561fe776a685c753818206e4277a77320fdfc34b1430608e7ab3">
+    <crm:P190_has_symbolic_content>clavus</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>nailə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+    <hector:phoneticKey>klavus</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/nail#rate-1558-inward-186">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Carte nailes the somme 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_nail_cb2d6599252a69de5d094238b518dfc3dda8160579fcb967fed72d1a84f57a6ce76"/>
+    <hector:perQuantity rdf:nodeID="commodity_nail_cb25c4db97626bc081ad9d31a68219eb26a339b249df73c2410d0e7f991b6efc003"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 186 (transcribed by Stuart Jenks): 'Carte nailes the somme' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb102dc66ec8fc316d8d0c4a7e3787d66ef06592e6c4d0b04c3842d06d690c4e338">
+    <crm:P190_has_symbolic_content>ship clavi</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>ʃip klavi</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_nail_cb2a818f1c6f19209e717f709e9fd8a8a81e9ed2646086493b2931e023d383e4cdc">
     <crm:P190_has_symbolic_content>nail</crm:P190_has_symbolic_content>
@@ -113,30 +200,95 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nail_cb2ada90156b098a1bd23d75624523a150c16fbf514c477998ff1cf5d86250bb917">
-    <crm:P190_has_symbolic_content>nailes</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_nail_cb12abb7dc09049a029f34b0fa68d4bc565cda82028fd0233d24a0c46258f3acf4b">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/nail#rate-1545-inward-498">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Nayles, the great, barrell 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_nail_cb3272253be475ecd5b9c734ff5fd56629a9f72c59ca4c276661ce32d2dda3b24fd"/>
+    <hector:perQuantity rdf:nodeID="commodity_nail_cb27f439dc025e4f48dea27349e8d7bc01b11ee61bfbd54c81278a807fc5582ec95"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 498 (transcribed by Stuart Jenks): 'Nayles, the great, barrell' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/nail#rate-1507-none-180">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Naylles called small naylles þe barrelle £3</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_nail_cb2c4b5b6402fc782973c172c51bfc303432322e57c5d51248a0ab0a4eae465e7cc"/>
+    <hector:perQuantity rdf:nodeID="commodity_nail_cb1c5560406bafd11f6f86f0896fe94b9fec7d6ecccc53314bf8c5b3d00d6861fca"/>
+    <hector:qualifier rdf:nodeID="commodity_nail_cb2ed8c0b08bccf6fa64bd0ff35388ed14dab96e7626409871fb9241ca2f6a4cbfe"/>
+    <hector:sourceText>Book of Rates 1507, line 180 (transcribed by Stuart Jenks): 'Naylles called small naylles þe barrelle' £3</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb139d96d4c35d8df208493649dfc3e1e21690f9bd06ba9798498bd8e6e50623c63">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>nayle</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb245ea14f2159035a36ae3f2984859dea7eed5474985e8bba8a4dd1de3eb952381">
+    <crm:P190_has_symbolic_content>nayle</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>nailəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
+    <hector:phoneticKey>nailə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1508</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/coupernaile">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>coupernaile</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/lath-nail">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>lath nail</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nail_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+  <rdf:Description rdf:nodeID="commodity_nail_cb1b36033f9ed5362869c34c1a3a6aec630f401356c56e3e6601f26c5229e5fd839">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/suma"/>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cbfcd6129a03c07202e8bb2bce2f0790a7808fa72e764c13940ac5fcc9d08fb333">
+    <crm:P190_has_symbolic_content>clavi</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>klavi</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb137acade9de82186f96b99be4af62bed8c6e5fdc2ca9cdc58f0af12a4c651b1c9">
+    <crm:P190_has_symbolic_content>naylys</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>nailis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1492</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb3a5df8892134080971b98597123bea55491e3bac147e38741e5ddc12e910b00ce">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£8</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1920</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cba6b4e66d852b22c43af74a84784032642b7550e50b1b332c4c9720f93ad310f3">
+    <crm:P190_has_symbolic_content>clavorum ferri</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>klavorum feri</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/nail#rate-1558-inward-735">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Nayles small the di’ barrell £4</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_nail_cb269b6c1eea261618f0445686643582e400fba8dd91401709cb5892cccf17b6f71"/>
+    <hector:perQuantity rdf:nodeID="commodity_nail_cb12abb7dc09049a029f34b0fa68d4bc565cda82028fd0233d24a0c46258f3acf4b"/>
+    <hector:qualifier rdf:nodeID="commodity_nail_cb2394e74ae4fc3131217cfc817c028855f905b59191ccd46537849c39bd58e00c7"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 735 (transcribed by Stuart Jenks): 'Nayles small the di’ barrell' £4</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb1c5560406bafd11f6f86f0896fe94b9fec7d6ecccc53314bf8c5b3d00d6861fca">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb19ca68acec5ec001f2517cafcc98219b3edde2feeeddd9f6472dc564178d772a4">
+    <crm:P190_has_symbolic_content>nail (see also clavus) | nail (cf. clavus) | nail | nails 481, 484 (see also clavus) | nail for making brigandines, body-armor for foot-soldiers made of iron rings or small thin iron plates sewn onto canvas, linen or leather and covered with a similar material. Originally in pairs (front and back), ergo often in the plural (OED s.v. brigandine) | 25, | arming-nail, forming part of armor (OED arming vgl. n. 1b) | nail for making brigandyns | middle quality nails</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_nail_cb173805badeb966cd2fc009df12fa8d3a4b24f5b2f894b8710eac954af48d09819">
     <crm:P190_has_symbolic_content>nayll</crm:P190_has_symbolic_content>
@@ -154,72 +306,103 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1541</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nail_cb14af25435af25e3e1158d9ff754aec62bb942b24cdf8638d406c3c8af8801de9d">
-    <crm:P190_has_symbolic_content>nayl</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/suma">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>suma</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb362f937c9c893d61991b48800d24b312541a5edf32b7f4d9c67830e4c4fd6b1fe">
+    <crm:P190_has_symbolic_content>naylle</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>nail</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1492</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nail_cb230aa13c5d26cc859860c08f7f2bba716cfc9778bfbc861fb97ab305fdb37c1d3">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>6s 8d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nail_cb26f536b9a19576372d5669da061717a3ae926c426a026ee3afbf962ff72b1e812">
-    <crm:P190_has_symbolic_content>nales</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>naləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nail_cbe660c2e5b74c9d8e14db5e0211730fd028222309a681aa0c0a4e7c55104a0c12">
-    <crm:P190_has_symbolic_content>nayles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>nailəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nail_cbfcd6129a03c07202e8bb2bce2f0790a7808fa72e764c13940ac5fcc9d08fb333">
-    <crm:P190_has_symbolic_content>clavi</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>klavi</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nail_cb1dc7f5e66571b024289d7b2134e6ff9561f8c308b74e4dec64b84854591f4bda0">
-    <crm:P190_has_symbolic_content>clavo ferri</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>klavo feri</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nail_cb27f439dc025e4f48dea27349e8d7bc01b11ee61bfbd54c81278a807fc5582ec95">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nail_cb9b57efe7b26f561fe776a685c753818206e4277a77320fdfc34b1430608e7ab3">
-    <crm:P190_has_symbolic_content>clavus</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>klavus</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
+    <hector:phoneticKey>nailə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_nail_cb17b7785cd8af1308f44079497f585ef29922d02aff33aed821971b8cfd506767e">
     <crm:P190_has_symbolic_content>naile</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>nailə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb3b2c7fba7722738a248c876c59d707ab531d150da32a48670535124ea84a9bf8f">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb2ada90156b098a1bd23d75624523a150c16fbf514c477998ff1cf5d86250bb917">
+    <crm:P190_has_symbolic_content>nailes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>nailəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb18c3d598909614fce40ceb98d593fbb10884dfaff37732db923519e5351e8d6db">
+    <crm:P190_has_symbolic_content>clavi ferri</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>klavi feri</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb1dd3d9c9d24e5413a62816897089c5f602770128254ceb77cdca296aee2a4c34b">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300033565">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>nails (fasteners)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300073768">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>small</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb1de4e2dec22180f7892c9f7b244d1ef7bf1c59210130e1ef00e18a4c158c07832">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>5d</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/patene-nayle">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>patene nayle</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb1950bb22006e15bfd2f5f515f2fec8ef52ac46304dd4a25d519227b7739b1dd3d">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>large</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073756"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/nail#rate-1558-inward-733">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Nayles grete the di’ barrell 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_nail_cb3b2c7fba7722738a248c876c59d707ab531d150da32a48670535124ea84a9bf8f"/>
+    <hector:perQuantity rdf:nodeID="commodity_nail_cb1874a9a1567e5b73cfebf1b68c327c2632c077d8319892265bcc7da552de5a9cc"/>
+    <hector:qualifier rdf:nodeID="commodity_nail_cb220ee72c871fba35988ea11a8492c547a89251ec60a6648d818ab385d87c9be1c"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 733 (transcribed by Stuart Jenks): 'Nayles grete the di’ barrell' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/barrel">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>barrel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb3a1f198d9bf26d689d13a26f457826b1b791a09d4231cf9836645dc9efdedfb5b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb2199c9495bde072c3ceeaf9e9cf8511d03de0a2d36b167e46fdf09f2a61ad8ccb">
+    <crm:P190_has_symbolic_content>naille</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>nailə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb2b8f842e06c2ab6b00b427e888ddaa865c9019aa07e9b60fe60ab52a86912e264">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>small</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073768"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_nail_cb106991c10d2a184697709865d371510e73a25b23a6866fc723aba5d05fbb94b4c">
     <crm:P190_has_symbolic_content>naylles</crm:P190_has_symbolic_content>
@@ -229,73 +412,116 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/barrel">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>barrel</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_nail_cb2c4b5b6402fc782973c172c51bfc303432322e57c5d51248a0ab0a4eae465e7cc">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£3</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">720</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nail_cb137acade9de82186f96b99be4af62bed8c6e5fdc2ca9cdc58f0af12a4c651b1c9">
-    <crm:P190_has_symbolic_content>naylys</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_nail_cbe62e58a0fb6d948b2b5ae2a20a37a2164b8c365bf991b2b9a50371895d699fe5">
+    <crm:P190_has_symbolic_content>nailles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>nailis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1492</hector:validThrough>
+    <hector:phoneticKey>nailəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/nail#rate-1558-inward-186">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/nail#rate-1545-inward-499">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Carte nailes the somme 6s 8d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_nail_cb230aa13c5d26cc859860c08f7f2bba716cfc9778bfbc861fb97ab305fdb37c1d3"/>
-    <hector:perQuantity rdf:nodeID="commodity_nail_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 186 (transcribed by Stuart Jenks): 'Carte nailes the somme' 6s 8d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+    <rdfs:label>1545 inward: Nayles, smalle, the barell £3</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_nail_cb33d0366cb4dd680a4df2b20a3681ca94934085991484fbdf6d2488dd77e5b1372"/>
+    <hector:perQuantity rdf:nodeID="commodity_nail_cb1f0f473ca52da9c8c4ece825d797582f9c274961503414568a5ca292c747a629f"/>
+    <hector:qualifier rdf:nodeID="commodity_nail_cb2b8f842e06c2ab6b00b427e888ddaa865c9019aa07e9b60fe60ab52a86912e264"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 499 (transcribed by Stuart Jenks): 'Nayles, smalle, the barell' £3</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nail_cbc743d0d85683c473dca9490695c00e6f7dc595aaff6b0547760c697e76669e70">
-    <crm:P190_has_symbolic_content>clavis ferri</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>klavis feri</hector:phoneticKey>
+  <rdf:Description rdf:nodeID="commodity_nail_cb1f0f473ca52da9c8c4ece825d797582f9c274961503414568a5ca292c747a629f">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/suma">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>suma</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_nail_cb238a4dc949f3f5a7a347664b13d888be1920e717868d819923e9427d453e7034a">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nail_cb102dc66ec8fc316d8d0c4a7e3787d66ef06592e6c4d0b04c3842d06d690c4e338">
-    <crm:P190_has_symbolic_content>ship clavi</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>ʃip klavi</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb2394e74ae4fc3131217cfc817c028855f905b59191ccd46537849c39bd58e00c7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>small</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073768"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb33d0366cb4dd680a4df2b20a3681ca94934085991484fbdf6d2488dd77e5b1372">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£3</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">720</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
     <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nail_cb245ea14f2159035a36ae3f2984859dea7eed5474985e8bba8a4dd1de3eb952381">
-    <crm:P190_has_symbolic_content>nayle</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_nail_cb1b6d035c48923ef2d4a5567fe5d45099249a44e074392afa647ff10309cfb45fe">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>large</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073756"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb269b6c1eea261618f0445686643582e400fba8dd91401709cb5892cccf17b6f71">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£4</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">960</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb189df3fa06edf7663e14f8edc776da4ea0c7fa8e64d888cf3bb7f22e2978bfc36">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>thatt ys to saye 4d</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300073756">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>large</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb1874a9a1567e5b73cfebf1b68c327c2632c077d8319892265bcc7da552de5a9cc">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb174a5180dcd1fbc9aa1184024f54ba0bc3a97736bcb42165512861cd757bcdc38">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>large-headed</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb14e6c4bd5cc656aef97434e944462aebdc7990beb8872219e4152e54e95db3745">
+    <crm:P190_has_symbolic_content>clavus ferri</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>nailə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1508</hector:validThrough>
+    <hector:phoneticKey>klavus feri</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb220ee72c871fba35988ea11a8492c547a89251ec60a6648d818ab385d87c9be1c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>large</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073756"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb25c4db97626bc081ad9d31a68219eb26a339b249df73c2410d0e7f991b6efc003">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/suma"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_nail_cb3272253be475ecd5b9c734ff5fd56629a9f72c59ca4c276661ce32d2dda3b24fd">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/mlca/glossary/nail">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>nail (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_nail_cb18c3d598909614fce40ceb98d593fbb10884dfaff37732db923519e5351e8d6db">
-    <crm:P190_has_symbolic_content>clavi ferri</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>klavi feri</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/patene-nayle">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>patene nayle</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300033565">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>nails (fasteners)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

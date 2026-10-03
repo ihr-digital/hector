@@ -62,7 +62,8 @@
     hector:taxation <https://w3id.org/hector/commodity/amber#rate-1545-inward-2>,
         <https://w3id.org/hector/commodity/amber#rate-1545-inward-3>,
         <https://w3id.org/hector/commodity/amber#rate-1558-inward-15>,
-        <https://w3id.org/hector/commodity/amber#rate-1558-inward-16> .
+        <https://w3id.org/hector/commodity/amber#rate-1558-inward-16>,
+        <https://w3id.org/hector/commodity/amber#rate-1558-inward-692> .
 
 aat:300012934 a crm:E55_Type ;
     rdfs:label "amber (fossil resin)" .
@@ -122,6 +123,27 @@ aat:300435416 a crm:E55_Type ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
     hector:sourceText "Book of Rates 1558, inward, line 16 (transcribed by Stuart Jenks): 'Ambre the pounde' 13s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/amber#rate-1558-inward-692> a hector:Rate ;
+    rdfs:label "1558 inward: Lambere counterfet ambre beades the pound 5s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "5s" ;
+            hector:valueInPence 60.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "counterfeit" ],
+        [ a crm:E55_Type ;
+            rdfs:label "beades" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "Lambere" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 692 (transcribed by Stuart Jenks): 'Lambere counterfet ambre beades the pound' 5s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 

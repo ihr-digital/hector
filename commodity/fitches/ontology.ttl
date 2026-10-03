@@ -327,6 +327,10 @@
     hector:attestationCount 146 ;
     hector:taxation <https://w3id.org/hector/commodity/fitches#rate-1507-none-248>,
         <https://w3id.org/hector/commodity/fitches#rate-1507-none-249>,
+        <https://w3id.org/hector/commodity/fitches#rate-1507-none-250>,
+        <https://w3id.org/hector/commodity/fitches#rate-1507-none-251>,
+        <https://w3id.org/hector/commodity/fitches#rate-1507-none-252>,
+        <https://w3id.org/hector/commodity/fitches#rate-1507-none-95>,
         <https://w3id.org/hector/commodity/fitches#rate-1545-inward-295>,
         <https://w3id.org/hector/commodity/fitches#rate-1558-inward-424>,
         <https://w3id.org/hector/commodity/fitches#rate-1558-inward-425> .
@@ -349,6 +353,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/barrel> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Sawlte" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1507, line 248 (transcribed by Stuart Jenks): 'Sawlte fyche the barell' 6s 8d" ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
@@ -362,7 +369,83 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 100 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Sawlte" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1507, line 249 (transcribed by Stuart Jenks): 'Sawlte fyche the C' 20s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/fitches#rate-1507-none-250> a hector:Rate ;
+    rdfs:label "1507: Stocke fyche called gyll fysche the last £10" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£10" ;
+            hector:valueInPence 2400.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Stocke" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "gyll fysche" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 250 (transcribed by Stuart Jenks): 'Stocke fyche called gyll fysche the last' £10" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/fitches#rate-1507-none-251> a hector:Rate ;
+    rdfs:label "1507: Stocke fyche callyd croopelyng the last £5" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£5" ;
+            hector:valueInPence 1200.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Stocke" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "callyd croopelyng" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 251 (transcribed by Stuart Jenks): 'Stocke fyche callyd croopelyng the last' £5" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/fitches#rate-1507-none-252> a hector:Rate ;
+    rdfs:label "1507: Stocke fyche callyd fyte lynge the last 50s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "50s" ;
+            hector:valueInPence 600.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Stocke" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "callyd fyte lynge" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 252 (transcribed by Stuart Jenks): 'Stocke fyche callyd fyte lynge the last' 50s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/fitches#rate-1507-none-95> a hector:Rate ;
+    rdfs:label "1507: Fyche barreled þe laste £4" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£4" ;
+            hector:valueInPence 960.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "barreled" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 95 (transcribed by Stuart Jenks): 'Fyche barreled þe laste' £4" ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
 
@@ -422,6 +505,9 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/hector/unit/pane> a crm:E58_Measurement_Unit ;
     rdfs:label "pane" .
+
+<https://w3id.org/hector/unit/last> a crm:E58_Measurement_Unit ;
+    rdfs:label "last" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

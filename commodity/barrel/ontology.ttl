@@ -13,6 +13,17 @@
     dcterms:modified "2026-10-03"^^xsd:date ;
     schema1:material aat:300011914 ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "barril" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "baril" ;
+            hector:validFrom "1520"^^xsd:gYear ;
+            hector:validThrough "1524"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "barrel" ;
+            crm:P2_has_type aat:300404670,
+                hector:AttestedVariant ;
+            hector:phoneticKey "barel" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "barrelle" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "barelə" ;
@@ -31,18 +42,6 @@
             hector:validFrom "1520"^^xsd:gYear ;
             hector:validThrough "1524"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "parrells" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "parels" ;
-            hector:validFrom "1550"^^xsd:gYear ;
-            hector:validThrough "1553"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "parrell" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "parel" ;
-            hector:validFrom "1550"^^xsd:gYear ;
-            hector:validThrough "1553"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "barrels" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "barels" ;
@@ -58,6 +57,12 @@
             hector:phoneticKey "barel" ;
             hector:validFrom "1545"^^xsd:gYear ;
             hector:validThrough "1547"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "parrells" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "parels" ;
+            hector:validFrom "1550"^^xsd:gYear ;
+            hector:validThrough "1553"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "barels" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -123,6 +128,12 @@
             hector:validFrom "1531"^^xsd:gYear ;
             hector:validThrough "1533"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "parrell" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "parel" ;
+            hector:validFrom "1550"^^xsd:gYear ;
+            hector:validThrough "1553"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "barrelli" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "bareli" ;
@@ -161,18 +172,7 @@
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "barelle" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "barelə" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "barrel" ;
-            crm:P2_has_type aat:300404670,
-                hector:AttestedVariant ;
-            hector:phoneticKey "barel" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "barril" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "baril" ;
-            hector:validFrom "1520"^^xsd:gYear ;
-            hector:validThrough "1524"^^xsd:gYear ] ;
+            hector:phoneticKey "barelə" ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "Cylindrical containers, usually wooden, with slightly bulging sides made of staves hooped together, and with flat, parallel ends. [Source: Getty AAT]" ;
             crm:P2_has_type aat:300435416 ] ;
@@ -181,10 +181,15 @@
     la:equivalent aat:300194514 ;
     hector:attestationCount 22433 ;
     hector:taxation <https://w3id.org/hector/commodity/barrel#rate-1507-none-47>,
-        <https://w3id.org/hector/commodity/barrel#rate-1558-inward-416> .
+        <https://w3id.org/hector/commodity/barrel#rate-1558-inward-119>,
+        <https://w3id.org/hector/commodity/barrel#rate-1558-inward-416>,
+        <https://w3id.org/hector/commodity/barrel#rate-1558-inward-578> .
 
 aat:300011914 a crm:E57_Material ;
     rdfs:label "wood (plant material)" .
+
+aat:300073768 a crm:E55_Type ;
+    rdfs:label "small" .
 
 aat:300194514 a crm:E55_Type ;
     rdfs:label "barrels (containers)" .
@@ -204,9 +209,30 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Corke" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "worked" ] ;
     hector:sourceText "Book of Rates 1507, line 47 (transcribed by Stuart Jenks): 'Corke made in barrelles the laste' 20s" ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/barrel#rate-1558-inward-119> a hector:Rate ;
+    rdfs:label "1558 inward: Bordes for barrelles the thousande 50s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "50s" ;
+            hector:valueInPence 600.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1000 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/thousand> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Bordes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 119 (transcribed by Stuart Jenks): 'Bordes for barrelles the thousande' 50s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/barrel#rate-1558-inward-416> a hector:Rate ;
     rdfs:label "1558 inward: Empty barrelles small for grocers the dossen 2s" ;
@@ -217,7 +243,29 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 12 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "grocers" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "small" ;
+            la:equivalent aat:300073768 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 416 (transcribed by Stuart Jenks): 'Empty barrelles small for grocers the dossen' 2s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/barrel#rate-1558-inward-578> a hector:Rate ;
+    rdfs:label "1558 inward: Hopes for barrelles the thowsand 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1000 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/thousand> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Hopes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 578 (transcribed by Stuart Jenks): 'Hopes for barrelles the thowsand' 10s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
@@ -232,6 +280,9 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/mlca/glossary/barrel> a crm:E55_Type ;
     rdfs:label "barrel (London Customs Accounts glossary)" .
+
+<https://w3id.org/hector/unit/thousand> a crm:E58_Measurement_Unit ;
+    rdfs:label "thousand" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

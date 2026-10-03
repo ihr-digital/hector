@@ -428,6 +428,39 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/trencher#rate-1545-inward-556",
+      "type": "Rate",
+      "_label": "1545 inward: Paynted trenchers the groce 2s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "24",
+        "lsd": "2s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 556 (transcribed by Stuart Jenks): 'Paynted trenchers the groce' 2s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "painted"
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/trencher#rate-1545-inward-747",
       "type": "Rate",
       "_label": "1545 inward: Trenchers the thousande 3s 4d",
@@ -482,6 +515,39 @@
       "sourceText": "Book of Rates 1545, inward, line 748 (transcribed by Stuart Jenks): 'Trenchers the 100' 4d"
     },
     {
+      "id": "https://w3id.org/hector/commodity/trencher#rate-1545-inward-749",
+      "type": "Rate",
+      "_label": "1545 inward: Trenchers paynted the groce 2s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "24",
+        "lsd": "2s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 749 (transcribed by Stuart Jenks): 'Trenchers paynted the groce' 2s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "painted"
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/trencher#rate-1545-inward-758",
       "type": "Rate",
       "_label": "1545 inward: Trenchers the maunde or baskete 20s",
@@ -507,6 +573,119 @@
       "validFrom": "1545",
       "validThrough": "1558",
       "sourceText": "Book of Rates 1545, inward, line 758 (transcribed by Stuart Jenks): 'Trenchers the maunde or baskete' 20s"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/trencher#rate-1558-inward-1095",
+      "type": "Rate",
+      "_label": "1558 inward: Trenchers of the common sorte the M 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1000,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/thousand",
+          "type": "MeasurementUnit",
+          "_label": "thousand"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1095 (transcribed by Stuart Jenks): 'Trenchers of the common sorte the M' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "common",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/trencher#rate-1558-inward-1096",
+      "type": "Rate",
+      "_label": "1558 inward: Trenchers thycke the grosse conteyninge 12 dosen trenchers 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "40",
+        "lsd": "3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1096 (transcribed by Stuart Jenks): 'Trenchers thycke the grosse conteyninge 12 dosen trenchers' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "thycke",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/trencher#rate-1558-inward-800",
+      "type": "Rate",
+      "_label": "1558 inward: Paynted trenchers the grosse 6s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "72",
+        "lsd": "6s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 800 (transcribed by Stuart Jenks): 'Paynted trenchers the grosse' 6s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "painted"
+        }
+      ]
     }
   ]
 }

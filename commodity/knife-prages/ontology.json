@@ -5,7 +5,9 @@
   ],
   "id": "https://w3id.org/hector/commodity/knife-prages",
   "type": "Type",
-  "_label": "knife (prages)",
+  "_label": "knife (withdrawn record)",
+  "deprecated": true,
+  "modified": "2026-10-03",
   "referred_to_by": [
     {
       "type": "LinguisticObject",
@@ -16,81 +18,11 @@
           "_label": "brief texts"
         }
       ],
-      "content": "knife, qualified as ‘prages’: a commodity as the Books of Rates price it separately (HECTOR decision 2, 29 Sep 2026)."
+      "content": "Withdrawn 3 Oct 2026. This record stood for the commodity as one Book of Rates entry qualifies it; the rates are now on the commodity itself, each naming its qualifier."
     }
   ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "content": "knife (prages)",
-      "classified_as": [
-        {
-          "id": "aat:300404670",
-          "type": "Type",
-          "_label": "preferred terms"
-        }
-      ],
-      "phoneticKey": [
-        "knifə pradʒəs"
-      ]
-    },
-    {
-      "type": "Name",
-      "content": "Knyves called prages",
-      "classified_as": [
-        {
-          "id": "hector:AttestedVariant",
-          "type": "Type",
-          "_label": "attested variant"
-        }
-      ],
-      "phoneticKey": [
-        "knivəs kaled pradʒəs"
-      ]
-    }
-  ],
-  "broader": [
-    {
-      "id": "https://w3id.org/hector/commodity/knife",
-      "type": "Type",
-      "_label": "knife"
-    }
-  ],
-  "compoundOf": [
-    {
-      "id": "https://w3id.org/hector/commodity/knife",
-      "type": "Type",
-      "_label": "knife"
-    }
-  ],
-  "modified": "2026-10-03",
-  "taxation": [
-    {
-      "id": "https://w3id.org/hector/commodity/knife-prages#rate-1507-none-145",
-      "type": "Rate",
-      "_label": "1507: Knyves called prages the grosse 5s",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "60",
-        "lsd": "5s"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 144,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/gross",
-          "type": "MeasurementUnit",
-          "_label": "gross"
-        }
-      },
-      "validFrom": "1507",
-      "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 145 (transcribed by Stuart Jenks): 'Knyves called prages the grosse' 5s"
-    }
-  ]
+  "isReplacedBy": {
+    "id": "https://w3id.org/hector/commodity/knife",
+    "type": "Type"
+  }
 }

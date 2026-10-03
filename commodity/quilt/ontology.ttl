@@ -5,6 +5,7 @@
 @prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/hector/commodity/quilt> a crm:E55_Type ;
@@ -133,6 +134,9 @@ aat:300404670 a crm:E55_Type ;
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
+wd:Q142 a crm:E53_Place ;
+    rdfs:label "France" .
+
 <https://w3id.org/hector/commodity/quilt#rate-1507-none-227> a hector:Rate ;
     rdfs:label "1507: Quylltes the dossen on with another 30s" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -168,6 +172,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 12 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "France" ;
+            hector:originPlace wd:Q142 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 876 (transcribed by Stuart Jenks): 'Quyltes the dosen voc’ Frenche quyltes' 58s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .

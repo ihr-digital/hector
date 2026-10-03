@@ -8,78 +8,65 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_wire_cb8c6a76eaa2061e83327bc8aa2f815907649ff4ce421fdfa671627759281952aa">
-    <crm:P190_has_symbolic_content>weire</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>weirə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_wire_cb148ab670c330cf7e7d114310da8bf3011e8069cacf36eb620392a195ca59cc35e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/hundred">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>hundred</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/wire#rate-1507-none-142">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/wire#rate-1545-inward-789">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1507: Iryne wyer the hoggeshed 50s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_wire_cb15bf6f86470255294b49350f53476cd9b9cfe9aa3478e408e35fc6c39f4e9f503"/>
-    <hector:perQuantity rdf:nodeID="commodity_wire_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109"/>
-    <hector:sourceText>Book of Rates 1507, line 142 (transcribed by Stuart Jenks): 'Iryne wyer the hoggeshed' 50s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+    <rdfs:label>1545 inward: Wyer for clarycordes the pound 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_wire_cb29ed04b04625677d8226a21190c2c4aab8dee028b28ed1277a1ab2922072897e0"/>
+    <hector:perQuantity rdf:nodeID="commodity_wire_cb24fe7891ee7f3e11416b3ef03afe86c76ba8e70564d6a9852db220b7f99a52f55"/>
+    <hector:qualifier rdf:nodeID="commodity_wire_cb16429a921ef92a7c09431aac6c3f5b15adf29bd57b96368d7849970d4f0303548"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 789 (transcribed by Stuart Jenks): 'Wyer for clarycordes the pound' 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/clavichord-string">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>clavichord string</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/wire#rate-1558-inward-1130">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Wyer for clerycordes the pounde 12d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_wire_cb280655fe811943cec1bc3df3d66dc8cbba9f92f8c4fe9c961047c80684170059e"/>
+    <hector:perQuantity rdf:nodeID="commodity_wire_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_wire_cb172dd047dc99aefe4847c1dd593feaab8153d66094cab2f4b6ac399bb85d8ad4f"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1130 (transcribed by Stuart Jenks): 'Wyer for clerycordes the pounde' 12d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wire_cb2648d7c7ef43aff3ec576a7c2d8d16a1b7d9cbbff1463eab21f1628f15b4ce65b">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hogshead"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_wire_cbe61140f652393aa18eaa30b3f1c53f6bc54dd13735863000e1614588708044b2">
-    <crm:P190_has_symbolic_content>wyarr</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>wiar</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_wire_cb105715d404fdb2fdb9dfd560f1e70db72ec8b261607564164d94201258bee8c9f">
-    <crm:P190_has_symbolic_content>wier</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>wiːr</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_wire_cb8649b4f65a67a9d67843da326b4ad2da0b33a9e7d1e8a0cdb8020dfbdcdc50d2">
-    <crm:P190_has_symbolic_content>wyer</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>wier</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_wire_cb1c7b22a01e8124c9a62ea11d2e10b09cd45272c91dbd19bd9738770abe5a19cd">
-    <crm:P190_has_symbolic_content>wiere</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>wiːrə</hector:phoneticKey>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/wire#rate-1558-inward-833">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Purlynge wyer the dossen pounde 8s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_wire_cb22ae97faf673466eaa1a73860d5e28144559de4b28e64c3e1fc88282975291046"/>
+    <hector:perQuantity rdf:nodeID="commodity_wire_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_wire_cb1324a56fb3efb30890d09d5df5ba54369af9db4700c4936b473f38343b1108783"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 833 (transcribed by Stuart Jenks): 'Purlynge wyer the dossen pounde' 8s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/wire">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_wire_cb105715d404fdb2fdb9dfd560f1e70db72ec8b261607564164d94201258bee8c9f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_wire_cb10fd4c4d69b00872c3b42b08673cbe13a2936605a8406021d6a39f97abc2459a3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_wire_cb14534e972fdf725bfa3a0f9a8d6b4903d045bcd499d0d9c6216d39da493cd142c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_wire_cb19a56d3f6fa036d4287c01fc73cf12189e910526c849c86cee060a0767cf85dca"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_wire_cb1ac556d8ecd2df72ae4720382d78d991255cf5cfcb3376bddcffa112b8fdffc89"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_wire_cb1b0a282a3df67fd09f63e185edac7008ddeeee2e9e74d175dd70f8bd7ab57f5f9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_wire_cb1bb190c047cbe40191e9bde448b230e15be3e1c720da87a280451726268ba39eb"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_wire_cb1c7b22a01e8124c9a62ea11d2e10b09cd45272c91dbd19bd9738770abe5a19cd"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_wire_cb62e497eaee00e565549d5411628d8611de105a4aa7f3a79cffff93d386224992"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_wire_cb8649b4f65a67a9d67843da326b4ad2da0b33a9e7d1e8a0cdb8020dfbdcdc50d2"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_wire_cb8c6a76eaa2061e83327bc8aa2f815907649ff4ce421fdfa671627759281952aa"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_wire_cbe61140f652393aa18eaa30b3f1c53f6bc54dd13735863000e1614588708044b2"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_wire_cb0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_wire_cb12045798752956bc8dcde743b128979ce96a2e0ca9be7dc3a8c33380144f57547"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_wire_cb124f5b73e1d149b75fcac4df6c36e3973dbba8c1e283d11234e98dac84aed65d9"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_wire_cb164461e74d120dbf8853e9cb772e58165a49a79ec4113612454140225b72455b5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_wire_cb1b6d0b27c7fa9fdeee83d6c372482f9af6c46d704c26bf6b27ffe214385f8a5cb"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_wire_cb1cfb3b7a5b291b342d7dbbb6d76f7f1b67f2d8f8c8b52dc20144ff058ceaf3782"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_wire_cb1f67b0b8105fe67b78127fec1c7d1325c72b13e4c39b2ec2e821c119b1b38c2f2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_wire_cb295199bf1be99fd25cc8097dae68d9a9e4918bb7c1db374b0e848fb2e32b2a993"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_wire_cb2a58a6afb52476a5190f533f6e00629920c8daa88ba4cba271daea1b8ee3b9fba"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_wire_cb2d6864357f110414cdad771aa700aeea218da922b54bdcb96c86b367c5917efc2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_wire_cb81f5ccecc12a9b9e363af71ffebe773a7e4f06ed4bf96c5f3d3ff854a9798b1b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_wire_cbab7babec752fd4bc14196bb8cbb24a3004dea170e625a468aea2dbda4b709433"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_wire_cbb7558ae88d4ebd7fc3b9feafe1a2f19c4e92859d1941486cc8279e60cba623f3"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_wire_cb19726691a58ef5c91ab7df6f1f3ff35c2584d30fde3291df2fdbb64ae45475e11"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>wire</rdfs:label>
     <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/wire"/>
@@ -88,29 +75,29 @@
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300011063"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">702</hector:attestationCount>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/wire#rate-1507-none-142"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/wire#rate-1507-none-211"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/wire#rate-1545-inward-550"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/wire#rate-1545-inward-789"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/wire#rate-1545-inward-794"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/wire#rate-1558-inward-1130"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/wire#rate-1558-inward-833"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_wire_cb1b0a282a3df67fd09f63e185edac7008ddeeee2e9e74d175dd70f8bd7ab57f5f9">
-    <crm:P190_has_symbolic_content>weyre</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>weirə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/wire#rate-1545-inward-550">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Purlynge wyer the dossen pounde 4s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_wire_cb201c5a66cbc86f5c88d0a2043ef5801d47ccace5ed1993a6adf16e7d84110542e"/>
+    <hector:perQuantity rdf:nodeID="commodity_wire_cb12d90d7c33c4d0594989c67f2fb064a34f277aa97b86db2eb3a4ea8dd82c244aa"/>
+    <hector:qualifier rdf:nodeID="commodity_wire_cb176d8b32a0067d7e079efb915eb34e777512d198f16039116b057a0a561436c8b"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 550 (transcribed by Stuart Jenks): 'Purlynge wyer the dossen pounde' 4s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_wire_cb24fe7891ee7f3e11416b3ef03afe86c76ba8e70564d6a9852db220b7f99a52f55">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_wire_cb19a56d3f6fa036d4287c01fc73cf12189e910526c849c86cee060a0767cf85dca">
-    <crm:P190_has_symbolic_content>wyre</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>wirə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_wire_cb1ac556d8ecd2df72ae4720382d78d991255cf5cfcb3376bddcffa112b8fdffc89">
+  <rdf:Description rdf:nodeID="commodity_wire_cb295199bf1be99fd25cc8097dae68d9a9e4918bb7c1db374b0e848fb2e32b2a993">
     <crm:P190_has_symbolic_content>wyarre</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -118,39 +105,86 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/wire#rate-1545-inward-794">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Wyer the 100 20s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_wire_cb1c734bd4dd0ac903177d742e905d2d593ed1dd1c04fb47406d734a3e8e39af82c"/>
-    <hector:perQuantity rdf:nodeID="commodity_wire_cb826a2ce4570362860ca609aa2a04caa3ec853145b2a22ba0ac63f5cd75b6eac7"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 794 (transcribed by Stuart Jenks): 'Wyer the 100' 20s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_wire_cb1c734bd4dd0ac903177d742e905d2d593ed1dd1c04fb47406d734a3e8e39af82c">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>20s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_wire_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hogshead"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_wire_cb14534e972fdf725bfa3a0f9a8d6b4903d045bcd499d0d9c6216d39da493cd142c">
-    <crm:P190_has_symbolic_content>weyr</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_wire_cb2d6864357f110414cdad771aa700aeea218da922b54bdcb96c86b367c5917efc2">
+    <crm:P190_has_symbolic_content>wyre</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>weir</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+    <hector:phoneticKey>wirə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_wire_cb62e497eaee00e565549d5411628d8611de105a4aa7f3a79cffff93d386224992">
+  <rdf:Description rdf:nodeID="commodity_wire_cb201c5a66cbc86f5c88d0a2043ef5801d47ccace5ed1993a6adf16e7d84110542e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/hogshead">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>hogshead</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wire_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wire_cb280655fe811943cec1bc3df3d66dc8cbba9f92f8c4fe9c961047c80684170059e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>12d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wire_cbb7558ae88d4ebd7fc3b9feafe1a2f19c4e92859d1941486cc8279e60cba623f3">
+    <crm:P190_has_symbolic_content>wyer</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>wier</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/wire">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>wire (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/wire#rate-1507-none-211">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Pyrlyng wyer the dossen lb 4s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_wire_cb2899808dfe59a11daff725bc0419e9767491f55a41c1b96c5bf6d4c87472f67de"/>
+    <hector:perQuantity rdf:nodeID="commodity_wire_cb12acc351e9bf6e35f0720dd8ef11a0d82fbd27eff1e65328497daf6a091c47408"/>
+    <hector:qualifier rdf:nodeID="commodity_wire_cb24c396bb00b6011a9dd26cde79d76f7f517d7324f64b08485ac2179be8fd126f1"/>
+    <hector:sourceText>Book of Rates 1507, line 211 (transcribed by Stuart Jenks): 'Pyrlyng wyer the dossen lb' 4s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/hundred">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>hundred</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wire_cb12acc351e9bf6e35f0720dd8ef11a0d82fbd27eff1e65328497daf6a091c47408">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wire_cbab7babec752fd4bc14196bb8cbb24a3004dea170e625a468aea2dbda4b709433">
+    <crm:P190_has_symbolic_content>weire</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>weirə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wire_cb263b303d2ab4f1d87421b4211b61095dc2ba4bb7fa08f2a1d3ab2338eb3878559">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Iryne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wire_cb22ae97faf673466eaa1a73860d5e28144559de4b28e64c3e1fc88282975291046">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>8s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wire_cb81f5ccecc12a9b9e363af71ffebe773a7e4f06ed4bf96c5f3d3ff854a9798b1b">
     <crm:P190_has_symbolic_content>weir</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -158,7 +192,7 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_wire_cb10fd4c4d69b00872c3b42b08673cbe13a2936605a8406021d6a39f97abc2459a3">
+  <rdf:Description rdf:nodeID="commodity_wire_cb1f67b0b8105fe67b78127fec1c7d1325c72b13e4c39b2ec2e821c119b1b38c2f2">
     <crm:P190_has_symbolic_content>wire</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -167,31 +201,136 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_wire_cb15bf6f86470255294b49350f53476cd9b9cfe9aa3478e408e35fc6c39f4e9f503">
+  <rdf:Description rdf:nodeID="commodity_wire_cb19726691a58ef5c91ab7df6f1f3ff35c2584d30fde3291df2fdbb64ae45475e11">
+    <crm:P190_has_symbolic_content>wire: metal — iron, latten, copper or gold — drawn into a thin flexible thread, distinguished by metal and by place of manufacture (especially Cologne).</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/wire#rate-1507-none-142">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Iryne wyer the hoggeshed 50s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_wire_cb2c24eda9d9a64f8fb8285cd3d82a9d65010d4e517ef8cc9316dcc5bd044369484"/>
+    <hector:perQuantity rdf:nodeID="commodity_wire_cb2648d7c7ef43aff3ec576a7c2d8d16a1b7d9cbbff1463eab21f1628f15b4ce65b"/>
+    <hector:qualifier rdf:nodeID="commodity_wire_cb263b303d2ab4f1d87421b4211b61095dc2ba4bb7fa08f2a1d3ab2338eb3878559"/>
+    <hector:sourceText>Book of Rates 1507, line 142 (transcribed by Stuart Jenks): 'Iryne wyer the hoggeshed' 50s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wire_cb29ed04b04625677d8226a21190c2c4aab8dee028b28ed1277a1ab2922072897e0">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>50s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">600</hector:valueInPence>
+    <hector:lsd>4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/hogshead">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>hogshead</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_wire_cb24c396bb00b6011a9dd26cde79d76f7f517d7324f64b08485ac2179be8fd126f1">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Pyrlyng</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/wire#rate-1545-inward-794">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Wyer the 100 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_wire_cb2fa4d8aadaeb2964caea9c860acc68102e34f9534ccec8b96275b3405af38b68e"/>
+    <hector:perQuantity rdf:nodeID="commodity_wire_cb148ab670c330cf7e7d114310da8bf3011e8069cacf36eb620392a195ca59cc35e"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 794 (transcribed by Stuart Jenks): 'Wyer the 100' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wire_cb16429a921ef92a7c09431aac6c3f5b15adf29bd57b96368d7849970d4f0303548">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>clarycordes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wire_cb1cfb3b7a5b291b342d7dbbb6d76f7f1b67f2d8f8c8b52dc20144ff058ceaf3782">
+    <crm:P190_has_symbolic_content>weyre</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>weirə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wire_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
     <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_wire_cb0">
-    <crm:P190_has_symbolic_content>wire: metal — iron, latten, copper or gold — drawn into a thin flexible thread, distinguished by metal and by place of manufacture (especially Cologne).</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  <rdf:Description rdf:nodeID="commodity_wire_cb176d8b32a0067d7e079efb915eb34e777512d198f16039116b057a0a561436c8b">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Purlynge</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_wire_cb826a2ce4570362860ca609aa2a04caa3ec853145b2a22ba0ac63f5cd75b6eac7">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+  <rdf:Description rdf:nodeID="commodity_wire_cb164461e74d120dbf8853e9cb772e58165a49a79ec4113612454140225b72455b5">
+    <crm:P190_has_symbolic_content>weyr</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>weir</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wire_cb2c24eda9d9a64f8fb8285cd3d82a9d65010d4e517ef8cc9316dcc5bd044369484">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>50s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">600</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wire_cb2899808dfe59a11daff725bc0419e9767491f55a41c1b96c5bf6d4c87472f67de">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wire_cb1b6d0b27c7fa9fdeee83d6c372482f9af6c46d704c26bf6b27ffe214385f8a5cb">
+    <crm:P190_has_symbolic_content>wyarr</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>wiar</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wire_cb12045798752956bc8dcde743b128979ce96a2e0ca9be7dc3a8c33380144f57547">
+    <crm:P190_has_symbolic_content>wiere</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>wiːrə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/iron-wire">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>iron wire</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wire_cb124f5b73e1d149b75fcac4df6c36e3973dbba8c1e283d11234e98dac84aed65d9">
+    <crm:P190_has_symbolic_content>wier</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>wiːr</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wire_cb2fa4d8aadaeb2964caea9c860acc68102e34f9534ccec8b96275b3405af38b68e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/clavichord-string">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>clavichord string</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wire_cb12d90d7c33c4d0594989c67f2fb064a34f277aa97b86db2eb3a4ea8dd82c244aa">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_wire_cb1bb190c047cbe40191e9bde448b230e15be3e1c720da87a280451726268ba39eb">
+  <rdf:Description rdf:nodeID="commodity_wire_cb2a58a6afb52476a5190f533f6e00629920c8daa88ba4cba271daea1b8ee3b9fba">
     <crm:P190_has_symbolic_content>wyar</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -199,16 +338,26 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wire_cb172dd047dc99aefe4847c1dd593feaab8153d66094cab2f4b6ac399bb85d8ad4f">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>clerycordes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wire_cb1324a56fb3efb30890d09d5df5ba54369af9db4700c4936b473f38343b1108783">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Purlynge</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pound">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pound</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300011063">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>wire</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/wire">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>wire (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/iron-wire">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>iron wire</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

@@ -8,25 +8,102 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
+  <rdf:Description rdf:nodeID="commodity_crewel_cb145946c3fcfa2e4879a2be35c568e128bba64df7905995e774f3067ac5f573628">
+    <crm:P190_has_symbolic_content>crewel</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kreuel</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crewel#rate-1545-inward-176">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Crewell girdels the groce 4s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_crewel_cb1e79458d96b0ba0073a12f5514323ec4e1fc053167d6c49a3de393544c0b23e6a"/>
+    <hector:perQuantity rdf:nodeID="commodity_crewel_cb1fafeb36dda72ae053a8349683e3416f9181683a6cdc2832ac4d937117cde46a3"/>
+    <hector:qualifier rdf:nodeID="commodity_crewel_cb1dc105722c95616d732c7e5847ca4cd706c8ca22a46f6b33eb00039003eefc3d5"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 176 (transcribed by Stuart Jenks): 'Crewell girdels the groce' 4s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crewel#rate-1558-inward-269">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Cruell or caddas rybande the dossen peces 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_crewel_cb26a75508829d013cce5bc1b2db191d24f5a023296a1de6f76144df9196dc83438"/>
+    <hector:perQuantity rdf:nodeID="commodity_crewel_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_crewel_cb11cde5ba0ac6b0151b3474c0f1a1a3def592401f4677f4943dd957c9a5c0e4029"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 269 (transcribed by Stuart Jenks): 'Cruell or caddas rybande the dossen peces' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/crewel">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>crewel (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crewel#rate-1545-inward-175">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Crewell ribbonde the dossen peces 4s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_crewel_cb2abfc89480331687ff92eb69770c50b9b024d67a35575ddaeab2e012c15edd6fb"/>
+    <hector:perQuantity rdf:nodeID="commodity_crewel_cb148e6b32d8eb5cf3cde65772607fa5071e7406c487a776e89e711aa2d49d62634"/>
+    <hector:qualifier rdf:nodeID="commodity_crewel_cb1a29d9cfc1b002bf7f4abededb91b5d18a0f306a6beb12929344007eca9d1eb48"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 175 (transcribed by Stuart Jenks): 'Crewell ribbonde the dossen peces' 4s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crewel#rate-1558-inward-268">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Cruell voc’ worsted yarne the dossen pounde 16s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_crewel_cb2a75009060f6b9ec0762f4226842aab7590ba888c55d7fc35a7e746a26cb6cfc9"/>
+    <hector:perQuantity rdf:nodeID="commodity_crewel_cb1df0b024e4ae377ee9d1caf186c119cbd8242ed85f5b1e917a9e8f58a2525e085"/>
+    <hector:qualifier rdf:nodeID="commodity_crewel_cb1167796a5b22d5035dfdcfb9f9108aa96e4cfa76552fd6b4a35465921571911d5"/>
+    <hector:qualifier rdf:nodeID="commodity_crewel_cb12e48c9f626bb67f6a04a432691a18e782a99589699682f11488a6d23e52704a6"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 268 (transcribed by Stuart Jenks): 'Cruell voc’ worsted yarne the dossen pounde' 16s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crewel_cb1167796a5b22d5035dfdcfb9f9108aa96e4cfa76552fd6b4a35465921571911d5">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>worsted</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300227943"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/crewel">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crewel_cb106f276518a5b14ab68307d12830277f89e41a4d2c3805bfcec67855958071293"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crewel_cb13e1f44c07b919ee61addd93fdc682bf0a7629070b5c5764b50a255d4293725ba"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crewel_cb171a46b08a7aad709608b68ef8f6cb944b86d18cf6f168a6f984dc96be44debdf"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crewel_cb17f74df70da54c5871bac8f8b862fda14744f85ae8b399bdddfbde505e5c0d287"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crewel_cb1a7f95352c57dd4cc18850f7f1428a3a53f1991f3e76a9cca1aadb7bff5bc7f46"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crewel_cb1d2a6f0338e6c87408c1bc5a243299b4e1fcd0e9c598afe8b87ac710e9086b655"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crewel_cb569e3a0fc83d3482850885a83bd0e9a4a7ea894c3c7081b31076dea6006f020d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crewel_cb8f56f64859dc8c4a778aeef33bc4e0b86ee2b938e4fc56752f7d0265e6bd4b7b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crewel_cba873199ebf5c1cb01b6e2c9998ae011878ffd7263f91e0841ac60d58f80439dd"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_crewel_cb19d316003abd9706086e8a7de0b73ea4db030ff04f064e5a40585653c3fda758"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crewel_cb117caccfc078cfc766920e963da165aa0c74ffb6b7c45e31d91a23e5902dd7197"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crewel_cb145946c3fcfa2e4879a2be35c568e128bba64df7905995e774f3067ac5f573628"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crewel_cb17d67cb3f5b0ecba9fec81a0afa46f521be51e84c4f511cd7f009cf660764120b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crewel_cb19621aead8af69670924a8f5981a5ce2873d4bc0fd8f758a5cb5f75d7d1eef964"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crewel_cb1dc9ea87f35139e4ff8ffd8ddba587e5cd60b2868da78a7e8a997d1428cd11601"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crewel_cb1e087abacedce7e572af2df689fbe80d30850db2b361b641311e1c59268c144f8"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crewel_cb20d994a096df3c0643282fdbf1d5201eefbea4957eeff8843d52f8e549007cd38"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crewel_cb2ca89b2f229f3d24bb76567813b169a597fe2f5d533e1f7aab7b408f122b30b21"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crewel_cb320f1e111f7cfab2645d09dbbb0c5a7654289258beca90c16e921e8c1db9bf72f"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_crewel_cb1174b1cccb5ca8b719066b0db46f1c04c1d1207abc33129fc6ce17fe7b0eab570"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>crewel</rdfs:label>
     <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/crewel"/>
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300227812"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">117</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/crewel#rate-1545-inward-136"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/crewel#rate-1545-inward-175"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/crewel#rate-1545-inward-176"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/crewel#rate-1558-inward-268"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/crewel#rate-1558-inward-269"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/crewel#rate-1558-inward-270"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crewel_cb8f56f64859dc8c4a778aeef33bc4e0b86ee2b938e4fc56752f7d0265e6bd4b7b">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crewel#rate-1558-inward-270">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Cruell gyrdelles the grosse 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_crewel_cb317b9bdad67b94de8f1f8c41b814818b7bbc0ca13535fb0745764685728ac77b7"/>
+    <hector:perQuantity rdf:nodeID="commodity_crewel_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50"/>
+    <hector:qualifier rdf:nodeID="commodity_crewel_cb1568b97d4ab09225acd12c0f4cdb8bb9293bb48751c8fc8f09701773d62c69d40"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 270 (transcribed by Stuart Jenks): 'Cruell gyrdelles the grosse' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crewel_cb117caccfc078cfc766920e963da165aa0c74ffb6b7c45e31d91a23e5902dd7197">
     <crm:P190_has_symbolic_content>crewelle</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -34,43 +111,21 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1541</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crewel_cb569e3a0fc83d3482850885a83bd0e9a4a7ea894c3c7081b31076dea6006f020d">
-    <crm:P190_has_symbolic_content>cruylle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kruilə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_crewel_cb148e6b32d8eb5cf3cde65772607fa5071e7406c487a776e89e711aa2d49d62634">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crewel_cba873199ebf5c1cb01b6e2c9998ae011878ffd7263f91e0841ac60d58f80439dd">
-    <crm:P190_has_symbolic_content>crewel</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kreuel</hector:phoneticKey>
+  <rdf:Description rdf:nodeID="commodity_crewel_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crewel_cb1d2a6f0338e6c87408c1bc5a243299b4e1fcd0e9c598afe8b87ac710e9086b655">
-    <crm:P190_has_symbolic_content>crule</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>krulə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300227812">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
+    <rdfs:label>crewel wool</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crewel_cb19d316003abd9706086e8a7de0b73ea4db030ff04f064e5a40585653c3fda758">
-    <crm:P190_has_symbolic_content>Fine, loosely twisted, two-ply, worsted yarn used in embroidering. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/crewel">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>crewel (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crewel_cb106f276518a5b14ab68307d12830277f89e41a4d2c3805bfcec67855958071293">
+  <rdf:Description rdf:nodeID="commodity_crewel_cb1e087abacedce7e572af2df689fbe80d30850db2b361b641311e1c59268c144f8">
     <crm:P190_has_symbolic_content>crules</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -78,27 +133,56 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crewel_cb17f74df70da54c5871bac8f8b862fda14744f85ae8b399bdddfbde505e5c0d287">
-    <crm:P190_has_symbolic_content>crewell</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_crewel_cb1568b97d4ab09225acd12c0f4cdb8bb9293bb48751c8fc8f09701773d62c69d40">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kreuel</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crewel_cb13e1f44c07b919ee61addd93fdc682bf0a7629070b5c5764b50a255d4293725ba">
-    <crm:P190_has_symbolic_content>crulle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>krulə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
+    <rdfs:label>gyrdelles</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crewel_cb1a7f95352c57dd4cc18850f7f1428a3a53f1991f3e76a9cca1aadb7bff5bc7f46">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crewel#rate-1545-inward-136">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Cruell or worsted yarne the dosen pounde 9s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_crewel_cb212d36facc1662c1f827a63db99f6a092b17e3cac7ac60ed446b0fff53d608af6"/>
+    <hector:perQuantity rdf:nodeID="commodity_crewel_cb1b777fea53a2b369cf9f312ee8a0a89b000dd0ae3a6a9bb0477805b9b4360d37b"/>
+    <hector:qualifier rdf:nodeID="commodity_crewel_cb1a53db6c933a936a2af2396d7c40c23dc848d956d3e1e727a5e5e939927b6b913"/>
+    <hector:qualifier rdf:nodeID="commodity_crewel_cb1bd0eea19a8374e636f90de5ec4a507bdca57469e8489364171a2a79bb5c4abe4"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 136 (transcribed by Stuart Jenks): 'Cruell or worsted yarne the dosen pounde' 9s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crewel_cb12e48c9f626bb67f6a04a432691a18e782a99589699682f11488a6d23e52704a6">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>yarne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crewel_cb1df0b024e4ae377ee9d1caf186c119cbd8242ed85f5b1e917a9e8f58a2525e085">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crewel_cb212d36facc1662c1f827a63db99f6a092b17e3cac7ac60ed446b0fff53d608af6">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>9s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">108</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crewel_cb11cde5ba0ac6b0151b3474c0f1a1a3def592401f4677f4943dd957c9a5c0e4029">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>caddas rybande</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crewel_cb26a75508829d013cce5bc1b2db191d24f5a023296a1de6f76144df9196dc83438">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crewel_cb1e79458d96b0ba0073a12f5514323ec4e1fc053167d6c49a3de393544c0b23e6a">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crewel_cb20d994a096df3c0643282fdbf1d5201eefbea4957eeff8843d52f8e549007cd38">
     <crm:P190_has_symbolic_content>cruell</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -106,7 +190,33 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crewel_cb171a46b08a7aad709608b68ef8f6cb944b86d18cf6f168a6f984dc96be44debdf">
+  <rdf:Description rdf:nodeID="commodity_crewel_cb2ca89b2f229f3d24bb76567813b169a597fe2f5d533e1f7aab7b408f122b30b21">
+    <crm:P190_has_symbolic_content>crulle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>krulə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crewel_cb1dc9ea87f35139e4ff8ffd8ddba587e5cd60b2868da78a7e8a997d1428cd11601">
+    <crm:P190_has_symbolic_content>crewell</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kreuel</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crewel_cb1174b1cccb5ca8b719066b0db46f1c04c1d1207abc33129fc6ce17fe7b0eab570">
+    <crm:P190_has_symbolic_content>Fine, loosely twisted, two-ply, worsted yarn used in embroidering. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crewel_cb1fafeb36dda72ae053a8349683e3416f9181683a6cdc2832ac4d937117cde46a3">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crewel_cb19621aead8af69670924a8f5981a5ce2873d4bc0fd8f758a5cb5f75d7d1eef964">
     <crm:P190_has_symbolic_content>cruelle</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -114,12 +224,92 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crewel_cb317b9bdad67b94de8f1f8c41b814818b7bbc0ca13535fb0745764685728ac77b7">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crewel_cb2abfc89480331687ff92eb69770c50b9b024d67a35575ddaeab2e012c15edd6fb">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crewel_cb1b777fea53a2b369cf9f312ee8a0a89b000dd0ae3a6a9bb0477805b9b4360d37b">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crewel_cb17d67cb3f5b0ecba9fec81a0afa46f521be51e84c4f511cd7f009cf660764120b">
+    <crm:P190_has_symbolic_content>cruylle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kruilə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crewel_cb320f1e111f7cfab2645d09dbbb0c5a7654289258beca90c16e921e8c1db9bf72f">
+    <crm:P190_has_symbolic_content>crule</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>krulə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crewel_cb1a29d9cfc1b002bf7f4abededb91b5d18a0f306a6beb12929344007eca9d1eb48">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>ribbonde</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>attested variant</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300227812">
+  <rdf:Description rdf:nodeID="commodity_crewel_cb2a75009060f6b9ec0762f4226842aab7590ba888c55d7fc35a7e746a26cb6cfc9">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>16s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crewel_cb1bd0eea19a8374e636f90de5ec4a507bdca57469e8489364171a2a79bb5c4abe4">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>crewel wool</rdfs:label>
+    <rdfs:label>yarne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>gross</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crewel_cb1dc105722c95616d732c7e5847ca4cd706c8ca22a46f6b33eb00039003eefc3d5">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>girdels</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300227943">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>worsted</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crewel_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crewel_cb1a53db6c933a936a2af2396d7c40c23dc848d956d3e1e727a5e5e939927b6b913">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>worsted</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300227943"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

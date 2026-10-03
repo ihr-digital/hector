@@ -444,6 +444,46 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/thread#rate-1507-none-301",
+      "type": "Rate",
+      "_label": "1507: Thred called Owghtnall thred the dossen lb 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 301 (transcribed by Stuart Jenks): 'Thred called Owghtnall thred the dossen lb' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Owghtnall",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/thread#rate-1507-none-302",
       "type": "Rate",
       "_label": "1507: Thred called Colyn thred the packyn wyche contains £13 6s 8d",
@@ -468,7 +508,60 @@
       },
       "validFrom": "1507",
       "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 302 (transcribed by Stuart Jenks): 'Thred called Colyn thred the packyn wyche contains' £13 6s 8d"
+      "sourceText": "Book of Rates 1507, line 302 (transcribed by Stuart Jenks): 'Thred called Colyn thred the packyn wyche contains' £13 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Cologne",
+          "originPlace": [
+            {
+              "id": "wd:Q365",
+              "type": "Place",
+              "_label": "Cologne"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/thread#rate-1545-inward-115",
+      "type": "Rate",
+      "_label": "1545 inward: Bottom of threde the 100 pounde 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 115 (transcribed by Stuart Jenks): 'Bottom of threde the 100 pounde' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Bottom",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/thread#rate-1545-inward-116",
@@ -495,7 +588,360 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 116 (transcribed by Stuart Jenks): 'Bottom threde the pounde' 2d"
+      "sourceText": "Book of Rates 1545, inward, line 116 (transcribed by Stuart Jenks): 'Bottom threde the pounde' 2d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Bottom",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/thread#rate-1545-inward-133",
+      "type": "Rate",
+      "_label": "1545 inward: Collayne threde the bale £10",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "2400",
+        "lsd": "£10"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/bale",
+          "type": "MeasurementUnit",
+          "_label": "bale"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 133 (transcribed by Stuart Jenks): 'Collayne threde the bale' £10",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Collayne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/thread#rate-1545-inward-44",
+      "type": "Rate",
+      "_label": "1545 inward: Bridges threde the dossen pounde 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 44 (transcribed by Stuart Jenks): 'Bridges threde the dossen pounde' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Bruges",
+          "originPlace": [
+            {
+              "id": "wd:Q12994",
+              "type": "Place",
+              "_label": "Bruges"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/thread#rate-1545-inward-450",
+      "type": "Rate",
+      "_label": "1545 inward: Lyons threde the butte 12d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "12",
+        "lsd": "12d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/butt",
+          "type": "MeasurementUnit",
+          "_label": "butt"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 450 (transcribed by Stuart Jenks): 'Lyons threde the butte' 12d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "lions"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/thread#rate-1545-inward-512",
+      "type": "Rate",
+      "_label": "1545 inward: Otener threde the dossen pound 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 512 (transcribed by Stuart Jenks): 'Otener threde the dossen pound' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Otener",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/thread#rate-1545-inward-564",
+      "type": "Rate",
+      "_label": "1545 inward: Packe threde the 100 pounde 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 564 (transcribed by Stuart Jenks): 'Packe threde the 100 pounde' 10s"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/thread#rate-1545-inward-586",
+      "type": "Rate",
+      "_label": "1545 inward: Pesing threde the dossen pound 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 586 (transcribed by Stuart Jenks): 'Pesing threde the dossen pound' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Pesing",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/thread#rate-1545-inward-732",
+      "type": "Rate",
+      "_label": "1545 inward: Threden rybbonde the dossen peces conteynynge thre papers 4s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "48",
+        "lsd": "4s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 732 (transcribed by Stuart Jenks): 'Threden rybbonde the dossen peces conteynynge thre papers' 4s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "rybbonde",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/thread#rate-1545-inward-733",
+      "type": "Rate",
+      "_label": "1545 inward: Threden ribbonde the groce 2s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "24",
+        "lsd": "2s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 733 (transcribed by Stuart Jenks): 'Threden ribbonde the groce' 2s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "ribbonde",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/thread#rate-1545-inward-753",
+      "type": "Rate",
+      "_label": "1545 inward: Threde called wotenall threde the dossen pounde 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 753 (transcribed by Stuart Jenks): 'Threde called wotenall threde the dossen pounde' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "wotenall",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/thread#rate-1545-inward-754",
@@ -576,7 +1022,371 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 1044 (transcribed by Stuart Jenks): 'Sackclothe whyte of threde the yarde' 20d"
+      "sourceText": "Book of Rates 1558, inward, line 1044 (transcribed by Stuart Jenks): 'Sackclothe whyte of threde the yarde' 20d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Sackclothe",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "white",
+          "equivalent": [
+            {
+              "id": "aat:300129784",
+              "type": "Type",
+              "_label": "white (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/thread#rate-1558-inward-1101",
+      "type": "Rate",
+      "_label": "1558 inward: Threden rybande the dossen peces 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1101 (transcribed by Stuart Jenks): 'Threden rybande the dossen peces' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "rybande",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/thread#rate-1558-inward-1106",
+      "type": "Rate",
+      "_label": "1558 inward: Threde vocat’ Outnarde threde the dossen pounde 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1106 (transcribed by Stuart Jenks): 'Threde vocat’ Outnarde threde the dossen pounde' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Outnarde",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/thread#rate-1558-inward-1107",
+      "type": "Rate",
+      "_label": "1558 inward: Threde vocat’ Parys threde the butte 2s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "24",
+        "lsd": "2s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/butt",
+          "type": "MeasurementUnit",
+          "_label": "butt"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1107 (transcribed by Stuart Jenks): 'Threde vocat’ Parys threde the butte' 2s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Paris",
+          "originPlace": [
+            {
+              "id": "wd:Q90",
+              "type": "Place",
+              "_label": "Paris"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/thread#rate-1558-inward-1108",
+      "type": "Rate",
+      "_label": "1558 inward: Threde vocat’ Parys threde the bale £10",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "2400",
+        "lsd": "£10"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/bale",
+          "type": "MeasurementUnit",
+          "_label": "bale"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1108 (transcribed by Stuart Jenks): 'Threde vocat’ Parys threde the bale' £10",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Paris",
+          "originPlace": [
+            {
+              "id": "wd:Q90",
+              "type": "Place",
+              "_label": "Paris"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/thread#rate-1558-inward-125",
+      "type": "Rate",
+      "_label": "1558 inward: Bridges threde the dosen pounde 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 125 (transcribed by Stuart Jenks): 'Bridges threde the dosen pounde' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Bruges",
+          "originPlace": [
+            {
+              "id": "wd:Q12994",
+              "type": "Place",
+              "_label": "Bruges"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/thread#rate-1558-inward-257",
+      "type": "Rate",
+      "_label": "1558 inward: Coollen thryd the bale £12",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "2880",
+        "lsd": "£12"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/bale",
+          "type": "MeasurementUnit",
+          "_label": "bale"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 257 (transcribed by Stuart Jenks): 'Coollen thryd the bale' £12",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Cologne",
+          "originPlace": [
+            {
+              "id": "wd:Q365",
+              "type": "Place",
+              "_label": "Cologne"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/thread#rate-1558-inward-807",
+      "type": "Rate",
+      "_label": "1558 inward: Packe threde the C lb. cont 112 lb 16s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "200",
+        "lsd": "16s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 807 (transcribed by Stuart Jenks): 'Packe threde the C lb. cont 112 lb' 16s 8d"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/thread#rate-1558-inward-816",
+      "type": "Rate",
+      "_label": "1558 inward: Pesynge threde the dosen pounde 26s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "320",
+        "lsd": "26s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 816 (transcribed by Stuart Jenks): 'Pesynge threde the dosen pounde' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "pecing"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/thread#rate-1558-inward-857",
+      "type": "Rate",
+      "_label": "1558 inward: Pyrle lace voc’ antell lace of threde the grosse 2s 6d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "30",
+        "lsd": "2s 6d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 857 (transcribed by Stuart Jenks): 'Pyrle lace voc’ antell lace of threde the grosse' 2s 6d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Pyrle lace voc antell lace",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

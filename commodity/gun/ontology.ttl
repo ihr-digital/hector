@@ -14,6 +14,10 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "gons" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "gownn" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "guːn" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "gun" ;
             crm:P2_has_type aat:300404670,
                 hector:AttestedVariant ;
@@ -23,6 +27,10 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "gon" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "gunys" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "gunis" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "gonnys" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "gonis" ],
@@ -31,41 +39,33 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "gunis" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "gonne" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "gonə" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "gownnys" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "guːnis" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "gonnes" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "gonəs" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "gunys" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "gunis" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "gunes" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "gunəs" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "gonn" ;
+            crm:P190_has_symbolic_content "gonne" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "gon" ],
+            hector:phoneticKey "gonə" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "gounn" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "guːn" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "gonnes" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "gonəs" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "gounnys" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "guːnis" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "gownn" ;
+            crm:P190_has_symbolic_content "gonn" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "guːn" ] ;
+            hector:phoneticKey "gon" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "gownnys" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "guːnis" ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "Gun / cannon (OED s.v. gun 1a): a piece of ordnance, of iron or brass, in various sizes (from great cannon to the small 'base' and 'demi-hawk'), some breech-loading 'with chambers'. See also gunstone, gunpowder, hand gun, gune horn (powder-horn) and gonnelack (gunlock)." ;
             crm:P2_has_type aat:300435416 ] ;
@@ -104,6 +104,8 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 100 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "powdered" ] ;
     hector:sourceText "Book of Rates 1545, inward, line 324 (transcribed by Stuart Jenks): 'Gonne pouder the 100 pounde' 20s" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
@@ -117,6 +119,14 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "half" ],
+        [ a crm:E55_Type ;
+            rdfs:label "hakes" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "handgonnes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 517 (transcribed by Stuart Jenks): 'Gonnes voc’ handgonnes or half hakes the pece' 5s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .

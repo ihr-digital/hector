@@ -11,24 +11,24 @@
     rdfs:label "wood" ;
     dcterms:modified "2026-09-29"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "boscus" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "boskus" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "bosci" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "bosi" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "wood" ;
             crm:P2_has_type aat:300404670,
                 hector:AttestedVariant ;
             hector:phoneticKey "woːd" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "boscus" ;
+            crm:P190_has_symbolic_content "woode" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "boskus" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "lignum" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "lignum" ;
-            hector:validFrom "1442"^^xsd:gYear ;
-            hector:validThrough "1445"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "bosci" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "bosi" ],
+            hector:phoneticKey "woːdə" ;
+            hector:validFrom "1509"^^xsd:gYear ;
+            hector:validThrough "1510"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "ligni" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -36,11 +36,11 @@
             hector:validFrom "1442"^^xsd:gYear ;
             hector:validThrough "1445"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "woode" ;
+            crm:P190_has_symbolic_content "lignum" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "woːdə" ;
-            hector:validFrom "1509"^^xsd:gYear ;
-            hector:validThrough "1510"^^xsd:gYear ] ;
+            hector:phoneticKey "lignum" ;
+            hector:validFrom "1442"^^xsd:gYear ;
+            hector:validThrough "1445"^^xsd:gYear ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "Wood / timber (Latin lignum, boscus): unworked or roughly-worked wood, and small wooden wares. The homonymous dyestuff is the separate concept woad; the exotic medicinal woods are lignum aloes and lignum vitae." ;
             crm:P2_has_type aat:300435416 ] ;
@@ -50,7 +50,9 @@
     skos:closeMatch aat:300012827 ;
     skos:exactMatch <https://w3id.org/mlca/glossary/wood> ;
     la:equivalent aat:300011914 ;
-    hector:attestationCount 21 .
+    hector:attestationCount 21 ;
+    hector:taxation <https://w3id.org/hector/commodity/wood#rate-1558-inward-689>,
+        <https://w3id.org/hector/commodity/wood#rate-1558-inward-690> .
 
 aat:300011914 a crm:E55_Type ;
     rdfs:label "wood (plant material)" .
@@ -73,8 +75,46 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/hector/commodity/woad> a crm:E55_Type ;
     rdfs:label "woad" .
 
+<https://w3id.org/hector/commodity/wood#rate-1558-inward-689> a hector:Rate ;
+    rdfs:label "1558 inward: Lignum balsamum the pound 2s 6d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "2s 6d" ;
+            hector:valueInPence 30.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "balsamum" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 689 (transcribed by Stuart Jenks): 'Lignum balsamum the pound' 2s 6d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/wood#rate-1558-inward-690> a hector:Rate ;
+    rdfs:label "1558 inward: Lignum allus the pound 20d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20d" ;
+            hector:valueInPence 20.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "allus" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 690 (transcribed by Stuart Jenks): 'Lignum allus the pound' 20d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/mlca/glossary/wood> a crm:E55_Type ;
     rdfs:label "wood (London Customs Accounts glossary)" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
+<https://w3id.org/hector/unit/pound> a crm:E58_Measurement_Unit ;
+    rdfs:label "pound" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

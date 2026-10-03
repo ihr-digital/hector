@@ -11,6 +11,12 @@
     rdfs:label "halberd" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "halbarte" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "halbartə" ;
+            hector:validFrom "1490"^^xsd:gYear ;
+            hector:validThrough "1492"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "halberd" ;
             crm:P2_has_type aat:300404670,
                 hector:AttestedVariant ;
@@ -18,17 +24,17 @@
             hector:validFrom "1509"^^xsd:gYear ;
             hector:validThrough "1510"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "halbarte" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "halbartə" ;
-            hector:validFrom "1490"^^xsd:gYear ;
-            hector:validThrough "1492"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "halberdez" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "halberdez" ;
             hector:validFrom "1513"^^xsd:gYear ;
             hector:validThrough "1514"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "holebardes" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "holebardəs" ;
+            hector:validFrom "1520"^^xsd:gYear ;
+            hector:validThrough "1524"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "holberdes" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -114,12 +120,6 @@
             hector:validFrom "1493"^^xsd:gYear ;
             hector:validThrough "1495"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "holebardes" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "holebardəs" ;
-            hector:validFrom "1520"^^xsd:gYear ;
-            hector:validThrough "1524"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "holbardes" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "holbardəs" ;
@@ -136,10 +136,15 @@
             crm:P2_has_type aat:300435416 ] ;
     skos:exactMatch <https://w3id.org/mlca/glossary/halberd> ;
     la:equivalent aat:300037010 ;
-    hector:attestationCount 46 .
+    hector:attestationCount 46 ;
+    hector:taxation <https://w3id.org/hector/commodity/halberd#rate-1558-inward-594>,
+        <https://w3id.org/hector/commodity/halberd#rate-1558-inward-595> .
 
 aat:300037010 a crm:E55_Type ;
     rdfs:label "halberds" .
+
+aat:300379350 a crm:E55_Type ;
+    rdfs:label "gilding (material)" .
 
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
@@ -147,8 +152,45 @@ aat:300404670 a crm:E55_Type ;
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
+<https://w3id.org/hector/commodity/halberd#rate-1558-inward-594> a hector:Rate ;
+    rdfs:label "1558 inward: Halberdes unguilte the pece 20d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20d" ;
+            hector:valueInPence 20.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "ungilt" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 594 (transcribed by Stuart Jenks): 'Halberdes unguilte the pece' 20d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/halberd#rate-1558-inward-595> a hector:Rate ;
+    rdfs:label "1558 inward: Halberdes guilte the pece 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "gilt" ;
+            la:equivalent aat:300379350 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 595 (transcribed by Stuart Jenks): 'Halberdes guilte the pece' 6s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/mlca/glossary/halberd> a crm:E55_Type ;
     rdfs:label "halberd (London Customs Accounts glossary)" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
+<https://w3id.org/hector/unit/pecia> a crm:E58_Measurement_Unit ;
+    rdfs:label "pecia" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

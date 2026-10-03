@@ -11,12 +11,6 @@
     rdfs:label "crossbow" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "crowsbowys" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kruːsbuːis" ;
-            hector:validFrom "1513"^^xsd:gYear ;
-            hector:validThrough "1514"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "arblaster" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "arblaster" ;
@@ -27,29 +21,22 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "arblastis" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "crossbow" ;
+            crm:P2_has_type aat:300404670,
+                hector:AttestedVariant ;
+            hector:phoneticKey "krosbuː" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "crossebowis" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "krosebuːis" ;
             hector:validFrom "1431"^^xsd:gYear ;
             hector:validThrough "1433"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "crosbowez" ;
+            crm:P190_has_symbolic_content "crowsbow" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "krosbuːez" ;
-            hector:validFrom "1519"^^xsd:gYear ;
-            hector:validThrough "1520"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "crossbough" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "krosbuːx" ;
-            hector:validFrom "1442"^^xsd:gYear ;
-            hector:validThrough "1445"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "crosbowes" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "krosbuːəs" ;
-            hector:validFrom "1520"^^xsd:gYear ;
-            hector:validThrough "1524"^^xsd:gYear ],
+            hector:phoneticKey "kruːsbuː" ;
+            hector:validFrom "1513"^^xsd:gYear ;
+            hector:validThrough "1514"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "crosbowe" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -57,11 +44,39 @@
             hector:validFrom "1513"^^xsd:gYear ;
             hector:validThrough "1514"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "crowsbow" ;
+            crm:P190_has_symbolic_content "crossbough" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kruːsbuː" ;
-            hector:validFrom "1513"^^xsd:gYear ;
-            hector:validThrough "1514"^^xsd:gYear ],
+            hector:phoneticKey "krosbuːx" ;
+            hector:validFrom "1442"^^xsd:gYear ;
+            hector:validThrough "1445"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "alblaster" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "alblaster" ;
+            hector:validFrom "1531"^^xsd:gYear ;
+            hector:validThrough "1533"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "crosbowes" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "krosbuːəs" ;
+            hector:validFrom "1520"^^xsd:gYear ;
+            hector:validThrough "1524"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "arowblastis" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "aruːblastis" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "crosbows" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "krosbuːs" ;
+            hector:validFrom "1490"^^xsd:gYear ;
+            hector:validThrough "1492"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "arowblaste" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "aruːblastə" ;
+            hector:validFrom "1428"^^xsd:gYear ;
+            hector:validThrough "1430"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "crowsbowe" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -75,27 +90,29 @@
             hector:validFrom "1431"^^xsd:gYear ;
             hector:validThrough "1433"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "crowsbowys" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kruːsbuːis" ;
+            hector:validFrom "1513"^^xsd:gYear ;
+            hector:validThrough "1514"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "crosbowez" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "krosbuːez" ;
+            hector:validFrom "1519"^^xsd:gYear ;
+            hector:validThrough "1520"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "balistae" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "baliste" ;
+            hector:validFrom "1390"^^xsd:gYear ;
+            hector:validThrough "1390"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "crossebowes" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "krosebuːəs" ;
             hector:validFrom "1461"^^xsd:gYear ;
             hector:validThrough "1465"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "alblaster" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "alblaster" ;
-            hector:validFrom "1531"^^xsd:gYear ;
-            hector:validThrough "1533"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "arowblastis" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "aruːblastis" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "arowblaste" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "aruːblastə" ;
-            hector:validFrom "1428"^^xsd:gYear ;
-            hector:validThrough "1430"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "crosbowys" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -108,12 +125,6 @@
             hector:phoneticKey "krosbuːxəs" ;
             hector:validFrom "1442"^^xsd:gYear ;
             hector:validThrough "1445"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "balistae" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "baliste" ;
-            hector:validFrom "1390"^^xsd:gYear ;
-            hector:validThrough "1390"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "crosbow" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -185,18 +196,7 @@
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "arblast" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "arblast" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "crossbow" ;
-            crm:P2_has_type aat:300404670,
-                hector:AttestedVariant ;
-            hector:phoneticKey "krosbuː" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "crosbows" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "krosbuːs" ;
-            hector:validFrom "1490"^^xsd:gYear ;
-            hector:validThrough "1492"^^xsd:gYear ] ;
+            hector:phoneticKey "arblast" ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "Bows basically consisting of a curved stave mounted crosswise on a center shaft by means of a system of cord or gut bindings or metal bands, the string being drawn back, held, and released by some mechanical means such as a windlass or a rotatable nut. They were in use as early as the 11th century and continue to be used contemporarily for hunting and recreation. [Source: Getty AAT] | crossbow (MED s.v. baliste n.) | crossbow" ;
             crm:P2_has_type aat:300435416 ] ;
@@ -217,7 +217,11 @@
         <https://w3id.org/hector/commodity/windlass> ;
     la:equivalent aat:300037000 ;
     hector:attestationCount 164 ;
-    hector:taxation <https://w3id.org/hector/commodity/crossbow#rate-1558-inward-275> .
+    hector:taxation <https://w3id.org/hector/commodity/crossbow#rate-1545-inward-203>,
+        <https://w3id.org/hector/commodity/crossbow#rate-1545-inward-204>,
+        <https://w3id.org/hector/commodity/crossbow#rate-1558-inward-273>,
+        <https://w3id.org/hector/commodity/crossbow#rate-1558-inward-274>,
+        <https://w3id.org/hector/commodity/crossbow#rate-1558-inward-275> .
 
 aat:300037000 a crm:E55_Type ;
     rdfs:label "crossbows" .
@@ -228,14 +232,74 @@ aat:300203727 a crm:E55_Type ;
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
 
-aat:300411998 a crm:E98_Currency ;
-    rdfs:label "pound sterling (system of money)" .
-
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
 <https://w3id.org/hector/commodity/arblast-threde> a crm:E55_Type ;
     rdfs:label "arblast threde" .
+
+<https://w3id.org/hector/commodity/crossbow#rate-1545-inward-203> a hector:Rate ;
+    rdfs:label "1545 inward: Crosbowe lathes the pounde 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4d" ;
+            hector:valueInPence 4.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "lathes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 203 (transcribed by Stuart Jenks): 'Crosbowe lathes the pounde' 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/crossbow#rate-1545-inward-204> a hector:Rate ;
+    rdfs:label "1545 inward: Crosbowe threde the pounde 2d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "2d" ;
+            hector:valueInPence 2.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "file" ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 204 (transcribed by Stuart Jenks): 'Crosbowe threde the pounde' 2d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/crossbow#rate-1558-inward-273> a hector:Rate ;
+    rdfs:label "1558 inward: Crosbowe lathes the pounde 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "8d" ;
+            hector:valueInPence 8.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "lathes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 273 (transcribed by Stuart Jenks): 'Crosbowe lathes the pounde' 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/crossbow#rate-1558-inward-274> a hector:Rate ;
+    rdfs:label "1558 inward: Crosbowe thryd the pounde 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4d" ;
+            hector:valueInPence 4.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "thryd" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 274 (transcribed by Stuart Jenks): 'Crosbowe thryd the pounde' 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/crossbow#rate-1558-inward-275> a hector:Rate ;
     rdfs:label "1558 inward: Crosbowe thryd the barrell cont’ 5 score poundes 33s 4d" ;
@@ -246,6 +310,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/barrel> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "thryd" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 275 (transcribed by Stuart Jenks): 'Crosbowe thryd the barrell cont’ 5 score poundes' 33s 4d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -291,6 +358,12 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/mlca/glossary/crossbow> a crm:E55_Type ;
     rdfs:label "crossbow (London Customs Accounts glossary)" .
+
+<https://w3id.org/hector/unit/pound> a crm:E58_Measurement_Unit ;
+    rdfs:label "pound" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

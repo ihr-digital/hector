@@ -398,7 +398,13 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 268 (transcribed by Stuart Jenks): 'Enkyll the hundreth pounde unwrought' 33s 4d"
+      "sourceText": "Book of Rates 1545, inward, line 268 (transcribed by Stuart Jenks): 'Enkyll the hundreth pounde unwrought' 33s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "unwrought"
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/inkle#rate-1545-inward-269",
@@ -425,7 +431,13 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 269 (transcribed by Stuart Jenks): 'Enkyll the pounde unwrought' 4d"
+      "sourceText": "Book of Rates 1545, inward, line 269 (transcribed by Stuart Jenks): 'Enkyll the pounde unwrought' 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "unwrought"
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/inkle#rate-1545-inward-401",
@@ -452,7 +464,13 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 401 (transcribed by Stuart Jenks): 'Incle the hundreth pounde unwrought' 33s 4d"
+      "sourceText": "Book of Rates 1545, inward, line 401 (transcribed by Stuart Jenks): 'Incle the hundreth pounde unwrought' 33s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "unwrought"
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/inkle#rate-1545-inward-402",
@@ -479,7 +497,102 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 402 (transcribed by Stuart Jenks): 'Incle the pounde unwrought' 4d"
+      "sourceText": "Book of Rates 1545, inward, line 402 (transcribed by Stuart Jenks): 'Incle the pounde unwrought' 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "unwrought"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/inkle#rate-1558-inward-610",
+      "type": "Rate",
+      "_label": "1558 inward: Inkle unwrought called whit thred single and double the C lb £3 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "800",
+        "lsd": "£3 6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 610 (transcribed by Stuart Jenks): 'Inkle unwrought called whit thred single and double the C lb' £3 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "unwrought"
+        },
+        {
+          "type": "Type",
+          "_label": "white",
+          "equivalent": [
+            {
+              "id": "aat:300129784",
+              "type": "Type",
+              "_label": "white (color)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "file"
+        },
+        {
+          "type": "Type",
+          "_label": "single"
+        },
+        {
+          "type": "Type",
+          "_label": "double"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/inkle#rate-1558-inward-611",
+      "type": "Rate",
+      "_label": "1558 inward: Inkle wrought the dosen lb 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 611 (transcribed by Stuart Jenks): 'Inkle wrought the dosen lb' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "worked"
+        }
+      ]
     }
   ]
 }

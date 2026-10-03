@@ -350,7 +350,13 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 1013 (transcribed by Stuart Jenks): 'Shertes of mayle the pece' 26s 8d"
+      "sourceText": "Book of Rates 1558, inward, line 1013 (transcribed by Stuart Jenks): 'Shertes of mayle the pece' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "mail"
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/shirt#rate-1558-inward-1015",
@@ -377,7 +383,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 1015 (transcribed by Stuart Jenks): 'Shertes for men the dosen' 20s"
+      "sourceText": "Book of Rates 1558, inward, line 1015 (transcribed by Stuart Jenks): 'Shertes for men the dosen' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "men",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -8,183 +8,108 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_raisin_cb1da0a9770b488c31b7b14ac8fc22541aa12c57fe7cd2370e9d751923c1a53e724">
-    <crm:P190_has_symbolic_content>reisyn</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>reisin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb18f7293e8cdde3c5a764463b4078549adf858b4a3f5ad0cda78ac096b109256e1">
-    <crm:P190_has_symbolic_content>rasemi</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rasemi</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb2ea7ec3100d53587e005ab7af21e942fad61fff131be32be45af0cc7f6ec8df8a">
-    <crm:P190_has_symbolic_content>reisyns</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>reisins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb21b27dcdbec41030bc50effd404fd2124ac967dacbf0ffd65102d1fd517025192">
-    <crm:P190_has_symbolic_content>rasyns</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rasins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb2c74b72acd8c28775d4ea455316e9e0478a1559b9a38da8f3cdf99e8cdb3b701b">
-    <crm:P190_has_symbolic_content>raisons</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>raisons</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb255cdc232f07226f45e4f232f028dd5c0d01e4d64203b9feb2fe78fbe016cea3b">
-    <crm:P190_has_symbolic_content>rasons</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rasons</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb113ceb8faa62415e67ab0d26569690f70c85645253632e1b8d2891b319203af73">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>2s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb149f8a42a50691d909c741cf2d90ab6b5255321c6a8b9ef4a59fc71f14e1875c8">
-    <crm:P190_has_symbolic_content>raisson</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>raison</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb2574b4828265b34f2514be801fe842911e4849d2f06f5318685e4495a79538695">
-    <crm:P190_has_symbolic_content>raysons</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>raisons</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb2f97b2ac5796d65d4fc1614f3db2ff018bd5ec60bb3aa81e47a9ddc9fe996517f">
-    <crm:P190_has_symbolic_content>resinum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>resinum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/raisin">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb126fccb9088c0af614df6edaf81a627e95ce213e627dbbc1e5c0ede46ff728c50"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb12987df2c4742ba2f753e6346e3debb85e7faa8652eaf8aa15fb3f92b3b1811c8"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb130550a55acbd68c9d05a481840168e5fbea84964c0de1c8d936e68982cb9cc06"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb13c53fe94eab79a9cdab18fa8d03e164768c878fa47324ebd8e5246cf21202f39"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb140bd577427a19024ae6b19ff2bf5bb44da6c29d4487223d183d2e8ac55a58771"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb14618728bd32eeec1a6bc0772a29524c458cda59daa6183c989da9024c6c07afe"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1466c9634bb0fc7ab67d7966e30858cc8d78f181637757a238d9950110f527b50"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb149f8a42a50691d909c741cf2d90ab6b5255321c6a8b9ef4a59fc71f14e1875c8"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb14d3d13cfafee2f3f16b72ae57ddefd7a9f620fe90bbfdffd69b0008f8ae61760"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb151b8ae34bd9361a917c85c2970178dd10d7e0cffff8ffc634c930ea07747573d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb15b4817a21ba142e512ea384c94dbaa8bc0ae77c50391aef8a7d564f731deb25d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1642ef9a6293eae4cb7c6b55b2ee7c18262fe1ec82cbe1e1c727448d998480518"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb16e3b7961369419570a4cdaff527653730ba047be7b71bc257f99e4a571db6c2e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb16e6d4315090f441e8dea1b1bbcccaebfc53760bce029d321ff5f0acbc5ceae20"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1730563c0bf3d3f2977a336d9b39a26bb50e8167d4ebad76a433ead17993013cd"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb17aed49dc17abb59663a54ccc350d77dede1b8ddeb4e7d81ce8720778b346aea5"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb18e48cb0ddb035fde2627d4067fd61c86431b53ed680fd47da752ec68e8d80c59"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb18f7293e8cdde3c5a764463b4078549adf858b4a3f5ad0cda78ac096b109256e1"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb190d1e768fa6e1d96a21b7ed8b410c3db049c49978a8bb443e92ca88d02dfb59c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1a09daafc62ae875584c8d8bd5ffb5d6472b98d33ed14d94818c2bc89a0a5e0b4"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1aaf1a38f1b3354ceaecfaa90dad6b8a487f8d333bcfd3519cb3abf004c0a1347"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1b0d08f6c6de40ed1d206ada47ac90ae2a73e32db6a3999be1e4d7014779af06b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1c1d107a242d9d80033a0b53fdd84316d399eb7114c1af9569394835e22ab14c5"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1c838d19f411f878b4f50f1981763b7f1d9df68cb91e25542f9348852e1576978"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1d42cbcc019d40134cf64b0246c6529caa89d856876840817019ec60a8b2a9e5b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1d500b999edbfaeb464295559c876e9144b0f75838988dc68e703b7042ceabfa0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1da0a9770b488c31b7b14ac8fc22541aa12c57fe7cd2370e9d751923c1a53e724"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1e14e77baeb6853d63d9ca928099bc88c0597d9f01a94b99b64afb48d86d2a7b4"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1e6d8716f8a206f95688a704a17f3450710ee8951058f7545e84b61ddfb09a0cc"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1ead9650761155864dc75701ff19a5cb7abe382b1b950d827094c8278a09e1d68"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1ee2a541f71b0b82d95d3f349ff7006289b2d924de6acfe6f32ee2f6e91c0bf9e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1f1975348139ce5e567f23be34651175c4bf793d1b7990aefceea116245ed0af9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1f95f257e20e469009bc929a68df5043e3d0b2f0291122a85e6f00e54336f821d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1fe3180a831d78144e6a2e579af8d666a42c348965b54f8ba6ea3a287be4d7f42"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1feb35364ca9d4bfc1df5b8ff924720c592942cfe24316979183a719be06bbcdb"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb21b27dcdbec41030bc50effd404fd2124ac967dacbf0ffd65102d1fd517025192"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb21bfcae0927e2d819e523ef655696df91c8fda30855b82c267a7645786a91ffbb"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb21dd83cfedc72a7daf8e0bd972a4865444c2ca7b22f3d96be009aa7149e9c7fd8"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb222b62b294af6e88f426fd524a623980449b6587f305326aa2804df7c658c372e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb230469d766434368b973b3b0dd1e4f9b5ecacc753cd28e13e30fc984900df751a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb23359d9fa42a51f1aa0ec37ae0dc5e0dfa288c5d63e1129bd12edbfaf21dea73e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb235c2e1284ea84556cef6a76d1802c79597b02ff58c7216e396a1f269d4138788"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb239aff307a6bf53174b3019703d6be9d257bd4fb92356a89db45881d1141a0965"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb23a259e00f94f6ae5eb319602f65e7ea98d20d0cd0ac81aca0c8e2a0831bf9b9b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb23a76563b6ddedf4c30a8fd4d5689f8e3e99eb58922f3231dc90d1b9043199538"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb23b70791a6570f4ed42f7614f8e0e1f0ca957968d8fac2e2d0461e803e079acf8"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb24b2069de16961dc4d5515a17b8feb6a094b21165f083155ca10b0a1fe606bc4b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb25446d938f4d2e45778728d9cbe4dc663b11e2b6e1ecb35995a1e26e4c9943870"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb255cdc232f07226f45e4f232f028dd5c0d01e4d64203b9feb2fe78fbe016cea3b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb2574b4828265b34f2514be801fe842911e4849d2f06f5318685e4495a79538695"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb258959aef260fc595d75badf06f181b630d3a45c08b6d7ed700ecb53824e4b513"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb25c09c25bd55c134045c9b4782a838c8b4ff99195894ad65272b692e80a4912b1"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb25e449879468e8b5e066f4e45a4979d7cae634e5a9b8d17494f998eed4f22ba8c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb266d9196faf050ff3879e3c35473980a0979498e116b960cbeeb4d4327076085d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb27776b81bebfd5db58a742723b26a18b5ec7cbd4a00910e4deac6a7f28fd845c4"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb27cf4a080fdda599c1532506850277d712e407fd36d89ca6c031049757f833ff8"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb283e5a08defa55eaf8930a08a3fd00656c47e17d651f5d2c107bcaa2f6cff91e9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb28686d3f2f044ef8ead294482849289a95e364d97f398d5498c462d59903ebfd8"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb29002fa51fa3bd691ce747d170a1bb231d92010c1e0a61a221f6d7bab95181c81"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb291bcef81da26a3d8e4ccbc2d78e1b2df5e944735916bd7c1fcd02985243e206c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb29c901888ed5afff4dd4a3b6bfd17831ff84ae1757aa18a5527162cc5d20767ad"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb29f3f6f97707afa28f5e7dfe25458b2d96859907f2497561eba5749037ae8fe95"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb2ae46e384206bac6c1c876a657cf1426c7499b8760b60636ac18f2b9fb1f51725"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb2c4073c0011a9fa49cf1dfcde4b1efa26dfabe40975019bdeca128e9471aaabf"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb2c74b72acd8c28775d4ea455316e9e0478a1559b9a38da8f3cdf99e8cdb3b701b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb2d7fc6098bf5dcfec1760901375b8bd86879e7ba5a044c92a627e5afde35f2d21"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb2da5d54bebcb2e1ae71798bc028f4acba93bda7bb6befa80bec8435ca838086f7"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb2ea7ec3100d53587e005ab7af21e942fad61fff131be32be45af0cc7f6ec8df8a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb2f97b2ac5796d65d4fc1614f3db2ff018bd5ec60bb3aa81e47a9ddc9fe996517f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb3194935015aaa41996f9d00946112d4cebe50c04fb8603fe29722f6080da3324c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb983b89ed793832d51a657f6fbcaff4cf038a73cb0271ba0fb29b3027ea1d455e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cbd851b42dfad8d32621510c9d653ab2d8296b98b4abe964f2afff8cfdb943919e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cbe8f16de77b63d011549c7843fd3a59bc0bdfe8308acf4dbd050db05729aed1bc"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cbf3cc618c80674e9cff673667d5406a823827ed6f25f80484bc30657686abcf60"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cbf9285e15eaa8ea19e842a0651c67e30c122824b6ba61cbcf0fe7749c7ae3b627"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cbf9862b7b0c269846a2a3f7bee60eb7b5a068ad6b72a6ee4585f454afda0e862a"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_raisin_cb967720ccd745be06aec3b5712e6ea5a61f93ba85c21a0a9fbb76c5eeb9f6e205"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb10802a2e94e8d864a363a1b52996b4ae4ac1e94d32ed5127f424e14d84d061345"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb118399317bdd2a052c9e04373b898d434b266d1595e6790914d27d91d9e3af7b0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb11897607cdf504e7f84419acd823fa8de40a75a0e16acb307c334b930fd65c7b3"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1460e00925bea659a2f9490be1dd71911fd20c088cbe180e0994f42c822c9cdd9"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb14899142e1a6c706856dc0655800facae88395507d2b54f639cf45dac5e6f5351"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb14f663f577fe71f02b1f7eb26dc477f885ee6f60764e3e14fd0aecd1950110d8f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb15fce8c75facb465d9008bd0dc826ac6d7aaad676ec77e893c1134d2d78fcc8fa"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb16909d92c2392d3c97e11c001753ba7ddc591ce694cbfb40c973cd672716fb751"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb170c9e33690bd17e1f965ff380c487ef9adbcb9a2a395c12589d373219a9e98c6"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb17a594ca3eecaf91df487db5b310c9bb460ed2467a79773bae515c9785535f3e6"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb18143c710d15fd44f2c09efa8d3df361ac64c9702fc1f66c9c174c26cb1b2b3be"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb183402ea7fc68648599645869cb18b2ab033ccb6ad0c3e2deafb4ad5abb9f46a1"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb18d4cae6309bdcf8febea7e0deea7449babdef4611f7780e7bcda49269532adb7"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb18fa262b946ac4b7def0bb8448eec4ddbd47f2dd058eb4e31b4a30f931f026e4a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1921698c29266f5625940d9e84fcb17e3f126c31ff2c09c2c807f1198bc875556"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb19b5cbd2973693fe45db9a027f626749ae8b08b35620085683623196704ba2993"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1ad28d14129a5830c05dbf4002793f51a72f90c7c73a2e8a39c217daa21a03792"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1ad5a000fae2d161707c577151c070daee35a00900c15993fe49350ea0c2f4de2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1ae83c8eaa107f29357e206c2a3b63ad69897614699b2d19cb5ec6dec33e9986a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1afe31c6acd97d3cf83b921e75041b503a4daf63a2e917906266d0d0e2636f725"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1bfaedffe35d83d8e66667bcbfc2c4e8d12f839d6911a9e0a5603210ac3fd223d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1ca02d890ee5d0b07906d4d9f7707a9cd28377fd66102f9dc087b23816f6154d0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1cfe1c46e410dc50ab3a450b316f9fc0b477cdf7e0e3f5e805b8dd4959af231f4"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1e0e23ca416038e39153e584e79b52295d9dd63b3f020be18d0d4e7df4602564e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1f411ee9bc0e964ed45c6f86864a7da3ceb4e22262d8ea12b24441b8550420129"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb1f91bcc7287b279545cb24f9e5e5632d2b3042c8a712935ac1491f6bd3dab28ad"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb205e9a6715d4a25ce4a281358b424362fb12d35f3a9953a08258bc65f1e60e255"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb209ea9a09343f0e9dbe13132e8dcb4de04c222f545d569ce9468ce6f9c3f55ef1"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb20d3b892144da6e66777196589ba0f7513b6c3ef08ab2c331702e93efb5180127"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb210a88849e6c69c1e498fdef1e2820884ec3640745b9ecfb20c2a75e369444c82"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb218705a7ff40e1f397d66ccb52a25f566dd49dba53517ef48243072d556c6c3a6"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb21d42b5aa0501377dc84088884bbe5792e301f538ff5abd7cabe40708e1a4c0cb"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb21dc488669dc70234ff935c0e2e7811ee32d2d9a0c8372e3b557ad61d03c2fe64"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb22ef1dd127032e96d5eb8e6488e371e453fa9c413baa6e10dca16b4a3b70efcd5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb23a3911ddbf6ab944a6aca2e2a12e124d4cd52a4f6315c2274d6d84563a59931b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb23b0de30afb0c8e52c6c19273f2c7d0ba693c4faaf9bdf0e8b7b6a9f98de94144"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb23ce97200af9c5e13da7e60a5c679566cec6b5454d3435b803ddb0b95c1f3c161"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb241c7602b1e209ec8240d78334254892ce9f50521d458eb6c654543fd88e378b7"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb24f57d278375decc478d8de1c6e15eade8ceb73f6712ea6006e3cfcca2436b6a3"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb2526b0efc15ced5538289dabca9f6d20842c77278e216ee7f502e24304535e8c7"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb258c1280979e909502ccdbc7ed99cdafaf7fbfc5bc75c6d5ff198e65237714aee"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb25936d302cc79211ecccf3911928f6fd22d5f7d6faecddf8c49ce8e895516dd24"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb259878b3d410895851246a05bf2baea0c89dd622bc6f8e7e0064d80116670d6c1"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb25a81ae1c389aab262495045e2a3f10354996433033b1f2ef41a24c8503d0ee81"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb260c582b07cbec25f14b4bfa0fc864d8c04211182795fe95f8c3c8de6f699c4f9"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb2622247dd377195e6d3e1104c939fa444d3227affff96ddc1c92a1d3bb1bfa53c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb26a319edfe9bfd3fdb6eefd26552fa7c934f0be089488da1ede4b6ea1095dfdd4"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb273580e3ac7fc9a905a1030ab5a7eb78c515cd810c2d0fa5b975e8b65eceb79f9"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb274def734c39bdd2d3fecc63d9ebec6e9705cfa06c44164ad6d27f43f24c42bc4"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb2765c7d29f984eb2b32e98b109ab51a3a84c349d1aafaf648c324addb9caac81e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb277a6cff0f9397bceb8f950ff0b490c8bad78f2632f7343993e2d19b9483bf69c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb27b1af75da885c97927675786c6b47db3f0383e382d509b14aff6f7692da0543a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb27d55cd7b19b84196e80cf15440c88ea54ea1fafd3f92dc0b8cd9f36e7279fc15"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb285ea4e71822ec62c693bdf43e36a71c937d34583babf258e2bf538b393cd49e6"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb28e6bb6347bc18f9e1b8de99508a11db8eff4f28a80498b1ed48397d2c7877814"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb29687ed1dbf2713ee6c11ca324e9b09de8cbb69eca496d31028070c73b32f874d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb29c05d582d1040fd4f6cff376ec586e99ce7f2c76118f8f2e4050adf6a2da8181"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb2a2f6d58fc2cf14e86ace4398dc00f77f64bcc478f5fb978344fd0eb09056d372"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb2a59808f4c36ea5c78ec6e79120c37ad1fe74fa3a979e9a0bc98691dab3960161"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb2af142f53cd658ccab0122025a64ca35a795ebd6484abdee45cade02cb86f5e0a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb2b0ce2483ad505a11c66a5f3c1512a407fed2f3d835719c843a108e06479561f5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb2bab1c62c063f403f59de06345601a3313cab1babb9c9a797415ec32cd6fd137a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb2bba14d8ac084b62dbee7de7a9948744898898e181ea74f1764569146f55ea936"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb2be50a49943a4b061d78582f0f089a40208983d21c89d1ae0f797ad849e40401e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb2cd581885f39562a4fe250d741922339514d86518af66282cfecf9020d54c58ae"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb2cff6966aced5dd13b820cf533e3cf958eb91c26fc4e7a5e47ca0e1dee098dda6"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb2e65ca7aeabec3daeb687e861b31ad1702a54065c47936db60b3a030dfe92b1a4"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb2e80e430c900d699f03f521d2feea5154e428d3954a666ae2e14f72f66e9587d2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb2f70d959a92878624f8fe332211e9aeaf27dd2848444a8dec9fbebf7f06b66eaa"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb2f96e89c08fdc97e753172ecec5259de333fc545e0ff56cce29c49a4ba6d7c880"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb3098ff811e07d0eb6e1f85abdbe1a3423765eabb5bfe8f0a69831310092202113"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb3188c5fc74c971c0dddb3b8027760e1415d9d72ae57b046a6b7de41210ced9308"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cb3385a6a032dd3f7d2513aa3a2fd43c5f75e8f6cf25c6604a4d4635a8930fa73d5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cbb74cbeef4c61e90dfc03227e58e0e5f7a3c9206da6777ed1efdb94a90d7486e7"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cbbd60c75355d7df38be9deb99f9958e765685888e9125e827cd5a53530519bd79"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_raisin_cbf762e92fce02895f02eeafac016ba400c9aa45574fef29b4ed3ff17edc9ad327"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_raisin_cb193ef27995252b27236bbdbce94a9274d61a2b2413644e641e7ffef82a6e3f01d"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>raisin</rdfs:label>
     <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/raisin"/>
     <skos:related rdf:resource="https://w3id.org/hector/commodity/currant"/>
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300411356"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1943</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/raisin#rate-1507-none-231"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/raisin#rate-1545-inward-315"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/raisin#rate-1545-inward-316"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/raisin#rate-1545-inward-617"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/raisin#rate-1545-inward-618"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/raisin#rate-1558-inward-502"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/raisin#rate-1558-inward-503"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/raisin#rate-1558-inward-907"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb190d1e768fa6e1d96a21b7ed8b410c3db049c49978a8bb443e92ca88d02dfb59c">
-    <crm:P190_has_symbolic_content>reisinorum</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb19b5cbd2973693fe45db9a027f626749ae8b08b35620085683623196704ba2993">
+    <crm:P190_has_symbolic_content>raisin</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>reisinorum</hector:phoneticKey>
+    <hector:phoneticKey>raisin</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb2d7fc6098bf5dcfec1760901375b8bd86879e7ba5a044c92a627e5afde35f2d21">
+  <rdf:Description rdf:nodeID="commodity_raisin_cb2f70d959a92878624f8fe332211e9aeaf27dd2848444a8dec9fbebf7f06b66eaa">
     <crm:P190_has_symbolic_content>rasinum</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -192,457 +117,11 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb1730563c0bf3d3f2977a336d9b39a26bb50e8167d4ebad76a433ead17993013cd">
-    <crm:P190_has_symbolic_content>raissons</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>raisons</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb140bd577427a19024ae6b19ff2bf5bb44da6c29d4487223d183d2e8ac55a58771">
-    <crm:P190_has_symbolic_content>resinorum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>resinorum</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb14618728bd32eeec1a6bc0772a29524c458cda59daa6183c989da9024c6c07afe">
-    <crm:P190_has_symbolic_content>resouns</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>resuːns</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb18e48cb0ddb035fde2627d4067fd61c86431b53ed680fd47da752ec68e8d80c59">
-    <crm:P190_has_symbolic_content>raceni</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>raseni</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cbe8f16de77b63d011549c7843fd3a59bc0bdfe8308acf4dbd050db05729aed1bc">
-    <crm:P190_has_symbolic_content>raisen</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>raisen</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cbf9285e15eaa8ea19e842a0651c67e30c122824b6ba61cbcf0fe7749c7ae3b627">
-    <crm:P190_has_symbolic_content>rackmorne</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rakmornə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb23359d9fa42a51f1aa0ec37ae0dc5e0dfa288c5d63e1129bd12edbfaf21dea73e">
-    <crm:P190_has_symbolic_content>racemum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rasemum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb3194935015aaa41996f9d00946112d4cebe50c04fb8603fe29722f6080da3324c">
-    <crm:P190_has_symbolic_content>resen</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>resen</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cbf3cc618c80674e9cff673667d5406a823827ed6f25f80484bc30657686abcf60">
-    <crm:P190_has_symbolic_content>reysens</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>reisens</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb21bfcae0927e2d819e523ef655696df91c8fda30855b82c267a7645786a91ffbb">
-    <crm:P190_has_symbolic_content>rasounes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rasuːnəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb16e6d4315090f441e8dea1b1bbcccaebfc53760bce029d321ff5f0acbc5ceae20">
-    <crm:P190_has_symbolic_content>reasons</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rɛːsons</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb29002fa51fa3bd691ce747d170a1bb231d92010c1e0a61a221f6d7bab95181c81">
-    <crm:P190_has_symbolic_content>rasoun</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rasuːn</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/raisin#rate-1545-inward-617">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Raysons the hundreth pounde 2s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_raisin_cb113ceb8faa62415e67ab0d26569690f70c85645253632e1b8d2891b319203af73"/>
-    <hector:perQuantity rdf:nodeID="commodity_raisin_cb826a2ce4570362860ca609aa2a04caa3ec853145b2a22ba0ac63f5cd75b6eac7"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 617 (transcribed by Stuart Jenks): 'Raysons the hundreth pounde' 2s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb1ee2a541f71b0b82d95d3f349ff7006289b2d924de6acfe6f32ee2f6e91c0bf9e">
-    <crm:P190_has_symbolic_content>rayson</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>raison</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb291bcef81da26a3d8e4ccbc2d78e1b2df5e944735916bd7c1fcd02985243e206c">
-    <crm:P190_has_symbolic_content>reisouns</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>reisuːns</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb29c901888ed5afff4dd4a3b6bfd17831ff84ae1757aa18a5527162cc5d20767ad">
-    <crm:P190_has_symbolic_content>rasenum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rasenum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb23a259e00f94f6ae5eb319602f65e7ea98d20d0cd0ac81aca0c8e2a0831bf9b9b">
-    <crm:P190_has_symbolic_content>resini</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>resini</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb2da5d54bebcb2e1ae71798bc028f4acba93bda7bb6befa80bec8435ca838086f7">
-    <crm:P190_has_symbolic_content>racimi</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rasimi</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb23a76563b6ddedf4c30a8fd4d5689f8e3e99eb58922f3231dc90d1b9043199538">
-    <crm:P190_has_symbolic_content>raseni</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>raseni</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/hundred">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>hundred</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb17aed49dc17abb59663a54ccc350d77dede1b8ddeb4e7d81ce8720778b346aea5">
-    <crm:P190_has_symbolic_content>reysin</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>reisin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1450</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb1466c9634bb0fc7ab67d7966e30858cc8d78f181637757a238d9950110f527b50">
-    <crm:P190_has_symbolic_content>resyns</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>resins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1508</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb126fccb9088c0af614df6edaf81a627e95ce213e627dbbc1e5c0ede46ff728c50">
-    <crm:P190_has_symbolic_content>reisens</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>reisens</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb21dd83cfedc72a7daf8e0bd972a4865444c2ca7b22f3d96be009aa7149e9c7fd8">
-    <crm:P190_has_symbolic_content>racimum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rasimum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
+    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb239aff307a6bf53174b3019703d6be9d257bd4fb92356a89db45881d1141a0965">
-    <crm:P190_has_symbolic_content>rasen</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rasen</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb258959aef260fc595d75badf06f181b630d3a45c08b6d7ed700ecb53824e4b513">
-    <crm:P190_has_symbolic_content>rasini</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rasini</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb15b4817a21ba142e512ea384c94dbaa8bc0ae77c50391aef8a7d564f731deb25d">
-    <crm:P190_has_symbolic_content>racons</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rakons</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb14d3d13cfafee2f3f16b72ae57ddefd7a9f620fe90bbfdffd69b0008f8ae61760">
-    <crm:P190_has_symbolic_content>resoun</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>resuːn</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb13c53fe94eab79a9cdab18fa8d03e164768c878fa47324ebd8e5246cf21202f39">
-    <crm:P190_has_symbolic_content>raisin</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>raisin</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb1f1975348139ce5e567f23be34651175c4bf793d1b7990aefceea116245ed0af9">
-    <crm:P190_has_symbolic_content>racemi</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rasemi</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb12987df2c4742ba2f753e6346e3debb85e7faa8652eaf8aa15fb3f92b3b1811c8">
-    <crm:P190_has_symbolic_content>racon</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rakon</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb25e449879468e8b5e066f4e45a4979d7cae634e5a9b8d17494f998eed4f22ba8c">
-    <crm:P190_has_symbolic_content>raysen</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>raisen</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb29f3f6f97707afa28f5e7dfe25458b2d96859907f2497561eba5749037ae8fe95">
-    <crm:P190_has_symbolic_content>racini</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rasini</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cbf9862b7b0c269846a2a3f7bee60eb7b5a068ad6b72a6ee4585f454afda0e862a">
-    <crm:P190_has_symbolic_content>racemonum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rasemonum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb1b0d08f6c6de40ed1d206ada47ac90ae2a73e32db6a3999be1e4d7014779af06b">
-    <crm:P190_has_symbolic_content>reisson</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>reison</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb266d9196faf050ff3879e3c35473980a0979498e116b960cbeeb4d4327076085d">
-    <crm:P190_has_symbolic_content>rasennce</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rasensə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb27776b81bebfd5db58a742723b26a18b5ec7cbd4a00910e4deac6a7f28fd845c4">
-    <crm:P190_has_symbolic_content>rason</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rason</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb130550a55acbd68c9d05a481840168e5fbea84964c0de1c8d936e68982cb9cc06">
-    <crm:P190_has_symbolic_content>resins</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>resins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb2ae46e384206bac6c1c876a657cf1426c7499b8760b60636ac18f2b9fb1f51725">
-    <crm:P190_has_symbolic_content>resens</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>resens</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb222b62b294af6e88f426fd524a623980449b6587f305326aa2804df7c658c372e">
-    <crm:P190_has_symbolic_content>rasins</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rasins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb1fe3180a831d78144e6a2e579af8d666a42c348965b54f8ba6ea3a287be4d7f42">
-    <crm:P190_has_symbolic_content>rasyn</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rasin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb230469d766434368b973b3b0dd1e4f9b5ecacc753cd28e13e30fc984900df751a">
-    <crm:P190_has_symbolic_content>resons</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>resons</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb1f95f257e20e469009bc929a68df5043e3d0b2f0291122a85e6f00e54336f821d">
-    <crm:P190_has_symbolic_content>reson</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>reson</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb826a2ce4570362860ca609aa2a04caa3ec853145b2a22ba0ac63f5cd75b6eac7">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb25446d938f4d2e45778728d9cbe4dc663b11e2b6e1ecb35995a1e26e4c9943870">
-    <crm:P190_has_symbolic_content>raison</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>raison</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb983b89ed793832d51a657f6fbcaff4cf038a73cb0271ba0fb29b3027ea1d455e">
-    <crm:P190_has_symbolic_content>recins</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>resins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb1a09daafc62ae875584c8d8bd5ffb5d6472b98d33ed14d94818c2bc89a0a5e0b4">
-    <crm:P190_has_symbolic_content>rasemum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rasemum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb16e3b7961369419570a4cdaff527653730ba047be7b71bc257f99e4a571db6c2e">
-    <crm:P190_has_symbolic_content>racimorum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rasimorum</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb23b70791a6570f4ed42f7614f8e0e1f0ca957968d8fac2e2d0461e803e079acf8">
-    <crm:P190_has_symbolic_content>reisons</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>reisons</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb235c2e1284ea84556cef6a76d1802c79597b02ff58c7216e396a1f269d4138788">
-    <crm:P190_has_symbolic_content>reason</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rɛːson</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb24b2069de16961dc4d5515a17b8feb6a094b21165f083155ca10b0a1fe606bc4b">
-    <crm:P190_has_symbolic_content>reissons</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>reisons</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb1c1d107a242d9d80033a0b53fdd84316d399eb7114c1af9569394835e22ab14c5">
-    <crm:P190_has_symbolic_content>rasin</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rasin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb1aaf1a38f1b3354ceaecfaa90dad6b8a487f8d333bcfd3519cb3abf004c0a1347">
-    <crm:P190_has_symbolic_content>racemoni</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rasemoni</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb1d500b999edbfaeb464295559c876e9144b0f75838988dc68e703b7042ceabfa0">
-    <crm:P190_has_symbolic_content>racenum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rasenum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/raisin">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>raisin (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb1c838d19f411f878b4f50f1981763b7f1d9df68cb91e25542f9348852e1576978">
-    <crm:P190_has_symbolic_content>resyn</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>resin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb1642ef9a6293eae4cb7c6b55b2ee7c18262fe1ec82cbe1e1c727448d998480518">
-    <crm:P190_has_symbolic_content>racens</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rasens</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb27cf4a080fdda599c1532506850277d712e407fd36d89ca6c031049757f833ff8">
+  <rdf:Description rdf:nodeID="commodity_raisin_cb29c05d582d1040fd4f6cff376ec586e99ce7f2c76118f8f2e4050adf6a2da8181">
     <crm:P190_has_symbolic_content>racinum</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -650,39 +129,81 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb1e6d8716f8a206f95688a704a17f3450710ee8951058f7545e84b61ddfb09a0cc">
-    <crm:P190_has_symbolic_content>reisins</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb1f411ee9bc0e964ed45c6f86864a7da3ceb4e22262d8ea12b24441b8550420129">
+    <crm:P190_has_symbolic_content>racenum</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>reisins</hector:phoneticKey>
+    <hector:phoneticKey>rasenum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb25c09c25bd55c134045c9b4782a838c8b4ff99195894ad65272b692e80a4912b1">
-    <crm:P190_has_symbolic_content>raysens</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb3385a6a032dd3f7d2513aa3a2fd43c5f75e8f6cf25c6604a4d4635a8930fa73d5">
+    <crm:P190_has_symbolic_content>resen</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>raisens</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+    <hector:phoneticKey>resen</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb1ead9650761155864dc75701ff19a5cb7abe382b1b950d827094c8278a09e1d68">
-    <crm:P190_has_symbolic_content>resin</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb18d4cae6309bdcf8febea7e0deea7449babdef4611f7780e7bcda49269532adb7">
+    <crm:P190_has_symbolic_content>racimorum</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>resin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+    <hector:phoneticKey>rasimorum</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/pecia">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>pecia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb151b8ae34bd9361a917c85c2970178dd10d7e0cffff8ffc634c930ea07747573d">
-    <crm:P190_has_symbolic_content>rasemorum</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb1ad5a000fae2d161707c577151c070daee35a00900c15993fe49350ea0c2f4de2">
+    <crm:P190_has_symbolic_content>raceni</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rasemorum</hector:phoneticKey>
+    <hector:phoneticKey>raseni</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb1e14e77baeb6853d63d9ca928099bc88c0597d9f01a94b99b64afb48d86d2a7b4">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/raisin#rate-1545-inward-315">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Great raysons the hundrith pounde 2s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_raisin_cb2eef7c3b3c1aecd11a650cd806ffc505a2fcbcee93708bca78af7761f5cefbc0e"/>
+    <hector:perQuantity rdf:nodeID="commodity_raisin_cb2194605b76c6afe33b0679bd39efe431f4128d5adb404701ebf6907b98d49bad9"/>
+    <hector:qualifier rdf:nodeID="commodity_raisin_cb152990b979b5f568ef0c652ca9237625eba1cfbe0617ff3ecfbfbaa45c3e81dd7"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 315 (transcribed by Stuart Jenks): 'Great raysons the hundrith pounde' 2s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb17a594ca3eecaf91df487db5b310c9bb460ed2467a79773bae515c9785535f3e6">
+    <crm:P190_has_symbolic_content>racons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rakons</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb25936d302cc79211ecccf3911928f6fd22d5f7d6faecddf8c49ce8e895516dd24">
+    <crm:P190_has_symbolic_content>resini</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>resini</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb148ab670c330cf7e7d114310da8bf3011e8069cacf36eb620392a195ca59cc35e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb193ef27995252b27236bbdbce94a9274d61a2b2413644e641e7ffef82a6e3f01d">
+    <crm:P190_has_symbolic_content>Grapes that are partially dried in sunlight or by artificial means. Uses include eating as is, as an ingredient in cooking, and in the production of wine [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb259878b3d410895851246a05bf2baea0c89dd622bc6f8e7e0064d80116670d6c1">
+    <crm:P190_has_symbolic_content>raseni</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>raseni</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb28e6bb6347bc18f9e1b8de99508a11db8eff4f28a80498b1ed48397d2c7877814">
     <crm:P190_has_symbolic_content>reysins</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -690,63 +211,216 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1450</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb1703c89e6b570119964b60b6c4281984b6859ccedd5ab77424a9fa7d26e3c2333">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/raisin#rate-1558-inward-503">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Great raisons the pece 5s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_raisin_cb22fca5254808429f9a4667b09b6ff828b12cb8a3ad66f75b1e2809154aa8813b0"/>
+    <hector:perQuantity rdf:nodeID="commodity_raisin_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_raisin_cb1421fe30a0abef0da90f9ff14f9fe2f0e4c230072a1db30008067eebfea55550e"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 503 (transcribed by Stuart Jenks): 'Great raisons the pece' 5s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb20d3b892144da6e66777196589ba0f7513b6c3ef08ab2c331702e93efb5180127">
+    <crm:P190_has_symbolic_content>rayson</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>raison</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb27b1af75da885c97927675786c6b47db3f0383e382d509b14aff6f7692da0543a">
+    <crm:P190_has_symbolic_content>raysens</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>raisens</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb22fca5254808429f9a4667b09b6ff828b12cb8a3ad66f75b1e2809154aa8813b0">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>20d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</hector:valueInPence>
+    <hector:lsd>5s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb283e5a08defa55eaf8930a08a3fd00656c47e17d651f5d2c107bcaa2f6cff91e9">
-    <crm:P190_has_symbolic_content>rasens</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb2e65ca7aeabec3daeb687e861b31ad1702a54065c47936db60b3a030dfe92b1a4">
+    <crm:P190_has_symbolic_content>raisons</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>rasens</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:phoneticKey>raisons</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411356">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>raisins</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb2eef7c3b3c1aecd11a650cd806ffc505a2fcbcee93708bca78af7761f5cefbc0e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/raisin#rate-1545-inward-618">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Raysons the pece 20d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_raisin_cb1703c89e6b570119964b60b6c4281984b6859ccedd5ab77424a9fa7d26e3c2333"/>
-    <hector:perQuantity rdf:nodeID="commodity_raisin_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 618 (transcribed by Stuart Jenks): 'Raysons the pece' 20d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb967720ccd745be06aec3b5712e6ea5a61f93ba85c21a0a9fbb76c5eeb9f6e205">
-    <crm:P190_has_symbolic_content>Grapes that are partially dried in sunlight or by artificial means. Uses include eating as is, as an ingredient in cooking, and in the production of wine [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb2c4073c0011a9fa49cf1dfcde4b1efa26dfabe40975019bdeca128e9471aaabf">
-    <crm:P190_has_symbolic_content>reysynges</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb29687ed1dbf2713ee6c11ca324e9b09de8cbb69eca496d31028070c73b32f874d">
+    <crm:P190_has_symbolic_content>rason</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>reisindʒəs</hector:phoneticKey>
+    <hector:phoneticKey>rason</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cbd851b42dfad8d32621510c9d653ab2d8296b98b4abe964f2afff8cfdb943919e">
-    <crm:P190_has_symbolic_content>racemorum</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb16909d92c2392d3c97e11c001753ba7ddc591ce694cbfb40c973cd672716fb751">
+    <crm:P190_has_symbolic_content>raisson</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>raison</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb27cefdf239a8eaa849d9e84302f7848398db7b12c2bd0796acb6508f575f1e28b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>16s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb274def734c39bdd2d3fecc63d9ebec6e9705cfa06c44164ad6d27f43f24c42bc4">
+    <crm:P190_has_symbolic_content>rasons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rasons</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb2cd581885f39562a4fe250d741922339514d86518af66282cfecf9020d54c58ae">
+    <crm:P190_has_symbolic_content>resens</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>resens</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb2622247dd377195e6d3e1104c939fa444d3227affff96ddc1c92a1d3bb1bfa53c">
+    <crm:P190_has_symbolic_content>resoun</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>resuːn</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cbb74cbeef4c61e90dfc03227e58e0e5f7a3c9206da6777ed1efdb94a90d7486e7">
+    <crm:P190_has_symbolic_content>recins</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>resins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb3098ff811e07d0eb6e1f85abdbe1a3423765eabb5bfe8f0a69831310092202113">
+    <crm:P190_has_symbolic_content>reisyns</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>reisins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb23ce97200af9c5e13da7e60a5c679566cec6b5454d3435b803ddb0b95c1f3c161">
+    <crm:P190_has_symbolic_content>racimum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rasimum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pecia">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pecia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb170c9e33690bd17e1f965ff380c487ef9adbcb9a2a395c12589d373219a9e98c6">
+    <crm:P190_has_symbolic_content>rasemorum</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>rasemorum</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb28686d3f2f044ef8ead294482849289a95e364d97f398d5498c462d59903ebfd8">
-    <crm:P190_has_symbolic_content>reison</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb1bfaedffe35d83d8e66667bcbfc2c4e8d12f839d6911a9e0a5603210ac3fd223d">
+    <crm:P190_has_symbolic_content>rasemum</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>reison</hector:phoneticKey>
+    <hector:phoneticKey>rasemum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb22ef1dd127032e96d5eb8e6488e371e453fa9c413baa6e10dca16b4a3b70efcd5">
+    <crm:P190_has_symbolic_content>reysin</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>reisin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1450</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb2bab1c62c063f403f59de06345601a3313cab1babb9c9a797415ec32cd6fd137a">
+    <crm:P190_has_symbolic_content>reason</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rɛːson</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/raisin#rate-1507-none-231">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Resons of Corons the C wyght 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_raisin_cb3c98e147d3e150a81d2a1584d31f7d080fd87ac4efca8709598dfba3b16d4870f"/>
+    <hector:perQuantity rdf:nodeID="commodity_raisin_cb1518a03d5d02bdf81f602a66bd9783086ef80b77bd1d2893dc218b1a2686a9c17"/>
+    <hector:qualifier rdf:nodeID="commodity_raisin_cb121cae48c2e4b8ef54f0e1f913c83b47d7dd8b2adee5e5f10c6022c7991fa7898"/>
+    <hector:sourceText>Book of Rates 1507, line 231 (transcribed by Stuart Jenks): 'Resons of Corons the C wyght' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb1921698c29266f5625940d9e84fcb17e3f126c31ff2c09c2c807f1198bc875556">
+    <crm:P190_has_symbolic_content>raissons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>raisons</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb24f57d278375decc478d8de1c6e15eade8ceb73f6712ea6006e3cfcca2436b6a3">
+    <crm:P190_has_symbolic_content>resons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>resons</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/raisin#rate-1545-inward-618">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Raysons the pece 20d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_raisin_cb2cdc4fe9def7b2e5f67ea0fec03b26f0721af300dfac044ccd306035679510c6b"/>
+    <hector:perQuantity rdf:nodeID="commodity_raisin_cb1df1aab33162766411b28a36b9897ac34403d039dcdfb5e63786568be83ba4dd7"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 618 (transcribed by Stuart Jenks): 'Raysons the pece' 20d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb1ad28d14129a5830c05dbf4002793f51a72f90c7c73a2e8a39c217daa21a03792">
+    <crm:P190_has_symbolic_content>resyns</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>resins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1508</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb25a81ae1c389aab262495045e2a3f10354996433033b1f2ef41a24c8503d0ee81">
+    <crm:P190_has_symbolic_content>reisons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>reisons</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb1feb35364ca9d4bfc1df5b8ff924720c592942cfe24316979183a719be06bbcdb">
+  <rdf:Description rdf:nodeID="commodity_raisin_cb285ea4e71822ec62c693bdf43e36a71c937d34583babf258e2bf538b393cd49e6">
+    <crm:P190_has_symbolic_content>rasennce</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rasensə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb21dc488669dc70234ff935c0e2e7811ee32d2d9a0c8372e3b557ad61d03c2fe64">
     <crm:P190_has_symbolic_content>raisens</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -754,7 +428,134 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_raisin_cb1d42cbcc019d40134cf64b0246c6529caa89d856876840817019ec60a8b2a9e5b">
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/raisin">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>raisin (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb1460e00925bea659a2f9490be1dd71911fd20c088cbe180e0994f42c822c9cdd9">
+    <crm:P190_has_symbolic_content>reisens</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>reisens</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb2a2f6d58fc2cf14e86ace4398dc00f77f64bcc478f5fb978344fd0eb09056d372">
+    <crm:P190_has_symbolic_content>rasens</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rasens</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb1ae83c8eaa107f29357e206c2a3b63ad69897614699b2d19cb5ec6dec33e9986a">
+    <crm:P190_has_symbolic_content>rasemi</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rasemi</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb14899142e1a6c706856dc0655800facae88395507d2b54f639cf45dac5e6f5351">
+    <crm:P190_has_symbolic_content>racon</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rakon</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb2526b0efc15ced5538289dabca9f6d20842c77278e216ee7f502e24304535e8c7">
+    <crm:P190_has_symbolic_content>racemum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rasemum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb205e9a6715d4a25ce4a281358b424362fb12d35f3a9953a08258bc65f1e60e255">
+    <crm:P190_has_symbolic_content>reisins</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>reisins</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb118399317bdd2a052c9e04373b898d434b266d1595e6790914d27d91d9e3af7b0">
+    <crm:P190_has_symbolic_content>rackmorne</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rakmornə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb1f91bcc7287b279545cb24f9e5e5632d2b3042c8a712935ac1491f6bd3dab28ad">
+    <crm:P190_has_symbolic_content>reisyn</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>reisin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb26a319edfe9bfd3fdb6eefd26552fa7c934f0be089488da1ede4b6ea1095dfdd4">
+    <crm:P190_has_symbolic_content>reissons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>reisons</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb2cdc4fe9def7b2e5f67ea0fec03b26f0721af300dfac044ccd306035679510c6b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb18fa262b946ac4b7def0bb8448eec4ddbd47f2dd058eb4e31b4a30f931f026e4a">
+    <crm:P190_has_symbolic_content>resouns</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>resuːns</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/hundred">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>hundred</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/raisin#rate-1545-inward-316">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Great raysons the pece 20d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_raisin_cb37635702b7d847b5dfe5337853112148b228556c0d20cea0cc78f686f565313e2"/>
+    <hector:perQuantity rdf:nodeID="commodity_raisin_cb27d79f7bab109587fac1fe8814ef20f6b4cf6c4cde37201c05bcb46b1945bd8a3"/>
+    <hector:qualifier rdf:nodeID="commodity_raisin_cb1be7d43e2155a70477632bc71b3639a1fd86c71adfa98739b98323c8e3ee28334"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 316 (transcribed by Stuart Jenks): 'Great raysons the pece' 20d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cbf762e92fce02895f02eeafac016ba400c9aa45574fef29b4ed3ff17edc9ad327">
+    <crm:P190_has_symbolic_content>racemorum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rasemorum</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb1df1aab33162766411b28a36b9897ac34403d039dcdfb5e63786568be83ba4dd7">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb37635702b7d847b5dfe5337853112148b228556c0d20cea0cc78f686f565313e2">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb241c7602b1e209ec8240d78334254892ce9f50521d458eb6c654543fd88e378b7">
+    <crm:P190_has_symbolic_content>rasins</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rasins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb2e80e430c900d699f03f521d2feea5154e428d3954a666ae2e14f72f66e9587d2">
     <crm:P190_has_symbolic_content>reysyn</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -762,12 +563,377 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/currant">
+  <rdf:Description rdf:nodeID="commodity_raisin_cb273580e3ac7fc9a905a1030ab5a7eb78c515cd810c2d0fa5b975e8b65eceb79f9">
+    <crm:P190_has_symbolic_content>raison</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>raison</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb1e0e23ca416038e39153e584e79b52295d9dd63b3f020be18d0d4e7df4602564e">
+    <crm:P190_has_symbolic_content>rasin</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rasin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb277a6cff0f9397bceb8f950ff0b490c8bad78f2632f7343993e2d19b9483bf69c">
+    <crm:P190_has_symbolic_content>rasini</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rasini</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb258c1280979e909502ccdbc7ed99cdafaf7fbfc5bc75c6d5ff198e65237714aee">
+    <crm:P190_has_symbolic_content>rasen</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rasen</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb21d42b5aa0501377dc84088884bbe5792e301f538ff5abd7cabe40708e1a4c0cb">
+    <crm:P190_has_symbolic_content>rasyn</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rasin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb27d79f7bab109587fac1fe8814ef20f6b4cf6c4cde37201c05bcb46b1945bd8a3">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb2cff6966aced5dd13b820cf533e3cf958eb91c26fc4e7a5e47ca0e1dee098dda6">
+    <crm:P190_has_symbolic_content>resyn</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>resin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb2c0bc11296ae3e880beb57d2b861fbec6c802e9d28ea57cb28e9f8adbd9556756">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb3069b4f5f2a63b103139147643a3842cc79f0478d2575ad645cb746a89c5dbd59">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb27d55cd7b19b84196e80cf15440c88ea54ea1fafd3f92dc0b8cd9f36e7279fc15">
+    <crm:P190_has_symbolic_content>raysen</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>raisen</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb1421fe30a0abef0da90f9ff14f9fe2f0e4c230072a1db30008067eebfea55550e">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>currant</rdfs:label>
+    <rdfs:label>large</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073756"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb218705a7ff40e1f397d66ccb52a25f566dd49dba53517ef48243072d556c6c3a6">
+    <crm:P190_has_symbolic_content>reson</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>reson</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb2f96e89c08fdc97e753172ecec5259de333fc545e0ff56cce29c49a4ba6d7c880">
+    <crm:P190_has_symbolic_content>racimi</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rasimi</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/raisin#rate-1558-inward-502">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Great raisons the C lb. cont’ 112 lb 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_raisin_cb2c0bc11296ae3e880beb57d2b861fbec6c802e9d28ea57cb28e9f8adbd9556756"/>
+    <hector:perQuantity rdf:nodeID="commodity_raisin_cb1ed6f2f28ca5766ccf55a38520e3ed5db792d92672d793724f0743990d1fc584d"/>
+    <hector:qualifier rdf:nodeID="commodity_raisin_cb1b9beb72ca89f0ed72ee22547ea59bfb246079921420e79a2b50e227b2aa0a12e"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 502 (transcribed by Stuart Jenks): 'Great raisons the C lb. cont’ 112 lb' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb11897607cdf504e7f84419acd823fa8de40a75a0e16acb307c334b930fd65c7b3">
+    <crm:P190_has_symbolic_content>racemonum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rasemonum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/raisin#rate-1558-inward-907">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Raysons of the sonne the hundreth 16s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_raisin_cb27cefdf239a8eaa849d9e84302f7848398db7b12c2bd0796acb6508f575f1e28b"/>
+    <hector:perQuantity rdf:nodeID="commodity_raisin_cb148ab670c330cf7e7d114310da8bf3011e8069cacf36eb620392a195ca59cc35e"/>
+    <hector:qualifier rdf:nodeID="commodity_raisin_cb1133dd059feac20e863e6472a6c54b8d856027f3a6e487124b78ea2356c14e3fa"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 907 (transcribed by Stuart Jenks): 'Raysons of the sonne the hundreth' 16s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb2765c7d29f984eb2b32e98b109ab51a3a84c349d1aafaf648c324addb9caac81e">
+    <crm:P190_has_symbolic_content>raysons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>raisons</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb183402ea7fc68648599645869cb18b2ab033ccb6ad0c3e2deafb4ad5abb9f46a1">
+    <crm:P190_has_symbolic_content>racens</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rasens</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb1ca02d890ee5d0b07906d4d9f7707a9cd28377fd66102f9dc087b23816f6154d0">
+    <crm:P190_has_symbolic_content>racemoni</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rasemoni</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb2a59808f4c36ea5c78ec6e79120c37ad1fe74fa3a979e9a0bc98691dab3960161">
+    <crm:P190_has_symbolic_content>reison</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>reison</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb1518a03d5d02bdf81f602a66bd9783086ef80b77bd1d2893dc218b1a2686a9c17">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb121cae48c2e4b8ef54f0e1f913c83b47d7dd8b2adee5e5f10c6022c7991fa7898">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Corons</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb2bba14d8ac084b62dbee7de7a9948744898898e181ea74f1764569146f55ea936">
+    <crm:P190_has_symbolic_content>rasenum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rasenum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb10802a2e94e8d864a363a1b52996b4ae4ac1e94d32ed5127f424e14d84d061345">
+    <crm:P190_has_symbolic_content>raisen</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>raisen</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb209ea9a09343f0e9dbe13132e8dcb4de04c222f545d569ce9468ce6f9c3f55ef1">
+    <crm:P190_has_symbolic_content>resin</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>resin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb260c582b07cbec25f14b4bfa0fc864d8c04211182795fe95f8c3c8de6f699c4f9">
+    <crm:P190_has_symbolic_content>reasons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rɛːsons</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb23b0de30afb0c8e52c6c19273f2c7d0ba693c4faaf9bdf0e8b7b6a9f98de94144">
+    <crm:P190_has_symbolic_content>rasounes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rasuːnəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb2194605b76c6afe33b0679bd39efe431f4128d5adb404701ebf6907b98d49bad9">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb1afe31c6acd97d3cf83b921e75041b503a4daf63a2e917906266d0d0e2636f725">
+    <crm:P190_has_symbolic_content>reisinorum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>reisinorum</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb23a3911ddbf6ab944a6aca2e2a12e124d4cd52a4f6315c2274d6d84563a59931b">
+    <crm:P190_has_symbolic_content>rasyns</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rasins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb2be50a49943a4b061d78582f0f089a40208983d21c89d1ae0f797ad849e40401e">
+    <crm:P190_has_symbolic_content>racini</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rasini</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb1cfe1c46e410dc50ab3a450b316f9fc0b477cdf7e0e3f5e805b8dd4959af231f4">
+    <crm:P190_has_symbolic_content>reisson</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>reison</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb1e929c7179ac3aa3b3713596ca37504fe13b9f1044b278a290c72c73efd52631c">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb210a88849e6c69c1e498fdef1e2820884ec3640745b9ecfb20c2a75e369444c82">
+    <crm:P190_has_symbolic_content>racemi</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rasemi</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb15fce8c75facb465d9008bd0dc826ac6d7aaad676ec77e893c1134d2d78fcc8fa">
+    <crm:P190_has_symbolic_content>resinorum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>resinorum</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb3188c5fc74c971c0dddb3b8027760e1415d9d72ae57b046a6b7de41210ced9308">
+    <crm:P190_has_symbolic_content>resinum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>resinum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb2b0ce2483ad505a11c66a5f3c1512a407fed2f3d835719c843a108e06479561f5">
+    <crm:P190_has_symbolic_content>reisouns</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>reisuːns</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb152990b979b5f568ef0c652ca9237625eba1cfbe0617ff3ecfbfbaa45c3e81dd7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>large</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073756"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb2af142f53cd658ccab0122025a64ca35a795ebd6484abdee45cade02cb86f5e0a">
+    <crm:P190_has_symbolic_content>rasoun</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>rasuːn</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb1be7d43e2155a70477632bc71b3639a1fd86c71adfa98739b98323c8e3ee28334">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>large</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073756"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb1b9beb72ca89f0ed72ee22547ea59bfb246079921420e79a2b50e227b2aa0a12e">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>large</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073756"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb1133dd059feac20e863e6472a6c54b8d856027f3a6e487124b78ea2356c14e3fa">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>sonne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/raisin#rate-1545-inward-617">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Raysons the hundreth pounde 2s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_raisin_cb3069b4f5f2a63b103139147643a3842cc79f0478d2575ad645cb746a89c5dbd59"/>
+    <hector:perQuantity rdf:nodeID="commodity_raisin_cb1e929c7179ac3aa3b3713596ca37504fe13b9f1044b278a290c72c73efd52631c"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 617 (transcribed by Stuart Jenks): 'Raysons the hundreth pounde' 2s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300073756">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>large</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb3c98e147d3e150a81d2a1584d31f7d080fd87ac4efca8709598dfba3b16d4870f">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cbbd60c75355d7df38be9deb99f9958e765685888e9125e827cd5a53530519bd79">
+    <crm:P190_has_symbolic_content>reysynges</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>reisindʒəs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb18143c710d15fd44f2c09efa8d3df361ac64c9702fc1f66c9c174c26cb1b2b3be">
+    <crm:P190_has_symbolic_content>reysens</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>reisens</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb1ed6f2f28ca5766ccf55a38520e3ed5db792d92672d793724f0743990d1fc584d">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/currant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>currant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_raisin_cb14f663f577fe71f02b1f7eb26dc477f885ee6f60764e3e14fd0aecd1950110d8f">
+    <crm:P190_has_symbolic_content>resins</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>resins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411356">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>raisins</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

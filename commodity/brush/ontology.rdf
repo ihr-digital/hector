@@ -8,203 +8,27 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_brush_cb1f2f6d9b4e457de0d66db0c48b1f16fefb3ac9fb3a03b38435fa61f4002a2f57c">
-    <crm:P190_has_symbolic_content>bruschys</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bruʃis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_brush_cb1f004a4ae889ed19b3da6ba4e31d9ba1a770dd06b5a806988b78847a2743b25e8">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cb185ff97c3532cf0bc42ba86a7e3d892090a31302abbdf707fc02aa1f0bbb11ce4">
-    <crm:P190_has_symbolic_content>brusshes,</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bruʃəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cb37c1a17a6850db08fc497ecce9956b5e160d48f0d172729ae21b90eb548dbe51">
-    <crm:P190_has_symbolic_content>brush</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bruʃ</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cb20f45ceaed29b384ae72879e1f67a734bb609c6c30b5b72d66a21fe9b06e880de">
-    <crm:P190_has_symbolic_content>bruches</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>brutʃəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cb1acab8b81f45126e88553ef01035d745133478f32d90d054a7b66e37e7b97de8c">
-    <crm:P190_has_symbolic_content>bresshe</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>breʃə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cb21e421447c1f304d5d51887245ba226ab04177ce754d98eb2e0fb96c6b080a23b">
-    <crm:P190_has_symbolic_content>bresshes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>breʃəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cb27212749dee7164c7ae78b70cfb18441af0454da393d6cc5c9a89dea687ab68da">
-    <crm:P190_has_symbolic_content>brussh</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bruʃ</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cb1d6ddfd47c5300e935aa4218d3048aa5ff0e9fc0633d185a5925c3b3465bb5576">
-    <crm:P190_has_symbolic_content>brossh</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>broʃ</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cbb3b6dcc1a291d78c18f009034138e56b62b96129a69b15d99094960af2b42aa2">
-    <crm:P190_has_symbolic_content>brosches</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>broʃəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cbef6a1fbbf0b7ed0808d60704350bade032ced234bb214e16a2ae931da174540a">
-    <crm:P190_has_symbolic_content>brusshes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bruʃəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cb2e48a225dd7fa9f2c8a76b80dbe1043d3ff71dd5970814d6dc49fd7195f9f3c33">
-    <crm:P190_has_symbolic_content>brosh</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>broʃ</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/brush#rate-1545-inward-68">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Brusshes called rubbinge brusshes the [a.iiii] groce 4s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_brush_cb2b0e5db7278f12369651c5e768b09ea9ab53a1d0fc118a8062afe36b26eb6819c"/>
+    <hector:perQuantity rdf:nodeID="commodity_brush_cb14cf183dfebfdef2c7ae76d87065fd6068dd49c0b9ade35c01abf053815ec83b3"/>
+    <hector:qualifier rdf:nodeID="commodity_brush_cb22b5b43f3618683829e391947ee4a30bc19a68d74ebf3a656005a5a0af93c2145"/>
+    <hector:qualifier rdf:nodeID="commodity_brush_cb24379b637b571454d6fd92471e5304b41e5d9bde3b75597aa90b9780b3dbb7f4e"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 68 (transcribed by Stuart Jenks): 'Brusshes called rubbinge brusshes the [a.iiii] groce' 4s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cb2b48b5d91920c9bc3bc6f56088788d283de1fcdf2074720ffcf0e6bf322f8e00">
-    <crm:P190_has_symbolic_content>brusshis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bruʃis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cb1c191a4465998c4bcd36d8861b86a838cb0fc0b335118a028d0282daa12248251">
-    <crm:P190_has_symbolic_content>broshes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>broʃəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cb158b8c65779c1b64ff1b2c8c52ca2507d597d500a22b871ec897a60740dde5468">
-    <crm:P190_has_symbolic_content>bruch</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>brutʃ</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cb1468f2a286eb5e48451aab662752c0112b4e57f91fa284d0cacb56f0ce37fec44">
-    <crm:P190_has_symbolic_content>bruschis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bruʃis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cb20643c280b3806e88903ba04c127094a0f8cd5161d4eec193fad5c31e41e89188">
-    <crm:P190_has_symbolic_content>brosshe</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>broʃə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/brush">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb10e58d928509b76d24456a3cb754d94caae95e81739e9665cf2bc6ee50d520c2d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb114fa9d9e839cdca820ec8895f4649dc1ce1896a02c277688d7a0f4bb09c7445e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb121fe13d27bdb86a59ef60edc84b34d8808dc89884624af31cce254c1e3f5708c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb13a3fc76657e81a5d0371eb6f1eb18700a4bdafcb98ae59f494c0ab6510676206"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb1468f2a286eb5e48451aab662752c0112b4e57f91fa284d0cacb56f0ce37fec44"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb158b8c65779c1b64ff1b2c8c52ca2507d597d500a22b871ec897a60740dde5468"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb185ff97c3532cf0bc42ba86a7e3d892090a31302abbdf707fc02aa1f0bbb11ce4"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb1a76fbac279edd1ceb2936275810513de8a4b794805b852a8a6c6100342c312ca"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb1acab8b81f45126e88553ef01035d745133478f32d90d054a7b66e37e7b97de8c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb1c191a4465998c4bcd36d8861b86a838cb0fc0b335118a028d0282daa12248251"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb1d2a6f0338e6c87408c1bc5a243299b4e1fcd0e9c598afe8b87ac710e9086b655"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb1d54eab8cd78077ba3b09ef0a4649e1ae4bd67845497afa669f630f5cc1d381e7"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb1d6ddfd47c5300e935aa4218d3048aa5ff0e9fc0633d185a5925c3b3465bb5576"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb1f2f6d9b4e457de0d66db0c48b1f16fefb3ac9fb3a03b38435fa61f4002a2f57c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb1fa336682c26564025a6784f3a033fb588a662f913ad0d3c1bdc16f487eb54e8d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb20643c280b3806e88903ba04c127094a0f8cd5161d4eec193fad5c31e41e89188"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb20f45ceaed29b384ae72879e1f67a734bb609c6c30b5b72d66a21fe9b06e880de"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb21e421447c1f304d5d51887245ba226ab04177ce754d98eb2e0fb96c6b080a23b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb2596139c2c0333bfaa370641fcf3b80c5f1fe1b7e32070b5a4a3c63daf93656fc"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb27212749dee7164c7ae78b70cfb18441af0454da393d6cc5c9a89dea687ab68da"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb2b48b5d91920c9bc3bc6f56088788d283de1fcdf2074720ffcf0e6bf322f8e00"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb2e48a225dd7fa9f2c8a76b80dbe1043d3ff71dd5970814d6dc49fd7195f9f3c33"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb37c1a17a6850db08fc497ecce9956b5e160d48f0d172729ae21b90eb548dbe51"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb5b89d8be4df110e491d838c34d54702e165c7d7086985dcdf8baa1f5fec7b0fc"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cbb3b6dcc1a291d78c18f009034138e56b62b96129a69b15d99094960af2b42aa2"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cbc040637ba7bffd285d085ef7a50026e61722395daeff6d5166181cc9a4b22e74"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cbd5c60b91a43b3580cf8576845cc46d3114de3a23e13d88d712e7eea5efc96aa2"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cbe49ec90355b63208461b04f429510924d29606c63e3c25863383aef980ae6804"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cbef6a1fbbf0b7ed0808d60704350bade032ced234bb214e16a2ae931da174540a"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_brush_cb95534cf8446b39a30d45b6812ac3660b4310a8e2d3ca5aea574857b0af01d9e3"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>brush</rdfs:label>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/brush"/>
-    <skos:related rdf:resource="https://w3id.org/hector/commodity/hairbrush"/>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300024760"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">764</hector:attestationCount>
-    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/brush#rate-1507-none-24"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cbd5c60b91a43b3580cf8576845cc46d3114de3a23e13d88d712e7eea5efc96aa2">
-    <crm:P190_has_symbolic_content>brusch</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bruʃ</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/brush#rate-1507-none-24">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1507: Brusshys the packe 20s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_brush_cb1c734bd4dd0ac903177d742e905d2d593ed1dd1c04fb47406d734a3e8e39af82c"/>
-    <hector:perQuantity rdf:nodeID="commodity_brush_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109"/>
-    <hector:sourceText>Book of Rates 1507, line 24 (transcribed by Stuart Jenks): 'Brusshys the packe' 20s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hairbrush">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>hairbrush</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cb1d2a6f0338e6c87408c1bc5a243299b4e1fcd0e9c598afe8b87ac710e9086b655">
+  <rdf:Description rdf:nodeID="commodity_brush_cb315d212a7ba2d6d33f2325eefe5e7a0ff43d6600ba73c3b77675a0e58e1dd71bb">
     <crm:P190_has_symbolic_content>brusshez</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -212,36 +36,84 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cb1d54eab8cd78077ba3b09ef0a4649e1ae4bd67845497afa669f630f5cc1d381e7">
-    <crm:P190_has_symbolic_content>brussche</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_brush_cb23d534949951cbb0eb6b62a32f7d317d3a4562989f8df53751e3bfb47d3d7e3c4">
+    <crm:P190_has_symbolic_content>bresshes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bruʃə</hector:phoneticKey>
+    <hector:phoneticKey>breʃəs</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cb95534cf8446b39a30d45b6812ac3660b4310a8e2d3ca5aea574857b0af01d9e3">
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pack">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pack</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/brush">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb11118217480802a75ea0b4578c45eaa66cf041b994b24e1eef032ebd0c3ad3316"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb1340bd2a056c692e1028a2ba490958eea6e574342d02d3b4b14e1593c2d1e85e7"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb13a4e5dce3ecab6fb68d83335c045e12947d6969bbe0e65f7eb6c35cd4bc9c20d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb182fa0ea4563ba4c9701dc66bf7d2b8821110dbac69115c6ed5155d6e28576931"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb1985b3e52c52d22649aa9bd7ca9bd75d166fe223657110a4bb1a8257126c2b58d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb19f3c98ec5e218eede09c22b4d31ae90f31359ee3e06c1ce50d994369d9d914dc"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb1b512e98748497f16502966cea9b3a3aa6d7be6dac40236c5c1dc04f23abbe0fb"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb1b9855f5e65f9faa699f034d411c4830bd4dbd5e76bf0d5b2257ec2ac2120b29d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb1bbde1455755cae1c52ac70583ff2ad75090e4153d64e6d9748f82636e3e6eca4"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb1cbbcc083c77add2166f1920f9f8e6579d3863bd57d12ca0cb8a747ff9eef2015"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb1cf834effa09cbdefad4bdb694f5866326354e2c4e289b66c231e0c13ba8a5103"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb1e0a2d9482cc27af5b50b2b70549b74b5513ab7d5f51e64eb0d68922b357bc3da"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb1e7c502937ca951a711c7b7fbe9569faaff3609083513612eeafc62b6e6fc427d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb1f5ef32499859c4cc3c41c49bcc799b889128a8a8d7d74a67cf9c9fb5891296ff"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb20e2dabc0eb944b546d76350ed61ab617da333a14fd40e18ce02e1b42bdb94d63"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb219449b84958f1a3b3c0528023c64ec812aa4dc33ded69883fb01d3c9a20c9016"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb22554f78286aa24c171d9435aaea185c9990bfe0478f486563816279f653fd311"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb23d534949951cbb0eb6b62a32f7d317d3a4562989f8df53751e3bfb47d3d7e3c4"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb26f0e3c5af6cc389ece5ee121e1f3c8e3af9933cb08d0e728da3ebc391cfc73e9"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb273d86bdd929fef46551cea7c9acb44209fab7fc9a25eb33998453585ab0a2e7a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb282d3e6b9fc41af04495fbb9710eefa58a64ed181e5e001a0f59ec6ae9868625e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb285da9233eafd34684760a4a46a492207ee6c30513eefc7c306eba0b23c35220e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb2ba955b4d613644dd82a68af512e024f4d8fa5a36a353ccc3931ecb75dcdc569b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb2dead8ea7285aec0a835eb269ddf36534661ac4ee75f6b31087e453801b3fdb96"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb3039b575fab2455656c145b1c5a4134fc9fb089fc1487123001e03b9a82f67dbc"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb315d212a7ba2d6d33f2325eefe5e7a0ff43d6600ba73c3b77675a0e58e1dd71bb"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb334a7a75f0f6351ab799cfe0548114cbb426535b609aa4dd1394a1571bea4b3c5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cb8803312f78bb095235c87947e862117012ca924393811a36b569decd41c67c0e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brush_cbd2c811c375bb8dc4fa8dac11dd69d69402f80dcc4aa0da9bcdd4fa8c160b6c2b"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_brush_cb192cb53c4bf782e0e953ddcde90fde7b2851fa09e47f5368c83d181449beee7fb"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>brush</rdfs:label>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/brush"/>
+    <skos:related rdf:resource="https://w3id.org/hector/commodity/hairbrush"/>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300024760"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">764</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/brush#rate-1507-none-24"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/brush#rate-1545-inward-66"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/brush#rate-1545-inward-67"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/brush#rate-1545-inward-68"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/brush#rate-1558-inward-128"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/brush#rate-1558-inward-129"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/brush#rate-1558-inward-165"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/brush#rate-1558-inward-166"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/brush#rate-1558-inward-167"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/brush#rate-1558-inward-168"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/brush#rate-1558-inward-168">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Brushes voc’ rubbinge brushes of heathe the dosen 6d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_brush_cb1b0af4f99a4d61a8f22be6b055d49e1c6d6596e2573d9e1fee7826ff8ef56b8c3"/>
+    <hector:perQuantity rdf:nodeID="commodity_brush_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_brush_cb1c489bf15c07f137096bdd64e2b54cde767b74979b4ad4cf22b8e87582a459461"/>
+    <hector:qualifier rdf:nodeID="commodity_brush_cb1d37c8e1e86f9612f8290171dea27f9cd1b522948f56d996621d8b7a3ceb9145d"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 168 (transcribed by Stuart Jenks): 'Brushes voc’ rubbinge brushes of heathe the dosen' 6d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb192cb53c4bf782e0e953ddcde90fde7b2851fa09e47f5368c83d181449beee7fb">
     <crm:P190_has_symbolic_content>Implements consisting of bristles, hair, or the like, set in or attached to a handle; used for painting, cleaning, polishing, or grooming. [Source: Getty AAT]</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cbc040637ba7bffd285d085ef7a50026e61722395daeff6d5166181cc9a4b22e74">
-    <crm:P190_has_symbolic_content>brusshys</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bruʃis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1483</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1485</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cb121fe13d27bdb86a59ef60edc84b34d8808dc89884624af31cce254c1e3f5708c">
-    <crm:P190_has_symbolic_content>brusche</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bruʃə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cb1fa336682c26564025a6784f3a033fb588a662f913ad0d3c1bdc16f487eb54e8d">
+  <rdf:Description rdf:nodeID="commodity_brush_cb219449b84958f1a3b3c0528023c64ec812aa4dc33ded69883fb01d3c9a20c9016">
     <crm:P190_has_symbolic_content>brosshes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -249,80 +121,145 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_brush_cbd2c811c375bb8dc4fa8dac11dd69d69402f80dcc4aa0da9bcdd4fa8c160b6c2b">
+    <crm:P190_has_symbolic_content>brosches</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>broʃəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cb1c734bd4dd0ac903177d742e905d2d593ed1dd1c04fb47406d734a3e8e39af82c">
+  <rdf:Description rdf:nodeID="commodity_brush_cb35e2d3b7dee3869c85ef88590fe7b04a0c9739f5847c8f022e346f1042793c687">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
     <hector:lsd>20s</hector:lsd>
     <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cb13a3fc76657e81a5d0371eb6f1eb18700a4bdafcb98ae59f494c0ab6510676206">
-    <crm:P190_has_symbolic_content>brushe</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bruʃə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/brush#rate-1558-inward-129">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Brusshes fyne of heathe the dosen 3s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_brush_cb3640a1ca2e4db128b67e023448a10168c457a28df5bc51fedd4b01b0a6805ab1e"/>
+    <hector:perQuantity rdf:nodeID="commodity_brush_cb1000229ea21a9925b6c4608bd2f43e1b7bdb2cba440ac22619d163ac7c7e4c833"/>
+    <hector:qualifier rdf:nodeID="commodity_brush_cb16be8585957fcab5c222384f5cedb240c5b3cfd90eb0daba06fefd7a1355cae73"/>
+    <hector:qualifier rdf:nodeID="commodity_brush_cb242913813238dbc6a8276334761a8f8a8f06b49052313f6a1209d177bad533882"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 129 (transcribed by Stuart Jenks): 'Brusshes fyne of heathe the dosen' 3s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cb2596139c2c0333bfaa370641fcf3b80c5f1fe1b7e32070b5a4a3c63daf93656fc">
-    <crm:P190_has_symbolic_content>brussches</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bruʃəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300025367">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>weavers</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cb114fa9d9e839cdca820ec8895f4649dc1ce1896a02c277688d7a0f4bb09c7445e">
-    <crm:P190_has_symbolic_content>brosch</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_brush_cb3039b575fab2455656c145b1c5a4134fc9fb089fc1487123001e03b9a82f67dbc">
+    <crm:P190_has_symbolic_content>brosh</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>broʃ</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cbe49ec90355b63208461b04f429510924d29606c63e3c25863383aef980ae6804">
-    <crm:P190_has_symbolic_content>brushes</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_brush_cb334a7a75f0f6351ab799cfe0548114cbb426535b609aa4dd1394a1571bea4b3c5">
+    <crm:P190_has_symbolic_content>brussh</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bruʃəs</hector:phoneticKey>
+    <hector:phoneticKey>bruʃ</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cb1a76fbac279edd1ceb2936275810513de8a4b794805b852a8a6c6100342c312ca">
-    <crm:P190_has_symbolic_content>brushis</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/brush#rate-1558-inward-128">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Brusshes course of heathe the dosen 18d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_brush_cb25ac6fd4ff6d1498c477563dad43f87d640f68adb4d0420fcea5956373f52495d"/>
+    <hector:perQuantity rdf:nodeID="commodity_brush_cb1dae194bc083c7fb4b6b71c1afa813e2c59311ae5a77e7c1575fdab6436f8092d"/>
+    <hector:qualifier rdf:nodeID="commodity_brush_cb1aef2e6705e97554fd0528a0613b26aed2de8dab124e1e98546f14058d255e464"/>
+    <hector:qualifier rdf:nodeID="commodity_brush_cb27988143c277d03f3cdd0e8baf03e62be1bdaca778588e18de0867896fb3b7f6d"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 128 (transcribed by Stuart Jenks): 'Brusshes course of heathe the dosen' 18d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb22b5b43f3618683829e391947ee4a30bc19a68d74ebf3a656005a5a0af93c2145">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>rubbinge</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb1aef2e6705e97554fd0528a0613b26aed2de8dab124e1e98546f14058d255e464">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>coarse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb2dead8ea7285aec0a835eb269ddf36534661ac4ee75f6b31087e453801b3fdb96">
+    <crm:P190_has_symbolic_content>bruches</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>brutʃəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb2b0e5db7278f12369651c5e768b09ea9ab53a1d0fc118a8062afe36b26eb6819c">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb14cf183dfebfdef2c7ae76d87065fd6068dd49c0b9ade35c01abf053815ec83b3">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/brush#rate-1545-inward-67">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Brusshes of cours heth or cape brusshes the groce 12s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_brush_cb375ce586f0bcb6a944ab34a379c1791707f729928ef0b36162a855bcd5b183830"/>
+    <hector:perQuantity rdf:nodeID="commodity_brush_cb1a6bd714173361deb09ca8103962a7753de85cd3e4c8bf5fa7519ded6701053b6"/>
+    <hector:qualifier rdf:nodeID="commodity_brush_cb1ce96a31e3af930cb90106da23a1824c09347329197defd4c1fdcfe1d4045a1e3"/>
+    <hector:qualifier rdf:nodeID="commodity_brush_cb1d0149ca66f070ab2262718a55cf0fdd696c48156fe08fa6a035962903e818d0e"/>
+    <hector:qualifier rdf:nodeID="commodity_brush_cb1e982da96fac0daa1da5a4e513e48a75ce9decc0edbeb9332c8a9f02d4787524b"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 67 (transcribed by Stuart Jenks): 'Brusshes of cours heth or cape brusshes the groce' 12s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/brush#rate-1558-inward-165">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Brushes of heare the dosen 3s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_brush_cb2e3e16c5d6efb88877ae945c3bf2c01c24509e2de09628910c791df7edcfd7e96"/>
+    <hector:perQuantity rdf:nodeID="commodity_brush_cb1ace49e5cc9b1d3087381795d0d57becf09ad72b3bdce84aea52ee916eace930c"/>
+    <hector:qualifier rdf:nodeID="commodity_brush_cb2b2846b82090c1acaae3474d73d963108dd4e4a75ade3ce0368682f5c940f55c7"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 165 (transcribed by Stuart Jenks): 'Brushes of heare the dosen' 3s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb20e2dabc0eb944b546d76350ed61ab617da333a14fd40e18ce02e1b42bdb94d63">
+    <crm:P190_has_symbolic_content>bruschis</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>bruʃis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cb10e58d928509b76d24456a3cb754d94caae95e81739e9665cf2bc6ee50d520c2d">
-    <crm:P190_has_symbolic_content>brusshe</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bruʃə</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/pack">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>pack</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pack"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/brush">
+  <rdf:Description rdf:nodeID="commodity_brush_cb1e982da96fac0daa1da5a4e513e48a75ce9decc0edbeb9332c8a9f02d4787524b">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>brush (London Customs Accounts glossary)</rdfs:label>
+    <rdfs:label>cap</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brush_cb5b89d8be4df110e491d838c34d54702e165c7d7086985dcdf8baa1f5fec7b0fc">
+  <rdf:Description rdf:nodeID="commodity_brush_cb13a4e5dce3ecab6fb68d83335c045e12947d6969bbe0e65f7eb6c35cd4bc9c20d">
+    <crm:P190_has_symbolic_content>brush</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bruʃ</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb19f3c98ec5e218eede09c22b4d31ae90f31359ee3e06c1ce50d994369d9d914dc">
+    <crm:P190_has_symbolic_content>bruch</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>brutʃ</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb242913813238dbc6a8276334761a8f8a8f06b49052313f6a1209d177bad533882">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>heathe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb8803312f78bb095235c87947e862117012ca924393811a36b569decd41c67c0e">
     <crm:P190_has_symbolic_content>brusches</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -330,8 +267,369 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb28fda6c69272395f8d9698c359572e5cc121dd669d15dee8e9f0628e0f4215dc4">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>weaver</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300025367"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb273d86bdd929fef46551cea7c9acb44209fab7fc9a25eb33998453585ab0a2e7a">
+    <crm:P190_has_symbolic_content>brusshys</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bruʃis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1483</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1485</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb2c3ac00188e3b035387b4c83beb3cd6b90dcb32d62feb97cb2e9ce2f94a4fad18">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>heare</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb1cf834effa09cbdefad4bdb694f5866326354e2c4e289b66c231e0c13ba8a5103">
+    <crm:P190_has_symbolic_content>brusche</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bruʃə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb2b2846b82090c1acaae3474d73d963108dd4e4a75ade3ce0368682f5c940f55c7">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>heare</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb1d0149ca66f070ab2262718a55cf0fdd696c48156fe08fa6a035962903e818d0e">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>heth</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb1a6bd714173361deb09ca8103962a7753de85cd3e4c8bf5fa7519ded6701053b6">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb1340bd2a056c692e1028a2ba490958eea6e574342d02d3b4b14e1593c2d1e85e7">
+    <crm:P190_has_symbolic_content>brosch</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>broʃ</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/brush#rate-1558-inward-166">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Brushes voc’ wevers brushes of heare the dosen 2s 6d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_brush_cb30749bfca26e1d187fb120e0b6ae4e19153ee5f9428f2dff904dedc87d858aa59"/>
+    <hector:perQuantity rdf:nodeID="commodity_brush_cb1441f2566e893b20fd471a8f2827bcb8b9327930084f981979508b0f16d6db683"/>
+    <hector:qualifier rdf:nodeID="commodity_brush_cb28fda6c69272395f8d9698c359572e5cc121dd669d15dee8e9f0628e0f4215dc4"/>
+    <hector:qualifier rdf:nodeID="commodity_brush_cb2c3ac00188e3b035387b4c83beb3cd6b90dcb32d62feb97cb2e9ce2f94a4fad18"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 166 (transcribed by Stuart Jenks): 'Brushes voc’ wevers brushes of heare the dosen' 2s 6d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb375ce586f0bcb6a944ab34a379c1791707f729928ef0b36162a855bcd5b183830">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>12s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">144</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb1cbbcc083c77add2166f1920f9f8e6579d3863bd57d12ca0cb8a747ff9eef2015">
+    <crm:P190_has_symbolic_content>bresshe</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>breʃə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb22554f78286aa24c171d9435aaea185c9990bfe0478f486563816279f653fd311">
+    <crm:P190_has_symbolic_content>brosshe</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>broʃə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb1b512e98748497f16502966cea9b3a3aa6d7be6dac40236c5c1dc04f23abbe0fb">
+    <crm:P190_has_symbolic_content>brusshis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bruʃis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb285da9233eafd34684760a4a46a492207ee6c30513eefc7c306eba0b23c35220e">
+    <crm:P190_has_symbolic_content>brussches</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bruʃəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/brush#rate-1507-none-24">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Brusshys the packe 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_brush_cb35e2d3b7dee3869c85ef88590fe7b04a0c9739f5847c8f022e346f1042793c687"/>
+    <hector:perQuantity rdf:nodeID="commodity_brush_cb26d0e19e80c0c8c056c825a8137a1012a7fa6f6d443351c94a13cdc16bd657731"/>
+    <hector:sourceText>Book of Rates 1507, line 24 (transcribed by Stuart Jenks): 'Brusshys the packe' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb1ace49e5cc9b1d3087381795d0d57becf09ad72b3bdce84aea52ee916eace930c">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb1bbde1455755cae1c52ac70583ff2ad75090e4153d64e6d9748f82636e3e6eca4">
+    <crm:P190_has_symbolic_content>brusshe</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bruʃə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb1dee02cd04f4c88cbf7aa619cf162cc2688db55cbdaf7a82b8a9b316067b1cd14">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb30749bfca26e1d187fb120e0b6ae4e19153ee5f9428f2dff904dedc87d858aa59">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s 6d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb1c489bf15c07f137096bdd64e2b54cde767b74979b4ad4cf22b8e87582a459461">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>rubbinge</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb1d37c8e1e86f9612f8290171dea27f9cd1b522948f56d996621d8b7a3ceb9145d">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>heathe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/brush#rate-1558-inward-167">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Brushes voc’ rubbinge brushes of heare the dosen 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_brush_cb272895ccb72b82a376f700a9ab91f92a50ac875f2a803fced8955f782ec4c26ed"/>
+    <hector:perQuantity rdf:nodeID="commodity_brush_cb1dee02cd04f4c88cbf7aa619cf162cc2688db55cbdaf7a82b8a9b316067b1cd14"/>
+    <hector:qualifier rdf:nodeID="commodity_brush_cb1de180eb8b0bfd22e952cd6e704a381b77af8d112e02f16597bf7de3397e59d26"/>
+    <hector:qualifier rdf:nodeID="commodity_brush_cb1ee2837c2cc089231ba73bcc8f706641c342681d2f204981e1a14d9675a125f0d"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 167 (transcribed by Stuart Jenks): 'Brushes voc’ rubbinge brushes of heare the dosen' 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb182fa0ea4563ba4c9701dc66bf7d2b8821110dbac69115c6ed5155d6e28576931">
+    <crm:P190_has_symbolic_content>brusshes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bruʃəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb1ee2837c2cc089231ba73bcc8f706641c342681d2f204981e1a14d9675a125f0d">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>heare</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>gross</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb24379b637b571454d6fd92471e5304b41e5d9bde3b75597aa90b9780b3dbb7f4e">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>iiii</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb2ba955b4d613644dd82a68af512e024f4d8fa5a36a353ccc3931ecb75dcdc569b">
+    <crm:P190_has_symbolic_content>bruschys</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bruʃis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb1985b3e52c52d22649aa9bd7ca9bd75d166fe223657110a4bb1a8257126c2b58d">
+    <crm:P190_has_symbolic_content>brusch</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bruʃ</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb1dae194bc083c7fb4b6b71c1afa813e2c59311ae5a77e7c1575fdab6436f8092d">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hairbrush">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>hairbrush</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb1e7c502937ca951a711c7b7fbe9569faaff3609083513612eeafc62b6e6fc427d">
+    <crm:P190_has_symbolic_content>brushe</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bruʃə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb1de180eb8b0bfd22e952cd6e704a381b77af8d112e02f16597bf7de3397e59d26">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>rubbinge</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb1b0af4f99a4d61a8f22be6b055d49e1c6d6596e2573d9e1fee7826ff8ef56b8c3">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb26f0e3c5af6cc389ece5ee121e1f3c8e3af9933cb08d0e728da3ebc391cfc73e9">
+    <crm:P190_has_symbolic_content>brushis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bruʃis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb282d3e6b9fc41af04495fbb9710eefa58a64ed181e5e001a0f59ec6ae9868625e">
+    <crm:P190_has_symbolic_content>brussche</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bruʃə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb1441f2566e893b20fd471a8f2827bcb8b9327930084f981979508b0f16d6db683">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/brush#rate-1545-inward-66">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Brusshes fyne the groce 18s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_brush_cb23b6c9420b528165075571c3f4a47236bb6094e6869f864ab5130251b292e8ad8"/>
+    <hector:perQuantity rdf:nodeID="commodity_brush_cb1f004a4ae889ed19b3da6ba4e31d9ba1a770dd06b5a806988b78847a2743b25e8"/>
+    <hector:qualifier rdf:nodeID="commodity_brush_cb180e37598b6bba7a5c178712b3997184dc99d5ce7f679b35e5420d07014ad1692"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 66 (transcribed by Stuart Jenks): 'Brusshes fyne the groce' 18s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb1f5ef32499859c4cc3c41c49bcc799b889128a8a8d7d74a67cf9c9fb5891296ff">
+    <crm:P190_has_symbolic_content>brossh</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>broʃ</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb11118217480802a75ea0b4578c45eaa66cf041b994b24e1eef032ebd0c3ad3316">
+    <crm:P190_has_symbolic_content>brushes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bruʃəs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb1b9855f5e65f9faa699f034d411c4830bd4dbd5e76bf0d5b2257ec2ac2120b29d">
+    <crm:P190_has_symbolic_content>brusshes,</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bruʃəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb1e0a2d9482cc27af5b50b2b70549b74b5513ab7d5f51e64eb0d68922b357bc3da">
+    <crm:P190_has_symbolic_content>broshes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>broʃəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb27988143c277d03f3cdd0e8baf03e62be1bdaca778588e18de0867896fb3b7f6d">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>heathe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb2e3e16c5d6efb88877ae945c3bf2c01c24509e2de09628910c791df7edcfd7e96">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>3s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300024760">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>brushes (implements)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb272895ccb72b82a376f700a9ab91f92a50ac875f2a803fced8955f782ec4c26ed">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb3640a1ca2e4db128b67e023448a10168c457a28df5bc51fedd4b01b0a6805ab1e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>3s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb1ce96a31e3af930cb90106da23a1824c09347329197defd4c1fdcfe1d4045a1e3">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>coarse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb23b6c9420b528165075571c3f4a47236bb6094e6869f864ab5130251b292e8ad8">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>18s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">216</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb180e37598b6bba7a5c178712b3997184dc99d5ce7f679b35e5420d07014ad1692">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>fine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb1000229ea21a9925b6c4608bd2f43e1b7bdb2cba440ac22619d163ac7c7e4c833">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb16be8585957fcab5c222384f5cedb240c5b3cfd90eb0daba06fefd7a1355cae73">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>fine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb25ac6fd4ff6d1498c477563dad43f87d640f68adb4d0420fcea5956373f52495d">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>18d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brush_cb26d0e19e80c0c8c056c825a8137a1012a7fa6f6d443351c94a13cdc16bd657731">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pack"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/brush">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>brush (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

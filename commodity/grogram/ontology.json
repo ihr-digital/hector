@@ -130,7 +130,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 534 (transcribed by Stuart Jenks): 'Grograyne sylke the yarde' 6s 8d"
+      "sourceText": "Book of Rates 1558, inward, line 534 (transcribed by Stuart Jenks): 'Grograyne sylke the yarde' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "silk",
+          "equivalent": [
+            {
+              "id": "aat:300243428",
+              "type": "Type",
+              "_label": "silk (textile)"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/grogram#rate-1558-inward-535",
@@ -157,7 +170,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 535 (transcribed by Stuart Jenks): 'Grograyne chamblettes the pece' 26s 8d"
+      "sourceText": "Book of Rates 1558, inward, line 535 (transcribed by Stuart Jenks): 'Grograyne chamblettes the pece' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "chamblettes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

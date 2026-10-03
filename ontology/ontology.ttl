@@ -36,7 +36,7 @@ hector:attestationCount a rdf:Property ;
 
 hector:compoundOf a rdf:Property ;
     rdfs:label "compound of" ;
-    rdfs:comment "The simpler commodities a qualified or compound commodity is composed of. Also published by the London Customs Accounts glossary." .
+    rdfs:comment "The simpler commodities a compound commodity is composed of. Also published by the London Customs Accounts glossary." .
 
 hector:conversionToGram a rdf:Property ;
     rdfs:label "conversion to gram" ;
@@ -60,7 +60,7 @@ hector:lsd a rdf:Property ;
 
 hector:originPlace a rdf:Property ;
     rdfs:label "origin place" ;
-    rdfs:comment "A place of origin or provenance associated with a commodity (for example the place in a qualified commodity such as Normandy canvas)." .
+    rdfs:comment "A place of origin or provenance associated with a commodity, or with a qualifier of one (Normandy, in Normandy canvas)." .
 
 hector:perQuantity a rdf:Property ;
     rdfs:label "per quantity" ;
@@ -69,6 +69,10 @@ hector:perQuantity a rdf:Property ;
 hector:phoneticKey a rdf:Property ;
     rdfs:label "phonetic key" ;
     rdfs:comment "A phonetic transcription (IPA) of a Name, used to match variant spellings across sources." .
+
+hector:qualifier a rdf:Property ;
+    rdfs:label "qualifier" ;
+    rdfs:comment "A qualifier the source attaches to the goods a Rate is set on (origin, colour, quality, state, size), so that the rate applies to the commodity so qualified: 'Saffron of beyownd the se' is saffron, qualified as from overseas. Named in its modern form where the words are a spelling in the London Customs Accounts qualifier list, with its AAT concept (equivalent) or place (originPlace); otherwise in the source's words, classified as an attested variant." .
 
 hector:quantityKind a rdf:Property ;
     rdfs:label "quantity kind" ;

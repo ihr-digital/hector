@@ -8,23 +8,107 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_padlock_cb15033f8e6f67aa9d784e88bd84a14a967cf7ca75a220f88c5c618b9852981d4ce">
-    <crm:P190_has_symbolic_content>hangyng lokkys</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_padlock_cb2b0bc18b32875fd1414c9ce5dd20c30399fcf9eb353ecb9d4d8a19638abc4fc4d">
+    <crm:P190_has_symbolic_content>padlokes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>hangiŋ lokis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+    <hector:phoneticKey>padlokəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_padlock_cb1d0fe47c2567ae76b0c51a4e98c7fcd78a005a30c196c3bb4230693ec12effd89">
-    <crm:P190_has_symbolic_content>hanging lockes</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/padlock">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb16f452de8c9a4601066862ee6e6459a906fbb53fcc6154d8803591e064cd91657"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb194800cb971e54c1020f16bbd995d98201156c0506d2da7fa7739a82b42932a93"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb1afe33e134756ab9e2a94693209d17d192af91072eab48884dd146a03b7fbd02b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb1c2e9d82087b6a74f5e51010ea9b2bda430ae01cc52e37e0f6810d5214470e5f8"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb1e0cedab02eecc205d192870fe9c29be66644765e5bfa84fb691368714025fbe4"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb1eef94616b27a52d2c4c68e92d89e70083c3c47244e0476f8445c3230b8b86446"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb1f00f7cc429a49da3edef47f828b0bea140444faebd7200766046f86d36473f12"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb1fbe1aab061b6e3ecc075e14db62aaa69ce16665bbb983bb6a20fa2876c58fd42"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb209a66b9efc7ebc840e19e4f8dbeb103293d15c5f7bb3e278d62f4c0fca345881"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb211e0899b00a324ce640289fd9a12fd5b0a11e010dd63e68b7a06d11fb2e1e6f4"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb285ebe19c40672ac98a8581e852de87de776e823e0eef0775084e18cb2db4c221"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb28f6b04c553681012d49530e90eefa1e9cc53e4a1903f52dddb800a3bdcab1fc4"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb29d01833004e1d969bcd2c8f17eeece83e295e2641651d6717620a002c1bb405c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb2b0bc18b32875fd1414c9ce5dd20c30399fcf9eb353ecb9d4d8a19638abc4fc4d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb2daa91cd5d1ab315e22287cd83edbae48c5df5bf697486220b916c8e2aa8fc561"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_padlock_cb12fb765b0383a21680eba8c837dca6749a98539dac637e566a5da0b926913371d"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>padlock</rdfs:label>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/padlock"/>
+    <skos:related rdf:resource="https://w3id.org/hector/commodity/lock"/>
+    <skos:related rdf:resource="https://w3id.org/hector/commodity/spring-lock"/>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300133746"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/padlock#rate-1545-inward-359"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/padlock#rate-1558-inward-544"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/padlock#rate-1558-inward-545"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_padlock_cb2daa91cd5d1ab315e22287cd83edbae48c5df5bf697486220b916c8e2aa8fc561">
+    <crm:P190_has_symbolic_content>padlockes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>handʒiŋ lokəs</hector:phoneticKey>
+    <hector:phoneticKey>padlokəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_padlock_cb28f6b04c553681012d49530e90eefa1e9cc53e4a1903f52dddb800a3bdcab1fc4">
+    <crm:P190_has_symbolic_content>padloke</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>padlokə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_padlock_cb3beb192c96a79205bcaef0c91865ddb7b7f310a10b8e77ea2d59a39ac20e1cb83">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/padlock#rate-1558-inward-544">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Hanging lockes of the smale sorte the grosse 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_padlock_cb3beb192c96a79205bcaef0c91865ddb7b7f310a10b8e77ea2d59a39ac20e1cb83"/>
+    <hector:perQuantity rdf:nodeID="commodity_padlock_cb177e225f49c6899b4039c06af4ae7679491fe3d70946bfd67037b07b7cf70cb3e"/>
+    <hector:qualifier rdf:nodeID="commodity_padlock_cb2fe06b0e6197c4830390c77765e3587b4f6b7fe75495cb5a7bc15a797d3f17415"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 544 (transcribed by Stuart Jenks): 'Hanging lockes of the smale sorte the grosse' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_padlock_cb177e225f49c6899b4039c06af4ae7679491fe3d70946bfd67037b07b7cf70cb3e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_padlock_cb209a66b9efc7ebc840e19e4f8dbeb103293d15c5f7bb3e278d62f4c0fca345881">
+    <crm:P190_has_symbolic_content>padlokkes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>padlokəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_padlock_cb1afe33e134756ab9e2a94693209d17d192af91072eab48884dd146a03b7fbd02b">
+    <crm:P190_has_symbolic_content>hanging locke</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>handʒiŋ lokə</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_padlock_cb18ff0878229c8ad8b41be7e13b2b611b4bc5434e93336404d9c8b5f98d51e69ec">
+  <rdf:Description rdf:nodeID="commodity_padlock_cb2baee34f151473968a3c45d9de640fbcae4e31d5563a3247779051fe7185cb0a4">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_padlock_cb1eef94616b27a52d2c4c68e92d89e70083c3c47244e0476f8445c3230b8b86446">
     <crm:P190_has_symbolic_content>padlock</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -33,45 +117,7 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_padlock_cb106f276518a5b14ab68307d12830277f89e41a4d2c3805bfcec67855958071293">
-    <crm:P190_has_symbolic_content>padlox</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>padloks</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/padlock">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb106f276518a5b14ab68307d12830277f89e41a4d2c3805bfcec67855958071293"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb121ea3bdaf119bbdae3a0c1eec9589647b173f05c656f70738ee0fd78d10c2cb2"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb15033f8e6f67aa9d784e88bd84a14a967cf7ca75a220f88c5c618b9852981d4ce"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb18ff0878229c8ad8b41be7e13b2b611b4bc5434e93336404d9c8b5f98d51e69ec"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb190d20911742cf56548f6c6236da08bf08aba63d046aec3c29fd4058294a48ea2"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb1b230dadb5b0b4132f6bbc0357452d82309eb7d1a076ce9eaae00ef79c63d75fb"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb1c1bda5ae5bc30bcceff4e4014d91aabdc605c9bbb7f4c0392bd303f01cceba5b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb1c8ffe8ef1d10fc6aea50ab53bf79b64ebd7232b03da847cf915347a1b29cd07e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb1d0fe47c2567ae76b0c51a4e98c7fcd78a005a30c196c3bb4230693ec12effd89"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb1dcd075ae8e8d2db3ded83e3f19f9b9412dd7b9b9179276f464cf3e064901bbb9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb1f2cf54992d796e958264e6eefde20c3269d3336e395e21c93cc66c9e8f8aa56b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb1f2eced11c64630b4f7af59ce2c49345de381eff38103f01b71c87a4bb1679992"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cb27df04e2e31b82330db3525e2e2bddd5b425735c1724c11af38e03b819e63fed3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cbb745e2cf79887d304317fb09fec0ce594eee58c8e45b3f0749ba8d692c2580ca"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_padlock_cbe5afae368f59d86f8077905b0f15f3dd6e459a44ca11151c3a91ba5f2e033c2f"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_padlock_cb323f5ee3bd2d2cfc86c26626178fe5a26776421f520d09c47950e1fe7c262905"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>padlock</rdfs:label>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/padlock"/>
-    <skos:related rdf:resource="https://w3id.org/hector/commodity/lock"/>
-    <skos:related rdf:resource="https://w3id.org/hector/commodity/spring-lock"/>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300133746"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</hector:attestationCount>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_padlock_cb1dcd075ae8e8d2db3ded83e3f19f9b9412dd7b9b9179276f464cf3e064901bbb9">
+  <rdf:Description rdf:nodeID="commodity_padlock_cb1fbe1aab061b6e3ecc075e14db62aaa69ce16665bbb983bb6a20fa2876c58fd42">
     <crm:P190_has_symbolic_content>hangyng locke</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -79,23 +125,21 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_padlock_cb1b230dadb5b0b4132f6bbc0357452d82309eb7d1a076ce9eaae00ef79c63d75fb">
-    <crm:P190_has_symbolic_content>padloke</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_padlock_cb16f452de8c9a4601066862ee6e6459a906fbb53fcc6154d8803591e064cd91657">
+    <crm:P190_has_symbolic_content>hangyng lokkys</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>padlokə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+    <hector:phoneticKey>hangiŋ lokis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_padlock_cb1c8ffe8ef1d10fc6aea50ab53bf79b64ebd7232b03da847cf915347a1b29cd07e">
-    <crm:P190_has_symbolic_content>padlokes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>padlokəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_padlock_cb34d49d47df21c816e9d6e13b2feae379afa2e69509599dd7b83240f33d4c8953e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_padlock_cbe5afae368f59d86f8077905b0f15f3dd6e459a44ca11151c3a91ba5f2e033c2f">
+  <rdf:Description rdf:nodeID="commodity_padlock_cb1c2e9d82087b6a74f5e51010ea9b2bda430ae01cc52e37e0f6810d5214470e5f8">
     <crm:P190_has_symbolic_content>padlokke</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -103,11 +147,29 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/spring-lock">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
+    <rdfs:label>spring-lock</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_padlock_cb1f2cf54992d796e958264e6eefde20c3269d3336e395e21c93cc66c9e8f8aa56b">
+  <rdf:Description rdf:nodeID="commodity_padlock_cb1d7b3f5ef20bc172d5024cc368ded8bc9fd5f5888e2badbda5e1b3d3c8424e705">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_padlock_cb23a4e6f2af3c36fa091803c166e2c7245ab69abdfdf19aba89c63f72d9114da62">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>large</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073756"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_padlock_cb285ebe19c40672ac98a8581e852de87de776e823e0eef0775084e18cb2db4c221">
+    <crm:P190_has_symbolic_content>padlox</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>padloks</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_padlock_cb211e0899b00a324ce640289fd9a12fd5b0a11e010dd63e68b7a06d11fb2e1e6f4">
     <crm:P190_has_symbolic_content>padlok</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -115,7 +177,20 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_padlock_cbb745e2cf79887d304317fb09fec0ce594eee58c8e45b3f0749ba8d692c2580ca">
+  <rdf:Description rdf:nodeID="commodity_padlock_cb1f00f7cc429a49da3edef47f828b0bea140444faebd7200766046f86d36473f12">
+    <crm:P190_has_symbolic_content>hanging lockes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>handʒiŋ lokəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_padlock_cb12fb765b0383a21680eba8c837dca6749a98539dac637e566a5da0b926913371d">
+    <crm:P190_has_symbolic_content>padlock: a removable lock with a shackle that can be passed through a staple or link and then secured (Getty AAT); a hanging lock (OED s.v. hanging ppl. a. 6).</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_padlock_cb194800cb971e54c1020f16bbd995d98201156c0506d2da7fa7739a82b42932a93">
     <crm:P190_has_symbolic_content>padlocke</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -123,40 +198,53 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/padlock#rate-1545-inward-359">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Hangyng lockes the great sorte, the groce 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_padlock_cb34d49d47df21c816e9d6e13b2feae379afa2e69509599dd7b83240f33d4c8953e"/>
+    <hector:perQuantity rdf:nodeID="commodity_padlock_cb1d7b3f5ef20bc172d5024cc368ded8bc9fd5f5888e2badbda5e1b3d3c8424e705"/>
+    <hector:qualifier rdf:nodeID="commodity_padlock_cb23a4e6f2af3c36fa091803c166e2c7245ab69abdfdf19aba89c63f72d9114da62"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 359 (transcribed by Stuart Jenks): 'Hangyng lockes the great sorte, the groce' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/padlock">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
+    <rdfs:label>padlock (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_padlock_cb121ea3bdaf119bbdae3a0c1eec9589647b173f05c656f70738ee0fd78d10c2cb2">
-    <crm:P190_has_symbolic_content>padlokkes</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_padlock_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/padlock#rate-1558-inward-545">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Hanging lockes great the grosse 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_padlock_cb2baee34f151473968a3c45d9de640fbcae4e31d5563a3247779051fe7185cb0a4"/>
+    <hector:perQuantity rdf:nodeID="commodity_padlock_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50"/>
+    <hector:qualifier rdf:nodeID="commodity_padlock_cb1421fe30a0abef0da90f9ff14f9fe2f0e4c230072a1db30008067eebfea55550e"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 545 (transcribed by Stuart Jenks): 'Hanging lockes great the grosse' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300133746">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>padlocks</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_padlock_cb2fe06b0e6197c4830390c77765e3587b4f6b7fe75495cb5a7bc15a797d3f17415">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>small</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073768"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_padlock_cb1e0cedab02eecc205d192870fe9c29be66644765e5bfa84fb691368714025fbe4">
+    <crm:P190_has_symbolic_content>padlokk</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>padlokəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+    <hector:phoneticKey>padlok</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_padlock_cb190d20911742cf56548f6c6236da08bf08aba63d046aec3c29fd4058294a48ea2">
-    <crm:P190_has_symbolic_content>hanging locke</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>handʒiŋ lokə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_padlock_cb323f5ee3bd2d2cfc86c26626178fe5a26776421f520d09c47950e1fe7c262905">
-    <crm:P190_has_symbolic_content>padlock: a removable lock with a shackle that can be passed through a staple or link and then secured (Getty AAT); a hanging lock (OED s.v. hanging ppl. a. 6).</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_padlock_cb1f2eced11c64630b4f7af59ce2c49345de381eff38103f01b71c87a4bb1679992">
-    <crm:P190_has_symbolic_content>padlockes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>padlokəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_padlock_cb27df04e2e31b82330db3525e2e2bddd5b425735c1724c11af38e03b819e63fed3">
+  <rdf:Description rdf:nodeID="commodity_padlock_cb29d01833004e1d969bcd2c8f17eeece83e295e2641651d6717620a002c1bb405c">
     <crm:P190_has_symbolic_content>hangyng lockes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -168,24 +256,33 @@
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>lock</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300133746">
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>padlocks</rdfs:label>
+    <rdfs:label>attested variant</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/spring-lock">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300073768">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>spring-lock</rdfs:label>
+    <rdfs:label>small</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_padlock_cb1c1bda5ae5bc30bcceff4e4014d91aabdc605c9bbb7f4c0392bd303f01cceba5b">
-    <crm:P190_has_symbolic_content>padlokk</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>padlok</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>gross</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/padlock">
+  <rdf:Description rdf:nodeID="commodity_padlock_cb1421fe30a0abef0da90f9ff14f9fe2f0e4c230072a1db30008067eebfea55550e">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>padlock (London Customs Accounts glossary)</rdfs:label>
+    <rdfs:label>large</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073756"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300073756">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>large</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

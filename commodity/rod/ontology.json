@@ -261,5 +261,87 @@
     }
   ],
   "attestationCount": 150,
-  "modified": "2026-10-03"
+  "modified": "2026-10-03",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/rod#rate-1558-inward-903",
+      "type": "Rate",
+      "_label": "1558 inward: Roddes smalle the bundell 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "4",
+        "lsd": "4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/bundle",
+          "type": "MeasurementUnit",
+          "_label": "bundle"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 903 (transcribed by Stuart Jenks): 'Roddes smalle the bundell' 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "small",
+          "equivalent": [
+            {
+              "id": "aat:300073768",
+              "type": "Type",
+              "_label": "small"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/rod#rate-1558-inward-904",
+      "type": "Rate",
+      "_label": "1558 inward: Roddes greate the bundell 20d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "20",
+        "lsd": "20d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/bundle",
+          "type": "MeasurementUnit",
+          "_label": "bundle"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 904 (transcribed by Stuart Jenks): 'Roddes greate the bundell' 20d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "large",
+          "equivalent": [
+            {
+              "id": "aat:300073756",
+              "type": "Type",
+              "_label": "large"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

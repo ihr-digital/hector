@@ -10,11 +10,11 @@
     rdfs:label "aum" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "awmez" ;
+            crm:P190_has_symbolic_content "audes" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "aumez" ;
-            hector:validFrom "1513"^^xsd:gYear ;
-            hector:validThrough "1514"^^xsd:gYear ],
+            hector:phoneticKey "audəs" ;
+            hector:validFrom "1556"^^xsd:gYear ;
+            hector:validThrough "1559"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "aum" ;
             crm:P2_has_type aat:300404670,
@@ -23,29 +23,11 @@
             hector:validFrom "1519"^^xsd:gYear ;
             hector:validThrough "1520"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "awmes" ;
+            crm:P190_has_symbolic_content "auns" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "auməs" ;
-            hector:validFrom "1520"^^xsd:gYear ;
-            hector:validThrough "1524"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "awnes" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "aunəs" ;
-            hector:validFrom "1553"^^xsd:gYear ;
-            hector:validThrough "1555"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "awme" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "aumə" ;
-            hector:validFrom "1520"^^xsd:gYear ;
-            hector:validThrough "1524"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "awnez" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "aunez" ;
-            hector:validFrom "1519"^^xsd:gYear ;
-            hector:validThrough "1520"^^xsd:gYear ],
+            hector:phoneticKey "auns" ;
+            hector:validFrom "1541"^^xsd:gYear ;
+            hector:validThrough "1545"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "aude" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -71,15 +53,21 @@
             hector:validFrom "1446"^^xsd:gYear ;
             hector:validThrough "1450"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "aune" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "aunə" ;
-            hector:validFrom "1550"^^xsd:gYear ;
-            hector:validThrough "1553"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "aumys" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "aumis" ;
+            hector:validFrom "1519"^^xsd:gYear ;
+            hector:validThrough "1520"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "awmez" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "aumez" ;
+            hector:validFrom "1513"^^xsd:gYear ;
+            hector:validThrough "1514"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "awne" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "aunə" ;
             hector:validFrom "1519"^^xsd:gYear ;
             hector:validThrough "1520"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
@@ -94,6 +82,36 @@
             hector:phoneticKey "amə" ;
             hector:validFrom "1446"^^xsd:gYear ;
             hector:validThrough "1450"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "awmes" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "auməs" ;
+            hector:validFrom "1520"^^xsd:gYear ;
+            hector:validThrough "1524"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "awme" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "aumə" ;
+            hector:validFrom "1520"^^xsd:gYear ;
+            hector:validThrough "1524"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "awnez" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "aunez" ;
+            hector:validFrom "1519"^^xsd:gYear ;
+            hector:validThrough "1520"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "awnes" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "aunəs" ;
+            hector:validFrom "1553"^^xsd:gYear ;
+            hector:validThrough "1555"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "aune" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "aunə" ;
+            hector:validFrom "1550"^^xsd:gYear ;
+            hector:validThrough "1553"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "aunes" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -113,29 +131,11 @@
             hector:validFrom "1390"^^xsd:gYear ;
             hector:validThrough "1390"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "auns" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "auns" ;
-            hector:validFrom "1541"^^xsd:gYear ;
-            hector:validThrough "1545"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "almis" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "almis" ;
             hector:validFrom "1541"^^xsd:gYear ;
-            hector:validThrough "1545"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "awne" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "aunə" ;
-            hector:validFrom "1519"^^xsd:gYear ;
-            hector:validThrough "1520"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "audes" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "audəs" ;
-            hector:validFrom "1556"^^xsd:gYear ;
-            hector:validThrough "1559"^^xsd:gYear ] ;
+            hector:validThrough "1545"^^xsd:gYear ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "a measure of Rhine wine, equivalent to ⅓ of a dolium | a measure of Rhine wine equivalent to ⅓ of a dolium | a measure of Rhine wine (OED s.v. aam), equivalent to 1/5 of a dolium | a measure of Rhein wine equivalent to ⅓ of a dolium | a measure of Rhine wine (OED s.v. aam) | a measure of Rhine wine (5 aumes = 1 dolium) | as a measure of wine, equivalent to ⅓ tun | aume, a measure of Rhine wine equivalent to ⅓ of a dolium | clearly some kind of iron, but exact meaning unknown" ;
             crm:P2_has_type aat:300435416 ] ;
@@ -163,6 +163,12 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 100 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Iron" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "iron" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 615 (transcribed by Stuart Jenks): 'Iron voc’ Ames iron the C lb. cont’ 112 lb' 5s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -176,6 +182,12 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/tun> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "iron" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "Iron" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 616 (transcribed by Stuart Jenks): 'Iron voc’ Ames iron the tonne' £5" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .

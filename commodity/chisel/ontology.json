@@ -183,5 +183,84 @@
     }
   ],
   "attestationCount": 8,
-  "modified": "2026-10-03"
+  "modified": "2026-10-03",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/chisel#rate-1558-inward-335",
+      "type": "Rate",
+      "_label": "1558 inward: Cheselles for joyners hole the dossen 4s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "48",
+        "lsd": "4s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 335 (transcribed by Stuart Jenks): 'Cheselles for joyners hole the dossen' 4s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "joyners",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "whole"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/chisel#rate-1558-inward-336",
+      "type": "Rate",
+      "_label": "1558 inward: Cheselles halfe the dossen 2s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "24",
+        "lsd": "2s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 336 (transcribed by Stuart Jenks): 'Cheselles halfe the dossen' 2s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "half"
+        }
+      ]
+    }
+  ]
 }

@@ -7,7 +7,62 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_crest_cbc87f5c2bb124f7264e8d6e68d61083e62c2c8e9df23b885ebf255f0a0431bad4">
+  <rdf:Description rdf:nodeID="commodity_crest_cbf8cc4aa246b513880804c9ec81600437ba7a1965de37eb6994116c18626328e4">
+    <crm:P190_has_symbolic_content>crestis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>krestis</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crest#rate-1507-none-41">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Creste clothe, lokerame and doglasse þe pece 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_crest_cb3a2dc0ada724aa1dafb45d083c4cc8c9f678bfe97b36a950c539ea4dcf9e5079d"/>
+    <hector:perQuantity rdf:nodeID="commodity_crest_cb2103d863dc8c9a7652ecebe4e2f37fb0866f78c96546585eb1cef7690404d05f1"/>
+    <hector:qualifier rdf:nodeID="commodity_crest_cb26796ddf2c802a3f472e9ce85f542c30ef1e0b65d47fce77b9336b4204695a674"/>
+    <hector:sourceText>Book of Rates 1507, line 41 (transcribed by Stuart Jenks): 'Creste clothe, lokerame and doglasse þe pece' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crest_cb3a2dc0ada724aa1dafb45d083c4cc8c9f678bfe97b36a950c539ea4dcf9e5079d">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crest_cb2baee34f151473968a3c45d9de640fbcae4e31d5563a3247779051fe7185cb0a4">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crest_cbd4221fce92cb7332c1bd05d628b094b266564c0b433230726229a68374620ebc">
+    <crm:P190_has_symbolic_content>cresse</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kresə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crest_cb1b6dd9721f6ad1c1a8ab82ad38d1ff5abcedf7bffe340315ce4069c5fcc555e9a">
+    <crm:P190_has_symbolic_content>creste</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>krestə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pecia">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pecia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crest_cb26796ddf2c802a3f472e9ce85f542c30ef1e0b65d47fce77b9336b4204695a674">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>lokerame and doglasse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crest_cb1f7585ccae05e5ee9dd8387c6285940186afb4166c6088c993845da8d9f1dd808">
     <crm:P190_has_symbolic_content>crestcloth</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -15,7 +70,7 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crest_cb26eae3881a974b9c040da6b3cf172b07864861f67db4b958d99e8a1313bf237ee">
+  <rdf:Description rdf:nodeID="commodity_crest_cb381e6ef02a1592ff2719ef6e43c7ec781f2122b80859f3dcfed799aee5364d69f">
     <crm:P190_has_symbolic_content>crest</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -24,57 +79,7 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crest_cb10fd4c4d69b00872c3b42b08673cbe13a2936605a8406021d6a39f97abc2459a3">
-    <crm:P190_has_symbolic_content>crestae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kreste</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crest_cb1e8d1fcbcfaee161bc0d28274d5eaa1fffbb495f98f154c11b94bc38aa3040678">
-    <crm:P190_has_symbolic_content>cresta</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kresta</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crest_cb22cb503b9597111b7b4afa50dba4883e57ff655dac77486b4d4b2c80e4e45062">
-    <crm:P190_has_symbolic_content>crest, a measure of linen cloth (OED s.v. crest n.3) | a measure of Britanny cloth (5 ells) (TNA: PRO, E159/177 Recorda Michaelmas m 5) | linen cloth from Britanny, so called because measured in crests (= 5 ells) (OED s.v. crest n.^3) | linen cloth from Britanny, so called because measured in crests (= 5 ells) (OED s.v. crest n.3) | a crest is a measure of Britanny cloth (5 ells) (TNA: PRO, E159/177 Recorda Michaelmas m 5), so crest cloth is presumably cloth manufactured in Britanny and therefore measured in crests. However, the account states that one piece measuring 100 ulne was imported | a crest is a measure of Britanny cloth (5 ells) (TNA: PRO, E159/177 Recorda Michaelmas m 5), so crest cloth is presumably cloth manufactured in Britanny and therefore measured in crests | linen cloth from Britanny, so called because measured in crests (= 5 ells) (OED s.v. crest n.3) | linen cloth from Brittany, so called because measured in crests (= 5 ells) (OED s.v. crest n.3)</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crest">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crest_cb0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crest_cb10fd4c4d69b00872c3b42b08673cbe13a2936605a8406021d6a39f97abc2459a3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crest_cb1e8d1fcbcfaee161bc0d28274d5eaa1fffbb495f98f154c11b94bc38aa3040678"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crest_cb26eae3881a974b9c040da6b3cf172b07864861f67db4b958d99e8a1313bf237ee"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crest_cb3bc1b15c88ffdef26a2c31b56a2bd1094607298ee28c54382bbbbff2437b2245"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crest_cb93ecdd03b6aaa4181c239c7a1a9a45846f063581719439c1fe6b7b4cdce7262c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crest_cbc87f5c2bb124f7264e8d6e68d61083e62c2c8e9df23b885ebf255f0a0431bad4"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_crest_cbf5bfd6920acc8eef48cf68765b835aa188faf86c38317f978c050cb316586166"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_crest_cb22cb503b9597111b7b4afa50dba4883e57ff655dac77486b4d4b2c80e4e45062"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>crest</rdfs:label>
-    <skos:broader rdf:resource="http://vocab.getty.edu/aat/300014069"/>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/crest"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</hector:attestationCount>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crest_cb93ecdd03b6aaa4181c239c7a1a9a45846f063581719439c1fe6b7b4cdce7262c">
-    <crm:P190_has_symbolic_content>creste</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>krestə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crest_cbf5bfd6920acc8eef48cf68765b835aa188faf86c38317f978c050cb316586166">
+  <rdf:Description rdf:nodeID="commodity_crest_cb16e648a2631def2c861abd890bf4f2cd5cc50c9dbf42b2fd76cf79d00719cce17">
     <crm:P190_has_symbolic_content>cresclothe</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -82,32 +87,83 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crest">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crest_cb16e648a2631def2c861abd890bf4f2cd5cc50c9dbf42b2fd76cf79d00719cce17"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crest_cb1b6dd9721f6ad1c1a8ab82ad38d1ff5abcedf7bffe340315ce4069c5fcc555e9a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crest_cb1f7585ccae05e5ee9dd8387c6285940186afb4166c6088c993845da8d9f1dd808"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crest_cb2300aeb8119f68698b978d0225ebc968240e378f420bc635047499d6fac313a86"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crest_cb25496af1533d142a535228aa8b25af96a70fbc067af806705f49ffaea20e8ec97"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crest_cb381e6ef02a1592ff2719ef6e43c7ec781f2122b80859f3dcfed799aee5364d69f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crest_cbd4221fce92cb7332c1bd05d628b094b266564c0b433230726229a68374620ebc"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_crest_cbf8cc4aa246b513880804c9ec81600437ba7a1965de37eb6994116c18626328e4"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_crest_cb12043570810a40587034320ae41df09e59a0e5d1920a2240d79d45614d1d15e7a"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>crest</rdfs:label>
+    <skos:broader rdf:resource="http://vocab.getty.edu/aat/300014069"/>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/crest"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/crest#rate-1507-none-41"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/crest#rate-1558-inward-338"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/crest#rate-1558-inward-338">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Crest clothe the pece cont’ 120 yeardes 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_crest_cb2baee34f151473968a3c45d9de640fbcae4e31d5563a3247779051fe7185cb0a4"/>
+    <hector:perQuantity rdf:nodeID="commodity_crest_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 338 (transcribed by Stuart Jenks): 'Crest clothe the pece cont’ 120 yeardes' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crest_cb2300aeb8119f68698b978d0225ebc968240e378f420bc635047499d6fac313a86">
+    <crm:P190_has_symbolic_content>cresta</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kresta</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crest_cb25496af1533d142a535228aa8b25af96a70fbc067af806705f49ffaea20e8ec97">
+    <crm:P190_has_symbolic_content>crestae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kreste</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crest_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_crest_cb12043570810a40587034320ae41df09e59a0e5d1920a2240d79d45614d1d15e7a">
+    <crm:P190_has_symbolic_content>crest, a measure of linen cloth (OED s.v. crest n.3) | a measure of Britanny cloth (5 ells) (TNA: PRO, E159/177 Recorda Michaelmas m 5) | linen cloth from Britanny, so called because measured in crests (= 5 ells) (OED s.v. crest n.^3) | linen cloth from Britanny, so called because measured in crests (= 5 ells) (OED s.v. crest n.3) | a crest is a measure of Britanny cloth (5 ells) (TNA: PRO, E159/177 Recorda Michaelmas m 5), so crest cloth is presumably cloth manufactured in Britanny and therefore measured in crests. However, the account states that one piece measuring 100 ulne was imported | a crest is a measure of Britanny cloth (5 ells) (TNA: PRO, E159/177 Recorda Michaelmas m 5), so crest cloth is presumably cloth manufactured in Britanny and therefore measured in crests | linen cloth from Britanny, so called because measured in crests (= 5 ells) (OED s.v. crest n.3) | linen cloth from Brittany, so called because measured in crests (= 5 ells) (OED s.v. crest n.3)</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>preferred terms</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crest_cb3bc1b15c88ffdef26a2c31b56a2bd1094607298ee28c54382bbbbff2437b2245">
-    <crm:P190_has_symbolic_content>cresse</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kresə</hector:phoneticKey>
+  <rdf:Description rdf:nodeID="commodity_crest_cb2103d863dc8c9a7652ecebe4e2f37fb0866f78c96546585eb1cef7690404d05f1">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/crest">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>crest (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>attested variant</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_crest_cb0">
-    <crm:P190_has_symbolic_content>crestis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>krestis</hector:phoneticKey>
-  </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300014069">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>linen (material)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/crest">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>crest (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

@@ -16,17 +16,11 @@
             hector:validFrom "1519"^^xsd:gYear ;
             hector:validThrough "1520"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "sabylles" ;
+            crm:P190_has_symbolic_content "sabulle" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "sabiləs" ;
-            hector:validFrom "1502"^^xsd:gYear ;
-            hector:validThrough "1503"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "sabylle" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "sabilə" ;
-            hector:validFrom "1502"^^xsd:gYear ;
-            hector:validThrough "1503"^^xsd:gYear ],
+            hector:phoneticKey "sabulə" ;
+            hector:validFrom "1519"^^xsd:gYear ;
+            hector:validThrough "1520"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "sables" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -34,17 +28,35 @@
             hector:validFrom "1505"^^xsd:gYear ;
             hector:validThrough "1506"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "sabulles" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "sabuləs" ;
+            hector:validFrom "1519"^^xsd:gYear ;
+            hector:validThrough "1520"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "sablis" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "sablis" ;
             hector:validFrom "1477"^^xsd:gYear ;
             hector:validThrough "1479"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "sabylle" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "sabilə" ;
+            hector:validFrom "1502"^^xsd:gYear ;
+            hector:validThrough "1503"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "sabille" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "sabilə" ;
             hector:validFrom "1446"^^xsd:gYear ;
             hector:validThrough "1450"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "sabylles" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "sabiləs" ;
+            hector:validFrom "1502"^^xsd:gYear ;
+            hector:validThrough "1503"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "sable" ;
             crm:P2_has_type aat:300404670,
@@ -57,18 +69,6 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "sabeləs" ;
             hector:validFrom "1519"^^xsd:gYear ;
-            hector:validThrough "1520"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "sabulles" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "sabuləs" ;
-            hector:validFrom "1519"^^xsd:gYear ;
-            hector:validThrough "1520"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "sabulle" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "sabulə" ;
-            hector:validFrom "1519"^^xsd:gYear ;
             hector:validThrough "1520"^^xsd:gYear ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "sable, a fur (Veale 222)" ;
@@ -77,7 +77,9 @@
         aat:300395532 ;
     skos:exactMatch <https://w3id.org/mlca/glossary/sable> ;
     hector:attestationCount 34 ;
-    hector:taxation <https://w3id.org/hector/commodity/sable#rate-1558-inward-1041> .
+    hector:taxation <https://w3id.org/hector/commodity/sable#rate-1558-inward-1041>,
+        <https://w3id.org/hector/commodity/sable#rate-1558-inward-1042>,
+        <https://w3id.org/hector/commodity/sable#rate-1558-inward-1043> .
 
 aat:300011811 a crm:E55_Type ;
     rdfs:label "fur (hair material)" .
@@ -87,9 +89,6 @@ aat:300395532 a crm:E55_Type ;
 
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
-
-aat:300411998 a crm:E98_Currency ;
-    rdfs:label "pound sterling (system of money)" .
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
@@ -107,11 +106,46 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
-<https://w3id.org/hector/unit/timber> a crm:E58_Measurement_Unit ;
-    rdfs:label "timber" .
+<https://w3id.org/hector/commodity/sable#rate-1558-inward-1042> a hector:Rate ;
+    rdfs:label "1558 inward: Sables of the second sort the tymber £30" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£30" ;
+            hector:valueInPence 7200.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/timber> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "second" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 1042 (transcribed by Stuart Jenks): 'Sables of the second sort the tymber' £30" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/sable#rate-1558-inward-1043> a hector:Rate ;
+    rdfs:label "1558 inward: Sables of the worste the tymber £13 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£13 6s 8d" ;
+            hector:valueInPence 3200.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/timber> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "worste" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 1043 (transcribed by Stuart Jenks): 'Sables of the worste the tymber' £13 6s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/mlca/glossary/sable> a crm:E55_Type ;
     rdfs:label "sable (London Customs Accounts glossary)" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
+<https://w3id.org/hector/unit/timber> a crm:E58_Measurement_Unit ;
+    rdfs:label "timber" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

@@ -61,12 +61,17 @@
     la:equivalent aat:300048153 ;
     hector:attestationCount 209 ;
     hector:taxation <https://w3id.org/hector/commodity/bast#rate-1545-inward-89>,
+        <https://w3id.org/hector/commodity/bast#rate-1545-inward-90>,
         <https://w3id.org/hector/commodity/bast#rate-1545-inward-91>,
         <https://w3id.org/hector/commodity/bast#rate-1545-inward-92>,
+        <https://w3id.org/hector/commodity/bast#rate-1545-inward-93>,
         <https://w3id.org/hector/commodity/bast#rate-1545-inward-94>,
+        <https://w3id.org/hector/commodity/bast#rate-1558-inward-70>,
+        <https://w3id.org/hector/commodity/bast#rate-1558-inward-71>,
         <https://w3id.org/hector/commodity/bast#rate-1558-inward-72>,
         <https://w3id.org/hector/commodity/bast#rate-1558-inward-73>,
         <https://w3id.org/hector/commodity/bast#rate-1558-inward-74>,
+        <https://w3id.org/hector/commodity/bast#rate-1558-inward-75>,
         <https://w3id.org/hector/commodity/bast#rate-1558-inward-76> .
 
 aat:300048153 a crm:E55_Type ;
@@ -87,7 +92,26 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1000 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/thousand> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "hattes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1545, inward, line 89 (transcribed by Stuart Jenks): 'Baste hattes the 1000' 20s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/bast#rate-1545-inward-90> a hector:Rate ;
+    rdfs:label "1545 inward: Baste or straw hattes the dossen 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4d" ;
+            hector:valueInPence 4.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "hattes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 90 (transcribed by Stuart Jenks): 'Baste or straw hattes the dossen' 4d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
@@ -100,6 +124,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/bundle> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "ropes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1545, inward, line 91 (transcribed by Stuart Jenks): 'Baste ropes the bondell' 20d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
@@ -113,7 +140,26 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "ropes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1545, inward, line 92 (transcribed by Stuart Jenks): 'Baste ropes the pece' 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/bast#rate-1545-inward-93> a hector:Rate ;
+    rdfs:label "1545 inward: Baste rope the 100 pounde 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "rope" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 93 (transcribed by Stuart Jenks): 'Baste rope the 100 pounde' 6s 8d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
@@ -126,9 +172,44 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/flock> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "rope" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1545, inward, line 94 (transcribed by Stuart Jenks): 'Baste rope the floke conteynynge 60 peces' 20s" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/bast#rate-1558-inward-70> a hector:Rate ;
+    rdfs:label "1558 inward: Baste or strawe hattes with knottes the dosen 3s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "3s 4d" ;
+            hector:valueInPence 40.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "hattes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 70 (transcribed by Stuart Jenks): 'Baste or strawe hattes with knottes the dosen' 3s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/bast#rate-1558-inward-71> a hector:Rate ;
+    rdfs:label "1558 inward: Baste or strawe hattes the dosen 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "8d" ;
+            hector:valueInPence 8.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "hattes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 71 (transcribed by Stuart Jenks): 'Baste or strawe hattes the dosen' 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/bast#rate-1558-inward-72> a hector:Rate ;
     rdfs:label "1558 inward: Baste hattes the thousande 40s" ;
@@ -139,6 +220,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1000 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/thousand> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "hattes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 72 (transcribed by Stuart Jenks): 'Baste hattes the thousande' 40s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -152,6 +236,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/bundle> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "ropes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 73 (transcribed by Stuart Jenks): 'Baste ropes the bundell' 5s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -165,7 +252,26 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/each> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "ropes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 74 (transcribed by Stuart Jenks): 'Baste ropes the rope' 6d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/bast#rate-1558-inward-75> a hector:Rate ;
+    rdfs:label "1558 inward: Baste ropes the C lb. cont’ 112 lb 8s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "8s" ;
+            hector:valueInPence 96.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "ropes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 75 (transcribed by Stuart Jenks): 'Baste ropes the C lb. cont’ 112 lb' 8s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
@@ -203,12 +309,18 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/hector/unit/bundle> a crm:E58_Measurement_Unit ;
     rdfs:label "bundle" .
 
+<https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
+    rdfs:label "hundred" .
+
 <https://w3id.org/hector/unit/thousand> a crm:E58_Measurement_Unit ;
     rdfs:label "thousand" .
 
-hector:AttestedVariant a crm:E55_Type ;
-    rdfs:label "attested variant" .
+<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
+    rdfs:label "dozen" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .
+
+hector:AttestedVariant a crm:E55_Type ;
+    rdfs:label "attested variant" .
 

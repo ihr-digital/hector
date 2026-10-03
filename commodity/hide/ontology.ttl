@@ -140,6 +140,8 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "buff" ] ;
     hector:sourceText "Book of Rates 1545, inward, line 100 (transcribed by Stuart Jenks): 'Buffe hydes the pece' 6s 8d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
@@ -153,6 +155,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/dicker> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "red" ;
+            la:equivalent aat:300126225 ] ;
     hector:sourceText "Book of Rates 1545, inward, line 609 (transcribed by Stuart Jenks): 'Redde hides the dekar conteynynge ten skynnes' 33s 4d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
@@ -166,6 +171,8 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "buff" ] ;
     hector:sourceText "Book of Rates 1558, inward, line 112 (transcribed by Stuart Jenks): 'Buffe hides the pece' 20s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -179,12 +186,18 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/dicker> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "red" ;
+            la:equivalent aat:300126225 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 892 (transcribed by Stuart Jenks): 'Redde hydes the dycker cont’ 10 hydes' 50s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/mlca/glossary/hide> a crm:E55_Type ;
     rdfs:label "hide (London Customs Accounts glossary)" .
+
+aat:300126225 a crm:E55_Type ;
+    rdfs:label "red (color)" .
 
 <https://w3id.org/hector/unit/dicker> a crm:E58_Measurement_Unit ;
     rdfs:label "dicker" .

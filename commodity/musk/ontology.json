@@ -139,7 +139,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 714 (transcribed by Stuart Jenks): 'Muske voc’ codes of muske the dosen coddes' 26s 8d"
+      "sourceText": "Book of Rates 1558, inward, line 714 (transcribed by Stuart Jenks): 'Muske voc’ codes of muske the dosen coddes' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "codes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/musk#rate-1558-inward-715",
@@ -166,7 +179,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 715 (transcribed by Stuart Jenks): 'Muske of Levant the ounce' 30s"
+      "sourceText": "Book of Rates 1558, inward, line 715 (transcribed by Stuart Jenks): 'Muske of Levant the ounce' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Levant",
+          "originPlace": [
+            {
+              "id": "wd:Q81483",
+              "type": "Place",
+              "_label": "Levant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

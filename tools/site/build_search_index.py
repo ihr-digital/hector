@@ -5,8 +5,8 @@
     .venv/bin/python -m tools.site.build_search_index --root .         # the published repo
 
 One row per record under commodity/ and unit/:
-    [path, label, kind, [other names...], deprecated]
-kind: "c" commodity, "q" qualified commodity (has compoundOf), "u" unit. The names are every
+    [path, label, kind, [other names...], deprecated, rates]
+kind: "c" commodity, "u" unit; rates: how many customs rates the record carries. The names are every
 attested spelling in the record's identified_by, so the page can find "nottes" under nut. It is
 derived entirely from the records, so rebuild it whenever they change (it is part of the
 republish steps in PLAN.md).
@@ -29,8 +29,8 @@ def build(root: Path) -> int:
             continue
         label = d.get("_label") or path.rsplit("/", 1)[-1]
         names = sorted({n["content"] for n in d.get("identified_by", []) if n.get("content")} - {label})
-        kind = "u" if d["type"] == "MeasurementUnit" else ("q" if d.get("compoundOf") else "c")
-        rows.append([path, label, kind, names, 1 if d.get("deprecated") else 0])
+        kind = "u" if d["type"] == "MeasurementUnit" else "c"
+        rows.append([path, label, kind, names, 1 if d.get("deprecated") else 0, len(d.get("taxation") or [])])
     out = root / "search" / "index.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(rows, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

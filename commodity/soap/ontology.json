@@ -387,6 +387,257 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/soap#rate-1507-none-241",
+      "type": "Rate",
+      "_label": "1507: Sope called Castyll sope or wyght sope the C wyght 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 241 (transcribed by Stuart Jenks): 'Sope called Castyll sope or wyght sope the C wyght' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Castyll",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "Isle of Wight",
+          "originPlace": [
+            {
+              "id": "wd:Q9679",
+              "type": "Place",
+              "_label": "Isle of Wight"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/soap#rate-1507-none-242",
+      "type": "Rate",
+      "_label": "1507: Sope called blake sope the laste £6",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "1440",
+        "lsd": "£6"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/last",
+          "type": "MeasurementUnit",
+          "_label": "last"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 242 (transcribed by Stuart Jenks): 'Sope called blake sope the laste' £6",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "black",
+          "equivalent": [
+            {
+              "id": "aat:300130920",
+              "type": "Type",
+              "_label": "black (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/soap#rate-1507-none-243",
+      "type": "Rate",
+      "_label": "1507: Sope called blacke sope the barrelle 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/barrel",
+          "type": "MeasurementUnit",
+          "_label": "barrel"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 243 (transcribed by Stuart Jenks): 'Sope called blacke sope the barrelle' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "black",
+          "equivalent": [
+            {
+              "id": "aat:300130920",
+              "type": "Type",
+              "_label": "black (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/soap#rate-1545-inward-149",
+      "type": "Rate",
+      "_label": "1545 inward: Castell sope the 100 lb 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 149 (transcribed by Stuart Jenks): 'Castell sope the 100 lb' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Castell",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/soap#rate-1545-inward-49",
+      "type": "Rate",
+      "_label": "1545 inward: Blacke sope the laste £6",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "1440",
+        "lsd": "£6"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/last",
+          "type": "MeasurementUnit",
+          "_label": "last"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 49 (transcribed by Stuart Jenks): 'Blacke sope the laste' £6",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "black",
+          "equivalent": [
+            {
+              "id": "aat:300130920",
+              "type": "Type",
+              "_label": "black (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/soap#rate-1545-inward-655",
+      "type": "Rate",
+      "_label": "1545 inward: Sope blacke the laste £6",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "1440",
+        "lsd": "£6"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/last",
+          "type": "MeasurementUnit",
+          "_label": "last"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 655 (transcribed by Stuart Jenks): 'Sope blacke the laste' £6",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "black",
+          "equivalent": [
+            {
+              "id": "aat:300130920",
+              "type": "Type",
+              "_label": "black (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/soap#rate-1545-inward-656",
       "type": "Rate",
       "_label": "1545 inward: Sope whyte the pounde 10d",
@@ -411,7 +662,151 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 656 (transcribed by Stuart Jenks): 'Sope whyte the pounde' 10d"
+      "sourceText": "Book of Rates 1545, inward, line 656 (transcribed by Stuart Jenks): 'Sope whyte the pounde' 10d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "white",
+          "equivalent": [
+            {
+              "id": "aat:300129784",
+              "type": "Type",
+              "_label": "white (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/soap#rate-1558-inward-1006",
+      "type": "Rate",
+      "_label": "1558 inward: Sope voc’ Castell or Venys sope the C lb. cont’ 112 lb. 15s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "180",
+        "lsd": "15s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1006 (transcribed by Stuart Jenks): 'Sope voc’ Castell or Venys sope the C lb. cont’ 112 lb.' 15s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Castell",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "Venice",
+          "originPlace": [
+            {
+              "id": "wd:Q641",
+              "type": "Place",
+              "_label": "Venice"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/soap#rate-1558-inward-942",
+      "type": "Rate",
+      "_label": "1558 inward: Sope voc’ Flemysshe sope the barrell 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/barrel",
+          "type": "MeasurementUnit",
+          "_label": "barrel"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 942 (transcribed by Stuart Jenks): 'Sope voc’ Flemysshe sope the barrell' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "County of Flanders",
+          "originPlace": [
+            {
+              "id": "wd:Q157070",
+              "type": "Place",
+              "_label": "County of Flanders"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/soap#rate-1558-inward-943",
+      "type": "Rate",
+      "_label": "1558 inward: Sope voc’ Flemysshe sope the last cont’ 12 barrelles £8",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "1920",
+        "lsd": "£8"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/last",
+          "type": "MeasurementUnit",
+          "_label": "last"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 943 (transcribed by Stuart Jenks): 'Sope voc’ Flemysshe sope the last cont’ 12 barrelles' £8",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "County of Flanders",
+          "originPlace": [
+            {
+              "id": "wd:Q157070",
+              "type": "Place",
+              "_label": "County of Flanders"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

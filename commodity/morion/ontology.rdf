@@ -8,52 +8,13 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_morion_cb1838d0d82693f9d4bdff62b8a7f8449c93fff2cc5aeca274a773f91955f9dc632">
-    <crm:P190_has_symbolic_content>morians</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_morion_cbe6c7e296fe89690ff475c7c523d13a2a40b4a8e19104495b3588576571740161">
+    <crm:P190_has_symbolic_content>murryon</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>morians</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+    <hector:phoneticKey>murion</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/morion">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_morion_cb0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_morion_cb1824b3028f9ae85283e5f4595f3941c2cdbc033f9fe038672b9b4f02fc2f3311e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_morion_cb1838d0d82693f9d4bdff62b8a7f8449c93fff2cc5aeca274a773f91955f9dc632"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_morion_cb198f0d6a9e2f7a71ad8c2195d9da4cc3269d023e1175a4fdb5a10c445aa58b528"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_morion_cb1bd8148cc58c0f0ebb4e23be0f737bd0b40de78cf1fb5fdaac3d081ced17a2cc7"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_morion_cb239a95de58059d46ad1509e6cc78c0aa5489b82ff55eee0b0964f8c057cc09b9f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_morion_cb31b5de7972b99526b8ff4243c3d8bae241f51b39f12b6eb13dd707e019074a862"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_morion_cb96e3f9268b7c5e804268937fdc42f511a772d48d88af44d63dd0e6de8db5d09c"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_morion_cbd33b99fc941e7638ec434f95340a907eacc9ee8d979b65956e7e6e9170ea7f0f"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>morion</rdfs:label>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/morion"/>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300036813"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hector:attestationCount>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/morion">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>morion (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_morion_cb1824b3028f9ae85283e5f4595f3941c2cdbc033f9fe038672b9b4f02fc2f3311e">
-    <crm:P190_has_symbolic_content>morlians</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>morlians</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300036813">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>morions</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_morion_cb239a95de58059d46ad1509e6cc78c0aa5489b82ff55eee0b0964f8c057cc09b9f">
+  <rdf:Description rdf:nodeID="commodity_morion_cb298b21c7a090b79b25458aeebed7468f8c883953a70bd175b3e205e9d605a95f9">
     <crm:P190_has_symbolic_content>morion</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -62,7 +23,40 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_morion_cb198f0d6a9e2f7a71ad8c2195d9da4cc3269d023e1175a4fdb5a10c445aa58b528">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/morion#rate-1558-inward-728">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Murryons graven the pece 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_morion_cb29bfbbd20fb3d683d117959775afc44a044c9d1a6b31f3578cb38575f3e529256"/>
+    <hector:perQuantity rdf:nodeID="commodity_morion_cb2a8737e416977db64e83c1f436c93b2b64d2b5cf2f3a23306bb709210e7ac9bb8"/>
+    <hector:qualifier rdf:nodeID="commodity_morion_cb189983d33eb03505d9b41cf48374cca546de3b77ef3a0354887a7124c636e69b1"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 728 (transcribed by Stuart Jenks): 'Murryons graven the pece' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/morion">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_morion_cb1452643ad22e3153093f29382f58d49b1d98bfcc0429db036462cb4ce0d345c54"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_morion_cb1a15c652accd83b611ffce8a48fc50d557bfee09ca2094b34f6f554b0e64a72a7"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_morion_cb1a29e42843c695384c193ce991bb53af1e03dd96852cfec0cb47ff61682f507bb"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_morion_cb1b8020babb6215d53ba5fbc6c39d5bd5b0a0ed083bb60149d975128c6cdaff6b1"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_morion_cb1dc927dce2beaa724967fdeef9368ae33e11d2571c3bbc26d0110e64ff4d16e50"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_morion_cb298b21c7a090b79b25458aeebed7468f8c883953a70bd175b3e205e9d605a95f9"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_morion_cb33a6f1c98fec308a47191c74ad9bc9f4cbf906041b6bcafd61ab0e282b3cbe9eb"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_morion_cbe6c7e296fe89690ff475c7c523d13a2a40b4a8e19104495b3588576571740161"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_morion_cb1d0b3a0c90f2b6aa4743b75f29a451225eed8e6490bc641379b0798255dd78d27"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>morion</rdfs:label>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/morion"/>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300036813"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/morion#rate-1558-inward-728"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/morion#rate-1558-inward-729"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_morion_cb1b8020babb6215d53ba5fbc6c39d5bd5b0a0ed083bb60149d975128c6cdaff6b1">
     <crm:P190_has_symbolic_content>morlian</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -70,29 +64,11 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300036813">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
+    <rdfs:label>morions</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_morion_cb0">
-    <crm:P190_has_symbolic_content>murryons</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>murions</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_morion_cb31b5de7972b99526b8ff4243c3d8bae241f51b39f12b6eb13dd707e019074a862">
-    <crm:P190_has_symbolic_content>morions</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>morions</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_morion_cb1bd8148cc58c0f0ebb4e23be0f737bd0b40de78cf1fb5fdaac3d081ced17a2cc7">
+  <rdf:Description rdf:nodeID="commodity_morion_cb1dc927dce2beaa724967fdeef9368ae33e11d2571c3bbc26d0110e64ff4d16e50">
     <crm:P190_has_symbolic_content>morian</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -100,15 +76,100 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_morion_cb96e3f9268b7c5e804268937fdc42f511a772d48d88af44d63dd0e6de8db5d09c">
-    <crm:P190_has_symbolic_content>murryon</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pecia">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pecia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_morion_cb1a29e42843c695384c193ce991bb53af1e03dd96852cfec0cb47ff61682f507bb">
+    <crm:P190_has_symbolic_content>morians</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>murion</hector:phoneticKey>
+    <hector:phoneticKey>morians</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_morion_cbd33b99fc941e7638ec434f95340a907eacc9ee8d979b65956e7e6e9170ea7f0f">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/morion#rate-1558-inward-729">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Murryons playne the pece 3s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_morion_cb27e0022a87be271beeea11c5dd5611959c34aeb14e41d7d42fd92e20d934685ea"/>
+    <hector:perQuantity rdf:nodeID="commodity_morion_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_morion_cbf3875d998d42f45bb3e7b26ad2ceccf720a0472ee5a413a66e6ba4d54f6523f2"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 729 (transcribed by Stuart Jenks): 'Murryons playne the pece' 3s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_morion_cb1d0b3a0c90f2b6aa4743b75f29a451225eed8e6490bc641379b0798255dd78d27">
     <crm:P190_has_symbolic_content>a kind of brimmed helmet resembling a hat, without a beaver or visor, worn chiefly by foot soldiers in the 16th and 17th centuries (OED s.v. morion n.1); a variant spelling is morian (OED s.v. morian); sometimes engraved</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_morion_cb1452643ad22e3153093f29382f58d49b1d98bfcc0429db036462cb4ce0d345c54">
+    <crm:P190_has_symbolic_content>murryons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>murions</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_morion_cb29bfbbd20fb3d683d117959775afc44a044c9d1a6b31f3578cb38575f3e529256">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_morion_cb33a6f1c98fec308a47191c74ad9bc9f4cbf906041b6bcafd61ab0e282b3cbe9eb">
+    <crm:P190_has_symbolic_content>morions</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>morions</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_morion_cb1a15c652accd83b611ffce8a48fc50d557bfee09ca2094b34f6f554b0e64a72a7">
+    <crm:P190_has_symbolic_content>morlians</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>morlians</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_morion_cb2a8737e416977db64e83c1f436c93b2b64d2b5cf2f3a23306bb709210e7ac9bb8">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/morion">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>morion (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_morion_cb189983d33eb03505d9b41cf48374cca546de3b77ef3a0354887a7124c636e69b1">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>graven</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_morion_cbf3875d998d42f45bb3e7b26ad2ceccf720a0472ee5a413a66e6ba4d54f6523f2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>plain</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_morion_cb27e0022a87be271beeea11c5dd5611959c34aeb14e41d7d42fd92e20d934685ea">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>3s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_morion_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

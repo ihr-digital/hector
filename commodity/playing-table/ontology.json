@@ -791,6 +791,203 @@
       "validFrom": "1558",
       "validThrough": "1604",
       "sourceText": "Book of Rates 1558, inward, line 840 (transcribed by Stuart Jenks): 'Playenge tables the dossen' 8s"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/playing-table#rate-1558-inward-843",
+      "type": "Rate",
+      "_label": "1558 inward: Playenge tables Flaunders making of waynscot the dosen 15s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "180",
+        "lsd": "15s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 843 (transcribed by Stuart Jenks): 'Playenge tables Flaunders making of waynscot the dosen' 15s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "County of Flanders",
+          "originPlace": [
+            {
+              "id": "wd:Q157070",
+              "type": "Place",
+              "_label": "County of Flanders"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "making of waynscot",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/playing-table#rate-1558-inward-844",
+      "type": "Rate",
+      "_label": "1558 inward: Playenge tables of walnut tre the dosen 24s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "288",
+        "lsd": "24s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 844 (transcribed by Stuart Jenks): 'Playenge tables of walnut tre the dosen' 24s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "walnut tre",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/playing-table#rate-1558-inward-845",
+      "type": "Rate",
+      "_label": "1558 inward: Playenge tables with brasell and bone the dosen £3",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "720",
+        "lsd": "£3"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 845 (transcribed by Stuart Jenks): 'Playenge tables with brasell and bone the dosen' £3",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "brasell",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "bone",
+          "equivalent": [
+            {
+              "id": "aat:300011798",
+              "type": "Type",
+              "_label": "bone (material)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/playing-table#rate-1558-inward-846",
+      "type": "Rate",
+      "_label": "1558 inward: Playenge tables fyne of Damaske makinge the dosen £4",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "960",
+        "lsd": "£4"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 846 (transcribed by Stuart Jenks): 'Playenge tables fyne of Damaske makinge the dosen' £4",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "fine"
+        },
+        {
+          "type": "Type",
+          "_label": "damask",
+          "equivalent": [
+            {
+              "id": "aat:300163295",
+              "type": "Type",
+              "_label": "damask"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "makinge",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

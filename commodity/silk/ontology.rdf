@@ -8,27 +8,190 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_silk_cb151da688cd613a87eac94cbcd32b860ea40f47eedd57b5de746e8345911f6fc18">
-    <crm:P190_has_symbolic_content>sericum curtum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>serikum kurtum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+  <rdf:Description rdf:nodeID="commodity_silk_cb210d6e5eadee8f735e43353e46d20aa4b57b838633f13446f94eb7380e09cbd0f">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/ell"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1558-inward-300">
+  <rdf:Description rdf:nodeID="commodity_silk_cb1243ad1ae29bae3c58f70811349e6b27d5a6af7ffbdb10fef1a555f9711f9c2fc">
+    <crm:P190_has_symbolic_content>cerecum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>serekum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/button">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>button</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1558-inward-958">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Crippen parttelettes with sylke the dossen £4</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_silk_cb33ae76b1493349724cbc62fe964d7cf2dd76d29d998a303c3677266dfc4239693"/>
-    <hector:perQuantity rdf:nodeID="commodity_silk_cb1b74e313a1854ed1ed62dda0b07d8d3e04c7a06baeab41d9a315cdae6d83a8cd2"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 300 (transcribed by Stuart Jenks): 'Crippen parttelettes with sylke the dossen' £4</hector:sourceText>
+    <rdfs:label>1558 inward: Sylke voc’ Spanyshe sylke the pounde cont’ 16 oz 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb35820ed9c8f2641b18fa67786e15c76e9cb13be39bf1ae953b7bac4d5f24d42ea"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb2159aeada87c2858eb4f1672ced6afb3ab5d057f760d05051de85412bc72bc58f"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb1cf91e1ce288e83ceddd3e65726747d7f3b5da87b2fe00a5b5b870a1d0db47fd1"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 958 (transcribed by Stuart Jenks): 'Sylke voc’ Spanyshe sylke the pounde cont’ 16 oz' 20s</hector:sourceText>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb24837acc6ec9090c11df41322ca281a44cbe9686523cd270f76ac3515d3012e8d">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>25s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb28b9f1bb0b3cb2214bd36ac5f0eded0905f2fb7a91a9079f81e2a4a041142b6da">
+    <crm:P190_has_symbolic_content>ciricum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sirikum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1558-inward-953">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Sylke shorte, 21 ounces the pounde 5s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb27f91e596f7eb9a9c66a1773522049d98bf0994d0df23e464af3e031243df45e6"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb2a6c5239138ec59044320e4aba8fae389fc467f563322798870e6137b5848a774"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb11cafe4c4226599994670fd190ec1e30630b8e581e9c0916150bfd23ccfcd8051"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 953 (transcribed by Stuart Jenks): 'Sylke shorte, 21 ounces the pounde' 5s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1545-inward-134">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Collaine sylke the cloute pound’ foure pounde 53s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb1753969577a0e2a1981c740bea4baa0f8e22f2c81e8b3219f280830d3587a19d6"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb29de13e8303b5d808b1b08c39accb76cc76e7007e1164d016f84226a43cadd803"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb1b8fa2fb85df7fdea090d49b6ff30b84fce4cc2306ed5793bc409944f5cbefc5c"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb236e6296b9b0fd8f26693f9521a72353d954f712952f8f4d2616c044a15ecb904"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 134 (transcribed by Stuart Jenks): 'Collaine sylke the cloute pound’ foure pounde' 53s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1507-none-290">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Sylke of all manner off the best that ys to throwyn þe lb 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb390c36ed1190e05dda68ddf588324f5d3c19e0f4c948805a7550d90225fb9a05a"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb21df0a7af64abbe095061c56a3c41199381c13817584ff7d4ae0326b6a504816b"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb2365b6477e0c08cee53fc3c2ba9a86284e0da39de21ee81d4936266a43f0cf586"/>
+    <hector:sourceText>Book of Rates 1507, line 290 (transcribed by Stuart Jenks): 'Sylke of all manner off the best that ys to throwyn þe lb' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb2ed6f6ad69414d802a41e6579f7f19d8fd115184d7007cbaf16f1f1bb0c572578">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1dd4c49e0f5e3e8a78e718aa0717529b63a91503b569a2dd187562745e54984ac">
+    <crm:P190_has_symbolic_content>saricum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sarikum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1558-inward-1045">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Sackclothe of sylke the yarde 3s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb332a9fd60130238a28ac08cdbd1e037f538bf9004b64b60375877c5f413ce5bae"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb21598ef57267b276a44a2d40854bb4d303141866cdc10f38726871c5fad04d8a0"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb144c50bcb4c39dfb27d000c70b244561498afcea0a47f2957a17fe95fd638b0b1"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1045 (transcribed by Stuart Jenks): 'Sackclothe of sylke the yarde' 3s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1b8fa2fb85df7fdea090d49b6ff30b84fce4cc2306ed5793bc409944f5cbefc5c">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>foure</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1e282facce38c62515eb05ae43f78261df13f7e908b4bfc6d906c44db879b3dcb">
+    <crm:P190_has_symbolic_content>silk, the raw or processed fibre produced by the silkworm; includes long- and short-stapled, raw, thrown, dyed, and regionally-named silks (Messina, Cologne, Venice, Granada, Talish, etc.)</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb2365b6477e0c08cee53fc3c2ba9a86284e0da39de21ee81d4936266a43f0cf586">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>off the best that ys to throwyn</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb28d6fc1f2cd7cb56fbaf55e8a5177238f0594de4f7bc493931365ed27147f6f11">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1558-inward-964">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Sylke saies the yarde 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb230aa13c5d26cc859860c08f7f2bba716cfc9778bfbc861fb97ab305fdb37c1d3"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb1530ceacb92510b836da1ce07ccd400628bc2cfcfa6e99cddc4d036f60c93df66"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 964 (transcribed by Stuart Jenks): 'Sylke saies the yarde' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb2981186c36a8e1e3e3bcc0204dff86f2440ad72f011b8bc9e679930bdd9b8093a">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>nobbes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1558-inward-1056">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Silke of Granado blacke the pounde 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb3147f4a3167c292cc63b1fb85f80f8b636ee3395be9068717eedfaf790f4811e8"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb1d7a2f5576872a5a1bf20e7576f881ab5d80d1ecf302039a5426fc61193398aec"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb260d55974234f974111719a4ad5e858ae62f60b8b7d27a06a36493463857f803b"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb2922178faf61c1f5226a102bb236a93938370068d50496ca23ae01675cba9c3b0"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1056 (transcribed by Stuart Jenks): 'Silke of Granado blacke the pounde' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1f1b7a59717c3ed321269674b890f9e9cec46511b0ad1eb1a12c0df4ba1e01b22">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1545-inward-641">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Sylke longe, videlicet twelve ounces to the pounde 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb2fcca17dde8c8222e3076134d5a2d83002fa47b6e12157386f3cb00da0090ee32"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb2412dc8e612fdc4edb73a630698b4846554d3532caf99d3ee11ecf15b61bfaba5"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb191e0d5528d74b0d0ff7fea0b63326bbd284adfdcb607040b5383b8c6200ddc1a"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb21267000ed3c3c1cf5e21bbb97c848b1f4e13299da139ccf6922db6bd5e07659f"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 641 (transcribed by Stuart Jenks): 'Sylke longe, videlicet twelve ounces to the pounde' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1545-inward-642">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Sylke shorte, videlicet twelve ounces to the pounde 4s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb241935bc674552ca2c7c98e6cd0ec53445ffbb0c0e2436ec6852500b415bf669d"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb2155cf1e4a321a4c3be378d6257b886309b9a7eb35140937b0964fad8766a8c17"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb191d2ff6914a6108641cebfea18416bf79729571f0eb6cff8d6bc2785dddff52d"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb1ef6c550c49070debcbef654b1bfb2fc173ba483feb99ceb8abc8025bad2c3fa2"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 642 (transcribed by Stuart Jenks): 'Sylke shorte, videlicet twelve ounces to the pounde' 4s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb322c2afa1fe008866a490d51a8e27d28e5c620f57a6d634cb36da0692b9bcf8d3">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>8s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
@@ -76,53 +239,164 @@
     <skos:related rdf:resource="https://w3id.org/hector/commodity/taffeta"/>
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300014072"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2024</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1507-none-288"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1507-none-289"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1507-none-290"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1507-none-291"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1507-none-292"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1545-inward-134"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1545-inward-639"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1545-inward-640"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1545-inward-641"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1545-inward-642"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1545-inward-704"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1545-inward-727"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1545-inward-730"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1558-inward-1045"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1558-inward-1055"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1558-inward-1056"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1558-inward-1057"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1558-inward-1058"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1558-inward-1070"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1558-inward-256"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1558-inward-300"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1558-inward-302"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1558-inward-872"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1558-inward-950"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1558-inward-951"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1558-inward-952"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1558-inward-953"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1558-inward-954"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1558-inward-955"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1558-inward-956"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1558-inward-957"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1558-inward-958"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/silk#rate-1558-inward-964"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb152cfc0f45f209ac2f1ce7c5f8d2753d4f61956c04f978a43e877b02b5599d015">
-    <crm:P190_has_symbolic_content>ciricum curtum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sirikum kurtum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_silk_cb254f0bf7d15cdcaed3de3bfe9d9d45fdd28d016fe788c38017be2dab8b95fb57d">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>long</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb28d6fc1f2cd7cb56fbaf55e8a5177238f0594de4f7bc493931365ed27147f6f11">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1507-none-292">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Sylke called Colen sylke the lb 16s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb2ab99f69e4b160fd6a0cfb726b97eed06453c14d40bb7c7453b8d27d7c5c76539"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb215a05824210314eefe120d6a4f4ed43a4dc0ece4ad43371f439c0b61922f217a"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb290be90e0375e9114cc9bc82e25f1c1eaca11e0a937c7c68dc0a86013100977f5"/>
+    <hector:sourceText>Book of Rates 1507, line 292 (transcribed by Stuart Jenks): 'Sylke called Colen sylke the lb' 16s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb2736ef752637b79d144689cc32e98b58f9752015c25b89cc5838a36e198655bc3">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pair"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb2a102f8acb3a3b5c0db2e53bb59c545721acdf752b7ff3fe343ab510263add020">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>10s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+    <hector:lsd>6d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/nubs-of-silk">
+  <rdf:Description rdf:nodeID="commodity_silk_cb1b071d6ace3464add2c21581cea726e0fc6387aed0c606759cfafa0b267e28fde">
+    <crm:P190_has_symbolic_content>ciricum curti</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sirikum kurti</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1541</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb3cf58a2eb8fcf8121976b5cd5557a5035187add9c7255fd8cc11cd8d7d45e6336">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb2699171b7fea0b5eafed553396ba71121408fafd10f3e649408facdeda0321e78">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/paper"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1558-inward-952">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Sylke longe, twentie one ounce the pounde 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb39f34abea9a679b95c792a9856d9c02a3a1489498bf64c0f4b644906668a1b976"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb1be53bad824c29b647f3afbf1f633c777a91b57079de32300f523c09ddac065c0"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb184dda5a69ed1ea8194251409a25b5f58e4955270a9b486a23fbee4adc130ae5f"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb254f0bf7d15cdcaed3de3bfe9d9d45fdd28d016fe788c38017be2dab8b95fb57d"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 952 (transcribed by Stuart Jenks): 'Sylke longe, twentie one ounce the pounde' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb11cafe4c4226599994670fd190ec1e30630b8e581e9c0916150bfd23ccfcd8051">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>nubs of silk</rdfs:label>
+    <rdfs:label>short</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb1ae715341fa9023dce8ed12e65d8e95c05eda826c0999d1018d52ffbc39bba40a">
-    <crm:P190_has_symbolic_content>sylk</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1f6d36a5f55d3cd7cf6e8ee514304806ea9ee703f0bc93b899e95574d96137484">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>raw</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300221288"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb2b806a22f244f7d787c920a5ee19bd798a73988bab8d3a7163143291e90877e2e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>26s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb26a32d154087c04666421de8111fbd84a5dc5c731f8b688d93deefed25ee9ccae">
+    <crm:P190_has_symbolic_content>sirici</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>silk</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+    <hector:phoneticKey>sirisi</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb37e1a5c7e5f1a534337e145a020ff77801024fb0e77b5a1d50df184ffb2b93727">
-    <crm:P190_has_symbolic_content>cerci</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_silk_cb205eafc07a104ab738303b54d30731d94f47873119c3dc768bf9cb66fb112755d">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>15s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">180</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb203013484b42b6b2449f27794f158c640deb187c0e17554b80b1a0c03cd8c3a84">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1d7a2f5576872a5a1bf20e7576f881ab5d80d1ecf302039a5426fc61193398aec">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb268ae302670667a6a89beb7663a9b38233282378de5f957cc4e0f7cfab7df5c37">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb21267000ed3c3c1cf5e21bbb97c848b1f4e13299da139ccf6922db6bd5e07659f">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>long</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb2cda6ac42441d82508b6c70eb84984fe58aa92bed06dcc39e331fc79a5b162ceb">
+    <crm:P190_has_symbolic_content>cercum</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sersi</hector:phoneticKey>
+    <hector:phoneticKey>serkum</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_silk_cb2470204c3298cb9ba2dac4b8fa0f7e87837090ae7c87aa455bd61086c767334c7">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb1b74e313a1854ed1ed62dda0b07d8d3e04c7a06baeab41d9a315cdae6d83a8cd2">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1410a8f2a271de2a6e234ab2efb73110f093742c6849ca616f990011bc1d22c01">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>caddas or woll</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb226ee66f6b3ce5beddd5008d61a874b7fb4f2fdffef905481bbd3858a9d5ffcc5">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_silk_cb28bc21f1889c51a1942539aaf8ec8eb09241a50b2ec3eb2bf6b8f8a96e5c3b794">
@@ -130,29 +404,19 @@
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/clout"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb2611f950f447524f41971f9e289e94f7700b4edfbe06800a8222578775eb6112e">
-    <crm:P190_has_symbolic_content>cereci</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>seresi</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/paper">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>paper (measure)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb299c23c325c306466a9e88199ea8622a0bcea274c31f028abb44cc24fa2c72311">
-    <crm:P190_has_symbolic_content>sericum serisi</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>serikum serisi</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb2698f34593ef69cfb4a22347c4347db820c2351e0f5db8f4d0b2e84a3c1eae8eb">
-    <crm:P190_has_symbolic_content>silke</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>silkə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1558-inward-957">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Sylke voc’ caule sylke the paper cont’ 2 lb. 25s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb24837acc6ec9090c11df41322ca281a44cbe9686523cd270f76ac3515d3012e8d"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb2699171b7fea0b5eafed553396ba71121408fafd10f3e649408facdeda0321e78"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb28f0de908bcd9097c33984e6b07a7ec5e0ccd1677b847c161b7070eae37c907c6"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 957 (transcribed by Stuart Jenks): 'Sylke voc’ caule sylke the paper cont’ 2 lb.' 25s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_silk_cb18cf878f1214645bc6040dd29fe086e8685af1bae9c72dafd4f78e4669bf09fbd">
     <crm:P190_has_symbolic_content>silk</crm:P190_has_symbolic_content>
@@ -163,132 +427,14 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb36a4edeea9150bd392c5135561bd268e19e39b0c004b7442ea06688438e4d1e15">
-    <crm:P190_has_symbolic_content>sericum serisum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>serikum serisum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_silk_cb26ddc7f19f3087645b8ab597a94c0322e9870e84961b8200ac75b666b3eced51c">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb1243ad1ae29bae3c58f70811349e6b27d5a6af7ffbdb10fef1a555f9711f9c2fc">
-    <crm:P190_has_symbolic_content>cerecum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>serekum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb26a32d154087c04666421de8111fbd84a5dc5c731f8b688d93deefed25ee9ccae">
-    <crm:P190_has_symbolic_content>sirici</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sirisi</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/camlet">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>camlet</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb1aefce730abc418cc92d0b6e4c5de173579f70dcd084b06d4005775957d67cee5">
-    <crm:P190_has_symbolic_content>cirici</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sirisi</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb1b071d6ace3464add2c21581cea726e0fc6387aed0c606759cfafa0b267e28fde">
-    <crm:P190_has_symbolic_content>ciricum curti</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sirikum kurti</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1541</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cbef14c1bc5f9bc9f80c40ee6d8394e6492dfdede8f692bac63c2d975a29bc7b61">
-    <crm:P190_has_symbolic_content>seda</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>seda</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb19ba60d1f4d2d809989a285b06b48c77e6378fa1d3c5c9dba03801e61b030e9d2">
-    <crm:P190_has_symbolic_content>cerici</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>serisi</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb1658f3164ad68517edffd754dbb97e84123424bb0922b970f56503b57f95067d9">
-    <crm:P190_has_symbolic_content>sirico</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>siriko</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cbc7398783ab9573ede3f89188f2574a8902185c9d940b2cca7721feed88ef82f0">
-    <crm:P190_has_symbolic_content>serici curtum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>serisi kurtum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/paper">
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/ell">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>paper (measure)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb1a972a749dc3aefe403369c7d15318c1c2067d95e896e52e91f0a0091f8903a2c">
-    <crm:P190_has_symbolic_content>cirici curtum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sirisi kurtum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>gross</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb1f62f8e5d71a413d7a70df313e5853de71b63a7a1d2fe4809c734cf9839a65efc">
-    <crm:P190_has_symbolic_content>sarici</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sarisi</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb282cb611f85687f342d86019312f58fcba613191edb673a7422f406798e9761ed">
-    <crm:P190_has_symbolic_content>siricum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sirikum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1558-inward-256">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Coollen sylke the clowte cont’ 4 pounde £3</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_silk_cb2d43cb514915f2d9a43f1dc95c7ecfac0d25bf3a7f8691af9ec86307aab178a6e"/>
-    <hector:perQuantity rdf:nodeID="commodity_silk_cb28bc21f1889c51a1942539aaf8ec8eb09241a50b2ec3eb2bf6b8f8a96e5c3b794"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 256 (transcribed by Stuart Jenks): 'Coollen sylke the clowte cont’ 4 pounde' £3</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb28b9f1bb0b3cb2214bd36ac5f0eded0905f2fb7a91a9079f81e2a4a041142b6da">
-    <crm:P190_has_symbolic_content>ciricum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sirikum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+    <rdfs:label>ell</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_silk_cb16b357ee393eec2507cc2385190c6198307b927bad780c2001f833c6a1b415f5c">
     <crm:P190_has_symbolic_content>serici</crm:P190_has_symbolic_content>
@@ -298,32 +444,715 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cotton-8">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/caddis">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>cotton_8</rdfs:label>
+    <rdfs:label>caddis</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb21bbf2586a07e961f8384977e5ba07a7c089cbd3c8099ae1987a70d9181e5fb21">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>25s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</hector:valueInPence>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1558-inward-1058">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Silke throwen undyed the pounde conteyninge sixtene ounces 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb385f15205ce72a48e5f09e1917951f5e838970ac1255c5700b40a32f2f7ff4aa6"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb268ae302670667a6a89beb7663a9b38233282378de5f957cc4e0f7cfab7df5c37"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb1e089c34f1e0975f288a6e6ae058e3b0f3e207ebf113291ebce5b0430585568e3"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1058 (transcribed by Stuart Jenks): 'Silke throwen undyed the pounde conteyninge sixtene ounces' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb1dd4c49e0f5e3e8a78e718aa0717529b63a91503b569a2dd187562745e54984ac">
-    <crm:P190_has_symbolic_content>saricum</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_silk_cbc7398783ab9573ede3f89188f2574a8902185c9d940b2cca7721feed88ef82f0">
+    <crm:P190_has_symbolic_content>serici curtum</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sarikum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+    <hector:phoneticKey>serisi kurtum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/button">
+  <rdf:Description rdf:nodeID="commodity_silk_cb230aa13c5d26cc859860c08f7f2bba716cfc9778bfbc861fb97ab305fdb37c1d3">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb2698f34593ef69cfb4a22347c4347db820c2351e0f5db8f4d0b2e84a3c1eae8eb">
+    <crm:P190_has_symbolic_content>silke</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>silkə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1545-inward-730">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Tapistry wythout sylke, caddas or woll the elle 6d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb2a102f8acb3a3b5c0db2e53bb59c545721acdf752b7ff3fe343ab510263add020"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb210d6e5eadee8f735e43353e46d20aa4b57b838633f13446f94eb7380e09cbd0f"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb1410a8f2a271de2a6e234ab2efb73110f093742c6849ca616f990011bc1d22c01"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb21602ceba74d7160685904c603bae95b917fe3694435e124e8888fa12a38431c5"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 730 (transcribed by Stuart Jenks): 'Tapistry wythout sylke, caddas or woll the elle' 6d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1507-none-289">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Sylke called rawe cades the lb 4s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb26dd698e2da2db47ef45980e73f6e9ffdfc0ecf5d698c43dc905ce7b115539d0c"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb1daa2e9a3e7d3064a6a6f7969bd17c523390966e3dadac50fe5f6a9f5b39ab178"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb1e8fe65e97e390346de98e19b99101c8c0dd5d7e7f086a6444e4f05890f0ca1e7"/>
+    <hector:sourceText>Book of Rates 1507, line 289 (transcribed by Stuart Jenks): 'Sylke called rawe cades the lb' 4s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb260d55974234f974111719a4ad5e858ae62f60b8b7d27a06a36493463857f803b">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>button</rdfs:label>
+    <rdfs:label>Granado</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+  <rdf:Description rdf:nodeID="commodity_silk_cb2bbcada9a0461389211037c07515541141cd96b1fde4273666507df51b743a909">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1545-inward-640">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Sylke rawe and died the pounde 8s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb3202bea85f91ac1355a8cf7663e778cb18dbafc76749e099b1f0e215d5dd03dc1"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb26ddc7f19f3087645b8ab597a94c0322e9870e84961b8200ac75b666b3eced51c"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb159d275f49d8e75ac6b6087b81a56f59a5cc5d2303c25f11404700708180b9157"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb1f6d36a5f55d3cd7cf6e8ee514304806ea9ee703f0bc93b899e95574d96137484"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 640 (transcribed by Stuart Jenks): 'Sylke rawe and died the pounde' 8s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1545-inward-727">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Tapistry wyth sylke the ell 20d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb37bbd5241ac97b8397ba55e011b8e7a66abc1505b487defd915ec0a8f312c7c17"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb28c654d24010b0dfc013bebbfa5a8ee1955f150c8426ad07cd3d6b67564fd14b7"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb1499c597c020f8bee9ba4e9da935751735b86d3b6be27b10e81e829639a42a501"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 727 (transcribed by Stuart Jenks): 'Tapistry wyth sylke the ell' 20d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1ce425b107b9a896de724c3904c4aad8aeb40d236ebad56286f1a27cee0faae62">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>dye</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/silk">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>silk (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1aefce730abc418cc92d0b6e4c5de173579f70dcd084b06d4005775957d67cee5">
+    <crm:P190_has_symbolic_content>cirici</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sirisi</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb21eb4f41a94d9bf8f54df509d1a566eede34819c2f7f6c1f5678024797d0c2e45">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/paper"/>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb2aa29b88660dd4579f5d8474c8ba83ff61c2542ae9ca5ec091d84678bb3d0025d">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1545-inward-639">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Sylke throwne the lb 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb3cf58a2eb8fcf8121976b5cd5557a5035187add9c7255fd8cc11cd8d7d45e6336"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb2470204c3298cb9ba2dac4b8fa0f7e87837090ae7c87aa455bd61086c767334c7"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb145c6ab761cf7d965c3b40d5ede3ff519072bf3fdcd94005daabdf3c5b25efa19"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 639 (transcribed by Stuart Jenks): 'Sylke throwne the lb' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb2159aeada87c2858eb4f1672ced6afb3ab5d057f760d05051de85412bc72bc58f">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb29de13e8303b5d808b1b08c39accb76cc76e7007e1164d016f84226a43cadd803">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb36a4edeea9150bd392c5135561bd268e19e39b0c004b7442ea06688438e4d1e15">
+    <crm:P190_has_symbolic_content>sericum serisum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>serikum serisum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb2ab99f69e4b160fd6a0cfb726b97eed06453c14d40bb7c7453b8d27d7c5c76539">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>16s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1558-inward-302">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Crippen sleaves with sylke the payre 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb28d6fc1f2cd7cb56fbaf55e8a5177238f0594de4f7bc493931365ed27147f6f11"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb2736ef752637b79d144689cc32e98b58f9752015c25b89cc5838a36e198655bc3"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb177be3e4ec3d9879df945b7dbc66e2224d82c917f4a0e4586f0feb19e025137f7"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 302 (transcribed by Stuart Jenks): 'Crippen sleaves with sylke the payre' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1558-inward-950">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Sylke throme the pounde cont’ 16 oz 15s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb205eafc07a104ab738303b54d30731d94f47873119c3dc768bf9cb66fb112755d"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb1d65db76218993aa29d16457b12edb61df33c839711f544abbc9f7afc06400336"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb1d535fc1bb46bbf51a870fc9cdfad16fb282fb11ae6ffeaf7699d225786e3af58"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 950 (transcribed by Stuart Jenks): 'Sylke throme the pounde cont’ 16 oz' 15s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1a972a749dc3aefe403369c7d15318c1c2067d95e896e52e91f0a0091f8903a2c">
+    <crm:P190_has_symbolic_content>cirici curtum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sirisi kurtum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1558-inward-1055">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Silke of Granado coloured the pounde conteynynge sixtene ounces 26s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb2b806a22f244f7d787c920a5ee19bd798a73988bab8d3a7163143291e90877e2e"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb2aa29b88660dd4579f5d8474c8ba83ff61c2542ae9ca5ec091d84678bb3d0025d"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb1ce425b107b9a896de724c3904c4aad8aeb40d236ebad56286f1a27cee0faae62"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb2628a8e8fc4c65f9a0c51c6ccbc6dfcbcdf93aabf7f5ed1621f779918cc5ff15c"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1055 (transcribed by Stuart Jenks): 'Silke of Granado coloured the pounde conteynynge sixtene ounces' 26s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb177be3e4ec3d9879df945b7dbc66e2224d82c917f4a0e4586f0feb19e025137f7">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Crippen sleaves</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb21598ef57267b276a44a2d40854bb4d303141866cdc10f38726871c5fad04d8a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb2460bfb3bb83f9da394860635b84b6405b1f96f5dd008b8dd6177426a8d7e6f0c">
+    <crm:P190_has_symbolic_content>cericum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>serikum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb21df0a7af64abbe095061c56a3c41199381c13817584ff7d4ae0326b6a504816b">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1558-inward-956">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Sylke voc’ nobbes of sylke the pounde 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb2bbcada9a0461389211037c07515541141cd96b1fde4273666507df51b743a909"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb26121a3f8b22f0f4f77bddb9e7b3e749ae849a07d9fed1c29c980ec3e3df5a592"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb2981186c36a8e1e3e3bcc0204dff86f2440ad72f011b8bc9e679930bdd9b8093a"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 956 (transcribed by Stuart Jenks): 'Sylke voc’ nobbes of sylke the pounde' 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb2fcca17dde8c8222e3076134d5a2d83002fa47b6e12157386f3cb00da0090ee32">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1558-inward-954">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Sylke voc’ Parrys sylke the pounde cont’ 16 oz 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb2b099339faac14c527242bc0b4227ade48baac5c6d7afe79515267493280e6a98"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb21eb4f41a94d9bf8f54df509d1a566eede34819c2f7f6c1f5678024797d0c2e45"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb1d37a6002891aef89dc5d5f6bda4eca2f23aef7e5c66aff86bc517d83d805543c"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 954 (transcribed by Stuart Jenks): 'Sylke voc’ Parrys sylke the pounde cont’ 16 oz' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/say">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>say</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb2628a8e8fc4c65f9a0c51c6ccbc6dfcbcdf93aabf7f5ed1621f779918cc5ff15c">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Granado</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb2412dc8e612fdc4edb73a630698b4846554d3532caf99d3ee11ecf15b61bfaba5">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb247468f2bfaf02b31d7f94d247bad82623e76ebe16d4dee3969862c74b19ab05c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Cologne</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q365"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1e8fe65e97e390346de98e19b99101c8c0dd5d7e7f086a6444e4f05890f0ca1e7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>raw</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300221288"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb282cb611f85687f342d86019312f58fcba613191edb673a7422f406798e9761ed">
+    <crm:P190_has_symbolic_content>siricum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sirikum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb2d43cb514915f2d9a43f1dc95c7ecfac0d25bf3a7f8691af9ec86307aab178a6e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£3</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">720</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb2155cf1e4a321a4c3be378d6257b886309b9a7eb35140937b0964fad8766a8c17">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300130920">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>black (color)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1558-inward-300">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Crippen parttelettes with sylke the dossen £4</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb33ae76b1493349724cbc62fe964d7cf2dd76d29d998a303c3677266dfc4239693"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb1b74e313a1854ed1ed62dda0b07d8d3e04c7a06baeab41d9a315cdae6d83a8cd2"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb1e3c3f3468e492a47a5f34ab2702b71f5c21a1ff9bfdc8f569e8985b9baf42d06"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 300 (transcribed by Stuart Jenks): 'Crippen parttelettes with sylke the dossen' £4</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb236e6296b9b0fd8f26693f9521a72353d954f712952f8f4d2616c044a15ecb904">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Collaine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb145c6ab761cf7d965c3b40d5ede3ff519072bf3fdcd94005daabdf3c5b25efa19">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>throwne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb16815ab419e08f5489adfc2620168f4c5efa7d3d2577b7cf90826bb8351a534d6">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>chamblet</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1d65db76218993aa29d16457b12edb61df33c839711f544abbc9f7afc06400336">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1be53bad824c29b647f3afbf1f633c777a91b57079de32300f523c09ddac065c0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1558-inward-951">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Sylke rawe and died the pounde cont’ 16 oz 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb2bf11b5fb2dd7b5f7b5f4ef1f35693966593adc24b9732b04ae3679d988638e58"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb1f1b7a59717c3ed321269674b890f9e9cec46511b0ad1eb1a12c0df4ba1e01b22"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb1a6fc7b9a1daad9617d3dc845bcc08036e54631192e5ea84596a3907baac54d5f"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb243fd7004d5f0313208c62edee56e0b0b326ecf27fe01f2bb30c8e0c128cd308c"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 951 (transcribed by Stuart Jenks): 'Sylke rawe and died the pounde cont’ 16 oz' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1558-inward-256">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Coollen sylke the clowte cont’ 4 pounde £3</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb2d43cb514915f2d9a43f1dc95c7ecfac0d25bf3a7f8691af9ec86307aab178a6e"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb28bc21f1889c51a1942539aaf8ec8eb09241a50b2ec3eb2bf6b8f8a96e5c3b794"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb247468f2bfaf02b31d7f94d247bad82623e76ebe16d4dee3969862c74b19ab05c"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 256 (transcribed by Stuart Jenks): 'Coollen sylke the clowte cont’ 4 pounde' £3</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb3147f4a3167c292cc63b1fb85f80f8b636ee3395be9068717eedfaf790f4811e8">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb299c23c325c306466a9e88199ea8622a0bcea274c31f028abb44cc24fa2c72311">
+    <crm:P190_has_symbolic_content>sericum serisi</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>serikum serisi</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb243fd7004d5f0313208c62edee56e0b0b326ecf27fe01f2bb30c8e0c128cd308c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>raw</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300221288"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/yard">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>yard</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1507-none-288">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Sylke called rawe sylke of the best the lb 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb2ed6f6ad69414d802a41e6579f7f19d8fd115184d7007cbaf16f1f1bb0c572578"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb1dfd28cfb8ed17d898605bf4eb1aa9948c4e88860fca58c4a7218bd0623afa045"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb228943dbeb5f989f3e10cc712e41fcc5414404e1bc4f400136f1ad01f579debd4"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb234eb490aa0110fd8aad59f076d8f0b786fcf72ead7de2d8d229b20581d5d4a86"/>
+    <hector:sourceText>Book of Rates 1507, line 288 (transcribed by Stuart Jenks): 'Sylke called rawe sylke of the best the lb' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb29a3b74ed73a0332686772bc0bca69e84b4ec7e958e41ad8afb3ae61b2b9eeb3e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1d37a6002891aef89dc5d5f6bda4eca2f23aef7e5c66aff86bc517d83d805543c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Paris</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q90"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1558-inward-872">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Pomett lace of sylke the grosse 8s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb322c2afa1fe008866a490d51a8e27d28e5c620f57a6d634cb36da0692b9bcf8d3"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb153371ef5537cc4c2a53f435bdb64020ef57a2db662741ea7b2149ee034d69494"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb17dcaa100e1722f016d4e9e8bb42aef219be2f0f64aebc4a7dc6afe37bcdaa94d"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 872 (transcribed by Stuart Jenks): 'Pomett lace of sylke the grosse' 8s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1558-inward-1070">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Sylke chamblet the yarde 4s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb1d4485151a828793d5b068a1a556c99b1218a09319be82c49155d5d78c034d54e"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb29781e262b90be81b1e3226498d26e0c4d5ccdad9be486734eed9cf167d01928b"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb16815ab419e08f5489adfc2620168f4c5efa7d3d2577b7cf90826bb8351a534d6"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1070 (transcribed by Stuart Jenks): 'Sylke chamblet the yarde' 4s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb398137f947b38434faf2008383596286408eebe77111aa5c1700d050fe0434e00">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb215a05824210314eefe120d6a4f4ed43a4dc0ece4ad43371f439c0b61922f217a">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb37e1a5c7e5f1a534337e145a020ff77801024fb0e77b5a1d50df184ffb2b93727">
+    <crm:P190_has_symbolic_content>cerci</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sersi</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1d4485151a828793d5b068a1a556c99b1218a09319be82c49155d5d78c034d54e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1a6fc7b9a1daad9617d3dc845bcc08036e54631192e5ea84596a3907baac54d5f">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>dye</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1507-none-291">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Sylke called Callon sylke the lb. 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb398137f947b38434faf2008383596286408eebe77111aa5c1700d050fe0434e00"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb2a8e8cba40d5ea620df5de85727cb99a1e8b4e75e7f32398e527ead1724cd2f5d"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb21bbe97f4cb9506617312f8b882e5bcce13a74b90e2b5385181c56c0c40e3d954"/>
+    <hector:sourceText>Book of Rates 1507, line 291 (transcribed by Stuart Jenks): 'Sylke called Callon sylke the lb.' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1658f3164ad68517edffd754dbb97e84123424bb0922b970f56503b57f95067d9">
+    <crm:P190_has_symbolic_content>sirico</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>siriko</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1530ceacb92510b836da1ce07ccd400628bc2cfcfa6e99cddc4d036f60c93df66">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>saies</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb385f15205ce72a48e5f09e1917951f5e838970ac1255c5700b40a32f2f7ff4aa6">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb152cfc0f45f209ac2f1ce7c5f8d2753d4f61956c04f978a43e877b02b5599d015">
+    <crm:P190_has_symbolic_content>ciricum curtum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sirikum kurtum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1558-inward-955">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Sylke voc’ sattyn sylke the pounde cont’ 16 oz. 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb38c0adbeb7af94c34c2d641853f3c616fc16bd48d7a333c3b511a68488778e7a2"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb203013484b42b6b2449f27794f158c640deb187c0e17554b80b1a0c03cd8c3a84"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb20803244c15a3b8facaa39159852dc376d3fd569aeb1d2baf0a9ef53a099a3589"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 955 (transcribed by Stuart Jenks): 'Sylke voc’ sattyn sylke the pounde cont’ 16 oz.' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/camlet">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>camlet</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb21bbe97f4cb9506617312f8b882e5bcce13a74b90e2b5385181c56c0c40e3d954">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Callon</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1dfd28cfb8ed17d898605bf4eb1aa9948c4e88860fca58c4a7218bd0623afa045">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pound">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pound</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb151da688cd613a87eac94cbcd32b860ea40f47eedd57b5de746e8345911f6fc18">
+    <crm:P190_has_symbolic_content>sericum curtum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>serikum kurtum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb26121a3f8b22f0f4f77bddb9e7b3e749ae849a07d9fed1c29c980ec3e3df5a592">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb21602ceba74d7160685904c603bae95b917fe3694435e124e8888fa12a38431c5">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Tapistry wythout</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb2bf11b5fb2dd7b5f7b5f4ef1f35693966593adc24b9732b04ae3679d988638e58">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300221288">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>unfinished</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb2b099339faac14c527242bc0b4227ade48baac5c6d7afe79515267493280e6a98">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb2a6c5239138ec59044320e4aba8fae389fc467f563322798870e6137b5848a774">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb2922178faf61c1f5226a102bb236a93938370068d50496ca23ae01675cba9c3b0">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>black</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300130920"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb2611f950f447524f41971f9e289e94f7700b4edfbe06800a8222578775eb6112e">
+    <crm:P190_has_symbolic_content>cereci</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>seresi</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pair">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pair</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hat">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>hat</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1e089c34f1e0975f288a6e6ae058e3b0f3e207ebf113291ebce5b0430585568e3">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>throwen undyed</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb184dda5a69ed1ea8194251409a25b5f58e4955270a9b486a23fbee4adc130ae5f">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>twentie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1224e2694603c189e3df6d5b8720d45f5e139c5de6eaf8b13f33a9dd69078ee62">
+    <crm:P190_has_symbolic_content>sericum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>serikum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb191e0d5528d74b0d0ff7fea0b63326bbd284adfdcb607040b5383b8c6200ddc1a">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>twelve</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cbef14c1bc5f9bc9f80c40ee6d8394e6492dfdede8f692bac63c2d975a29bc7b61">
+    <crm:P190_has_symbolic_content>seda</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>seda</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb390c36ed1190e05dda68ddf588324f5d3c19e0f4c948805a7550d90225fb9a05a">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1ae715341fa9023dce8ed12e65d8e95c05eda826c0999d1018d52ffbc39bba40a">
+    <crm:P190_has_symbolic_content>sylk</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>silk</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1d535fc1bb46bbf51a870fc9cdfad16fb282fb11ae6ffeaf7699d225786e3af58">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>thrum</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb251fe24a2c87ae7225d59ab143b7f53bdb139d5107092c9342512cd3c51452687">
+    <crm:P190_has_symbolic_content>sylke</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>silkə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb17dcaa100e1722f016d4e9e8bb42aef219be2f0f64aebc4a7dc6afe37bcdaa94d">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Pomett lace</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb205b214d191abb8e1f568fe70c593bfff9021e4e61955034033ca95e8e4be44e6">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>ferret</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1558-inward-1057">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Silke vocat’ ferret silke the pounde 8s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb37feb0d9222b5a29ede7c3eb5208004baf2d9e22031bf579656c08f8e7c072402"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb226ee66f6b3ce5beddd5008d61a874b7fb4f2fdffef905481bbd3858a9d5ffcc5"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb205b214d191abb8e1f568fe70c593bfff9021e4e61955034033ca95e8e4be44e6"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1057 (transcribed by Stuart Jenks): 'Silke vocat’ ferret silke the pounde' 8s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb28f0de908bcd9097c33984e6b07a7ec5e0ccd1677b847c161b7070eae37c907c6">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>caule</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb27f91e596f7eb9a9c66a1773522049d98bf0994d0df23e464af3e031243df45e6">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>5s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb37bbd5241ac97b8397ba55e011b8e7a66abc1505b487defd915ec0a8f312c7c17">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb290be90e0375e9114cc9bc82e25f1c1eaca11e0a937c7c68dc0a86013100977f5">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Cologne</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q365"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb2a8e8cba40d5ea620df5de85727cb99a1e8b4e75e7f32398e527ead1724cd2f5d">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1ef6c550c49070debcbef654b1bfb2fc173ba483feb99ceb8abc8025bad2c3fa2">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>twelve</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1daa2e9a3e7d3064a6a6f7969bd17c523390966e3dadac50fe5f6a9f5b39ab178">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb19ba60d1f4d2d809989a285b06b48c77e6378fa1d3c5c9dba03801e61b030e9d2">
+    <crm:P190_has_symbolic_content>cerici</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>serisi</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1499c597c020f8bee9ba4e9da935751735b86d3b6be27b10e81e829639a42a501">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Tapistry</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1753969577a0e2a1981c740bea4baa0f8e22f2c81e8b3219f280830d3587a19d6">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>53s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">640</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>gross</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1e3c3f3468e492a47a5f34ab2702b71f5c21a1ff9bfdc8f569e8985b9baf42d06">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Crippen parttelettes</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300014072">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
@@ -335,6 +1164,74 @@
     <hector:lsd>£4</hector:lsd>
     <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">960</hector:valueInPence>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb39f34abea9a679b95c792a9856d9c02a3a1489498bf64c0f4b644906668a1b976">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb38c0adbeb7af94c34c2d641853f3c616fc16bd48d7a333c3b511a68488778e7a2">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1f62f8e5d71a413d7a70df313e5853de71b63a7a1d2fe4809c734cf9839a65efc">
+    <crm:P190_has_symbolic_content>sarici</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sarisi</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1b74e313a1854ed1ed62dda0b07d8d3e04c7a06baeab41d9a315cdae6d83a8cd2">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb3204d411f0091ffb80bdf3a877ad80a01475fe2d26c97ca45c8d01ed8317dbbd9">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>5s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cotton-8">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>cotton_8</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb28c654d24010b0dfc013bebbfa5a8ee1955f150c8426ad07cd3d6b67564fd14b7">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/ell"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb260d9f594fc60addca9602fcd8ac38a26aba5acd022d4dd86f7e1af8a47617443">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>sayes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb228943dbeb5f989f3e10cc712e41fcc5414404e1bc4f400136f1ad01f579debd4">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>best</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1545-inward-704">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Sylke sayes the yarde 5s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_silk_cb3204d411f0091ffb80bdf3a877ad80a01475fe2d26c97ca45c8d01ed8317dbbd9"/>
+    <hector:perQuantity rdf:nodeID="commodity_silk_cb29a3b74ed73a0332686772bc0bca69e84b4ec7e958e41ad8afb3ae61b2b9eeb3e"/>
+    <hector:qualifier rdf:nodeID="commodity_silk_cb260d9f594fc60addca9602fcd8ac38a26aba5acd022d4dd86f7e1af8a47617443"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 704 (transcribed by Stuart Jenks): 'Sylke sayes the yarde' 5s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb191d2ff6914a6108641cebfea18416bf79729571f0eb6cff8d6bc2785dddff52d">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>short</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/caul">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>caul</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_silk_cb114211ec53786b030e023d2ffed21c3ee74373b4f00a7eb544b39e6b0efd98913">
     <crm:P190_has_symbolic_content>sedae</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -343,133 +1240,106 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb1224e2694603c189e3df6d5b8720d45f5e139c5de6eaf8b13f33a9dd69078ee62">
-    <crm:P190_has_symbolic_content>sericum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>serikum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_silk_cb29781e262b90be81b1e3226498d26e0c4d5ccdad9be486734eed9cf167d01928b">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb1e282facce38c62515eb05ae43f78261df13f7e908b4bfc6d906c44db879b3dcb">
-    <crm:P190_has_symbolic_content>silk, the raw or processed fibre produced by the silkworm; includes long- and short-stapled, raw, thrown, dyed, and regionally-named silks (Messina, Cologne, Venice, Granada, Talish, etc.)</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/ferret">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/nubs-of-silk">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>ferret</rdfs:label>
+    <rdfs:label>nubs of silk</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb2d43cb514915f2d9a43f1dc95c7ecfac0d25bf3a7f8691af9ec86307aab178a6e">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>£3</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">720</hector:valueInPence>
+  <rdf:Description rdf:nodeID="commodity_silk_cb234eb490aa0110fd8aad59f076d8f0b786fcf72ead7de2d8d229b20581d5d4a86">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>raw</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300221288"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/taffeta">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>taffeta</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb251fe24a2c87ae7225d59ab143b7f53bdb139d5107092c9342512cd3c51452687">
-    <crm:P190_has_symbolic_content>sylke</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_silk_cb20803244c15a3b8facaa39159852dc376d3fd569aeb1d2baf0a9ef53a099a3589">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>silkə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/silk">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>silk (London Customs Accounts glossary)</rdfs:label>
+    <rdfs:label>sattyn</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/hat">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>hat</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb2460bfb3bb83f9da394860635b84b6405b1f96f5dd008b8dd6177426a8d7e6f0c">
-    <crm:P190_has_symbolic_content>cericum</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_silk_cb144c50bcb4c39dfb27d000c70b244561498afcea0a47f2957a17fe95fd638b0b1">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>serikum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/caul">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>caul</rdfs:label>
+    <rdfs:label>Sackclothe</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb2736ef752637b79d144689cc32e98b58f9752015c25b89cc5838a36e198655bc3">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pair"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1558-inward-957">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Sylke voc’ caule sylke the paper cont’ 2 lb. 25s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_silk_cb21bbf2586a07e961f8384977e5ba07a7c089cbd3c8099ae1987a70d9181e5fb21"/>
-    <hector:perQuantity rdf:nodeID="commodity_silk_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 957 (transcribed by Stuart Jenks): 'Sylke voc’ caule sylke the paper cont’ 2 lb.' 25s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/say">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/ferret">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>say</rdfs:label>
+    <rdfs:label>ferret</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1558-inward-872">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Pomett lace of sylke the grosse 8s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_silk_cb22ae97faf673466eaa1a73860d5e28144559de4b28e64c3e1fc88282975291046"/>
-    <hector:perQuantity rdf:nodeID="commodity_silk_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 872 (transcribed by Stuart Jenks): 'Pomett lace of sylke the grosse' 8s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_silk_cb37feb0d9222b5a29ede7c3eb5208004baf2d9e22031bf579656c08f8e7c072402">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>8s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">100</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_silk_cb35820ed9c8f2641b18fa67786e15c76e9cb13be39bf1ae953b7bac4d5f24d42ea">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/caddis">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>caddis</rdfs:label>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q365">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Cologne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb241935bc674552ca2c7c98e6cd0ec53445ffbb0c0e2436ec6852500b415bf669d">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q29">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Spain</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/unit/clout">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
     <rdfs:label>clout</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk#rate-1558-inward-302">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Crippen sleaves with sylke the payre 10s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_silk_cb28d6fc1f2cd7cb56fbaf55e8a5177238f0594de4f7bc493931365ed27147f6f11"/>
-    <hector:perQuantity rdf:nodeID="commodity_silk_cb2736ef752637b79d144689cc32e98b58f9752015c25b89cc5838a36e198655bc3"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 302 (transcribed by Stuart Jenks): 'Crippen sleaves with sylke the payre' 10s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_silk_cb1cf91e1ce288e83ceddd3e65726747d7f3b5da87b2fe00a5b5b870a1d0db47fd1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Spain</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q29"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb2cda6ac42441d82508b6c70eb84984fe58aa92bed06dcc39e331fc79a5b162ceb">
-    <crm:P190_has_symbolic_content>cercum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>serkum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_silk_cb26dd698e2da2db47ef45980e73f6e9ffdfc0ecf5d698c43dc905ce7b115539d0c">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_silk_cb22ae97faf673466eaa1a73860d5e28144559de4b28e64c3e1fc88282975291046">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb153371ef5537cc4c2a53f435bdb64020ef57a2db662741ea7b2149ee034d69494">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb332a9fd60130238a28ac08cdbd1e037f538bf9004b64b60375877c5f413ce5bae">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>3s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_silk_cb3202bea85f91ac1355a8cf7663e778cb18dbafc76749e099b1f0e215d5dd03dc1">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
     <hector:lsd>8s</hector:lsd>
     <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/pair">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>pair</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_silk_cb159d275f49d8e75ac6b6087b81a56f59a5cc5d2303c25f11404700708180b9157">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>dye</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>dozen</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q90">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Paris</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

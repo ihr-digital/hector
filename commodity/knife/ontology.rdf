@@ -8,63 +8,6 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_knife_cb1827355a22ed60c1639aa9324f92f99e0bc5f90ef8555a57e6a56d26f122bcb1b">
-    <crm:P190_has_symbolic_content>knyve</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>knivə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_knife_cb116b3aa4d8e4c6cdf5bb17e9420206c15de8dda55f132755690768731b3ca0f0b">
-    <crm:P190_has_symbolic_content>case cum knyves</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kasə kum knivəs</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife#rate-1558-inward-184">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Carvinge knives the case 6s 8d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_knife_cb230aa13c5d26cc859860c08f7f2bba716cfc9778bfbc861fb97ab305fdb37c1d3"/>
-    <hector:perQuantity rdf:nodeID="commodity_knife_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 184 (transcribed by Stuart Jenks): 'Carvinge knives the case' 6s 8d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_knife_cb158a5a049235245070be4353222062dce17acf9b2f4f38f800e7e94cd1940345e">
-    <crm:P190_has_symbolic_content>knive</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>knivə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_knife_cb29af9a7151d7e526ba04e19957a6254ef5eca63c6a9de6b71a551584d746a3b53">
-    <crm:P190_has_symbolic_content>cuttyle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kutilə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_knife_cb2cd5b8cf31d834596a57675b63e25756286f2bf366fec6615b58191d41e7f9ba1">
-    <crm:P190_has_symbolic_content>knyfe</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>knifə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_knife_cbf6d73519740cdc775a7c502d7c4981bbd0dbf119f4e3fd6e0413cc9dae933891">
-    <crm:P190_has_symbolic_content>knyves</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>knivəs</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
     <crm:P1_is_identified_by rdf:nodeID="commodity_knife_cb116b3aa4d8e4c6cdf5bb17e9420206c15de8dda55f132755690768731b3ca0f0b"/>
@@ -93,62 +36,117 @@
     <skos:related rdf:resource="https://w3id.org/hector/commodity/sword-scale"/>
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300024668"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1083</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/knife#rate-1507-none-145"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/knife#rate-1545-inward-163"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/knife#rate-1545-inward-216"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/knife#rate-1545-inward-415"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/knife#rate-1545-inward-416"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/knife#rate-1545-inward-417"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/knife#rate-1545-inward-418"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/knife#rate-1545-inward-419"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/knife#rate-1545-inward-420"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/knife#rate-1545-inward-421"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/knife#rate-1545-inward-426"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/knife#rate-1545-inward-427"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/knife#rate-1558-inward-183"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/knife#rate-1558-inward-184"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/knife#rate-1558-inward-633"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/knife#rate-1558-inward-634"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/knife#rate-1558-inward-635"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/knife#rate-1558-inward-638"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/knife#rate-1558-inward-639"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/knife#rate-1558-inward-640"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/knife#rate-1558-inward-643"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/knife#rate-1558-inward-644"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_knife_cb16be6face383b8b3b3eae53628b77e6fa622655148f56e5c6d1bc37dd9f16f0ba">
-    <crm:P190_has_symbolic_content>knife</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>knifə</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_knife_cb26d0070a4f0ba78b3206c04538f049dd38c7d3eb940c0b3397629bb2d642c2170">
-    <crm:P190_has_symbolic_content>cotellus</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kotelus</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_knife_cb2efedda5ce24e2444ad3fbc1c3f93517999ebd86d295e28335ccb705576a324d3">
-    <crm:P190_has_symbolic_content>cotelli</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>koteli</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_knife_cb269921b6589e87687c0164b5ed545a8aca2e143b40c1eb9620d1a197a33c3f971">
-    <crm:P190_has_symbolic_content>cuttyles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kutiləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife#rate-1545-inward-426">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Knyves called rasures the groce 5s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_knife_cb308dbde615b4b8910a46ba7b7df75f00fcad901097b0f5ae874ff99b036fc2ba2"/>
+    <hector:perQuantity rdf:nodeID="commodity_knife_cb1f2d002ded9fd772776b1d26516ecc67f2fddfa3b002f49161c229cc9fac3ed6d"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb226cf6ba5d9411d5c9e084bfca5b6d13b5bde9d7cd5f282179c1728333209c412"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 426 (transcribed by Stuart Jenks): 'Knyves called rasures the groce' 5s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_knife_cb145c419e9986dc2d84c6f24c552560659e1a26e565313f6e29ba63345c1c31c8e">
     <crm:P190_has_symbolic_content>Cutting instruments consisting of a blade with a sharpened longitudinal edge fixed in a handle, either rigidly as in a table-, carving, or sheath-knife, or with a joint as in a pocket- or clasp-knife. Knives may be used to cut food, especially in serving and eating, as weapons, and for other purposes. The blade may be of steel or another metal or stone, as in the flint knives of early man, or of another material such as ivory or wood (as with a paperknife). The term also refers to tools that are shaped or used as knives, even if the edge is not particularly sharp or actually used for cutting. [Source: Getty AAT]</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_knife_cb226fd67ecb65484d81cce5fc34312da91fa62a2c9eef4c359d940b5c383326e06">
-    <crm:P190_has_symbolic_content>knives</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1be331bcb6eb32b0c77c4a3c2a9b2d3154bc1439098dd316b11d2f6e66a8e0304">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>30s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb2cd5b8cf31d834596a57675b63e25756286f2bf366fec6615b58191d41e7f9ba1">
+    <crm:P190_has_symbolic_content>knyfe</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>knifə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb2c12425b34a87242bb55411ad4b5d5b89569fc9588ba1e12ea009779a896de89f">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>26s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife#rate-1545-inward-420">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Knyves of Collayne the groce 30s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_knife_cb197e09d5693af8df31ae0ed989d1eaaa63c80e8ccad691f2bcb35f438c56795c1"/>
+    <hector:perQuantity rdf:nodeID="commodity_knife_cb1058695dd2c61c0a97ac7d167d362e3c77e07647f6c219c15f30bd2458f94b28c"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb29022713972afaa08a12513ecfe47eeaa7853794e836d213044708df2da6b0c2e"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 420 (transcribed by Stuart Jenks): 'Knyves of Collayne the groce' 30s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/holmose">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>holmose</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife#rate-1558-inward-633">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Knyves paires voc’ Almayne knyves and other course knyves the grosse 30s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_knife_cb1be331bcb6eb32b0c77c4a3c2a9b2d3154bc1439098dd316b11d2f6e66a8e0304"/>
+    <hector:perQuantity rdf:nodeID="commodity_knife_cb153c1853a6519f720ae73589dff4fb22287d4d66bd587ff047b7e7b18a4aa9ce4"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb198ce0d3019413892391b958b6d9ed58f446f3ec304a3d9dc181e7bef41c295b5"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb1a5a09aeaf684613d76220a5a8773e7e7f2c8f5bfa7038c74cefc8cae7885f067"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb20d43657ddac3b708d8edf201ce6617ff93c5dbf7cd18b1251c309cd9b927646f"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 633 (transcribed by Stuart Jenks): 'Knyves paires voc’ Almayne knyves and other course knyves the grosse' 30s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb158a5a049235245070be4353222062dce17acf9b2f4f38f800e7e94cd1940345e">
+    <crm:P190_has_symbolic_content>knive</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>knivə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb26be73817ffb6ebf191fa4825d9f189b52c708017ddfa3f0557e3251754041c1e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cbf6d73519740cdc775a7c502d7c4981bbd0dbf119f4e3fd6e0413cc9dae933891">
+    <crm:P190_has_symbolic_content>knyves</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>knivəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/knife">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>knife (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_knife_cb1ea8b3b5075f5fc4dd9477985f39646f1b8b27b3dad1349a31450f86215c3d407">
     <crm:P190_has_symbolic_content>coultellus</crm:P190_has_symbolic_content>
@@ -157,33 +155,6 @@
     <hector:phoneticKey>kuːltelus</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300024668">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>knives</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_knife_cb1204431917c66716df0da2d882020cf0a6ef12124541481d77443d5541325367e">
-    <crm:P190_has_symbolic_content>cultellorum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kultelorum</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_knife_cb29cf692274ca7664f20f512f9a1180953120044abd3a820292735c3743c2a8dda">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/standard"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_knife_cb230aa13c5d26cc859860c08f7f2bba716cfc9778bfbc861fb97ab305fdb37c1d3">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>6s 8d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_knife_cb2d262677c8dbdabfbfe416e43ab8c5a44e84c14d87a1f2dab469a1da103bc8976">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>5s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife#rate-1545-inward-421">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
@@ -194,37 +165,177 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_knife_cb31ce5274f83625bcb67b8ccde2a8a722efd20b7c24a51d494f66f554f5aedf54c">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>3s 4d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/pen-knife">
+  <rdf:Description rdf:nodeID="commodity_knife_cb1e59663a580a3d0d5f3695c4d1a3e3875058cbd2c4869d239846ef339216a72c7">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>pen knife</rdfs:label>
+    <rdfs:label>carvynge</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_knife_cb28a8614cdb062b7323410df11b31dbbbe1c57d2d83b8ae96d865a46a4f02c7055">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/sword-scale">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>sword scale</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb23db6cfed62dc201719c8e4d0ebba57f15a91a02c60ddac9162b765e1e6b8bd7a">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>3s 4d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
+    <hector:lsd>30s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/standard">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>standard</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_knife_cb147517081f3576c363fe56fcbe3c8a446aea7511ee8225f3b69d9cd411146e902">
-    <crm:P190_has_symbolic_content>cultelli</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_knife_cb29af9a7151d7e526ba04e19957a6254ef5eca63c6a9de6b71a551584d746a3b53">
+    <crm:P190_has_symbolic_content>cuttyle</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kulteli</hector:phoneticKey>
+    <hector:phoneticKey>kutilə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb2d262677c8dbdabfbfe416e43ab8c5a44e84c14d87a1f2dab469a1da103bc8976">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>5s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1827355a22ed60c1639aa9324f92f99e0bc5f90ef8555a57e6a56d26f122bcb1b">
+    <crm:P190_has_symbolic_content>knyve</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>knivə</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife#rate-1558-inward-634">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Knyves paires voc’ Frenche knyves course the grosse 30s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_knife_cb23db6cfed62dc201719c8e4d0ebba57f15a91a02c60ddac9162b765e1e6b8bd7a"/>
+    <hector:perQuantity rdf:nodeID="commodity_knife_cb105fd5769eff168f6fb30a1107af053028cf436fd18b97e29205e52c5f983c293"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb17ad18b5776954a62d18744d318cb7d84d814e5160132a8ef1354666b474c3756"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb24edf9cc830377bfd79c5d2333a1442f68ce0e61d44392fb8ede311c38651c50c"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 634 (transcribed by Stuart Jenks): 'Knyves paires voc’ Frenche knyves course the grosse' 30s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife#rate-1558-inward-644">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Knives fyne with vellet shethes the grosse £5</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_knife_cb23b6483ed9386c156d5c511a42cb9aec53307627dca0d79c28caeb36dd679091e"/>
+    <hector:perQuantity rdf:nodeID="commodity_knife_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb190db1bda41533dda4bdb35c6a1659648a14850c206f6cd8bc845557d252727be"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cbfc7bb53c859ba0c2fa0a2ee59d2bfc8e9b2d69430b217b0e666b470abaa4eff9"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cbfcd3ae64bb685021223d68cc575a25308623ddd4bd674e65712b77c956c28a4e"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 644 (transcribed by Stuart Jenks): 'Knives fyne with vellet shethes the grosse' £5</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb2661e42608808141b11109d59bc3a3597afacd60decb79ac1eff292909908a1b1">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>guilt</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb16a0c5f1b97f4c40d16646ac08149cbf59ee5c9ae25d003da7c1e707750de800b">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb17da197f76afea0e136faeaa75df5fbdb84c49c353a9cb0f46d60c92b2a2f1705">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife#rate-1558-inward-184">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Carvinge knives the case 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_knife_cb26be73817ffb6ebf191fa4825d9f189b52c708017ddfa3f0557e3251754041c1e"/>
+    <hector:perQuantity rdf:nodeID="commodity_knife_cb202ffd8e95d526a750b37d991581e99bc62437f44a566d769f4198b960b2e6f04"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb1746479245b1b157860cc0b07b6e1483462a13f75d31051f3070d10a596166199"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 184 (transcribed by Stuart Jenks): 'Carvinge knives the case' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1795e20392c478f37ddc0b8ad77c87b04f629b28bb6bbf4992c8ff8a9d61e6759">
+    <crm:P190_has_symbolic_content>cultelx</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kultelks</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife#rate-1558-inward-635">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Knyves paires voc’ Cullen knives the grosse £3 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_knife_cb2b1f634353f80a181d554f08b7928dd897a09c8df0ba22a546494de4296c18146"/>
+    <hector:perQuantity rdf:nodeID="commodity_knife_cb1475109987a24617a01cc354febee7665bff36ce3537b281b43a42d87066916ab"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb1e73218524bf2c1c0177d4a322d0171ec741ee5656a820aeff506fa343678ab5c"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb24496f2916b5b160142df0cead6fe2c90b70fb256837f29a821ed9eb070a9d393"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 635 (transcribed by Stuart Jenks): 'Knyves paires voc’ Cullen knives the grosse' £3 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife#rate-1558-inward-638">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Knyves voc’ penknyves the grosse 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_knife_cb3607c69dbe397897fa3e790dfc1fc86afdbfe68889c827fb30b0c9bb114588788"/>
+    <hector:perQuantity rdf:nodeID="commodity_knife_cb16a0c5f1b97f4c40d16646ac08149cbf59ee5c9ae25d003da7c1e707750de800b"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb1b72ef5820fb6ed592427e1f54889d3e4fb608a64543828d9c8bf5e3ca11ac782"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 638 (transcribed by Stuart Jenks): 'Knyves voc’ penknyves the grosse' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb26d0070a4f0ba78b3206c04538f049dd38c7d3eb940c0b3397629bb2d642c2170">
+    <crm:P190_has_symbolic_content>cotellus</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kotelus</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb24496f2916b5b160142df0cead6fe2c90b70fb256837f29a821ed9eb070a9d393">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Cologne</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q365"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife#rate-1545-inward-427">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Knyves called swerd blades the dossen 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_knife_cb2b72c8a913dc4b8128c2c6a40f4bc707f11ecf91bc529efec0800ace656954fc4"/>
+    <hector:perQuantity rdf:nodeID="commodity_knife_cb1eddffca6a7e71d207c5b571309361339268416eafe1c2a439d1b8ef684a9108e"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb1586dbe8e39de6a733a9e05703eefb97cc2f77e4c03fad07e7d686bdc324c4dc9"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb1c0d111e0f2aa53768dc1aa9bfc3639316e6edc3b6958f8dd95ba27a7ff0076dd"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 427 (transcribed by Stuart Jenks): 'Knyves called swerd blades the dossen' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife#rate-1545-inward-417">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Knyves of Almayne the groce 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_knife_cb34588125eb181ab7ab50eeab15a555a71123df101631b71117400b9c3ec5481f4"/>
+    <hector:perQuantity rdf:nodeID="commodity_knife_cb16ce1761870a89b98c4f40a04dbb1d191a4b643b6063d1ef1e52c9feb44b31b7e"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb24f27d31e9c1310734515bece34a1bf3aa14524b34d8b1e59356a6f8621652774"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 417 (transcribed by Stuart Jenks): 'Knyves of Almayne the groce' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1e2c7a6e012f33176b5e54735fe870ee730dcb9b15bcdb87865f4f60b7cae3ff3">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife#rate-1545-inward-419">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Knyves of Fraunce cours the groce 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_knife_cb29926fb7859b84291003109b1a4544e633f72a4317751e88dd900f0e944caa229"/>
+    <hector:perQuantity rdf:nodeID="commodity_knife_cb17da197f76afea0e136faeaa75df5fbdb84c49c353a9cb0f46d60c92b2a2f1705"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb18f880b887b7f97ad82c70ec9b6414d57dad531732760fefaba45cab46f8d3eb8"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb263961cf93521c9482b059c29d78a12c98fa1327a6a6785c494d4760cae92cc6e"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 419 (transcribed by Stuart Jenks): 'Knyves of Fraunce cours the groce' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife#rate-1545-inward-416">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Knyves called carvynge knyves the cace 3s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_knife_cb28a8614cdb062b7323410df11b31dbbbe1c57d2d83b8ae96d865a46a4f02c7055"/>
+    <hector:perQuantity rdf:nodeID="commodity_knife_cb227094ec99d8b38c866855aed99ead78784555635998045393f53ba8ccc22853f"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb1e59663a580a3d0d5f3695c4d1a3e3875058cbd2c4869d239846ef339216a72c7"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 416 (transcribed by Stuart Jenks): 'Knyves called carvynge knyves the cace' 3s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_knife_cb18f333a8454ab34f4d0a60adab1313290ee62ec2af161e5492b8cf00d062f45fc">
     <crm:P190_has_symbolic_content>cultellus</crm:P190_has_symbolic_content>
@@ -234,33 +345,11 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_knife_cb1795e20392c478f37ddc0b8ad77c87b04f629b28bb6bbf4992c8ff8a9d61e6759">
-    <crm:P190_has_symbolic_content>cultelx</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kultelks</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/knife">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>knife (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/holmose">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>holmose</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_knife_cb227094ec99d8b38c866855aed99ead78784555635998045393f53ba8ccc22853f">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/case"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife#rate-1545-inward-416">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Knyves called carvynge knyves the cace 3s 4d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_knife_cb28a8614cdb062b7323410df11b31dbbbe1c57d2d83b8ae96d865a46a4f02c7055"/>
-    <hector:perQuantity rdf:nodeID="commodity_knife_cb227094ec99d8b38c866855aed99ead78784555635998045393f53ba8ccc22853f"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 416 (transcribed by Stuart Jenks): 'Knyves called carvynge knyves the cace' 3s 4d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_knife_cb36a8593ff2fed32cb37e5c15c407f1f906f8f27b21bbcedecc7dd3fe7f088a106">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_knife_cb27b981175e3e0b240b9b9a47dbd6744d6ec814f214970c45dd7852eeea590695c">
     <crm:P190_has_symbolic_content>coultelli</crm:P190_has_symbolic_content>
@@ -270,31 +359,538 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_knife_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/case"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  <rdf:Description rdf:nodeID="commodity_knife_cb264a4de7460240e0f9a38c92a840c971f7212b5f1d007f4ecb6ce2a8d923528d9">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>velvet</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300133711"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife#rate-1545-inward-216">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife#rate-1558-inward-639">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Carvinge knyves the cace 3s 4d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_knife_cb31ce5274f83625bcb67b8ccde2a8a722efd20b7c24a51d494f66f554f5aedf54c"/>
-    <hector:perQuantity rdf:nodeID="commodity_knife_cb1f96e55399c92e3ec9897439a89bbe94971e26dad77f9bda16bcfbc6c72c3fa28"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 216 (transcribed by Stuart Jenks): 'Carvinge knyves the cace' 3s 4d</hector:sourceText>
+    <rdfs:label>1558 inward: Knives voc’ stockes with knives course ungilte þe dosen 26s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_knife_cb2c12425b34a87242bb55411ad4b5d5b89569fc9588ba1e12ea009779a896de89f"/>
+    <hector:perQuantity rdf:nodeID="commodity_knife_cb1e2c7a6e012f33176b5e54735fe870ee730dcb9b15bcdb87865f4f60b7cae3ff3"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb1d29292cb04f237118bb829b86b523f8c05f21226617aa017145f1904d64ba2e8"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb1d5047f4d6affea8e8e8546407a658b2ed7d738c9b28faf1e1c29ace05b54dae7"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb206c0f721138a1786c3c4c97161aa9ecda5732f5f1e18f485687bc7933c71072b"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 639 (transcribed by Stuart Jenks): 'Knives voc’ stockes with knives course ungilte þe dosen' 26s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1d5047f4d6affea8e8e8546407a658b2ed7d738c9b28faf1e1c29ace05b54dae7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>coarse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife#rate-1558-inward-643">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Knives with vellet shethes course for children the grosse 30s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_knife_cb1e52ed64d3428ccfbc05e61c31758be6697ab00f3e72177dadec731f22b3e6f71"/>
+    <hector:perQuantity rdf:nodeID="commodity_knife_cb10f04c6e3a86b9198ede24f25c34bd5e0fec227493782a9ed4097c177fd8ea7d6"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb1d04577d6a46c70f84867c2497fd2fd656bf7ce72d432a26f54f41c1b27b2f114"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb1dcb122ecdce482c0d36f4bccf04302d2fe2a9eb25dd7c8be76cc547612e17a6f"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb1e2ae246ad582aefaacc8bbe140f3daab797940e0a8968f97c9970ecf40ade3e4"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb264a4de7460240e0f9a38c92a840c971f7212b5f1d007f4ecb6ce2a8d923528d9"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 643 (transcribed by Stuart Jenks): 'Knives with vellet shethes course for children the grosse' 30s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb28a8614cdb062b7323410df11b31dbbbe1c57d2d83b8ae96d865a46a4f02c7055">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>3s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife#rate-1545-inward-415">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Knyves called carvynge knyves the dossen 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_knife_cb3235653530bdda086b0e7eb4bf6d9df708b6b11642422580db66cabc4ead7f05c"/>
+    <hector:perQuantity rdf:nodeID="commodity_knife_cb1ba6f9c4f015b51b4437e413b1b995e0475021576f1b6b8b9026fd9bd2223f76e"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb1e4999506c10a9be76250caa29f3bcd15cf000df8bd6d9dba5864a9ae484ae95d"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 415 (transcribed by Stuart Jenks): 'Knyves called carvynge knyves the dossen' 20s</hector:sourceText>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1a5a09aeaf684613d76220a5a8773e7e7f2c8f5bfa7038c74cefc8cae7885f067">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>coarse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb16be6face383b8b3b3eae53628b77e6fa622655148f56e5c6d1bc37dd9f16f0ba">
+    <crm:P190_has_symbolic_content>knife</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>knifə</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb32eb05b6d63816d28482d5aa2ac57243a3ecb45d97ca300dcfbdda4d32be6044b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_knife_cb1f96e55399c92e3ec9897439a89bbe94971e26dad77f9bda16bcfbc6c72c3fa28">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/case"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb3607c69dbe397897fa3e790dfc1fc86afdbfe68889c827fb30b0c9bb114588788">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife#rate-1558-inward-183">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Carvinge knives the dosen 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_knife_cb35d8627834f76ad4f959ea80c57f279591742b9693f3619e725d052e818b0a0a7"/>
+    <hector:perQuantity rdf:nodeID="commodity_knife_cb1ee07de76788d2d8c180a296f5387072af196ac6c96d0365100ac8c8c57eef2f6"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb1bf7fac922e77f47707fb89ffc4745d167f2b805b1b15316469e98163db74ca60"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 183 (transcribed by Stuart Jenks): 'Carvinge knives the dosen' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb190db1bda41533dda4bdb35c6a1659648a14850c206f6cd8bc845557d252727be">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>velvet</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300133711"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb10f04c6e3a86b9198ede24f25c34bd5e0fec227493782a9ed4097c177fd8ea7d6">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1bf7fac922e77f47707fb89ffc4745d167f2b805b1b15316469e98163db74ca60">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Carvinge</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife#rate-1545-inward-216">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Carvinge knyves the cace 3s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_knife_cb31ce5274f83625bcb67b8ccde2a8a722efd20b7c24a51d494f66f554f5aedf54c"/>
+    <hector:perQuantity rdf:nodeID="commodity_knife_cb1f96e55399c92e3ec9897439a89bbe94971e26dad77f9bda16bcfbc6c72c3fa28"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb1c81e478f3880a2f4997727c68a948b51977e0e37dc8a547da49c8d0becc8fcb7"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 216 (transcribed by Stuart Jenks): 'Carvinge knyves the cace' 3s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1e73218524bf2c1c0177d4a322d0171ec741ee5656a820aeff506fa343678ab5c">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>knives</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1746479245b1b157860cc0b07b6e1483462a13f75d31051f3070d10a596166199">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Carvinge</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife#rate-1545-inward-418">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Knyves cours the groce 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_knife_cb32eb05b6d63816d28482d5aa2ac57243a3ecb45d97ca300dcfbdda4d32be6044b"/>
+    <hector:perQuantity rdf:nodeID="commodity_knife_cb14093cd999780c8afbfa8567ff520920e766e28e04efb4e45b7fc178b94cc7e79"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb1e76cd0cb14743feb601986b57d68cb090f6d8ea63bba3212dbfac546784d54cb"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 418 (transcribed by Stuart Jenks): 'Knyves cours the groce' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1204431917c66716df0da2d882020cf0a6ef12124541481d77443d5541325367e">
+    <crm:P190_has_symbolic_content>cultellorum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kultelorum</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb13b1c8fd0986cd5a83344f65c9c04c1bb27ebd674d5c2c2b6fda9cad034e138d8">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb227094ec99d8b38c866855aed99ead78784555635998045393f53ba8ccc22853f">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/case"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb202ffd8e95d526a750b37d991581e99bc62437f44a566d769f4198b960b2e6f04">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/case"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb153c1853a6519f720ae73589dff4fb22287d4d66bd587ff047b7e7b18a4aa9ce4">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb308dbde615b4b8910a46ba7b7df75f00fcad901097b0f5ae874ff99b036fc2ba2">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>5s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife#rate-1545-inward-163">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Carvyng knyves the dossen 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_knife_cb36a8593ff2fed32cb37e5c15c407f1f906f8f27b21bbcedecc7dd3fe7f088a106"/>
+    <hector:perQuantity rdf:nodeID="commodity_knife_cb19e41619685d96a2a730601ce82e0c5c024e42dfb60077c9b53989e37e0cad268"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb2029665986c58dc33d42506f6705272f3b76014476457bad814ed02104460e98e"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 163 (transcribed by Stuart Jenks): 'Carvyng knyves the dossen' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb2efedda5ce24e2444ad3fbc1c3f93517999ebd86d295e28335ccb705576a324d3">
+    <crm:P190_has_symbolic_content>cotelli</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>koteli</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb28b6a2cd49b7cd6ada6e91f4e7bd9c1546aba84a57ad232c8b73a986fca506421">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>5s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1b72ef5820fb6ed592427e1f54889d3e4fb608a64543828d9c8bf5e3ca11ac782">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>penknyves</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb226fd67ecb65484d81cce5fc34312da91fa62a2c9eef4c359d940b5c383326e06">
+    <crm:P190_has_symbolic_content>knives</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>knivəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1c0d111e0f2aa53768dc1aa9bfc3639316e6edc3b6958f8dd95ba27a7ff0076dd">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>blades</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb29cf692274ca7664f20f512f9a1180953120044abd3a820292735c3743c2a8dda">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/standard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1ee07de76788d2d8c180a296f5387072af196ac6c96d0365100ac8c8c57eef2f6">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1f2d002ded9fd772776b1d26516ecc67f2fddfa3b002f49161c229cc9fac3ed6d">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1e4999506c10a9be76250caa29f3bcd15cf000df8bd6d9dba5864a9ae484ae95d">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>carvynge</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb31ce5274f83625bcb67b8ccde2a8a722efd20b7c24a51d494f66f554f5aedf54c">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>3s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cbfcd3ae64bb685021223d68cc575a25308623ddd4bd674e65712b77c956c28a4e">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>fine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb29926fb7859b84291003109b1a4544e633f72a4317751e88dd900f0e944caa229">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb2029665986c58dc33d42506f6705272f3b76014476457bad814ed02104460e98e">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Carvyng</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb20e95dff6b83713b462f77bddfab8f9fed3876cfc71c30df1484679b10eb336e1">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>stockes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb24edf9cc830377bfd79c5d2333a1442f68ce0e61d44392fb8ede311c38651c50c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>France</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q142"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300133711">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>velvet (fabric weave)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb2b1f634353f80a181d554f08b7928dd897a09c8df0ba22a546494de4296c18146">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£3 6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">800</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1e52ed64d3428ccfbc05e61c31758be6697ab00f3e72177dadec731f22b3e6f71">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>30s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q142">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>France</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1efed31d1bb7b27ef101b8ad75a572e49612b8e45da68c8ad6938ef4275f073de">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>prages</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb269921b6589e87687c0164b5ed545a8aca2e143b40c1eb9620d1a197a33c3f971">
+    <crm:P190_has_symbolic_content>cuttyles</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kutiləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1475109987a24617a01cc354febee7665bff36ce3537b281b43a42d87066916ab">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1d29292cb04f237118bb829b86b523f8c05f21226617aa017145f1904d64ba2e8">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>ungilt</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb19e41619685d96a2a730601ce82e0c5c024e42dfb60077c9b53989e37e0cad268">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb146b9bd275a171c7534dd9ca1badadca583e8263d917a938d8f958599c3a94d53">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1058695dd2c61c0a97ac7d167d362e3c77e07647f6c219c15f30bd2458f94b28c">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1c81e478f3880a2f4997727c68a948b51977e0e37dc8a547da49c8d0becc8fcb7">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Carvinge</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/pen-knife">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>pen knife</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cbfc7bb53c859ba0c2fa0a2ee59d2bfc8e9b2d69430b217b0e666b470abaa4eff9">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>shethes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1ba6f9c4f015b51b4437e413b1b995e0475021576f1b6b8b9026fd9bd2223f76e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb226cf6ba5d9411d5c9e084bfca5b6d13b5bde9d7cd5f282179c1728333209c412">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>rasures</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife#rate-1558-inward-640">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Knives voc’ stockes with knives guilt þe dosen stockes 53s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_knife_cb1e65a59230270f703b4a9e493b485a0e34297b51867cf46c6b7afbe24a972e773"/>
+    <hector:perQuantity rdf:nodeID="commodity_knife_cb146b9bd275a171c7534dd9ca1badadca583e8263d917a938d8f958599c3a94d53"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb20e95dff6b83713b462f77bddfab8f9fed3876cfc71c30df1484679b10eb336e1"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb2661e42608808141b11109d59bc3a3597afacd60decb79ac1eff292909908a1b1"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 640 (transcribed by Stuart Jenks): 'Knives voc’ stockes with knives guilt þe dosen stockes' 53s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/knife#rate-1507-none-145">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Knyves called prages the grosse 5s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_knife_cb28b6a2cd49b7cd6ada6e91f4e7bd9c1546aba84a57ad232c8b73a986fca506421"/>
+    <hector:perQuantity rdf:nodeID="commodity_knife_cb13b1c8fd0986cd5a83344f65c9c04c1bb27ebd674d5c2c2b6fda9cad034e138d8"/>
+    <hector:qualifier rdf:nodeID="commodity_knife_cb1efed31d1bb7b27ef101b8ad75a572e49612b8e45da68c8ad6938ef4275f073de"/>
+    <hector:sourceText>Book of Rates 1507, line 145 (transcribed by Stuart Jenks): 'Knyves called prages the grosse' 5s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb263961cf93521c9482b059c29d78a12c98fa1327a6a6785c494d4760cae92cc6e">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>France</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q142"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb105fd5769eff168f6fb30a1107af053028cf436fd18b97e29205e52c5f983c293">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb18f880b887b7f97ad82c70ec9b6414d57dad531732760fefaba45cab46f8d3eb8">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>coarse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>gross</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1d04577d6a46c70f84867c2497fd2fd656bf7ce72d432a26f54f41c1b27b2f114">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>shethes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb198ce0d3019413892391b958b6d9ed58f446f3ec304a3d9dc181e7bef41c295b5">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>other</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1e76cd0cb14743feb601986b57d68cb090f6d8ea63bba3212dbfac546784d54cb">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>coarse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb34588125eb181ab7ab50eeab15a555a71123df101631b71117400b9c3ec5481f4">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1eddffca6a7e71d207c5b571309361339268416eafe1c2a439d1b8ef684a9108e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb35d8627834f76ad4f959ea80c57f279591742b9693f3619e725d052e818b0a0a7">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb20d43657ddac3b708d8edf201ce6617ff93c5dbf7cd18b1251c309cd9b927646f">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Almain</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb197e09d5693af8df31ae0ed989d1eaaa63c80e8ccad691f2bcb35f438c56795c1">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>30s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb29022713972afaa08a12513ecfe47eeaa7853794e836d213044708df2da6b0c2e">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Collayne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb206c0f721138a1786c3c4c97161aa9ecda5732f5f1e18f485687bc7933c71072b">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>stockes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb17ad18b5776954a62d18744d318cb7d84d814e5160132a8ef1354666b474c3756">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>coarse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb2b72c8a913dc4b8128c2c6a40f4bc707f11ecf91bc529efec0800ace656954fc4">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1e65a59230270f703b4a9e493b485a0e34297b51867cf46c6b7afbe24a972e773">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>53s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">640</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb3235653530bdda086b0e7eb4bf6d9df708b6b11642422580db66cabc4ead7f05c">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300024668">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>knives</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb116b3aa4d8e4c6cdf5bb17e9420206c15de8dda55f132755690768731b3ca0f0b">
+    <crm:P190_has_symbolic_content>case cum knyves</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kasə kum knivəs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1e2ae246ad582aefaacc8bbe140f3daab797940e0a8968f97c9970ecf40ade3e4">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>children’s</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1586dbe8e39de6a733a9e05703eefb97cc2f77e4c03fad07e7d686bdc324c4dc9">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>sword</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb14093cd999780c8afbfa8567ff520920e766e28e04efb4e45b7fc178b94cc7e79">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb16ce1761870a89b98c4f40a04dbb1d191a4b643b6063d1ef1e52c9feb44b31b7e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q365">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Cologne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb23b6483ed9386c156d5c511a42cb9aec53307627dca0d79c28caeb36dd679091e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£5</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1200</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb24f27d31e9c1310734515bece34a1bf3aa14524b34d8b1e59356a6f8621652774">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Almain</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/unit/case">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
     <rdfs:label>case</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/sword-scale">
+  <rdf:Description rdf:nodeID="commodity_knife_cb147517081f3576c363fe56fcbe3c8a446aea7511ee8225f3b69d9cd411146e902">
+    <crm:P190_has_symbolic_content>cultelli</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kulteli</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>sword scale</rdfs:label>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/standard">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>standard</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_knife_cb1dcb122ecdce482c0d36f4bccf04302d2fe2a9eb25dd7c8be76cc547612e17a6f">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>coarse</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

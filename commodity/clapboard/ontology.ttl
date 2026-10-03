@@ -2,6 +2,7 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix hector: <https://w3id.org/hector/ontology#> .
+@prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -178,13 +179,21 @@
         <https://w3id.org/hector/commodity/woodstave> ;
     hector:attestationCount 402 ;
     hector:taxation <https://w3id.org/hector/commodity/clapboard#rate-1545-inward-188>,
-        <https://w3id.org/hector/commodity/clapboard#rate-1545-inward-189> .
+        <https://w3id.org/hector/commodity/clapboard#rate-1545-inward-189>,
+        <https://w3id.org/hector/commodity/clapboard#rate-1545-outward-20>,
+        <https://w3id.org/hector/commodity/clapboard#rate-1545-outward-21> .
 
 aat:300011914 a crm:E55_Type ;
     rdfs:label "wood (plant material)" .
 
 aat:300014616 a crm:E55_Type ;
     rdfs:label "boards (flat objects)" .
+
+aat:300073756 a crm:E55_Type ;
+    rdfs:label "large" .
+
+aat:300073768 a crm:E55_Type ;
+    rdfs:label "small" .
 
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
@@ -218,6 +227,38 @@ aat:300435416 a crm:E55_Type ;
             crm:P90_has_value 100 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
     hector:sourceText "Book of Rates 1545, inward, line 189 (transcribed by Stuart Jenks): 'Clapholte the smale 100' 3s 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/clapboard#rate-1545-outward-20> a hector:Rate ;
+    rdfs:label "1545 outward: Clapholte smalle the 100 3s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "3s 4d" ;
+            hector:valueInPence 40.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "small" ;
+            la:equivalent aat:300073768 ] ;
+    hector:sourceText "Book of Rates 1545, outward, line 20 (transcribed by Stuart Jenks): 'Clapholte smalle the 100' 3s 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/clapboard#rate-1545-outward-21> a hector:Rate ;
+    rdfs:label "1545 outward: Clapholte greate þe C £3 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£3 6s 8d" ;
+            hector:valueInPence 800.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "large" ;
+            la:equivalent aat:300073756 ] ;
+    hector:sourceText "Book of Rates 1545, outward, line 21 (transcribed by Stuart Jenks): 'Clapholte greate þe C' £3 6s 8d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 

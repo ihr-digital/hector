@@ -383,7 +383,140 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 761 (transcribed by Stuart Jenks): 'Typpes for hornes the 100' 4d"
+      "sourceText": "Book of Rates 1545, inward, line 761 (transcribed by Stuart Jenks): 'Typpes for hornes the 100' 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "hornes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/horn-tip#rate-1545-inward-762",
+      "type": "Rate",
+      "_label": "1545 inward: Typpes of hornes the 1000 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "40",
+        "lsd": "3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1000,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/thousand",
+          "type": "MeasurementUnit",
+          "_label": "thousand"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 762 (transcribed by Stuart Jenks): 'Typpes of hornes the 1000' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "hornes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/horn-tip#rate-1558-inward-1091",
+      "type": "Rate",
+      "_label": "1558 inward: Tippes for hornes of horne the thowsaunde 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1000,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/thousand",
+          "type": "MeasurementUnit",
+          "_label": "thousand"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1091 (transcribed by Stuart Jenks): 'Tippes for hornes of horne the thowsaunde' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "hornes of horne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/horn-tip#rate-1558-outward-66",
+      "type": "Rate",
+      "_label": "1558 outward: Tippes of hornes the thousaunde 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1000,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/thousand",
+          "type": "MeasurementUnit",
+          "_label": "thousand"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, outward, line 66 (transcribed by Stuart Jenks): 'Tippes of hornes the thousaunde' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "hornes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

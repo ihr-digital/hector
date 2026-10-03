@@ -5,6 +5,7 @@
 @prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/hector/commodity/canvas> a crm:E55_Type ;
@@ -64,8 +65,35 @@
     skos:related <https://w3id.org/hector/commodity/sailcloth> ;
     la:equivalent aat:300014078 ;
     hector:attestationCount 3817 ;
-    hector:taxation <https://w3id.org/hector/commodity/canvas#rate-1545-inward-130>,
-        <https://w3id.org/hector/commodity/canvas#rate-1558-inward-180> .
+    hector:taxation <https://w3id.org/hector/commodity/canvas#rate-1507-none-37>,
+        <https://w3id.org/hector/commodity/canvas#rate-1507-none-38>,
+        <https://w3id.org/hector/commodity/canvas#rate-1507-none-39>,
+        <https://w3id.org/hector/commodity/canvas#rate-1507-none-40>,
+        <https://w3id.org/hector/commodity/canvas#rate-1507-none-48>,
+        <https://w3id.org/hector/commodity/canvas#rate-1545-inward-124>,
+        <https://w3id.org/hector/commodity/canvas#rate-1545-inward-125>,
+        <https://w3id.org/hector/commodity/canvas#rate-1545-inward-126>,
+        <https://w3id.org/hector/commodity/canvas#rate-1545-inward-127>,
+        <https://w3id.org/hector/commodity/canvas#rate-1545-inward-128>,
+        <https://w3id.org/hector/commodity/canvas#rate-1545-inward-129>,
+        <https://w3id.org/hector/commodity/canvas#rate-1545-inward-130>,
+        <https://w3id.org/hector/commodity/canvas#rate-1545-inward-505>,
+        <https://w3id.org/hector/commodity/canvas#rate-1545-inward-506>,
+        <https://w3id.org/hector/commodity/canvas#rate-1545-inward-508>,
+        <https://w3id.org/hector/commodity/canvas#rate-1558-inward-174>,
+        <https://w3id.org/hector/commodity/canvas#rate-1558-inward-175>,
+        <https://w3id.org/hector/commodity/canvas#rate-1558-inward-176>,
+        <https://w3id.org/hector/commodity/canvas#rate-1558-inward-177>,
+        <https://w3id.org/hector/commodity/canvas#rate-1558-inward-178>,
+        <https://w3id.org/hector/commodity/canvas#rate-1558-inward-179>,
+        <https://w3id.org/hector/commodity/canvas#rate-1558-inward-180>,
+        <https://w3id.org/hector/commodity/canvas#rate-1558-inward-192>,
+        <https://w3id.org/hector/commodity/canvas#rate-1558-inward-287>,
+        <https://w3id.org/hector/commodity/canvas#rate-1558-inward-288>,
+        <https://w3id.org/hector/commodity/canvas#rate-1558-inward-289>,
+        <https://w3id.org/hector/commodity/canvas#rate-1558-inward-331>,
+        <https://w3id.org/hector/commodity/canvas#rate-1558-inward-332>,
+        <https://w3id.org/hector/commodity/canvas#rate-1558-inward-333> .
 
 aat:300014078 a crm:E55_Type ;
     rdfs:label "canvas (textile material)" .
@@ -75,6 +103,195 @@ aat:300404670 a crm:E55_Type ;
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
+
+wd:Q90 a crm:E53_Place ;
+    rdfs:label "Paris" .
+
+<https://w3id.org/hector/commodity/canvas#rate-1507-none-37> a hector:Rate ;
+    rdfs:label "1507: Canvas called Normandy or browne clothe the C elles small 30s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "30s" ;
+            hector:valueInPence 360.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Normandy" ;
+            hector:originPlace wd:Q15878 ],
+        [ a crm:E55_Type ;
+            rdfs:label "brown" ;
+            la:equivalent aat:300127490 ] ;
+    hector:sourceText "Book of Rates 1507, line 37 (transcribed by Stuart Jenks): 'Canvas called Normandy or browne clothe the C elles small' 30s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/canvas#rate-1507-none-38> a hector:Rate ;
+    rdfs:label "1507: Canvas called Vytory canvas the bale containing 200 elles £3" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£3" ;
+            hector:valueInPence 720.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/bale> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Vytory" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 38 (transcribed by Stuart Jenks): 'Canvas called Vytory canvas the bale containing 200 elles' £3" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/canvas#rate-1507-none-39> a hector:Rate ;
+    rdfs:label "1507: Canvas called Parrys canvas the 100 elles 26s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "26s 8d" ;
+            hector:valueInPence 320.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Paris" ;
+            hector:originPlace wd:Q90 ] ;
+    hector:sourceText "Book of Rates 1507, line 39 (transcribed by Stuart Jenks): 'Canvas called Parrys canvas the 100 elles' 26s 8d" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/canvas#rate-1507-none-40> a hector:Rate ;
+    rdfs:label "1507: Canvas called Newcastell canvas the C elles 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Newcastell" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 40 (transcribed by Stuart Jenks): 'Canvas called Newcastell canvas the C elles' 20s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/canvas#rate-1507-none-48> a hector:Rate ;
+    rdfs:label "1507: Canvas cunterfett of the worste sorte the bale 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/bale> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "cunterfett of the worste" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 48 (transcribed by Stuart Jenks): 'Canvas cunterfett of the worste sorte the bale' 20s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/canvas#rate-1545-inward-124> a hector:Rate ;
+    rdfs:label "1545 inward: Canvas called Newcastell the hundreth elles 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Newcastell" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 124 (transcribed by Stuart Jenks): 'Canvas called Newcastell the hundreth elles' 20s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/canvas#rate-1545-inward-125> a hector:Rate ;
+    rdfs:label "1545 inward: Canvas Normandy browne the hundreth elles 30s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "30s" ;
+            hector:valueInPence 360.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Normandy" ;
+            hector:originPlace wd:Q15878 ],
+        [ a crm:E55_Type ;
+            rdfs:label "brown" ;
+            la:equivalent aat:300127490 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 125 (transcribed by Stuart Jenks): 'Canvas Normandy browne the hundreth elles' 30s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/canvas#rate-1545-inward-126> a hector:Rate ;
+    rdfs:label "1545 inward: Canvas Normandy whyte the hundreth elles 40s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "40s" ;
+            hector:valueInPence 480.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Normandy" ;
+            hector:originPlace wd:Q15878 ],
+        [ a crm:E55_Type ;
+            rdfs:label "white" ;
+            la:equivalent aat:300129784 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 126 (transcribed by Stuart Jenks): 'Canvas Normandy whyte the hundreth elles' 40s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/canvas#rate-1545-inward-127> a hector:Rate ;
+    rdfs:label "1545 inward: Canvas course for packynge the hundreth elles 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "coarse" ],
+        [ a crm:E55_Type ;
+            rdfs:label "packynge" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 127 (transcribed by Stuart Jenks): 'Canvas course for packynge the hundreth elles' 20s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/canvas#rate-1545-inward-128> a hector:Rate ;
+    rdfs:label "1545 inward: Canvas called Barras the hundreth elles 26s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "26s 8d" ;
+            hector:valueInPence 320.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "baras" ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 128 (transcribed by Stuart Jenks): 'Canvas called Barras the hundreth elles' 26s 8d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/canvas#rate-1545-inward-129> a hector:Rate ;
+    rdfs:label "1545 inward: Canvas called Sprewce canvas the hundreth elles 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Prussia" ;
+            hector:originPlace wd:Q918723 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 129 (transcribed by Stuart Jenks): 'Canvas called Sprewce canvas the hundreth elles' 20s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/canvas#rate-1545-inward-130> a hector:Rate ;
     rdfs:label "1545 inward: Canvas the bolte 3s 4d" ;
@@ -89,6 +306,163 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/canvas#rate-1545-inward-505> a hector:Rate ;
+    rdfs:label "1545 inward: Normandy canvas browne the 100 elles 30s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "30s" ;
+            hector:valueInPence 360.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Normandy" ;
+            hector:originPlace wd:Q15878 ],
+        [ a crm:E55_Type ;
+            rdfs:label "brown" ;
+            la:equivalent aat:300127490 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 505 (transcribed by Stuart Jenks): 'Normandy canvas browne the 100 elles' 30s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/canvas#rate-1545-inward-506> a hector:Rate ;
+    rdfs:label "1545 inward: Normandy canves whit the hundrith elles 40s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "40s" ;
+            hector:valueInPence 480.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Normandy" ;
+            hector:originPlace wd:Q15878 ],
+        [ a crm:E55_Type ;
+            rdfs:label "white" ;
+            la:equivalent aat:300129784 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 506 (transcribed by Stuart Jenks): 'Normandy canves whit the hundrith elles' 40s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/canvas#rate-1545-inward-508> a hector:Rate ;
+    rdfs:label "1545 inward: Neucastell canvas the 100 elles 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Neucastell" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 508 (transcribed by Stuart Jenks): 'Neucastell canvas the 100 elles' 20s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/canvas#rate-1558-inward-174> a hector:Rate ;
+    rdfs:label "1558 inward: Canvas voc’ Barras canvas the C elles cont’ 5 score 40s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "40s" ;
+            hector:valueInPence 480.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "baras" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 174 (transcribed by Stuart Jenks): 'Canvas voc’ Barras canvas the C elles cont’ 5 score' 40s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/canvas#rate-1558-inward-175> a hector:Rate ;
+    rdfs:label "1558 inward: Canvas voc’ Newecastell canvas þe C elles cont’ 100 30s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "30s" ;
+            hector:valueInPence 360.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Newecastell" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 175 (transcribed by Stuart Jenks): 'Canvas voc’ Newecastell canvas þe C elles cont’ 100' 30s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/canvas#rate-1558-inward-176> a hector:Rate ;
+    rdfs:label "1558 inward: Canvas voc’ Normandy canvas þe C elles browne conteynynge five score 50s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "50s" ;
+            hector:valueInPence 600.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Normandy" ;
+            hector:originPlace wd:Q15878 ],
+        [ a crm:E55_Type ;
+            rdfs:label "brown" ;
+            la:equivalent aat:300127490 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 176 (transcribed by Stuart Jenks): 'Canvas voc’ Normandy canvas þe C elles browne conteynynge five score' 50s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/canvas#rate-1558-inward-177> a hector:Rate ;
+    rdfs:label "1558 inward: Canvas voc’ Normandy canvas the C elles whited cont’ five score 66s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "66s 8d" ;
+            hector:valueInPence 800.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Normandy" ;
+            hector:originPlace wd:Q15878 ],
+        [ a crm:E55_Type ;
+            rdfs:label "white" ;
+            la:equivalent aat:300129784 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 177 (transcribed by Stuart Jenks): 'Canvas voc’ Normandy canvas the C elles whited cont’ five score' 66s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/canvas#rate-1558-inward-178> a hector:Rate ;
+    rdfs:label "1558 inward: Canvas voc’ course packinge canvas the C elles cont’ five score 26s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "26s 8d" ;
+            hector:valueInPence 320.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "coarse" ],
+        [ a crm:E55_Type ;
+            rdfs:label "packinge" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 178 (transcribed by Stuart Jenks): 'Canvas voc’ course packinge canvas the C elles cont’ five score' 26s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/canvas#rate-1558-inward-179> a hector:Rate ;
+    rdfs:label "1558 inward: Canvas voc’ Spruse canvas the C elles cont’ sixe score 26s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "26s 8d" ;
+            hector:valueInPence 320.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Prussia" ;
+            hector:originPlace wd:Q918723 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 179 (transcribed by Stuart Jenks): 'Canvas voc’ Spruse canvas the C elles cont’ sixe score' 26s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/canvas#rate-1558-inward-180> a hector:Rate ;
     rdfs:label "1558 inward: Canvas the bolte 5s" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -102,18 +476,166 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/canvas#rate-1558-inward-192> a hector:Rate ;
+    rdfs:label "1558 inward: Canvas voc’ vittrye canvas the bale cont’ 3 C after 5 score [in toto 300] £5" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£5" ;
+            hector:valueInPence 1200.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/bale> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "vitry" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 192 (transcribed by Stuart Jenks): 'Canvas voc’ vittrye canvas the bale cont’ 3 C after 5 score [in toto 300]' £5" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/canvas#rate-1558-inward-287> a hector:Rate ;
+    rdfs:label "1558 inward: Canvas voc’ workynge canvas narrowe the C elles cont’ fyve score 50s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "50s" ;
+            hector:valueInPence 600.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "workynge" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "narrow" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 287 (transcribed by Stuart Jenks): 'Canvas voc’ workynge canvas narrowe the C elles cont’ fyve score' 50s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/canvas#rate-1558-inward-288> a hector:Rate ;
+    rdfs:label "1558 inward: Canvas voc’ workynge canvas elle broade, the C ells conteynynge fyve score £4 3s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£4 3s 4d" ;
+            hector:valueInPence 1000.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "workynge" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "broade" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 288 (transcribed by Stuart Jenks): 'Canvas voc’ workynge canvas elle broade, the C ells conteynynge fyve score' £4 3s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/canvas#rate-1558-inward-289> a hector:Rate ;
+    rdfs:label "1558 inward: Canvas voc’ workynge canvas of the broode sorte, the C elles [cont’] fyve score £5" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£5" ;
+            hector:valueInPence 1200.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "workynge" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "broode" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 289 (transcribed by Stuart Jenks): 'Canvas voc’ workynge canvas of the broode sorte, the C elles [cont’] fyve score' £5" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/canvas#rate-1558-inward-331> a hector:Rate ;
+    rdfs:label "1558 inward: Canvas striped with silke the pece 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "striped" ],
+        [ a crm:E55_Type ;
+            rdfs:label "silk" ;
+            la:equivalent aat:300243428 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 331 (transcribed by Stuart Jenks): 'Canvas striped with silke the pece' 10s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/canvas#rate-1558-inward-332> a hector:Rate ;
+    rdfs:label "1558 inward: Canvas striped with thred the pece 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "striped" ],
+        [ a crm:E55_Type ;
+            rdfs:label "file" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 332 (transcribed by Stuart Jenks): 'Canvas striped with thred the pece' 6s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/canvas#rate-1558-inward-333> a hector:Rate ;
+    rdfs:label "1558 inward: Canvas quylted with silke the pece 16s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "16s 8d" ;
+            hector:valueInPence 200.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "quilted" ],
+        [ a crm:E55_Type ;
+            rdfs:label "silk" ;
+            la:equivalent aat:300243428 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 333 (transcribed by Stuart Jenks): 'Canvas quylted with silke the pece' 16s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/sailcloth> a crm:E55_Type ;
     rdfs:label "sailcloth" .
 
 <https://w3id.org/mlca/glossary/canvas> a crm:E55_Type ;
     rdfs:label "canvas (London Customs Accounts glossary)" .
 
-aat:300411998 a crm:E98_Currency ;
-    rdfs:label "pound sterling (system of money)" .
+aat:300243428 a crm:E55_Type ;
+    rdfs:label "silk (textile)" .
+
+wd:Q918723 a crm:E53_Place ;
+    rdfs:label "Prussia" .
 
 <https://w3id.org/hector/unit/bolt> a crm:E58_Measurement_Unit ;
     rdfs:label "bolt" .
 
+aat:300129784 a crm:E55_Type ;
+    rdfs:label "white (color)" .
+
+<https://w3id.org/hector/unit/bale> a crm:E58_Measurement_Unit ;
+    rdfs:label "bale" .
+
+<https://w3id.org/hector/unit/pecia> a crm:E58_Measurement_Unit ;
+    rdfs:label "pecia" .
+
+aat:300127490 a crm:E55_Type ;
+    rdfs:label "brown (color)" .
+
+wd:Q15878 a crm:E53_Place ;
+    rdfs:label "Normandy" .
+
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .
+
+<https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
+    rdfs:label "hundred" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
 

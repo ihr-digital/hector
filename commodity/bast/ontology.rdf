@@ -8,13 +8,63 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_bast_cb20d741dd7b1968a49ece615b9bb105dd3d4b70e8be78f0f9c87519b31fc865f5c">
-    <crm:P190_has_symbolic_content>bastis</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bast#rate-1558-inward-72">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Baste hattes the thousande 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bast_cb2cd9a71c2938e0b0f59c51bceb162ca54d872cd05c42abffa8a78ac151ab2c877"/>
+    <hector:perQuantity rdf:nodeID="commodity_bast_cb13ecaebfad97d9657247abcf122b6355436005dabea4a934c8719f2cc1d156504"/>
+    <hector:qualifier rdf:nodeID="commodity_bast_cb1fb736c7a0cff530c16eac60ede93805c54e5124ae3c8a4241b60c9f2d68f0077"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 72 (transcribed by Stuart Jenks): 'Baste hattes the thousande' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb2943f20913e2dc29196fe84bc46ba1fa669fa5b866f0af4511de9c4cf9d5cda6c">
+    <crm:P190_has_symbolic_content>bast</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bastis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
+    <hector:phoneticKey>bast</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb22ae97faf673466eaa1a73860d5e28144559de4b28e64c3e1fc88282975291046">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>8s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb18d8ce8374d2b590bdf93845ae1f7d3fef4562803af6cfaa87b95ee13fd62ac27">
+    <crm:P190_has_symbolic_content>basti</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>basti</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1450</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bast#rate-1545-inward-92">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Baste ropes the pece 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bast_cb2c7b9a324134c157062e3297672354b71938155b0590b0d79087a07fdba08ece4"/>
+    <hector:perQuantity rdf:nodeID="commodity_bast_cb226bf7b271ec57b8a046e8b07e1fbd48a9f3ba040de5a823b8520e0871864297b"/>
+    <hector:qualifier rdf:nodeID="commodity_bast_cb16fc8422ad7a08f772ffd4a779ca6228c724fcd20ac7d0e076d0a100dbc293d74"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 92 (transcribed by Stuart Jenks): 'Baste ropes the pece' 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb1665a0c081cb66913d3d590ae5a5532a8410085f30f7cb896064c3b11cc204e15">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb2322d13d7a0e612b1abd6590d8ed68e0326df3af72750d1ff82ab394395924e46">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>5s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/bast">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
@@ -33,23 +83,294 @@
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300048153"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">209</hector:attestationCount>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bast#rate-1545-inward-89"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bast#rate-1545-inward-90"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bast#rate-1545-inward-91"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bast#rate-1545-inward-92"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bast#rate-1545-inward-93"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bast#rate-1545-inward-94"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bast#rate-1558-inward-70"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bast#rate-1558-inward-71"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bast#rate-1558-inward-72"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bast#rate-1558-inward-73"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bast#rate-1558-inward-74"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bast#rate-1558-inward-75"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bast#rate-1558-inward-76"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bast_cb1972b8f17143afa7f9231fca8fed2a1140e1c9216e22c7121fc915b0478af8f90">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/thousand"/>
+  <rdf:Description rdf:nodeID="commodity_bast_cb1f9c334eae3f5b76c620e98ad50bc1ed3fd45fa5e58b321641594d8f69d728f54">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/bundle"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bast_cb226bf7b271ec57b8a046e8b07e1fbd48a9f3ba040de5a823b8520e0871864297b">
+  <rdf:Description rdf:nodeID="commodity_bast_cb3bd678d7e85333b33e1e74d72e05fb29676b51b42bcf74e5f7fe35c724b234192">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bast#rate-1558-inward-71">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Baste or strawe hattes the dosen 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bast_cb26081afc2062ecf422a2dc7e74841878fae3a91b6ea2649d81570cbff9e56ade6"/>
+    <hector:perQuantity rdf:nodeID="commodity_bast_cb1197d76320c7c2eabcc276941bc8fede6f1a7c85a4f6593ee604841a22aea06a3"/>
+    <hector:qualifier rdf:nodeID="commodity_bast_cb1ecba4360d50fed1fe652ed0b111e927fc2c5b9694411743558cf9d5d212d44a0"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 71 (transcribed by Stuart Jenks): 'Baste or strawe hattes the dosen' 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb20da59c0d3f5aa1afd926713c875303d7e73fa2df74c083d555c5008d03959b2e">
+    <crm:P190_has_symbolic_content>bastes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bastəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb1d4474661912662b942c34697212e75b6a97c8f7d4e0f144574df6fe84b2889b1">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>ropes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb1ecba4360d50fed1fe652ed0b111e927fc2c5b9694411743558cf9d5d212d44a0">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>hattes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bast#rate-1545-inward-91">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Baste ropes the bondell 20d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bast_cb3262ffedc2a26d4c0002aa19ce6516d8f44aa7fc5cf6d8ef0f9112408da9f57c0"/>
+    <hector:perQuantity rdf:nodeID="commodity_bast_cb260b67a5730e7e814516ec86b3d61eb2969bb1b825d2580f4342d3fcbfeb82b02"/>
+    <hector:qualifier rdf:nodeID="commodity_bast_cb1cf0db1a2f598780ae39cf0fb3b39e9e589976811bc9d626066e1747431badd07"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 91 (transcribed by Stuart Jenks): 'Baste ropes the bondell' 20d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bast#rate-1558-inward-74">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Baste ropes the rope 6d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bast_cb2597ee985b69389a3c2330065c8ba63fda38421614cee0d2e9fcde38145eb92e6"/>
+    <hector:perQuantity rdf:nodeID="commodity_bast_cb2a39373489987619e7cb7353d68027afef21249cd0ac1539ca16d9e7169cd6817"/>
+    <hector:qualifier rdf:nodeID="commodity_bast_cb1d4474661912662b942c34697212e75b6a97c8f7d4e0f144574df6fe84b2889b1"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 74 (transcribed by Stuart Jenks): 'Baste ropes the rope' 6d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb12634e6d4e8dd320f3b4d2c4c34126e1ad04ec009c2f7e8932ddca04588709783">
+    <crm:P190_has_symbolic_content>Strong, woody fibers obtained from the phloem tissues (from the bark, stems, and leaves) of many plants, used for textiles, rope, and paper. Such fibers are characterized by fineness and flexibility. They are derived from flax, hemp, ramie, jute, abaca, cantala, henequen, sisal, pineapple, mitsumata, gampi, kozo, and other plants. Strong, woody fibers obtained from the phloem tissues (from the bark, stems, and leaves) of many plants, used for textiles, rope, and paper. Such fibers are characterized by fineness and flexibility. They are derived from flax, hemp, ramie, jute, abaca, cantala, henequen, sisal, pineapple, mitsumata, gampi, kozo, and other plants. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/thousand">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>thousand</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bast#rate-1558-inward-75">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Baste ropes the C lb. cont’ 112 lb 8s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bast_cb22ae97faf673466eaa1a73860d5e28144559de4b28e64c3e1fc88282975291046"/>
+    <hector:perQuantity rdf:nodeID="commodity_bast_cb148ab670c330cf7e7d114310da8bf3011e8069cacf36eb620392a195ca59cc35e"/>
+    <hector:qualifier rdf:nodeID="commodity_bast_cb1216f1977e561f96ed3c6e2aa483ef33a993f85d0bfa0235d6bf6f8a27685a60a"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 75 (transcribed by Stuart Jenks): 'Baste ropes the C lb. cont’ 112 lb' 8s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb2519f4a594d0003a31b3d587594fd46755536081bc8b0b524e410ac475741b8d4">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/flock"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb25bc00fc414b4f18b44aff1dac71aa61215a0e1fe1ebcdc5348ee6ed3694f9e5a">
+    <crm:P190_has_symbolic_content>basts</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>basts</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/hundred">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>hundred</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb16fc8422ad7a08f772ffd4a779ca6228c724fcd20ac7d0e076d0a100dbc293d74">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>ropes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb1ef72986b75b1815de70ec6366366e81af667d50d89753de0ba905d0f02685b67">
+    <crm:P190_has_symbolic_content>bastys</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bastis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb3262ffedc2a26d4c0002aa19ce6516d8f44aa7fc5cf6d8ef0f9112408da9f57c0">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bast-rope">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>bast rope</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb1197d76320c7c2eabcc276941bc8fede6f1a7c85a4f6593ee604841a22aea06a3">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb148ab670c330cf7e7d114310da8bf3011e8069cacf36eb620392a195ca59cc35e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bast#rate-1558-inward-70">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Baste or strawe hattes with knottes the dosen 3s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bast_cb30def2a2c7292a6df4289778d39d692ccde2b2036aea6535b90711ccca354de20"/>
+    <hector:perQuantity rdf:nodeID="commodity_bast_cb1665a0c081cb66913d3d590ae5a5532a8410085f30f7cb896064c3b11cc204e15"/>
+    <hector:qualifier rdf:nodeID="commodity_bast_cb1ad831bc18c7c2536ecb55c19f3b53f1c2c594449175ce0c07289dbb45ae67032"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 70 (transcribed by Stuart Jenks): 'Baste or strawe hattes with knottes the dosen' 3s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb1cf0db1a2f598780ae39cf0fb3b39e9e589976811bc9d626066e1747431badd07">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>ropes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb1b4af08ba31c32720815765b1407de82bdb300a767487d7c31b6de01491f2ffa4">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pecia">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pecia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb2cd9a71c2938e0b0f59c51bceb162ca54d872cd05c42abffa8a78ac151ab2c877">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb20d741dd7b1968a49ece615b9bb105dd3d4b70e8be78f0f9c87519b31fc865f5c">
+    <crm:P190_has_symbolic_content>bastis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bastis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb3c3e5757137a597aff95dae3e1d4bc9ef37ddad12407769c7715ff0979839af1b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bast#rate-1558-inward-73">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Baste ropes the bundell 5s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bast_cb2322d13d7a0e612b1abd6590d8ed68e0326df3af72750d1ff82ab394395924e46"/>
+    <hector:perQuantity rdf:nodeID="commodity_bast_cb1f9c334eae3f5b76c620e98ad50bc1ed3fd45fa5e58b321641594d8f69d728f54"/>
+    <hector:qualifier rdf:nodeID="commodity_bast_cb13833848d9a010ce19db760410b6f7ec2cdf2cdbb0fc1f0e7bc11f064b6a67a17"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 73 (transcribed by Stuart Jenks): 'Baste ropes the bundell' 5s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb23a568471b58990d8cbf30fe59a141163ebc3973d90dc3cec352365ef77317575">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>hattes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/bundle">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>bundle</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb2a39373489987619e7cb7353d68027afef21249cd0ac1539ca16d9e7169cd6817">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/each"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb260b67a5730e7e814516ec86b3d61eb2969bb1b825d2580f4342d3fcbfeb82b02">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/bundle"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb2c7b9a324134c157062e3297672354b71938155b0590b0d79087a07fdba08ece4">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb1ad831bc18c7c2536ecb55c19f3b53f1c2c594449175ce0c07289dbb45ae67032">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>hattes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb2bc2788ab15e141cfcdded07a36f85ba626d9de2e0c960e9fa2ee81a8cc463932">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bast#rate-1545-inward-89">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Baste hattes the 1000 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bast_cb3bd678d7e85333b33e1e74d72e05fb29676b51b42bcf74e5f7fe35c724b234192"/>
+    <hector:perQuantity rdf:nodeID="commodity_bast_cb1972b8f17143afa7f9231fca8fed2a1140e1c9216e22c7121fc915b0478af8f90"/>
+    <hector:qualifier rdf:nodeID="commodity_bast_cb1ca49fb0f5642637e146ceb73e3512e9da2aa23d4a0bfca055dc01813e8df7bb3"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 89 (transcribed by Stuart Jenks): 'Baste hattes the 1000' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bast#rate-1545-inward-90">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Baste or straw hattes the dossen 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bast_cb370ae0ad8a5fb1edf0abe6990be20ccf95b8f2711ff9661f396195b8b6df68ce6"/>
+    <hector:perQuantity rdf:nodeID="commodity_bast_cb1b4af08ba31c32720815765b1407de82bdb300a767487d7c31b6de01491f2ffa4"/>
+    <hector:qualifier rdf:nodeID="commodity_bast_cb23a568471b58990d8cbf30fe59a141163ebc3973d90dc3cec352365ef77317575"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 90 (transcribed by Stuart Jenks): 'Baste or straw hattes the dossen' 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb159447cad14b07a7ee11520c67d4e3fc2bbd4fd113e2c4323b16206959a9b716f">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>rope</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bast#rate-1545-inward-94">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Baste rope the floke conteynynge 60 peces 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bast_cb3c3e5757137a597aff95dae3e1d4bc9ef37ddad12407769c7715ff0979839af1b"/>
+    <hector:perQuantity rdf:nodeID="commodity_bast_cb2519f4a594d0003a31b3d587594fd46755536081bc8b0b524e410ac475741b8d4"/>
+    <hector:qualifier rdf:nodeID="commodity_bast_cb159447cad14b07a7ee11520c67d4e3fc2bbd4fd113e2c4323b16206959a9b716f"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 94 (transcribed by Stuart Jenks): 'Baste rope the floke conteynynge 60 peces' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb1d0a1596915117d36ba2f976373522ab4e8f830dc2568acaa098210e188ed98a5">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb1ca49fb0f5642637e146ceb73e3512e9da2aa23d4a0bfca055dc01813e8df7bb3">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>hattes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb1875ac85a9780fb835c5748d3d98149d3b0a607108b54e64ae935cade7b0d303e">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>rope</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb34103efdb9f49ca061ed64e5e3b2605daff22bd9843bd62925182035f6a5c1a8b">
+    <crm:P190_has_symbolic_content>baste</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bastə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/bast#rate-1558-inward-76">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
@@ -60,213 +381,6 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bast#rate-1558-inward-73">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Baste ropes the bundell 5s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_bast_cb2322d13d7a0e612b1abd6590d8ed68e0326df3af72750d1ff82ab394395924e46"/>
-    <hector:perQuantity rdf:nodeID="commodity_bast_cb1f9c334eae3f5b76c620e98ad50bc1ed3fd45fa5e58b321641594d8f69d728f54"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 73 (transcribed by Stuart Jenks): 'Baste ropes the bundell' 5s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bast_cb1ef72986b75b1815de70ec6366366e81af667d50d89753de0ba905d0f02685b67">
-    <crm:P190_has_symbolic_content>bastys</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bastis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bast_cb260b67a5730e7e814516ec86b3d61eb2969bb1b825d2580f4342d3fcbfeb82b02">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/bundle"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bast_cb2943f20913e2dc29196fe84bc46ba1fa669fa5b866f0af4511de9c4cf9d5cda6c">
-    <crm:P190_has_symbolic_content>bast</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bast</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bast_cb34103efdb9f49ca061ed64e5e3b2605daff22bd9843bd62925182035f6a5c1a8b">
-    <crm:P190_has_symbolic_content>baste</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bastə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bast_cb2c7b9a324134c157062e3297672354b71938155b0590b0d79087a07fdba08ece4">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>4d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bast#rate-1545-inward-94">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Baste rope the floke conteynynge 60 peces 20s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_bast_cb3c3e5757137a597aff95dae3e1d4bc9ef37ddad12407769c7715ff0979839af1b"/>
-    <hector:perQuantity rdf:nodeID="commodity_bast_cb2519f4a594d0003a31b3d587594fd46755536081bc8b0b524e410ac475741b8d4"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 94 (transcribed by Stuart Jenks): 'Baste rope the floke conteynynge 60 peces' 20s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bast#rate-1545-inward-89">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Baste hattes the 1000 20s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_bast_cb3bd678d7e85333b33e1e74d72e05fb29676b51b42bcf74e5f7fe35c724b234192"/>
-    <hector:perQuantity rdf:nodeID="commodity_bast_cb1972b8f17143afa7f9231fca8fed2a1140e1c9216e22c7121fc915b0478af8f90"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 89 (transcribed by Stuart Jenks): 'Baste hattes the 1000' 20s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bast_cb2a39373489987619e7cb7353d68027afef21249cd0ac1539ca16d9e7169cd6817">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/each"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bast#rate-1545-inward-92">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Baste ropes the pece 4d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_bast_cb2c7b9a324134c157062e3297672354b71938155b0590b0d79087a07fdba08ece4"/>
-    <hector:perQuantity rdf:nodeID="commodity_bast_cb226bf7b271ec57b8a046e8b07e1fbd48a9f3ba040de5a823b8520e0871864297b"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 92 (transcribed by Stuart Jenks): 'Baste ropes the pece' 4d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bast_cb18d8ce8374d2b590bdf93845ae1f7d3fef4562803af6cfaa87b95ee13fd62ac27">
-    <crm:P190_has_symbolic_content>basti</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>basti</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1450</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bast_cb25bc00fc414b4f18b44aff1dac71aa61215a0e1fe1ebcdc5348ee6ed3694f9e5a">
-    <crm:P190_has_symbolic_content>basts</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>basts</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bast_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/shock"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/flock">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>flock</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/pecia">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>pecia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300048153">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>bast</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bast_cb2645396d4aaa3bdcd1fb58ac1165cf6037645b9ed7c78a7e688f46b5c4108832d">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>£3</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">720</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bast#rate-1558-inward-72">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Baste hattes the thousande 40s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_bast_cb2cd9a71c2938e0b0f59c51bceb162ca54d872cd05c42abffa8a78ac151ab2c877"/>
-    <hector:perQuantity rdf:nodeID="commodity_bast_cb13ecaebfad97d9657247abcf122b6355436005dabea4a934c8719f2cc1d156504"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 72 (transcribed by Stuart Jenks): 'Baste hattes the thousande' 40s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bast_cb1f9c334eae3f5b76c620e98ad50bc1ed3fd45fa5e58b321641594d8f69d728f54">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/bundle"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bast_cb20da59c0d3f5aa1afd926713c875303d7e73fa2df74c083d555c5008d03959b2e">
-    <crm:P190_has_symbolic_content>bastes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bastəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bast#rate-1545-inward-91">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Baste ropes the bondell 20d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_bast_cb3262ffedc2a26d4c0002aa19ce6516d8f44aa7fc5cf6d8ef0f9112408da9f57c0"/>
-    <hector:perQuantity rdf:nodeID="commodity_bast_cb260b67a5730e7e814516ec86b3d61eb2969bb1b825d2580f4342d3fcbfeb82b02"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 91 (transcribed by Stuart Jenks): 'Baste ropes the bondell' 20d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bast#rate-1558-inward-74">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Baste ropes the rope 6d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_bast_cb2597ee985b69389a3c2330065c8ba63fda38421614cee0d2e9fcde38145eb92e6"/>
-    <hector:perQuantity rdf:nodeID="commodity_bast_cb2a39373489987619e7cb7353d68027afef21249cd0ac1539ca16d9e7169cd6817"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 74 (transcribed by Stuart Jenks): 'Baste ropes the rope' 6d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bast_cb2597ee985b69389a3c2330065c8ba63fda38421614cee0d2e9fcde38145eb92e6">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>6d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/shock">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>shock</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bast-rope">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>bast rope</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bast_cb3262ffedc2a26d4c0002aa19ce6516d8f44aa7fc5cf6d8ef0f9112408da9f57c0">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>20d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bast_cb3c3e5757137a597aff95dae3e1d4bc9ef37ddad12407769c7715ff0979839af1b">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>20s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bast_cb12634e6d4e8dd320f3b4d2c4c34126e1ad04ec009c2f7e8932ddca04588709783">
-    <crm:P190_has_symbolic_content>Strong, woody fibers obtained from the phloem tissues (from the bark, stems, and leaves) of many plants, used for textiles, rope, and paper. Such fibers are characterized by fineness and flexibility. They are derived from flax, hemp, ramie, jute, abaca, cantala, henequen, sisal, pineapple, mitsumata, gampi, kozo, and other plants. Strong, woody fibers obtained from the phloem tissues (from the bark, stems, and leaves) of many plants, used for textiles, rope, and paper. Such fibers are characterized by fineness and flexibility. They are derived from flax, hemp, ramie, jute, abaca, cantala, henequen, sisal, pineapple, mitsumata, gampi, kozo, and other plants. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/bundle">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>bundle</rdfs:label>
-  </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_bast_cb13ecaebfad97d9657247abcf122b6355436005dabea4a934c8719f2cc1d156504">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/thousand"/>
@@ -276,35 +390,106 @@
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>bast (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bast_cb2cd9a71c2938e0b0f59c51bceb162ca54d872cd05c42abffa8a78ac151ab2c877">
+  <rdf:Description rdf:nodeID="commodity_bast_cb2597ee985b69389a3c2330065c8ba63fda38421614cee0d2e9fcde38145eb92e6">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>40s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+    <hector:lsd>6d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bast_cb2322d13d7a0e612b1abd6590d8ed68e0326df3af72750d1ff82ab394395924e46">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>5s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/thousand">
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/flock">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>thousand</rdfs:label>
+    <rdfs:label>flock</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bast_cb3bd678d7e85333b33e1e74d72e05fb29676b51b42bcf74e5f7fe35c724b234192">
+  <rdf:Description rdf:nodeID="commodity_bast_cb1fb736c7a0cff530c16eac60ede93805c54e5124ae3c8a4241b60c9f2d68f0077">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>hattes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/shock"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb1216f1977e561f96ed3c6e2aa483ef33a993f85d0bfa0235d6bf6f8a27685a60a">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>ropes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb370ae0ad8a5fb1edf0abe6990be20ccf95b8f2711ff9661f396195b8b6df68ce6">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>20s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+    <hector:lsd>4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bast_cb2519f4a594d0003a31b3d587594fd46755536081bc8b0b524e410ac475741b8d4">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb26081afc2062ecf422a2dc7e74841878fae3a91b6ea2649d81570cbff9e56ade6">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb30def2a2c7292a6df4289778d39d692ccde2b2036aea6535b90711ccca354de20">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>3s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb13833848d9a010ce19db760410b6f7ec2cdf2cdbb0fc1f0e7bc11f064b6a67a17">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>ropes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bast#rate-1545-inward-93">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Baste rope the 100 pounde 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bast_cb2bc2788ab15e141cfcdded07a36f85ba626d9de2e0c960e9fa2ee81a8cc463932"/>
+    <hector:perQuantity rdf:nodeID="commodity_bast_cb1d0a1596915117d36ba2f976373522ab4e8f830dc2568acaa098210e188ed98a5"/>
+    <hector:qualifier rdf:nodeID="commodity_bast_cb1875ac85a9780fb835c5748d3d98149d3b0a607108b54e64ae935cade7b0d303e"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 93 (transcribed by Stuart Jenks): 'Baste rope the 100 pounde' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb226bf7b271ec57b8a046e8b07e1fbd48a9f3ba040de5a823b8520e0871864297b">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/flock"/>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300048153">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>bast</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb1972b8f17143afa7f9231fca8fed2a1140e1c9216e22c7121fc915b0478af8f90">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/thousand"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/unit/each">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
     <rdfs:label>each</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bast_cb2645396d4aaa3bdcd1fb58ac1165cf6037645b9ed7c78a7e688f46b5c4108832d">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£3</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">720</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/shock">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>shock</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

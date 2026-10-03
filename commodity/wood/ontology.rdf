@@ -8,15 +8,74 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
+  <rdf:Description rdf:nodeID="commodity_wood_cb2b33ecaef0a90448a34d8ff4c43f76f039df10fe8174575e7229f092f49232420">
+    <crm:P190_has_symbolic_content>lignum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>lignum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wood_cb145f8d0f606e42b57ff20389836833613434e01767449e9709e64188e4c8e6c61">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>allus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/balsamum">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>balsamum</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wood_cb2a3555746937617b49b8890e3e97543ba5e8b906252e38ed19ac637ef39d9e195">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/wood#rate-1558-inward-689">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Lignum balsamum the pound 2s 6d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_wood_cb311bc258fe6fd4dc98df588f709ba968502ddbb176826c695afdec282d6e7eda2"/>
+    <hector:perQuantity rdf:nodeID="commodity_wood_cb1f20a804b388633ff31c7b4fe74cd4925f5423720a6060056b049a82ab21d78c4"/>
+    <hector:qualifier rdf:nodeID="commodity_wood_cb145dc9536a07e6448e424fa30f2599f5a2e347a1dab066355e7c4b64f1f5adad9"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 689 (transcribed by Stuart Jenks): 'Lignum balsamum the pound' 2s 6d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wood_cb1f4ef784599cce8c7e6c50045d9e72d78ecf4ae244aa2c60c265b831fff72fe90">
+    <crm:P190_has_symbolic_content>Wood / timber (Latin lignum, boscus): unworked or roughly-worked wood, and small wooden wares. The homonymous dyestuff is the separate concept woad; the exotic medicinal woods are lignum aloes and lignum vitae.</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wood_cb1c0e0ff0d57994744c2a6341adb52764bd37bfd03a73f20fd43bb2eb68a72a4b6">
+    <crm:P190_has_symbolic_content>wood</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>woːd</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/wood#rate-1558-inward-690">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Lignum allus the pound 20d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_wood_cb2a3555746937617b49b8890e3e97543ba5e8b906252e38ed19ac637ef39d9e195"/>
+    <hector:perQuantity rdf:nodeID="commodity_wood_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_wood_cb145f8d0f606e42b57ff20389836833613434e01767449e9709e64188e4c8e6c61"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 690 (transcribed by Stuart Jenks): 'Lignum allus the pound' 20d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/wood">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_wood_cb0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_wood_cb1036c27bb187527ebdf8b8c4c22a85eb88cc33a6d69ce267b67abd00855ababf4"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_wood_cb11c8cf16fc7a7f86d723d5d4190133ed3045135f97a3e46090c1bfd637821b427"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_wood_cb12fed6b3b3c0b5845ab9454421442e0ab1eef0b198b2a4b3db3a49836801992c0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_wood_cb20edd18b2d45cd122a04cb822c02c6ea79c3e142564c9cf0927f382b91d7cbea6"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_wood_cbc589b71df7d2d9840e4b8b2a0e77f262c3f340d2bf5124abafea210efac85a80"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_wood_cbf77771791ebff45c5eccd9e873acabd1aae5b668d677ea69f9d2598c1285f078"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_wood_cb1227d5cbceb9ede24c1292f5abed94fe12d01e7100dd3eb3da4ec34897902ed7d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_wood_cb14efea03d0f350e7e8d31f750b073d1d3bf2db7bc2f300ffff0e4fcb7a370d449"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_wood_cb1c0e0ff0d57994744c2a6341adb52764bd37bfd03a73f20fd43bb2eb68a72a4b6"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_wood_cb205fb8851f4dedc493f20b30c3c25e3917a4c363551f2f5d5cba63a331009036c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_wood_cb22dee4db4a786875b81ea5b315c5d5fd03c7cc0c808cf93cb6533e73a40d4002f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_wood_cb2b33ecaef0a90448a34d8ff4c43f76f039df10fe8174575e7229f092f49232420"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_wood_cb1f4ef784599cce8c7e6c50045d9e72d78ecf4ae244aa2c60c265b831fff72fe90"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>wood</rdfs:label>
     <rdfs:seeAlso rdf:resource="https://w3id.org/hector/commodity/balsamum"/>
@@ -26,28 +85,10 @@
     <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/wood"/>
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300011914"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/wood#rate-1558-inward-689"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/wood#rate-1558-inward-690"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/woad">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>woad</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_wood_cb11c8cf16fc7a7f86d723d5d4190133ed3045135f97a3e46090c1bfd637821b427">
-    <crm:P190_has_symbolic_content>lignum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>lignum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_wood_cb20edd18b2d45cd122a04cb822c02c6ea79c3e142564c9cf0927f382b91d7cbea6">
+  <rdf:Description rdf:nodeID="commodity_wood_cb22dee4db4a786875b81ea5b315c5d5fd03c7cc0c808cf93cb6533e73a40d4002f">
     <crm:P190_has_symbolic_content>ligni</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -55,11 +96,27 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_wood_cb311bc258fe6fd4dc98df588f709ba968502ddbb176826c695afdec282d6e7eda2">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s 6d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_wood_cbc589b71df7d2d9840e4b8b2a0e77f262c3f340d2bf5124abafea210efac85a80">
+  <rdf:Description rdf:nodeID="commodity_wood_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wood_cb1f20a804b388633ff31c7b4fe74cd4925f5423720a6060056b049a82ab21d78c4">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300012827">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>timber (wood by origin)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wood_cb205fb8851f4dedc493f20b30c3c25e3917a4c363551f2f5d5cba63a331009036c">
     <crm:P190_has_symbolic_content>woode</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -71,44 +128,49 @@
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>wood (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_wood_cb0">
-    <crm:P190_has_symbolic_content>wood</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>woːd</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300011914">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>wood (plant material)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/last">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>last</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_wood_cb1036c27bb187527ebdf8b8c4c22a85eb88cc33a6d69ce267b67abd00855ababf4">
+  <rdf:Description rdf:nodeID="commodity_wood_cb1227d5cbceb9ede24c1292f5abed94fe12d01e7100dd3eb3da4ec34897902ed7d">
     <crm:P190_has_symbolic_content>boscus</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>boskus</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/balsamum">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>balsamum</rdfs:label>
+    <rdfs:label>preferred terms</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_wood_cbf77771791ebff45c5eccd9e873acabd1aae5b668d677ea69f9d2598c1285f078">
-    <crm:P190_has_symbolic_content>Wood / timber (Latin lignum, boscus): unworked or roughly-worked wood, and small wooden wares. The homonymous dyestuff is the separate concept woad; the exotic medicinal woods are lignum aloes and lignum vitae.</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_wood_cb12fed6b3b3c0b5845ab9454421442e0ab1eef0b198b2a4b3db3a49836801992c0">
+  <rdf:Description rdf:nodeID="commodity_wood_cb14efea03d0f350e7e8d31f750b073d1d3bf2db7bc2f300ffff0e4fcb7a370d449">
     <crm:P190_has_symbolic_content>bosci</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>bosi</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300012827">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/last">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>timber (wood by origin)</rdfs:label>
+    <rdfs:label>last</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/woad">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>woad</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_wood_cb145dc9536a07e6448e424fa30f2599f5a2e347a1dab066355e7c4b64f1f5adad9">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>balsamum</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300011914">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>wood (plant material)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pound">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pound</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

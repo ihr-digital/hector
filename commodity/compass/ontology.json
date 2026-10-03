@@ -331,6 +331,86 @@
       "validFrom": "1545",
       "validThrough": "1558",
       "sourceText": "Book of Rates 1545, inward, line 177 (transcribed by Stuart Jenks): 'Compaces the dossen' 12d"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/compass#rate-1558-inward-240",
+      "type": "Rate",
+      "_label": "1558 inward: Compasses for joyners and carpenters the dossen 2s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "24",
+        "lsd": "2s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 240 (transcribed by Stuart Jenks): 'Compasses for joyners and carpenters the dossen' 2s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "joyners and carpenters",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/compass#rate-1558-inward-294",
+      "type": "Rate",
+      "_label": "1558 inward: Compasses for shyppes the dossen 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 294 (transcribed by Stuart Jenks): 'Compasses for shyppes the dossen' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "shyppes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

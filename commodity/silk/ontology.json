@@ -542,6 +542,826 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1507-none-288",
+      "type": "Rate",
+      "_label": "1507: Sylke called rawe sylke of the best the lb 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 288 (transcribed by Stuart Jenks): 'Sylke called rawe sylke of the best the lb' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "raw",
+          "equivalent": [
+            {
+              "id": "aat:300221288",
+              "type": "Type",
+              "_label": "unfinished"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "best",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1507-none-289",
+      "type": "Rate",
+      "_label": "1507: Sylke called rawe cades the lb 4s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "48",
+        "lsd": "4s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 289 (transcribed by Stuart Jenks): 'Sylke called rawe cades the lb' 4s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "raw",
+          "equivalent": [
+            {
+              "id": "aat:300221288",
+              "type": "Type",
+              "_label": "unfinished"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1507-none-290",
+      "type": "Rate",
+      "_label": "1507: Sylke of all manner off the best that ys to throwyn þe lb 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 290 (transcribed by Stuart Jenks): 'Sylke of all manner off the best that ys to throwyn þe lb' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "off the best that ys to throwyn",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1507-none-291",
+      "type": "Rate",
+      "_label": "1507: Sylke called Callon sylke the lb. 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 291 (transcribed by Stuart Jenks): 'Sylke called Callon sylke the lb.' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Callon",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1507-none-292",
+      "type": "Rate",
+      "_label": "1507: Sylke called Colen sylke the lb 16s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "200",
+        "lsd": "16s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 292 (transcribed by Stuart Jenks): 'Sylke called Colen sylke the lb' 16s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Cologne",
+          "originPlace": [
+            {
+              "id": "wd:Q365",
+              "type": "Place",
+              "_label": "Cologne"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1545-inward-134",
+      "type": "Rate",
+      "_label": "1545 inward: Collaine sylke the cloute pound’ foure pounde 53s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "640",
+        "lsd": "53s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 134 (transcribed by Stuart Jenks): 'Collaine sylke the cloute pound’ foure pounde' 53s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Collaine",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "foure",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1545-inward-639",
+      "type": "Rate",
+      "_label": "1545 inward: Sylke throwne the lb 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 639 (transcribed by Stuart Jenks): 'Sylke throwne the lb' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "throwne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1545-inward-640",
+      "type": "Rate",
+      "_label": "1545 inward: Sylke rawe and died the pounde 8s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "96",
+        "lsd": "8s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 640 (transcribed by Stuart Jenks): 'Sylke rawe and died the pounde' 8s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "raw",
+          "equivalent": [
+            {
+              "id": "aat:300221288",
+              "type": "Type",
+              "_label": "unfinished"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "dye"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1545-inward-641",
+      "type": "Rate",
+      "_label": "1545 inward: Sylke longe, videlicet twelve ounces to the pounde 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 641 (transcribed by Stuart Jenks): 'Sylke longe, videlicet twelve ounces to the pounde' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "long"
+        },
+        {
+          "type": "Type",
+          "_label": "twelve",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1545-inward-642",
+      "type": "Rate",
+      "_label": "1545 inward: Sylke shorte, videlicet twelve ounces to the pounde 4s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "48",
+        "lsd": "4s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 642 (transcribed by Stuart Jenks): 'Sylke shorte, videlicet twelve ounces to the pounde' 4s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "short"
+        },
+        {
+          "type": "Type",
+          "_label": "twelve",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1545-inward-704",
+      "type": "Rate",
+      "_label": "1545 inward: Sylke sayes the yarde 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 704 (transcribed by Stuart Jenks): 'Sylke sayes the yarde' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "sayes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1545-inward-727",
+      "type": "Rate",
+      "_label": "1545 inward: Tapistry wyth sylke the ell 20d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "20",
+        "lsd": "20d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/ell",
+          "type": "MeasurementUnit",
+          "_label": "ell"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 727 (transcribed by Stuart Jenks): 'Tapistry wyth sylke the ell' 20d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Tapistry",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1545-inward-730",
+      "type": "Rate",
+      "_label": "1545 inward: Tapistry wythout sylke, caddas or woll the elle 6d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "6",
+        "lsd": "6d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/ell",
+          "type": "MeasurementUnit",
+          "_label": "ell"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 730 (transcribed by Stuart Jenks): 'Tapistry wythout sylke, caddas or woll the elle' 6d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Tapistry wythout",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "caddas or woll",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1558-inward-1045",
+      "type": "Rate",
+      "_label": "1558 inward: Sackclothe of sylke the yarde 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "40",
+        "lsd": "3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1045 (transcribed by Stuart Jenks): 'Sackclothe of sylke the yarde' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Sackclothe",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1558-inward-1055",
+      "type": "Rate",
+      "_label": "1558 inward: Silke of Granado coloured the pounde conteynynge sixtene ounces 26s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "320",
+        "lsd": "26s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1055 (transcribed by Stuart Jenks): 'Silke of Granado coloured the pounde conteynynge sixtene ounces' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Granado",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "dye"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1558-inward-1056",
+      "type": "Rate",
+      "_label": "1558 inward: Silke of Granado blacke the pounde 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1056 (transcribed by Stuart Jenks): 'Silke of Granado blacke the pounde' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Granado",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "black",
+          "equivalent": [
+            {
+              "id": "aat:300130920",
+              "type": "Type",
+              "_label": "black (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1558-inward-1057",
+      "type": "Rate",
+      "_label": "1558 inward: Silke vocat’ ferret silke the pounde 8s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "100",
+        "lsd": "8s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1057 (transcribed by Stuart Jenks): 'Silke vocat’ ferret silke the pounde' 8s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "ferret",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1558-inward-1058",
+      "type": "Rate",
+      "_label": "1558 inward: Silke throwen undyed the pounde conteyninge sixtene ounces 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1058 (transcribed by Stuart Jenks): 'Silke throwen undyed the pounde conteyninge sixtene ounces' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "throwen undyed",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1558-inward-1070",
+      "type": "Rate",
+      "_label": "1558 inward: Sylke chamblet the yarde 4s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "48",
+        "lsd": "4s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1070 (transcribed by Stuart Jenks): 'Sylke chamblet the yarde' 4s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "chamblet",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/silk#rate-1558-inward-256",
       "type": "Rate",
       "_label": "1558 inward: Coollen sylke the clowte cont’ 4 pounde £3",
@@ -566,7 +1386,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 256 (transcribed by Stuart Jenks): 'Coollen sylke the clowte cont’ 4 pounde' £3"
+      "sourceText": "Book of Rates 1558, inward, line 256 (transcribed by Stuart Jenks): 'Coollen sylke the clowte cont’ 4 pounde' £3",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Cologne",
+          "originPlace": [
+            {
+              "id": "wd:Q365",
+              "type": "Place",
+              "_label": "Cologne"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/silk#rate-1558-inward-300",
@@ -593,7 +1426,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 300 (transcribed by Stuart Jenks): 'Crippen parttelettes with sylke the dossen' £4"
+      "sourceText": "Book of Rates 1558, inward, line 300 (transcribed by Stuart Jenks): 'Crippen parttelettes with sylke the dossen' £4",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Crippen parttelettes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/silk#rate-1558-inward-302",
@@ -620,7 +1466,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 302 (transcribed by Stuart Jenks): 'Crippen sleaves with sylke the payre' 10s"
+      "sourceText": "Book of Rates 1558, inward, line 302 (transcribed by Stuart Jenks): 'Crippen sleaves with sylke the payre' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Crippen sleaves",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/silk#rate-1558-inward-872",
@@ -647,7 +1506,294 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 872 (transcribed by Stuart Jenks): 'Pomett lace of sylke the grosse' 8s"
+      "sourceText": "Book of Rates 1558, inward, line 872 (transcribed by Stuart Jenks): 'Pomett lace of sylke the grosse' 8s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Pomett lace",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1558-inward-950",
+      "type": "Rate",
+      "_label": "1558 inward: Sylke throme the pounde cont’ 16 oz 15s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "180",
+        "lsd": "15s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 950 (transcribed by Stuart Jenks): 'Sylke throme the pounde cont’ 16 oz' 15s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "thrum"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1558-inward-951",
+      "type": "Rate",
+      "_label": "1558 inward: Sylke rawe and died the pounde cont’ 16 oz 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 951 (transcribed by Stuart Jenks): 'Sylke rawe and died the pounde cont’ 16 oz' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "raw",
+          "equivalent": [
+            {
+              "id": "aat:300221288",
+              "type": "Type",
+              "_label": "unfinished"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "dye"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1558-inward-952",
+      "type": "Rate",
+      "_label": "1558 inward: Sylke longe, twentie one ounce the pounde 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 952 (transcribed by Stuart Jenks): 'Sylke longe, twentie one ounce the pounde' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "long"
+        },
+        {
+          "type": "Type",
+          "_label": "twentie",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1558-inward-953",
+      "type": "Rate",
+      "_label": "1558 inward: Sylke shorte, 21 ounces the pounde 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 953 (transcribed by Stuart Jenks): 'Sylke shorte, 21 ounces the pounde' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "short"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1558-inward-954",
+      "type": "Rate",
+      "_label": "1558 inward: Sylke voc’ Parrys sylke the pounde cont’ 16 oz 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 954 (transcribed by Stuart Jenks): 'Sylke voc’ Parrys sylke the pounde cont’ 16 oz' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Paris",
+          "originPlace": [
+            {
+              "id": "wd:Q90",
+              "type": "Place",
+              "_label": "Paris"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1558-inward-955",
+      "type": "Rate",
+      "_label": "1558 inward: Sylke voc’ sattyn sylke the pounde cont’ 16 oz. 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 955 (transcribed by Stuart Jenks): 'Sylke voc’ sattyn sylke the pounde cont’ 16 oz.' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "sattyn",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1558-inward-956",
+      "type": "Rate",
+      "_label": "1558 inward: Sylke voc’ nobbes of sylke the pounde 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "8",
+        "lsd": "8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 956 (transcribed by Stuart Jenks): 'Sylke voc’ nobbes of sylke the pounde' 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "nobbes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/silk#rate-1558-inward-957",
@@ -674,7 +1820,100 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 957 (transcribed by Stuart Jenks): 'Sylke voc’ caule sylke the paper cont’ 2 lb.' 25s"
+      "sourceText": "Book of Rates 1558, inward, line 957 (transcribed by Stuart Jenks): 'Sylke voc’ caule sylke the paper cont’ 2 lb.' 25s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "caule",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1558-inward-958",
+      "type": "Rate",
+      "_label": "1558 inward: Sylke voc’ Spanyshe sylke the pounde cont’ 16 oz 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 958 (transcribed by Stuart Jenks): 'Sylke voc’ Spanyshe sylke the pounde cont’ 16 oz' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Spain",
+          "originPlace": [
+            {
+              "id": "wd:Q29",
+              "type": "Place",
+              "_label": "Spain"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/silk#rate-1558-inward-964",
+      "type": "Rate",
+      "_label": "1558 inward: Sylke saies the yarde 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 964 (transcribed by Stuart Jenks): 'Sylke saies the yarde' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "saies",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

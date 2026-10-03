@@ -7,64 +7,87 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_grey_cb2e034588b5cbb46a46d93c95fc64a5bafa2b913b5f566e04a5e4f4c43793a81cd">
-    <crm:P190_has_symbolic_content>greys</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_grey_cbc493acf0ea81999c3044d5a066adab32dc86ebbcb67d91224bd1e26653e008ad">
+    <crm:P190_has_symbolic_content>cristy gray</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>greis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1508</hector:validThrough>
+    <hector:phoneticKey>kristi grai</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/grey#rate-1558-inward-522">
+  <rdf:Description rdf:nodeID="commodity_grey_cb25eb7acb9f643fa76a7d74130d66c91b77047d17359ee9b6d2467fddd4ef5f6e3">
+    <crm:P190_has_symbolic_content>gray</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>grai</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/grey#rate-1558-inward-509">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Gray skynnes voc’ flienge gray the pece 6s 8d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_grey_cbfd914665f466c23e4f3983804bc7fba7d997b4177e904a6c4784a0430f9a0371"/>
-    <hector:perQuantity rdf:nodeID="commodity_grey_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 522 (transcribed by Stuart Jenks): 'Gray skynnes voc’ flienge gray the pece' 6s 8d</hector:sourceText>
+    <rdfs:label>1558 inward: Gray untawed the tymbre 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_grey_cb25fbb8d8bf6739785bf174c9892d24a7c2e160600c25a2ff82cd59c451e2affc9"/>
+    <hector:perQuantity rdf:nodeID="commodity_grey_cb25614bebc6cf6447873f517a883be36a0724ea4d0a9db02a02e760581a9d90716"/>
+    <hector:qualifier rdf:nodeID="commodity_grey_cb1bc428d4c4f8edfb41fc07f4ae9334ad9ec405296d1b7c9bcc02acdf0382b6b99"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 509 (transcribed by Stuart Jenks): 'Gray untawed the tymbre' 6s 8d</hector:sourceText>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_grey_cb22fa075805167edfe8f5b73dbe2d86441e92ace96da873db5ff903bf5d06d69d3">
-    <crm:P190_has_symbolic_content>cristygray</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kristigrai</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_grey_cb141796350287354a091274441d4f4ed7b410f350249d6a77179a87b1b804743b0">
+    <crm:P190_has_symbolic_content>winter squirrel skins, with the grey back (Veale, 224) | reddish-brown squirrel skins from Central Europe (Veale 225) | winter squirrel skins, with the grey back (Veale, 224) (see also peltrie de gray) | winter squirrel skins, with the grey back (Veale 224) | co(u)rse (course graye) of low quality | skins of the civet cat, the grey skins being less valuable than the black (Veale 219) | the back of the skin of the winter squirrel, grey in color (Veale 224, 222) | winter squirrel skins, with the grey back (Veale 224), here dressed</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/grey">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cb12f31e1c6eb32065bc46aa5cc5766dffec442c726170287ae0c5f259459b4e1fb"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cb17b80d1048f551caa88842a0f87d9931a8fbaa90f0582c2dd87893618615acf60"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cb1a55f94ac5413758e63ba835fe36be4aa44b231f1d534f0f38dd7154d01645a25"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cb1e63077657773e534d399f1eb8e33799c1939c1aa55699ece0b7a436c0565e0db"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cb1f46c52990a8816313097360db9253f7f382d93cee6668f5cc0ef576e0d176c9b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cb22fa075805167edfe8f5b73dbe2d86441e92ace96da873db5ff903bf5d06d69d3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cb23f5f06ca74fd1e6b54aad8602564279f634bdbb2dc890db2842fdb09d6e4ae96"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cb23fa677b8231a443dc6399e223a3ba08ed00924d0b5e8d6aae727995c2b9eb55a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cb2ba6fb9a808c48320fa1e147623548ef87a57d92c899322f14dfc50aae50c9a72"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cb2e034588b5cbb46a46d93c95fc64a5bafa2b913b5f566e04a5e4f4c43793a81cd"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cb31612a506f9c876d8299b35245e7c854b05a2e3e5ea42d2aab099962ef3c44255"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cb4b806bad316f9662d9db745a8dd2516684e90294504b63bd43b90825dc3c3c67"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cba58277ef1757e3634ea73291ca7cba0a3c483f1a1277cc600e917de53088c724"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_grey_cb0"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>grey</rdfs:label>
-    <skos:broader rdf:resource="http://vocab.getty.edu/aat/300395532"/>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/grey"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">373</hector:attestationCount>
-    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/grey#rate-1558-inward-522"/>
+  <rdf:Description rdf:nodeID="commodity_grey_cb20ee7606dab67601c7612bffbcaa87fb928aea0430f59663a70ea2939e0e7be84">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/timber"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_grey_cb0">
-    <crm:P190_has_symbolic_content>winter squirrel skins, with the grey back (Veale, 224) | reddish-brown squirrel skins from Central Europe (Veale 225) | winter squirrel skins, with the grey back (Veale, 224) (see also peltrie de gray) | winter squirrel skins, with the grey back (Veale 224) | co(u)rse (course graye) of low quality | skins of the civet cat, the grey skins being less valuable than the black (Veale 219) | the back of the skin of the winter squirrel, grey in color (Veale 224, 222) | winter squirrel skins, with the grey back (Veale 224), here dressed</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/grey">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cb14e4316c8be5bbc94a60848daf397d127648173c8bb084c70499f8a157d0c2384"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cb1c470c9ae273d2bc74558266e7f9cd5d2e4f0de94793ab5b5cb1779ce24bb9bae"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cb1da898f991806c1f20b8c3a8eadc1f16e0fa2bb4a2050f9882f5a08b044f4c9ba"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cb20541ac674a9d9b6db53794fa2a646ac4b9786e4cf96f639048baa7ed28bd2264"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cb2137d879addb1cc6a1234d91c555630a7d86c40718a6c541efe2fbbef306eae24"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cb24eb1aa822491a43770f916ea7f09556a89697b397e8d02783cd0a076f3c4ab5c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cb25e703bcc4826d4a436487b6ec19518c8038a8855808ed274c1703f8afa3bf01f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cb25eb7acb9f643fa76a7d74130d66c91b77047d17359ee9b6d2467fddd4ef5f6e3"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cb2d980eea9dbee3959dbbbb784bf8580211a9685cf2d98e7b38b3cb52c0863dbfb"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cb2ff458d8d2fe4fcdd4f316c6e627b4cd842f7c058996ca50c9b8fb0c49c91c356"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cb33523da08ccf22d110b38d832faad7673a5e190888e48976cedd9fab0171b83de"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cbb4882e64f6e4e8e9c0226d3d29d7aaeec9402b556d9bea74b7b49b6ac660e606"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_grey_cbc493acf0ea81999c3044d5a066adab32dc86ebbcb67d91224bd1e26653e008ad"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_grey_cb141796350287354a091274441d4f4ed7b410f350249d6a77179a87b1b804743b0"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>grey</rdfs:label>
+    <skos:broader rdf:resource="http://vocab.getty.edu/aat/300395532"/>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/grey"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">373</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/grey#rate-1507-none-116"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/grey#rate-1545-inward-345"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/grey#rate-1545-inward-346"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/grey#rate-1558-inward-508"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/grey#rate-1558-inward-509"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/grey#rate-1558-inward-522"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_grey_cb23f5f06ca74fd1e6b54aad8602564279f634bdbb2dc890db2842fdb09d6e4ae96">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/grey#rate-1545-inward-346">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Graye untawed the ti[m]ber 3s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_grey_cb2e31473b3c5d135b1d04f62eb42d801d8dfcd36793b44c32a272dd74fbe256696"/>
+    <hector:perQuantity rdf:nodeID="commodity_grey_cb28318bcfe884b28d8d7e3d853a391c823eec8fcb4d75725538ebe8b544892bbc3"/>
+    <hector:qualifier rdf:nodeID="commodity_grey_cb22f288d567cb3f431cc1cc58f4061075e6b2fd742e031100fec0eb19f4ccd0ad9"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 346 (transcribed by Stuart Jenks): 'Graye untawed the ti[m]ber' 3s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/grey">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>grey (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_grey_cb25e703bcc4826d4a436487b6ec19518c8038a8855808ed274c1703f8afa3bf01f">
     <crm:P190_has_symbolic_content>graywark</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -72,35 +95,103 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_grey_cb12f31e1c6eb32065bc46aa5cc5766dffec442c726170287ae0c5f259459b4e1fb">
-    <crm:P190_has_symbolic_content>graywerke</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_grey_cb1746617a4d2e0410cfcc48c1d3c2ed1c43091bd7a0a2f3961edd8a0ee52ef5b61">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>graiwerkə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tawed</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_grey_cb1e63077657773e534d399f1eb8e33799c1939c1aa55699ece0b7a436c0565e0db">
-    <crm:P190_has_symbolic_content>greywark</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_grey_cb2ff458d8d2fe4fcdd4f316c6e627b4cd842f7c058996ca50c9b8fb0c49c91c356">
+    <crm:P190_has_symbolic_content>greys</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>greiwark</hector:phoneticKey>
+    <hector:phoneticKey>greis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1508</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_grey_cb2137d879addb1cc6a1234d91c555630a7d86c40718a6c541efe2fbbef306eae24">
+    <crm:P190_has_symbolic_content>graywerk</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>graiwerk</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_grey_cb27b357f8a90b4536a91b801d48e0012071549fd948d1dddd0ebe449fe71e15d5f">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_grey_cb24eb1aa822491a43770f916ea7f09556a89697b397e8d02783cd0a076f3c4ab5c">
+    <crm:P190_has_symbolic_content>cristygray</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kristigrai</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_grey_cb1a55f94ac5413758e63ba835fe36be4aa44b231f1d534f0f38dd7154d01645a25">
-    <crm:P190_has_symbolic_content>graye</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_grey_cb33523da08ccf22d110b38d832faad7673a5e190888e48976cedd9fab0171b83de">
+    <crm:P190_has_symbolic_content>greywerk</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>graie</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
+    <hector:phoneticKey>greiwerk</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/pecia">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>pecia</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/grey#rate-1507-none-116">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Gray tawyd the tymber that ys to saye 40 skynnes 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_grey_cb2d793e5169afb901457d58556810c514df07abb538e032ddb58bfa5d53379c646"/>
+    <hector:perQuantity rdf:nodeID="commodity_grey_cb20ee7606dab67601c7612bffbcaa87fb928aea0430f59663a70ea2939e0e7be84"/>
+    <hector:qualifier rdf:nodeID="commodity_grey_cb20e20c0f88202f93fc8e66c9e495d56689d0bf86d06f8a4c534b6655595761627"/>
+    <hector:sourceText>Book of Rates 1507, line 116 (transcribed by Stuart Jenks): 'Gray tawyd the tymber that ys to saye 40 skynnes' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_grey_cb17b80d1048f551caa88842a0f87d9931a8fbaa90f0582c2dd87893618615acf60">
+  <rdf:Description rdf:nodeID="commodity_grey_cb110dd79af76d331b8b6d12e0acda406d535b23fc72b6d4c72c649b957adaae293">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>skin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_grey_cb28318bcfe884b28d8d7e3d853a391c823eec8fcb4d75725538ebe8b544892bbc3">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/timber"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_grey_cb1d2d2e7dfa7ef9abe553e27a290d6d40bdde525a25b7a293179e26304f6132d4e">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>flienge</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/grey#rate-1545-inward-345">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Graye tawed the tymber 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_grey_cb27b357f8a90b4536a91b801d48e0012071549fd948d1dddd0ebe449fe71e15d5f"/>
+    <hector:perQuantity rdf:nodeID="commodity_grey_cb292d2c059dc632ac2e124b73fb068a6fe3f65101a5b6075c43704e88f3402f8d9"/>
+    <hector:qualifier rdf:nodeID="commodity_grey_cb1746617a4d2e0410cfcc48c1d3c2ed1c43091bd7a0a2f3961edd8a0ee52ef5b61"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 345 (transcribed by Stuart Jenks): 'Graye tawed the tymber' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_grey_cb1aa6bfa48b2534683f672d58be9ce80940fb54beeb8a9127c21f4efac818b5074">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tawed</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_grey_cbb4882e64f6e4e8e9c0226d3d29d7aaeec9402b556d9bea74b7b49b6ac660e606">
+    <crm:P190_has_symbolic_content>pellis grey</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>pelis grei</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_grey_cb2d980eea9dbee3959dbbbb784bf8580211a9685cf2d98e7b38b3cb52c0863dbfb">
+    <crm:P190_has_symbolic_content>greye</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>greie</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_grey_cb1da898f991806c1f20b8c3a8eadc1f16e0fa2bb4a2050f9882f5a08b044f4c9ba">
     <crm:P190_has_symbolic_content>grey</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -109,59 +200,126 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_grey_cb2ba6fb9a808c48320fa1e147623548ef87a57d92c899322f14dfc50aae50c9a72">
-    <crm:P190_has_symbolic_content>greye</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_grey_cb2d793e5169afb901457d58556810c514df07abb538e032ddb58bfa5d53379c646">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/grey#rate-1558-inward-508">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Gray tawed the tymbre 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_grey_cb3094894c47bc32794b69447feb92d797332936bfaafe9523d93d064c25a9beced"/>
+    <hector:perQuantity rdf:nodeID="commodity_grey_cb25d8d314a99576132bd14335529598d54e695dc671fb7bb8005dd669bf3a76170"/>
+    <hector:qualifier rdf:nodeID="commodity_grey_cb1aa6bfa48b2534683f672d58be9ce80940fb54beeb8a9127c21f4efac818b5074"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 508 (transcribed by Stuart Jenks): 'Gray tawed the tymbre' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_grey_cb1c470c9ae273d2bc74558266e7f9cd5d2e4f0de94793ab5b5cb1779ce24bb9bae">
+    <crm:P190_has_symbolic_content>graye</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>greie</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+    <hector:phoneticKey>graie</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_grey_cb23fa677b8231a443dc6399e223a3ba08ed00924d0b5e8d6aae727995c2b9eb55a">
-    <crm:P190_has_symbolic_content>gray</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_grey_cb20541ac674a9d9b6db53794fa2a646ac4b9786e4cf96f639048baa7ed28bd2264">
+    <crm:P190_has_symbolic_content>greywark</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>grai</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
+    <hector:phoneticKey>greiwark</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+  <rdf:Description rdf:nodeID="commodity_grey_cb25d8d314a99576132bd14335529598d54e695dc671fb7bb8005dd669bf3a76170">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/timber"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_grey_cb25fbb8d8bf6739785bf174c9892d24a7c2e160600c25a2ff82cd59c451e2affc9">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pecia">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pecia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_grey_cb14e4316c8be5bbc94a60848daf397d127648173c8bb084c70499f8a157d0c2384">
+    <crm:P190_has_symbolic_content>graywerke</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>graiwerkə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_grey_cb22f288d567cb3f431cc1cc58f4061075e6b2fd742e031100fec0eb19f4ccd0ad9">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
+    <rdfs:label>untawed</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_grey_cb4b806bad316f9662d9db745a8dd2516684e90294504b63bd43b90825dc3c3c67">
-    <crm:P190_has_symbolic_content>pellis grey</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_grey_cb1bc428d4c4f8edfb41fc07f4ae9334ad9ec405296d1b7c9bcc02acdf0382b6b99">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pelis grei</hector:phoneticKey>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>untawed</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_grey_cb2e31473b3c5d135b1d04f62eb42d801d8dfcd36793b44c32a272dd74fbe256696">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>3s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_grey_cb3094894c47bc32794b69447feb92d797332936bfaafe9523d93d064c25a9beced">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>attested variant</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_grey_cb31612a506f9c876d8299b35245e7c854b05a2e3e5ea42d2aab099962ef3c44255">
-    <crm:P190_has_symbolic_content>greywerk</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>greiwerk</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/grey#rate-1558-inward-522">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Gray skynnes voc’ flienge gray the pece 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_grey_cb230aa13c5d26cc859860c08f7f2bba716cfc9778bfbc861fb97ab305fdb37c1d3"/>
+    <hector:perQuantity rdf:nodeID="commodity_grey_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_grey_cb110dd79af76d331b8b6d12e0acda406d535b23fc72b6d4c72c649b957adaae293"/>
+    <hector:qualifier rdf:nodeID="commodity_grey_cb1d2d2e7dfa7ef9abe553e27a290d6d40bdde525a25b7a293179e26304f6132d4e"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 522 (transcribed by Stuart Jenks): 'Gray skynnes voc’ flienge gray the pece' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_grey_cba58277ef1757e3634ea73291ca7cba0a3c483f1a1277cc600e917de53088c724">
-    <crm:P190_has_symbolic_content>cristy gray</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kristi grai</hector:phoneticKey>
+  <rdf:Description rdf:nodeID="commodity_grey_cb292d2c059dc632ac2e124b73fb068a6fe3f65101a5b6075c43704e88f3402f8d9">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/timber"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_grey_cb1f46c52990a8816313097360db9253f7f382d93cee6668f5cc0ef576e0d176c9b">
-    <crm:P190_has_symbolic_content>graywerk</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>graiwerk</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_grey_cb25614bebc6cf6447873f517a883be36a0724ea4d0a9db02a02e760581a9d90716">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/timber"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_grey_cbfd914665f466c23e4f3983804bc7fba7d997b4177e904a6c4784a0430f9a0371">
+  <rdf:Description rdf:nodeID="commodity_grey_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_grey_cb20e20c0f88202f93fc8e66c9e495d56689d0bf86d06f8a4c534b6655595761627">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tawed</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300395532">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>pelts (animal skins)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_grey_cb230aa13c5d26cc859860c08f7f2bba716cfc9778bfbc861fb97ab305fdb37c1d3">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
     <hector:lsd>6s 8d</hector:lsd>
@@ -171,17 +329,8 @@
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
     <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/grey">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>grey (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_grey_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300395532">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>pelts (animal skins)</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/timber">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>timber</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

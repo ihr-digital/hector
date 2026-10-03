@@ -4,6 +4,18 @@ Releases are tagged `vYYYY.MM` and deposited on Zenodo (docs/uri-policy.md §4).
 pre-releases (`vYYYY.MM-alpha.N`) are snapshots for discussion with no DOI and no promise of
 persistence; until the first full release HECTOR is an **alpha** and records and URIs may change.
 
+## Unreleased (alpha)
+
+- **Qualifiers are on the rates, not separate commodities.** A Book of Rates entry such as
+  "Saffron of beyownd the se" is now a rate on *saffron* that names its qualifier, rather than a
+  record of its own. Each qualifier has its modern name (with its AAT concept or Wikidata place)
+  where it is a spelling in the London Customs Accounts qualifier list, and otherwise is given in
+  the book's words. The 686 qualified-commodity records of v2026.10-alpha.1 are withdrawn: each
+  URI still resolves, to a deprecated record replaced by its base commodity. Their labels were
+  spelling-folded ("saffron (beiound se)"), and about a fifth were minted because a price differed
+  between books rather than between qualifiers.
+- New vocabulary term `hector:qualifier`.
+
 ## v2026.10-alpha.1 (3 October 2026): alpha pre-release
 
 A snapshot for discussion. **It promises nothing persistent**: no DOI, and records, URIs and

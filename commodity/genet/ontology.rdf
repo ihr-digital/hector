@@ -8,155 +8,38 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_genet_cb112a91867aa8aa5201f62ca133f00408bd101f483ea0caba78f6b9552f578cabf">
-    <crm:P190_has_symbolic_content>jenett</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒenet</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_genet_cb22f1a2f41b5ef13b53de96efead688e0c337514401ecb1ea55e5901ee33024963">
-    <crm:P190_has_symbolic_content>genetes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒenetəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_genet_cbc0d60d947949774114eea591dd2dbff5e9bbeeca30fd7f24ee91b836a04523e1">
-    <crm:P190_has_symbolic_content>genet</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒenet</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/genet">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb112a91867aa8aa5201f62ca133f00408bd101f483ea0caba78f6b9552f578cabf"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb14fe75e221c41b2f8311421bbe7b702394c5ea9a8e20bb511c9c2712a71e74e3f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb15e63924a4a1955c6efae4289c55f82bae8b55ddf01418afc7c87d934cdaebaf1"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb1890c2a9129c7fdfccf651c6335ad7bc5a2be543a7f4162ca81df5750ebb6c793"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb18fe53062d13c2d7c330283b9bc520cb86f87d5ddd512700d11872bc8e288df3b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb1a6f7a319ee5f11e086592cb7ae17dbdd17f039b2b1d671db9bb25adf43fc0cd8"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb1c7c3c19dde8fd481bea0b23be9c46b9ad49ba87464beca9e2a25356a16d75139"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb1ca7e5fdc8248ac23cee584c9be9e60f0141897df784109de8668314d7f6439f5"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb1df2f67e3f47b05db8efe5a06035319e9e7d26ac00a6fdad464b251a1d7e18dab"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb1f97617ccf63198081029ec390160c707e189b4311566ff69864c66f73c030bd6"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb21e9e0f2d49d2d34bda15fa85a1397bb6d1095ab3c265ace67d01b5166f4e45fd"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb22f1a2f41b5ef13b53de96efead688e0c337514401ecb1ea55e5901ee33024963"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb241a429f0dc62a731a38b0dc11dde0f7858948ab8e2e15e5365b0a190009367b4"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb2710c9f12c66996d0626902869d3d339de7fe1c3c8af102f004bda970b7681ccc"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb95e4361e98f45ea0a120d420ef4efed4bc88cf410f06029dbd627a2ac97d001d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cbc0d60d947949774114eea591dd2dbff5e9bbeeca30fd7f24ee91b836a04523e1"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_genet_cb0"/>
+  <rdf:Description rdf:nodeID="commodity_genet_cb2b3d5f1d5691ea412079bd485687ba9a49de9d8bb63579174a9cdff28840b4f9f">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>genet</rdfs:label>
-    <skos:broader rdf:resource="http://vocab.getty.edu/aat/300310341"/>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/genet"/>
-    <la:equivalent rdf:resource="http://www.wikidata.org/entity/Q43221"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</hector:attestationCount>
-    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/genet#rate-1558-inward-607"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/genet#rate-1558-inward-607">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Jennettes gray rawe the tymbre £5</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_genet_cbd73009d0e5ddbf75e05719492d6c1f82e8f68e83ab668fef9842a577fad547db"/>
-    <hector:perQuantity rdf:nodeID="commodity_genet_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 607 (transcribed by Stuart Jenks): 'Jennettes gray rawe the tymbre' £5</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+    <rdfs:label>black</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300130920"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_genet_cb15e63924a4a1955c6efae4289c55f82bae8b55ddf01418afc7c87d934cdaebaf1">
-    <crm:P190_has_symbolic_content>jennetes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒenetəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_genet_cb2710c9f12c66996d0626902869d3d339de7fe1c3c8af102f004bda970b7681ccc">
-    <crm:P190_has_symbolic_content>genete</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒenetə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_genet_cb1890c2a9129c7fdfccf651c6335ad7bc5a2be543a7f4162ca81df5750ebb6c793">
-    <crm:P190_has_symbolic_content>jenet</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒenet</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_genet_cb1df2f67e3f47b05db8efe5a06035319e9e7d26ac00a6fdad464b251a1d7e18dab">
-    <crm:P190_has_symbolic_content>jenettes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒenetəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_genet_cb241a429f0dc62a731a38b0dc11dde0f7858948ab8e2e15e5365b0a190009367b4">
-    <crm:P190_has_symbolic_content>jenete</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒenetə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_genet_cb1ca7e5fdc8248ac23cee584c9be9e60f0141897df784109de8668314d7f6439f5">
-    <crm:P190_has_symbolic_content>jenettis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒenetis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_genet_cb1a6f7a319ee5f11e086592cb7ae17dbdd17f039b2b1d671db9bb25adf43fc0cd8">
-    <crm:P190_has_symbolic_content>enettes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>enetəs</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_genet_cb21e9e0f2d49d2d34bda15fa85a1397bb6d1095ab3c265ace67d01b5166f4e45fd">
-    <crm:P190_has_symbolic_content>jenetz</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒenetz</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_genet_cb0">
-    <crm:P190_has_symbolic_content>the genet (also jenet), a kind of civet-cat native to southern Europe, west Asia and Africa; (pl.) the skins of the animal employed as fur for garments (Veale 219). Black skins were more valuable than grey; the best were taken in season, i.e. killed in winter when the animal is normally hunted (Veale 25).</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_genet_cb14fe75e221c41b2f8311421bbe7b702394c5ea9a8e20bb511c9c2712a71e74e3f">
+  <rdf:Description rdf:nodeID="commodity_genet_cb16ef89323ef6b693112b1c4ca83e7f361ec9d564b861179d40702d5ab953e8fc8">
     <crm:P190_has_symbolic_content>jenetes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>dʒenetəs</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q43221">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>genet</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/genet#rate-1558-inward-605">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Jennettes gray rawe the pece 2s 6d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_genet_cb35ed45a0e08d4512a8dfeccaba9a42da313d3c6142bac52e803e9ad55631d9a4b"/>
+    <hector:perQuantity rdf:nodeID="commodity_genet_cb23e78dcbe4f902e2aa1c66356800be8ef38d7667b214efa474adada66fd9c70fc"/>
+    <hector:qualifier rdf:nodeID="commodity_genet_cb1f51291fcba238c64f25ada46a25cd461ff1fc7453caabc47e161dfa3dbe19dc7"/>
+    <hector:qualifier rdf:nodeID="commodity_genet_cb275d3371c7684847fc0f0024b7c78bc67f774332c7da0418f34bcd1c696dda8d3"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 605 (transcribed by Stuart Jenks): 'Jennettes gray rawe the pece' 2s 6d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_genet_cb1c7c3c19dde8fd481bea0b23be9c46b9ad49ba87464beca9e2a25356a16d75139">
+  <rdf:Description rdf:nodeID="commodity_genet_cb1b903de83fc9666d0a575a330f6b4792c40020a1e4611989854f68d21312aa362">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>raw</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300221288"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb1e6d4f69fb1b98abaa03e554a85f55cc374da551708c48f60676599eb3a2e92c2">
     <crm:P190_has_symbolic_content>jennete</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -164,25 +47,168 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_genet_cb1f97617ccf63198081029ec390160c707e189b4311566ff69864c66f73c030bd6">
-    <crm:P190_has_symbolic_content>jenette</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_genet_cb1515361a414bf7fefb135c106df96b51c72473c2478b9c95c1f50fc0f9dc2073e">
+    <crm:P190_has_symbolic_content>jennettes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dʒenetəs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb260b55ef2af8c5d6a8528b0cfba0f00a0f8d3375b86e72315a2f1061123eaa93d">
+    <crm:P190_has_symbolic_content>jenete</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>dʒenetə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/genet">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb11fdecc2901fb1c8897f6b61103161e4969a401054bcbb5cf96628ace83df1e3b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb131ba4d697db45b5901006d21db3131b47140a1268e127069ccabf9d418d00c48"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb1515361a414bf7fefb135c106df96b51c72473c2478b9c95c1f50fc0f9dc2073e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb16ef89323ef6b693112b1c4ca83e7f361ec9d564b861179d40702d5ab953e8fc8"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb1a81d5f92fcf1b435b102bf71d1de6cee42fd00dd2347278cbf1fbbd20f0e091c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb1c608d81bc188c81967f6cfc64a48cd05b82ee65555dc369dd8f2bf6067534e61"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb1e6d4f69fb1b98abaa03e554a85f55cc374da551708c48f60676599eb3a2e92c2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb1e98f94de5572625cb08327d85acf5218b45744821c46cea0c3a895cea2bb7b7e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb1fe409ce5c7a4bc14709bfd149f840b1288111762ae759f96a1f2b622fb38cf34"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb218874ccec95b4e40f1c78f479d91b83081c860d3b96cc42bc38ccb785f5a4d5f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb23daf442f1cfc8984bbb39d943d6a6cdf71480756666b71a8ba42199792a58786"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb24e2b64438918c9ee1f87120d49997f34d3b3c0e2c2d0e3679b99666f56598aec"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb260b55ef2af8c5d6a8528b0cfba0f00a0f8d3375b86e72315a2f1061123eaa93d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb27937fc65b8d0ec0bc6a2ac76482db6dc2f12f337f18c98033802143d13354051"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb2901dd41499934d094406a595396e24c6883cc8df2ef6c7b241fe0df1dabf5e55"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_genet_cb2a5aa03d91f785d391f7e5d956f1903f5bc1c35632eadf58b823fab47b7e39b0b"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_genet_cb1040dd375129257158428e7308c34d72a6788b914ff2c358a92e9402ce0802b01"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>genet</rdfs:label>
+    <skos:broader rdf:resource="http://vocab.getty.edu/aat/300310341"/>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/genet"/>
+    <la:equivalent rdf:resource="http://www.wikidata.org/entity/Q43221"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/genet#rate-1545-inward-407"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/genet#rate-1545-inward-408"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/genet#rate-1558-inward-603"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/genet#rate-1558-inward-604"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/genet#rate-1558-inward-605"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/genet#rate-1558-inward-606"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/genet#rate-1558-inward-607"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb20dacdb4a1af10b5e58e0ca5a31b0af24c2d53abb17352cd2b8f01e2b45defe44">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb24e2b64438918c9ee1f87120d49997f34d3b3c0e2c2d0e3679b99666f56598aec">
+    <crm:P190_has_symbolic_content>genetes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dʒenetəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb1e98f94de5572625cb08327d85acf5218b45744821c46cea0c3a895cea2bb7b7e">
+    <crm:P190_has_symbolic_content>jenettis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dʒenetis</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_genet_cb18a95e4b0a4b343f6c60ac687bdc3550d7e3c11de8fe6856d58a493398675b78d">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>in season</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_genet_cbd73009d0e5ddbf75e05719492d6c1f82e8f68e83ab668fef9842a577fad547db">
+  <rdf:Description rdf:nodeID="commodity_genet_cb2ca4de071d92c17274e268ed34fc98176f5804e315bc0753875ebafa614821e44">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>grey</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300130811"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb23b6483ed9386c156d5c511a42cb9aec53307627dca0d79c28caeb36dd679091e">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
     <hector:lsd>£5</hector:lsd>
     <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1200</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_genet_cb18fe53062d13c2d7c330283b9bc520cb86f87d5ddd512700d11872bc8e288df3b">
+  <rdf:Description rdf:nodeID="commodity_genet_cb1176fa644fffdf7dc1744d670df1bbe91490d3006b9b3d7a1a1c6514d5d0e77e7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>in season</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb3b12bbcd45e20ec4b8a02c3c4a150c7792619139464fb1dab225a0b1efb535896">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>3s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/genet#rate-1545-inward-407">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Jennettes blacke the pece 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_genet_cb2d44b57e2c1b5c362a4392ac60dfd5b625efffcae3772725039bfbbcc83e18878"/>
+    <hector:perQuantity rdf:nodeID="commodity_genet_cb21405030578a847171fb169bae7c9eb7e0fb4d1c2672bdf3431c11d908e9fa25a"/>
+    <hector:qualifier rdf:nodeID="commodity_genet_cb2b3d5f1d5691ea412079bd485687ba9a49de9d8bb63579174a9cdff28840b4f9f"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 407 (transcribed by Stuart Jenks): 'Jennettes blacke the pece' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pecia">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pecia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/genet#rate-1558-inward-607">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Jennettes gray rawe the tymbre £5</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_genet_cb23b6483ed9386c156d5c511a42cb9aec53307627dca0d79c28caeb36dd679091e"/>
+    <hector:perQuantity rdf:nodeID="commodity_genet_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_genet_cb1b903de83fc9666d0a575a330f6b4792c40020a1e4611989854f68d21312aa362"/>
+    <hector:qualifier rdf:nodeID="commodity_genet_cb239c483a3b8f75eeb740acb35d0d061323856760587071ddfa8517f43ec26ae6e"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 607 (transcribed by Stuart Jenks): 'Jennettes gray rawe the tymbre' £5</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb25a9bc95c6d341062fb0dd929b83a2ef8047e1f340e4b93046d0cd78d75d620cb">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb11fdecc2901fb1c8897f6b61103161e4969a401054bcbb5cf96628ace83df1e3b">
+    <crm:P190_has_symbolic_content>genet</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dʒenet</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb36b59d082a89cb46c0751760f9530fb71e7cf86788fef77c60bf3906cd91df0eb">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300130920">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>black (color)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb21405030578a847171fb169bae7c9eb7e0fb4d1c2672bdf3431c11d908e9fa25a">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb1f51291fcba238c64f25ada46a25cd461ff1fc7453caabc47e161dfa3dbe19dc7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>raw</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300221288"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb3128ce9ab127f580ef664ae6ddc6e5403754eacd05323dece195cacb68d6c0f87">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/timber"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb2a5aa03d91f785d391f7e5d956f1903f5bc1c35632eadf58b823fab47b7e39b0b">
     <crm:P190_has_symbolic_content>jennette</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -190,27 +216,213 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_genet_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109">
+  <rdf:Description rdf:nodeID="commodity_genet_cb2b2a30e2845c55cbd8dd4d4c5e95d8398d97ad1bd3de62d99f40d6351a53c3950">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>grey</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300130811"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb1e276c1e922489d4aab683e7ac7880caf7a1aa19c1cbdb4722e3daa6343f4b0e0">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/timber"/>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300310341">
+  <rdf:Description rdf:nodeID="commodity_genet_cb218874ccec95b4e40f1c78f479d91b83081c860d3b96cc42bc38ccb785f5a4d5f">
+    <crm:P190_has_symbolic_content>jenette</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dʒenetə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/genet#rate-1558-inward-606">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Jennettes gray seasoned the pece 3s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_genet_cb3b12bbcd45e20ec4b8a02c3c4a150c7792619139464fb1dab225a0b1efb535896"/>
+    <hector:perQuantity rdf:nodeID="commodity_genet_cb1e276c1e922489d4aab683e7ac7880caf7a1aa19c1cbdb4722e3daa6343f4b0e0"/>
+    <hector:qualifier rdf:nodeID="commodity_genet_cb18a95e4b0a4b343f6c60ac687bdc3550d7e3c11de8fe6856d58a493398675b78d"/>
+    <hector:qualifier rdf:nodeID="commodity_genet_cb2ca4de071d92c17274e268ed34fc98176f5804e315bc0753875ebafa614821e44"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 606 (transcribed by Stuart Jenks): 'Jennettes gray seasoned the pece' 3s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/genet#rate-1558-inward-604">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Jennettes blacke seasoned the pece 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_genet_cb36b59d082a89cb46c0751760f9530fb71e7cf86788fef77c60bf3906cd91df0eb"/>
+    <hector:perQuantity rdf:nodeID="commodity_genet_cb20dacdb4a1af10b5e58e0ca5a31b0af24c2d53abb17352cd2b8f01e2b45defe44"/>
+    <hector:qualifier rdf:nodeID="commodity_genet_cb1176fa644fffdf7dc1744d670df1bbe91490d3006b9b3d7a1a1c6514d5d0e77e7"/>
+    <hector:qualifier rdf:nodeID="commodity_genet_cb1fefa5b81dbc8d95e7f9f7bcb2bfe02378fa135eddbc83f2186817eade3a676d4"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 604 (transcribed by Stuart Jenks): 'Jennettes blacke seasoned the pece' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb1fe409ce5c7a4bc14709bfd149f840b1288111762ae759f96a1f2b622fb38cf34">
+    <crm:P190_has_symbolic_content>jenettes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dʒenetəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb35ed45a0e08d4512a8dfeccaba9a42da313d3c6142bac52e803e9ad55631d9a4b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s 6d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb27937fc65b8d0ec0bc6a2ac76482db6dc2f12f337f18c98033802143d13354051">
+    <crm:P190_has_symbolic_content>jennetes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dʒenetəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb1fefa5b81dbc8d95e7f9f7bcb2bfe02378fa135eddbc83f2186817eade3a676d4">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>Viverridae (family)</rdfs:label>
+    <rdfs:label>black</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300130920"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/genet#rate-1558-inward-603">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Jennettes blacke rawe the pece 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_genet_cb3128ce9ab127f580ef664ae6ddc6e5403754eacd05323dece195cacb68d6c0f87"/>
+    <hector:perQuantity rdf:nodeID="commodity_genet_cb25a9bc95c6d341062fb0dd929b83a2ef8047e1f340e4b93046d0cd78d75d620cb"/>
+    <hector:qualifier rdf:nodeID="commodity_genet_cb22c8ecd6314d8c5280574c69c4b6ee0f11d161140e5381f4e20f71aa75699a849"/>
+    <hector:qualifier rdf:nodeID="commodity_genet_cb255222bfe788bcb94b448cbafe066e033e4ba46bc7c681c4a3bc61dbe0a214b8b"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 603 (transcribed by Stuart Jenks): 'Jennettes blacke rawe the pece' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb2901dd41499934d094406a595396e24c6883cc8df2ef6c7b241fe0df1dabf5e55">
+    <crm:P190_has_symbolic_content>genete</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dʒenetə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/mlca/glossary/genet">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>genet (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb131ba4d697db45b5901006d21db3131b47140a1268e127069ccabf9d418d00c48">
+    <crm:P190_has_symbolic_content>jenett</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dʒenet</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/genet#rate-1545-inward-408">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Jennettes gray the pece 20d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_genet_cb367a857098b369c66c43b0d1c5d124f57929d4365652094425e9912323d5926df"/>
+    <hector:perQuantity rdf:nodeID="commodity_genet_cb1c2d9d62b8bd44b367fc5fcd8b111c76476af7c03592c6a2572356e78f0a0b561"/>
+    <hector:qualifier rdf:nodeID="commodity_genet_cb2b2a30e2845c55cbd8dd4d4c5e95d8398d97ad1bd3de62d99f40d6351a53c3950"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 408 (transcribed by Stuart Jenks): 'Jennettes gray the pece' 20d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb1c2d9d62b8bd44b367fc5fcd8b111c76476af7c03592c6a2572356e78f0a0b561">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb1c608d81bc188c81967f6cfc64a48cd05b82ee65555dc369dd8f2bf6067534e61">
+    <crm:P190_has_symbolic_content>enettes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>enetəs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300130811">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gray (color)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb239c483a3b8f75eeb740acb35d0d061323856760587071ddfa8517f43ec26ae6e">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>grey</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300130811"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb1a81d5f92fcf1b435b102bf71d1de6cee42fd00dd2347278cbf1fbbd20f0e091c">
+    <crm:P190_has_symbolic_content>jenet</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dʒenet</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb367a857098b369c66c43b0d1c5d124f57929d4365652094425e9912323d5926df">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb23daf442f1cfc8984bbb39d943d6a6cdf71480756666b71a8ba42199792a58786">
+    <crm:P190_has_symbolic_content>jenetz</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dʒenetz</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1535</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb22c8ecd6314d8c5280574c69c4b6ee0f11d161140e5381f4e20f71aa75699a849">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>raw</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300221288"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb2d44b57e2c1b5c362a4392ac60dfd5b625efffcae3772725039bfbbcc83e18878">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/unit/timber">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
     <rdfs:label>timber</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_genet_cb95e4361e98f45ea0a120d420ef4efed4bc88cf410f06029dbd627a2ac97d001d">
-    <crm:P190_has_symbolic_content>jennettes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dʒenetəs</hector:phoneticKey>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300221288">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>unfinished</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb255222bfe788bcb94b448cbafe066e033e4ba46bc7c681c4a3bc61dbe0a214b8b">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>black</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300130920"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q43221">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>genet</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300310341">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Viverridae (family)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb275d3371c7684847fc0f0024b7c78bc67f774332c7da0418f34bcd1c696dda8d3">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>grey</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300130811"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb23e78dcbe4f902e2aa1c66356800be8ef38d7667b214efa474adada66fd9c70fc">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_genet_cb1040dd375129257158428e7308c34d72a6788b914ff2c358a92e9402ce0802b01">
+    <crm:P190_has_symbolic_content>the genet (also jenet), a kind of civet-cat native to southern Europe, west Asia and Africa; (pl.) the skins of the animal employed as fur for garments (Veale 219). Black skins were more valuable than grey; the best were taken in season, i.e. killed in winter when the animal is normally hunted (Veale 25).</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
   </rdf:Description>
 </rdf:RDF>

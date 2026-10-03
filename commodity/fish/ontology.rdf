@@ -8,119 +8,51 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_fish_cb1b8d3c0cf52a3f307d8bc57ddfe57695c33777777f9684bcdf1b28baab0e23d94">
-    <crm:P190_has_symbolic_content>fysshe</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>fiʃə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/fish#rate-1558-inward-431">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/fish#rate-1558-inward-426">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Fishe the last cont’ 12 barrelles £6</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_fish_cb2a60a1bb43169f516d5d985e14a5b815b24bb80cbbed1fc553d0e898984a758ea"/>
-    <hector:perQuantity rdf:nodeID="commodity_fish_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 431 (transcribed by Stuart Jenks): 'Fishe the last cont’ 12 barrelles' £6</hector:sourceText>
+    <rdfs:label>1558 inward: Fysshe of the Newe Lande the hundred cont’ 6 score of the greate 30s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_fish_cb240f811f378fed9cac072ba8521b1457aa646c1241555bc7cc7a7446048fd4788"/>
+    <hector:perQuantity rdf:nodeID="commodity_fish_cb1ad556c60c227b7da20a435ec83908a8044f2c99286cc42e9c6b25bb16b74d963"/>
+    <hector:qualifier rdf:nodeID="commodity_fish_cb15cc876237f3fdab049599cce6a670757aeaf18e7711b1a9c205ffce1edaf69ad"/>
+    <hector:qualifier rdf:nodeID="commodity_fish_cb1b2196a46de6853bf5296348c1308e4babf97150abe566218192fb90b2bc87c9b"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 426 (transcribed by Stuart Jenks): 'Fysshe of the Newe Lande the hundred cont’ 6 score of the greate' 30s</hector:sourceText>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_fish_cb2c2e19191fc88e8d6ac29731a6fcfcb2a21cc22027d16d156ef360b744a1c5154">
-    <crm:P190_has_symbolic_content>pisscis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pisis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_fish_cb24e29808bb28136f59c294e79d12f6b2a96b4a3782d35c8ae0a4e669e4510e5b3">
-    <crm:P190_has_symbolic_content>pyscis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pisis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_fish_cb2bb0aded1618e2078982f005a22d6aadf26ab6057fa300a1a78c00d3eac9cd4fb">
-    <crm:P190_has_symbolic_content>pisscisis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pisisis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_fish_cb18b88f3d9e24eda20373b8d4541a3f4a02eeaa11d735b648c15cd7403a741e929">
-    <crm:P190_has_symbolic_content>The flesh of fish used as food. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_fish_cbf5225ad15532772af18d940a4db57a831c66c0bd15c269c5403832e4d8690f1d">
-    <crm:P190_has_symbolic_content>piscium</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pisium</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/last">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>last</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_fish_cb24600aeb21d4dd00e7b6923c9ea16ca7d05e60104718051515cdd22bd9d11b739">
-    <crm:P190_has_symbolic_content>fish</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>fiʃ</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_fish_cb2fb0166ce7df097ea8b030c04a52c7c88e31f935d9217c439af3808aa25b4deff">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>6s 8d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_fish_cb281eaa5fd803380eb212ba72730f2fd33a1899a99ae9f837a9d5c7744bf28d3b8">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_fish_cb2fa50f86443ec9b1a9b6ca5faf1a781ae9d799c642d02b6975077d2cd4659a5a3">
-    <crm:P190_has_symbolic_content>fysh</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>fiʃ</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_fish_cb27d85040a659247a424f3dac07180753e43e6c8f6062e0b20d673f84bc0ab2387">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_fish_cb2e9d441621d8c05206a6776a818b71c067d3d86d1f9033cc7621558ed3234111e">
-    <crm:P190_has_symbolic_content>fissh</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>fiʃ</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_fish_cb16bc4958965ad1f3bb025859fc08c2c76b4596fccd459fe9176c16c267beb7b5f">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
+    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_fish_cb140000b59a7185a8c567013c68daa874e5465fb490fccb9468f7717ab934d6084">
-    <crm:P190_has_symbolic_content>pisscibus</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_fish_cb1048ffb86507c0d6628b094867cdb2cc9d94a1490769b83b0e3abfa5c59e1120a">
+    <crm:P190_has_symbolic_content>pyscium</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pisibus</hector:phoneticKey>
+    <hector:phoneticKey>pisium</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_fish_cb2ee6680c6c7b179ba506724d62ffc8a2d3c6db5b25a2a0571c1d0e2b3547768e2">
-    <crm:P190_has_symbolic_content>pissisis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pisisis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_fish_cb1e246d4729c393138c1602f31645ea528ba90724799e2a9954e9486659dbd0c6c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>mid</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb2fb0166ce7df097ea8b030c04a52c7c88e31f935d9217c439af3808aa25b4deff">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/fish">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
@@ -155,8 +87,128 @@
     <skos:related rdf:resource="https://w3id.org/hector/commodity/fisshesmer"/>
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300389825"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3582</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/fish#rate-1545-inward-299"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/fish#rate-1545-inward-301"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/fish#rate-1545-inward-302"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/fish#rate-1545-inward-691"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/fish#rate-1545-inward-692"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/fish#rate-1558-inward-426"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/fish#rate-1558-inward-427"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/fish#rate-1558-inward-428"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/fish#rate-1558-inward-430"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/fish#rate-1558-inward-431"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/fish#rate-1558-inward-987"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/fish#rate-1558-inward-987">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Staple fyshe the C cont’ 120 fysshes 30s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_fish_cb1559642a96dce9cbecc814feabb0e5870f4a7690d5fb3b8688995cb98cc9b79b2"/>
+    <hector:perQuantity rdf:nodeID="commodity_fish_cb148ab670c330cf7e7d114310da8bf3011e8069cacf36eb620392a195ca59cc35e"/>
+    <hector:qualifier rdf:nodeID="commodity_fish_cb11d1376659c709c14cfadd9f69d550861cc7903cf6af75bf8d292f655f70f549a"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 987 (transcribed by Stuart Jenks): 'Staple fyshe the C cont’ 120 fysshes' 30s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb2ee6680c6c7b179ba506724d62ffc8a2d3c6db5b25a2a0571c1d0e2b3547768e2">
+    <crm:P190_has_symbolic_content>pissisis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>pisisis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cbf43a29b25b13a138b6524181efd76360c50199bacac19a665f8f1de0ab10cd18">
+    <crm:P190_has_symbolic_content>piscibus</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>pisibus</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb11d1376659c709c14cfadd9f69d550861cc7903cf6af75bf8d292f655f70f549a">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Staple</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb2d38eeb9a9b6f4a3abfe40ee5bf6539dbef7c18b67f8cab75872d64b5274ba16c">
+    <crm:P190_has_symbolic_content>fisshe</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>fiʃə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb304ce0bc69fda9477efc5bfd5be04effeab7a2cfcd9e3d730bf61cbb1c6582867">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb16ec9053ee9edf86a2c54f710eea976b5990cfc92a067f21da4faa82d003f5a3c">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb105dc6e2b8dd5eb980a5e897b6b539cb8441dc452ca9f46ce0064521d2e3d8040">
+    <crm:P190_has_symbolic_content>pissium</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>pisium</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1492</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb2487bb12a2ed2a85a1f0d0a3164fc32e0a3e9f5dd5ea361c8a1ae6697637c6f57">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cbf5225ad15532772af18d940a4db57a831c66c0bd15c269c5403832e4d8690f1d">
+    <crm:P190_has_symbolic_content>piscium</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>pisium</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb11ab7c61d34875653081c468c92ccbb283338ec9f4d5f11dfe3736d65d46a694b">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>new</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/hundred">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>hundred</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/fish#rate-1558-inward-428">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Fishe of þe New Land the C of the small 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_fish_cb304ce0bc69fda9477efc5bfd5be04effeab7a2cfcd9e3d730bf61cbb1c6582867"/>
+    <hector:perQuantity rdf:nodeID="commodity_fish_cb23b6b5e3bcb6d24d763bbec3374660ef08028ae8cd06754a62dc6e350c6f1df49"/>
+    <hector:qualifier rdf:nodeID="commodity_fish_cb11ab7c61d34875653081c468c92ccbb283338ec9f4d5f11dfe3736d65d46a694b"/>
+    <hector:qualifier rdf:nodeID="commodity_fish_cb1c25fc0d1755c29f8b088d638f80e713c876292e7b0085d84d6c199e543f7930a"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 428 (transcribed by Stuart Jenks): 'Fishe of þe New Land the C of the small' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb2451b724505bf6b9fafd84939ccfe9fa87de9c0a372b5e928a1b8fa467019dfb1">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Lande of the greatiste</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb1c25fc0d1755c29f8b088d638f80e713c876292e7b0085d84d6c199e543f7930a">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Land</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb1bee62493431a387e0594256f003f3583ad63104a51ff125091471223bf942233">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>barrelled</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/fish#rate-1545-inward-691">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Staple fysshe the hundreth 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_fish_cb383316c0fc7134822af77c42167d9d709e356c848a0cf23064bee76c2e98f470f"/>
+    <hector:perQuantity rdf:nodeID="commodity_fish_cb16ec9053ee9edf86a2c54f710eea976b5990cfc92a067f21da4faa82d003f5a3c"/>
+    <hector:qualifier rdf:nodeID="commodity_fish_cb1f10b6e0a5e3a6ac6be16955c4718beb6bc463f4aab09d32b91fca36d57f627ef"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 691 (transcribed by Stuart Jenks): 'Staple fysshe the hundreth' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_fish_cb1f9d0cce675650bfcd01c8f3c7ce6755a85a907892a9b07c7da35886808cfadb5">
     <crm:P190_has_symbolic_content>piscisis</crm:P190_has_symbolic_content>
@@ -166,11 +218,113 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_fish_cb1048ffb86507c0d6628b094867cdb2cc9d94a1490769b83b0e3abfa5c59e1120a">
-    <crm:P190_has_symbolic_content>pyscium</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_fish_cb1e2368a8345a8b4a8ad17ebb31babb8efd7aecf0078ab2afe3f5b163404f19a38">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb24e29808bb28136f59c294e79d12f6b2a96b4a3782d35c8ae0a4e669e4510e5b3">
+    <crm:P190_has_symbolic_content>pyscis</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pisium</hector:phoneticKey>
+    <hector:phoneticKey>pisis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb2717b8af828d015fded86689894507ae1dcac57d7e8c8ec3175c7e56324b4e0a4">
+    <crm:P190_has_symbolic_content>pissis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>pisis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb383316c0fc7134822af77c42167d9d709e356c848a0cf23064bee76c2e98f470f">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb33abb31f16cc5475566397d70f99f14740748486fd9db92f3ddfea7e51351c57b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb1b8d3c0cf52a3f307d8bc57ddfe57695c33777777f9684bcdf1b28baab0e23d94">
+    <crm:P190_has_symbolic_content>fysshe</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>fiʃə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/fish#rate-1558-inward-430">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Fishe voc’ barrelled fishe the barrell 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_fish_cb322af716444ca9e1106026f611f0a2784552cf6032a0efd26f5f45996cd9de8fa"/>
+    <hector:perQuantity rdf:nodeID="commodity_fish_cb27d85040a659247a424f3dac07180753e43e6c8f6062e0b20d673f84bc0ab2387"/>
+    <hector:qualifier rdf:nodeID="commodity_fish_cb1bee62493431a387e0594256f003f3583ad63104a51ff125091471223bf942233"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 430 (transcribed by Stuart Jenks): 'Fishe voc’ barrelled fishe the barrell' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/fish#rate-1558-inward-427">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Fishe of the New Land the C cont’ 120 of the midle 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_fish_cb3e54ea608c6d598884554a2974943a1fba86d2a90caa75784dc2ced2ab91895ed"/>
+    <hector:perQuantity rdf:nodeID="commodity_fish_cb2487bb12a2ed2a85a1f0d0a3164fc32e0a3e9f5dd5ea361c8a1ae6697637c6f57"/>
+    <hector:qualifier rdf:nodeID="commodity_fish_cb1bcbf8c43d33605895e572e039b4072e4ec596112a38070545cfdbab42632c2e1"/>
+    <hector:qualifier rdf:nodeID="commodity_fish_cb2646786f8140ad92f06c3bdb0008228f94083075b0629bbf9504be73395bfeca0"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 427 (transcribed by Stuart Jenks): 'Fishe of the New Land the C cont’ 120 of the midle' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb2fa50f86443ec9b1a9b6ca5faf1a781ae9d799c642d02b6975077d2cd4659a5a3">
+    <crm:P190_has_symbolic_content>fysh</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>fiʃ</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb18b6fb74f02bb614f5e3cfd20b633db0916025449b6503e7b496875ee173bff85">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>new</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb17972dc0e46fa2dd5a9606c0ebd15701c3cc5beffe60dc8b38c66c43553860706">
+    <crm:P190_has_symbolic_content>piscis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>pisis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb2289e423929110cfd954feaefdb42e6448ef10cecd373d089cd5f4e0954bf1058">
+    <crm:P190_has_symbolic_content>fyshe</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>fiʃə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb3e54ea608c6d598884554a2974943a1fba86d2a90caa75784dc2ced2ab91895ed">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb32b40c8fcb18947118d2e4161a42f651ecff80de6c9b92c6b4ffad7df724adb94">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb240f811f378fed9cac072ba8521b1457aa646c1241555bc7cc7a7446048fd4788">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>30s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_fish_cb1daddb48fef1abf599a6306cc6c93fc6de3162a9dc9c20321c8ba25b3ede4af89">
     <crm:P190_has_symbolic_content>pheshe</crm:P190_has_symbolic_content>
@@ -180,9 +334,37 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_fish_cb23b6b5e3bcb6d24d763bbec3374660ef08028ae8cd06754a62dc6e350c6f1df49">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb26340233b70b8ba38b6c2b36a1152f008376ac9561da44fba5b06c5361cb99891">
+    <crm:P190_has_symbolic_content>phishe</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>fiʃə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb2e9d441621d8c05206a6776a818b71c067d3d86d1f9033cc7621558ed3234111e">
+    <crm:P190_has_symbolic_content>fissh</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>fiʃ</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/fish#rate-1545-inward-299">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Fysshe of the New Lande of the greatiste sorte the hunderith 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_fish_cb3c9d4b03fdd59e516503ef45f10de0aab7402279051bb10595ad0f4e08e237a16"/>
+    <hector:perQuantity rdf:nodeID="commodity_fish_cb1f9194f9619f11cd61f82b3b7227fabfa301667f095d7f1d55f5c4104a0d7716e"/>
+    <hector:qualifier rdf:nodeID="commodity_fish_cb18b6fb74f02bb614f5e3cfd20b633db0916025449b6503e7b496875ee173bff85"/>
+    <hector:qualifier rdf:nodeID="commodity_fish_cb2451b724505bf6b9fafd84939ccfe9fa87de9c0a372b5e928a1b8fa467019dfb1"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 299 (transcribed by Stuart Jenks): 'Fysshe of the New Lande of the greatiste sorte the hunderith' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/fish#rate-1545-inward-302">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
@@ -193,67 +375,15 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_fish_cb2289e423929110cfd954feaefdb42e6448ef10cecd373d089cd5f4e0954bf1058">
-    <crm:P190_has_symbolic_content>fyshe</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>fiʃə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300073768">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>small</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_fish_cbf43a29b25b13a138b6524181efd76360c50199bacac19a665f8f1de0ab10cd18">
-    <crm:P190_has_symbolic_content>piscibus</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pisibus</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_fish_cb2d38eeb9a9b6f4a3abfe40ee5bf6539dbef7c18b67f8cab75872d64b5274ba16c">
-    <crm:P190_has_symbolic_content>fisshe</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>fiʃə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_fish_cb1f802ac81d3fd05e14b3ee93a17ada0d8c723aa13b0fba98fb9d1bcbf5b37b5e0">
-    <crm:P190_has_symbolic_content>pyscisis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pisisis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/barrel">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>barrel</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_fish_cb26340233b70b8ba38b6c2b36a1152f008376ac9561da44fba5b06c5361cb99891">
-    <crm:P190_has_symbolic_content>phishe</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>fiʃə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_fish_cb17972dc0e46fa2dd5a9606c0ebd15701c3cc5beffe60dc8b38c66c43553860706">
-    <crm:P190_has_symbolic_content>piscis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pisis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_fish_cb2717b8af828d015fded86689894507ae1dcac57d7e8c8ec3175c7e56324b4e0a4">
-    <crm:P190_has_symbolic_content>pissis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pisis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_fish_cb3c9d4b03fdd59e516503ef45f10de0aab7402279051bb10595ad0f4e08e237a16">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_fish_cb2615e48ebf534fe101f36ac64330317bd92e8ef2fcb3222f905b6e18e1b134fb2">
     <crm:P190_has_symbolic_content>fishe</crm:P190_has_symbolic_content>
@@ -263,11 +393,81 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb148ab670c330cf7e7d114310da8bf3011e8069cacf36eb620392a195ca59cc35e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/fish">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>fish (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb2646786f8140ad92f06c3bdb0008228f94083075b0629bbf9504be73395bfeca0">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Land</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_fish_cb2a60a1bb43169f516d5d985e14a5b815b24bb80cbbed1fc553d0e898984a758ea">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
     <hector:lsd>£6</hector:lsd>
     <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1440</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/barrel">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>barrel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb1f9194f9619f11cd61f82b3b7227fabfa301667f095d7f1d55f5c4104a0d7716e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb2c2e19191fc88e8d6ac29731a6fcfcb2a21cc22027d16d156ef360b744a1c5154">
+    <crm:P190_has_symbolic_content>pisscis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>pisis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/fish#rate-1545-inward-692">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Small fysshe the 100 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_fish_cb32b40c8fcb18947118d2e4161a42f651ecff80de6c9b92c6b4ffad7df724adb94"/>
+    <hector:perQuantity rdf:nodeID="commodity_fish_cb16bc4958965ad1f3bb025859fc08c2c76b4596fccd459fe9176c16c267beb7b5f"/>
+    <hector:qualifier rdf:nodeID="commodity_fish_cb2c1f0a8c992361e88b33b9871d93a14c5b3c0be27a45762df204f6df5a788adc4"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 692 (transcribed by Stuart Jenks): 'Small fysshe the 100' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/fisshesmer">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>fisshesmer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/fish#rate-1545-inward-301">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Fysshe of the myddell sorte the 100 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_fish_cb33abb31f16cc5475566397d70f99f14740748486fd9db92f3ddfea7e51351c57b"/>
+    <hector:perQuantity rdf:nodeID="commodity_fish_cb1e2368a8345a8b4a8ad17ebb31babb8efd7aecf0078ab2afe3f5b163404f19a38"/>
+    <hector:qualifier rdf:nodeID="commodity_fish_cb1e246d4729c393138c1602f31645ea528ba90724799e2a9954e9486659dbd0c6c"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 301 (transcribed by Stuart Jenks): 'Fysshe of the myddell sorte the 100' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb24600aeb21d4dd00e7b6923c9ea16ca7d05e60104718051515cdd22bd9d11b739">
+    <crm:P190_has_symbolic_content>fish</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>fiʃ</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb322af716444ca9e1106026f611f0a2784552cf6032a0efd26f5f45996cd9de8fa">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_fish_cbc578c37d6e265e730b8dfe2a67501132bbe4113dd704328111a736d3e58163b6">
     <crm:P190_has_symbolic_content>pisce</crm:P190_has_symbolic_content>
@@ -275,35 +475,105 @@
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>pisə</hector:phoneticKey>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb1ad556c60c227b7da20a435ec83908a8044f2c99286cc42e9c6b25bb16b74d963">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/fish#rate-1558-inward-431">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Fishe the last cont’ 12 barrelles £6</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_fish_cb2a60a1bb43169f516d5d985e14a5b815b24bb80cbbed1fc553d0e898984a758ea"/>
+    <hector:perQuantity rdf:nodeID="commodity_fish_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 431 (transcribed by Stuart Jenks): 'Fishe the last cont’ 12 barrelles' £6</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb2bb0aded1618e2078982f005a22d6aadf26ab6057fa300a1a78c00d3eac9cd4fb">
+    <crm:P190_has_symbolic_content>pisscisis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>pisisis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb140000b59a7185a8c567013c68daa874e5465fb490fccb9468f7717ab934d6084">
+    <crm:P190_has_symbolic_content>pisscibus</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>pisibus</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_fish_cb12999a6d4a3ecf7a3ee0ee43690bf698edb75e507cf7f34b56e222f840c05f7bf">
     <crm:P190_has_symbolic_content>pisces</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>pisəs</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_fish_cb105dc6e2b8dd5eb980a5e897b6b539cb8441dc452ca9f46ce0064521d2e3d8040">
-    <crm:P190_has_symbolic_content>pissium</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_fish_cb1f802ac81d3fd05e14b3ee93a17ada0d8c723aa13b0fba98fb9d1bcbf5b37b5e0">
+    <crm:P190_has_symbolic_content>pyscisis</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>pisium</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1492</hector:validThrough>
+    <hector:phoneticKey>pisisis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/fisshesmer">
+  <rdf:Description rdf:nodeID="commodity_fish_cb15cc876237f3fdab049599cce6a670757aeaf18e7711b1a9c205ffce1edaf69ad">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>fisshesmer</rdfs:label>
+    <rdfs:label>new</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/fish">
+  <rdf:Description rdf:nodeID="commodity_fish_cb1f10b6e0a5e3a6ac6be16955c4718beb6bc463f4aab09d32b91fca36d57f627ef">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>fish (London Customs Accounts glossary)</rdfs:label>
+    <rdfs:label>Staple</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb18b88f3d9e24eda20373b8d4541a3f4a02eeaa11d735b648c15cd7403a741e929">
+    <crm:P190_has_symbolic_content>The flesh of fish used as food. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_fish_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/last"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/last">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>last</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb1b2196a46de6853bf5296348c1308e4babf97150abe566218192fb90b2bc87c9b">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Lande</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb2c1f0a8c992361e88b33b9871d93a14c5b3c0be27a45762df204f6df5a788adc4">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>small</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073768"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300389825">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>fish (meat)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb1559642a96dce9cbecc814feabb0e5870f4a7690d5fb3b8688995cb98cc9b79b2">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>30s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_fish_cb1bcbf8c43d33605895e572e039b4072e4ec596112a38070545cfdbab42632c2e1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>new</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

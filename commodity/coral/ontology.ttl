@@ -89,6 +89,12 @@
 aat:300011800 a crm:E55_Type ;
     rdfs:label "coral (material)" .
 
+aat:300126225 a crm:E55_Type ;
+    rdfs:label "red (color)" .
+
+aat:300129784 a crm:E55_Type ;
+    rdfs:label "white (color)" .
+
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
 
@@ -117,6 +123,12 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/mast> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "red" ;
+            la:equivalent aat:300126225 ],
+        [ a crm:E55_Type ;
+            rdfs:label "white" ;
+            la:equivalent aat:300129784 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 259 (transcribed by Stuart Jenks): 'Currall whyte or redd the maste cont’ 2½ lb' 20s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .

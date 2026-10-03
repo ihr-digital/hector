@@ -11,11 +11,17 @@
     rdfs:label "pouch" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "pouchis" ;
+            crm:P190_has_symbolic_content "powchez" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "puːtʃez" ;
+            hector:validFrom "1519"^^xsd:gYear ;
+            hector:validThrough "1520"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "powchys" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "puːtʃis" ;
-            hector:validFrom "1477"^^xsd:gYear ;
-            hector:validThrough "1479"^^xsd:gYear ],
+            hector:validFrom "1502"^^xsd:gYear ;
+            hector:validThrough "1503"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "poche" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -23,21 +29,15 @@
             hector:validFrom "1465"^^xsd:gYear ;
             hector:validThrough "1472"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "powches" ;
+            crm:P190_has_symbolic_content "pouchis" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "puːtʃəs" ;
-            hector:validFrom "1438"^^xsd:gYear ;
-            hector:validThrough "1439"^^xsd:gYear ],
+            hector:phoneticKey "puːtʃis" ;
+            hector:validFrom "1477"^^xsd:gYear ;
+            hector:validThrough "1479"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "powche" ;
+            crm:P190_has_symbolic_content "powchis" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "puːtʃə" ;
-            hector:validFrom "1438"^^xsd:gYear ;
-            hector:validThrough "1439"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "powch" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "puːtʃ" ;
+            hector:phoneticKey "puːtʃis" ;
             hector:validFrom "1483"^^xsd:gYear ;
             hector:validThrough "1485"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
@@ -65,17 +65,17 @@
             hector:validFrom "1483"^^xsd:gYear ;
             hector:validThrough "1485"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "pouchs" ;
+            crm:P190_has_symbolic_content "powch" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "puːtʃs" ;
-            hector:validFrom "1487"^^xsd:gYear ;
-            hector:validThrough "1490"^^xsd:gYear ],
+            hector:phoneticKey "puːtʃ" ;
+            hector:validFrom "1483"^^xsd:gYear ;
+            hector:validThrough "1485"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "pouches" ;
+            crm:P190_has_symbolic_content "powche" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "puːtʃəs" ;
-            hector:validFrom "1390"^^xsd:gYear ;
-            hector:validThrough "1513"^^xsd:gYear ],
+            hector:phoneticKey "puːtʃə" ;
+            hector:validFrom "1438"^^xsd:gYear ;
+            hector:validThrough "1439"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "pawches" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -83,11 +83,11 @@
             hector:validFrom "1390"^^xsd:gYear ;
             hector:validThrough "1390"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "pouche" ;
+            crm:P190_has_symbolic_content "powches" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "puːtʃə" ;
-            hector:validFrom "1390"^^xsd:gYear ;
-            hector:validThrough "1513"^^xsd:gYear ],
+            hector:phoneticKey "puːtʃəs" ;
+            hector:validFrom "1438"^^xsd:gYear ;
+            hector:validThrough "1439"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "pauch" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -95,12 +95,17 @@
             hector:validFrom "1553"^^xsd:gYear ;
             hector:validThrough "1555"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "pouch" ;
-            crm:P2_has_type aat:300404670,
-                hector:AttestedVariant ;
-            hector:phoneticKey "puːtʃ" ;
+            crm:P190_has_symbolic_content "pouches" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "puːtʃəs" ;
             hector:validFrom "1390"^^xsd:gYear ;
-            hector:validThrough "1390"^^xsd:gYear ],
+            hector:validThrough "1513"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "pouchs" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "puːtʃs" ;
+            hector:validFrom "1487"^^xsd:gYear ;
+            hector:validThrough "1490"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "pauches" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -114,29 +119,24 @@
             hector:validFrom "1390"^^xsd:gYear ;
             hector:validThrough "1390"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "powchys" ;
+            crm:P190_has_symbolic_content "pouche" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "puːtʃis" ;
-            hector:validFrom "1502"^^xsd:gYear ;
-            hector:validThrough "1503"^^xsd:gYear ],
+            hector:phoneticKey "puːtʃə" ;
+            hector:validFrom "1390"^^xsd:gYear ;
+            hector:validThrough "1513"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "powchez" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "puːtʃez" ;
-            hector:validFrom "1519"^^xsd:gYear ;
-            hector:validThrough "1520"^^xsd:gYear ],
+            crm:P190_has_symbolic_content "pouch" ;
+            crm:P2_has_type aat:300404670,
+                hector:AttestedVariant ;
+            hector:phoneticKey "puːtʃ" ;
+            hector:validFrom "1390"^^xsd:gYear ;
+            hector:validThrough "1390"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "pouchez" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "puːtʃez" ;
             hector:validFrom "1519"^^xsd:gYear ;
-            hector:validThrough "1520"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "powchis" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "puːtʃis" ;
-            hector:validFrom "1483"^^xsd:gYear ;
-            hector:validThrough "1485"^^xsd:gYear ] ;
+            hector:validThrough "1520"^^xsd:gYear ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "pouch, a transport unit for dry goods, here unbound books | a bag, sack or receptacle of small or moderate size (OED s.v. pouch) | pouch, as a packing unit for dry goods of no particular size | a ring for closing a pouch or purse (OED s.v. pouch-ring) | clearly some kind of thong for closing a pouch | pouch or purse | pouch or purse as an article of commerce | purse as an article of commerce" ;
             crm:P2_has_type aat:300435416 ] ;
@@ -144,16 +144,18 @@
     skos:related <https://w3id.org/hector/commodity/poucheryng> ;
     la:equivalent aat:300194553 ;
     hector:attestationCount 554 ;
-    hector:taxation <https://w3id.org/hector/commodity/pouch#rate-1507-none-209> .
+    hector:taxation <https://w3id.org/hector/commodity/pouch#rate-1507-none-209>,
+        <https://w3id.org/hector/commodity/pouch#rate-1507-none-210>,
+        <https://w3id.org/hector/commodity/pouch#rate-1545-inward-546>,
+        <https://w3id.org/hector/commodity/pouch#rate-1545-inward-547>,
+        <https://w3id.org/hector/commodity/pouch#rate-1545-inward-548>,
+        <https://w3id.org/hector/commodity/pouch#rate-1558-inward-829> .
 
 aat:300194553 a crm:E55_Type ;
     rdfs:label "pouches" .
 
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
-
-aat:300411998 a crm:E98_Currency ;
-    rdfs:label "pound sterling (system of money)" .
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
@@ -171,14 +173,101 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/pouch#rate-1507-none-210> a hector:Rate ;
+    rdfs:label "1507: Powches rynge the grosse 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "rynge" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 210 (transcribed by Stuart Jenks): 'Powches rynge the grosse' 10s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/pouch#rate-1545-inward-546> a hector:Rate ;
+    rdfs:label "1545 inward: Pouche rynges other syngle or double the groce 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "single" ],
+        [ a crm:E55_Type ;
+            rdfs:label "double" ],
+        [ a crm:E55_Type ;
+            rdfs:label "rynges other" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 546 (transcribed by Stuart Jenks): 'Pouche rynges other syngle or double the groce' 10s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/pouch#rate-1545-inward-547> a hector:Rate ;
+    rdfs:label "1545 inward: Pouches wyth lockes the groce 48s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "48s" ;
+            hector:valueInPence 576.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "lockes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 547 (transcribed by Stuart Jenks): 'Pouches wyth lockes the groce' 48s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/pouch#rate-1545-inward-548> a hector:Rate ;
+    rdfs:label "1545 inward: Pouches with stele rynges the groce 24s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "24s" ;
+            hector:valueInPence 288.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "rynges" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 548 (transcribed by Stuart Jenks): 'Pouches with stele rynges the groce' 24s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/pouch#rate-1558-inward-829> a hector:Rate ;
+    rdfs:label "1558 inward: Powche ringes the grosse 15s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "15s" ;
+            hector:valueInPence 180.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "ringes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 829 (transcribed by Stuart Jenks): 'Powche ringes the grosse' 15s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/poucheryng> a crm:E55_Type ;
     rdfs:label "poucheryng" .
 
-<https://w3id.org/hector/unit/gross> a crm:E58_Measurement_Unit ;
-    rdfs:label "gross" .
-
 <https://w3id.org/mlca/glossary/pouch> a crm:E55_Type ;
     rdfs:label "pouch (London Customs Accounts glossary)" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
+<https://w3id.org/hector/unit/gross> a crm:E58_Measurement_Unit ;
+    rdfs:label "gross" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

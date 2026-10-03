@@ -224,6 +224,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 144 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "latten" ;
+            la:equivalent aat:300198675 ] ;
     hector:sourceText "Book of Rates 1545, inward, line 81 (transcribed by Stuart Jenks): 'Broches of latten the smale groce' 6d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
@@ -237,6 +240,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1728 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "latten" ;
+            la:equivalent aat:300198675 ] ;
     hector:sourceText "Book of Rates 1545, inward, line 82 (transcribed by Stuart Jenks): 'Broches of latten the great groce' 6s 8d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
@@ -250,6 +256,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 144 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "latten" ;
+            la:equivalent aat:300198675 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 132 (transcribed by Stuart Jenks): 'Broches of latten the small grosse' 6s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -259,6 +268,9 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/mlca/glossary/brooch> a crm:E55_Type ;
     rdfs:label "brooch (London Customs Accounts glossary)" .
+
+aat:300198675 a crm:E55_Type ;
+    rdfs:label "latten" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

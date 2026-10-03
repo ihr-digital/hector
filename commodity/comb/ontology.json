@@ -438,6 +438,46 @@
       "sourceText": "Book of Rates 1545, inward, line 157 (transcribed by Stuart Jenks): 'Combes the cace' 20s"
     },
     {
+      "id": "https://w3id.org/hector/commodity/comb#rate-1545-inward-158",
+      "type": "Rate",
+      "_label": "1545 inward: Combes smale the groce 2s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "24",
+        "lsd": "2s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 158 (transcribed by Stuart Jenks): 'Combes smale the groce' 2s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "small",
+          "equivalent": [
+            {
+              "id": "aat:300073768",
+              "type": "Type",
+              "_label": "small"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/comb#rate-1545-inward-159",
       "type": "Rate",
       "_label": "1545 inward: Combes the box 4s",
@@ -463,6 +503,146 @@
       "validFrom": "1545",
       "validThrough": "1558",
       "sourceText": "Book of Rates 1545, inward, line 159 (transcribed by Stuart Jenks): 'Combes the box' 4s"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/comb#rate-1545-inward-160",
+      "type": "Rate",
+      "_label": "1545 inward: Combe caces the groce 12d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "12",
+        "lsd": "12d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 160 (transcribed by Stuart Jenks): 'Combe caces the groce' 12d"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/comb#rate-1545-inward-161",
+      "type": "Rate",
+      "_label": "1545 inward: Combe caces double the groce 2s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "24",
+        "lsd": "2s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 161 (transcribed by Stuart Jenks): 'Combe caces double the groce' 2s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "double"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/comb#rate-1545-inward-226",
+      "type": "Rate",
+      "_label": "1545 inward: Combes for horsmaines the groce 12s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "144",
+        "lsd": "12s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 226 (transcribed by Stuart Jenks): 'Combes for horsmaines the groce' 12s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "horsmaines",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/comb#rate-1545-inward-507",
+      "type": "Rate",
+      "_label": "1545 inward: Naverne boxe for combes the bale 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/bale",
+          "type": "MeasurementUnit",
+          "_label": "bale"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 507 (transcribed by Stuart Jenks): 'Naverne boxe for combes the bale' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Naverne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/comb#rate-1558-inward-233",
@@ -544,6 +724,203 @@
       "validFrom": "1558",
       "validThrough": "1604",
       "sourceText": "Book of Rates 1558, inward, line 235 (transcribed by Stuart Jenks): 'Combes the boxe cont’ di’ grosse' 5s"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/comb#rate-1558-inward-236",
+      "type": "Rate",
+      "_label": "1558 inward: Combe cases syngle the grosse 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 236 (transcribed by Stuart Jenks): 'Combe cases syngle the grosse' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "single"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/comb#rate-1558-inward-237",
+      "type": "Rate",
+      "_label": "1558 inward: Combe cases doble the grosse 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 237 (transcribed by Stuart Jenks): 'Combe cases doble the grosse' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "doble",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/comb#rate-1558-inward-307",
+      "type": "Rate",
+      "_label": "1558 inward: Casses garnyshed with woodden combes the dossen 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 307 (transcribed by Stuart Jenks): 'Casses garnyshed with woodden combes the dossen' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "decorated"
+        },
+        {
+          "type": "Type",
+          "_label": "woodden",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/comb#rate-1558-inward-311",
+      "type": "Rate",
+      "_label": "1558 inward: Combes of horne for barbors the dossen 12d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "12",
+        "lsd": "12d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 311 (transcribed by Stuart Jenks): 'Combes of horne for barbors the dossen' 12d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "horne for barbors",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/comb#rate-1558-inward-737",
+      "type": "Rate",
+      "_label": "1558 inward: Naverne boxes for combes the bale 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/bale",
+          "type": "MeasurementUnit",
+          "_label": "bale"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 737 (transcribed by Stuart Jenks): 'Naverne boxes for combes the bale' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Naverne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

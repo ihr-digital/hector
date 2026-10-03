@@ -488,6 +488,39 @@
       "sourceText": "Book of Rates 1545, inward, line 721 (transcribed by Stuart Jenks): 'Taffetta the yarde' 3s 4d"
     },
     {
+      "id": "https://w3id.org/hector/commodity/taffeta#rate-1545-inward-722",
+      "type": "Rate",
+      "_label": "1545 inward: Taffetta narrowe the yarde 20d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "20",
+        "lsd": "20d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 722 (transcribed by Stuart Jenks): 'Taffetta narrowe the yarde' 20d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "narrow"
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/taffeta#rate-1558-inward-1073",
       "type": "Rate",
       "_label": "1558 inward: Taffata the yarde 6s 8d",
@@ -513,6 +546,145 @@
       "validFrom": "1558",
       "validThrough": "1604",
       "sourceText": "Book of Rates 1558, inward, line 1073 (transcribed by Stuart Jenks): 'Taffata the yarde' 6s 8d"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/taffeta#rate-1558-inward-1074",
+      "type": "Rate",
+      "_label": "1558 inward: Taffata narrowe voc’ Spanysh taffata the yarde 4s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "48",
+        "lsd": "4s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1074 (transcribed by Stuart Jenks): 'Taffata narrowe voc’ Spanysh taffata the yarde' 4s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "narrow"
+        },
+        {
+          "type": "Type",
+          "_label": "Spain",
+          "originPlace": [
+            {
+              "id": "wd:Q29",
+              "type": "Place",
+              "_label": "Spain"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/taffeta#rate-1558-inward-1124",
+      "type": "Rate",
+      "_label": "1558 inward: Taffata vocata Towers taffata the yarde 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "40",
+        "lsd": "3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1124 (transcribed by Stuart Jenks): 'Taffata vocata Towers taffata the yarde' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "vocata",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "tower"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/taffeta#rate-1558-inward-1125",
+      "type": "Rate",
+      "_label": "1558 inward: Taffata vocata Levant taffata the yarde 20d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "20",
+        "lsd": "20d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1125 (transcribed by Stuart Jenks): 'Taffata vocata Levant taffata the yarde' 20d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "vocata",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "Levant",
+          "originPlace": [
+            {
+              "id": "wd:Q81483",
+              "type": "Place",
+              "_label": "Levant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

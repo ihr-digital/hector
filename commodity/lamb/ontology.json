@@ -461,6 +461,46 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/lamb#rate-1545-inward-106",
+      "type": "Rate",
+      "_label": "1545 inward: Blacke lambe the 100 skynnes 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 106 (transcribed by Stuart Jenks): 'Blacke lambe the 100 skynnes' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "black",
+          "equivalent": [
+            {
+              "id": "aat:300130920",
+              "type": "Type",
+              "_label": "black (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/lamb#rate-1545-inward-457",
       "type": "Rate",
       "_label": "1545 inward: Lambe called Irisshe lambe the mantell [b.vii dorse] 6s 8d",
@@ -485,7 +525,185 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 457 (transcribed by Stuart Jenks): 'Lambe called Irisshe lambe the mantell [b.vii dorse]' 6s 8d"
+      "sourceText": "Book of Rates 1545, inward, line 457 (transcribed by Stuart Jenks): 'Lambe called Irisshe lambe the mantell [b.vii dorse]' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Ireland",
+          "originPlace": [
+            {
+              "id": "wd:Q22890",
+              "type": "Place",
+              "_label": "Ireland"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/lamb#rate-1558-inward-137",
+      "type": "Rate",
+      "_label": "1558 inward: Blacke lambe the C cont’ five score 26s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "320",
+        "lsd": "26s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 137 (transcribed by Stuart Jenks): 'Blacke lambe the C cont’ five score' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "black",
+          "equivalent": [
+            {
+              "id": "aat:300130920",
+              "type": "Type",
+              "_label": "black (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/lamb#rate-1558-outward-33",
+      "type": "Rate",
+      "_label": "1558 outward: Lambe skynnes whyte the C cont’ 5 score 16s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "200",
+        "lsd": "16s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, outward, line 33 (transcribed by Stuart Jenks): 'Lambe skynnes whyte the C cont’ 5 score' 16s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "skin"
+        },
+        {
+          "type": "Type",
+          "_label": "white",
+          "equivalent": [
+            {
+              "id": "aat:300129784",
+              "type": "Type",
+              "_label": "white (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/lamb#rate-1558-outward-34",
+      "type": "Rate",
+      "_label": "1558 outward: Lambe skynnes blacke the C cont’ 5 score 16s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "200",
+        "lsd": "16s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, outward, line 34 (transcribed by Stuart Jenks): 'Lambe skynnes blacke the C cont’ 5 score' 16s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "skin"
+        },
+        {
+          "type": "Type",
+          "_label": "black",
+          "equivalent": [
+            {
+              "id": "aat:300130920",
+              "type": "Type",
+              "_label": "black (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/lamb#rate-1558-outward-35",
+      "type": "Rate",
+      "_label": "1558 outward: Lambe skynnes morkyns the C cont’ 5 score 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, outward, line 35 (transcribed by Stuart Jenks): 'Lambe skynnes morkyns the C cont’ 5 score' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "skin"
+        },
+        {
+          "type": "Type",
+          "_label": "morkin"
+        }
+      ]
     }
   ]
 }

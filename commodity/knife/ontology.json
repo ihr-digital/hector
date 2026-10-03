@@ -323,6 +323,86 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/knife#rate-1507-none-145",
+      "type": "Rate",
+      "_label": "1507: Knyves called prages the grosse 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 145 (transcribed by Stuart Jenks): 'Knyves called prages the grosse' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "prages",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/knife#rate-1545-inward-163",
+      "type": "Rate",
+      "_label": "1545 inward: Carvyng knyves the dossen 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 163 (transcribed by Stuart Jenks): 'Carvyng knyves the dossen' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Carvyng",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/knife#rate-1545-inward-216",
       "type": "Rate",
       "_label": "1545 inward: Carvinge knyves the cace 3s 4d",
@@ -347,7 +427,60 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 216 (transcribed by Stuart Jenks): 'Carvinge knyves the cace' 3s 4d"
+      "sourceText": "Book of Rates 1545, inward, line 216 (transcribed by Stuart Jenks): 'Carvinge knyves the cace' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Carvinge",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/knife#rate-1545-inward-415",
+      "type": "Rate",
+      "_label": "1545 inward: Knyves called carvynge knyves the dossen 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 415 (transcribed by Stuart Jenks): 'Knyves called carvynge knyves the dossen' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "carvynge",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/knife#rate-1545-inward-416",
@@ -374,7 +507,170 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 416 (transcribed by Stuart Jenks): 'Knyves called carvynge knyves the cace' 3s 4d"
+      "sourceText": "Book of Rates 1545, inward, line 416 (transcribed by Stuart Jenks): 'Knyves called carvynge knyves the cace' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "carvynge",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/knife#rate-1545-inward-417",
+      "type": "Rate",
+      "_label": "1545 inward: Knyves of Almayne the groce 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 417 (transcribed by Stuart Jenks): 'Knyves of Almayne the groce' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Almain"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/knife#rate-1545-inward-418",
+      "type": "Rate",
+      "_label": "1545 inward: Knyves cours the groce 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 418 (transcribed by Stuart Jenks): 'Knyves cours the groce' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "coarse"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/knife#rate-1545-inward-419",
+      "type": "Rate",
+      "_label": "1545 inward: Knyves of Fraunce cours the groce 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 419 (transcribed by Stuart Jenks): 'Knyves of Fraunce cours the groce' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "France",
+          "originPlace": [
+            {
+              "id": "wd:Q142",
+              "type": "Place",
+              "_label": "France"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "coarse"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/knife#rate-1545-inward-420",
+      "type": "Rate",
+      "_label": "1545 inward: Knyves of Collayne the groce 30s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "360",
+        "lsd": "30s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 420 (transcribed by Stuart Jenks): 'Knyves of Collayne the groce' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Collayne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/knife#rate-1545-inward-421",
@@ -404,6 +700,130 @@
       "sourceText": "Book of Rates 1545, inward, line 421 (transcribed by Stuart Jenks): 'Knyves of rove the standerde' 5s"
     },
     {
+      "id": "https://w3id.org/hector/commodity/knife#rate-1545-inward-426",
+      "type": "Rate",
+      "_label": "1545 inward: Knyves called rasures the groce 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 426 (transcribed by Stuart Jenks): 'Knyves called rasures the groce' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "rasures",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/knife#rate-1545-inward-427",
+      "type": "Rate",
+      "_label": "1545 inward: Knyves called swerd blades the dossen 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 427 (transcribed by Stuart Jenks): 'Knyves called swerd blades the dossen' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "sword"
+        },
+        {
+          "type": "Type",
+          "_label": "blades",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/knife#rate-1558-inward-183",
+      "type": "Rate",
+      "_label": "1558 inward: Carvinge knives the dosen 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 183 (transcribed by Stuart Jenks): 'Carvinge knives the dosen' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Carvinge",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/knife#rate-1558-inward-184",
       "type": "Rate",
       "_label": "1558 inward: Carvinge knives the case 6s 8d",
@@ -428,7 +848,416 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 184 (transcribed by Stuart Jenks): 'Carvinge knives the case' 6s 8d"
+      "sourceText": "Book of Rates 1558, inward, line 184 (transcribed by Stuart Jenks): 'Carvinge knives the case' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Carvinge",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/knife#rate-1558-inward-633",
+      "type": "Rate",
+      "_label": "1558 inward: Knyves paires voc’ Almayne knyves and other course knyves the grosse 30s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "360",
+        "lsd": "30s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 633 (transcribed by Stuart Jenks): 'Knyves paires voc’ Almayne knyves and other course knyves the grosse' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Almain"
+        },
+        {
+          "type": "Type",
+          "_label": "other",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "coarse"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/knife#rate-1558-inward-634",
+      "type": "Rate",
+      "_label": "1558 inward: Knyves paires voc’ Frenche knyves course the grosse 30s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "360",
+        "lsd": "30s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 634 (transcribed by Stuart Jenks): 'Knyves paires voc’ Frenche knyves course the grosse' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "France",
+          "originPlace": [
+            {
+              "id": "wd:Q142",
+              "type": "Place",
+              "_label": "France"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "coarse"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/knife#rate-1558-inward-635",
+      "type": "Rate",
+      "_label": "1558 inward: Knyves paires voc’ Cullen knives the grosse £3 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "800",
+        "lsd": "£3 6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 635 (transcribed by Stuart Jenks): 'Knyves paires voc’ Cullen knives the grosse' £3 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Cologne",
+          "originPlace": [
+            {
+              "id": "wd:Q365",
+              "type": "Place",
+              "_label": "Cologne"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "knives",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/knife#rate-1558-inward-638",
+      "type": "Rate",
+      "_label": "1558 inward: Knyves voc’ penknyves the grosse 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 638 (transcribed by Stuart Jenks): 'Knyves voc’ penknyves the grosse' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "penknyves",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/knife#rate-1558-inward-639",
+      "type": "Rate",
+      "_label": "1558 inward: Knives voc’ stockes with knives course ungilte þe dosen 26s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "320",
+        "lsd": "26s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 639 (transcribed by Stuart Jenks): 'Knives voc’ stockes with knives course ungilte þe dosen' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "stockes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "coarse"
+        },
+        {
+          "type": "Type",
+          "_label": "ungilt"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/knife#rate-1558-inward-640",
+      "type": "Rate",
+      "_label": "1558 inward: Knives voc’ stockes with knives guilt þe dosen stockes 53s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "640",
+        "lsd": "53s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 640 (transcribed by Stuart Jenks): 'Knives voc’ stockes with knives guilt þe dosen stockes' 53s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "stockes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "guilt",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/knife#rate-1558-inward-643",
+      "type": "Rate",
+      "_label": "1558 inward: Knives with vellet shethes course for children the grosse 30s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "360",
+        "lsd": "30s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 643 (transcribed by Stuart Jenks): 'Knives with vellet shethes course for children the grosse' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "velvet",
+          "equivalent": [
+            {
+              "id": "aat:300133711",
+              "type": "Type",
+              "_label": "velvet (fabric weave)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "shethes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "coarse"
+        },
+        {
+          "type": "Type",
+          "_label": "children’s"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/knife#rate-1558-inward-644",
+      "type": "Rate",
+      "_label": "1558 inward: Knives fyne with vellet shethes the grosse £5",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "1200",
+        "lsd": "£5"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 644 (transcribed by Stuart Jenks): 'Knives fyne with vellet shethes the grosse' £5",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "fine"
+        },
+        {
+          "type": "Type",
+          "_label": "velvet",
+          "equivalent": [
+            {
+              "id": "aat:300133711",
+              "type": "Type",
+              "_label": "velvet (fabric weave)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "shethes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

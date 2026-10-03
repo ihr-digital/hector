@@ -519,6 +519,220 @@
       "validFrom": "1545",
       "validThrough": "1558",
       "sourceText": "Book of Rates 1545, inward, line 187 (transcribed by Stuart Jenks): 'Coffers the neste' 6s 8d"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/coffer#rate-1545-inward-569",
+      "type": "Rate",
+      "_label": "1545 inward: Painted coffers the neste, videlicet 3 to one 4s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "48",
+        "lsd": "4s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/nest",
+          "type": "MeasurementUnit",
+          "_label": "nest"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 569 (transcribed by Stuart Jenks): 'Painted coffers the neste, videlicet 3 to one' 4s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "painted"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/coffer#rate-1558-inward-244",
+      "type": "Rate",
+      "_label": "1558 inward: Coffers with barres the nest cont’ thre 16s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "192",
+        "lsd": "16s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/nest",
+          "type": "MeasurementUnit",
+          "_label": "nest"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 244 (transcribed by Stuart Jenks): 'Coffers with barres the nest cont’ thre' 16s"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/coffer#rate-1558-inward-245",
+      "type": "Rate",
+      "_label": "1558 inward: Coffers playne the neste cont’ thre 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/nest",
+          "type": "MeasurementUnit",
+          "_label": "nest"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 245 (transcribed by Stuart Jenks): 'Coffers playne the neste cont’ thre' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "plain"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/coffer#rate-1558-inward-313",
+      "type": "Rate",
+      "_label": "1558 inward: Coffers covered with gilte lether the dossen 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 313 (transcribed by Stuart Jenks): 'Coffers covered with gilte lether the dossen' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "covered"
+        },
+        {
+          "type": "Type",
+          "_label": "gilte lether",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/coffer#rate-1558-inward-314",
+      "type": "Rate",
+      "_label": "1558 inward: Coffers covered with velvett the dossen 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 314 (transcribed by Stuart Jenks): 'Coffers covered with velvett the dossen' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "covered"
+        },
+        {
+          "type": "Type",
+          "_label": "velvett",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/coffer#rate-1558-inward-811",
+      "type": "Rate",
+      "_label": "1558 inward: Paynted cofers the nest cont’ 3 to the nest 8s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "96",
+        "lsd": "8s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/nest",
+          "type": "MeasurementUnit",
+          "_label": "nest"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 811 (transcribed by Stuart Jenks): 'Paynted cofers the nest cont’ 3 to the nest' 8s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "painted"
+        }
+      ]
     }
   ]
 }

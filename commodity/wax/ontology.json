@@ -289,7 +289,20 @@
       },
       "validFrom": "1507",
       "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 318 (transcribed by Stuart Jenks): 'Torche waxe the pack wyche contains' 4d"
+      "sourceText": "Book of Rates 1507, line 318 (transcribed by Stuart Jenks): 'Torche waxe the pack wyche contains' 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Torche",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/wax#rate-1545-inward-804",

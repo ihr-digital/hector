@@ -525,6 +525,97 @@
       "sourceText": "Book of Rates 1545, inward, line 186 (transcribed by Stuart Jenks): 'Chestes the neste' 10s"
     },
     {
+      "id": "https://w3id.org/hector/commodity/chest#rate-1545-inward-679",
+      "type": "Rate",
+      "_label": "1545 inward: Sipres chistes the neste 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/nest",
+          "type": "MeasurementUnit",
+          "_label": "nest"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 679 (transcribed by Stuart Jenks): 'Sipres chistes the neste' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Cyprus",
+          "originPlace": [
+            {
+              "id": "wd:Q229",
+              "type": "Place",
+              "_label": "Cyprus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/chest#rate-1558-inward-280",
+      "type": "Rate",
+      "_label": "1558 inward: Chestes of Spruse or Danske the neste cont’ 3 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/nest",
+          "type": "MeasurementUnit",
+          "_label": "nest"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 280 (transcribed by Stuart Jenks): 'Chestes of Spruse or Danske the neste cont’ 3' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Prussia",
+          "originPlace": [
+            {
+              "id": "wd:Q918723",
+              "type": "Place",
+              "_label": "Prussia"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "Danske",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/chest#rate-1558-inward-296",
       "type": "Rate",
       "_label": "1558 inward: Cheste bourdes the dossen 4s",
@@ -549,7 +640,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 296 (transcribed by Stuart Jenks): 'Cheste bourdes the dossen' 4s"
+      "sourceText": "Book of Rates 1558, inward, line 296 (transcribed by Stuart Jenks): 'Cheste bourdes the dossen' 4s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "bourdes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/chest#rate-1558-inward-626",
@@ -576,7 +680,35 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 626 (transcribed by Stuart Jenks): 'Iron chestes small and mydle the chest' 50s"
+      "sourceText": "Book of Rates 1558, inward, line 626 (transcribed by Stuart Jenks): 'Iron chestes small and mydle the chest' 50s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Iron",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "small",
+          "equivalent": [
+            {
+              "id": "aat:300073768",
+              "type": "Type",
+              "_label": "small"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "mid"
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/chest#rate-1558-inward-627",
@@ -603,7 +735,31 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 627 (transcribed by Stuart Jenks): 'Iron chestes great the pece' £3 6s 8d"
+      "sourceText": "Book of Rates 1558, inward, line 627 (transcribed by Stuart Jenks): 'Iron chestes great the pece' £3 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Iron",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "large",
+          "equivalent": [
+            {
+              "id": "aat:300073756",
+              "type": "Type",
+              "_label": "large"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

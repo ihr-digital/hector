@@ -213,7 +213,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 312 (transcribed by Stuart Jenks): 'Clokes voc’ felte clokes the pece' 13s 4d"
+      "sourceText": "Book of Rates 1558, inward, line 312 (transcribed by Stuart Jenks): 'Clokes voc’ felte clokes the pece' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "felte",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

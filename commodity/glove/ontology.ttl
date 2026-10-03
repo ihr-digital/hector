@@ -5,6 +5,7 @@
 @prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/hector/commodity/glove> a crm:E55_Type ;
@@ -229,7 +230,21 @@
     la:equivalent aat:300148821 ;
     hector:attestationCount 405 ;
     hector:taxation <https://w3id.org/hector/commodity/glove#rate-1507-none-114>,
-        <https://w3id.org/hector/commodity/glove#rate-1558-inward-487> .
+        <https://w3id.org/hector/commodity/glove#rate-1545-inward-491>,
+        <https://w3id.org/hector/commodity/glove#rate-1545-inward-56>,
+        <https://w3id.org/hector/commodity/glove#rate-1558-inward-487>,
+        <https://w3id.org/hector/commodity/glove#rate-1558-inward-488>,
+        <https://w3id.org/hector/commodity/glove#rate-1558-inward-489>,
+        <https://w3id.org/hector/commodity/glove#rate-1558-inward-490>,
+        <https://w3id.org/hector/commodity/glove#rate-1558-inward-491>,
+        <https://w3id.org/hector/commodity/glove#rate-1558-inward-492>,
+        <https://w3id.org/hector/commodity/glove#rate-1558-inward-518> .
+
+aat:300011021 a crm:E55_Type ;
+    rdfs:label "gold (metal)" .
+
+aat:300011029 a crm:E55_Type ;
+    rdfs:label "silver (metal)" .
 
 aat:300148821 a crm:E55_Type ;
     rdfs:label "gloves" .
@@ -239,6 +254,15 @@ aat:300404670 a crm:E55_Type ;
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
+
+wd:Q142 a crm:E53_Place ;
+    rdfs:label "France" .
+
+wd:Q29 a crm:E53_Place ;
+    rdfs:label "Spain" .
+
+wd:Q5813 a crm:E53_Place ;
+    rdfs:label "Canary Islands" .
 
 <https://w3id.org/hector/commodity/gauntlet> a crm:E55_Type ;
     rdfs:label "gauntlet" .
@@ -256,6 +280,41 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/glove#rate-1545-inward-491> a hector:Rate ;
+    rdfs:label "1545 inward: Millin gloves or Canary the groce 26s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "26s 8d" ;
+            hector:valueInPence 320.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Millin" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "Canary Islands" ;
+            hector:originPlace wd:Q5813 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 491 (transcribed by Stuart Jenks): 'Millin gloves or Canary the groce' 26s 8d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/glove#rate-1545-inward-56> a hector:Rate ;
+    rdfs:label "1545 inward: Brydges gloves þe groce 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Bruges" ;
+            hector:originPlace wd:Q12994 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 56 (transcribed by Stuart Jenks): 'Brydges gloves þe groce' 13s 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/glove#rate-1558-inward-487> a hector:Rate ;
     rdfs:label "1558 inward: Gloves the grosse of Spanishe making 48s" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -265,7 +324,128 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 144 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Spain" ;
+            hector:originPlace wd:Q29 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 487 (transcribed by Stuart Jenks): 'Gloves the grosse of Spanishe making' 48s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/glove#rate-1558-inward-488> a hector:Rate ;
+    rdfs:label "1558 inward: Gloves voc’ Bridges and Frenche gloves the grosse 24s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "24s" ;
+            hector:valueInPence 288.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "France" ;
+            hector:originPlace wd:Q142 ],
+        [ a crm:E55_Type ;
+            rdfs:label "Bruges" ;
+            hector:originPlace wd:Q12994 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 488 (transcribed by Stuart Jenks): 'Gloves voc’ Bridges and Frenche gloves the grosse' 24s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/glove#rate-1558-inward-489> a hector:Rate ;
+    rdfs:label "1558 inward: Gloves voc’ Canarie gloves unwrought the grosse 16s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "16s" ;
+            hector:valueInPence 192.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Canarie" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "unwrought" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 489 (transcribed by Stuart Jenks): 'Gloves voc’ Canarie gloves unwrought the grosse' 16s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/glove#rate-1558-inward-490> a hector:Rate ;
+    rdfs:label "1558 inward: Gloves voc’ Millen gloves unwrought the dosen 8s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "8s" ;
+            hector:valueInPence 96.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "unwrought" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Milan" ;
+            hector:originPlace wd:Q490 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 490 (transcribed by Stuart Jenks): 'Gloves voc’ Millen gloves unwrought the dosen' 8s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/glove#rate-1558-inward-491> a hector:Rate ;
+    rdfs:label "1558 inward: Gloves voc’ Venis gloves unwrought the dosen 8s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "8s" ;
+            hector:valueInPence 96.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "unwrought" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 491 (transcribed by Stuart Jenks): 'Gloves voc’ Venis gloves unwrought the dosen' 8s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/glove#rate-1558-inward-492> a hector:Rate ;
+    rdfs:label "1558 inward: Gloves of Venis, Millen and Canarie wrought with golde, sylke or silver the dosen 30s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "30s" ;
+            hector:valueInPence 360.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Canarie" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "silk" ;
+            la:equivalent aat:300243428 ],
+        [ a crm:E55_Type ;
+            rdfs:label "silver" ;
+            la:equivalent aat:300011029 ],
+        [ a crm:E55_Type ;
+            rdfs:label "worked" ],
+        [ a crm:E55_Type ;
+            rdfs:label "gold" ;
+            la:equivalent aat:300011021 ],
+        [ a crm:E55_Type ;
+            rdfs:label "Milan" ;
+            hector:originPlace wd:Q490 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 492 (transcribed by Stuart Jenks): 'Gloves of Venis, Millen and Canarie wrought with golde, sylke or silver the dosen' 30s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/glove#rate-1558-inward-518> a hector:Rate ;
+    rdfs:label "1558 inward: Gloves knytte of silke the dosen 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "silk" ;
+            la:equivalent aat:300243428 ],
+        [ a crm:E55_Type ;
+            rdfs:label "knitted" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 518 (transcribed by Stuart Jenks): 'Gloves knytte of silke the dosen' 20s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
@@ -278,11 +458,23 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/mlca/glossary/glove> a crm:E55_Type ;
     rdfs:label "glove (London Customs Accounts glossary)" .
 
-aat:300411998 a crm:E98_Currency ;
-    rdfs:label "pound sterling (system of money)" .
+aat:300243428 a crm:E55_Type ;
+    rdfs:label "silk (textile)" .
+
+wd:Q12994 a crm:E53_Place ;
+    rdfs:label "Bruges" .
+
+wd:Q490 a crm:E53_Place ;
+    rdfs:label "Milan" .
+
+<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
+    rdfs:label "dozen" .
 
 <https://w3id.org/hector/unit/gross> a crm:E58_Measurement_Unit ;
     rdfs:label "gross" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

@@ -5,6 +5,7 @@
 @prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/hector/commodity/yarn> a crm:E55_Type ;
@@ -82,6 +83,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 100 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Prussia" ;
+            hector:originPlace wd:Q918723 ] ;
     hector:sourceText "Book of Rates 1545, inward, line 628 (transcribed by Stuart Jenks): 'Spruce yarne the hundreth pounde' 26s 8d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
@@ -95,6 +99,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 100 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Prussia" ;
+            hector:originPlace wd:Q918723 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 1005 (transcribed by Stuart Jenks): 'Spruce yarne the C lb. cont’ 112 lb' 26s 8d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -104,6 +111,9 @@ aat:300435416 a crm:E55_Type ;
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .
+
+wd:Q918723 a crm:E53_Place ;
+    rdfs:label "Prussia" .
 
 <https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
     rdfs:label "hundred" .

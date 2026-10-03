@@ -454,6 +454,272 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1507-none-134",
+      "type": "Rate",
+      "_label": "1507: Hastrey clothe called browne Hastrey the 100 elles 30s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "360",
+        "lsd": "30s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 134 (transcribed by Stuart Jenks): 'Hastrey clothe called browne Hastrey the 100 elles' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Hastrey",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "brown",
+          "equivalent": [
+            {
+              "id": "aat:300127490",
+              "type": "Type",
+              "_label": "brown (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1507-none-147",
+      "type": "Rate",
+      "_label": "1507: Lyneng clothe caled Camemerycke the pece 26s 3d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "315",
+        "lsd": "26s 3d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 147 (transcribed by Stuart Jenks): 'Lyneng clothe caled Camemerycke the pece' 26s 3d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Lyneng",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "caled Camemerycke",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1507-none-149",
+      "type": "Rate",
+      "_label": "1507: Lynynge clothe called Brabond þe pece 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 149 (transcribed by Stuart Jenks): 'Lynynge clothe called Brabond þe pece' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Lynynge",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "Brabond",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1507-none-150",
+      "type": "Rate",
+      "_label": "1507: Lynynge clothe called ryght Brusell, cunterfet Brusell the pece 11s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "132",
+        "lsd": "11s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 150 (transcribed by Stuart Jenks): 'Lynynge clothe called ryght Brusell, cunterfet Brusell the pece' 11s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Lynynge",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "ryght",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "City of Brussels",
+          "originPlace": [
+            {
+              "id": "wd:Q239",
+              "type": "Place",
+              "_label": "City of Brussels"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "cunterfet",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1507-none-174",
+      "type": "Rate",
+      "_label": "1507: Mynster clothe the C containing 240 elles 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 174 (transcribed by Stuart Jenks): 'Mynster clothe the C containing 240 elles' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Münster",
+          "originPlace": [
+            {
+              "id": "wd:Q2742",
+              "type": "Place",
+              "_label": "Münster"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/cloth#rate-1507-none-175",
       "type": "Rate",
       "_label": "1507: Mynster clothe the rowlle £10",
@@ -478,7 +744,1056 @@
       },
       "validFrom": "1507",
       "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 175 (transcribed by Stuart Jenks): 'Mynster clothe the rowlle' £10"
+      "sourceText": "Book of Rates 1507, line 175 (transcribed by Stuart Jenks): 'Mynster clothe the rowlle' £10",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Münster",
+          "originPlace": [
+            {
+              "id": "wd:Q2742",
+              "type": "Place",
+              "_label": "Münster"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1507-none-325",
+      "type": "Rate",
+      "_label": "1507: Whyte Normandy clothe 100 elles 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 325 (transcribed by Stuart Jenks): 'Whyte Normandy clothe 100 elles' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "white",
+          "equivalent": [
+            {
+              "id": "aat:300129784",
+              "type": "Type",
+              "_label": "white (color)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "Normandy",
+          "originPlace": [
+            {
+              "id": "wd:Q15878",
+              "type": "Place",
+              "_label": "Normandy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1545-inward-207",
+      "type": "Rate",
+      "_label": "1545 inward: Callico clothe the pece 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 207 (transcribed by Stuart Jenks): 'Callico clothe the pece' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Callico",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1545-inward-232",
+      "type": "Rate",
+      "_label": "1545 inward: Doughlas, Bretysshe clothe, creste clothe or lokeram conteynyng 5 score elles 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/ell",
+          "type": "MeasurementUnit",
+          "_label": "ell"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 232 (transcribed by Stuart Jenks): 'Doughlas, Bretysshe clothe, creste clothe or lokeram conteynyng 5 score elles' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Doughlas Bretysshe",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "creste",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "lokeram conteynyng",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1545-inward-233",
+      "type": "Rate",
+      "_label": "1545 inward: Dyoper table cloth the pece 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 233 (transcribed by Stuart Jenks): 'Dyoper table cloth the pece' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Dyoper table",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1545-inward-352",
+      "type": "Rate",
+      "_label": "1545 inward: Hasborough clothe the 100 eles 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 352 (transcribed by Stuart Jenks): 'Hasborough clothe the 100 eles' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Hazebrouck",
+          "originPlace": [
+            {
+              "id": "wd:Q11131",
+              "type": "Place",
+              "_label": "Hazebrouck"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1545-inward-38",
+      "type": "Rate",
+      "_label": "1545 inward: Bresill cloth the pece 11s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "132",
+        "lsd": "11s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 38 (transcribed by Stuart Jenks): 'Bresill cloth the pece' 11s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Bresill",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1545-inward-39",
+      "type": "Rate",
+      "_label": "1545 inward: Bretisshe cloth, the pece conteinynge 5 score elles 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 39 (transcribed by Stuart Jenks): 'Bretisshe cloth, the pece conteinynge 5 score elles' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Bretisshe",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1558-inward-1016",
+      "type": "Rate",
+      "_label": "1558 inward: Styched cloth to worke on, the elle 20d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "20",
+        "lsd": "20d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/ell",
+          "type": "MeasurementUnit",
+          "_label": "ell"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1016 (transcribed by Stuart Jenks): 'Styched cloth to worke on, the elle' 20d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Styched",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "worked"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1558-inward-123",
+      "type": "Rate",
+      "_label": "1558 inward: Brisell clothe the pece 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 123 (transcribed by Stuart Jenks): 'Brisell clothe the pece' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Brisell",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1558-inward-124",
+      "type": "Rate",
+      "_label": "1558 inward: Bretishe clothe thole pece cont’ 5 score elles 33s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "400",
+        "lsd": "33s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 124 (transcribed by Stuart Jenks): 'Bretishe clothe thole pece cont’ 5 score elles' 33s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Brittany",
+          "originPlace": [
+            {
+              "id": "wd:Q12130",
+              "type": "Place",
+              "_label": "Brittany"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1558-inward-284",
+      "type": "Rate",
+      "_label": "1558 inward: Clothe of Calycowe the peace 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 284 (transcribed by Stuart Jenks): 'Clothe of Calycowe the peace' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Calycowe",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1558-inward-339",
+      "type": "Rate",
+      "_label": "1558 inward: Clothes of gold playne the yearde 26s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "320",
+        "lsd": "26s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 339 (transcribed by Stuart Jenks): 'Clothes of gold playne the yearde' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "gold",
+          "equivalent": [
+            {
+              "id": "aat:300011021",
+              "type": "Type",
+              "_label": "gold (metal)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "plain"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1558-inward-340",
+      "type": "Rate",
+      "_label": "1558 inward: Clothe of gold wrought the yerde 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 340 (transcribed by Stuart Jenks): 'Clothe of gold wrought the yerde' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "gold",
+          "equivalent": [
+            {
+              "id": "aat:300011021",
+              "type": "Type",
+              "_label": "gold (metal)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "worked"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1558-inward-341",
+      "type": "Rate",
+      "_label": "1558 inward: Cloth of sylver playne the yearde 26s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "320",
+        "lsd": "26s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 341 (transcribed by Stuart Jenks): 'Cloth of sylver playne the yearde' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "sylver",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "plain"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1558-inward-342",
+      "type": "Rate",
+      "_label": "1558 inward: Clothe of sylver wrought the yeard 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 342 (transcribed by Stuart Jenks): 'Clothe of sylver wrought the yeard' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "sylver",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "worked"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1558-inward-343",
+      "type": "Rate",
+      "_label": "1558 inward: Clothe of tyssue the yearde 66s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "800",
+        "lsd": "66s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 343 (transcribed by Stuart Jenks): 'Clothe of tyssue the yearde' 66s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "tissue"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1558-inward-359",
+      "type": "Rate",
+      "_label": "1558 inward: Diapor table clothe the pece cont’ 20 yerdes 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 359 (transcribed by Stuart Jenks): 'Diapor table clothe the pece cont’ 20 yerdes' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Diapor table",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1558-inward-360",
+      "type": "Rate",
+      "_label": "1558 inward: Diapor table clothe the yearde 2s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "24",
+        "lsd": "2s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 360 (transcribed by Stuart Jenks): 'Diapor table clothe the yearde' 2s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Diapor table",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1558-inward-465",
+      "type": "Rate",
+      "_label": "1558 inward: Frenche wollen cloth the pece cont’ 12 yardes £6",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "1440",
+        "lsd": "£6"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 465 (transcribed by Stuart Jenks): 'Frenche wollen cloth the pece cont’ 12 yardes' £6",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "France",
+          "originPlace": [
+            {
+              "id": "wd:Q142",
+              "type": "Place",
+              "_label": "France"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "wool",
+          "equivalent": [
+            {
+              "id": "aat:300243430",
+              "type": "Type",
+              "_label": "wool (textile)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1558-inward-466",
+      "type": "Rate",
+      "_label": "1558 inward: Florence wollen cloth the yarde 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/yard",
+          "type": "MeasurementUnit",
+          "_label": "yard"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 466 (transcribed by Stuart Jenks): 'Florence wollen cloth the yarde' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "florauns"
+        },
+        {
+          "type": "Type",
+          "_label": "wool",
+          "equivalent": [
+            {
+              "id": "aat:300243430",
+              "type": "Type",
+              "_label": "wool (textile)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1558-inward-532",
+      "type": "Rate",
+      "_label": "1558 inward: Gentishe cloth the pece 24s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "288",
+        "lsd": "24s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 532 (transcribed by Stuart Jenks): 'Gentishe cloth the pece' 24s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Ghent",
+          "originPlace": [
+            {
+              "id": "wd:Q1296",
+              "type": "Place",
+              "_label": "Ghent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1558-inward-536",
+      "type": "Rate",
+      "_label": "1558 inward: Hasbrough cloth white the C elles cont’ 5 score 50s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "600",
+        "lsd": "50s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 536 (transcribed by Stuart Jenks): 'Hasbrough cloth white the C elles cont’ 5 score' 50s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Hazebrouck",
+          "originPlace": [
+            {
+              "id": "wd:Q11131",
+              "type": "Place",
+              "_label": "Hazebrouck"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "white",
+          "equivalent": [
+            {
+              "id": "aat:300129784",
+              "type": "Type",
+              "_label": "white (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1558-inward-537",
+      "type": "Rate",
+      "_label": "1558 inward: Hasbrough cloth browne the C elles cont’ 5 score 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 537 (transcribed by Stuart Jenks): 'Hasbrough cloth browne the C elles cont’ 5 score' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Hazebrouck",
+          "originPlace": [
+            {
+              "id": "wd:Q11131",
+              "type": "Place",
+              "_label": "Hazebrouck"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "brown",
+          "equivalent": [
+            {
+              "id": "aat:300127490",
+              "type": "Type",
+              "_label": "brown (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cloth#rate-1558-inward-624",
+      "type": "Rate",
+      "_label": "1558 inward: Isingham cloth the pece 24s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "288",
+        "lsd": "24s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 624 (transcribed by Stuart Jenks): 'Isingham cloth the pece' 24s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "hesigham"
+        }
+      ]
     }
   ]
 }

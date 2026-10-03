@@ -176,6 +176,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 12 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "small" ;
+            la:equivalent aat:300073768 ] ;
     hector:sourceText "Book of Rates 1545, inward, line 456 (transcribed by Stuart Jenks): 'Lockes smalle the dossen' 2s" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
@@ -189,6 +192,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Dagges with fyer" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 389 (transcribed by Stuart Jenks): 'Dagges with fyer lockes the pece' 10s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -202,6 +208,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 12 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "small" ;
+            la:equivalent aat:300073768 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 671 (transcribed by Stuart Jenks): 'Lockes small the dosen' 3s 4d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -214,6 +223,9 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/mlca/glossary/lock> a crm:E55_Type ;
     rdfs:label "lock (London Customs Accounts glossary)" .
+
+aat:300073768 a crm:E55_Type ;
+    rdfs:label "small" .
 
 <https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
     rdfs:label "dozen" .

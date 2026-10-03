@@ -8,29 +8,11 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/scammony">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_scammony_cb1033459a38c127b6c0283ab48e2ae184ca264f66cf470954858e47b4a190ec359"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_scammony_cb10fd4c4d69b00872c3b42b08673cbe13a2936605a8406021d6a39f97abc2459a3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_scammony_cb16310662f0c260d360976bda8db0c3254bfbf981098fa8e24d300ce48e65c631d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_scammony_cb16762a683cfaa384566716a88e83715263c25a22d766ea774b9fc4bc16249fd30"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_scammony_cb19a56d3f6fa036d4287c01fc73cf12189e910526c849c86cee060a0767cf85dca"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_scammony_cb28c9151e7fb077babf2819cc0cfc0f07fa835a3179cace36019449cefd5e06ca2"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_scammony_cb54c269a7b4b358c592ea221525a3108f469f5151e77c3121d3a1d701331aa1d8"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_scammony_cbd648546055b47deb61f66b563df4bc92a7d1d07fe4f684b3cb38980b5651e477"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_scammony_cb417748c51f7541c0a201700cb687ff5ae7795243900a4e242072ba8a7aa0687a"/>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300012940">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>scammony</rdfs:label>
-    <skos:broader rdf:resource="http://vocab.getty.edu/aat/300404880"/>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/scammony"/>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300012940"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</hector:attestationCount>
+    <rdfs:label>gum resin</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_scammony_cb1033459a38c127b6c0283ab48e2ae184ca264f66cf470954858e47b4a190ec359">
+  <rdf:Description rdf:nodeID="commodity_scammony_cb1b960997920ba270978717bd21eb0fd8232998ee5bbf028e8e1c02c5678c844fa">
     <crm:P190_has_symbolic_content>scamony</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -38,19 +20,31 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_scammony_cb16762a683cfaa384566716a88e83715263c25a22d766ea774b9fc4bc16249fd30">
-    <crm:P190_has_symbolic_content>scamonia</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>skamonia</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404880">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>medicines (material)</rdfs:label>
+    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_scammony_cb19a56d3f6fa036d4287c01fc73cf12189e910526c849c86cee060a0767cf85dca">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/scammony">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_scammony_cb1aa4040a68f8f15981bce6dd4a0d18e4b39bd461f590ef518d2df0dea1bf64e0e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_scammony_cb1b960997920ba270978717bd21eb0fd8232998ee5bbf028e8e1c02c5678c844fa"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_scammony_cb1c8af1a0978493e5918adab7d67af098d7f21784c22ae90aa640bb17ba15547a9"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_scammony_cb1d1fa97b7a0fe90eeed21f2b5b46ac4085102c56ce82781ebc606119a50ce6bdb"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_scammony_cb26b1e05e4cbd12e17fc6043c3da411e1b384215908f6a211019d02f4971846340"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_scammony_cb2981d2ad7c6166e139bf5ca4d87843e40257890ce2c13082e27ef915cdf0fdfd1"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_scammony_cb35fbb7b76aa87bd3c7e12d82a9bf686779b43aa9287e379464ecacc88884bbfaa"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_scammony_cbb50d81ec84027c4aa58c18398d75c4c4e328d0fee023a5c93ccbffc7fc1b6a06"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_scammony_cb13eef4f919a82362c29f9966a1cc28102298849ff043529c64cfbe41e678d7692"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>scammony</rdfs:label>
+    <skos:broader rdf:resource="http://vocab.getty.edu/aat/300404880"/>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/scammony"/>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300012940"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/scammony#rate-1545-inward-651"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/scammony#rate-1558-inward-1004"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_scammony_cb2981d2ad7c6166e139bf5ca4d87843e40257890ce2c13082e27ef915cdf0fdfd1">
     <crm:P190_has_symbolic_content>scamonye</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -58,51 +52,7 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_scammony_cb28c9151e7fb077babf2819cc0cfc0f07fa835a3179cace36019449cefd5e06ca2">
-    <crm:P190_has_symbolic_content>scamone</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>skamonə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_scammony_cb54c269a7b4b358c592ea221525a3108f469f5151e77c3121d3a1d701331aa1d8">
-    <crm:P190_has_symbolic_content>scammony</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>skamoni</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_scammony_cbd648546055b47deb61f66b563df4bc92a7d1d07fe4f684b3cb38980b5651e477">
-    <crm:P190_has_symbolic_content>scamonie</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>skamoniː</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_scammony_cb417748c51f7541c0a201700cb687ff5ae7795243900a4e242072ba8a7aa0687a">
-    <crm:P190_has_symbolic_content>scammony, a gum-resin obtained from the tuberous roots of Convolvulus Scammonia, used in medicine as a strong purgative; also the dried tuberous root from which the drug is prepared (OED s.v. scammony; Heyd 648-9; Stieda, Venice 105-6)</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_scammony_cb10fd4c4d69b00872c3b42b08673cbe13a2936605a8406021d6a39f97abc2459a3">
-    <crm:P190_has_symbolic_content>squamone</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>skwamonə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_scammony_cb16310662f0c260d360976bda8db0c3254bfbf981098fa8e24d300ce48e65c631d">
+  <rdf:Description rdf:nodeID="commodity_scammony_cb1aa4040a68f8f15981bce6dd4a0d18e4b39bd461f590ef518d2df0dea1bf64e0e">
     <crm:P190_has_symbolic_content>scamoniae</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -110,12 +60,118 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_scammony_cb1d1fa97b7a0fe90eeed21f2b5b46ac4085102c56ce82781ebc606119a50ce6bdb">
+    <crm:P190_has_symbolic_content>squamone</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>skwamonə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_scammony_cbb50d81ec84027c4aa58c18398d75c4c4e328d0fee023a5c93ccbffc7fc1b6a06">
+    <crm:P190_has_symbolic_content>scammony</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>skamoni</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_scammony_cb28d1c09a8f819d3cccaec582c6171a6ed019f951d27f0d95bd83f7d1b6c018c39">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_scammony_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_scammony_cb1c14da2b6cb624ee539171955c764b5a13abe2bc93c7c4e43339dea4081ca99c9">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_scammony_cb26b1e05e4cbd12e17fc6043c3da411e1b384215908f6a211019d02f4971846340">
+    <crm:P190_has_symbolic_content>scamonia</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>skamonia</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_scammony_cb35fbb7b76aa87bd3c7e12d82a9bf686779b43aa9287e379464ecacc88884bbfaa">
+    <crm:P190_has_symbolic_content>scamone</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>skamonə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404880">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>medicines (material)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/scammony#rate-1558-inward-1004">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Scamony cakes the pounde 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_scammony_cb317b9bdad67b94de8f1f8c41b814818b7bbc0ca13535fb0745764685728ac77b7"/>
+    <hector:perQuantity rdf:nodeID="commodity_scammony_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1004 (transcribed by Stuart Jenks): 'Scamony cakes the pounde' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/scammony#rate-1545-inward-651">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Scamony, a drugge, the lb. 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_scammony_cb28d1c09a8f819d3cccaec582c6171a6ed019f951d27f0d95bd83f7d1b6c018c39"/>
+    <hector:perQuantity rdf:nodeID="commodity_scammony_cb1c14da2b6cb624ee539171955c764b5a13abe2bc93c7c4e43339dea4081ca99c9"/>
+    <hector:qualifier rdf:nodeID="commodity_scammony_cb1f490bedae10ddd517410a0efad7edba8213389f35a63f89e3cc652718aab20b3"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 651 (transcribed by Stuart Jenks): 'Scamony, a drugge, the lb.' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/mlca/glossary/scammony">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>scammony (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300012940">
+  <rdf:Description rdf:nodeID="commodity_scammony_cb1c8af1a0978493e5918adab7d67af098d7f21784c22ae90aa640bb17ba15547a9">
+    <crm:P190_has_symbolic_content>scamonie</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>skamoniː</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_scammony_cb13eef4f919a82362c29f9966a1cc28102298849ff043529c64cfbe41e678d7692">
+    <crm:P190_has_symbolic_content>scammony, a gum-resin obtained from the tuberous roots of Convolvulus Scammonia, used in medicine as a strong purgative; also the dried tuberous root from which the drug is prepared (OED s.v. scammony; Heyd 648-9; Stieda, Venice 105-6)</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>gum resin</rdfs:label>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_scammony_cb317b9bdad67b94de8f1f8c41b814818b7bbc0ca13535fb0745764685728ac77b7">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_scammony_cb1f490bedae10ddd517410a0efad7edba8213389f35a63f89e3cc652718aab20b3">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>drugge</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pound">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pound</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

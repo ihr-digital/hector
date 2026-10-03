@@ -5,7 +5,9 @@
   ],
   "id": "https://w3id.org/hector/commodity/madder-crop-humberou",
   "type": "Type",
-  "_label": "madder (crop humberou)",
+  "_label": "madder (withdrawn record)",
+  "deprecated": true,
+  "modified": "2026-10-03",
   "referred_to_by": [
     {
       "type": "LinguisticObject",
@@ -16,81 +18,11 @@
           "_label": "brief texts"
         }
       ],
-      "content": "madder, qualified as ‘crop humberou’: a commodity as the Books of Rates price it separately (HECTOR decision 2, 29 Sep 2026)."
+      "content": "Withdrawn 3 Oct 2026. This record stood for the commodity as one Book of Rates entry qualifies it; the rates are now on the commodity itself, each naming its qualifier."
     }
   ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "content": "madder (crop humberou)",
-      "classified_as": [
-        {
-          "id": "aat:300404670",
-          "type": "Type",
-          "_label": "preferred terms"
-        }
-      ],
-      "phoneticKey": [
-        "mader krop humberuː"
-      ]
-    },
-    {
-      "type": "Name",
-      "content": "Mather called croppe mather or humberow mather",
-      "classified_as": [
-        {
-          "id": "hector:AttestedVariant",
-          "type": "Type",
-          "_label": "attested variant"
-        }
-      ],
-      "phoneticKey": [
-        "maθer kaled kropə maθer or humberuː maθer"
-      ]
-    }
-  ],
-  "broader": [
-    {
-      "id": "https://w3id.org/hector/commodity/madder",
-      "type": "Type",
-      "_label": "madder"
-    }
-  ],
-  "compoundOf": [
-    {
-      "id": "https://w3id.org/hector/commodity/madder",
-      "type": "Type",
-      "_label": "madder"
-    }
-  ],
-  "modified": "2026-10-03",
-  "taxation": [
-    {
-      "id": "https://w3id.org/hector/commodity/madder-crop-humberou#rate-1507-none-166",
-      "type": "Rate",
-      "_label": "1507: Mather called croppe mather or humberow mather the bale 50s",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "600",
-        "lsd": "50s"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 1,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/bale",
-          "type": "MeasurementUnit",
-          "_label": "bale"
-        }
-      },
-      "validFrom": "1507",
-      "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 166 (transcribed by Stuart Jenks): 'Mather called croppe mather or humberow mather the bale' 50s"
-    }
-  ]
+  "isReplacedBy": {
+    "id": "https://w3id.org/hector/commodity/madder",
+    "type": "Type"
+  }
 }

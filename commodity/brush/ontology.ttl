@@ -11,11 +11,9 @@
     rdfs:label "brush" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "brusshe" ;
+            crm:P190_has_symbolic_content "brushes" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "bruʃə" ;
-            hector:validFrom "1431"^^xsd:gYear ;
-            hector:validThrough "1433"^^xsd:gYear ],
+            hector:phoneticKey "bruʃəs" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "brosch" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -23,23 +21,22 @@
             hector:validFrom "1380"^^xsd:gYear ;
             hector:validThrough "1385"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "brusche" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "bruʃə" ;
-            hector:validFrom "1390"^^xsd:gYear ;
-            hector:validThrough "1398"^^xsd:gYear ],
+            crm:P190_has_symbolic_content "brush" ;
+            crm:P2_has_type aat:300404670,
+                hector:AttestedVariant ;
+            hector:phoneticKey "bruʃ" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "brushe" ;
+            crm:P190_has_symbolic_content "brusshes" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "bruʃə" ;
+            hector:phoneticKey "bruʃəs" ;
             hector:validFrom "1431"^^xsd:gYear ;
             hector:validThrough "1433"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "bruschis" ;
+            crm:P190_has_symbolic_content "brusch" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "bruʃis" ;
-            hector:validFrom "1431"^^xsd:gYear ;
-            hector:validThrough "1433"^^xsd:gYear ],
+            hector:phoneticKey "bruʃ" ;
+            hector:validFrom "1380"^^xsd:gYear ;
+            hector:validThrough "1385"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "bruch" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -47,21 +44,33 @@
             hector:validFrom "1442"^^xsd:gYear ;
             hector:validThrough "1445"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "brusshis" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "bruʃis" ;
+            hector:validFrom "1480"^^xsd:gYear ;
+            hector:validThrough "1481"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "brusshes," ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "bruʃəs" ;
             hector:validFrom "1390"^^xsd:gYear ;
             hector:validThrough "1465"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "brushis" ;
+            crm:P190_has_symbolic_content "brusshe" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "bruʃis" ;
-            hector:validFrom "1465"^^xsd:gYear ;
-            hector:validThrough "1472"^^xsd:gYear ],
+            hector:phoneticKey "bruʃə" ;
+            hector:validFrom "1431"^^xsd:gYear ;
+            hector:validThrough "1433"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "bresshe" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "breʃə" ;
+            hector:validFrom "1390"^^xsd:gYear ;
+            hector:validThrough "1398"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "brusche" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "bruʃə" ;
             hector:validFrom "1390"^^xsd:gYear ;
             hector:validThrough "1398"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
@@ -71,17 +80,11 @@
             hector:validFrom "1512"^^xsd:gYear ;
             hector:validThrough "1513"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "brusshez" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "bruʃez" ;
-            hector:validFrom "1493"^^xsd:gYear ;
-            hector:validThrough "1495"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "brussche" ;
+            crm:P190_has_symbolic_content "brushe" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "bruʃə" ;
-            hector:validFrom "1390"^^xsd:gYear ;
-            hector:validThrough "1390"^^xsd:gYear ],
+            hector:validFrom "1431"^^xsd:gYear ;
+            hector:validThrough "1433"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "brossh" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -89,11 +92,11 @@
             hector:validFrom "1465"^^xsd:gYear ;
             hector:validThrough "1472"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "bruschys" ;
+            crm:P190_has_symbolic_content "bruschis" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "bruʃis" ;
-            hector:validFrom "1442"^^xsd:gYear ;
-            hector:validThrough "1445"^^xsd:gYear ],
+            hector:validFrom "1431"^^xsd:gYear ;
+            hector:validThrough "1433"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "brosshes" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -107,17 +110,29 @@
             hector:validFrom "1390"^^xsd:gYear ;
             hector:validThrough "1398"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "bruches" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "brutʃəs" ;
-            hector:validFrom "1442"^^xsd:gYear ;
-            hector:validThrough "1445"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "bresshes" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "breʃəs" ;
             hector:validFrom "1390"^^xsd:gYear ;
             hector:validThrough "1398"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "brushis" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "bruʃis" ;
+            hector:validFrom "1465"^^xsd:gYear ;
+            hector:validThrough "1472"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "brusshys" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "bruʃis" ;
+            hector:validFrom "1483"^^xsd:gYear ;
+            hector:validThrough "1485"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "brussche" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "bruʃə" ;
+            hector:validFrom "1390"^^xsd:gYear ;
+            hector:validThrough "1390"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "brussches" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -125,17 +140,17 @@
             hector:validFrom "1390"^^xsd:gYear ;
             hector:validThrough "1390"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "brussh" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "bruʃ" ;
-            hector:validFrom "1465"^^xsd:gYear ;
-            hector:validThrough "1555"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "brusshis" ;
+            crm:P190_has_symbolic_content "bruschys" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "bruʃis" ;
-            hector:validFrom "1480"^^xsd:gYear ;
-            hector:validThrough "1481"^^xsd:gYear ],
+            hector:validFrom "1442"^^xsd:gYear ;
+            hector:validThrough "1445"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "bruches" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "brutʃəs" ;
+            hector:validFrom "1442"^^xsd:gYear ;
+            hector:validThrough "1445"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "brosh" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -143,10 +158,17 @@
             hector:validFrom "1512"^^xsd:gYear ;
             hector:validThrough "1513"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "brush" ;
-            crm:P2_has_type aat:300404670,
-                hector:AttestedVariant ;
-            hector:phoneticKey "bruʃ" ],
+            crm:P190_has_symbolic_content "brusshez" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "bruʃez" ;
+            hector:validFrom "1493"^^xsd:gYear ;
+            hector:validThrough "1495"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "brussh" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "bruʃ" ;
+            hector:validFrom "1465"^^xsd:gYear ;
+            hector:validThrough "1555"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "brusches" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -158,29 +180,7 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "broʃəs" ;
             hector:validFrom "1380"^^xsd:gYear ;
-            hector:validThrough "1385"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "brusshys" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "bruʃis" ;
-            hector:validFrom "1483"^^xsd:gYear ;
-            hector:validThrough "1485"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "brusch" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "bruʃ" ;
-            hector:validFrom "1380"^^xsd:gYear ;
-            hector:validThrough "1385"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "brushes" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "bruʃəs" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "brusshes" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "bruʃəs" ;
-            hector:validFrom "1431"^^xsd:gYear ;
-            hector:validThrough "1433"^^xsd:gYear ] ;
+            hector:validThrough "1385"^^xsd:gYear ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "Implements consisting of bristles, hair, or the like, set in or attached to a handle; used for painting, cleaning, polishing, or grooming. [Source: Getty AAT]" ;
             crm:P2_has_type aat:300435416 ] ;
@@ -188,16 +188,25 @@
     skos:related <https://w3id.org/hector/commodity/hairbrush> ;
     la:equivalent aat:300024760 ;
     hector:attestationCount 764 ;
-    hector:taxation <https://w3id.org/hector/commodity/brush#rate-1507-none-24> .
+    hector:taxation <https://w3id.org/hector/commodity/brush#rate-1507-none-24>,
+        <https://w3id.org/hector/commodity/brush#rate-1545-inward-66>,
+        <https://w3id.org/hector/commodity/brush#rate-1545-inward-67>,
+        <https://w3id.org/hector/commodity/brush#rate-1545-inward-68>,
+        <https://w3id.org/hector/commodity/brush#rate-1558-inward-128>,
+        <https://w3id.org/hector/commodity/brush#rate-1558-inward-129>,
+        <https://w3id.org/hector/commodity/brush#rate-1558-inward-165>,
+        <https://w3id.org/hector/commodity/brush#rate-1558-inward-166>,
+        <https://w3id.org/hector/commodity/brush#rate-1558-inward-167>,
+        <https://w3id.org/hector/commodity/brush#rate-1558-inward-168> .
 
 aat:300024760 a crm:E55_Type ;
     rdfs:label "brushes (implements)" .
 
+aat:300025367 a crm:E55_Type ;
+    rdfs:label "weavers" .
+
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
-
-aat:300411998 a crm:E98_Currency ;
-    rdfs:label "pound sterling (system of money)" .
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
@@ -215,6 +224,169 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/brush#rate-1545-inward-66> a hector:Rate ;
+    rdfs:label "1545 inward: Brusshes fyne the groce 18s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "18s" ;
+            hector:valueInPence 216.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "fine" ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 66 (transcribed by Stuart Jenks): 'Brusshes fyne the groce' 18s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/brush#rate-1545-inward-67> a hector:Rate ;
+    rdfs:label "1545 inward: Brusshes of cours heth or cape brusshes the groce 12s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "12s" ;
+            hector:valueInPence 144.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "coarse" ],
+        [ a crm:E55_Type ;
+            rdfs:label "heth" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "cap" ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 67 (transcribed by Stuart Jenks): 'Brusshes of cours heth or cape brusshes the groce' 12s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/brush#rate-1545-inward-68> a hector:Rate ;
+    rdfs:label "1545 inward: Brusshes called rubbinge brusshes the [a.iiii] groce 4s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4s" ;
+            hector:valueInPence 48.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "rubbinge" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "iiii" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 68 (transcribed by Stuart Jenks): 'Brusshes called rubbinge brusshes the [a.iiii] groce' 4s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/brush#rate-1558-inward-128> a hector:Rate ;
+    rdfs:label "1558 inward: Brusshes course of heathe the dosen 18d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "18d" ;
+            hector:valueInPence 18.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "coarse" ],
+        [ a crm:E55_Type ;
+            rdfs:label "heathe" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 128 (transcribed by Stuart Jenks): 'Brusshes course of heathe the dosen' 18d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/brush#rate-1558-inward-129> a hector:Rate ;
+    rdfs:label "1558 inward: Brusshes fyne of heathe the dosen 3s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "3s 4d" ;
+            hector:valueInPence 40.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "fine" ],
+        [ a crm:E55_Type ;
+            rdfs:label "heathe" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 129 (transcribed by Stuart Jenks): 'Brusshes fyne of heathe the dosen' 3s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/brush#rate-1558-inward-165> a hector:Rate ;
+    rdfs:label "1558 inward: Brushes of heare the dosen 3s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "3s 4d" ;
+            hector:valueInPence 40.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "heare" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 165 (transcribed by Stuart Jenks): 'Brushes of heare the dosen' 3s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/brush#rate-1558-inward-166> a hector:Rate ;
+    rdfs:label "1558 inward: Brushes voc’ wevers brushes of heare the dosen 2s 6d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "2s 6d" ;
+            hector:valueInPence 30.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "weaver" ;
+            la:equivalent aat:300025367 ],
+        [ a crm:E55_Type ;
+            rdfs:label "heare" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 166 (transcribed by Stuart Jenks): 'Brushes voc’ wevers brushes of heare the dosen' 2s 6d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/brush#rate-1558-inward-167> a hector:Rate ;
+    rdfs:label "1558 inward: Brushes voc’ rubbinge brushes of heare the dosen 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "8d" ;
+            hector:valueInPence 8.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "rubbinge" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "heare" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 167 (transcribed by Stuart Jenks): 'Brushes voc’ rubbinge brushes of heare the dosen' 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/brush#rate-1558-inward-168> a hector:Rate ;
+    rdfs:label "1558 inward: Brushes voc’ rubbinge brushes of heathe the dosen 6d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6d" ;
+            hector:valueInPence 6.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "rubbinge" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "heathe" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 168 (transcribed by Stuart Jenks): 'Brushes voc’ rubbinge brushes of heathe the dosen' 6d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/hairbrush> a crm:E55_Type ;
     rdfs:label "hairbrush" .
 
@@ -223,6 +395,15 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/mlca/glossary/brush> a crm:E55_Type ;
     rdfs:label "brush (London Customs Accounts glossary)" .
+
+<https://w3id.org/hector/unit/gross> a crm:E58_Measurement_Unit ;
+    rdfs:label "gross" .
+
+<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
+    rdfs:label "dozen" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

@@ -241,5 +241,193 @@
     }
   ],
   "attestationCount": 55,
-  "modified": "2026-10-03"
+  "modified": "2026-10-03",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/cat-fur#rate-1545-inward-205",
+      "type": "Rate",
+      "_label": "1545 inward: Cattes pottes the mantell 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "40",
+        "lsd": "3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pane",
+          "type": "MeasurementUnit",
+          "_label": "pane"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 205 (transcribed by Stuart Jenks): 'Cattes pottes the mantell' 3s 4d"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cat-fur#rate-1545-inward-206",
+      "type": "Rate",
+      "_label": "1545 inward: Cattes pottes the 100 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 206 (transcribed by Stuart Jenks): 'Cattes pottes the 100' 13s 4d"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cat-fur#rate-1558-inward-204",
+      "type": "Rate",
+      "_label": "1558 inward: Cattes powtes the mantyll 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pane",
+          "type": "MeasurementUnit",
+          "_label": "pane"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 204 (transcribed by Stuart Jenks): 'Cattes powtes the mantyll' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "paw"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cat-fur#rate-1558-inward-205",
+      "type": "Rate",
+      "_label": "1558 inward: Cattes powtes the C cont’ fyve score 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 205 (transcribed by Stuart Jenks): 'Cattes powtes the C cont’ fyve score' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "paw"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cat-fur#rate-1558-inward-206",
+      "type": "Rate",
+      "_label": "1558 inward: Cattes wombes the pane 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pane",
+          "type": "MeasurementUnit",
+          "_label": "pane"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 206 (transcribed by Stuart Jenks): 'Cattes wombes the pane' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "womb"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/cat-fur#rate-1558-inward-207",
+      "type": "Rate",
+      "_label": "1558 inward: Cattes skyns the C cont’ fyve score 26s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "320",
+        "lsd": "26s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 207 (transcribed by Stuart Jenks): 'Cattes skyns the C cont’ fyve score' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "skin"
+        }
+      ]
+    }
+  ]
 }

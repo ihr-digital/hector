@@ -185,7 +185,20 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 707 (transcribed by Stuart Jenks): 'Storax liquide þe 100 lb' £3 6s 8d"
+      "sourceText": "Book of Rates 1545, inward, line 707 (transcribed by Stuart Jenks): 'Storax liquide þe 100 lb' £3 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "liquide",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/storax#rate-1558-inward-1046",
@@ -212,7 +225,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 1046 (transcribed by Stuart Jenks): 'Storax calamyte the pounde' 4s"
+      "sourceText": "Book of Rates 1558, inward, line 1046 (transcribed by Stuart Jenks): 'Storax calamyte the pounde' 4s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "calamyte",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/storax#rate-1558-inward-998",
@@ -239,7 +265,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 998 (transcribed by Stuart Jenks): 'Storax liquide the C lb. cont’ 5 score [lb.]' £5"
+      "sourceText": "Book of Rates 1558, inward, line 998 (transcribed by Stuart Jenks): 'Storax liquide the C lb. cont’ 5 score [lb.]' £5",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "liquide",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

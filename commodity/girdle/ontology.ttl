@@ -11,9 +11,9 @@
     rdfs:label "girdle" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "zonis" ;
+            crm:P190_has_symbolic_content "gerdeles" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "zonis" ],
+            hector:phoneticKey "dʒerdeləs" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "girdils" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -27,9 +27,19 @@
             hector:validFrom "1490"^^xsd:gYear ;
             hector:validThrough "1492"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "zonis" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "zonis" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "sonis" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "sonis" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "zones" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "zonəs" ;
+            hector:validFrom "1541"^^xsd:gYear ;
+            hector:validThrough "1545"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "sona" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -48,12 +58,6 @@
             hector:phoneticKey "dʒirdelə" ;
             hector:validFrom "1434"^^xsd:gYear ;
             hector:validThrough "1438"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "zone" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "zonə" ;
-            hector:validFrom "1541"^^xsd:gYear ;
-            hector:validThrough "1545"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "girdellis" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -112,6 +116,12 @@
             hector:phoneticKey "girdilə" ;
             hector:validFrom "1446"^^xsd:gYear ;
             hector:validThrough "1450"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "zone" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "zonə" ;
+            hector:validFrom "1541"^^xsd:gYear ;
+            hector:validThrough "1545"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "zonae" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -209,13 +219,6 @@
             hector:validFrom "1550"^^xsd:gYear ;
             hector:validThrough "1553"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "girdle" ;
-            crm:P2_has_type aat:300404670,
-                hector:AttestedVariant ;
-            hector:phoneticKey "dʒirdlə" ;
-            hector:validFrom "1506"^^xsd:gYear ;
-            hector:validThrough "1507"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "girdilles" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "dʒirdiləs" ;
@@ -237,6 +240,13 @@
             crm:P190_has_symbolic_content "girdles" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "dʒirdləs" ;
+            hector:validFrom "1506"^^xsd:gYear ;
+            hector:validThrough "1507"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "girdle" ;
+            crm:P2_has_type aat:300404670,
+                hector:AttestedVariant ;
+            hector:phoneticKey "dʒirdlə" ;
             hector:validFrom "1506"^^xsd:gYear ;
             hector:validThrough "1507"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
@@ -262,23 +272,13 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "dʒerdelə" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "zones" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "zonəs" ;
-            hector:validFrom "1541"^^xsd:gYear ;
-            hector:validThrough "1545"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "sonarum" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "sonarum" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "zonarum" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "zonarum" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "gerdeles" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "dʒerdeləs" ] ;
+            hector:phoneticKey "zonarum" ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "Narrow belts, cords, sashes or the like, usually decorative and worn at the waist to fasten or confine garments or as a means of carrying small objects such as purses or keys. [Source: Getty AAT]" ;
             crm:P2_has_type aat:300435416 ] ;
@@ -286,7 +286,12 @@
     skos:related <https://w3id.org/hector/commodity/tuckyng-gerdele> ;
     la:equivalent aat:300210002,
         aat:300220741 ;
-    hector:attestationCount 684 .
+    hector:attestationCount 684 ;
+    hector:taxation <https://w3id.org/hector/commodity/girdle#rate-1558-inward-474>,
+        <https://w3id.org/hector/commodity/girdle#rate-1558-inward-511>,
+        <https://w3id.org/hector/commodity/girdle#rate-1558-inward-512>,
+        <https://w3id.org/hector/commodity/girdle#rate-1558-inward-513>,
+        <https://w3id.org/hector/commodity/girdle#rate-1558-inward-514> .
 
 aat:300210002 a crm:E55_Type ;
     rdfs:label "belts (costume accessories)" .
@@ -300,11 +305,113 @@ aat:300404670 a crm:E55_Type ;
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
+<https://w3id.org/hector/commodity/girdle#rate-1558-inward-474> a hector:Rate ;
+    rdfs:label "1558 inward: Girdelles of lether the grosse 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "lether" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 474 (transcribed by Stuart Jenks): 'Girdelles of lether the grosse' 10s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/girdle#rate-1558-inward-511> a hector:Rate ;
+    rdfs:label "1558 inward: Girdles voc’ buffe girdles gilted the grosse £10" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£10" ;
+            hector:valueInPence 2400.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "buff" ],
+        [ a crm:E55_Type ;
+            rdfs:label "gilted" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 511 (transcribed by Stuart Jenks): 'Girdles voc’ buffe girdles gilted the grosse' £10" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/girdle#rate-1558-inward-512> a hector:Rate ;
+    rdfs:label "1558 inward: Girdles voc’ buffe girdles corse unguilt the grosse £6 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£6 13s 4d" ;
+            hector:valueInPence 1600.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "buff" ],
+        [ a crm:E55_Type ;
+            rdfs:label "ungilt" ],
+        [ a crm:E55_Type ;
+            rdfs:label "coarse" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 512 (transcribed by Stuart Jenks): 'Girdles voc’ buffe girdles corse unguilt the grosse' £6 13s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/girdle#rate-1558-inward-513> a hector:Rate ;
+    rdfs:label "1558 inward: Girdles of vellet guilt the dosen £3 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£3 6s 8d" ;
+            hector:valueInPence 800.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "velvet" ;
+            la:equivalent aat:300133711 ],
+        [ a crm:E55_Type ;
+            rdfs:label "guilt" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 513 (transcribed by Stuart Jenks): 'Girdles of vellet guilt the dosen' £3 6s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/girdle#rate-1558-inward-514> a hector:Rate ;
+    rdfs:label "1558 inward: Girdles of vellet unguilte the dosen 40s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "40s" ;
+            hector:valueInPence 480.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "ungilt" ],
+        [ a crm:E55_Type ;
+            rdfs:label "velvet" ;
+            la:equivalent aat:300133711 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 514 (transcribed by Stuart Jenks): 'Girdles of vellet unguilte the dosen' 40s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/tuckyng-gerdele> a crm:E55_Type ;
     rdfs:label "tuckyng gerdele" .
 
 <https://w3id.org/mlca/glossary/girdle> a crm:E55_Type ;
     rdfs:label "girdle (London Customs Accounts glossary)" .
+
+aat:300133711 a crm:E55_Type ;
+    rdfs:label "velvet (fabric weave)" .
+
+<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
+    rdfs:label "dozen" .
+
+<https://w3id.org/hector/unit/gross> a crm:E58_Measurement_Unit ;
+    rdfs:label "gross" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

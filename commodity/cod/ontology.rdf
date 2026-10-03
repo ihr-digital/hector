@@ -8,63 +8,75 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/hundred">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>hundred</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_cod_cb288068e18b3f6ffebf19352d33f61a7d25f96a69ca206168687f5b65ee11c1748">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>heddes</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cb1d61fe22d7270f09405b3a95723e65d50d32c8c6c22e1641889e60d185bc704e">
-    <crm:P190_has_symbolic_content>cabelowes</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cod#rate-1558-inward-246">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Coddes hedes the laste cont’ 12 barrelles 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cod_cb369a6433d91c3cf24e1dc0a26128d7c2863425b8f930980dc9732d28f7232e2cf"/>
+    <hector:perQuantity rdf:nodeID="commodity_cod_cb26ef175291b811e70bb2c0655863c8467ed2cadc23b919f642596b05bb56923a6"/>
+    <hector:qualifier rdf:nodeID="commodity_cod_cb19af0d1a23b2ecbc8fe5ce79b466b432f57dd2048a66a9bc59a9e509368ca9c7b"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 246 (transcribed by Stuart Jenks): 'Coddes hedes the laste cont’ 12 barrelles' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb19e24929e7630fb707400888f20681a4444844780587df88039bea02bf2dca1dc">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>30s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cod#rate-1558-inward-248">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Codde fyshe the laste cont’ 4 C £6</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cod_cb332c5dd37251f577b172741b7b2fc5f0badc46fd0297639b2af24f5705c1dfa14"/>
+    <hector:perQuantity rdf:nodeID="commodity_cod_cb2262d9ce57ac49a8e6023548d4205c13669a5abede3bfdfb90f57576a476c99c7"/>
+    <hector:qualifier rdf:nodeID="commodity_cod_cb162077b37361cb67f25269958fd43663548e639180af3a370581e4605fdaeb0f6"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 248 (transcribed by Stuart Jenks): 'Codde fyshe the laste cont’ 4 C' £6</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb25ae71a7254897f9315960dd633f15add78bd3fb32629747371751d291c42dee3">
+    <crm:P190_has_symbolic_content>codes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kabeluːəs</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cb1d114f00c503ae8a175870994c7bc122cd059325fd0fc18dbc854417cc6b70d75">
-    <crm:P190_has_symbolic_content>cabelhows</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kabelhuːs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cb1af63d0ffdbaca309e84d8d67f991469ba1ffabdc5a30de4799dceaa675d20694">
-    <crm:P190_has_symbolic_content>code</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kodə</hector:phoneticKey>
+    <hector:phoneticKey>kodəs</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cb826a2ce4570362860ca609aa2a04caa3ec853145b2a22ba0ac63f5cd75b6eac7">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/cod">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb13e1f44c07b919ee61addd93fdc682bf0a7629070b5c5764b50a255d4293725ba"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb15b8371c155e1b89f07db018571c6405d619f4a6d1bee1f7da75ac44e16e758e9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb164b039d9500aad39d4e224a4d63060a176666fbd2ecaf3d10f80d1c154819562"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb185e118996db7a0dc2c9dc6bae1d5fbb1ca1d9237b2e75a9200a22a777963e9e4"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb188d918fea4ee045201d61b229e978e696cd02fe2d31f14c0f765a52f3a12be8"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb19f428a23dcd23c0eb6c6490dd70b42c59645eb0e718823e1ecf253b0b5e57e61"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb1af63d0ffdbaca309e84d8d67f991469ba1ffabdc5a30de4799dceaa675d20694"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb1c66577e6acc888d54e231550196d687e9f8362311cea3ce352dea6ad355f984a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb1c8a19fe8a05adc73f981704f998fb0216e113318a7bdbd3a4c248c5713da5610"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb1cf3da27930dcdef954ba8351cee3dc26ff96a5c3395fd898147afe383df380b3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb1d114f00c503ae8a175870994c7bc122cd059325fd0fc18dbc854417cc6b70d75"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb1d61fe22d7270f09405b3a95723e65d50d32c8c6c22e1641889e60d185bc704e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb1e8b437738f19d84317abf673e4d0305740ff4b7dfa59e63dae979377f55c3f4b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb1eb374ffdde294b6d1cbfc14a7c1e373336bb42b2c25cc67b58889bd487f3111d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb20094db86a6a11bf8d02086217661ed8bcf07778391ce00e4cdfd7890c1b19c26"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb2010dca52f75069af0cf49620f79cfa5cca1d5195be597fbc7556b7460abefbac"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb2094d758f98cb2befa9ba0671b8824f56d8971dc8f628bf7023b3295029e41573"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb21338e68bf94ecce89f1ce3f0fa9dc9932b3e4ec5831c9ef15252ab13776f4120"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb21575a74677c2869e972a52b1b8a870a3c61ba662e73ad6e9b7defd117eda089e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb2157d73933c19ced1a993660cd587ae1bbab652f212a5ba83887c3af5f73d5ffe"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb289838644ade1d509ba9f63215fc429a435feabde8d0cf1d7cc3e5fad4c6cb45d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cbce13b90ef791711f86574a2f68579478ac89bba21650e9158044ebfcfd8378ce"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cbf7e1a1f60bf95c008446e8398c8b759abb4f3116daf7aaef2774587d93448dfa"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_cod_cb2d9e82a961154563ec096778a37b61f754c4381842d04fb1761bb5e6f065746b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb10ce2d9758286de9348bbc6f1cbbd6d469ce36f628c70c6d329a4188ad3ee1451"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb17fa1235a5977289b5d5322e3e1c938614e327a2e99c3e270dd52f8cb09486ac0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb1f534b66d3d6b33582e22e5fb628d0d6c58b5338c5bdd0d91533b74075aa75662"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb1fa2a1b50e204b481cc29be999db5cd682c0c849c764fe031a199949f1dd7531f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb2080e8238e284522ab74a1c6db6ca43de1778c92f43e4db6c058b8d3de04edcd7"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb22824877bec8bbc2e156217ca5a7f705ebeba38db1bda273c2d60ba71aae7b0e8"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb22cf977e124877e52d7649c826bbf5de00bc829517451ee83b8fb8bfe4a6cf846"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb23376a820bb73be6fe9798418c45d0fb3abb58cbea8b1b36d5b8f44cdd19f7282"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb238516a5d16bb1099f257bcdb5162d3cbb01330190b8a6b3265110daba82a23d6"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb2484586e431bef7aadec944c8fe4570217f19318f9b3b0d012c25bc2c40637343"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb25231eeabf555af539078ebbe61b7eafb4c7b86cbdb0661f72f6b43258568d07b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb2567c3047927c80809314632f837aa8c9e3aa42f61b9b723952364c2d46db14f6"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb25ae71a7254897f9315960dd633f15add78bd3fb32629747371751d291c42dee3"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb25d456b64d40fac5de1353346a10e03b76df036715aa9801cd3ca6d2cacfe83f3"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb25d52d8172971cc0c1e8c3c1402776958150f579ba804d9f6747a8913f9b48e6e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb25f541eaf4099185f06316a1eafe61dbe30b925cf5b0901be0e842e2249cece2d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb273bbfba2c10b354e906726af70f194052cb77a9c83ea58eb510c73edbde9db1f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb2a894bb46810b8b429c3d062ffbf51accd63d58813112b69a097ec42e6fc3f5e6"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb2b81e41f630a9c7fad14bc90ff64773ae60ff734a00f97776838ac80472cd2521"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb2c84dca92961ac0791223559de705c6545979b69b44ad21f17d6aa32c17b2c7c3"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cb2e0cb0c95a8d5f086106207ac7779c39890903e1a910c27915e57dfca58e53d9e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cbae79a5acb243d88c157e3537d66922b64e8c6004462d3a73d0085a6e68057088"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cod_cbb9fdc074030459aa0576c7e2cbcb71a7c3c1502038ccb13888a8fa2ccf980205"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_cod_cb12b168975dc2239cf74018dd609b5e39e96d32fd3b6fb2b53a2a4df7add528283"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>cod</rdfs:label>
     <skos:broader rdf:resource="http://vocab.getty.edu/aat/300389825"/>
@@ -77,87 +89,15 @@
     <skos:related rdf:resource="https://w3id.org/hector/commodity/whiting"/>
     <la:equivalent rdf:resource="http://www.wikidata.org/entity/Q13194939"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">186</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cod#rate-1545-inward-199"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cod#rate-1545-inward-200"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cod#rate-1558-inward-246"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cod#rate-1558-inward-247"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cod#rate-1558-inward-248"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cod#rate-1558-inward-249"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cod#rate-1558-inward-250"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cb164b039d9500aad39d4e224a4d63060a176666fbd2ecaf3d10f80d1c154819562">
-    <crm:P190_has_symbolic_content>coddys</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kodis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/ling">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>ling</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cb21575a74677c2869e972a52b1b8a870a3c61ba662e73ad6e9b7defd117eda089e">
-    <crm:P190_has_symbolic_content>cabelow</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kabeluː</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cb13e1f44c07b919ee61addd93fdc682bf0a7629070b5c5764b50a255d4293725ba">
-    <crm:P190_has_symbolic_content>godes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>godəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cb2010dca52f75069af0cf49620f79cfa5cca1d5195be597fbc7556b7460abefbac">
-    <crm:P190_has_symbolic_content>cabellow</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kabeluː</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cb1eb374ffdde294b6d1cbfc14a7c1e373336bb42b2c25cc67b58889bd487f3111d">
-    <crm:P190_has_symbolic_content>codes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kodəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cb1c66577e6acc888d54e231550196d687e9f8362311cea3ce352dea6ad355f984a">
-    <crm:P190_has_symbolic_content>cabelaw</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kabelau</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cb289838644ade1d509ba9f63215fc429a435feabde8d0cf1d7cc3e5fad4c6cb45d">
-    <crm:P190_has_symbolic_content>god</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>god</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cod-head">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>cod head</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cb227d75498fc896a395aeca73141aad01fe75a598e27ba0d9396f3b7c00fdbb50">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>30s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cb1c8a19fe8a05adc73f981704f998fb0216e113318a7bdbd3a4c248c5713da5610">
+  <rdf:Description rdf:nodeID="commodity_cod_cb238516a5d16bb1099f257bcdb5162d3cbb01330190b8a6b3265110daba82a23d6">
     <crm:P190_has_symbolic_content>coddes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -165,15 +105,33 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cb2157d73933c19ced1a993660cd587ae1bbab652f212a5ba83887c3af5f73d5ffe">
-    <crm:P190_has_symbolic_content>codd</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kod</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cod#rate-1545-inward-199">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Coddes heds the last 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cod_cb305da9e720f1da6c0e96257803375b09842b8319724ddc10ad4a8662a9a00eeca"/>
+    <hector:perQuantity rdf:nodeID="commodity_cod_cb249d89a5ffd9c6de4457c1fd1318ac23d1b339f4f683c87c1ff79a2ea12e37f24"/>
+    <hector:qualifier rdf:nodeID="commodity_cod_cb219e63f88a23e5561eae851eba65c9d3cb88c3e66d0a496cb764238c9117223b8"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 199 (transcribed by Stuart Jenks): 'Coddes heds the last' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cb1cf3da27930dcdef954ba8351cee3dc26ff96a5c3395fd898147afe383df380b3">
+  <rdf:Description rdf:nodeID="commodity_cod_cb305da9e720f1da6c0e96257803375b09842b8319724ddc10ad4a8662a9a00eeca">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cod#rate-1558-inward-247">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Coddes heddes the barrell 3s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cod_cb2981a7f36ae71d8fd127ad9ea8b720475e1bacdcc1d2dc488c07f0e0a659359ab"/>
+    <hector:perQuantity rdf:nodeID="commodity_cod_cb24dcb674821993c6f10c2fbb5a21ae3810f0b5438090273318556b7e71d03d119"/>
+    <hector:qualifier rdf:nodeID="commodity_cod_cb288068e18b3f6ffebf19352d33f61a7d25f96a69ca206168687f5b65ee11c1748"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 247 (transcribed by Stuart Jenks): 'Coddes heddes the barrell' 3s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb2080e8238e284522ab74a1c6db6ca43de1778c92f43e4db6c058b8d3de04edcd7">
     <crm:P190_has_symbolic_content>cabelawes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -181,29 +139,20 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cbce13b90ef791711f86574a2f68579478ac89bba21650e9158044ebfcfd8378ce">
-    <crm:P190_has_symbolic_content>cebelow</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sebeluː</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/whiting">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>whiting</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cb185e118996db7a0dc2c9dc6bae1d5fbb1ca1d9237b2e75a9200a22a777963e9e4">
-    <crm:P190_has_symbolic_content>codde</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_cod_cb2567c3047927c80809314632f837aa8c9e3aa42f61b9b723952364c2d46db14f6">
+    <crm:P190_has_symbolic_content>code</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>kodə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cb2094d758f98cb2befa9ba0671b8824f56d8971dc8f628bf7023b3295029e41573">
+  <rdf:Description rdf:nodeID="commodity_cod_cb162077b37361cb67f25269958fd43663548e639180af3a370581e4605fdaeb0f6">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>fyshe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb2e0cb0c95a8d5f086106207ac7779c39890903e1a910c27915e57dfca58e53d9e">
     <crm:P190_has_symbolic_content>cod piscis</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -211,48 +160,65 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/codling">
+  <rdf:Description rdf:nodeID="commodity_cod_cb2981a7f36ae71d8fd127ad9ea8b720475e1bacdcc1d2dc488c07f0e0a659359ab">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>3s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb369a6433d91c3cf24e1dc0a26128d7c2863425b8f930980dc9732d28f7232e2cf">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/ling">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>codling</rdfs:label>
+    <rdfs:label>ling</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cb2d9e82a961154563ec096778a37b61f754c4381842d04fb1761bb5e6f065746b">
-    <crm:P190_has_symbolic_content>common name for any of the species of fish in the genus Gadus, and sometimes also some members of the families Euclichthyidae, Moridae and Muraenolepididae [Source: Wikidata]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cb15b8371c155e1b89f07db018571c6405d619f4a6d1bee1f7da75ac44e16e758e9">
-    <crm:P190_has_symbolic_content>cod piscisis</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_cod_cb2a894bb46810b8b429c3d062ffbf51accd63d58813112b69a097ec42e6fc3f5e6">
+    <crm:P190_has_symbolic_content>god</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kod pisisis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+    <hector:phoneticKey>god</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cb1e8b437738f19d84317abf673e4d0305740ff4b7dfa59e63dae979377f55c3f4b">
-    <crm:P190_has_symbolic_content>cabelhow</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_cod_cb22824877bec8bbc2e156217ca5a7f705ebeba38db1bda273c2d60ba71aae7b0e8">
+    <crm:P190_has_symbolic_content>cabelhows</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kabelhuː</hector:phoneticKey>
+    <hector:phoneticKey>kabelhuːs</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cbf7e1a1f60bf95c008446e8398c8b759abb4f3116daf7aaef2774587d93448dfa">
-    <crm:P190_has_symbolic_content>cod</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+  <rdf:Description rdf:nodeID="commodity_cod_cb25d456b64d40fac5de1353346a10e03b76df036715aa9801cd3ca6d2cacfe83f3">
+    <crm:P190_has_symbolic_content>codd</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>kod</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cod#rate-1558-inward-249">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Codde fyshe the hundreth cont’ syxe score 30s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_cod_cb227d75498fc896a395aeca73141aad01fe75a598e27ba0d9396f3b7c00fdbb50"/>
-    <hector:perQuantity rdf:nodeID="commodity_cod_cb826a2ce4570362860ca609aa2a04caa3ec853145b2a22ba0ac63f5cd75b6eac7"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 249 (transcribed by Stuart Jenks): 'Codde fyshe the hundreth cont’ syxe score' 30s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/hundred">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>hundred</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cb21338e68bf94ecce89f1ce3f0fa9dc9932b3e4ec5831c9ef15252ab13776f4120">
+  <rdf:Description rdf:nodeID="commodity_cod_cb1f392451a67cee32faab0384215b4243e972082a02352890baeaa6f1a1e829a17">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>fyshe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/colefish">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>colefish</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb25231eeabf555af539078ebbe61b7eafb4c7b86cbdb0661f72f6b43258568d07b">
     <crm:P190_has_symbolic_content>cabelhowes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -260,11 +226,40 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_cod_cb2484586e431bef7aadec944c8fe4570217f19318f9b3b0d012c25bc2c40637343">
+    <crm:P190_has_symbolic_content>coddys</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kodis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cb19f428a23dcd23c0eb6c6490dd70b42c59645eb0e718823e1ecf253b0b5e57e61">
+  <rdf:Description rdf:nodeID="commodity_cod_cb35c1eaef88317e01369aaa8755a305b15893b493c0e7421b4142d9a1454a6e758">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb219e63f88a23e5561eae851eba65c9d3cb88c3e66d0a496cb764238c9117223b8">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>heds</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb26ef175291b811e70bb2c0655863c8467ed2cadc23b919f642596b05bb56923a6">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/last"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cod-head">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>cod head</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb12c58e56311d77f35e62471c9c57db89713b8c0d807065f542f476cdf569d045e">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>fyshe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb23376a820bb73be6fe9798418c45d0fb3abb58cbea8b1b36d5b8f44cdd19f7282">
     <crm:P190_has_symbolic_content>cabelows</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -272,7 +267,68 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cb20094db86a6a11bf8d02086217661ed8bcf07778391ce00e4cdfd7890c1b19c26">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/whiting">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>whiting</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb25f541eaf4099185f06316a1eafe61dbe30b925cf5b0901be0e842e2249cece2d">
+    <crm:P190_has_symbolic_content>cabellow</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kabeluː</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb1f534b66d3d6b33582e22e5fb628d0d6c58b5338c5bdd0d91533b74075aa75662">
+    <crm:P190_has_symbolic_content>cabelaw</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kabelau</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb16243efd19196e302736655f2936f16f6777c0bbe77da85c16a82c526b35964c3">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>heds</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cod#rate-1558-inward-249">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Codde fyshe the hundreth cont’ syxe score 30s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cod_cb19e24929e7630fb707400888f20681a4444844780587df88039bea02bf2dca1dc"/>
+    <hector:perQuantity rdf:nodeID="commodity_cod_cb22c53560c4a34327c178ba9ba6b47ce0d17a9f0822e4bbf504de6638fb55c6acd"/>
+    <hector:qualifier rdf:nodeID="commodity_cod_cb1f392451a67cee32faab0384215b4243e972082a02352890baeaa6f1a1e829a17"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 249 (transcribed by Stuart Jenks): 'Codde fyshe the hundreth cont’ syxe score' 30s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb1fa2a1b50e204b481cc29be999db5cd682c0c849c764fe031a199949f1dd7531f">
+    <crm:P190_has_symbolic_content>godes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>godəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cbae79a5acb243d88c157e3537d66922b64e8c6004462d3a73d0085a6e68057088">
+    <crm:P190_has_symbolic_content>cabelowes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kabeluːəs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/haberdine">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>haberdine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/codling">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>codling</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/barrel">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>barrel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb2b81e41f630a9c7fad14bc90ff64773ae60ff734a00f97776838ac80472cd2521">
     <crm:P190_has_symbolic_content>cabeloghe</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -280,30 +336,150 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/haberdine">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>haberdine</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_cod_cb22cf977e124877e52d7649c826bbf5de00bc829517451ee83b8fb8bfe4a6cf846">
+    <crm:P190_has_symbolic_content>codde</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kodə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q13194939">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>cod</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_cod_cb25d52d8172971cc0c1e8c3c1402776958150f579ba804d9f6747a8913f9b48e6e">
+    <crm:P190_has_symbolic_content>cod piscisis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kod pisisis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cod_cb188d918fea4ee045201d61b229e978e696cd02fe2d31f14c0f765a52f3a12be8">
+  <rdf:Description rdf:nodeID="commodity_cod_cb332c5dd37251f577b172741b7b2fc5f0badc46fd0297639b2af24f5705c1dfa14">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£6</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1440</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb26a75508829d013cce5bc1b2db191d24f5a023296a1de6f76144df9196dc83438">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cbb9fdc074030459aa0576c7e2cbcb71a7c3c1502038ccb13888a8fa2ccf980205">
     <crm:P190_has_symbolic_content>cabelowe</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>kabeluːə</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/colefish">
+  <rdf:Description rdf:nodeID="commodity_cod_cb19af0d1a23b2ecbc8fe5ce79b466b432f57dd2048a66a9bc59a9e509368ca9c7b">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>colefish</rdfs:label>
+    <rdfs:label>hedes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cod#rate-1545-inward-200">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Coddes heds the barrell 20d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cod_cb35c1eaef88317e01369aaa8755a305b15893b493c0e7421b4142d9a1454a6e758"/>
+    <hector:perQuantity rdf:nodeID="commodity_cod_cb2472dc67a0bd9aebc1f3d4ce4838d52672a2d78db3786e0899daec74e4bd7f986"/>
+    <hector:qualifier rdf:nodeID="commodity_cod_cb16243efd19196e302736655f2936f16f6777c0bbe77da85c16a82c526b35964c3"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 200 (transcribed by Stuart Jenks): 'Coddes heds the barrell' 20d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb2c84dca92961ac0791223559de705c6545979b69b44ad21f17d6aa32c17b2c7c3">
+    <crm:P190_has_symbolic_content>cabelhow</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kabelhuː</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb10ce2d9758286de9348bbc6f1cbbd6d469ce36f628c70c6d329a4188ad3ee1451">
+    <crm:P190_has_symbolic_content>cebelow</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sebeluː</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb17fa1235a5977289b5d5322e3e1c938614e327a2e99c3e270dd52f8cb09486ac0">
+    <crm:P190_has_symbolic_content>cod</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kod</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb24dcb674821993c6f10c2fbb5a21ae3810f0b5438090273318556b7e71d03d119">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb273bbfba2c10b354e906726af70f194052cb77a9c83ea58eb510c73edbde9db1f">
+    <crm:P190_has_symbolic_content>cabelow</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kabeluː</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cod#rate-1558-inward-250">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Codd fyshe the barrell 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cod_cb26a75508829d013cce5bc1b2db191d24f5a023296a1de6f76144df9196dc83438"/>
+    <hector:perQuantity rdf:nodeID="commodity_cod_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_cod_cb12c58e56311d77f35e62471c9c57db89713b8c0d807065f542f476cdf569d045e"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 250 (transcribed by Stuart Jenks): 'Codd fyshe the barrell' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb22c53560c4a34327c178ba9ba6b47ce0d17a9f0822e4bbf504de6638fb55c6acd">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/cod">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>cod (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/last">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>last</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb2262d9ce57ac49a8e6023548d4205c13669a5abede3bfdfb90f57576a476c99c7">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/last"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb12b168975dc2239cf74018dd609b5e39e96d32fd3b6fb2b53a2a4df7add528283">
+    <crm:P190_has_symbolic_content>common name for any of the species of fish in the genus Gadus, and sometimes also some members of the families Euclichthyidae, Moridae and Muraenolepididae [Source: Wikidata]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300389825">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>fish (meat)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/cod">
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q13194939">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>cod (London Customs Accounts glossary)</rdfs:label>
+    <rdfs:label>cod</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb2472dc67a0bd9aebc1f3d4ce4838d52672a2d78db3786e0899daec74e4bd7f986">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cod_cb249d89a5ffd9c6de4457c1fd1318ac23d1b339f4f683c87c1ff79a2ea12e37f24">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/last"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
 </rdf:RDF>

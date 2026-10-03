@@ -213,7 +213,13 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 665 (transcribed by Stuart Jenks): 'Lebardes the pane of wombes' £4"
+      "sourceText": "Book of Rates 1558, inward, line 665 (transcribed by Stuart Jenks): 'Lebardes the pane of wombes' £4",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "womb"
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/leopardus#rate-1558-inward-681",
@@ -240,7 +246,24 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 681 (transcribed by Stuart Jenks): 'Lyons or Lybardes quyck the pece' 26s 8d"
+      "sourceText": "Book of Rates 1558, inward, line 681 (transcribed by Stuart Jenks): 'Lyons or Lybardes quyck the pece' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "lions"
+        },
+        {
+          "type": "Type",
+          "_label": "quyck",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

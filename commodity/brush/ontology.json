@@ -536,6 +536,419 @@
       "validFrom": "1507",
       "validThrough": "1545",
       "sourceText": "Book of Rates 1507, line 24 (transcribed by Stuart Jenks): 'Brusshys the packe' 20s"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/brush#rate-1545-inward-66",
+      "type": "Rate",
+      "_label": "1545 inward: Brusshes fyne the groce 18s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "216",
+        "lsd": "18s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 66 (transcribed by Stuart Jenks): 'Brusshes fyne the groce' 18s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "fine"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/brush#rate-1545-inward-67",
+      "type": "Rate",
+      "_label": "1545 inward: Brusshes of cours heth or cape brusshes the groce 12s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "144",
+        "lsd": "12s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 67 (transcribed by Stuart Jenks): 'Brusshes of cours heth or cape brusshes the groce' 12s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "coarse"
+        },
+        {
+          "type": "Type",
+          "_label": "heth",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "cap"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/brush#rate-1545-inward-68",
+      "type": "Rate",
+      "_label": "1545 inward: Brusshes called rubbinge brusshes the [a.iiii] groce 4s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "48",
+        "lsd": "4s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 68 (transcribed by Stuart Jenks): 'Brusshes called rubbinge brusshes the [a.iiii] groce' 4s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "rubbinge",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "iiii",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/brush#rate-1558-inward-128",
+      "type": "Rate",
+      "_label": "1558 inward: Brusshes course of heathe the dosen 18d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "18",
+        "lsd": "18d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 128 (transcribed by Stuart Jenks): 'Brusshes course of heathe the dosen' 18d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "coarse"
+        },
+        {
+          "type": "Type",
+          "_label": "heathe",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/brush#rate-1558-inward-129",
+      "type": "Rate",
+      "_label": "1558 inward: Brusshes fyne of heathe the dosen 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "40",
+        "lsd": "3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 129 (transcribed by Stuart Jenks): 'Brusshes fyne of heathe the dosen' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "fine"
+        },
+        {
+          "type": "Type",
+          "_label": "heathe",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/brush#rate-1558-inward-165",
+      "type": "Rate",
+      "_label": "1558 inward: Brushes of heare the dosen 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "40",
+        "lsd": "3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 165 (transcribed by Stuart Jenks): 'Brushes of heare the dosen' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "heare",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/brush#rate-1558-inward-166",
+      "type": "Rate",
+      "_label": "1558 inward: Brushes voc’ wevers brushes of heare the dosen 2s 6d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "30",
+        "lsd": "2s 6d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 166 (transcribed by Stuart Jenks): 'Brushes voc’ wevers brushes of heare the dosen' 2s 6d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "weaver",
+          "equivalent": [
+            {
+              "id": "aat:300025367",
+              "type": "Type",
+              "_label": "weavers"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "heare",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/brush#rate-1558-inward-167",
+      "type": "Rate",
+      "_label": "1558 inward: Brushes voc’ rubbinge brushes of heare the dosen 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "8",
+        "lsd": "8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 167 (transcribed by Stuart Jenks): 'Brushes voc’ rubbinge brushes of heare the dosen' 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "rubbinge",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "heare",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/brush#rate-1558-inward-168",
+      "type": "Rate",
+      "_label": "1558 inward: Brushes voc’ rubbinge brushes of heathe the dosen 6d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "6",
+        "lsd": "6d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 168 (transcribed by Stuart Jenks): 'Brushes voc’ rubbinge brushes of heathe the dosen' 6d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "rubbinge",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "heathe",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

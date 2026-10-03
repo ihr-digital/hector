@@ -8,111 +8,7 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_dagger_cb10cd6f4da54116a81c4292636f35c0804b423e56f6532f739e2e4a57d76f9a4b7">
-    <crm:P190_has_symbolic_content>armicudii</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>armikudi</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_dagger_cb23df816eff53b2390e124becc632a48dd52a8ba3263f19b32fceb27fa7eb91a94">
-    <crm:P190_has_symbolic_content>dagars</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dagars</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/dagger#rate-1558-inward-354">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Dagger swaynes the pece 2s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_dagger_cb113ceb8faa62415e67ab0d26569690f70c85645253632e1b8d2891b319203af73"/>
-    <hector:perQuantity rdf:nodeID="commodity_dagger_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 354 (transcribed by Stuart Jenks): 'Dagger swaynes the pece' 2s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_dagger_cb18a8b45e06957a016bab47235746bce62273f27b0e43d8fe09a99290d4f522b49">
-    <crm:P190_has_symbolic_content>dagar</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dagar</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_dagger_cb113ceb8faa62415e67ab0d26569690f70c85645253632e1b8d2891b319203af73">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>2s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_dagger_cb2b4e0bc058fed80183605bd8089a493666a29069feb3360ac2f7d073dbc0ec62f">
-    <crm:P190_has_symbolic_content>dagers</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dadʒers</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_dagger_cb2a095c364dfdb8a05201458ecbaee19a1121cda3dfc17018e66c82c359ed12f58">
-    <crm:P190_has_symbolic_content>dageres</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dadʒerəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/dagger">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb10cd6f4da54116a81c4292636f35c0804b423e56f6532f739e2e4a57d76f9a4b7"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb11c8cf16fc7a7f86d723d5d4190133ed3045135f97a3e46090c1bfd637821b427"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb127020ce36fcd57a409daea5116b4b827c49520f26ce7c668c05d94a8fdd708a5"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb1292579bf9daf53a5d7ce0b9ab54357d2f48c6f0e2ccd7afd3dd18956f5a09125"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb13aa0610f745c5a168f99788e2517c060ff629ac643ca1c8688d2a74de5a6146c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb18a8b45e06957a016bab47235746bce62273f27b0e43d8fe09a99290d4f522b49"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb19b784f3587fa160fe3915277bac0b85955f8a28ae77670e487f7027c555ca2dd"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb1cdf8ee83d3c4c9063c23290fd9fd0f48b0b54da5241c568083e50ba61d00c1d1"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb1d876f2c17e0cf61f85a4197e7cc4c57b9c23974194476782242350d389a05d68"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb1fbf5de7687ea622750153cb999aa9025b5fd368117f88f9cb82a3697b414efe9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb23df816eff53b2390e124becc632a48dd52a8ba3263f19b32fceb27fa7eb91a94"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb2422cb9ead6b9ff5e6218025cd718520d37464017f37d7d51e61f61d971845b90"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb260d8a183b1d4479d99253348c8933892a9d96f9b55604c6ec72c7c06eaa7e1bf"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb2a095c364dfdb8a05201458ecbaee19a1121cda3dfc17018e66c82c359ed12f58"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb2b4e0bc058fed80183605bd8089a493666a29069feb3360ac2f7d073dbc0ec62f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb3252fdd26d7c6f53796617427dbceeb5f7dc35e66de66de1909a695051911a431"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb376fffe00641dd56697247d7c834f98155ca368201f201b8cb47973e43eecb740"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_dagger_cbe1935a3ab004e0556b6a2157c01a513439f5d7a6b932b3d1a4e43b5036e40569"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>dagger</rdfs:label>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/dagger"/>
-    <skos:related rdf:resource="https://w3id.org/hector/commodity/baselard"/>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300037058"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">298</hector:attestationCount>
-    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/dagger#rate-1558-inward-354"/>
-    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/dagger#rate-1558-inward-382"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_dagger_cb376fffe00641dd56697247d7c834f98155ca368201f201b8cb47973e43eecb740">
-    <crm:P190_has_symbolic_content>daggar</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dagar</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_dagger_cb19b784f3587fa160fe3915277bac0b85955f8a28ae77670e487f7027c555ca2dd">
-    <crm:P190_has_symbolic_content>daggars</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dagars</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_dagger_cb3252fdd26d7c6f53796617427dbceeb5f7dc35e66de66de1909a695051911a431">
+  <rdf:Description rdf:nodeID="commodity_dagger_cb384389bbb60789a7f196984a701b749b2fdab70a1f93514c3b177679cfcab9e8b">
     <crm:P190_has_symbolic_content>dagger</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -121,61 +17,11 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/baselard">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>baselard</rdfs:label>
+    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/dagger#rate-1558-inward-382">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Daggers of boane for chylderne the grosse cont’ 12 dossen 10s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_dagger_cb1375c83284bca0db1aee995b60a9e26e063d06f2224a657e6c42768fca22a75d6"/>
-    <hector:perQuantity rdf:nodeID="commodity_dagger_cb37c7d7746513cb807620cc92a2b0d60d4c3382e00a8bf9d37b041188aa4463b9"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 382 (transcribed by Stuart Jenks): 'Daggers of boane for chylderne the grosse cont’ 12 dossen' 10s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_dagger_cb13aa0610f745c5a168f99788e2517c060ff629ac643ca1c8688d2a74de5a6146c">
-    <crm:P190_has_symbolic_content>armicudium</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>armikudium</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_dagger_cbe1935a3ab004e0556b6a2157c01a513439f5d7a6b932b3d1a4e43b5036e40569">
-    <crm:P190_has_symbolic_content>Weapons with a short, double-edged, sharp-pointed blade and a grip, used for stabbing or parrying. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/pecia">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>pecia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_dagger_cb260d8a183b1d4479d99253348c8933892a9d96f9b55604c6ec72c7c06eaa7e1bf">
-    <crm:P190_has_symbolic_content>daggeres</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dagerəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_dagger_cb1292579bf9daf53a5d7ce0b9ab54357d2f48c6f0e2ccd7afd3dd18956f5a09125">
-    <crm:P190_has_symbolic_content>dagger knyve</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dager knivə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_dagger_cb1d876f2c17e0cf61f85a4197e7cc4c57b9c23974194476782242350d389a05d68">
+  <rdf:Description rdf:nodeID="commodity_dagger_cb1f78827c35136ac586741bc8d18f5b6a43c6243e4384d2c446163b554acf79ef1">
     <crm:P190_has_symbolic_content>dagker</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -183,11 +29,7 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>gross</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_dagger_cb2422cb9ead6b9ff5e6218025cd718520d37464017f37d7d51e61f61d971845b90">
+  <rdf:Description rdf:nodeID="commodity_dagger_cb2613deeeca9e3b59743b5a56b73494335d784ecba97834214235fc65a94db9d19">
     <crm:P190_has_symbolic_content>dager</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -195,7 +37,150 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_dagger_cb127020ce36fcd57a409daea5116b4b827c49520f26ce7c668c05d94a8fdd708a5">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/dagger#rate-1558-inward-346">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Daggers course the dossen 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_dagger_cb40ad18f20c8b626c9aaa8c57c7a17828fcfc1d837e1d832d95ab5c48486ef4122"/>
+    <hector:perQuantity rdf:nodeID="commodity_dagger_cb116ad939a0f8054ba771c645dc087c9a9f78faa3464076c0588637ccb6d8f3793"/>
+    <hector:qualifier rdf:nodeID="commodity_dagger_cb139c8e0ac0923721ad4fe3b2a5fec1a3df75fa7b8f24177868d6eb5fa0f29ff47"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 346 (transcribed by Stuart Jenks): 'Daggers course the dossen' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/dagger#rate-1558-inward-382">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Daggers of boane for chylderne the grosse cont’ 12 dossen 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_dagger_cb363bdd89764a14e10adc97ab5b10ed006ba01266803c757b5a9d320d39e3b9b59"/>
+    <hector:perQuantity rdf:nodeID="commodity_dagger_cb146582bd0683354603a4788500e2ed4a92efcfa16515405d9ee16da88683d779f"/>
+    <hector:qualifier rdf:nodeID="commodity_dagger_cb1ffc0c131fab24717b37f4f52add50346f49726a0fe7de845e7ce8a101daac9cb"/>
+    <hector:qualifier rdf:nodeID="commodity_dagger_cb21901c69adaebe789a28d9219797705587dc5d8077d37704829885043ac63e595"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 382 (transcribed by Stuart Jenks): 'Daggers of boane for chylderne the grosse cont’ 12 dossen' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/dagger#rate-1558-inward-388">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Daggers guilte with vellet shethes the dossen 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_dagger_cb2baee34f151473968a3c45d9de640fbcae4e31d5563a3247779051fe7185cb0a4"/>
+    <hector:perQuantity rdf:nodeID="commodity_dagger_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_dagger_cb190db1bda41533dda4bdb35c6a1659648a14850c206f6cd8bc845557d252727be"/>
+    <hector:qualifier rdf:nodeID="commodity_dagger_cb213629db1d9281ccf0fd459c1d7a55e3be5f4af2c70af48d33169260dbcb9a497"/>
+    <hector:qualifier rdf:nodeID="commodity_dagger_cbfc7bb53c859ba0c2fa0a2ee59d2bfc8e9b2d69430b217b0e666b470abaa4eff9"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 388 (transcribed by Stuart Jenks): 'Daggers guilte with vellet shethes the dossen' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb25d094bf1c864d9c9c2c261daff5b3a05f2e766d507f75ff53a2b8c7ba2105c1d">
+    <crm:P190_has_symbolic_content>dagars</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dagars</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb2baee34f151473968a3c45d9de640fbcae4e31d5563a3247779051fe7185cb0a4">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb1ba8984375b23cc48c52ef58656f1a981f6374f2d8b7c35a6c53766fd78b3e466">
+    <crm:P190_has_symbolic_content>daggars</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dagars</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb39611330237478b9f78c2208b1f80893dfce214c2c325e04ef1b9d8656243f8c9">
+    <crm:P190_has_symbolic_content>daggar</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dagar</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb27fe9d68584fdfdd67ac2d65764c429bb4a181c3df9661131046ce0880dff2348">
+    <crm:P190_has_symbolic_content>daggeres</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dagerəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb1c84fb68a2a825f060d6901edfcb667ea1a63bcc39571751bfcee0703e7d8bba2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>children’s</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/dagger">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb12be829dc273b20baa5c6c9458f8cf92d546292120938bbfc202509fe9a50e640"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb1461341e542f70ddceb788d5fb2e5a95064d3cd9510ed8b2afd9df92a212e4a2e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb14836aec170d909deb96baea9517448fb94cb1bb0d0d33fbf7b11edd818f7d2ae"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb159b196114786104f71371b9cc148b1899fa14768e7cfe148c6130bcf08fd55f5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb1a99c7ae23c81564f9c521544109cbf8ac77dd453884354a2d7d98d8e72a96cd2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb1ba8984375b23cc48c52ef58656f1a981f6374f2d8b7c35a6c53766fd78b3e466"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb1f78827c35136ac586741bc8d18f5b6a43c6243e4384d2c446163b554acf79ef1"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb21b0713785b14186031b2dfc835db814e563be323bbfe545ef56a9b18d76c3172"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb25d094bf1c864d9c9c2c261daff5b3a05f2e766d507f75ff53a2b8c7ba2105c1d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb2613deeeca9e3b59743b5a56b73494335d784ecba97834214235fc65a94db9d19"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb261cf59a538ca4de5d1b00a5d1955d6399faa815ca9d37dd1d0801d9edf7de32f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb27fe9d68584fdfdd67ac2d65764c429bb4a181c3df9661131046ce0880dff2348"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb2bfa6f866b305403e01b1fbfb571f0ac9b25b86e0a01cc650a40890b6c22870e1"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb2c917936ffec8c4059f6273f9fe3352b33a24155d9899a3cc6c1f468fdf0d1c57"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb2d3f1f1076317365117a3608f25d5848f0a67b3428f39256e6cbd6bbedf6607b8"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb384389bbb60789a7f196984a701b749b2fdab70a1f93514c3b177679cfcab9e8b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_dagger_cb39611330237478b9f78c2208b1f80893dfce214c2c325e04ef1b9d8656243f8c9"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_dagger_cb1df0b61072b11d4c0f36247b52654d2db7c04cf622d5d8f73d16d64e423d11381"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>dagger</rdfs:label>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/dagger"/>
+    <skos:related rdf:resource="https://w3id.org/hector/commodity/baselard"/>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300037058"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">298</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/dagger#rate-1558-inward-346"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/dagger#rate-1558-inward-354"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/dagger#rate-1558-inward-380"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/dagger#rate-1558-inward-382"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/dagger#rate-1558-inward-387"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/dagger#rate-1558-inward-388"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/dagger#rate-1558-inward-387">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Daggers black with vellet shethes the dossen 30s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_dagger_cb192e9ef50a95f8a407778fbad05a78cc3b06d821d5898962b47e1a1fab3291862"/>
+    <hector:perQuantity rdf:nodeID="commodity_dagger_cb17d50e24dad7fa333dee00ac8d9389bfeb18e3c0cb22e4a127efc85061f3dc167"/>
+    <hector:qualifier rdf:nodeID="commodity_dagger_cb11229fffa1d30f27f58291bc86994bc60b376d49d16ed39f9d01c11ff0b19cb16"/>
+    <hector:qualifier rdf:nodeID="commodity_dagger_cb1a6896697d8e88f96a9fa22a96dce561ab991bc1c12c28c7731f62071759c02db"/>
+    <hector:qualifier rdf:nodeID="commodity_dagger_cb1f74587dcf7debef9b2689527581538411fefaaf3e90d547fd9765b2c352721c1"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 387 (transcribed by Stuart Jenks): 'Daggers black with vellet shethes the dossen' 30s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb14836aec170d909deb96baea9517448fb94cb1bb0d0d33fbf7b11edd818f7d2ae">
+    <crm:P190_has_symbolic_content>dagger knyve</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dager knivə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb40ad18f20c8b626c9aaa8c57c7a17828fcfc1d837e1d832d95ab5c48486ef4122">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300037058">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>daggers (weapons)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb1f64b94ddba7356654ca142c372f6263b3c5d41a5c04854de0f3d27507cb1ea7e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb1461341e542f70ddceb788d5fb2e5a95064d3cd9510ed8b2afd9df92a212e4a2e">
     <crm:P190_has_symbolic_content>dagger knyves</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -203,32 +188,72 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300037058">
+  <rdf:Description rdf:nodeID="commodity_dagger_cb116ad939a0f8054ba771c645dc087c9a9f78faa3464076c0588637ccb6d8f3793">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb1ffc0c131fab24717b37f4f52add50346f49726a0fe7de845e7ce8a101daac9cb">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>daggers (weapons)</rdfs:label>
+    <rdfs:label>bone</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300011798"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_dagger_cb1fbf5de7687ea622750153cb999aa9025b5fd368117f88f9cb82a3697b414efe9">
-    <crm:P190_has_symbolic_content>daggers</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb213629db1d9281ccf0fd459c1d7a55e3be5f4af2c70af48d33169260dbcb9a497">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gilt</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300379350"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pecia">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pecia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb1e35eb2ba0acc6aa4c29650508ff728206abb2d4391ad7f7a0465fabc47e15edf">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>dagers</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>swaynes</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_dagger_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109">
+  <rdf:Description rdf:nodeID="commodity_dagger_cb28251dc2c0b25853848d75899b6e151c49d88e6893324dfb5f61338f7a6258584">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/dagger#rate-1558-inward-354">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Dagger swaynes the pece 2s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_dagger_cb2c11a6fece799a3d7f20e6b63d67d10ba28152b03491cd1c00b6db406ee7c477b"/>
+    <hector:perQuantity rdf:nodeID="commodity_dagger_cb28251dc2c0b25853848d75899b6e151c49d88e6893324dfb5f61338f7a6258584"/>
+    <hector:qualifier rdf:nodeID="commodity_dagger_cb1e35eb2ba0acc6aa4c29650508ff728206abb2d4391ad7f7a0465fabc47e15edf"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 354 (transcribed by Stuart Jenks): 'Dagger swaynes the pece' 2s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/dagger">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/baselard">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>dagger (London Customs Accounts glossary)</rdfs:label>
+    <rdfs:label>baselard</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_dagger_cb1cdf8ee83d3c4c9063c23290fd9fd0f48b0b54da5241c568083e50ba61d00c1d1">
+  <rdf:Description rdf:nodeID="commodity_dagger_cb146582bd0683354603a4788500e2ed4a92efcfa16515405d9ee16da88683d779f">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300130920">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>black (color)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb12be829dc273b20baa5c6c9458f8cf92d546292120938bbfc202509fe9a50e640">
+    <crm:P190_has_symbolic_content>armicudii</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>armikudi</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb2c917936ffec8c4059f6273f9fe3352b33a24155d9899a3cc6c1f468fdf0d1c57">
     <crm:P190_has_symbolic_content>daggour</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -236,13 +261,137 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_dagger_cb1375c83284bca0db1aee995b60a9e26e063d06f2224a657e6c42768fca22a75d6">
+  <rdf:Description rdf:nodeID="commodity_dagger_cb2d3f1f1076317365117a3608f25d5848f0a67b3428f39256e6cbd6bbedf6607b8">
+    <crm:P190_has_symbolic_content>dagers</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dadʒers</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb21b0713785b14186031b2dfc835db814e563be323bbfe545ef56a9b18d76c3172">
+    <crm:P190_has_symbolic_content>daggers</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dagers</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb2bfa6f866b305403e01b1fbfb571f0ac9b25b86e0a01cc650a40890b6c22870e1">
+    <crm:P190_has_symbolic_content>dageres</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dadʒerəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/dagger#rate-1558-inward-380">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Daggers fyne for children the dossen 2s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_dagger_cb25cd5d6ff0c24f8c9ef3aa31082361632fc50bdb8cc86ef4071205c127a74f85f"/>
+    <hector:perQuantity rdf:nodeID="commodity_dagger_cb1f64b94ddba7356654ca142c372f6263b3c5d41a5c04854de0f3d27507cb1ea7e"/>
+    <hector:qualifier rdf:nodeID="commodity_dagger_cb1b63f031e2f38d061d13b423cf5c3b345f7d8bee773535b4a930b450e6afb6327"/>
+    <hector:qualifier rdf:nodeID="commodity_dagger_cb1c84fb68a2a825f060d6901edfcb667ea1a63bcc39571751bfcee0703e7d8bba2"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 380 (transcribed by Stuart Jenks): 'Daggers fyne for children the dossen' 2s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb1f74587dcf7debef9b2689527581538411fefaaf3e90d547fd9765b2c352721c1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>black</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300130920"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>gross</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cbfc7bb53c859ba0c2fa0a2ee59d2bfc8e9b2d69430b217b0e666b470abaa4eff9">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>shethes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/dagger">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>dagger (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb159b196114786104f71371b9cc148b1899fa14768e7cfe148c6130bcf08fd55f5">
+    <crm:P190_has_symbolic_content>armicudium</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>armikudium</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb139c8e0ac0923721ad4fe3b2a5fec1a3df75fa7b8f24177868d6eb5fa0f29ff47">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>coarse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb1a99c7ae23c81564f9c521544109cbf8ac77dd453884354a2d7d98d8e72a96cd2">
+    <crm:P190_has_symbolic_content>dagar</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>dagar</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb21901c69adaebe789a28d9219797705587dc5d8077d37704829885043ac63e595">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>chylderne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb25cd5d6ff0c24f8c9ef3aa31082361632fc50bdb8cc86ef4071205c127a74f85f">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb17d50e24dad7fa333dee00ac8d9389bfeb18e3c0cb22e4a127efc85061f3dc167">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb2c11a6fece799a3d7f20e6b63d67d10ba28152b03491cd1c00b6db406ee7c477b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb11229fffa1d30f27f58291bc86994bc60b376d49d16ed39f9d01c11ff0b19cb16">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>shethes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb192e9ef50a95f8a407778fbad05a78cc3b06d821d5898962b47e1a1fab3291862">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>30s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb363bdd89764a14e10adc97ab5b10ed006ba01266803c757b5a9d320d39e3b9b59">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
     <hector:lsd>10s</hector:lsd>
     <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_dagger_cb11c8cf16fc7a7f86d723d5d4190133ed3045135f97a3e46090c1bfd637821b427">
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb1a6896697d8e88f96a9fa22a96dce561ab991bc1c12c28c7731f62071759c02db">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>velvet</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300133711"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb1df0b61072b11d4c0f36247b52654d2db7c04cf622d5d8f73d16d64e423d11381">
+    <crm:P190_has_symbolic_content>Weapons with a short, double-edged, sharp-pointed blade and a grip, used for stabbing or parrying. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb261cf59a538ca4de5d1b00a5d1955d6399faa815ca9d37dd1d0801d9edf7de32f">
     <crm:P190_has_symbolic_content>dagkeres</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -250,9 +399,33 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_dagger_cb37c7d7746513cb807620cc92a2b0d60d4c3382e00a8bf9d37b041188aa4463b9">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb190db1bda41533dda4bdb35c6a1659648a14850c206f6cd8bc845557d252727be">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>velvet</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300133711"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_dagger_cb1b63f031e2f38d061d13b423cf5c3b345f7d8bee773535b4a930b450e6afb6327">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>fine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300133711">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>velvet (fabric weave)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300011798">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>bone (material)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300379350">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gilding (material)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

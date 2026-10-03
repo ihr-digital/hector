@@ -452,6 +452,46 @@
       "sourceText": "Book of Rates 1545, inward, line 271 (transcribed by Stuart Jenks): 'Fustyan the balle' £10"
     },
     {
+      "id": "https://w3id.org/hector/commodity/fustian#rate-1545-inward-272",
+      "type": "Rate",
+      "_label": "1545 inward: Fustian anapels the pece 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 272 (transcribed by Stuart Jenks): 'Fustian anapels the pece' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "anapels",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/fustian#rate-1545-inward-273",
       "type": "Rate",
       "_label": "1545 inward: Fustian the di’ pece 5s",
@@ -558,6 +598,126 @@
       "validFrom": "1558",
       "validThrough": "1604",
       "sourceText": "Book of Rates 1558, inward, line 441 (transcribed by Stuart Jenks): 'Fustian thole pece' 15s"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/fustian#rate-1558-inward-442",
+      "type": "Rate",
+      "_label": "1558 inward: Fustian of Naples the pece 30s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "360",
+        "lsd": "30s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 442 (transcribed by Stuart Jenks): 'Fustian of Naples the pece' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Naples",
+          "originPlace": [
+            {
+              "id": "wd:Q2634",
+              "type": "Place",
+              "_label": "Naples"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/fustian#rate-1558-inward-632",
+      "type": "Rate",
+      "_label": "1558 inward: Jane fustian thole pece 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 632 (transcribed by Stuart Jenks): 'Jane fustian thole pece' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Jane",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/fustian#rate-1558-inward-726",
+      "type": "Rate",
+      "_label": "1558 inward: Millayn fustian the whole pyece 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 726 (transcribed by Stuart Jenks): 'Millayn fustian the whole pyece' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Millayn",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

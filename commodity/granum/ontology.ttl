@@ -4,6 +4,7 @@
 @prefix hector: <https://w3id.org/hector/ontology#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/hector/commodity/granum> a crm:E55_Type ;
@@ -200,6 +201,9 @@ aat:300404670 a crm:E55_Type ;
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
+wd:Q45 a crm:E53_Place ;
+    rdfs:label "Portugal" .
+
 <https://w3id.org/hector/commodity/granum#rate-1507-none-105> a hector:Rate ;
     rdfs:label "1507: Graynys the C wayte 50s" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -222,6 +226,12 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Portugal" ;
+            hector:originPlace wd:Q45 ],
+        [ a crm:E55_Type ;
+            rdfs:label "rote" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1545, inward, line 317 (transcribed by Stuart Jenks): 'Graine of Portyngal called rote the pounde' 16d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .

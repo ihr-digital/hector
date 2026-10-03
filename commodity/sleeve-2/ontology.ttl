@@ -11,10 +11,6 @@
     rdfs:label "sleeve_2" ;
     dcterms:modified "2026-09-29"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "slevys" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "slevis" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "manicarum" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "manikarum" ],
@@ -26,6 +22,12 @@
             crm:P190_has_symbolic_content "scleve" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "sklevə" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "slevis" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "slevis" ;
+            hector:validFrom "1531"^^xsd:gYear ;
+            hector:validThrough "1533"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "manicae" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -47,11 +49,9 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "manika" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "slevis" ;
+            crm:P190_has_symbolic_content "slevys" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "slevis" ;
-            hector:validFrom "1531"^^xsd:gYear ;
-            hector:validThrough "1533"^^xsd:gYear ],
+            hector:phoneticKey "slevis" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "manicis" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -72,6 +72,9 @@
     la:equivalent aat:300210530 ;
     hector:attestationCount 40 ;
     hector:taxation <https://w3id.org/hector/commodity/sleeve-2#rate-1558-inward-1014> .
+
+aat:300133711 a crm:E55_Type ;
+    rdfs:label "velvet (fabric weave)" .
 
 aat:300210530 a crm:E55_Type ;
     rdfs:label "sleeves (costume)" .
@@ -97,6 +100,12 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pair> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "velvet" ;
+            la:equivalent aat:300133711 ],
+        [ a crm:E55_Type ;
+            rdfs:label "satten for wemen" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 1014 (transcribed by Stuart Jenks): 'Slevys of vellett or satten for wemen the payre' 10s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .

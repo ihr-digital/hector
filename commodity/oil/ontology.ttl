@@ -152,9 +152,25 @@
         <https://w3id.org/hector/commodity/rape-oil>,
         <https://w3id.org/hector/commodity/spike-oil> ;
     hector:attestationCount 2683 ;
-    hector:taxation <https://w3id.org/hector/commodity/oil#rate-1507-none-239>,
+    hector:taxation <https://w3id.org/hector/commodity/oil#rate-1507-none-200>,
+        <https://w3id.org/hector/commodity/oil#rate-1507-none-201>,
+        <https://w3id.org/hector/commodity/oil#rate-1507-none-239>,
         <https://w3id.org/hector/commodity/oil#rate-1545-inward-509>,
-        <https://w3id.org/hector/commodity/oil#rate-1558-inward-791> .
+        <https://w3id.org/hector/commodity/oil#rate-1545-inward-531>,
+        <https://w3id.org/hector/commodity/oil#rate-1545-inward-535>,
+        <https://w3id.org/hector/commodity/oil#rate-1545-inward-795>,
+        <https://w3id.org/hector/commodity/oil#rate-1558-inward-755>,
+        <https://w3id.org/hector/commodity/oil#rate-1558-inward-756>,
+        <https://w3id.org/hector/commodity/oil#rate-1558-inward-779>,
+        <https://w3id.org/hector/commodity/oil#rate-1558-inward-780>,
+        <https://w3id.org/hector/commodity/oil#rate-1558-inward-781>,
+        <https://w3id.org/hector/commodity/oil#rate-1558-inward-782>,
+        <https://w3id.org/hector/commodity/oil#rate-1558-inward-786>,
+        <https://w3id.org/hector/commodity/oil#rate-1558-inward-787>,
+        <https://w3id.org/hector/commodity/oil#rate-1558-inward-790>,
+        <https://w3id.org/hector/commodity/oil#rate-1558-inward-791>,
+        <https://w3id.org/hector/commodity/oil#rate-1558-inward-792>,
+        <https://w3id.org/hector/commodity/oil#rate-1558-inward-793> .
 
 aat:300014254 a crm:E55_Type ;
     rdfs:label "oil (organic material)" .
@@ -183,6 +199,38 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/hector/commodity/mastike> a crm:E55_Type ;
     rdfs:label "mastike" .
 
+<https://w3id.org/hector/commodity/oil#rate-1507-none-200> a hector:Rate ;
+    rdfs:label "1507: Oyle called wolle oylle the tune £4" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£4" ;
+            hector:valueInPence 960.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/tun> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "wolle oylle" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 200 (transcribed by Stuart Jenks): 'Oyle called wolle oylle the tune' £4" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/oil#rate-1507-none-201> a hector:Rate ;
+    rdfs:label "1507: Oyle called mett oylle or rape oylle the barrelle 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/barrel> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "mett oylle or rape oylle" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 201 (transcribed by Stuart Jenks): 'Oyle called mett oylle or rape oylle the barrelle' 13s 4d" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/oil#rate-1507-none-239> a hector:Rate ;
     rdfs:label "1507: Rappe oyle the last on with another £8" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -192,6 +240,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Rappe" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1507, line 239 (transcribed by Stuart Jenks): 'Rappe oyle the last on with another' £8" ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
@@ -209,6 +260,199 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/oil#rate-1545-inward-531> a hector:Rate ;
+    rdfs:label "1545 inward: Oyle de Bay, the barrell conteinynge 100 pounde 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/barrel> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "bay" ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 531 (transcribed by Stuart Jenks): 'Oyle de Bay, the barrell conteinynge 100 pounde' 13s 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/oil#rate-1545-inward-535> a hector:Rate ;
+    rdfs:label "1545 inward: Oyle de lynsede the barel 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/barrel> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "lynsede" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 535 (transcribed by Stuart Jenks): 'Oyle de lynsede the barel' 13s 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/oil#rate-1545-inward-795> a hector:Rate ;
+    rdfs:label "1545 inward: Woll oyle called trane the tonne £4" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£4" ;
+            hector:valueInPence 960.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/tun> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Woll" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "trane" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 795 (transcribed by Stuart Jenks): 'Woll oyle called trane the tonne' £4" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/oil#rate-1558-inward-755> a hector:Rate ;
+    rdfs:label "1558 inward: Oyle voc’ Cyvill oyle the tonne £8" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£8" ;
+            hector:valueInPence 1920.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/tun> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Cyvill" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 755 (transcribed by Stuart Jenks): 'Oyle voc’ Cyvill oyle the tonne' £8" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/oil#rate-1558-inward-756> a hector:Rate ;
+    rdfs:label "1558 inward: Oyle de bay the barrell cont’ C lb. at 100 [lb.] 26s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "26s 8d" ;
+            hector:valueInPence 320.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/barrel> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "bay" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 756 (transcribed by Stuart Jenks): 'Oyle de bay the barrell cont’ C lb. at 100 [lb.]' 26s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/oil#rate-1558-inward-779> a hector:Rate ;
+    rdfs:label "1558 inward: Oleum lentissimum the pound 2s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "2s" ;
+            hector:valueInPence 24.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "lentissimum" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 779 (transcribed by Stuart Jenks): 'Oleum lentissimum the pound' 2s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/oil#rate-1558-inward-780> a hector:Rate ;
+    rdfs:label "1558 inward: Oleum massis the pound 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "massis" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 780 (transcribed by Stuart Jenks): 'Oleum massis the pound' 10s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/oil#rate-1558-inward-781> a hector:Rate ;
+    rdfs:label "1558 inward: Oleum chariosis the pound 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "chariosis" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 781 (transcribed by Stuart Jenks): 'Oleum chariosis the pound' 10s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/oil#rate-1558-inward-782> a hector:Rate ;
+    rdfs:label "1558 inward: Oleum camomoia the pound 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "camomoia" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 782 (transcribed by Stuart Jenks): 'Oleum camomoia the pound' 10s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/oil#rate-1558-inward-786> a hector:Rate ;
+    rdfs:label "1558 inward: Oleum spice the pound 6d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6d" ;
+            hector:valueInPence 6.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "spice" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 786 (transcribed by Stuart Jenks): 'Oleum spice the pound' 6d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/oil#rate-1558-inward-787> a hector:Rate ;
+    rdfs:label "1558 inward: Oleum petoleum the pound 6d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6d" ;
+            hector:valueInPence 6.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "petoleum" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 787 (transcribed by Stuart Jenks): 'Oleum petoleum the pound' 6d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/oil#rate-1558-inward-790> a hector:Rate ;
+    rdfs:label "1558 inward: Oyle voc’ trane oyle the tonne £5" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£5" ;
+            hector:valueInPence 1200.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/tun> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "trane" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 790 (transcribed by Stuart Jenks): 'Oyle voc’ trane oyle the tonne' £5" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/oil#rate-1558-inward-791> a hector:Rate ;
     rdfs:label "1558 inward: Oyle voc’ sallet oyle the gallon 20d" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -218,7 +462,42 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/gallon> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "sallet" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 791 (transcribed by Stuart Jenks): 'Oyle voc’ sallet oyle the gallon' 20d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/oil#rate-1558-inward-792> a hector:Rate ;
+    rdfs:label "1558 inward: Oyle olive the barrell cont’ 17 gallons poiz 214 lb 30s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "30s" ;
+            hector:valueInPence 360.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/barrel> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "olive" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 792 (transcribed by Stuart Jenks): 'Oyle olive the barrell cont’ 17 gallons poiz 214 lb' 30s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/oil#rate-1558-inward-793> a hector:Rate ;
+    rdfs:label "1558 inward: Oyle de spyke the pound 2s 6d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "2s 6d" ;
+            hector:valueInPence 30.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "spyke" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 793 (transcribed by Stuart Jenks): 'Oyle de spyke the pound' 2s 6d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
@@ -240,11 +519,17 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/hector/unit/last> a crm:E58_Measurement_Unit ;
     rdfs:label "last" .
 
+<https://w3id.org/mlca/glossary/oil> a crm:E55_Type ;
+    rdfs:label "oil (London Customs Accounts glossary)" .
+
+<https://w3id.org/hector/unit/barrel> a crm:E58_Measurement_Unit ;
+    rdfs:label "barrel" .
+
 <https://w3id.org/hector/unit/tun> a crm:E58_Measurement_Unit ;
     rdfs:label "tun" .
 
-<https://w3id.org/mlca/glossary/oil> a crm:E55_Type ;
-    rdfs:label "oil (London Customs Accounts glossary)" .
+<https://w3id.org/hector/unit/pound> a crm:E58_Measurement_Unit ;
+    rdfs:label "pound" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

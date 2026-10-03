@@ -8,6 +8,254 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/latten#rate-1558-inward-648">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Latten basens the C lb. cont’ 112 lb. 50s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_latten_cb28f0fc5c44e2b58afeb65d66cdb6a790a93305e17c4c6581d8622fc56c087b365"/>
+    <hector:perQuantity rdf:nodeID="commodity_latten_cb148ab670c330cf7e7d114310da8bf3011e8069cacf36eb620392a195ca59cc35e"/>
+    <hector:qualifier rdf:nodeID="commodity_latten_cbdddc8138aae65783986d876b1624b386b921dc2ef009a717f8f79e43b4ef92ee"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 648 (transcribed by Stuart Jenks): 'Latten basens the C lb. cont’ 112 lb.' 50s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/latten#rate-1545-inward-441">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Latten wyer the 100 pounde 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_latten_cb355316e82b1f6a22734d1ca69f70d3e416f44cb7137b6c734df77c53e34291447"/>
+    <hector:perQuantity rdf:nodeID="commodity_latten_cb20b0069a34471141e175712baccd8f3d58cbc05ff64a8212ae73f68732e9084aa"/>
+    <hector:qualifier rdf:nodeID="commodity_latten_cb21fa0673c23dafa98e66123b5e17f80f5e97536d3f5ccfcc57d93506c39b2791b"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 441 (transcribed by Stuart Jenks): 'Latten wyer the 100 pounde' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/latten#rate-1545-inward-86">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Blacke latten rolles the 100 pound 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_latten_cb32864f1d411752dbcf74d5ae6024b34c3c7beea3f74d08ad08f68964e217fed20"/>
+    <hector:perQuantity rdf:nodeID="commodity_latten_cb16a592b74a060fe66f40604eb2147c06facb1354e4ea2c1febbac8d60393ce49c"/>
+    <hector:qualifier rdf:nodeID="commodity_latten_cb2cb656d2c256f82b5ff3002f6c3fd59d9c1b135a41e904722f6e248b46a6b0755"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 86 (transcribed by Stuart Jenks): 'Blacke latten rolles the 100 pound' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/latten#rate-1507-none-22">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Blake latten rowles the C 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_latten_cb39211f4d3a57875805603dc36eebeab4e33affa2be3f72e294c91b186557bfdd2"/>
+    <hector:perQuantity rdf:nodeID="commodity_latten_cb1b1c64a123c015496908fb65c5672d595d63957ebd66582672ec79b22da2d9dc5"/>
+    <hector:qualifier rdf:nodeID="commodity_latten_cb206742205671ff362c12a1562d61d7e1684d2c265cc90620e339008395a046a07"/>
+    <hector:sourceText>Book of Rates 1507, line 22 (transcribed by Stuart Jenks): 'Blake latten rowles the C' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb259bdc07e70e8ed19eb29b822888e927e11d86bce5a5b51045c09b344a0a50079">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>23s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">280</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb1d288322eeee7130836dc2de5ac395830f1b0784e8b6afa8b6e2127124b23296e">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>vii</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/latten#rate-1558-inward-344">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Cesternes of latten for cupperdes the lb 6d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_latten_cb25e6bb336e8b0a504d1a0499dc4e212f1952efbc7baec540a6aa2c5cdfb68aac6"/>
+    <hector:perQuantity rdf:nodeID="commodity_latten_cb217409c927e38003697625ebf65f42659860644980539f94d99a6510a8c88b426"/>
+    <hector:qualifier rdf:nodeID="commodity_latten_cb1bc478e6f2b3b1dc21e2b898b030c1b1960bc56e04a8fe522d944eedbee5d4ebd"/>
+    <hector:qualifier rdf:nodeID="commodity_latten_cb1d5e6b961f395f6efc457c8c640d30b16465636fe799d4320dfde4f4332855df0"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 344 (transcribed by Stuart Jenks): 'Cesternes of latten for cupperdes the lb' 6d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb2006cc78126d4cb7a303ace82435d89d6021a1ea6a5e7d61859967e481252ea3c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>black</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300130920"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb293a379d1daa1c0ea303869eca5e7abaa8503e67f77b75a3371912d7d20226b68">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>candelstickes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/latten#rate-1545-inward-443">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Latten candelstickes of the great sort the dossen 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_latten_cb2efeff0130221f0bca3be2ca0679086cd2cb19fbfb64175cddf1dcb5a7e14d7e3"/>
+    <hector:perQuantity rdf:nodeID="commodity_latten_cb1859757fd74d80eeb933dde8a2cdb92adfc018ccb7976ee90b0fc9ecbaa116845"/>
+    <hector:qualifier rdf:nodeID="commodity_latten_cb2103339e25813b41d3b3c4b6d05357fc30970e85128d58740ff6e96ecf08f0c57"/>
+    <hector:qualifier rdf:nodeID="commodity_latten_cb293a379d1daa1c0ea303869eca5e7abaa8503e67f77b75a3371912d7d20226b68"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 443 (transcribed by Stuart Jenks): 'Latten candelstickes of the great sort the dossen' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/latten#rate-1545-inward-164">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Counters of laten the pound 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_latten_cb2df4c6f269a55a28325fbe8720a9b7c9e8eb8d129e7dc973e47ce6ecf8b42f6d3"/>
+    <hector:perQuantity rdf:nodeID="commodity_latten_cb22468d0ca317e5f3da78e8ffff777f07a631de4c36437a56665fe87c0808ed03c"/>
+    <hector:qualifier rdf:nodeID="commodity_latten_cb16a34d592805a12ad61226fe68ca55f4333e8c4f314e82f3e1e6727eddd7fef24"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 164 (transcribed by Stuart Jenks): 'Counters of laten the pound' 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb32864f1d411752dbcf74d5ae6024b34c3c7beea3f74d08ad08f68964e217fed20">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/latten#rate-1507-none-159">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Lattyn plate the C wayte 33s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_latten_cb2cbcab7c178f3ce17b5fd31e5142292a4b432826365c52e33b1946078bac31336"/>
+    <hector:perQuantity rdf:nodeID="commodity_latten_cb2817aa617c0104a311fcceca297dd94c8cda6b659fc7c1b399410d5beef6878c1"/>
+    <hector:qualifier rdf:nodeID="commodity_latten_cb1529fe23e210f8799ff1181f07835b7093eec45f8f96b793c465d93356f2421e2"/>
+    <hector:sourceText>Book of Rates 1507, line 159 (transcribed by Stuart Jenks): 'Lattyn plate the C wayte' 33s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/latten#rate-1558-inward-134">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Blacke latten rolles the C lb. cont’ 112 lb. 30s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_latten_cb20aaac48bd81cd37480bc31ee05055df5d5f9b157db7cb52353d7340146be7c16"/>
+    <hector:perQuantity rdf:nodeID="commodity_latten_cb22cb7e85b899e5f400d509ff736d3e7b79091a52867d993a7aca3917cb37958ed"/>
+    <hector:qualifier rdf:nodeID="commodity_latten_cb2006cc78126d4cb7a303ace82435d89d6021a1ea6a5e7d61859967e481252ea3c"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 134 (transcribed by Stuart Jenks): 'Blacke latten rolles the C lb. cont’ 112 lb.' 30s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb25e6bb336e8b0a504d1a0499dc4e212f1952efbc7baec540a6aa2c5cdfb68aac6">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/latten#rate-1507-none-156">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Lattyn the C wayte 23s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_latten_cb259bdc07e70e8ed19eb29b822888e927e11d86bce5a5b51045c09b344a0a50079"/>
+    <hector:perQuantity rdf:nodeID="commodity_latten_cb25a734b7727b14c64c43780a3f150325792d986363b434d746627b56abe811809"/>
+    <hector:sourceText>Book of Rates 1507, line 156 (transcribed by Stuart Jenks): 'Lattyn the C wayte' 23s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb22cb7e85b899e5f400d509ff736d3e7b79091a52867d993a7aca3917cb37958ed">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb1c57904a87d9c5ecd783d1ffa8fa8ee1a256f93d69b762d61d76e6841c1a56e35">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb2302a967e7f55bce23c6d03dfa1159910bd69da520329e106c5fd0a6c3ce35bad">
+    <crm:P190_has_symbolic_content>lattene</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>latenə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb2cbcab7c178f3ce17b5fd31e5142292a4b432826365c52e33b1946078bac31336">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>33s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">400</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb2df4c6f269a55a28325fbe8720a9b7c9e8eb8d129e7dc973e47ce6ecf8b42f6d3">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb307c0fa0c51df68107b359928873d25c24268188507fbbfcf96a39377f5330521">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£6</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1440</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/hundred">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>hundred</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb27e0022a87be271beeea11c5dd5611959c34aeb14e41d7d42fd92e20d934685ea">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>3s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb2817aa617c0104a311fcceca297dd94c8cda6b659fc7c1b399410d5beef6878c1">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundredweight"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb2869ef61dd27cfe787724684f0152a9de312f49669cd79ed954704f794355c505">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb2c3c41d94299d8b8db09c54ccb10b036effca540358b96e0c585346f4919e64c6">
+    <crm:P190_has_symbolic_content>latene</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>latenə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb30575ed3dd69f2bc1a84340d97eca43a259b69493bc7ddeee0d69538f38f24237">
+    <crm:P190_has_symbolic_content>latten</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>laten</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb1cb2df90dc4b4b9f779b1f3797979c728ace1c95b013675ded58c20bfb353c456">
+    <crm:P190_has_symbolic_content>laton</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>laton</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb1d5e6b961f395f6efc457c8c640d30b16465636fe799d4320dfde4f4332855df0">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>cupperdes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb16c1c30b75837549076561ea4e2d9d887f4f171df1e2146c44998e715d4194aa8">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb26121432995e93e7d656f221d2bb9f992bc99b0a20b1c635c44014d1970e43d4b">
+    <crm:P190_has_symbolic_content>latton</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>laton</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb3aca660d1a8d70d71cc6a2d5072abad00807f2f94062fa0e36ab94d68e4edd0b9">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/latten">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
     <crm:P1_is_identified_by rdf:nodeID="commodity_latten_cb12cf9866a9c3d79c1792c512de733e8dfc13c53917a33227e753d904743a97e23"/>
@@ -29,71 +277,127 @@
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">447</hector:attestationCount>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/latten#rate-1507-none-156"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/latten#rate-1507-none-157"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/latten#rate-1507-none-158"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/latten#rate-1507-none-159"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/latten#rate-1507-none-22"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/latten#rate-1545-inward-164"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/latten#rate-1545-inward-439"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/latten#rate-1545-inward-440"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/latten#rate-1545-inward-441"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/latten#rate-1545-inward-442"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/latten#rate-1545-inward-443"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/latten#rate-1545-inward-86"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/latten#rate-1558-inward-134"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/latten#rate-1558-inward-238"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/latten#rate-1558-inward-344"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/latten#rate-1558-inward-646"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/latten#rate-1558-inward-647"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/latten#rate-1558-inward-648"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/latten#rate-1558-inward-683"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+  <rdf:Description rdf:nodeID="commodity_latten_cb21fa0673c23dafa98e66123b5e17f80f5e97536d3f5ccfcc57d93506c39b2791b">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
+    <rdfs:label>wyer</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_latten_cb12e52fe7b2173a8807e863d747912c83e7153369c16036e01037ad6b2ee036df3">
-    <crm:P190_has_symbolic_content>latyn</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>latin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/latten#rate-1558-inward-646">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Latten shaven the barrell cont’ 6 C [lb.] at 112 lb £12</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_latten_cb204ea680053dd40636aaa6c1f914b9080186cc2412e6b1f65906bd6cee19c910c"/>
+    <hector:perQuantity rdf:nodeID="commodity_latten_cb1c57904a87d9c5ecd783d1ffa8fa8ee1a256f93d69b762d61d76e6841c1a56e35"/>
+    <hector:qualifier rdf:nodeID="commodity_latten_cb1085a57cfdad1a2a0b57495b5c1a882a54d0b2ee9eb3a9c71c99fe4d21b373365"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 646 (transcribed by Stuart Jenks): 'Latten shaven the barrell cont’ 6 C [lb.] at 112 lb' £12</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_latten_cb259bdc07e70e8ed19eb29b822888e927e11d86bce5a5b51045c09b344a0a50079">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>23s 4d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">280</hector:valueInPence>
+  <rdf:Description rdf:nodeID="commodity_latten_cb1979c15995e0d0f118ed7635467f1792f0cdca66719c6cec6fe081ebc154ac036">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_latten_cb18753550cd972f867798cba12d92becda00d366a8af4d73c0d8abb97d9f77107b">
-    <crm:P190_has_symbolic_content>laten</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>laten</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1509</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1510</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/latten#rate-1545-inward-442">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Latten candylsteckes of the smal sorte [b.vii] the dossen 2s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_latten_cb2b6ba5513971d459f00e8ce8199e130f55e2dc2ea4cc37aede840cf7b4e31eb28"/>
+    <hector:perQuantity rdf:nodeID="commodity_latten_cb1979c15995e0d0f118ed7635467f1792f0cdca66719c6cec6fe081ebc154ac036"/>
+    <hector:qualifier rdf:nodeID="commodity_latten_cb1cddc28d023e821aa0b57a3b2e2f2776dac5b7674e45a0f27bac4830d142c31c3"/>
+    <hector:qualifier rdf:nodeID="commodity_latten_cb1d288322eeee7130836dc2de5ac395830f1b0784e8b6afa8b6e2127124b23296e"/>
+    <hector:qualifier rdf:nodeID="commodity_latten_cb2852d0d67b4f0f9e552683b733136e5b1f8ed3b3d78139d5a7fcb854206fa232e"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 442 (transcribed by Stuart Jenks): 'Latten candylsteckes of the smal sorte [b.vii] the dossen' 2s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_latten_cb30575ed3dd69f2bc1a84340d97eca43a259b69493bc7ddeee0d69538f38f24237">
-    <crm:P190_has_symbolic_content>latten</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>laten</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/latten#rate-1558-inward-647">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Latten wier the C lb. cont’ 112 lb 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_latten_cb365c40fa97444f84b57508259d8e56682e5341563e84b3a2c911494c73b756e86"/>
+    <hector:perQuantity rdf:nodeID="commodity_latten_cb16c1c30b75837549076561ea4e2d9d887f4f171df1e2146c44998e715d4194aa8"/>
+    <hector:qualifier rdf:nodeID="commodity_latten_cb1ecf31b410115d1b1702b9129b9d7247b7f8ba69438eafe757e4ce89c9fa2c22f"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 647 (transcribed by Stuart Jenks): 'Latten wier the C lb. cont’ 112 lb' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_latten_cb2a60a1bb43169f516d5d985e14a5b815b24bb80cbbed1fc553d0e898984a758ea">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/latten#rate-1545-inward-439">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Latten shaven the barrell £6</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_latten_cb36d07cc1e880d86b59f8fd5ac9d1b4a8401e41ea4dce91601f6b5ee01e99bf042"/>
+    <hector:perQuantity rdf:nodeID="commodity_latten_cb22729365961e4c6e36c3a3acc7112ca90b9af3e36b511eeed8db45b6890613902"/>
+    <hector:qualifier rdf:nodeID="commodity_latten_cb147e661dbb5b2ca59cc577c0a5d35bace798aab93db7ba153010e78cede8ca87e"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 439 (transcribed by Stuart Jenks): 'Latten shaven the barrell' £6</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb2852d0d67b4f0f9e552683b733136e5b1f8ed3b3d78139d5a7fcb854206fa232e">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>small</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073768"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/latten#rate-1558-inward-238">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Counters of latten the pounde 10d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_latten_cb365cff5685ca6c532c1104258e8e415b06842cce6e233a1b87a3fc500ea8c8ef1"/>
+    <hector:perQuantity rdf:nodeID="commodity_latten_cb2869ef61dd27cfe787724684f0152a9de312f49669cd79ed954704f794355c505"/>
+    <hector:qualifier rdf:nodeID="commodity_latten_cb13bdd620b3295a81dce97e0db78ef60bd6753d03ed39962252b1f175fc1eedffd"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 238 (transcribed by Stuart Jenks): 'Counters of latten the pounde' 10d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb36d07cc1e880d86b59f8fd5ac9d1b4a8401e41ea4dce91601f6b5ee01e99bf042">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
     <hector:lsd>£6</hector:lsd>
     <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1440</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_latten_cb12cf9866a9c3d79c1792c512de733e8dfc13c53917a33227e753d904743a97e23">
-    <crm:P190_has_symbolic_content>latone</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>latonə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_latten_cb365c40fa97444f84b57508259d8e56682e5341563e84b3a2c911494c73b756e86">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300130920">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
+    <rdfs:label>black (color)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_latten_cb29a30bf5e47cd2e1aa296add80f2f2f576f79129c297e1f90045520bf26a2616f">
-    <crm:P190_has_symbolic_content>lattone</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>latonə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_latten_cb39211f4d3a57875805603dc36eebeab4e33affa2be3f72e294c91b186557bfdd2">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/latten">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>latten (London Customs Accounts glossary)</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_latten_cb148ab670c330cf7e7d114310da8bf3011e8069cacf36eb620392a195ca59cc35e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb2915702092c2e42e4020ef98bcbd392ec1f64a3c296cb9cb01f053ead286c6d72">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb22729365961e4c6e36c3a3acc7112ca90b9af3e36b511eeed8db45b6890613902">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_latten_cb196f7356c9f1c3718089d40af296ce5748d6ad19f42ffcccee1ade29db41eda44">
     <crm:P190_has_symbolic_content>latyne</crm:P190_has_symbolic_content>
@@ -103,9 +407,212 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/latten#rate-1558-inward-683">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Laten shoyng hornes the dosen 3s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_latten_cb27e0022a87be271beeea11c5dd5611959c34aeb14e41d7d42fd92e20d934685ea"/>
+    <hector:perQuantity rdf:nodeID="commodity_latten_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_latten_cb15d3f94172747118aa9664d239b29f718d6f05375c7f36a6aa651d72b2e04297c"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 683 (transcribed by Stuart Jenks): 'Laten shoyng hornes the dosen' 3s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb13bdd620b3295a81dce97e0db78ef60bd6753d03ed39962252b1f175fc1eedffd">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
+    <rdfs:label>Counters</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb12e52fe7b2173a8807e863d747912c83e7153369c16036e01037ad6b2ee036df3">
+    <crm:P190_has_symbolic_content>latyn</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>latin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb20b0069a34471141e175712baccd8f3d58cbc05ff64a8212ae73f68732e9084aa">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb2efeff0130221f0bca3be2ca0679086cd2cb19fbfb64175cddf1dcb5a7e14d7e3">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb16a592b74a060fe66f40604eb2147c06facb1354e4ea2c1febbac8d60393ce49c">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb113ada9550736b155ab7b78342ca430f9525a6629f22a51ce569b3480475247ce">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>basons</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb365cff5685ca6c532c1104258e8e415b06842cce6e233a1b87a3fc500ea8c8ef1">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb20aaac48bd81cd37480bc31ee05055df5d5f9b157db7cb52353d7340146be7c16">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>30s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300073768">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>small</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/latten#rate-1507-none-157">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Lattyn the barrelle £6</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_latten_cb307c0fa0c51df68107b359928873d25c24268188507fbbfcf96a39377f5330521"/>
+    <hector:perQuantity rdf:nodeID="commodity_latten_cb2915702092c2e42e4020ef98bcbd392ec1f64a3c296cb9cb01f053ead286c6d72"/>
+    <hector:sourceText>Book of Rates 1507, line 157 (transcribed by Stuart Jenks): 'Lattyn the barrelle' £6</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb1085a57cfdad1a2a0b57495b5c1a882a54d0b2ee9eb3a9c71c99fe4d21b373365">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>shaven</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb28f0fc5c44e2b58afeb65d66cdb6a790a93305e17c4c6581d8622fc56c087b365">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>50s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">600</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/latten#rate-1545-inward-440">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Latten basons the hundreth pounde 33s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_latten_cb1fd0dbcfb82fc405011651a14107242ae3a84ed78e329db433d784abc1fce79ce"/>
+    <hector:perQuantity rdf:nodeID="commodity_latten_cb21f84d5f8254f9ce595326864c7181cad87c5c7e974d11682ab01f5a4d52a8241"/>
+    <hector:qualifier rdf:nodeID="commodity_latten_cb113ada9550736b155ab7b78342ca430f9525a6629f22a51ce569b3480475247ce"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 440 (transcribed by Stuart Jenks): 'Latten basons the hundreth pounde' 33s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb15d3f94172747118aa9664d239b29f718d6f05375c7f36a6aa651d72b2e04297c">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>shoyng hornes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300198675">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>latten</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb18753550cd972f867798cba12d92becda00d366a8af4d73c0d8abb97d9f77107b">
+    <crm:P190_has_symbolic_content>laten</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>laten</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1509</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1510</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/barrel">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>barrel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb1bce6ca553800af55784fdcb9cb97d4e5bd83462970e67ca2b97a95a8a62e0db8">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundredweight"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/latten#rate-1507-none-158">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Lattyn wyer the C wayte 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_latten_cb3aca660d1a8d70d71cc6a2d5072abad00807f2f94062fa0e36ab94d68e4edd0b9"/>
+    <hector:perQuantity rdf:nodeID="commodity_latten_cb1bce6ca553800af55784fdcb9cb97d4e5bd83462970e67ca2b97a95a8a62e0db8"/>
+    <hector:qualifier rdf:nodeID="commodity_latten_cb2087d675217eadbd2bfbf245aaf2243c6bb069c1eb7f376bf3e67a96942e8dde0"/>
+    <hector:sourceText>Book of Rates 1507, line 158 (transcribed by Stuart Jenks): 'Lattyn wyer the C wayte' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb1859757fd74d80eeb933dde8a2cdb92adfc018ccb7976ee90b0fc9ecbaa116845">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb1ecf31b410115d1b1702b9129b9d7247b7f8ba69438eafe757e4ce89c9fa2c22f">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>wier</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb355316e82b1f6a22734d1ca69f70d3e416f44cb7137b6c734df77c53e34291447">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb10254daa17657a81fede0c5ff10783cf698b2c38cd775b262f91695fe4eacc58c">
+    <crm:P190_has_symbolic_content>Copper-zinc-tin alloy, sometimes also including lead, made by melting ground calamine ore with charcoal and copper; used in the Medieval period for weights and utensils. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb217409c927e38003697625ebf65f42659860644980539f94d99a6510a8c88b426">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb2087d675217eadbd2bfbf245aaf2243c6bb069c1eb7f376bf3e67a96942e8dde0">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>wyer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb29a30bf5e47cd2e1aa296add80f2f2f576f79129c297e1f90045520bf26a2616f">
+    <crm:P190_has_symbolic_content>lattone</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>latonə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb147e661dbb5b2ca59cc577c0a5d35bace798aab93db7ba153010e78cede8ca87e">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>shaven</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb1529fe23e210f8799ff1181f07835b7093eec45f8f96b793c465d93356f2421e2">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>plate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb12cf9866a9c3d79c1792c512de733e8dfc13c53917a33227e753d904743a97e23">
+    <crm:P190_has_symbolic_content>latone</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>latonə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb2b6ba5513971d459f00e8ce8199e130f55e2dc2ea4cc37aede840cf7b4e31eb28">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb25a734b7727b14c64c43780a3f150325792d986363b434d746627b56abe811809">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundredweight"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb2103339e25813b41d3b3c4b6d05357fc30970e85128d58740ff6e96ecf08f0c57">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>large</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300073756"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_latten_cb133ef193cd4d742be8cee46e0e3d3efe29753301c74e23a59bfc8899ceac35d89">
     <crm:P190_has_symbolic_content>lattyn</crm:P190_has_symbolic_content>
@@ -115,85 +622,84 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/barrel">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>barrel</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300198675">
+  <rdf:Description rdf:nodeID="commodity_latten_cb206742205671ff362c12a1562d61d7e1684d2c265cc90620e339008395a046a07">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>latten</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/latten#rate-1507-none-156">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1507: Lattyn the C wayte 23s 4d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_latten_cb259bdc07e70e8ed19eb29b822888e927e11d86bce5a5b51045c09b344a0a50079"/>
-    <hector:perQuantity rdf:nodeID="commodity_latten_cb25a734b7727b14c64c43780a3f150325792d986363b434d746627b56abe811809"/>
-    <hector:sourceText>Book of Rates 1507, line 156 (transcribed by Stuart Jenks): 'Lattyn the C wayte' 23s 4d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_latten_cb10254daa17657a81fede0c5ff10783cf698b2c38cd775b262f91695fe4eacc58c">
-    <crm:P190_has_symbolic_content>Copper-zinc-tin alloy, sometimes also including lead, made by melting ground calamine ore with charcoal and copper; used in the Medieval period for weights and utensils. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_latten_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/barrel"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <rdfs:label>black</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300130920"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
     <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_latten_cb26121432995e93e7d656f221d2bb9f992bc99b0a20b1c635c44014d1970e43d4b">
-    <crm:P190_has_symbolic_content>latton</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>laton</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_latten_cb204ea680053dd40636aaa6c1f914b9080186cc2412e6b1f65906bd6cee19c910c">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>£12</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2880</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_latten_cb2302a967e7f55bce23c6d03dfa1159910bd69da520329e106c5fd0a6c3ce35bad">
-    <crm:P190_has_symbolic_content>lattene</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_latten_cb16a34d592805a12ad61226fe68ca55f4333e8c4f314e82f3e1e6727eddd7fef24">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>latenə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Counters</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_latten_cb1cb2df90dc4b4b9f779b1f3797979c728ace1c95b013675ded58c20bfb353c456">
-    <crm:P190_has_symbolic_content>laton</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>laton</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/latten#rate-1507-none-157">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1507: Lattyn the barrelle £6</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_latten_cb2a60a1bb43169f516d5d985e14a5b815b24bb80cbbed1fc553d0e898984a758ea"/>
-    <hector:perQuantity rdf:nodeID="commodity_latten_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
-    <hector:sourceText>Book of Rates 1507, line 157 (transcribed by Stuart Jenks): 'Lattyn the barrelle' £6</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300073756">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>large</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb2cb656d2c256f82b5ff3002f6c3fd59d9c1b135a41e904722f6e248b46a6b0755">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>black</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300130920"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pound">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pound</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/unit/hundredweight">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
     <rdfs:label>hundredweight</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_latten_cb2c3c41d94299d8b8db09c54ccb10b036effca540358b96e0c585346f4919e64c6">
-    <crm:P190_has_symbolic_content>latene</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>latenə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_latten_cb25a734b7727b14c64c43780a3f150325792d986363b434d746627b56abe811809">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundredweight"/>
+  <rdf:Description rdf:nodeID="commodity_latten_cb1b1c64a123c015496908fb65c5672d595d63957ebd66582672ec79b22da2d9dc5">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb22468d0ca317e5f3da78e8ffff777f07a631de4c36437a56665fe87c0808ed03c">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pound"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb1cddc28d023e821aa0b57a3b2e2f2776dac5b7674e45a0f27bac4830d142c31c3">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>candylsteckes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb21f84d5f8254f9ce595326864c7181cad87c5c7e974d11682ab01f5a4d52a8241">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb1bc478e6f2b3b1dc21e2b898b030c1b1960bc56e04a8fe522d944eedbee5d4ebd">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Cesternes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cb1fd0dbcfb82fc405011651a14107242ae3a84ed78e329db433d784abc1fce79ce">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>33s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">400</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_latten_cbdddc8138aae65783986d876b1624b386b921dc2ef009a717f8f79e43b4ef92ee">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>basan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/latten">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>latten (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

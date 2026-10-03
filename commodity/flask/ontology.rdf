@@ -10,25 +10,51 @@
 >
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/flask">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_flask_cb1470d042e0d2eff25bfc1724ef8e3d32038bc0445af7d5ecbd733ebd058b6e623"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_flask_cb2607f69e23541799eaaaca3fa2f0b941b438334502628c18c8754e0b2e607d2be"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_flask_cb7c9d99d7e258902d780db26565c7ac024c6748188b6852c44a5d37e8cbd4fe9a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_flask_cb2228d54b896e5e07d10bec5a99d705d4c71a211cdb819bc7972701fd60b516a17"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_flask_cb2bf882876bdf31ee62db4b47954f3f26ec36b468b40f6f8372f25b34ac9a1cd18"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_flask_cb17a15a0a45d6584990005d8c2cc022da98e763fd3ff932e6676e6617cb8c20cb2"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>flask</rdfs:label>
     <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/flask"/>
     <skos:related rdf:resource="https://w3id.org/hector/commodity/flaskete"/>
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300045671"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/flask#rate-1558-inward-458"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/flask#rate-1558-inward-459"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/flask">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>flask (London Customs Accounts glossary)</rdfs:label>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/flask#rate-1558-inward-458">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Flaskes for gonne powder covered with lether the dosen 3s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_flask_cb2c1809c6b2e7ddfe645d08572a75d5ef11136275f75de1419cf0cec4149722e48"/>
+    <hector:perQuantity rdf:nodeID="commodity_flask_cb1193086a652e588cf06e5cf5db7ba818aa814721b80cdaab9003833d2d33fe2ba"/>
+    <hector:qualifier rdf:nodeID="commodity_flask_cb18f35faf499d75f01ad23a3cc093541bffb88cd3410b27159888aff6f241fb744"/>
+    <hector:qualifier rdf:nodeID="commodity_flask_cb1ae44d475b2935a36a82d41a7047248f5be378030e5d9710d3c00f95735dc83a6"/>
+    <hector:qualifier rdf:nodeID="commodity_flask_cb1cf76037ee427356c8ffde7fae6123a1c1340d6690d192315d2d139062fa3ae7f"/>
+    <hector:qualifier rdf:nodeID="commodity_flask_cb21e6c0a30a4e58c45310c9834d029b03ea3da49ee4da6c974ed1f7ab7eaa75493"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 458 (transcribed by Stuart Jenks): 'Flaskes for gonne powder covered with lether the dosen' 3s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_flask_cb1cdf89e6582d3560b10a5b849c35b262a83a7d9f534be869b384f10326b362a37">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>26s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_flask_cb2607f69e23541799eaaaca3fa2f0b941b438334502628c18c8754e0b2e607d2be">
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/flask">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>flask (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_flask_cb21e6c0a30a4e58c45310c9834d029b03ea3da49ee4da6c974ed1f7ab7eaa75493">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>lether</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_flask_cb2bf882876bdf31ee62db4b47954f3f26ec36b468b40f6f8372f25b34ac9a1cd18">
     <crm:P190_has_symbolic_content>flask</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -37,15 +63,12 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/flaskete">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>flaskete</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_flask_cb1193086a652e588cf06e5cf5db7ba818aa814721b80cdaab9003833d2d33fe2ba">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_flask_cb1470d042e0d2eff25bfc1724ef8e3d32038bc0445af7d5ecbd733ebd058b6e623">
+  <rdf:Description rdf:nodeID="commodity_flask_cb2228d54b896e5e07d10bec5a99d705d4c71a211cdb819bc7972701fd60b516a17">
     <crm:P190_has_symbolic_content>flaskes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -53,17 +76,81 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_flask_cb7c9d99d7e258902d780db26565c7ac024c6748188b6852c44a5d37e8cbd4fe9a">
+  <rdf:Description rdf:nodeID="commodity_flask_cb17a15a0a45d6584990005d8c2cc022da98e763fd3ff932e6676e6617cb8c20cb2">
     <crm:P190_has_symbolic_content>Spheroidal, bulbous shape, pear-shaped, or flattened vessels with a narrow neck and a small mouth, usually of glass, ceramic, metal, animal skin, wicker, or another material and used for various purposes. Also used specifically for distinctive narrow-necked vessels, usually of glass, having a rounded body, used in laboratories. [Source: Getty AAT]</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_flask_cb18f35faf499d75f01ad23a3cc093541bffb88cd3410b27159888aff6f241fb744">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>covered</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_flask_cb190db1bda41533dda4bdb35c6a1659648a14850c206f6cd8bc845557d252727be">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>velvet</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300133711"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_flask_cbf2524193f369eda02bcc81c06462fbd1023dce7d61e49164ff3047e381b82f25">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>covered</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/flask#rate-1558-inward-459">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Flaskes covered with vellet the dosen 26s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_flask_cb1cdf89e6582d3560b10a5b849c35b262a83a7d9f534be869b384f10326b362a37"/>
+    <hector:perQuantity rdf:nodeID="commodity_flask_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_flask_cb190db1bda41533dda4bdb35c6a1659648a14850c206f6cd8bc845557d252727be"/>
+    <hector:qualifier rdf:nodeID="commodity_flask_cbf2524193f369eda02bcc81c06462fbd1023dce7d61e49164ff3047e381b82f25"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 459 (transcribed by Stuart Jenks): 'Flaskes covered with vellet the dosen' 26s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_flask_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_flask_cb1cf76037ee427356c8ffde7fae6123a1c1340d6690d192315d2d139062fa3ae7f">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gonne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300045671">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>flasks (bottles)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_flask_cb1ae44d475b2935a36a82d41a7047248f5be378030e5d9710d3c00f95735dc83a6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>powdered</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/flaskete">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>flaskete</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_flask_cb2c1809c6b2e7ddfe645d08572a75d5ef11136275f75de1419cf0cec4149722e48">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>3s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>attested variant</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300045671">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300133711">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>flasks (bottles)</rdfs:label>
+    <rdfs:label>velvet (fabric weave)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

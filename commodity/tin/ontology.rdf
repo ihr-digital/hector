@@ -8,43 +8,86 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_tin_cb18494a12bbab730b95855447fdc7b25262d91ca183e6e689bbd733f21d47bef8b">
-    <crm:P190_has_symbolic_content>tynne</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_tin_cb2259c6be44907f426d8af2589c82206ae9afb25d69ac6a91d95e4efddbd91c79e">
+    <crm:P190_has_symbolic_content>tynn</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tinə</hector:phoneticKey>
+    <hector:phoneticKey>tin</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tin_cb15a07bff8f8ecf14455b64469f5f88606e53054574167ae1e9f00bf0e98eae9fc">
-    <crm:P190_has_symbolic_content>stamin</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_tin_cb1c123f49121d35b6fc8e65865f62c5c36d5ddd13ed6ba513e9ae18178289f1eec">
+    <crm:P190_has_symbolic_content>stanneum</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>stamin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1508</hector:validThrough>
+    <hector:phoneticKey>staneum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb148ab670c330cf7e7d114310da8bf3011e8069cacf36eb620392a195ca59cc35e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb1a32c58a74f0f93f2cd259d38e8024ee6f5f8c4250c9c5095c9871bbe87299abd">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>glass</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300010797"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tin#rate-1545-inward-724">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Tynne glasse the hundreth 40s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_tin_cb365b88c4033a1abd7d8ccf3f14749e1f45fbb9ea0a0d2ba3d1949b2dd9b99ba8f"/>
+    <hector:perQuantity rdf:nodeID="commodity_tin_cb1cfb5aeb8007e28c2ebc115122c7b8f804554d040ba4655a53c6e20ac27886fed"/>
+    <hector:qualifier rdf:nodeID="commodity_tin_cb1b360fee43308430553da4d5b0735af3e208d2ffa6a46b16391c2e96c8e6fb618"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 724 (transcribed by Stuart Jenks): 'Tynne glasse the hundreth' 40s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb1867341118ba55940b8d757076c30d0a4c3a4a81b26bcc66552192d0297c0fc7d">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Corsses</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb2c9e3e306efed2a65a198076c266bdd7cbf19343e05d9d232ba4b2e291865832a">
+    <crm:P190_has_symbolic_content>tin</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb2a680d346e62451bca0933fc40734b3d357978cc6a9307365f929ae01c36e27b0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundredweight"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/tin">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb15a07bff8f8ecf14455b64469f5f88606e53054574167ae1e9f00bf0e98eae9fc"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb18494a12bbab730b95855447fdc7b25262d91ca183e6e689bbd733f21d47bef8b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb1a212bf8f4ea9a536e748b55759fb6b0e359f249c32b48c7c5da11cf70547dd63"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb1c56cfed5ced813024eb27873eb6b82068eed5d74cbaaf875bda269754c73cc3b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb1cae9eb6192e4539fb23b857350bcd858eaeb0ae65939437970554eebd1db60c0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb1d7cd822b94d6a6c09006c0778fe33afbbeaa6f2de0cc281dff0f5810916e0388"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb1e9904493d38c5a3668850eda09333588a799b93729786e81ef302f8a12b56536"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb1eb023e8ee86d821ef0183e7ba1d9aaa957cc80bc0332d4e6592f323df5ee79f8"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb1f661da28fa20cd99df09e3b251bbe5350ef66c25f1f3917e1adc87e427f80c93"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb1f67b1c108f2b20f520d4f8187f82b966409303f78722c9b63a6d244b9c47fe50"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb205285207b05b66dbf39be218430c2f391896a7a622b3f96be540a8a13f60f75c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb23cab03bc9e8f4b7090b51e214baadeef48b643b8381be2a68cf8fc0242ec3967"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb267c2e52020375babdd346994b47d9bfed31a4b5b19e4e778cea726083f551385"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb26adb2472673b851e1e8ff6ed00837f293f312202eb0b9b88127a5b9134cb88d0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb271177bdc670d3773471028bc74c6433bd75e5cdf97cac4a01becd8f3b9446264"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb273c0dde4cd40c2c09989ab193e1f6605ece10dd976dd7a0634fd27907d90b51b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb28c9b25b8dcf623828bc1150d2aa22e294310d54167b9bfd868f51c6f749d8625"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cbef227f5ecc5f55b5b979946f1ab9c8a54c9da52b7c441f65f520486400a9df54"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_tin_cb2fdf56f1b1a5624373386bc9b2dd4f6f7c7450c490008d23bcaee3066232d2ea"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb10e33b4609f890bee9b17377db6eab9cdecdc51ce2049e4283260ace5240120dd"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb17918f4facc16a77d3753e7789229772f856f00f9e56d72e0dc41238fbc422b85"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb1c123f49121d35b6fc8e65865f62c5c36d5ddd13ed6ba513e9ae18178289f1eec"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb1e47e33d7a201c93b30501b82879c732f2f2c0a176fb0bd37fae2cdf66fcb0dc4"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb1f6deb72d68005cf971a463862c142c245ee91bd084d1ece03c4fbc91b4c54511"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb208a17995a6b6106f4a22b1e8a56426b147d865d9cd7e33442c70940b360ca6bf"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb20a137390bb973857d1b5e18a3e0a9bd1f80b2d5ea73899a8966f96bf1945bb81"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb215730f2acd4a83d2c0a786c0edecd65daf3518c895f95640581cec654b4f4e1c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb2158c51126254d72e02729b271bb3aa8ee0d1b09a2b288e7877ad88ccbf9f3fd9"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb22439870983851d14d5398526df3d2061b8d55448c6b9be2e22810d2262b838e5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb2259c6be44907f426d8af2589c82206ae9afb25d69ac6a91d95e4efddbd91c79e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb25bbc38be71b901a97252c12fe7dbd017e8f4f05adc21a768ca39608366437af0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb2637e4985e895ba412b96724bc5d5d83fddb19f21a6d87e2764f1307f2a95971e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb286d41a21f36111e4bed20ca350ae8d277358f7fdbdeaac3b0be78a8962ac550e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb29028b0de3a36edac28adcbcb10f73464779d09823bd08962592d3d74dc9ba3ed"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb292d212e6a06a78f97b274e27da50572e8d1fba7c1ae33ec8723d8c11a0e7f6a4"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb2abac5abab01fd9bb6d5eb81bc6d31f51e34f81e40bbf849aa63580f097f4c7ae"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_tin_cb2c9e3e306efed2a65a198076c266bdd7cbf19343e05d9d232ba4b2e291865832a"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_tin_cb12d575dbe2cb256aefb3092271917d116be834880042b68c5e9380c9a4f1fe102"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>tin</rdfs:label>
     <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/tin"/>
@@ -57,176 +100,19 @@
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/tin#rate-1507-none-309"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/tin#rate-1507-none-49"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/tin#rate-1545-inward-723"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/tin#rate-1545-inward-724"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/tin#rate-1558-inward-1088"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/tin#rate-1558-outward-65"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/tin#rate-1558-outward-67"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/tin#rate-1558-outward-68"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tin#rate-1507-none-49">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1507: Corsses called tyne corssys the dossen 8s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_tin_cbf7d0b24f892e60cf6ad4b2e92eeed5d55f6c213e112cac52ac61980ca98b51e4"/>
-    <hector:perQuantity rdf:nodeID="commodity_tin_cb368438ac5b64f6a74d55450fed76c89d095feefafcdff9b740f6542b1fa254d7"/>
-    <hector:sourceText>Book of Rates 1507, line 49 (transcribed by Stuart Jenks): 'Corsses called tyne corssys the dossen' 8s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>dozen</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tin_cb1c56cfed5ced813024eb27873eb6b82068eed5d74cbaaf875bda269754c73cc3b">
-    <crm:P190_has_symbolic_content>tyne</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tinə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tin_cb37c7d7746513cb807620cc92a2b0d60d4c3382e00a8bf9d37b041188aa4463b9">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tin_cb26adb2472673b851e1e8ff6ed00837f293f312202eb0b9b88127a5b9134cb88d0">
-    <crm:P190_has_symbolic_content>tin</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tin_cb9adfd105a4cd4fefd9d332d21c677abb8d761680b7866f0be82880159f986bd5">
+  <rdf:Description rdf:nodeID="commodity_tin_cb1b2016589c3d8a9bc5bc85fc57bd60b1653ac4ed2c00f9fbc02d64430cb3d7a8b">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>26s 8d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</hector:valueInPence>
+    <hector:lsd>46s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">560</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tin_cb1eb023e8ee86d821ef0183e7ba1d9aaa957cc80bc0332d4e6592f323df5ee79f8">
-    <crm:P190_has_symbolic_content>stanei</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>stanei</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tin_cb14d4c9288338e36d0e4f159c5bfe8e14cb3c76c17d2b1b1d1b455f04b75d2473c">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>12d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tin_cb205285207b05b66dbf39be218430c2f391896a7a622b3f96be540a8a13f60f75c">
-    <crm:P190_has_symbolic_content>stanum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>stanum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tin_cb1f67b1c108f2b20f520d4f8187f82b966409303f78722c9b63a6d244b9c47fe50">
-    <crm:P190_has_symbolic_content>stanni</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>stani</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tin_cb271177bdc670d3773471028bc74c6433bd75e5cdf97cac4a01becd8f3b9446264">
-    <crm:P190_has_symbolic_content>staneum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>staneum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tin_cb23cab03bc9e8f4b7090b51e214baadeef48b643b8381be2a68cf8fc0242ec3967">
-    <crm:P190_has_symbolic_content>stamen</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>stamen</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1508</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tin#rate-1507-none-309">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1507: Tyne glasse the C wayte 26s 8d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_tin_cb9adfd105a4cd4fefd9d332d21c677abb8d761680b7866f0be82880159f986bd5"/>
-    <hector:perQuantity rdf:nodeID="commodity_tin_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109"/>
-    <hector:sourceText>Book of Rates 1507, line 309 (transcribed by Stuart Jenks): 'Tyne glasse the C wayte' 26s 8d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tin#rate-1545-inward-723">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Tynne foyle the groce 12d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_tin_cb14d4c9288338e36d0e4f159c5bfe8e14cb3c76c17d2b1b1d1b455f04b75d2473c"/>
-    <hector:perQuantity rdf:nodeID="commodity_tin_cb37c7d7746513cb807620cc92a2b0d60d4c3382e00a8bf9d37b041188aa4463b9"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 723 (transcribed by Stuart Jenks): 'Tynne foyle the groce' 12d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>gross</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tin_cb1d7cd822b94d6a6c09006c0778fe33afbbeaa6f2de0cc281dff0f5810916e0388">
-    <crm:P190_has_symbolic_content>stannei</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>stanei</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tin_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundredweight"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tin_cb1cae9eb6192e4539fb23b857350bcd858eaeb0ae65939437970554eebd1db60c0">
-    <crm:P190_has_symbolic_content>tynn</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tin_cbf7d0b24f892e60cf6ad4b2e92eeed5d55f6c213e112cac52ac61980ca98b51e4">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>8s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tin_cb1f661da28fa20cd99df09e3b251bbe5350ef66c25f1f3917e1adc87e427f80c93">
-    <crm:P190_has_symbolic_content>stannum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>stanum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/tin">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>tin (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tin-piece">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>tin piece</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tin_cb28c9b25b8dcf623828bc1150d2aa22e294310d54167b9bfd868f51c6f749d8625">
+  <rdf:Description rdf:nodeID="commodity_tin_cb2abac5abab01fd9bb6d5eb81bc6d31f51e34f81e40bbf849aa63580f097f4c7ae">
     <crm:P190_has_symbolic_content>tyn</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -234,52 +120,90 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tin_cb1e9904493d38c5a3668850eda09333588a799b93729786e81ef302f8a12b56536">
-    <crm:P190_has_symbolic_content>stagni</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_tin_cb2637e4985e895ba412b96724bc5d5d83fddb19f21a6d87e2764f1307f2a95971e">
+    <crm:P190_has_symbolic_content>tynne</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>stagni</hector:phoneticKey>
+    <hector:phoneticKey>tinə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb2158c51126254d72e02729b271bb3aa8ee0d1b09a2b288e7877ad88ccbf9f3fd9">
+    <crm:P190_has_symbolic_content>stanni</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>stani</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tin-work">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tin#rate-1507-none-49">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Corsses called tyne corssys the dossen 8s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_tin_cb2f55ff3c9310b10771c0d50a300199bc5aa1f7684bc7cd1bcdce9b42f6980a3a7"/>
+    <hector:perQuantity rdf:nodeID="commodity_tin_cb1402fbe92c77ff8f3d4de07117b3cb15a9dc46ad4e4179a17f7e9a38c7356e485"/>
+    <hector:qualifier rdf:nodeID="commodity_tin_cb1867341118ba55940b8d757076c30d0a4c3a4a81b26bcc66552192d0297c0fc7d"/>
+    <hector:qualifier rdf:nodeID="commodity_tin_cb1cd1ce9fc98ac65ba3777f090874f73816e17328cae134182027327f0dc239db2"/>
+    <hector:sourceText>Book of Rates 1507, line 49 (transcribed by Stuart Jenks): 'Corsses called tyne corssys the dossen' 8s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tin#rate-1558-inward-1088">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Tynne glasse þe C conteyninge 112 lb 50s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_tin_cb2e180245740639b899bd331a0bd7cdafd6e7cc546fbaf5a0ae412f40b4546ec3e"/>
+    <hector:perQuantity rdf:nodeID="commodity_tin_cb1552e1f42efc388f9c1f694d8674e8d034dbdea941fdfd6d8a69bdf138a4c51d4"/>
+    <hector:qualifier rdf:nodeID="commodity_tin_cb1a32c58a74f0f93f2cd259d38e8024ee6f5f8c4250c9c5095c9871bbe87299abd"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1088 (transcribed by Stuart Jenks): 'Tynne glasse þe C conteyninge 112 lb' 50s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb20a137390bb973857d1b5e18a3e0a9bd1f80b2d5ea73899a8966f96bf1945bb81">
+    <crm:P190_has_symbolic_content>stanei</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>stanei</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300010797">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>tin work</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tin_cb368438ac5b64f6a74d55450fed76c89d095feefafcdff9b740f6542b1fa254d7">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/hundredweight">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>hundredweight</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300133748">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>tin (metal)</rdfs:label>
+    <rdfs:label>glass (material)</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/bismuth">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>bismuth</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tin_cbef227f5ecc5f55b5b979946f1ab9c8a54c9da52b7c441f65f520486400a9df54">
-    <crm:P190_has_symbolic_content>stagnum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>stagnum</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/hundred">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>hundred</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tin_cb267c2e52020375babdd346994b47d9bfed31a4b5b19e4e778cea726083f551385">
-    <crm:P190_has_symbolic_content>stani</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_tin_cb22439870983851d14d5398526df3d2061b8d55448c6b9be2e22810d2262b838e5">
+    <crm:P190_has_symbolic_content>stanum</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>stani</hector:phoneticKey>
+    <hector:phoneticKey>stanum</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tin_cb273c0dde4cd40c2c09989ab193e1f6605ece10dd976dd7a0634fd27907d90b51b">
+  <rdf:Description rdf:nodeID="commodity_tin_cb29028b0de3a36edac28adcbcb10f73464779d09823bd08962592d3d74dc9ba3ed">
+    <crm:P190_has_symbolic_content>staneum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>staneum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tin#rate-1558-outward-68">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 outward: Tynne wrought the C cont’ 112 lb 46s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_tin_cb1b2016589c3d8a9bc5bc85fc57bd60b1653ac4ed2c00f9fbc02d64430cb3d7a8b"/>
+    <hector:perQuantity rdf:nodeID="commodity_tin_cb148ab670c330cf7e7d114310da8bf3011e8069cacf36eb620392a195ca59cc35e"/>
+    <hector:qualifier rdf:nodeID="commodity_tin_cb1c8f7689c9589f480b8be7e00991c8ecbdb6e939284ef1f003d61e8bbf1b99330"/>
+    <hector:sourceText>Book of Rates 1558, outward, line 68 (transcribed by Stuart Jenks): 'Tynne wrought the C cont’ 112 lb' 46s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb292d212e6a06a78f97b274e27da50572e8d1fba7c1ae33ec8723d8c11a0e7f6a4">
     <crm:P190_has_symbolic_content>stannium</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -287,21 +211,262 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tin_cb1a212bf8f4ea9a536e748b55759fb6b0e359f249c32b48c7c5da11cf70547dd63">
-    <crm:P190_has_symbolic_content>stanneum</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_tin_cb1682a14251a525690d215057db93754555d9c0a15879195f3d703d1639aa9c7e4">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>30s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tin#rate-1558-outward-67">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 outward: Tynne Cornyshe the C cont’ 112 lb 33s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_tin_cb2a053f48e4d20d7710277fd7e27fe477e969788fc6e1250fd56d15baedcae8496"/>
+    <hector:perQuantity rdf:nodeID="commodity_tin_cb1e095c9f5b80dad50bf203a4d4c11982b3e0005bac6c4c335906e584694d4a75c"/>
+    <hector:qualifier rdf:nodeID="commodity_tin_cb1c707891293b073de0eb3a90816c0b6a93b04d480253187819f5093f6b5cf8f4c"/>
+    <hector:sourceText>Book of Rates 1558, outward, line 67 (transcribed by Stuart Jenks): 'Tynne Cornyshe the C cont’ 112 lb' 33s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb1f7abdb17f1e45e5b4ff8b022c0e1d48d15b76dbbdc2ca928a693af3d9f479189">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>glass</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300010797"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tin#rate-1545-inward-723">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Tynne foyle the groce 12d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_tin_cb34404d8480cbd3d8eb9e5752fe6b9811f509e943f9989a95f9afa36c54f69f610"/>
+    <hector:perQuantity rdf:nodeID="commodity_tin_cb180ccf30d9729aa42df7b1906a490283e5fb24393b92ef0f550fd1c9d8118eeee"/>
+    <hector:qualifier rdf:nodeID="commodity_tin_cb234f241ccb7bfa8213868be62c5c6b8e03e31f98854a1b48b8a7b6e7a191d05de"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 723 (transcribed by Stuart Jenks): 'Tynne foyle the groce' 12d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb1c8f7689c9589f480b8be7e00991c8ecbdb6e939284ef1f003d61e8bbf1b99330">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>worked</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb180ccf30d9729aa42df7b1906a490283e5fb24393b92ef0f550fd1c9d8118eeee">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb1f6deb72d68005cf971a463862c142c245ee91bd084d1ece03c4fbc91b4c54511">
+    <crm:P190_has_symbolic_content>stannei</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>staneum</hector:phoneticKey>
+    <hector:phoneticKey>stanei</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb234f241ccb7bfa8213868be62c5c6b8e03e31f98854a1b48b8a7b6e7a191d05de">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>file</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb1402fbe92c77ff8f3d4de07117b3cb15a9dc46ad4e4179a17f7e9a38c7356e485">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb22e074f5021493c5552f179d4165853250474067ac86fc7b1140bdd6df33676f2">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Devonshyre</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb10e33b4609f890bee9b17377db6eab9cdecdc51ce2049e4283260ace5240120dd">
+    <crm:P190_has_symbolic_content>stagnum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>stagnum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb208a17995a6b6106f4a22b1e8a56426b147d865d9cd7e33442c70940b360ca6bf">
+    <crm:P190_has_symbolic_content>stagni</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>stagni</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb1e095c9f5b80dad50bf203a4d4c11982b3e0005bac6c4c335906e584694d4a75c">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb2a053f48e4d20d7710277fd7e27fe477e969788fc6e1250fd56d15baedcae8496">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>33s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">400</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb1c707891293b073de0eb3a90816c0b6a93b04d480253187819f5093f6b5cf8f4c">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Cornyshe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb34404d8480cbd3d8eb9e5752fe6b9811f509e943f9989a95f9afa36c54f69f610">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>12d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb17918f4facc16a77d3753e7789229772f856f00f9e56d72e0dc41238fbc422b85">
+    <crm:P190_has_symbolic_content>stamin</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>stamin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1508</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tin-work">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tin work</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb286d41a21f36111e4bed20ca350ae8d277358f7fdbdeaac3b0be78a8962ac550e">
+    <crm:P190_has_symbolic_content>stani</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>stani</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>gross</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb1ac5c879c4d7f090638ce2b2984134cf8ba10d99a740c3d275de38528f7ca100a">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tin#rate-1507-none-309">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Tyne glasse the C wayte 26s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_tin_cb25dc29dbdbdd8ae53440bf506810c1de2281311531a4d29396040b609e68aada4"/>
+    <hector:perQuantity rdf:nodeID="commodity_tin_cb2a680d346e62451bca0933fc40734b3d357978cc6a9307365f929ae01c36e27b0"/>
+    <hector:qualifier rdf:nodeID="commodity_tin_cb1f7abdb17f1e45e5b4ff8b022c0e1d48d15b76dbbdc2ca928a693af3d9f479189"/>
+    <hector:sourceText>Book of Rates 1507, line 309 (transcribed by Stuart Jenks): 'Tyne glasse the C wayte' 26s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tin#rate-1558-outward-65">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 outward: Tynne of Devonshyre the C cont’ 112 lb 30s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_tin_cb1682a14251a525690d215057db93754555d9c0a15879195f3d703d1639aa9c7e4"/>
+    <hector:perQuantity rdf:nodeID="commodity_tin_cb1ac5c879c4d7f090638ce2b2984134cf8ba10d99a740c3d275de38528f7ca100a"/>
+    <hector:qualifier rdf:nodeID="commodity_tin_cb22e074f5021493c5552f179d4165853250474067ac86fc7b1140bdd6df33676f2"/>
+    <hector:sourceText>Book of Rates 1558, outward, line 65 (transcribed by Stuart Jenks): 'Tynne of Devonshyre the C cont’ 112 lb' 30s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb365b88c4033a1abd7d8ccf3f14749e1f45fbb9ea0a0d2ba3d1949b2dd9b99ba8f">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>40s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb1e47e33d7a201c93b30501b82879c732f2f2c0a176fb0bd37fae2cdf66fcb0dc4">
+    <crm:P190_has_symbolic_content>tyne</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tinə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb1b360fee43308430553da4d5b0735af3e208d2ffa6a46b16391c2e96c8e6fb618">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>glass</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300010797"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/tin-piece">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tin piece</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb215730f2acd4a83d2c0a786c0edecd65daf3518c895f95640581cec654b4f4e1c">
+    <crm:P190_has_symbolic_content>stannum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>stanum</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb2e180245740639b899bd331a0bd7cdafd6e7cc546fbaf5a0ae412f40b4546ec3e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>50s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">600</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/tin-foil">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>tin foil</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_tin_cb2fdf56f1b1a5624373386bc9b2dd4f6f7c7450c490008d23bcaee3066232d2ea">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/tin">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tin (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb25dc29dbdbdd8ae53440bf506810c1de2281311531a4d29396040b609e68aada4">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>26s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb1cfb5aeb8007e28c2ebc115122c7b8f804554d040ba4655a53c6e20ac27886fed">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb1cd1ce9fc98ac65ba3777f090874f73816e17328cae134182027327f0dc239db2">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>corssys</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb12d575dbe2cb256aefb3092271917d116be834880042b68c5e9380c9a4f1fe102">
     <crm:P190_has_symbolic_content>tin, the metal, raw or wrought; imported and exported; including Cornish and Devon tin, cast in bars, rods, shot, or bowls</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/hundredweight">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>hundredweight</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb25bbc38be71b901a97252c12fe7dbd017e8f4f05adc21a768ca39608366437af0">
+    <crm:P190_has_symbolic_content>stamen</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>stamen</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1508</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb2f55ff3c9310b10771c0d50a300199bc5aa1f7684bc7cd1bcdce9b42f6980a3a7">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>8s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300133748">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tin (metal)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_tin_cb1552e1f42efc388f9c1f694d8674e8d034dbdea941fdfd6d8a69bdf138a4c51d4">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/hundred"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
 </rdf:RDF>

@@ -156,7 +156,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 587 (transcribed by Stuart Jenks): 'Hiltes for swordes the dosen' 13s 4d"
+      "sourceText": "Book of Rates 1558, inward, line 587 (transcribed by Stuart Jenks): 'Hiltes for swordes the dosen' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "swordes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/hylt#rate-1558-inward-588",
@@ -183,7 +196,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 588 (transcribed by Stuart Jenks): 'Hiltes, chapes or lockettes for daggers the grosse' 6s 8d"
+      "sourceText": "Book of Rates 1558, inward, line 588 (transcribed by Stuart Jenks): 'Hiltes, chapes or lockettes for daggers the grosse' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "chapes or lockettes for daggers",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

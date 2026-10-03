@@ -5,6 +5,7 @@
 @prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/hector/commodity/gum> a crm:E55_Type ;
@@ -14,6 +15,14 @@
             crm:P190_has_symbolic_content "gumme" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "gumə" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "gume" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "gumə" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "gummi" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "gumi" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "gum" ;
             crm:P2_has_type aat:300404670,
@@ -28,17 +37,9 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "gomə" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "gummi" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "gumi" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "gom" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "gom" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "gume" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "gumə" ] ;
+            hector:phoneticKey "gom" ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "Carbohydrate containing exudates obtained from some trees or shrubs belonging to the family Fabaceae of the pea order Fabales. Gum is insoluble in alcohol and either soluble or swellable in water. Some plant gums are used in the form of water solutions in the manufacture of cosmetics, pharmaceuticals, and foods; when the water evaporates, a film having a considerable adhesive character is formed. Some gums, such as gum arabic, dissolve in water to give clear solutions. Other gums, such as gum tragacanth, form mucilages by the absorption of large amounts of water. May be distinguished from \"resin\" in that gum hardens in drying, but is usually soluble in water. [Source: Getty AAT]" ;
             crm:P2_has_type aat:300435416 ] ;
@@ -47,7 +48,14 @@
         <https://w3id.org/hector/commodity/gum-of-needles> ;
     la:equivalent aat:300012866 ;
     hector:attestationCount 56 ;
-    hector:taxation <https://w3id.org/hector/commodity/gum#rate-1545-inward-321> .
+    hector:taxation <https://w3id.org/hector/commodity/gum#rate-1545-inward-321>,
+        <https://w3id.org/hector/commodity/gum#rate-1545-inward-322>,
+        <https://w3id.org/hector/commodity/gum#rate-1545-inward-323>,
+        <https://w3id.org/hector/commodity/gum#rate-1558-inward-519>,
+        <https://w3id.org/hector/commodity/gum#rate-1558-inward-520>,
+        <https://w3id.org/hector/commodity/gum#rate-1558-inward-526>,
+        <https://w3id.org/hector/commodity/gum#rate-1558-inward-530>,
+        <https://w3id.org/hector/commodity/gum#rate-1558-inward-531> .
 
 aat:300012866 a crm:E55_Type ;
     rdfs:label "gum (material)" .
@@ -55,11 +63,11 @@ aat:300012866 a crm:E55_Type ;
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
 
-aat:300411998 a crm:E98_Currency ;
-    rdfs:label "pound sterling (system of money)" .
-
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
+
+wd:Q31945 a crm:E53_Place ;
+    rdfs:label "Arabia" .
 
 <https://w3id.org/hector/commodity/gum#rate-1545-inward-321> a hector:Rate ;
     rdfs:label "1545 inward: Gome the bale 26s 8d" ;
@@ -74,6 +82,117 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/gum#rate-1545-inward-322> a hector:Rate ;
+    rdfs:label "1545 inward: Gome armonyake the 100 pounde £5" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£5" ;
+            hector:valueInPence 1200.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "ammoniac" ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 322 (transcribed by Stuart Jenks): 'Gome armonyake the 100 pounde' £5" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/gum#rate-1545-inward-323> a hector:Rate ;
+    rdfs:label "1545 inward: Gome arabeke the hundreth pounde 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Arabia" ;
+            hector:originPlace wd:Q31945 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 323 (transcribed by Stuart Jenks): 'Gome arabeke the hundreth pounde' 13s 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/gum#rate-1558-inward-519> a hector:Rate ;
+    rdfs:label "1558 inward: Gumme elemni the pounde 16d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "16d" ;
+            hector:valueInPence 16.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "elemni" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 519 (transcribed by Stuart Jenks): 'Gumme elemni the pounde' 16d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/gum#rate-1558-inward-520> a hector:Rate ;
+    rdfs:label "1558 inward: Gumme edere the pounde 12d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "12d" ;
+            hector:valueInPence 12.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "edere" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 520 (transcribed by Stuart Jenks): 'Gumme edere the pounde' 12d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/gum#rate-1558-inward-526> a hector:Rate ;
+    rdfs:label "1558 inward: Gumme junperii the pounde 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4d" ;
+            hector:valueInPence 4.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "junperii" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 526 (transcribed by Stuart Jenks): 'Gumme junperii the pounde' 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/gum#rate-1558-inward-530> a hector:Rate ;
+    rdfs:label "1558 inward: Gumme ceraphane the pounde £16" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£16" ;
+            hector:valueInPence 3840.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "ceraphane" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 530 (transcribed by Stuart Jenks): 'Gumme ceraphane the pounde' £16" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/gum#rate-1558-inward-531> a hector:Rate ;
+    rdfs:label "1558 inward: Gumme apoppomacke the pounde 3s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "3s 4d" ;
+            hector:valueInPence 40.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "apoppomacke" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 531 (transcribed by Stuart Jenks): 'Gumme apoppomacke the pounde' 3s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/gum-arabic> a crm:E55_Type ;
     rdfs:label "gum arabic" .
 
@@ -85,6 +204,15 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/mlca/glossary/gum> a crm:E55_Type ;
     rdfs:label "gum (London Customs Accounts glossary)" .
+
+<https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
+    rdfs:label "hundred" .
+
+<https://w3id.org/hector/unit/pound> a crm:E58_Measurement_Unit ;
+    rdfs:label "pound" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

@@ -175,7 +175,13 @@
     la:equivalent aat:300039119 ;
     hector:attestationCount 377 ;
     hector:taxation <https://w3id.org/hector/commodity/coffer#rate-1507-none-59>,
-        <https://w3id.org/hector/commodity/coffer#rate-1545-inward-187> .
+        <https://w3id.org/hector/commodity/coffer#rate-1545-inward-187>,
+        <https://w3id.org/hector/commodity/coffer#rate-1545-inward-569>,
+        <https://w3id.org/hector/commodity/coffer#rate-1558-inward-244>,
+        <https://w3id.org/hector/commodity/coffer#rate-1558-inward-245>,
+        <https://w3id.org/hector/commodity/coffer#rate-1558-inward-313>,
+        <https://w3id.org/hector/commodity/coffer#rate-1558-inward-314>,
+        <https://w3id.org/hector/commodity/coffer#rate-1558-inward-811> .
 
 aat:300039119 a crm:E55_Type ;
     rdfs:label "coffers (furniture)" .
@@ -215,14 +221,111 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/coffer#rate-1545-inward-569> a hector:Rate ;
+    rdfs:label "1545 inward: Painted coffers the neste, videlicet 3 to one 4s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4s" ;
+            hector:valueInPence 48.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/nest> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "painted" ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 569 (transcribed by Stuart Jenks): 'Painted coffers the neste, videlicet 3 to one' 4s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/coffer#rate-1558-inward-244> a hector:Rate ;
+    rdfs:label "1558 inward: Coffers with barres the nest cont’ thre 16s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "16s" ;
+            hector:valueInPence 192.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/nest> ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 244 (transcribed by Stuart Jenks): 'Coffers with barres the nest cont’ thre' 16s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/coffer#rate-1558-inward-245> a hector:Rate ;
+    rdfs:label "1558 inward: Coffers playne the neste cont’ thre 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/nest> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "plain" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 245 (transcribed by Stuart Jenks): 'Coffers playne the neste cont’ thre' 6s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/coffer#rate-1558-inward-313> a hector:Rate ;
+    rdfs:label "1558 inward: Coffers covered with gilte lether the dossen 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "covered" ],
+        [ a crm:E55_Type ;
+            rdfs:label "gilte lether" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 313 (transcribed by Stuart Jenks): 'Coffers covered with gilte lether the dossen' 20s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/coffer#rate-1558-inward-314> a hector:Rate ;
+    rdfs:label "1558 inward: Coffers covered with velvett the dossen 40s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "40s" ;
+            hector:valueInPence 480.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "velvett" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "covered" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 314 (transcribed by Stuart Jenks): 'Coffers covered with velvett the dossen' 40s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/coffer#rate-1558-inward-811> a hector:Rate ;
+    rdfs:label "1558 inward: Paynted cofers the nest cont’ 3 to the nest 8s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "8s" ;
+            hector:valueInPence 96.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/nest> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "painted" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 811 (transcribed by Stuart Jenks): 'Paynted cofers the nest cont’ 3 to the nest' 8s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/mlca/glossary/coffer> a crm:E55_Type ;
     rdfs:label "coffer (London Customs Accounts glossary)" .
 
-aat:300411998 a crm:E98_Currency ;
-    rdfs:label "pound sterling (system of money)" .
+<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
+    rdfs:label "dozen" .
 
 <https://w3id.org/hector/unit/nest> a crm:E58_Measurement_Unit ;
     rdfs:label "nest" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

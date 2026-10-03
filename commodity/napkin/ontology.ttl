@@ -5,23 +5,25 @@
 @prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/hector/commodity/napkin> a crm:E55_Type ;
     rdfs:label "napkin" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "napkens" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "napkens" ;
-            hector:validFrom "1556"^^xsd:gYear ;
-            hector:validThrough "1559"^^xsd:gYear ],
+            crm:P190_has_symbolic_content "napkin" ;
+            crm:P2_has_type aat:300404670,
+                hector:AttestedVariant ;
+            hector:phoneticKey "napkin" ;
+            hector:validFrom "1509"^^xsd:gYear ;
+            hector:validThrough "1510"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "napken" ;
+            crm:P190_has_symbolic_content "napkyn" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "napken" ;
-            hector:validFrom "1556"^^xsd:gYear ;
-            hector:validThrough "1559"^^xsd:gYear ],
+            hector:phoneticKey "napkin" ;
+            hector:validFrom "1431"^^xsd:gYear ;
+            hector:validThrough "1433"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "napkyns" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -35,22 +37,21 @@
             hector:validFrom "1509"^^xsd:gYear ;
             hector:validThrough "1510"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "napkin" ;
-            crm:P2_has_type aat:300404670,
-                hector:AttestedVariant ;
-            hector:phoneticKey "napkin" ;
-            hector:validFrom "1509"^^xsd:gYear ;
-            hector:validThrough "1510"^^xsd:gYear ],
+            crm:P190_has_symbolic_content "napkens" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "napkens" ;
+            hector:validFrom "1556"^^xsd:gYear ;
+            hector:validThrough "1559"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "napken" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "napken" ;
+            hector:validFrom "1556"^^xsd:gYear ;
+            hector:validThrough "1559"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "napkynes" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "napkinəs" ;
-            hector:validFrom "1431"^^xsd:gYear ;
-            hector:validThrough "1433"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "napkyn" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "napkin" ;
             hector:validFrom "1431"^^xsd:gYear ;
             hector:validThrough "1433"^^xsd:gYear ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
@@ -58,7 +59,15 @@
             crm:P2_has_type aat:300435416 ] ;
     skos:exactMatch <https://w3id.org/mlca/glossary/napkin> ;
     la:equivalent aat:300216644 ;
-    hector:attestationCount 208 .
+    hector:attestationCount 208 ;
+    hector:taxation <https://w3id.org/hector/commodity/napkin#rate-1545-inward-237>,
+        <https://w3id.org/hector/commodity/napkin#rate-1545-inward-238>,
+        <https://w3id.org/hector/commodity/napkin#rate-1545-inward-504>,
+        <https://w3id.org/hector/commodity/napkin#rate-1558-inward-362>,
+        <https://w3id.org/hector/commodity/napkin#rate-1558-inward-736> .
+
+aat:300163295 a crm:E55_Type ;
+    rdfs:label "damask" .
 
 aat:300216644 a crm:E55_Type ;
     rdfs:label "napkins (culinary textile)" .
@@ -69,8 +78,108 @@ aat:300404670 a crm:E55_Type ;
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
+<https://w3id.org/hector/commodity/napkin#rate-1545-inward-237> a hector:Rate ;
+    rdfs:label "1545 inward: Dioper napkyns cours the dossen 4s or 5s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4s or 5s" ;
+            hector:valueInPence 48.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "coarse" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Dioper" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 237 (transcribed by Stuart Jenks): 'Dioper napkyns cours the dossen' 4s or 5s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/napkin#rate-1545-inward-238> a hector:Rate ;
+    rdfs:label "1545 inward: Dioper napkyns damaske warke the dosen 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "warke" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "Dioper" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "damask" ;
+            la:equivalent aat:300163295 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 238 (transcribed by Stuart Jenks): 'Dioper napkyns damaske warke the dosen' 6s 8d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/napkin#rate-1545-inward-504> a hector:Rate ;
+    rdfs:label "1545 inward: Napkyns of the Frenche makyng the dosen 2s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "2s" ;
+            hector:valueInPence 24.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "makyng" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "France" ;
+            hector:originPlace wd:Q142 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 504 (transcribed by Stuart Jenks): 'Napkyns of the Frenche makyng the dosen' 2s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/napkin#rate-1558-inward-362> a hector:Rate ;
+    rdfs:label "1558 inward: Dyapor napkyns the dossen 8s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "8s" ;
+            hector:valueInPence 96.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Dyapor" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 362 (transcribed by Stuart Jenks): 'Dyapor napkyns the dossen' 8s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/napkin#rate-1558-inward-736> a hector:Rate ;
+    rdfs:label "1558 inward: Napkens voc’ Frenche napkens the dosen 4s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4s" ;
+            hector:valueInPence 48.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "France" ;
+            hector:originPlace wd:Q142 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 736 (transcribed by Stuart Jenks): 'Napkens voc’ Frenche napkens the dosen' 4s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/mlca/glossary/napkin> a crm:E55_Type ;
     rdfs:label "napkin (London Customs Accounts glossary)" .
+
+wd:Q142 a crm:E53_Place ;
+    rdfs:label "France" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
+<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
+    rdfs:label "dozen" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

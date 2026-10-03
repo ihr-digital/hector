@@ -275,6 +275,46 @@
       "sourceText": "Book of Rates 1545, inward, line 700 (transcribed by Stuart Jenks): 'Sawes the dossen great' 12s"
     },
     {
+      "id": "https://w3id.org/hector/commodity/saw#rate-1558-inward-1020",
+      "type": "Rate",
+      "_label": "1558 inward: Sawes for carpenters called handsawes the dosen 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "40",
+        "lsd": "3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1020 (transcribed by Stuart Jenks): 'Sawes for carpenters called handsawes the dosen' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "carpenters called handsawes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/saw#rate-1558-inward-1021",
       "type": "Rate",
       "_label": "1558 inward: Sawes voc’ whype sawes the pece 2s 6d",
@@ -299,7 +339,60 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 1021 (transcribed by Stuart Jenks): 'Sawes voc’ whype sawes the pece' 2s 6d"
+      "sourceText": "Book of Rates 1558, inward, line 1021 (transcribed by Stuart Jenks): 'Sawes voc’ whype sawes the pece' 2s 6d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "whype",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/saw#rate-1558-inward-1022",
+      "type": "Rate",
+      "_label": "1558 inward: Sawes voc’ two handsawes the dosen 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1022 (transcribed by Stuart Jenks): 'Sawes voc’ two handsawes the dosen' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "two handsawes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

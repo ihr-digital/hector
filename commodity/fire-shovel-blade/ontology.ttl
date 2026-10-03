@@ -10,12 +10,6 @@
     rdfs:label "fire shovel blade" ;
     dcterms:modified "2026-09-29"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "fier sholve plates" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "fiːr ʃolvə platəs" ;
-            hector:validFrom "1556"^^xsd:gYear ;
-            hector:validThrough "1559"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "fire shovel blade" ;
             crm:P2_has_type aat:300404670,
                 hector:AttestedVariant ;
@@ -25,15 +19,21 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "firə ʃoveləs" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "fire shovelle" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "firə ʃovelə" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "fier sholve plate" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "fiːr ʃolvə platə" ;
             hector:validFrom "1556"^^xsd:gYear ;
-            hector:validThrough "1559"^^xsd:gYear ] ;
+            hector:validThrough "1559"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "fier sholve plates" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "fiːr ʃolvə platəs" ;
+            hector:validFrom "1556"^^xsd:gYear ;
+            hector:validThrough "1559"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "fire shovelle" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "firə ʃovelə" ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "not attested, but clearly the broad metal blade of a fire shovel, a shovel for placing coals on a fire or for removing coal or ashes (OED s.v. fire-shovel) | , -s a shovel for placing coals on a fire or for removing coal or ashes (OED s.v. fire-shovel)" ;
             crm:P2_has_type aat:300435416 ] ;
@@ -74,6 +74,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 100 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "plate" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 457 (transcribed by Stuart Jenks): 'Fire shovelles plate the C cont’ 112 lb' 12s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .

@@ -86,6 +86,8 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/each> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "skin" ] ;
     hector:sourceText "Book of Rates 1558, inward, line 1040 (transcribed by Stuart Jenks): 'Swannes skyns the skynne' 2s 8d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -99,6 +101,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1000 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/thousand> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "quylles" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 971 (transcribed by Stuart Jenks): 'Swannes quylles the thowsand' 6s 8d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .

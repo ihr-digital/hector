@@ -291,6 +291,46 @@
       "sourceText": "Book of Rates 1545, inward, line 571 (transcribed by Stuart Jenks): 'Pavyng stones the thousande' 13s 4d"
     },
     {
+      "id": "https://w3id.org/hector/commodity/paving-stone#rate-1558-inward-812",
+      "type": "Rate",
+      "_label": "1558 inward: Pavinge stones of earthe the thowsande 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1000,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/thousand",
+          "type": "MeasurementUnit",
+          "_label": "thousand"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 812 (transcribed by Stuart Jenks): 'Pavinge stones of earthe the thowsande' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "earthe",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/paving-stone#rate-1558-inward-849",
       "type": "Rate",
       "_label": "1558 inward: Pavinge stones vocat’ hardestones the pece 4d",
@@ -315,7 +355,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 849 (transcribed by Stuart Jenks): 'Pavinge stones vocat’ hardestones the pece' 4d"
+      "sourceText": "Book of Rates 1558, inward, line 849 (transcribed by Stuart Jenks): 'Pavinge stones vocat’ hardestones the pece' 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "hardestones",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

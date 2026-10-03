@@ -272,7 +272,20 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 360 (transcribed by Stuart Jenks): 'Harneys nayles the some' 6s 8d"
+      "sourceText": "Book of Rates 1545, inward, line 360 (transcribed by Stuart Jenks): 'Harneys nayles the some' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "nayles",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/harness#rate-1558-inward-546",
@@ -299,7 +312,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 546 (transcribed by Stuart Jenks): 'Harnes nailes the some cont’ tenne thowsand' 10s"
+      "sourceText": "Book of Rates 1558, inward, line 546 (transcribed by Stuart Jenks): 'Harnes nailes the some cont’ tenne thowsand' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "nailes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/harness#rate-1558-inward-580",
@@ -326,7 +352,24 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 580 (transcribed by Stuart Jenks): 'Harnes voc’ di’ launces the pece' 26s 8d"
+      "sourceText": "Book of Rates 1558, inward, line 580 (transcribed by Stuart Jenks): 'Harnes voc’ di’ launces the pece' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "half"
+        },
+        {
+          "type": "Type",
+          "_label": "launces",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -5,7 +5,9 @@
   ],
   "id": "https://w3id.org/hector/commodity/gross-abou-thes-rates",
   "type": "Type",
-  "_label": "gross (abou thes rates)",
+  "_label": "gross (withdrawn record)",
+  "deprecated": true,
+  "modified": "2026-10-03",
   "referred_to_by": [
     {
       "type": "LinguisticObject",
@@ -16,78 +18,11 @@
           "_label": "brief texts"
         }
       ],
-      "content": "gross, qualified as ‘abou thes rates’: a commodity as the Books of Rates price it separately (HECTOR decision 2, 29 Sep 2026)."
+      "content": "Withdrawn 3 Oct 2026. This record stood for the commodity as one Book of Rates entry qualifies it; the rates are now on the commodity itself, each naming its qualifier."
     }
   ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "content": "gross (abou thes rates)",
-      "classified_as": [
-        {
-          "id": "aat:300404670",
-          "type": "Type",
-          "_label": "preferred terms"
-        }
-      ],
-      "phoneticKey": [
-        "gros abuː θes ratəs"
-      ]
-    },
-    {
-      "type": "Name",
-      "content": "",
-      "classified_as": [
-        {
-          "id": "hector:AttestedVariant",
-          "type": "Type",
-          "_label": "attested variant"
-        }
-      ]
-    }
-  ],
-  "broader": [
-    {
-      "id": "https://w3id.org/hector/commodity/gross",
-      "type": "Type",
-      "_label": "gross"
-    }
-  ],
-  "compoundOf": [
-    {
-      "id": "https://w3id.org/hector/commodity/gross",
-      "type": "Type",
-      "_label": "gross"
-    }
-  ],
-  "modified": "2026-10-03",
-  "taxation": [
-    {
-      "id": "https://w3id.org/hector/commodity/gross-abou-thes-rates#rate-1558-inward-529",
-      "type": "Rate",
-      "_label": "1558 inward: the grosse of all sortes above these rates £3",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "720",
-        "lsd": "£3"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 144,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/gross",
-          "type": "MeasurementUnit",
-          "_label": "gross"
-        }
-      },
-      "validFrom": "1558",
-      "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 529 (transcribed by Stuart Jenks): 'the grosse of all sortes above these rates' £3"
-    }
-  ]
+  "isReplacedBy": {
+    "id": "https://w3id.org/hector/commodity/gross",
+    "type": "Type"
+  }
 }

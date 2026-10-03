@@ -11,10 +11,6 @@
     rdfs:label "leather" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "lether" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "leθer" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "ledders" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "leders" ;
@@ -33,6 +29,11 @@
             hector:validFrom "1519"^^xsd:gYear ;
             hector:validThrough "1520"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "leather" ;
+            crm:P2_has_type aat:300404670,
+                hector:AttestedVariant ;
+            hector:phoneticKey "lɛːθer" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "ledar" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "ledar" ;
@@ -45,24 +46,37 @@
             hector:validFrom "1480"^^xsd:gYear ;
             hector:validThrough "1481"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "lether" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "leθer" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "ledyr" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "ledir" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "leather" ;
-            crm:P2_has_type aat:300404670,
-                hector:AttestedVariant ;
-            hector:phoneticKey "lɛːθer" ] ;
+            hector:phoneticKey "ledir" ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "The skin or hide of an animal that has been tanned to render it resistant to putrefication and relatively soft and flexible when dry. For composite material made from scrap leather pieces, use \"maril.\" [Source: Getty AAT]" ;
             crm:P2_has_type aat:300435416 ] ;
     skos:exactMatch <https://w3id.org/mlca/glossary/leather> ;
     skos:related <https://w3id.org/hector/commodity/redlether> ;
     la:equivalent aat:300011845 ;
-    hector:attestationCount 288 .
+    hector:attestationCount 288 ;
+    hector:taxation <https://w3id.org/hector/commodity/leather#rate-1507-none-162>,
+        <https://w3id.org/hector/commodity/leather#rate-1507-none-163>,
+        <https://w3id.org/hector/commodity/leather#rate-1545-inward-227>,
+        <https://w3id.org/hector/commodity/leather#rate-1545-inward-437>,
+        <https://w3id.org/hector/commodity/leather#rate-1545-inward-438>,
+        <https://w3id.org/hector/commodity/leather#rate-1545-inward-444>,
+        <https://w3id.org/hector/commodity/leather#rate-1545-inward-445>,
+        <https://w3id.org/hector/commodity/leather#rate-1545-inward-446>,
+        <https://w3id.org/hector/commodity/leather#rate-1545-inward-447>,
+        <https://w3id.org/hector/commodity/leather#rate-1558-inward-1112>,
+        <https://w3id.org/hector/commodity/leather#rate-1558-inward-657> .
 
 aat:300011845 a crm:E55_Type ;
     rdfs:label "leather" .
+
+aat:300126225 a crm:E55_Type ;
+    rdfs:label "red (color)" .
 
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
@@ -70,11 +84,207 @@ aat:300404670 a crm:E55_Type ;
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
+<https://w3id.org/hector/commodity/leather#rate-1507-none-162> a hector:Rate ;
+    rdfs:label "1507: Lether for cousschenes the dossen 2s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "2s" ;
+            hector:valueInPence 24.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "cousschenes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 162 (transcribed by Stuart Jenks): 'Lether for cousschenes the dossen' 2s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/leather#rate-1507-none-163> a hector:Rate ;
+    rdfs:label "1507: Lether called rede bash for cosshynes the dossen 2s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "2s" ;
+            hector:valueInPence 24.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "red" ;
+            la:equivalent aat:300126225 ],
+        [ a crm:E55_Type ;
+            rdfs:label "bash for cosshynes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 163 (transcribed by Stuart Jenks): 'Lether called rede bash for cosshynes the dossen' 2s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/leather#rate-1545-inward-227> a hector:Rate ;
+    rdfs:label "1545 inward: Danske lether taude the dossen 16s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "16s 8d" ;
+            hector:valueInPence 200.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Danske" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "taude" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 227 (transcribed by Stuart Jenks): 'Danske lether taude the dossen' 16s 8d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/leather#rate-1545-inward-437> a hector:Rate ;
+    rdfs:label "1545 inward: Lether for cosshens the dossen 2s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "2s" ;
+            hector:valueInPence 24.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "cosshens" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 437 (transcribed by Stuart Jenks): 'Lether for cosshens the dossen' 2s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/leather#rate-1545-inward-438> a hector:Rate ;
+    rdfs:label "1545 inward: Lether laces the groce 5s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "5s" ;
+            hector:valueInPence 60.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "laces" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 438 (transcribed by Stuart Jenks): 'Lether laces the groce' 5s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/leather#rate-1545-inward-444> a hector:Rate ;
+    rdfs:label "1545 inward: Lether bagges without lockes the dossen 2s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "2s" ;
+            hector:valueInPence 24.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "without lockes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 444 (transcribed by Stuart Jenks): 'Lether bagges without lockes the dossen' 2s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/leather#rate-1545-inward-445> a hector:Rate ;
+    rdfs:label "1545 inward: Lether bagges with lockes the dossen 4s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4s" ;
+            hector:valueInPence 48.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "lockes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 445 (transcribed by Stuart Jenks): 'Lether bagges with lockes the dossen' 4s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/leather#rate-1545-inward-446> a hector:Rate ;
+    rdfs:label "1545 inward: Lether gyrdels the groce 4s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4s" ;
+            hector:valueInPence 48.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 144 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "gyrdels" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 446 (transcribed by Stuart Jenks): 'Lether gyrdels the groce' 4s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/leather#rate-1545-inward-447> a hector:Rate ;
+    rdfs:label "1545 inward: Lether gyrdels of the newe makinge the dossen 2s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "2s" ;
+            hector:valueInPence 24.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "new" ],
+        [ a crm:E55_Type ;
+            rdfs:label "gyrdels" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "makinge" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 447 (transcribed by Stuart Jenks): 'Lether gyrdels of the newe makinge the dossen' 2s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/leather#rate-1558-inward-1112> a hector:Rate ;
+    rdfs:label "1558 inward: Touche boxes of lether the dossen 14d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "14d" ;
+            hector:valueInPence 14.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Touche" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 1112 (transcribed by Stuart Jenks): 'Touche boxes of lether the dossen' 14d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/leather#rate-1558-inward-657> a hector:Rate ;
+    rdfs:label "1558 inward: Lether for cusshinges the dosen 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "cusshinges" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 657 (transcribed by Stuart Jenks): 'Lether for cusshinges the dosen' 6s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/redlether> a crm:E55_Type ;
     rdfs:label "redlether" .
 
 <https://w3id.org/mlca/glossary/leather> a crm:E55_Type ;
     rdfs:label "leather (London Customs Accounts glossary)" .
+
+<https://w3id.org/hector/unit/gross> a crm:E58_Measurement_Unit ;
+    rdfs:label "gross" .
+
+<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
+    rdfs:label "dozen" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

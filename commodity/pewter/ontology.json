@@ -91,7 +91,20 @@
       },
       "validFrom": "1507",
       "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 223 (transcribed by Stuart Jenks): 'Pewter vesselle the C wayte' 33s 4d"
+      "sourceText": "Book of Rates 1507, line 223 (transcribed by Stuart Jenks): 'Pewter vesselle the C wayte' 33s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "vesselle",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

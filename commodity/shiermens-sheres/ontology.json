@@ -397,6 +397,160 @@
       "validFrom": "1507",
       "validThrough": "1545",
       "sourceText": "Book of Rates 1507, line 253 (transcribed by Stuart Jenks): 'Shermans sheres the payer' 6s 8d"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/shiermens-sheres#rate-1545-inward-666",
+      "type": "Rate",
+      "_label": "1545 inward: Shermen sheres the payer newe 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pair",
+          "type": "MeasurementUnit",
+          "_label": "pair"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 666 (transcribed by Stuart Jenks): 'Shermen sheres the payer newe' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "sheres",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "new"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/shiermens-sheres#rate-1545-inward-667",
+      "type": "Rate",
+      "_label": "1545 inward: Shermen sheres the payre olde 4s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "48",
+        "lsd": "4s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pair",
+          "type": "MeasurementUnit",
+          "_label": "pair"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 667 (transcribed by Stuart Jenks): 'Shermen sheres the payre olde' 4s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "sheres",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "old"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/shiermens-sheres#rate-1558-inward-1000",
+      "type": "Rate",
+      "_label": "1558 inward: Shermens sheres newe the payre 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pair",
+          "type": "MeasurementUnit",
+          "_label": "pair"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1000 (transcribed by Stuart Jenks): 'Shermens sheres newe the payre' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "new"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/shiermens-sheres#rate-1558-inward-999",
+      "type": "Rate",
+      "_label": "1558 inward: Shermens sheres old the payre 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pair",
+          "type": "MeasurementUnit",
+          "_label": "pair"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 999 (transcribed by Stuart Jenks): 'Shermens sheres old the payre' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "old"
+        }
+      ]
     }
   ]
 }

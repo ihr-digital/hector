@@ -5,6 +5,7 @@
 @prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/hector/commodity/buckram> a crm:E55_Type ;
@@ -217,12 +218,15 @@
     skos:exactMatch <https://w3id.org/mlca/glossary/buckram> ;
     la:equivalent aat:300253474 ;
     hector:attestationCount 1140 ;
-    hector:taxation <https://w3id.org/hector/commodity/buckram#rate-1545-inward-40>,
+    hector:taxation <https://w3id.org/hector/commodity/buckram#rate-1507-none-9>,
+        <https://w3id.org/hector/commodity/buckram#rate-1545-inward-40>,
         <https://w3id.org/hector/commodity/buckram#rate-1545-inward-41>,
+        <https://w3id.org/hector/commodity/buckram#rate-1545-inward-42>,
         <https://w3id.org/hector/commodity/buckram#rate-1545-outward-16>,
         <https://w3id.org/hector/commodity/buckram#rate-1558-inward-106>,
         <https://w3id.org/hector/commodity/buckram#rate-1558-inward-107>,
-        <https://w3id.org/hector/commodity/buckram#rate-1558-inward-108> .
+        <https://w3id.org/hector/commodity/buckram#rate-1558-inward-108>,
+        <https://w3id.org/hector/commodity/buckram#rate-1558-inward-109> .
 
 aat:300253474 a crm:E55_Type ;
     rdfs:label "buckram" .
@@ -232,6 +236,21 @@ aat:300404670 a crm:E55_Type ;
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
+
+<https://w3id.org/hector/commodity/buckram#rate-1507-none-9> a hector:Rate ;
+    rdfs:label "1507: Buckrams shorte rowles a dossen þe small 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "short" ] ;
+    hector:sourceText "Book of Rates 1507, line 9 (transcribed by Stuart Jenks): 'Buckrams shorte rowles a dossen þe small' 20s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/buckram#rate-1545-inward-40> a hector:Rate ;
     rdfs:label "1545 inward: Bokeram the paper, videlicet 3 peces to one paper 6s 8d" ;
@@ -256,6 +275,22 @@ aat:300435416 a crm:E55_Type ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/roll> ] ;
     hector:sourceText "Book of Rates 1545, inward, line 41 (transcribed by Stuart Jenks): 'Bokeram the rowle' 20d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/buckram#rate-1545-inward-42> a hector:Rate ;
+    rdfs:label "1545 inward: Bokeram of Fraunce the pece 20d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20d" ;
+            hector:valueInPence 20.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "France" ;
+            hector:originPlace wd:Q142 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 42 (transcribed by Stuart Jenks): 'Bokeram of Fraunce the pece' 20d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
@@ -311,20 +346,42 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
-<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
-    rdfs:label "dozen" .
-
-<https://w3id.org/hector/unit/pecia> a crm:E58_Measurement_Unit ;
-    rdfs:label "pecia" .
+<https://w3id.org/hector/commodity/buckram#rate-1558-inward-109> a hector:Rate ;
+    rdfs:label "1558 inward: Buckeram of þe Frenche makinge for hanginges the dosen peces 30s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "30s" ;
+            hector:valueInPence 360.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "makinge for hanginges" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "France" ;
+            hector:originPlace wd:Q142 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 109 (transcribed by Stuart Jenks): 'Buckeram of þe Frenche makinge for hanginges the dosen peces' 30s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/mlca/glossary/buckram> a crm:E55_Type ;
     rdfs:label "buckram (London Customs Accounts glossary)" .
 
+wd:Q142 a crm:E53_Place ;
+    rdfs:label "France" .
+
 <https://w3id.org/hector/unit/paper> a crm:E58_Measurement_Unit ;
     rdfs:label "paper (measure)" .
 
+<https://w3id.org/hector/unit/pecia> a crm:E58_Measurement_Unit ;
+    rdfs:label "pecia" .
+
 <https://w3id.org/hector/unit/roll> a crm:E58_Measurement_Unit ;
     rdfs:label "roll" .
+
+<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
+    rdfs:label "dozen" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

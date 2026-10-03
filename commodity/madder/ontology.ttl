@@ -84,11 +84,14 @@
         wd:Q162108 ;
     skos:exactMatch <https://w3id.org/mlca/glossary/madder> ;
     hector:attestationCount 3084 ;
-    hector:taxation <https://w3id.org/hector/commodity/madder#rate-1507-none-176>,
+    hector:taxation <https://w3id.org/hector/commodity/madder#rate-1507-none-166>,
+        <https://w3id.org/hector/commodity/madder#rate-1507-none-167>,
+        <https://w3id.org/hector/commodity/madder#rate-1507-none-176>,
         <https://w3id.org/hector/commodity/madder#rate-1545-inward-471>,
         <https://w3id.org/hector/commodity/madder#rate-1545-inward-472>,
         <https://w3id.org/hector/commodity/madder#rate-1545-outward-13>,
         <https://w3id.org/hector/commodity/madder#rate-1558-inward-696>,
+        <https://w3id.org/hector/commodity/madder#rate-1558-inward-697>,
         <https://w3id.org/hector/commodity/madder#rate-1558-inward-698> .
 
 aat:300013062 a crm:E55_Type ;
@@ -103,6 +106,37 @@ aat:300435416 a crm:E55_Type ;
 wd:Q162108 a crm:E55_Type ;
     rdfs:label "Rubia" .
 
+<https://w3id.org/hector/commodity/madder#rate-1507-none-166> a hector:Rate ;
+    rdfs:label "1507: Mather called croppe mather or humberow mather the bale 50s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "50s" ;
+            hector:valueInPence 600.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/bale> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "humberow" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 166 (transcribed by Stuart Jenks): 'Mather called croppe mather or humberow mather the bale' 50s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/madder#rate-1507-none-167> a hector:Rate ;
+    rdfs:label "1507: Mather called mull mather þe bale 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/bale> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "mull" ] ;
+    hector:sourceText "Book of Rates 1507, line 167 (transcribed by Stuart Jenks): 'Mather called mull mather þe bale' 20s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/madder#rate-1507-none-176> a hector:Rate ;
     rdfs:label "1507: Mather called crope or umbero the pocke 37s 6d" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -112,6 +146,9 @@ wd:Q162108 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pocket> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "crope or umbero" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1507, line 176 (transcribed by Stuart Jenks): 'Mather called crope or umbero the pocke' 37s 6d" ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
@@ -168,6 +205,22 @@ wd:Q162108 a crm:E55_Type ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/madder#rate-1558-inward-697> a hector:Rate ;
+    rdfs:label "1558 inward: Madder voc’ mulle madder the bale cont’ 8 C [lb.] 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/bale> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "mulle" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 697 (transcribed by Stuart Jenks): 'Madder voc’ mulle madder the bale cont’ 8 C [lb.]' 20s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/madder#rate-1558-inward-698> a hector:Rate ;
     rdfs:label "1558 inward: Madder the C lb. cont’ 112 lb 13s 4d" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -187,11 +240,11 @@ wd:Q162108 a crm:E55_Type ;
 <https://w3id.org/mlca/glossary/madder> a crm:E55_Type ;
     rdfs:label "madder (London Customs Accounts glossary)" .
 
-<https://w3id.org/hector/unit/bale> a crm:E58_Measurement_Unit ;
-    rdfs:label "bale" .
-
 <https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
     rdfs:label "hundred" .
+
+<https://w3id.org/hector/unit/bale> a crm:E58_Measurement_Unit ;
+    rdfs:label "bale" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

@@ -11,10 +11,6 @@
     rdfs:label "calf" ;
     dcterms:modified "2026-09-29"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "calvys" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "kalvis" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "calfes" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kalfəs" ],
@@ -22,6 +18,10 @@
             crm:P190_has_symbolic_content "calff" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "kalf" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "calvys" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "kalvis" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "calfe" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -69,6 +69,8 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 12 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "skin" ] ;
     hector:sourceText "Book of Rates 1558, outward, line 12 (transcribed by Stuart Jenks): 'Calves skynnes the dossen' 10s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .

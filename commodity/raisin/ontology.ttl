@@ -11,6 +11,24 @@
     rdfs:label "raisin" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "raisen" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "raisen" ;
+            hector:validFrom "1536"^^xsd:gYear ;
+            hector:validThrough "1540"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "rackmorne" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "rakmornə" ;
+            hector:validFrom "1556"^^xsd:gYear ;
+            hector:validThrough "1559"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "racemonum" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "rasemonum" ;
+            hector:validFrom "1556"^^xsd:gYear ;
+            hector:validThrough "1559"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "reisens" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "reisens" ;
@@ -29,38 +47,15 @@
             hector:validFrom "1431"^^xsd:gYear ;
             hector:validThrough "1433"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "raisin" ;
-            crm:P2_has_type aat:300404670,
-                hector:AttestedVariant ;
-            hector:phoneticKey "raisin" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "resinorum" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "resinorum" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "resouns" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "resuːns" ;
-            hector:validFrom "1438"^^xsd:gYear ;
-            hector:validThrough "1439"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "resyns" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "resins" ;
-            hector:validFrom "1507"^^xsd:gYear ;
-            hector:validThrough "1508"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "raisson" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "raison" ;
             hector:validFrom "1533"^^xsd:gYear ;
             hector:validThrough "1535"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "resoun" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "resuːn" ;
-            hector:validFrom "1438"^^xsd:gYear ;
-            hector:validThrough "1439"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "rasemorum" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -72,6 +67,12 @@
             hector:validFrom "1480"^^xsd:gYear ;
             hector:validThrough "1481"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "reysens" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "reisens" ;
+            hector:validFrom "1380"^^xsd:gYear ;
+            hector:validThrough "1385"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "racens" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "rasens" ;
@@ -82,11 +83,11 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "rasimorum" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "reasons" ;
+            crm:P190_has_symbolic_content "resouns" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "rɛːsons" ;
-            hector:validFrom "1550"^^xsd:gYear ;
-            hector:validThrough "1553"^^xsd:gYear ],
+            hector:phoneticKey "resuːns" ;
+            hector:validFrom "1438"^^xsd:gYear ;
+            hector:validThrough "1439"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "raissons" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -94,11 +95,16 @@
             hector:validFrom "1533"^^xsd:gYear ;
             hector:validThrough "1535"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "reysin" ;
+            crm:P190_has_symbolic_content "raisin" ;
+            crm:P2_has_type aat:300404670,
+                hector:AttestedVariant ;
+            hector:phoneticKey "raisin" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "resyns" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "reisin" ;
-            hector:validFrom "1446"^^xsd:gYear ;
-            hector:validThrough "1450"^^xsd:gYear ],
+            hector:phoneticKey "resins" ;
+            hector:validFrom "1507"^^xsd:gYear ;
+            hector:validThrough "1508"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "raceni" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -140,18 +146,6 @@
             hector:validFrom "1431"^^xsd:gYear ;
             hector:validThrough "1433"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "resyn" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "resin" ;
-            hector:validFrom "1461"^^xsd:gYear ;
-            hector:validThrough "1465"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "reysyn" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "reisin" ;
-            hector:validFrom "1506"^^xsd:gYear ;
-            hector:validThrough "1507"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "racenum" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "rasenum" ;
@@ -163,12 +157,6 @@
             hector:phoneticKey "reisin" ;
             hector:validFrom "1431"^^xsd:gYear ;
             hector:validThrough "1433"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "reysins" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "reisins" ;
-            hector:validFrom "1446"^^xsd:gYear ;
-            hector:validThrough "1450"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "reisins" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -210,6 +198,12 @@
             hector:validFrom "1536"^^xsd:gYear ;
             hector:validThrough "1540"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "reysin" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "reisin" ;
+            hector:validFrom "1446"^^xsd:gYear ;
+            hector:validThrough "1450"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "rasyns" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "rasins" ;
@@ -246,12 +240,6 @@
             hector:validFrom "1505"^^xsd:gYear ;
             hector:validThrough "1506"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "reason" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "rɛːson" ;
-            hector:validFrom "1550"^^xsd:gYear ;
-            hector:validThrough "1553"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "rasen" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "rasen" ;
@@ -275,6 +263,18 @@
             hector:phoneticKey "reisons" ;
             hector:validFrom "1545"^^xsd:gYear ;
             hector:validThrough "1547"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "reasons" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "rɛːsons" ;
+            hector:validFrom "1550"^^xsd:gYear ;
+            hector:validThrough "1553"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "resoun" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "resuːn" ;
+            hector:validFrom "1438"^^xsd:gYear ;
+            hector:validThrough "1439"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "reissons" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -324,6 +324,12 @@
             hector:validFrom "1553"^^xsd:gYear ;
             hector:validThrough "1555"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "reysins" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "reisins" ;
+            hector:validFrom "1446"^^xsd:gYear ;
+            hector:validThrough "1450"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "rason" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "rason" ;
@@ -360,6 +366,12 @@
             hector:validFrom "1400"^^xsd:gYear ;
             hector:validThrough "1421"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "reason" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "rɛːson" ;
+            hector:validFrom "1550"^^xsd:gYear ;
+            hector:validThrough "1553"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "rasenum" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "rasenum" ;
@@ -378,15 +390,23 @@
             hector:validFrom "1512"^^xsd:gYear ;
             hector:validThrough "1513"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "reysynges" ;
+            crm:P190_has_symbolic_content "resyn" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "reisindʒəs" ],
+            hector:phoneticKey "resin" ;
+            hector:validFrom "1461"^^xsd:gYear ;
+            hector:validThrough "1465"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "raisons" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "raisons" ;
             hector:validFrom "1390"^^xsd:gYear ;
             hector:validThrough "1555"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "reysyn" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "reisin" ;
+            hector:validFrom "1506"^^xsd:gYear ;
+            hector:validThrough "1507"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "rasinum" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -424,33 +444,13 @@
             hector:validFrom "1380"^^xsd:gYear ;
             hector:validThrough "1385"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "reysynges" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "reisindʒəs" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "racemorum" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "rasemorum" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "raisen" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "raisen" ;
-            hector:validFrom "1536"^^xsd:gYear ;
-            hector:validThrough "1540"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "reysens" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "reisens" ;
-            hector:validFrom "1380"^^xsd:gYear ;
-            hector:validThrough "1385"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "rackmorne" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "rakmornə" ;
-            hector:validFrom "1556"^^xsd:gYear ;
-            hector:validThrough "1559"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "racemonum" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "rasemonum" ;
-            hector:validFrom "1556"^^xsd:gYear ;
-            hector:validThrough "1559"^^xsd:gYear ] ;
+            hector:phoneticKey "rasemorum" ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "Grapes that are partially dried in sunlight or by artificial means. Uses include eating as is, as an ingredient in cooking, and in the production of wine [Source: Getty AAT]" ;
             crm:P2_has_type aat:300435416 ] ;
@@ -458,8 +458,14 @@
     skos:related <https://w3id.org/hector/commodity/currant> ;
     la:equivalent aat:300411356 ;
     hector:attestationCount 1943 ;
-    hector:taxation <https://w3id.org/hector/commodity/raisin#rate-1545-inward-617>,
-        <https://w3id.org/hector/commodity/raisin#rate-1545-inward-618> .
+    hector:taxation <https://w3id.org/hector/commodity/raisin#rate-1507-none-231>,
+        <https://w3id.org/hector/commodity/raisin#rate-1545-inward-315>,
+        <https://w3id.org/hector/commodity/raisin#rate-1545-inward-316>,
+        <https://w3id.org/hector/commodity/raisin#rate-1545-inward-617>,
+        <https://w3id.org/hector/commodity/raisin#rate-1545-inward-618>,
+        <https://w3id.org/hector/commodity/raisin#rate-1558-inward-502>,
+        <https://w3id.org/hector/commodity/raisin#rate-1558-inward-503>,
+        <https://w3id.org/hector/commodity/raisin#rate-1558-inward-907> .
 
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
@@ -472,6 +478,54 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/hector/commodity/currant> a crm:E55_Type ;
     rdfs:label "currant" .
+
+<https://w3id.org/hector/commodity/raisin#rate-1507-none-231> a hector:Rate ;
+    rdfs:label "1507: Resons of Corons the C wyght 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Corons" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 231 (transcribed by Stuart Jenks): 'Resons of Corons the C wyght' 13s 4d" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/raisin#rate-1545-inward-315> a hector:Rate ;
+    rdfs:label "1545 inward: Great raysons the hundrith pounde 2s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "2s" ;
+            hector:valueInPence 24.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "large" ;
+            la:equivalent aat:300073756 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 315 (transcribed by Stuart Jenks): 'Great raysons the hundrith pounde' 2s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/raisin#rate-1545-inward-316> a hector:Rate ;
+    rdfs:label "1545 inward: Great raysons the pece 20d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20d" ;
+            hector:valueInPence 20.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "large" ;
+            la:equivalent aat:300073756 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 316 (transcribed by Stuart Jenks): 'Great raysons the pece' 20d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/raisin#rate-1545-inward-617> a hector:Rate ;
     rdfs:label "1545 inward: Raysons the hundreth pounde 2s" ;
@@ -499,14 +553,65 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
-<https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
-    rdfs:label "hundred" .
+<https://w3id.org/hector/commodity/raisin#rate-1558-inward-502> a hector:Rate ;
+    rdfs:label "1558 inward: Great raisons the C lb. cont’ 112 lb 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "large" ;
+            la:equivalent aat:300073756 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 502 (transcribed by Stuart Jenks): 'Great raisons the C lb. cont’ 112 lb' 6s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/raisin#rate-1558-inward-503> a hector:Rate ;
+    rdfs:label "1558 inward: Great raisons the pece 5s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "5s" ;
+            hector:valueInPence 60.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "large" ;
+            la:equivalent aat:300073756 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 503 (transcribed by Stuart Jenks): 'Great raisons the pece' 5s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/raisin#rate-1558-inward-907> a hector:Rate ;
+    rdfs:label "1558 inward: Raysons of the sonne the hundreth 16s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "16s 8d" ;
+            hector:valueInPence 200.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "sonne" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 907 (transcribed by Stuart Jenks): 'Raysons of the sonne the hundreth' 16s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/mlca/glossary/raisin> a crm:E55_Type ;
+    rdfs:label "raisin (London Customs Accounts glossary)" .
 
 <https://w3id.org/hector/unit/pecia> a crm:E58_Measurement_Unit ;
     rdfs:label "pecia" .
 
-<https://w3id.org/mlca/glossary/raisin> a crm:E55_Type ;
-    rdfs:label "raisin (London Customs Accounts glossary)" .
+aat:300073756 a crm:E55_Type ;
+    rdfs:label "large" .
+
+<https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
+    rdfs:label "hundred" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

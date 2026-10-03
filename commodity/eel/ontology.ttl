@@ -132,7 +132,19 @@
         <https://w3id.org/hector/commodity/shaft-eel>,
         <https://w3id.org/hector/commodity/stub-eel> ;
     hector:attestationCount 825 ;
-    hector:taxation <https://w3id.org/hector/commodity/eel#rate-1545-inward-260>,
+    hector:taxation <https://w3id.org/hector/commodity/eel#rate-1507-none-75>,
+        <https://w3id.org/hector/commodity/eel#rate-1507-none-76>,
+        <https://w3id.org/hector/commodity/eel#rate-1507-none-77>,
+        <https://w3id.org/hector/commodity/eel#rate-1507-none-78>,
+        <https://w3id.org/hector/commodity/eel#rate-1507-none-79>,
+        <https://w3id.org/hector/commodity/eel#rate-1507-none-80>,
+        <https://w3id.org/hector/commodity/eel#rate-1545-inward-254>,
+        <https://w3id.org/hector/commodity/eel#rate-1545-inward-255>,
+        <https://w3id.org/hector/commodity/eel#rate-1545-inward-256>,
+        <https://w3id.org/hector/commodity/eel#rate-1545-inward-257>,
+        <https://w3id.org/hector/commodity/eel#rate-1545-inward-258>,
+        <https://w3id.org/hector/commodity/eel#rate-1545-inward-259>,
+        <https://w3id.org/hector/commodity/eel#rate-1545-inward-260>,
         <https://w3id.org/hector/commodity/eel#rate-1545-inward-261> .
 
 aat:300261225 a crm:E55_Type ;
@@ -146,6 +158,198 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/hector/commodity/conger> a crm:E55_Type ;
     rdfs:label "conger" .
+
+<https://w3id.org/hector/commodity/eel#rate-1507-none-75> a hector:Rate ;
+    rdfs:label "1507: Elys called stowbe elys the last £20" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£20" ;
+            hector:valueInPence 4800.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "stowbe" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 75 (transcribed by Stuart Jenks): 'Elys called stowbe elys the last' £20" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/eel#rate-1507-none-76> a hector:Rate ;
+    rdfs:label "1507: Elys called stube elys the barylle 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/barrel> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "stube" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 76 (transcribed by Stuart Jenks): 'Elys called stube elys the barylle' 20s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/eel#rate-1507-none-77> a hector:Rate ;
+    rdfs:label "1507: Elys called chaffte elles the laste £12" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£12" ;
+            hector:valueInPence 2880.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "chaffte" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 77 (transcribed by Stuart Jenks): 'Elys called chaffte elles the laste' £12" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/eel#rate-1507-none-78> a hector:Rate ;
+    rdfs:label "1507: Elys called chaffte ellys the barylle 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/barrel> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "chaffte ellys" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 78 (transcribed by Stuart Jenks): 'Elys called chaffte ellys the barylle' 20s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/eel#rate-1507-none-79> a hector:Rate ;
+    rdfs:label "1507: Elys called pymper elles the laste £8" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£8" ;
+            hector:valueInPence 1920.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "pymper" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 79 (transcribed by Stuart Jenks): 'Elys called pymper elles the laste' £8" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/eel#rate-1507-none-80> a hector:Rate ;
+    rdfs:label "1507: Elys called pymper eles the barelle 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/barrel> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "pymper" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 80 (transcribed by Stuart Jenks): 'Elys called pymper eles the barelle' 13s 4d" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/eel#rate-1545-inward-254> a hector:Rate ;
+    rdfs:label "1545 inward: Elis called stubbe elis the barell [b.i dorse] 33s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "33s 4d" ;
+            hector:valueInPence 400.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/barrel> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "stubbe" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 254 (transcribed by Stuart Jenks): 'Elis called stubbe elis the barell [b.i dorse]' 33s 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/eel#rate-1545-inward-255> a hector:Rate ;
+    rdfs:label "1545 inward: Elis called stubbe elis the laste £20" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£20" ;
+            hector:valueInPence 4800.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "stubbe" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 255 (transcribed by Stuart Jenks): 'Elis called stubbe elis the laste' £20" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/eel#rate-1545-inward-256> a hector:Rate ;
+    rdfs:label "1545 inward: Elis called shaft, kyve or dole elis, the barel of eyther 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/barrel> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "shaft kyve or dole" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 256 (transcribed by Stuart Jenks): 'Elis called shaft, kyve or dole elis, the barel of eyther' 20s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/eel#rate-1545-inward-257> a hector:Rate ;
+    rdfs:label "1545 inward: Elis called shafte, kyve or dole elis, the laste of eyther £12" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£12" ;
+            hector:valueInPence 2880.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "shafte kyve or dole" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 257 (transcribed by Stuart Jenks): 'Elis called shafte, kyve or dole elis, the laste of eyther' £12" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/eel#rate-1545-inward-258> a hector:Rate ;
+    rdfs:label "1545 inward: Elis called pymper elis the barrel 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/barrel> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "pymper" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 258 (transcribed by Stuart Jenks): 'Elis called pymper elis the barrel' 13s 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/eel#rate-1545-inward-259> a hector:Rate ;
+    rdfs:label "1545 inward: Elis called pymper elis þe laste £8" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£8" ;
+            hector:valueInPence 1920.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "pymper" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 259 (transcribed by Stuart Jenks): 'Elis called pymper elis þe laste' £8" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/eel#rate-1545-inward-260> a hector:Rate ;
     rdfs:label "1545 inward: Elys of all sortes the barrel 20s" ;
@@ -194,14 +398,17 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/hector/commodity/stub-eel> a crm:E55_Type ;
     rdfs:label "stub eel" .
 
-<https://w3id.org/hector/unit/barrel> a crm:E58_Measurement_Unit ;
-    rdfs:label "barrel" .
-
 <https://w3id.org/hector/unit/cag> a crm:E58_Measurement_Unit ;
     rdfs:label "cag" .
 
 <https://w3id.org/mlca/glossary/eel> a crm:E55_Type ;
     rdfs:label "eel (London Customs Accounts glossary)" .
+
+<https://w3id.org/hector/unit/last> a crm:E58_Measurement_Unit ;
+    rdfs:label "last" .
+
+<https://w3id.org/hector/unit/barrel> a crm:E58_Measurement_Unit ;
+    rdfs:label "barrel" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

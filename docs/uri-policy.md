@@ -113,7 +113,9 @@ does. So:
    **Recommend embedding**, which also keeps the file count down.
 2. **Qualified commodities (decision 2):** if flattened, do their slugs follow the qualifier
    (`canvas-normandy`), or are they opaque? **Recommend readable slugs**, since the ledger makes
-   them stable anyway.
+   them stable anyway. *Moot from 3 Oct 2026: qualified commodities are no longer minted (the
+   qualifier is on the rate, PLAN.md decision 2); the 686 slugs minted are deprecated, each
+   replaced by its base commodity, and `ledger/qualified.tsv` records them.*
 3. **Units:** ~~is the `<dimension>` path level wanted?~~ **Amended 29 Sep 2026 (Stephen): no.**
    Most customs units are both a container and a customary quantity (sack, barrel, tun, pipe),
    so a dimension in the path would freeze a contested classification into a permanent URI.

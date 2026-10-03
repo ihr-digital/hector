@@ -699,6 +699,86 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/lettuis#rate-1545-inward-451",
+      "type": "Rate",
+      "_label": "1545 inward: Lettuis tawed þe tymber 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "40",
+        "lsd": "3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/timber",
+          "type": "MeasurementUnit",
+          "_label": "timber"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 451 (transcribed by Stuart Jenks): 'Lettuis tawed þe tymber' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "tawed",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/lettuis#rate-1545-inward-452",
+      "type": "Rate",
+      "_label": "1545 inward: Lettuis untawed the timber 2s 6d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "30",
+        "lsd": "2s 6d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/timber",
+          "type": "MeasurementUnit",
+          "_label": "timber"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 452 (transcribed by Stuart Jenks): 'Lettuis untawed the timber' 2s 6d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "untawed",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/lettuis#rate-1545-inward-465",
       "type": "Rate",
       "_label": "1545 inward: Lettuis yarne þe 100 lb 26s 8d",
@@ -723,7 +803,100 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 465 (transcribed by Stuart Jenks): 'Lettuis yarne þe 100 lb' 26s 8d"
+      "sourceText": "Book of Rates 1545, inward, line 465 (transcribed by Stuart Jenks): 'Lettuis yarne þe 100 lb' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "yarne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/lettuis#rate-1558-inward-654",
+      "type": "Rate",
+      "_label": "1558 inward: Letwis untawed the tymbre 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/timber",
+          "type": "MeasurementUnit",
+          "_label": "timber"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 654 (transcribed by Stuart Jenks): 'Letwis untawed the tymbre' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "untawed",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/lettuis#rate-1558-inward-655",
+      "type": "Rate",
+      "_label": "1558 inward: Letwis tawed the tymbre 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/timber",
+          "type": "MeasurementUnit",
+          "_label": "timber"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 655 (transcribed by Stuart Jenks): 'Letwis tawed the tymbre' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "tawed",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/lettuis#rate-1558-inward-656",

@@ -574,7 +574,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 1066 (transcribed by Stuart Jenks): 'Shoteles for weavers the dossyn' 2s"
+      "sourceText": "Book of Rates 1558, inward, line 1066 (transcribed by Stuart Jenks): 'Shoteles for weavers the dossyn' 2s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "weaver",
+          "equivalent": [
+            {
+              "id": "aat:300025367",
+              "type": "Type",
+              "_label": "weavers"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

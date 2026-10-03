@@ -8,39 +8,30 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_satin_cb11c8cf16fc7a7f86d723d5d4190133ed3045135f97a3e46090c1bfd637821b427">
-    <crm:P190_has_symbolic_content>satone</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>satonə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_satin_cb2c2eee6281753d465252d527fc05b5ca26b7cbe237c7f2112380f49d03a3730a2">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>3s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_satin_cb1575ed53fb04c166e7901491dcba53476660613f5e025174f8fc46eaf625131c9">
-    <crm:P190_has_symbolic_content>sattyns</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>satins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_satin_cb25e3d8fbf779398d62c1f392642a90fee4b79b455324c3fb8b4eb2a45d1936e0e">
-    <crm:P190_has_symbolic_content>saton</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>saton</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/satin#rate-1558-inward-917">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Satten ryght crymson or purple in grayne the yarde 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_satin_cb3d0c37e32331fb554bba39ea0070977e3d73e7be6d120d745051e7f367bc9f658"/>
+    <hector:perQuantity rdf:nodeID="commodity_satin_cb251bc9b7c4b53a357eabe711a0f23944217c79ddcd4f953bb82fbf6e969b1bd3b"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb14fb092379d9796b0fc061a614ea0ceb5354361a83395d74ec78a30ba8d29d394"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb1e59d5a315e5962a56ee4e1e8225e9e2d0834a7001e85c28347e2a3ae3e2ca7fd"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb1f843e798957c283ec4a01081a4a583bc1cfdf163c8b24780b62d5bbd79415940"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb242acb76fdca89a6c516c776d8516680940b9c1be3ccbed268031886d3d614669"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 917 (transcribed by Stuart Jenks): 'Satten ryght crymson or purple in grayne the yarde' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_satin_cb1587df5fd3b759985e27d192e77c88f811859ba4284397bf45d004547aeaf1d11">
-    <crm:P190_has_symbolic_content>sattyn</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>satin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_satin_cb1eae74a42b133bba9f72218fd086b2f78793a37a67f5cb245b6778af0f14bfb98">
+  <rdf:Description rdf:nodeID="commodity_satin_cb209f87f44845d71e2d8bfbc0ba49c20a11978e44923627707f3b7ef7214a33d21">
     <crm:P190_has_symbolic_content>saten</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -48,144 +39,7 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_satin_cb28c7ccd9d0c905e1d749386e44bb824f22bfbdb5372c5fcfa822793fb175626d6">
-    <crm:P190_has_symbolic_content>satens</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>satens</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_satin_cba8893d733a5b4d76e20b56d33ac97d1614b6adeb069143a93de6e79babf3eefd">
-    <crm:P190_has_symbolic_content>satin, a silk fabric with a glossy surface on one side (OED s.v. satin n.); Bruges satin made with a warp of silk and a woof of thread (OED s.v. silk 1b); measured in lb; dyed or not dyed with kermes (q.v.); also made in Cyprus</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_satin_cb28061629f642f5bd222396b439f3b1b5c7744e4518d3109a5608e3d623c3ca9cc">
-    <crm:P190_has_symbolic_content>satyn</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>satin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1508</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_satin_cb150f8e98129c4112d85070a87ac21343a2c9c7e77a20a8ef17ac4c5ed1561ead5">
-    <crm:P190_has_symbolic_content>sattin</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>satin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/satin">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb11c8cf16fc7a7f86d723d5d4190133ed3045135f97a3e46090c1bfd637821b427"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb150f8e98129c4112d85070a87ac21343a2c9c7e77a20a8ef17ac4c5ed1561ead5"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb1575ed53fb04c166e7901491dcba53476660613f5e025174f8fc46eaf625131c9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb1587df5fd3b759985e27d192e77c88f811859ba4284397bf45d004547aeaf1d11"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb1bd8c103da5a67abf44123be360726ad80f75a4fa8f676e9b418a81e702f6ef4e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb1cabb8b7a6a2391a85c236f1b046c23a45b9dabd333d0d4f4a0aa1dc1880b956f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb1d18584601f15d6b3830379ab09bcc024855a27a82076a04877c07217b2936361"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb1e65ce140099b776f5db936b6ecee1222dca2d51358c4583e4028ee7bda6a4a3c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb1eae74a42b133bba9f72218fd086b2f78793a37a67f5cb245b6778af0f14bfb98"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb1f2856bf40582f48cf0e5186d15520339046f2466817ebc2f086fb4aeb975419d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb1f33bdc034214a354cfcc03505549e01de8936ccb91d7198278e8bd9105fd04e4"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb1f34370aef99aa0c7d7a7faec3cd17f5ed28da11c9fa8ea34ac169cc5809ae57e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb20b95c049707ba5b120fc14df93a951253a5cbb49e74334b71f69066dace5fde4"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb22975087f8f77448668b8e03f74128e706108c04003c1adbbb8656e82ed7f48da"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb24c8a1c3dfef5dbc028ca297c81bb4884861266180806af89f1ef01b37b1007c1"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb24d34b03b8a875bfa81c3fb53161c2fb506b558ba301be50b075250f5e3940737"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb25e3d8fbf779398d62c1f392642a90fee4b79b455324c3fb8b4eb2a45d1936e0e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb26bcba68bdb9d73490fce9e0c6231823c053320c1c2a63f7cec96bf2da96a3228"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb27297732d01e01900fad6091db810656bdd703e14ba305785b0802820f3b9a1af"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb28061629f642f5bd222396b439f3b1b5c7744e4518d3109a5608e3d623c3ca9cc"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb28c7ccd9d0c905e1d749386e44bb824f22bfbdb5372c5fcfa822793fb175626d6"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb28fa2437d84d1a8d733c9d30508dfc4d20a785144b30405076a2b81ba8e25065f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb297031ce6a83b6b8d4a8f6bf9dd9dad6fec8b92ca09db81188a93ff8e65e96136"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_satin_cba8893d733a5b4d76e20b56d33ac97d1614b6adeb069143a93de6e79babf3eefd"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>satin</rdfs:label>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/satin"/>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300132902"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</hector:attestationCount>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_satin_cb1f2856bf40582f48cf0e5186d15520339046f2466817ebc2f086fb4aeb975419d">
-    <crm:P190_has_symbolic_content>sattens</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>satens</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_satin_cb1bd8c103da5a67abf44123be360726ad80f75a4fa8f676e9b418a81e702f6ef4e">
-    <crm:P190_has_symbolic_content>satyns</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>satins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_satin_cb24d34b03b8a875bfa81c3fb53161c2fb506b558ba301be50b075250f5e3940737">
-    <crm:P190_has_symbolic_content>satton</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>saton</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_satin_cb28fa2437d84d1a8d733c9d30508dfc4d20a785144b30405076a2b81ba8e25065f">
-    <crm:P190_has_symbolic_content>satynes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>satinəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_satin_cb1f33bdc034214a354cfcc03505549e01de8936ccb91d7198278e8bd9105fd04e4">
-    <crm:P190_has_symbolic_content>satine</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>satinə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_satin_cb1d18584601f15d6b3830379ab09bcc024855a27a82076a04877c07217b2936361">
-    <crm:P190_has_symbolic_content>satene</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>satenə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_satin_cb20b95c049707ba5b120fc14df93a951253a5cbb49e74334b71f69066dace5fde4">
-    <crm:P190_has_symbolic_content>satane</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>satanə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_satin_cb297031ce6a83b6b8d4a8f6bf9dd9dad6fec8b92ca09db81188a93ff8e65e96136">
-    <crm:P190_has_symbolic_content>satan</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>satan</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_satin_cb22975087f8f77448668b8e03f74128e706108c04003c1adbbb8656e82ed7f48da">
+  <rdf:Description rdf:nodeID="commodity_satin_cb337b009a7625028d2c278924b2db97cdc0fb65a034115470da592fafba2538ba2">
     <crm:P190_has_symbolic_content>sattynes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -193,23 +47,20 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_satin_cb26bcba68bdb9d73490fce9e0c6231823c053320c1c2a63f7cec96bf2da96a3228">
-    <crm:P190_has_symbolic_content>sateyn</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_satin_cb207470577b4f8b38e42944c6dc28bf59727fc95f4635f3ca990f0239b104a7f81">
+    <crm:P190_has_symbolic_content>satten</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>satein</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1450</hector:validThrough>
+    <hector:phoneticKey>saten</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_satin_cb24c8a1c3dfef5dbc028ca297c81bb4884861266180806af89f1ef01b37b1007c1">
-    <crm:P190_has_symbolic_content>satyne</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>satinə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_satin_cb19c27c6288c0bcc1a6412c9296a087ce4765bc35aa8f6749d3ec30ecb3cc8258d">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>crimson</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300311345"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_satin_cb27297732d01e01900fad6091db810656bdd703e14ba305785b0802820f3b9a1af">
+  <rdf:Description rdf:nodeID="commodity_satin_cb2d1a031c18a91be487dde199cddf8c3bf5d58504fd4fe8e305850fab8d7539c09">
     <crm:P190_has_symbolic_content>satin</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -218,15 +69,120 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_satin_cb1f34370aef99aa0c7d7a7faec3cd17f5ed28da11c9fa8ea34ac169cc5809ae57e">
-    <crm:P190_has_symbolic_content>sateyne</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sateinə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300130257">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>purple (color)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_satin_cb1e65ce140099b776f5db936b6ecee1222dca2d51358c4583e4028ee7bda6a4a3c">
+  <rdf:Description rdf:nodeID="commodity_satin_cb202f4d38a08b15944c30d2e7d10604209c9cf6a97941e1b044882602741da9ad3">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tinsel</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300183933"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/satin#rate-1507-none-279">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Sattyn crymsen cunterfett þe yard 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_satin_cb27364270596910c02668a89c1a1986f1adde51fc31367c7f6d3dfcee7a3acc1c7"/>
+    <hector:perQuantity rdf:nodeID="commodity_satin_cb22da1d8291480f248b37d82a328ee652971d600713b63a958546961673c764a38"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb126dc2abc3185d41d2763310799c7e31bed36fe1020bf71b96e60f0bef33521c2"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cbf39f9c3671c6a8fb46186a14c78f0b59522635b4dc4624077d458f49ffcacba8"/>
+    <hector:sourceText>Book of Rates 1507, line 279 (transcribed by Stuart Jenks): 'Sattyn crymsen cunterfett þe yard' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/satin#rate-1558-inward-916">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Satten out of grayne the yarde 9s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_satin_cb24fd5ca74f09137a0531d582e967c8aa8bc5c4d66b99d30004d3cc9296029133e"/>
+    <hector:perQuantity rdf:nodeID="commodity_satin_cb239a970a21ec73c24732906d8c16465925ed4115b5ae31037185f6c2ab99f8b58"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb1faf9473b1b047f5f2254c4d09aa5ef2a6111dd01ab660dacebd1ebc93289edc6"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 916 (transcribed by Stuart Jenks): 'Satten out of grayne the yarde' 9s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/satin">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb18caae9c0d7956b2eb6e4b872dde7948d0b364c1e8b3b3d751d51bbe6634e2eac"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb1d5785f8908b3022719014bb787b78ac1d7fe07ce51490fcfb136ca2a5e2c9ab5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb1f096b961f23f8cec64a11cb9a5edb14d2598d44ac47c650ab500d698d5eaa4ea"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb207470577b4f8b38e42944c6dc28bf59727fc95f4635f3ca990f0239b104a7f81"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb209f87f44845d71e2d8bfbc0ba49c20a11978e44923627707f3b7ef7214a33d21"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb2124d1105153e598db169a65ef17ad14688d2196e35dcde44b62922122954466d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb21254a5b0ccc45700b9459dfad902708772cc4dbf43aeaef6e9570146a3f22707"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb22aa6f54b43a55bea0299b7ee2fda424dda9b67ec8b48f9795ca96aeed03d3f6d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb263c2ef3e121238eb88bc9333e58779b5a87030caed6860dc5ca926a9df021b15"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb27d4ec4c14abd4f0f0dbcdc34deda0116ebb860f7d652047af22b8ec6f4eaaf97"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb2873fb21f15075c0ba4992f627b65599bbbd1fe4ff977b1b779617670d0c8a6a0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb28adcdb8daec72981f16c411afe627364a571cd6466ac043f29d723aeccc173b1"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb2ab8e029edfba1456563129f2e7e9161acc3a87f616cbc1bcbf67f87c3aad685f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb2b1202157ab2843426a3b663f31ee16f1133429c2dff9d668e714129c2f045652"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb2b61451e87b6521c62c2d0f0879ce9e988cca3f6cade145dac7d4640f8940a2bf"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb2c2558f6bf6d55674a215972d10a42648193abb22c2fbfddf0844053ff828d04e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb2d1a031c18a91be487dde199cddf8c3bf5d58504fd4fe8e305850fab8d7539c09"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb2f3b0806c11a1992aaa224561f090907399454d23d0b747e1edb18f8676d0b01e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb3114fd756e5fdfb51a4ceac7772d37d8439cc02ea1007d943f6865eb0035641bb"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb31e631d8bd541b152906f5dfe91c4d8498196c9bd73b422db7fbe9b1e942bfe5e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb337b009a7625028d2c278924b2db97cdc0fb65a034115470da592fafba2538ba2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb39bea05bbd3063985a2b642324ad1a90c536592219132bd4d663cadb4b1fd31ca"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_satin_cb3aa1b49a457fb9fc499a43d680f5d383e68fe3265f9839f2b507b07246ca1e842"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_satin_cb1a601443fb56841e26a037d30a103febd56c5a5a67abc1f4b6a70112f98e0fd15"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>satin</rdfs:label>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/satin"/>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300132902"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/satin#rate-1507-none-277"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/satin#rate-1507-none-279"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/satin#rate-1507-none-280"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/satin#rate-1507-none-281"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/satin#rate-1507-none-282"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/satin#rate-1507-none-283"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/satin#rate-1545-inward-633"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/satin#rate-1545-inward-634"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/satin#rate-1545-inward-635"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/satin#rate-1545-inward-636"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/satin#rate-1545-inward-637"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/satin#rate-1545-inward-638"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/satin#rate-1558-inward-1071"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/satin#rate-1558-inward-1109"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/satin#rate-1558-inward-916"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/satin#rate-1558-inward-917"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/satin#rate-1558-inward-918"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/satin#rate-1558-inward-919"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/satin#rate-1558-inward-920"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/satin#rate-1507-none-283">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Sattyn of Sypres everry pece on with another the pece 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_satin_cb31e07e9321fa0c570d4017727d70a591042a784de699682488da3ad4006b9d1f7"/>
+    <hector:perQuantity rdf:nodeID="commodity_satin_cb220b54d497c5db6b6602d6694164702595fb9832c2c42e6b0eaf2badb10bebeaa"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb21b06642c0d0c18c3e10096260378b2bed32e86d394228561797e7bae1acc7b68"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb2b5e2942c4c61820c7a97d790cb579263bd6f974ec25f4a33a19da77c8099f52c"/>
+    <hector:sourceText>Book of Rates 1507, line 283 (transcribed by Stuart Jenks): 'Sattyn of Sypres everry pece on with another the pece' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb17e73511b8735c5e5ddde093e7e9d878d65116c4ba851f7992db2c8222afe06bf">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tinsel</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300183933"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/satin#rate-1545-inward-636">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Satten tynseld with gold the yarde 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_satin_cb33fc11cca2b75c1786d73cb1136b02fbc8e61f44de92dd58150fcc24e5bde53d3"/>
+    <hector:perQuantity rdf:nodeID="commodity_satin_cb26570ac6b7c122fea747a6463054d9b37881b8be8801c5053aa00c41be9818cb2"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb18a7a1d80eb486ba8eb9387c76a8987f9e8d9e8149ab566b2a026c8e023cac79d"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb1e4bb829632a01fbf68285a247cc899e6d39492c846a7d0ba5a12efe5d8eb77c9"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 636 (transcribed by Stuart Jenks): 'Satten tynseld with gold the yarde' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb3654fbc022be9d9a9d964f4fb88a1a1436ba78fd6bc55b8fa398a7b9baec66ca7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Bruges</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q12994"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb2f3b0806c11a1992aaa224561f090907399454d23d0b747e1edb18f8676d0b01e">
     <crm:P190_has_symbolic_content>sattyne</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -234,20 +190,722 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300132902">
+  <rdf:Description rdf:nodeID="commodity_satin_cb1f5292ce9f426d757486770fea21609403e8230042ee7350662183ba813a78a9f">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>satin</rdfs:label>
+    <rdfs:label>coldwares</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_satin_cb1cabb8b7a6a2391a85c236f1b046c23a45b9dabd333d0d4f4a0aa1dc1880b956f">
-    <crm:P190_has_symbolic_content>satten</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q12994">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Bruges</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/satin#rate-1558-inward-1109">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Turquye satten the yarde 5s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_satin_cb300f4d21215173fc77b4456f53087530b4d0c7bb44c569a9daa5933826bb7ebf1"/>
+    <hector:perQuantity rdf:nodeID="commodity_satin_cb1e053cb5449bb268a8900795ea9c9bd07a8da6e3baac67ad875827b2df589fa84"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb18e39dda01681f2f88390c50ea8aa3d3dc0b0c9341c5941fddf16bc0e48113183"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1109 (transcribed by Stuart Jenks): 'Turquye satten the yarde' 5s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300183933">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tinsel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb2b1202157ab2843426a3b663f31ee16f1133429c2dff9d668e714129c2f045652">
+    <crm:P190_has_symbolic_content>satyne</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>saten</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
+    <hector:phoneticKey>satinə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb21254a5b0ccc45700b9459dfad902708772cc4dbf43aeaef6e9570146a3f22707">
+    <crm:P190_has_symbolic_content>sateyne</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sateinə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb2873fb21f15075c0ba4992f627b65599bbbd1fe4ff977b1b779617670d0c8a6a0">
+    <crm:P190_has_symbolic_content>satyns</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>satins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb27bc0228e19cfa4cdd921d0163125a6ff3e7de659f1deea7bcbce3251653a0f13">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Bruges</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q12994"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pecia">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pecia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/satin#rate-1507-none-277">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Sattyn called ryght sattyn of all maner of coldwares wyght of crayne the yarde 5s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_satin_cb298e709a7ce565363458a856ce6bcb038163294d4e643d41d0ae6c8f4b8dd0b75"/>
+    <hector:perQuantity rdf:nodeID="commodity_satin_cb2a875cfdaf48b0538a6721923b6e70da4b2c179899abc9ab481030e7a6b718a12"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb1f5292ce9f426d757486770fea21609403e8230042ee7350662183ba813a78a9f"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb2234950f55cf4b890717b4d87e5804e749f6d670b39348c52b4fccecc82f18988"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb244e972d0f715496b1348de1fa606ffbb0da5fe81a96870b679ad7454afbd3e2c"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb2dbe5a04aee7009bc598e27e8455c6bc6621af375ff63419d862677edf784ceaf"/>
+    <hector:sourceText>Book of Rates 1507, line 277 (transcribed by Stuart Jenks): 'Sattyn called ryght sattyn of all maner of coldwares wyght of crayne the yarde' 5s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb220b54d497c5db6b6602d6694164702595fb9832c2c42e6b0eaf2badb10bebeaa">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb26570ac6b7c122fea747a6463054d9b37881b8be8801c5053aa00c41be9818cb2">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb300f4d21215173fc77b4456f53087530b4d0c7bb44c569a9daa5933826bb7ebf1">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>5s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/satin#rate-1558-inward-918">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Satten voc’ tynsell wyth golde the yarde 26s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_satin_cb2b858d7e9ecb4746adc6046742917b5d1c10014e2a483b6c97e8289ed40e54c58"/>
+    <hector:perQuantity rdf:nodeID="commodity_satin_cb287dbe8e589cc9beb704c816d03e572a5c51ce56e4e556f9d57fdef1d83648b72"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb202f4d38a08b15944c30d2e7d10604209c9cf6a97941e1b044882602741da9ad3"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb25d36389f50090d5b3fa200da229f53f6b48a154b4010850c026e872cf6fb4aff"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 918 (transcribed by Stuart Jenks): 'Satten voc’ tynsell wyth golde the yarde' 26s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb2ec753b6472e6e20a4aa9bdc0710a78e24826a32275c7ab796ec4f75f2557487f">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Bruges</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q12994"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb18a7a1d80eb486ba8eb9387c76a8987f9e8d9e8149ab566b2a026c8e023cac79d">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tinsel</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300183933"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb35b3f5c7d2f90ad1321f35e11a3f26cc91d486f2704831488773d70768eb24b5d">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Bruges</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q12994"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb27d4ec4c14abd4f0f0dbcdc34deda0116ebb860f7d652047af22b8ec6f4eaaf97">
+    <crm:P190_has_symbolic_content>saton</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>saton</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb1a2c572518e79d5bca3bfada1807641427c0cba78d856cba93099904bf57007e3">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>righte crymisin in grayne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/satin#rate-1545-inward-635">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Satten counterfete crymsin the yard 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_satin_cb2a85d9e0fdbed589dab117f95fe04d31505436ee5bc4062aca5f05b4d77590f38"/>
+    <hector:perQuantity rdf:nodeID="commodity_satin_cb24cd2085cec12961b07caf7a5f36a96e42cc983d3dfda7ecb409b24c3bf65cc31"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb19c27c6288c0bcc1a6412c9296a087ce4765bc35aa8f6749d3ec30ecb3cc8258d"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb1f55bdccc48d7b249f1fd14b5e80b4071e815f2e438d1c7016f87fa7ef27795e8"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 635 (transcribed by Stuart Jenks): 'Satten counterfete crymsin the yard' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb298e709a7ce565363458a856ce6bcb038163294d4e643d41d0ae6c8f4b8dd0b75">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>5s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb186d9293350eb7c8582554ddbfc402cc27e06bf1ada35969f83a811f43b667420">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>ryght purled with goold</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/satin#rate-1545-inward-634">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Satten righte crymisin in grayne or purple the yarde 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_satin_cb306b7eaeff06b1897e013df50fe120451fa060629e5dfe5fe798db56eb58054a6"/>
+    <hector:perQuantity rdf:nodeID="commodity_satin_cb29ecd46bea264198475df9d8420a8012dc810e7dd000db0d26bdc656888a4c1b9"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb1a2c572518e79d5bca3bfada1807641427c0cba78d856cba93099904bf57007e3"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb1c114b44c8494396b1ba59cd1aeaca23ac5695d27756746ea6ea816ca70957cbe"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 634 (transcribed by Stuart Jenks): 'Satten righte crymisin in grayne or purple the yarde' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/satin#rate-1507-none-280">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Sattyn ryght purled with goold the yarde 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_satin_cb3501336c4db634b938999b4c323dc862efbcafcd6a63cd466db3726357c24be4c"/>
+    <hector:perQuantity rdf:nodeID="commodity_satin_cb1fc37820af2807bea81af800fd887bf4653f832037571e9f2ace670c4d4d58148"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb186d9293350eb7c8582554ddbfc402cc27e06bf1ada35969f83a811f43b667420"/>
+    <hector:sourceText>Book of Rates 1507, line 280 (transcribed by Stuart Jenks): 'Sattyn ryght purled with goold the yarde' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb18caae9c0d7956b2eb6e4b872dde7948d0b364c1e8b3b3d751d51bbe6634e2eac">
+    <crm:P190_has_symbolic_content>sattyn</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>satin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb2b61451e87b6521c62c2d0f0879ce9e988cca3f6cade145dac7d4640f8940a2bf">
+    <crm:P190_has_symbolic_content>satan</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>satan</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb1c114b44c8494396b1ba59cd1aeaca23ac5695d27756746ea6ea816ca70957cbe">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>purple</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300130257"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb1fc37820af2807bea81af800fd887bf4653f832037571e9f2ace670c4d4d58148">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q9679">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Isle of Wight</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb1e4bb829632a01fbf68285a247cc899e6d39492c846a7d0ba5a12efe5d8eb77c9">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gold</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300011021"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb1faf9473b1b047f5f2254c4d09aa5ef2a6111dd01ab660dacebd1ebc93289edc6">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>out of grayne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb2a85d9e0fdbed589dab117f95fe04d31505436ee5bc4062aca5f05b4d77590f38">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb1f096b961f23f8cec64a11cb9a5edb14d2598d44ac47c650ab500d698d5eaa4ea">
+    <crm:P190_has_symbolic_content>satene</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>satenə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/satin#rate-1507-none-282">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Sattyn called Brydges and purled with cownterfet þe yard 3s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_satin_cb2ad2d383c6ac79a854508ae02a53d211f9924a816766a0cafce934ef615e85e6d"/>
+    <hector:perQuantity rdf:nodeID="commodity_satin_cb21e9c4d54b5112fcc6fb91a83e053bf08fb94fdf15b83e274bbb423c62fe3c03f"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb22b6fe59b419717bd6897972094ca4cfeaacfd7453a5dec6738abb2c94b2be2a6"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb2994e97298ed316519f637ee1caa955cf96bee2a7460d6f325db1955cd06a5b9a"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb3654fbc022be9d9a9d964f4fb88a1a1436ba78fd6bc55b8fa398a7b9baec66ca7"/>
+    <hector:sourceText>Book of Rates 1507, line 282 (transcribed by Stuart Jenks): 'Sattyn called Brydges and purled with cownterfet þe yard' 3s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/satin#rate-1558-inward-920">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Satten of Brydges counterfaytre tinsell the yarde 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_satin_cb230aa13c5d26cc859860c08f7f2bba716cfc9778bfbc861fb97ab305fdb37c1d3"/>
+    <hector:perQuantity rdf:nodeID="commodity_satin_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb16de0a75bb2d4e0361533eeb9d81ce61e417c69107b8d5282d186058d151b73e8"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb17e73511b8735c5e5ddde093e7e9d878d65116c4ba851f7992db2c8222afe06bf"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb27bc0228e19cfa4cdd921d0163125a6ff3e7de659f1deea7bcbce3251653a0f13"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 920 (transcribed by Stuart Jenks): 'Satten of Brydges counterfaytre tinsell the yarde' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb1d5785f8908b3022719014bb787b78ac1d7fe07ce51490fcfb136ca2a5e2c9ab5">
+    <crm:P190_has_symbolic_content>sattyns</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>satins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/satin#rate-1558-inward-919">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Satten of Brydges the yarde 2s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_satin_cb2dfa301b99c9629179ce07bb07c0c821852ff87e21704c844631cc5ef5c6f979e"/>
+    <hector:perQuantity rdf:nodeID="commodity_satin_cb1b930be78a9bfefff50081ada1aee76e162ba55ec865ce0c7a9e79234f11d92ac"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb352bc6fda57f19dc6e9ad3d585d824b536897b8a124b522fb506c7b77e565218f"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 919 (transcribed by Stuart Jenks): 'Satten of Brydges the yarde' 2s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb1e59d5a315e5962a56ee4e1e8225e9e2d0834a7001e85c28347e2a3ae3e2ca7fd">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>purple</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300130257"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb2b858d7e9ecb4746adc6046742917b5d1c10014e2a483b6c97e8289ed40e54c58">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>26s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb239a970a21ec73c24732906d8c16465925ed4115b5ae31037185f6c2ab99f8b58">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb242acb76fdca89a6c516c776d8516680940b9c1be3ccbed268031886d3d614669">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>grayne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb1b2edbd8a76878b838475b5682afdc4ff2e70745177efefc18e0008f7aa920b81">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb2dbe5a04aee7009bc598e27e8455c6bc6621af375ff63419d862677edf784ceaf">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Isle of Wight</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q9679"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb2ad2d383c6ac79a854508ae02a53d211f9924a816766a0cafce934ef615e85e6d">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>3s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb1f843e798957c283ec4a01081a4a583bc1cfdf163c8b24780b62d5bbd79415940">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>ryght</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb2c2558f6bf6d55674a215972d10a42648193abb22c2fbfddf0844053ff828d04e">
+    <crm:P190_has_symbolic_content>satone</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>satonə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb3501336c4db634b938999b4c323dc862efbcafcd6a63cd466db3726357c24be4c">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb33fc11cca2b75c1786d73cb1136b02fbc8e61f44de92dd58150fcc24e5bde53d3">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/yard">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>yard</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb2adc5ff8f2fc968ed1f97faaf510480ff07dd8f62c2493c5c551d319cb232bc3f">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb24cd2085cec12961b07caf7a5f36a96e42cc983d3dfda7ecb409b24c3bf65cc31">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/satin#rate-1558-inward-1071">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Satyn of Sypres the pece 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_satin_cb34d6ac9b63437027909554ad330e9ac5734077923f86bd5369a408a5e4767172e"/>
+    <hector:perQuantity rdf:nodeID="commodity_satin_cb1b2edbd8a76878b838475b5682afdc4ff2e70745177efefc18e0008f7aa920b81"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb229e8ee02707c600e4892c78a7c6a637c94ff9a7ba6d183e8507a60cad78b1fa2"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1071 (transcribed by Stuart Jenks): 'Satyn of Sypres the pece' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb29ecd46bea264198475df9d8420a8012dc810e7dd000db0d26bdc656888a4c1b9">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb230aa13c5d26cc859860c08f7f2bba716cfc9778bfbc861fb97ab305fdb37c1d3">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb22da1d8291480f248b37d82a328ee652971d600713b63a958546961673c764a38">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb306b7eaeff06b1897e013df50fe120451fa060629e5dfe5fe798db56eb58054a6">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb31e631d8bd541b152906f5dfe91c4d8498196c9bd73b422db7fbe9b1e942bfe5e">
+    <crm:P190_has_symbolic_content>satton</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>saton</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/satin#rate-1545-inward-638">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Satten of Bruges counterfete tynselde [c.v] the yarde 3s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_satin_cb2c2eee6281753d465252d527fc05b5ca26b7cbe237c7f2112380f49d03a3730a2"/>
+    <hector:perQuantity rdf:nodeID="commodity_satin_cb1afdaddc34bb2e8a1d8dc90a7124defe50820ba1f675cf949b41571fe5422db78"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb2199a003598928b35094c63ce716816563ec54311c2e2ee2e99c9a54ddf28289e"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb2380e15d344d176a398946b8f2d64feffcc8c0bf728e13152b18bf62a4f172b25"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb35379d69c82e54d217a19c1a9653f6a9aff9cfba344dabac19aa86e2042c2b29f"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 638 (transcribed by Stuart Jenks): 'Satten of Bruges counterfete tynselde [c.v] the yarde' 3s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/mlca/glossary/satin">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>satin (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb3d0c37e32331fb554bba39ea0070977e3d73e7be6d120d745051e7f367bc9f658">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300011021">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gold (metal)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb1e053cb5449bb268a8900795ea9c9bd07a8da6e3baac67ad875827b2df589fa84">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb23ccaa4c8ec93d7eb804f5cbdadce6802e1ac956d5302e9a63982b09563be2870">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb2199a003598928b35094c63ce716816563ec54311c2e2ee2e99c9a54ddf28289e">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>counterfeit</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb2380e15d344d176a398946b8f2d64feffcc8c0bf728e13152b18bf62a4f172b25">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tynselde</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb3114fd756e5fdfb51a4ceac7772d37d8439cc02ea1007d943f6865eb0035641bb">
+    <crm:P190_has_symbolic_content>sattens</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>satens</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb2124d1105153e598db169a65ef17ad14688d2196e35dcde44b62922122954466d">
+    <crm:P190_has_symbolic_content>satine</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>satinə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/satin#rate-1507-none-281">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Sattyn called Brydges sattyn the yarde on with another 20d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_satin_cb2aced5851f0f78274a79e5f9ecb4529d725bb258ea026297ed57fabfc266c7e6b"/>
+    <hector:perQuantity rdf:nodeID="commodity_satin_cb23ccaa4c8ec93d7eb804f5cbdadce6802e1ac956d5302e9a63982b09563be2870"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb35b3f5c7d2f90ad1321f35e11a3f26cc91d486f2704831488773d70768eb24b5d"/>
+    <hector:sourceText>Book of Rates 1507, line 281 (transcribed by Stuart Jenks): 'Sattyn called Brydges sattyn the yarde on with another' 20d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb39bea05bbd3063985a2b642324ad1a90c536592219132bd4d663cadb4b1fd31ca">
+    <crm:P190_has_symbolic_content>satyn</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>satin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1508</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb2b5e2942c4c61820c7a97d790cb579263bd6f974ec25f4a33a19da77c8099f52c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Cyprus</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q229"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb14fb092379d9796b0fc061a614ea0ceb5354361a83395d74ec78a30ba8d29d394">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>crimson</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300311345"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb2429a0755823e40848ec7a9e1e866507270181092e74efaf60eac4245d1ef366d">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb126dc2abc3185d41d2763310799c7e31bed36fe1020bf71b96e60f0bef33521c2">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>cunterfett</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/satin#rate-1545-inward-633">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Satten out of grayne the yarde 5s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_satin_cb2b454ef0b68f2c977c7eb6b0288df529de4ac95068f81b6db483ad95eb1958a6f"/>
+    <hector:perQuantity rdf:nodeID="commodity_satin_cb2429a0755823e40848ec7a9e1e866507270181092e74efaf60eac4245d1ef366d"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb1ecc966e0fca2924ce5986d83fdf48af94f5d40178b843781e6d431dd50927f2e"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 633 (transcribed by Stuart Jenks): 'Satten out of grayne the yarde' 5s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb3aa1b49a457fb9fc499a43d680f5d383e68fe3265f9839f2b507b07246ca1e842">
+    <crm:P190_has_symbolic_content>satynes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>satinəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb27364270596910c02668a89c1a1986f1adde51fc31367c7f6d3dfcee7a3acc1c7">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb2aced5851f0f78274a79e5f9ecb4529d725bb258ea026297ed57fabfc266c7e6b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb244e972d0f715496b1348de1fa606ffbb0da5fe81a96870b679ad7454afbd3e2c">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>crayne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/satin#rate-1545-inward-637">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Satten of Bruges the yarde 20d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_satin_cb2b3e9d810fcbbe42e3690681cd008c195e6e21f63f0e64c7aa25a0a034e8821e7"/>
+    <hector:perQuantity rdf:nodeID="commodity_satin_cb2adc5ff8f2fc968ed1f97faaf510480ff07dd8f62c2493c5c551d319cb232bc3f"/>
+    <hector:qualifier rdf:nodeID="commodity_satin_cb2ec753b6472e6e20a4aa9bdc0710a78e24826a32275c7ab796ec4f75f2557487f"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 637 (transcribed by Stuart Jenks): 'Satten of Bruges the yarde' 20d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb251bc9b7c4b53a357eabe711a0f23944217c79ddcd4f953bb82fbf6e969b1bd3b">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb35379d69c82e54d217a19c1a9653f6a9aff9cfba344dabac19aa86e2042c2b29f">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Bruges</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q12994"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb1ecc966e0fca2924ce5986d83fdf48af94f5d40178b843781e6d431dd50927f2e">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>out of grayne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb2a875cfdaf48b0538a6721923b6e70da4b2c179899abc9ab481030e7a6b718a12">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb31e07e9321fa0c570d4017727d70a591042a784de699682488da3ad4006b9d1f7">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb22aa6f54b43a55bea0299b7ee2fda424dda9b67ec8b48f9795ca96aeed03d3f6d">
+    <crm:P190_has_symbolic_content>satane</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>satanə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb1a601443fb56841e26a037d30a103febd56c5a5a67abc1f4b6a70112f98e0fd15">
+    <crm:P190_has_symbolic_content>satin, a silk fabric with a glossy surface on one side (OED s.v. satin n.); Bruges satin made with a warp of silk and a woof of thread (OED s.v. silk 1b); measured in lb; dyed or not dyed with kermes (q.v.); also made in Cyprus</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb263c2ef3e121238eb88bc9333e58779b5a87030caed6860dc5ca926a9df021b15">
+    <crm:P190_has_symbolic_content>sattin</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>satin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb16de0a75bb2d4e0361533eeb9d81ce61e417c69107b8d5282d186058d151b73e8">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>counterfaytre</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q229">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Cyprus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb34d6ac9b63437027909554ad330e9ac5734077923f86bd5369a408a5e4767172e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300311345">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>crimson (color)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cbf39f9c3671c6a8fb46186a14c78f0b59522635b4dc4624077d458f49ffcacba8">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>crimson</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300311345"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb21e9c4d54b5112fcc6fb91a83e053bf08fb94fdf15b83e274bbb423c62fe3c03f">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb28adcdb8daec72981f16c411afe627364a571cd6466ac043f29d723aeccc173b1">
+    <crm:P190_has_symbolic_content>sateyn</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>satein</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1450</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb1f55bdccc48d7b249f1fd14b5e80b4071e815f2e438d1c7016f87fa7ef27795e8">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>counterfeit</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb1b930be78a9bfefff50081ada1aee76e162ba55ec865ce0c7a9e79234f11d92ac">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb1afdaddc34bb2e8a1d8dc90a7124defe50820ba1f675cf949b41571fe5422db78">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb2b454ef0b68f2c977c7eb6b0288df529de4ac95068f81b6db483ad95eb1958a6f">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>5s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300132902">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>satin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb25d36389f50090d5b3fa200da229f53f6b48a154b4010850c026e872cf6fb4aff">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gold</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300011021"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb287dbe8e589cc9beb704c816d03e572a5c51ce56e4e556f9d57fdef1d83648b72">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/yard"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb2994e97298ed316519f637ee1caa955cf96bee2a7460d6f325db1955cd06a5b9a">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>purled</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb352bc6fda57f19dc6e9ad3d585d824b536897b8a124b522fb506c7b77e565218f">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Bruges</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q12994"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb21b06642c0d0c18c3e10096260378b2bed32e86d394228561797e7bae1acc7b68">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>everry</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb2ab8e029edfba1456563129f2e7e9161acc3a87f616cbc1bcbf67f87c3aad685f">
+    <crm:P190_has_symbolic_content>satens</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>satens</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb2b3e9d810fcbbe42e3690681cd008c195e6e21f63f0e64c7aa25a0a034e8821e7">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb18e39dda01681f2f88390c50ea8aa3d3dc0b0c9341c5941fddf16bc0e48113183">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Turquye</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb24fd5ca74f09137a0531d582e967c8aa8bc5c4d66b99d30004d3cc9296029133e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>9s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">108</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb2234950f55cf4b890717b4d87e5804e749f6d670b39348c52b4fccecc82f18988">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>ryght</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb229e8ee02707c600e4892c78a7c6a637c94ff9a7ba6d183e8507a60cad78b1fa2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Cyprus</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q229"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb2dfa301b99c9629179ce07bb07c0c821852ff87e21704c844631cc5ef5c6f979e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_satin_cb22b6fe59b419717bd6897972094ca4cfeaacfd7453a5dec6738abb2c94b2be2a6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>counterfeit</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

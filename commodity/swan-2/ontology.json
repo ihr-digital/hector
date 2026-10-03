@@ -189,7 +189,13 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 1040 (transcribed by Stuart Jenks): 'Swannes skyns the skynne' 2s 8d"
+      "sourceText": "Book of Rates 1558, inward, line 1040 (transcribed by Stuart Jenks): 'Swannes skyns the skynne' 2s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "skin"
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/swan-2#rate-1558-inward-971",
@@ -216,7 +222,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 971 (transcribed by Stuart Jenks): 'Swannes quylles the thowsand' 6s 8d"
+      "sourceText": "Book of Rates 1558, inward, line 971 (transcribed by Stuart Jenks): 'Swannes quylles the thowsand' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "quylles",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

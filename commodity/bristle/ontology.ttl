@@ -11,15 +11,27 @@
     rdfs:label "bristle" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "cetarum" ;
+            crm:P190_has_symbolic_content "brystalle" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "setarum" ],
+            hector:phoneticKey "bristalə" ;
+            hector:validFrom "1519"^^xsd:gYear ;
+            hector:validThrough "1520"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "brystille" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "bristilə" ;
+            hector:validFrom "1519"^^xsd:gYear ;
+            hector:validThrough "1520"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "brysselles" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "briseləs" ;
             hector:validFrom "1556"^^xsd:gYear ;
             hector:validThrough "1559"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "cetarum" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "setarum" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "bristell" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -62,12 +74,6 @@
             hector:phoneticKey "bristilə" ;
             hector:validFrom "1431"^^xsd:gYear ;
             hector:validThrough "1433"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "cetae" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "sete" ;
-            hector:validFrom "1390"^^xsd:gYear ;
-            hector:validThrough "1390"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "brustl" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -147,19 +153,6 @@
             hector:validFrom "1519"^^xsd:gYear ;
             hector:validThrough "1520"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "ceta" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "seta" ;
-            hector:validFrom "1390"^^xsd:gYear ;
-            hector:validThrough "1390"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "bristle" ;
-            crm:P2_has_type aat:300404670,
-                hector:AttestedVariant ;
-            hector:phoneticKey "bristlə" ;
-            hector:validFrom "1506"^^xsd:gYear ;
-            hector:validThrough "1507"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "bristils" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "bristils" ;
@@ -184,11 +177,24 @@
             hector:validFrom "1465"^^xsd:gYear ;
             hector:validThrough "1472"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "bristle" ;
+            crm:P2_has_type aat:300404670,
+                hector:AttestedVariant ;
+            hector:phoneticKey "bristlə" ;
+            hector:validFrom "1506"^^xsd:gYear ;
+            hector:validThrough "1507"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "brestelle" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "brestelə" ;
             hector:validFrom "1400"^^xsd:gYear ;
             hector:validThrough "1421"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "ceta" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "seta" ;
+            hector:validFrom "1390"^^xsd:gYear ;
+            hector:validThrough "1390"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "brystelle" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -226,6 +232,12 @@
             hector:validFrom "1428"^^xsd:gYear ;
             hector:validThrough "1430"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "cetae" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "sete" ;
+            hector:validFrom "1390"^^xsd:gYear ;
+            hector:validThrough "1390"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "brystle" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "bristlə" ;
@@ -252,35 +264,21 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "brusteləs" ;
             hector:validFrom "1380"^^xsd:gYear ;
-            hector:validThrough "1385"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "brystalle" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "bristalə" ;
-            hector:validFrom "1519"^^xsd:gYear ;
-            hector:validThrough "1520"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "brystille" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "bristilə" ;
-            hector:validFrom "1519"^^xsd:gYear ;
-            hector:validThrough "1520"^^xsd:gYear ] ;
+            hector:validThrough "1385"^^xsd:gYear ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "Short, stiff, coarse hair. [Source: Getty AAT] | bristle, stiff hairs, especially of hogs and boars, used by brushmakers (OED s.v. bristle)" ;
             crm:P2_has_type aat:300435416 ] ;
     skos:exactMatch <https://w3id.org/mlca/glossary/bristle> ;
     la:equivalent aat:300011822 ;
     hector:attestationCount 149 ;
-    hector:taxation <https://w3id.org/hector/commodity/bristle#rate-1558-inward-130> .
+    hector:taxation <https://w3id.org/hector/commodity/bristle#rate-1558-inward-130>,
+        <https://w3id.org/hector/commodity/bristle#rate-1558-inward-131> .
 
 aat:300011822 a crm:E55_Type ;
     rdfs:label "bristle (hair material)" .
 
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
-
-aat:300411998 a crm:E98_Currency ;
-    rdfs:label "pound sterling (system of money)" .
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
@@ -298,11 +296,30 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
-<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
-    rdfs:label "dozen" .
+<https://w3id.org/hector/commodity/bristle#rate-1558-inward-131> a hector:Rate ;
+    rdfs:label "1558 inward: Bristelles roughe the dosen pounde 5s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "5s" ;
+            hector:valueInPence 60.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "roughe" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 131 (transcribed by Stuart Jenks): 'Bristelles roughe the dosen pounde' 5s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/mlca/glossary/bristle> a crm:E55_Type ;
     rdfs:label "bristle (London Customs Accounts glossary)" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
+<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
+    rdfs:label "dozen" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

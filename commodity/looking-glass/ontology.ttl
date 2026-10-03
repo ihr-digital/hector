@@ -2,6 +2,7 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix hector: <https://w3id.org/hector/ontology#> .
+@prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -104,11 +105,6 @@
             hector:validFrom "1545"^^xsd:gYear ;
             hector:validThrough "1547"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "looking glass" ;
-            crm:P2_has_type aat:300404670,
-                hector:AttestedVariant ;
-            hector:phoneticKey "loːkiŋ glas" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "lokyng glasses" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "lokiŋ glasəs" ;
@@ -119,7 +115,12 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "lokiŋ glas" ;
             hector:validFrom "1493"^^xsd:gYear ;
-            hector:validThrough "1495"^^xsd:gYear ] ;
+            hector:validThrough "1495"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "looking glass" ;
+            crm:P2_has_type aat:300404670,
+                hector:AttestedVariant ;
+            hector:phoneticKey "loːkiŋ glas" ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "a looking glass with steel behind (OED s.v. steel n.^1) or a mirror made of polished steel (OED s.v. steel glass), here large | mirror made of glass | looking glass" ;
             crm:P2_has_type aat:300435416 ] ;
@@ -127,7 +128,11 @@
     skos:exactMatch <https://w3id.org/mlca/glossary/looking%20glass> ;
     skos:related <https://w3id.org/hector/commodity/glass-3>,
         <https://w3id.org/hector/commodity/mirrour> ;
-    hector:attestationCount 208 .
+    hector:attestationCount 208 ;
+    hector:taxation <https://w3id.org/hector/commodity/looking-glass#rate-1558-inward-677>,
+        <https://w3id.org/hector/commodity/looking-glass#rate-1558-inward-678>,
+        <https://w3id.org/hector/commodity/looking-glass#rate-1558-inward-679>,
+        <https://w3id.org/hector/commodity/looking-glass#rate-1558-inward-680> .
 
 aat:300037682 a crm:E55_Type ;
     rdfs:label "mirrors" .
@@ -141,11 +146,87 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/hector/commodity/glass-3> a crm:E55_Type ;
     rdfs:label "glass_3" .
 
+<https://w3id.org/hector/commodity/looking-glass#rate-1558-inward-677> a hector:Rate ;
+    rdfs:label "1558 inward: Lokyng glasses of stele small the dosen 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "small" ;
+            la:equivalent aat:300073768 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 677 (transcribed by Stuart Jenks): 'Lokyng glasses of stele small the dosen' 6s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/looking-glass#rate-1558-inward-678> a hector:Rate ;
+    rdfs:label "1558 inward: Lokyng glasses of stele large the dosen 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "large" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 678 (transcribed by Stuart Jenks): 'Lokyng glasses of stele large the dosen' 13s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/looking-glass#rate-1558-inward-679> a hector:Rate ;
+    rdfs:label "1558 inward: Lokyng glasses of cristall small the dosen 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "cristall" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "small" ;
+            la:equivalent aat:300073768 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 679 (transcribed by Stuart Jenks): 'Lokyng glasses of cristall small the dosen' 20s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/looking-glass#rate-1558-inward-680> a hector:Rate ;
+    rdfs:label "1558 inward: Lokyng glasses of cristall large the dosen 40s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "40s" ;
+            hector:valueInPence 480.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "cristall large" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 680 (transcribed by Stuart Jenks): 'Lokyng glasses of cristall large the dosen' 40s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/mirrour> a crm:E55_Type ;
     rdfs:label "mirrour" .
 
 <https://w3id.org/mlca/glossary/looking%20glass> a crm:E55_Type ;
     rdfs:label "looking glass (London Customs Accounts glossary)" .
+
+aat:300073768 a crm:E55_Type ;
+    rdfs:label "small" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
+<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
+    rdfs:label "dozen" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

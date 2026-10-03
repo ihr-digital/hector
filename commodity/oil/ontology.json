@@ -442,6 +442,86 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/oil#rate-1507-none-200",
+      "type": "Rate",
+      "_label": "1507: Oyle called wolle oylle the tune £4",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "960",
+        "lsd": "£4"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/tun",
+          "type": "MeasurementUnit",
+          "_label": "tun"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 200 (transcribed by Stuart Jenks): 'Oyle called wolle oylle the tune' £4",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "wolle oylle",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/oil#rate-1507-none-201",
+      "type": "Rate",
+      "_label": "1507: Oyle called mett oylle or rape oylle the barrelle 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/barrel",
+          "type": "MeasurementUnit",
+          "_label": "barrel"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 201 (transcribed by Stuart Jenks): 'Oyle called mett oylle or rape oylle the barrelle' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "mett oylle or rape oylle",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/oil#rate-1507-none-239",
       "type": "Rate",
       "_label": "1507: Rappe oyle the last on with another £8",
@@ -466,7 +546,20 @@
       },
       "validFrom": "1507",
       "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 239 (transcribed by Stuart Jenks): 'Rappe oyle the last on with another' £8"
+      "sourceText": "Book of Rates 1507, line 239 (transcribed by Stuart Jenks): 'Rappe oyle the last on with another' £8",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Rappe",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/oil#rate-1545-inward-509",
@@ -496,6 +589,483 @@
       "sourceText": "Book of Rates 1545, inward, line 509 (transcribed by Stuart Jenks): 'Oyle the tonne' £4"
     },
     {
+      "id": "https://w3id.org/hector/commodity/oil#rate-1545-inward-531",
+      "type": "Rate",
+      "_label": "1545 inward: Oyle de Bay, the barrell conteinynge 100 pounde 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/barrel",
+          "type": "MeasurementUnit",
+          "_label": "barrel"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 531 (transcribed by Stuart Jenks): 'Oyle de Bay, the barrell conteinynge 100 pounde' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "bay"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/oil#rate-1545-inward-535",
+      "type": "Rate",
+      "_label": "1545 inward: Oyle de lynsede the barel 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/barrel",
+          "type": "MeasurementUnit",
+          "_label": "barrel"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 535 (transcribed by Stuart Jenks): 'Oyle de lynsede the barel' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "lynsede",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/oil#rate-1545-inward-795",
+      "type": "Rate",
+      "_label": "1545 inward: Woll oyle called trane the tonne £4",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "960",
+        "lsd": "£4"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/tun",
+          "type": "MeasurementUnit",
+          "_label": "tun"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 795 (transcribed by Stuart Jenks): 'Woll oyle called trane the tonne' £4",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Woll",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "trane",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/oil#rate-1558-inward-755",
+      "type": "Rate",
+      "_label": "1558 inward: Oyle voc’ Cyvill oyle the tonne £8",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "1920",
+        "lsd": "£8"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/tun",
+          "type": "MeasurementUnit",
+          "_label": "tun"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 755 (transcribed by Stuart Jenks): 'Oyle voc’ Cyvill oyle the tonne' £8",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Cyvill",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/oil#rate-1558-inward-756",
+      "type": "Rate",
+      "_label": "1558 inward: Oyle de bay the barrell cont’ C lb. at 100 [lb.] 26s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "320",
+        "lsd": "26s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/barrel",
+          "type": "MeasurementUnit",
+          "_label": "barrel"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 756 (transcribed by Stuart Jenks): 'Oyle de bay the barrell cont’ C lb. at 100 [lb.]' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "bay"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/oil#rate-1558-inward-779",
+      "type": "Rate",
+      "_label": "1558 inward: Oleum lentissimum the pound 2s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "24",
+        "lsd": "2s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 779 (transcribed by Stuart Jenks): 'Oleum lentissimum the pound' 2s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "lentissimum",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/oil#rate-1558-inward-780",
+      "type": "Rate",
+      "_label": "1558 inward: Oleum massis the pound 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 780 (transcribed by Stuart Jenks): 'Oleum massis the pound' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "massis",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/oil#rate-1558-inward-781",
+      "type": "Rate",
+      "_label": "1558 inward: Oleum chariosis the pound 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 781 (transcribed by Stuart Jenks): 'Oleum chariosis the pound' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "chariosis",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/oil#rate-1558-inward-782",
+      "type": "Rate",
+      "_label": "1558 inward: Oleum camomoia the pound 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 782 (transcribed by Stuart Jenks): 'Oleum camomoia the pound' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "camomoia",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/oil#rate-1558-inward-786",
+      "type": "Rate",
+      "_label": "1558 inward: Oleum spice the pound 6d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "6",
+        "lsd": "6d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 786 (transcribed by Stuart Jenks): 'Oleum spice the pound' 6d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "spice",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/oil#rate-1558-inward-787",
+      "type": "Rate",
+      "_label": "1558 inward: Oleum petoleum the pound 6d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "6",
+        "lsd": "6d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 787 (transcribed by Stuart Jenks): 'Oleum petoleum the pound' 6d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "petoleum",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/oil#rate-1558-inward-790",
+      "type": "Rate",
+      "_label": "1558 inward: Oyle voc’ trane oyle the tonne £5",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "1200",
+        "lsd": "£5"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/tun",
+          "type": "MeasurementUnit",
+          "_label": "tun"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 790 (transcribed by Stuart Jenks): 'Oyle voc’ trane oyle the tonne' £5",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "trane",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/oil#rate-1558-inward-791",
       "type": "Rate",
       "_label": "1558 inward: Oyle voc’ sallet oyle the gallon 20d",
@@ -520,7 +1090,100 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 791 (transcribed by Stuart Jenks): 'Oyle voc’ sallet oyle the gallon' 20d"
+      "sourceText": "Book of Rates 1558, inward, line 791 (transcribed by Stuart Jenks): 'Oyle voc’ sallet oyle the gallon' 20d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "sallet",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/oil#rate-1558-inward-792",
+      "type": "Rate",
+      "_label": "1558 inward: Oyle olive the barrell cont’ 17 gallons poiz 214 lb 30s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "360",
+        "lsd": "30s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/barrel",
+          "type": "MeasurementUnit",
+          "_label": "barrel"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 792 (transcribed by Stuart Jenks): 'Oyle olive the barrell cont’ 17 gallons poiz 214 lb' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "olive",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/oil#rate-1558-inward-793",
+      "type": "Rate",
+      "_label": "1558 inward: Oyle de spyke the pound 2s 6d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "30",
+        "lsd": "2s 6d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 793 (transcribed by Stuart Jenks): 'Oyle de spyke the pound' 2s 6d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "spyke",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

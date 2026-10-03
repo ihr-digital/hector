@@ -8,47 +8,7 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_halberd_cb2a3742c05a99314eb398ee8c5a77ec2d56ea22878aaaafcad7db73fd288863633">
-    <crm:P190_has_symbolic_content>halbertes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>halbertəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_halberd_cb1af4760b4271ea1ccdc8e4fd12580472e2c54d64cc2bcd840813c72de92dc07cc">
-    <crm:P190_has_symbolic_content>holbard</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>holbard</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1541</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_halberd_cb1a82768d158e9b62879a956776c9c80bdaf06185588a1a74d5f401ea9995d37a3">
-    <crm:P190_has_symbolic_content>holberd</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>holberd</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_halberd_cb1b82014c56b968efebf1491ec4658306af8eb82276c2ad4f5691753565ea13bbb">
-    <crm:P190_has_symbolic_content>halbardes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>halbardəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_halberd_cb1b37a238d428ba4c16fad741afa882192287af9d33c9e429aa96dba6d4e3b310e">
-    <crm:P190_has_symbolic_content>hawberd</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>hauberd</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_halberd_cb22cec8a0449216c9f8864716c15bcd399e5087b958a8240870f3344fce9621757">
+  <rdf:Description rdf:nodeID="commodity_halberd_cb24bfdbf061c4b22d86a02147ab1edc4c2854728382e8805494c73a97e0cb958e0">
     <crm:P190_has_symbolic_content>halbert</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -56,40 +16,182 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/halberd">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb122d4b2fe31b5755941cb1d537440690fe6aadefff1bd85eb24de1766f43980a3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb153ca03f21481588f3c852e9f9db87167a553cce4ccf1b70f342fb8010ed94652"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb1956902e119661f00784ec83bccec54727d4b551c4ae69d8d8e3b8b4b8028e029"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb1a39a0b5deb666d85aba04b208e8e11debdb396dccf747c35b4155ed948d5d6b5"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb1a82768d158e9b62879a956776c9c80bdaf06185588a1a74d5f401ea9995d37a3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb1af4760b4271ea1ccdc8e4fd12580472e2c54d64cc2bcd840813c72de92dc07cc"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb1b37a238d428ba4c16fad741afa882192287af9d33c9e429aa96dba6d4e3b310e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb1b82014c56b968efebf1491ec4658306af8eb82276c2ad4f5691753565ea13bbb"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb1c9797d6c3399c7d36dc081bc243a9230e171840db5029c533aea02f1eabeeeac"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb1edbf34d7b0d18a54245e04732bbd339169aedf00e2007e25219133f9ba184bb2"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb1f93b1bda7d5bbd44d20839027cd8f39fe9e885e2afa02fab5b30afe24fa43e7e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb22cec8a0449216c9f8864716c15bcd399e5087b958a8240870f3344fce9621757"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb24872d7d06a9f59814962dcfe940e6d8f08b1f679d6681ab69fb378f19baad988"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb284f5231dc81191494b428accca73658fe0ec9fe50b0ea2c275c49d5195092f5b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb28f063aa6afca06994b84eb57c6f83f0efdddde0a2fa7b98ba8516a827d55915d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb2a3742c05a99314eb398ee8c5a77ec2d56ea22878aaaafcad7db73fd288863633"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb2d412416f56750f5f89998051e2117f36d5dfdaa3ebc3ce482f53b8b22a33a855"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb569e3a0fc83d3482850885a83bd0e9a4a7ea894c3c7081b31076dea6006f020d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb9e57a9bf9b55cd618747a1563adbb602a6ac932e2602356a7aa3322269dbe3e7"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cba8bbb00951026cfc838ce13a12690f4c728cb1adc656f37047f9d677704f6d0c"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_halberd_cbb2afc901d94a14f27aac7d72d749f1dcb7a71e1e8c9e345899bd4ba914c160cf"/>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300379350">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>halberd</rdfs:label>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/halberd"/>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300037010"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</hector:attestationCount>
+    <rdfs:label>gilding (material)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/halberd#rate-1558-inward-594">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Halberdes unguilte the pece 20d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_halberd_cb2afaa754bd018968acec884191774f0b639ce3c0cf407f26a2f578687b659ecdb"/>
+    <hector:perQuantity rdf:nodeID="commodity_halberd_cb29fd32c3955d2bddd850549548a6611c964e62dd2bab0cc0ea1e53a346ff1cf3a"/>
+    <hector:qualifier rdf:nodeID="commodity_halberd_cb1297b15dcff08b7181697385b509de26362c56507777527891cf11433b1da0314"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 594 (transcribed by Stuart Jenks): 'Halberdes unguilte the pece' 20d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_halberd_cb1c9797d6c3399c7d36dc081bc243a9230e171840db5029c533aea02f1eabeeeac">
+  <rdf:Description rdf:nodeID="commodity_halberd_cb230aa13c5d26cc859860c08f7f2bba716cfc9778bfbc861fb97ab305fdb37c1d3">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_halberd_cbbd68dec16e7f839a68e54464d70ca72b46eb3fd0ca07fa2cb7e396a38d332570">
+    <crm:P190_has_symbolic_content>holbardes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>holbardəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1541</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_halberd_cb172db38f3e7ab0ec81e22d1ae39e962904592798770f77bd171701c82323087db">
+    <crm:P190_has_symbolic_content>halbarte</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>halbartə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1492</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_halberd_cb2a406581f9b3b47822ce02ddb66a456b8812b4c87af146784b30501d2b86070e4">
+    <crm:P190_has_symbolic_content>halbard</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>halbard</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_halberd_cb1d73149c73ec04537a0b234fae2892193992a2eca103099b7a657b7d781f87d44">
+    <crm:P190_has_symbolic_content>halbardes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>halbardəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_halberd_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_halberd_cb213629db1d9281ccf0fd459c1d7a55e3be5f4af2c70af48d33169260dbcb9a497">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gilt</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300379350"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/halberd">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb172db38f3e7ab0ec81e22d1ae39e962904592798770f77bd171701c82323087db"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb181dd7192ba671aa0c4d32dd29a28c7636692f13b0c8bbc95ccaee9fed7d37afd"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb1b47a37e2ec8fd53959ec6b4a691d459b1d8a01beeeec624fcb7befcca38021b2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb1bdce96d6d93ce720c3bafd6e63e03d166467f82802ef4ba2abf440149c897cee"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb1c2ab405fbe9023be8d3dee2f2abf03075df2437f737a40f7f155c35a6c2d183e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb1c7389dd32c136c615b46f98608cd71e64f44c4f82ca76c0f9c80832abcb4792c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb1ce5895b5fa485805be2bf2dfc1b13856cc9382ef66c29d02be7cd75fb6334955"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb1d28b588f15b55afa514b172996b912bac8b9a675e0a4075ce6ae1eee71927297"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb1d73149c73ec04537a0b234fae2892193992a2eca103099b7a657b7d781f87d44"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb1e88ab26e06c37e0c4f5e24cac06b835981b030b059086115782a67730e163035"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb20cd069d983fb408d05fba781c7ee24ba09ed8ba3860642e75ed1987add6f8d3b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb2184c50dc5085737db3a5dc111909e4c88a27328553a5f46d9871146372fb8007"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb24bfdbf061c4b22d86a02147ab1edc4c2854728382e8805494c73a97e0cb958e0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb267840cd23dc90fba2b00800d303f5eb7a8f0a31c7a6ddf78dcf3dd72bf021b11"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb2a406581f9b3b47822ce02ddb66a456b8812b4c87af146784b30501d2b86070e4"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb2ae176fa882f3bcd22d228e66632930379e1c8aacd3ad7e4de591cf03a0acd2e6"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb2c28561077cbccb241b2c8bd443afb3fe0ee0d51b4eb0c16fbaf7a453abdd77bc"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cb2f3237671299ec5986b3723607e42705f761e87468fc9930a6c941d334d8ae9de"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cbbd68dec16e7f839a68e54464d70ca72b46eb3fd0ca07fa2cb7e396a38d332570"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_halberd_cbc7cce50b242c2335652a8448ae9a007512cb5e506a5cb832853a3af893a6ae95"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_halberd_cb1b027cfce5457095e02a4a3d03d847383f9b615da00c90ffac646753d01ae6ee7"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>halberd</rdfs:label>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/halberd"/>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300037010"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/halberd#rate-1558-inward-594"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/halberd#rate-1558-inward-595"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_halberd_cb1d28b588f15b55afa514b172996b912bac8b9a675e0a4075ce6ae1eee71927297">
+    <crm:P190_has_symbolic_content>hawberd</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>hauberd</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/halberd#rate-1558-inward-595">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Halberdes guilte the pece 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_halberd_cb230aa13c5d26cc859860c08f7f2bba716cfc9778bfbc861fb97ab305fdb37c1d3"/>
+    <hector:perQuantity rdf:nodeID="commodity_halberd_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_halberd_cb213629db1d9281ccf0fd459c1d7a55e3be5f4af2c70af48d33169260dbcb9a497"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 595 (transcribed by Stuart Jenks): 'Halberdes guilte the pece' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_halberd_cb2184c50dc5085737db3a5dc111909e4c88a27328553a5f46d9871146372fb8007">
+    <crm:P190_has_symbolic_content>hawberdes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>hauberdəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_halberd_cb2c28561077cbccb241b2c8bd443afb3fe0ee0d51b4eb0c16fbaf7a453abdd77bc">
+    <crm:P190_has_symbolic_content>halbertes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>halbertəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_halberd_cb1b47a37e2ec8fd53959ec6b4a691d459b1d8a01beeeec624fcb7befcca38021b2">
+    <crm:P190_has_symbolic_content>halberdez</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>halberdez</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300037010">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>halberds</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_halberd_cb1c2ab405fbe9023be8d3dee2f2abf03075df2437f737a40f7f155c35a6c2d183e">
+    <crm:P190_has_symbolic_content>holberdes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>holberdəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_halberd_cb1bdce96d6d93ce720c3bafd6e63e03d166467f82802ef4ba2abf440149c897cee">
+    <crm:P190_has_symbolic_content>holebardes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>holebardəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_halberd_cb2ae176fa882f3bcd22d228e66632930379e1c8aacd3ad7e4de591cf03a0acd2e6">
+    <crm:P190_has_symbolic_content>halberde</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>halberdə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1509</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_halberd_cb1ce5895b5fa485805be2bf2dfc1b13856cc9382ef66c29d02be7cd75fb6334955">
+    <crm:P190_has_symbolic_content>holbard</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>holbard</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1541</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_halberd_cb1e88ab26e06c37e0c4f5e24cac06b835981b030b059086115782a67730e163035">
     <crm:P190_has_symbolic_content>holebard</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -97,7 +199,70 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_halberd_cb122d4b2fe31b5755941cb1d537440690fe6aadefff1bd85eb24de1766f43980a3">
+  <rdf:Description rdf:nodeID="commodity_halberd_cb20cd069d983fb408d05fba781c7ee24ba09ed8ba3860642e75ed1987add6f8d3b">
+    <crm:P190_has_symbolic_content>halberdes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>halberdəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1509</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_halberd_cbc7cce50b242c2335652a8448ae9a007512cb5e506a5cb832853a3af893a6ae95">
+    <crm:P190_has_symbolic_content>halbartes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>halbartəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1492</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_halberd_cb2afaa754bd018968acec884191774f0b639ce3c0cf407f26a2f578687b659ecdb">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_halberd_cb1c7389dd32c136c615b46f98608cd71e64f44c4f82ca76c0f9c80832abcb4792c">
+    <crm:P190_has_symbolic_content>holberd</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>holberd</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pecia">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pecia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_halberd_cb267840cd23dc90fba2b00800d303f5eb7a8f0a31c7a6ddf78dcf3dd72bf021b11">
+    <crm:P190_has_symbolic_content>hawdberde</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>haudberdə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_halberd_cb2f3237671299ec5986b3723607e42705f761e87468fc9930a6c941d334d8ae9de">
+    <crm:P190_has_symbolic_content>hawdberd</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>haudberd</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/halberd">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>halberd (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_halberd_cb1b027cfce5457095e02a4a3d03d847383f9b615da00c90ffac646753d01ae6ee7">
+    <crm:P190_has_symbolic_content>Staff weapons widely used in warfare in the 15th and 16th centuries, having an axlike blade with a short fluke on the back and a spike at the top of the staff. After the late 16th century they increasingly came to be used solely as ceremonial weapons, in which capacity they survived well into the 19th century. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_halberd_cb1297b15dcff08b7181697385b509de26362c56507777527891cf11433b1da0314">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>ungilt</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_halberd_cb181dd7192ba671aa0c4d32dd29a28c7636692f13b0c8bbc95ccaee9fed7d37afd">
     <crm:P190_has_symbolic_content>halberd</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -106,121 +271,21 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1509</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1510</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_halberd_cb1956902e119661f00784ec83bccec54727d4b551c4ae69d8d8e3b8b4b8028e029">
-    <crm:P190_has_symbolic_content>halberdez</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>halberdez</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_halberd_cb284f5231dc81191494b428accca73658fe0ec9fe50b0ea2c275c49d5195092f5b">
-    <crm:P190_has_symbolic_content>halbard</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>halbard</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_halberd_cb1a39a0b5deb666d85aba04b208e8e11debdb396dccf747c35b4155ed948d5d6b5">
-    <crm:P190_has_symbolic_content>holberdes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>holberdəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_halberd_cb29fd32c3955d2bddd850549548a6611c964e62dd2bab0cc0ea1e53a346ff1cf3a">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>preferred terms</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_halberd_cb153ca03f21481588f3c852e9f9db87167a553cce4ccf1b70f342fb8010ed94652">
-    <crm:P190_has_symbolic_content>halbarte</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>halbartə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1492</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_halberd_cbb2afc901d94a14f27aac7d72d749f1dcb7a71e1e8c9e345899bd4ba914c160cf">
-    <crm:P190_has_symbolic_content>Staff weapons widely used in warfare in the 15th and 16th centuries, having an axlike blade with a short fluke on the back and a spike at the top of the staff. After the late 16th century they increasingly came to be used solely as ceremonial weapons, in which capacity they survived well into the 19th century. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_halberd_cb1edbf34d7b0d18a54245e04732bbd339169aedf00e2007e25219133f9ba184bb2">
-    <crm:P190_has_symbolic_content>halberdes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>halberdəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1509</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_halberd_cb569e3a0fc83d3482850885a83bd0e9a4a7ea894c3c7081b31076dea6006f020d">
-    <crm:P190_has_symbolic_content>holebardes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>holebardəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_halberd_cb9e57a9bf9b55cd618747a1563adbb602a6ac932e2602356a7aa3322269dbe3e7">
-    <crm:P190_has_symbolic_content>holbardes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>holbardəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1541</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300037010">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>halberds</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_halberd_cb28f063aa6afca06994b84eb57c6f83f0efdddde0a2fa7b98ba8516a827d55915d">
-    <crm:P190_has_symbolic_content>halberde</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>halberdə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1509</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/halberd">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>halberd (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_halberd_cba8bbb00951026cfc838ce13a12690f4c728cb1adc656f37047f9d677704f6d0c">
-    <crm:P190_has_symbolic_content>halbartes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>halbartəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1492</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_halberd_cb2d412416f56750f5f89998051e2117f36d5dfdaa3ebc3ce482f53b8b22a33a855">
-    <crm:P190_has_symbolic_content>hawdberd</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>haudberd</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_halberd_cb1f93b1bda7d5bbd44d20839027cd8f39fe9e885e2afa02fab5b30afe24fa43e7e">
-    <crm:P190_has_symbolic_content>hawberdes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>hauberdəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_halberd_cb24872d7d06a9f59814962dcfe940e6d8f08b1f679d6681ab69fb378f19baad988">
-    <crm:P190_has_symbolic_content>hawdberde</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>haudberdə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

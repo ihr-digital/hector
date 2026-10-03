@@ -8,48 +8,22 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_saw_cb296006e0fa1a5a5d07c9c93f4650d45f5b78fdcb287fd80ec053d07a03ba18517">
-    <crm:P190_has_symbolic_content>sarrys</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_saw_cb1594416d017f5d997b361897c534fbbdd1f92b382830fe18b69acfe8cf5e56f87">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>saris</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
+    <rdfs:label>whype</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_saw_cb14f29da1dbdd67cf20c70163848b49ef0a894a86e3b744bffb9753765f9c82191">
-    <crm:P190_has_symbolic_content>sawes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sauəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_saw_cb21de3e67cc977cf3f891bb3c5aec9256528a1ddf9982297ce7ac5de242d2b5923">
-    <crm:P190_has_symbolic_content>sarra</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sara</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>dozen</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/saw#rate-1545-inward-700">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/saw#rate-1558-inward-1020">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1545 inward: Sawes the dossen great 12s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_saw_cb145a121f6c9bc67002f1f37313a9a3bc23e29ee9937864bc01bbb8d5e9d688956"/>
-    <hector:perQuantity rdf:nodeID="commodity_saw_cb368438ac5b64f6a74d55450fed76c89d095feefafcdff9b740f6542b1fa254d7"/>
-    <hector:sourceText>Book of Rates 1545, inward, line 700 (transcribed by Stuart Jenks): 'Sawes the dossen great' 12s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+    <rdfs:label>1558 inward: Sawes for carpenters called handsawes the dosen 3s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_saw_cb31ebfcefcff45b7a91bfbca2ef46ea5bd4ee1d8d15b99e340cd92c432800832c8"/>
+    <hector:perQuantity rdf:nodeID="commodity_saw_cb1ae66f02d1c389bcc76380cc069dafd5e141cb9b02b30c7553591bc1dc78976e8"/>
+    <hector:qualifier rdf:nodeID="commodity_saw_cb1f6b075195c31e47a380c0670c22b6bb345fb1faf970d7b0445672894a833f0dc"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1020 (transcribed by Stuart Jenks): 'Sawes for carpenters called handsawes the dosen' 3s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_saw_cb1502fcb765c63698ff9b1fb17d5a2c379404f9912b35a1f94a29cd9c9b90303b6">
+  <rdf:Description rdf:nodeID="commodity_saw_cb1c8370b20cd09582590299d7e05dbd9c7a23af07642c9c30ee2c8a6c93bf9882d">
     <crm:P190_has_symbolic_content>sawys</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -57,36 +31,32 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/saw#rate-1558-inward-1021">
+  <rdf:Description rdf:nodeID="commodity_saw_cb1ae66f02d1c389bcc76380cc069dafd5e141cb9b02b30c7553591bc1dc78976e8">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_saw_cb2b70c536e4f9a5946b1e24392cc9d206d7adec33f9b72d2159c29f19cef2c9db6">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s 6d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/saw#rate-1558-inward-1022">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Sawes voc’ whype sawes the pece 2s 6d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_saw_cb183f3860e7194532b7b0fbe1b25a974fe84acffcb1e3aba864c036180238edf54"/>
-    <hector:perQuantity rdf:nodeID="commodity_saw_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 1021 (transcribed by Stuart Jenks): 'Sawes voc’ whype sawes the pece' 2s 6d</hector:sourceText>
+    <rdfs:label>1558 inward: Sawes voc’ two handsawes the dosen 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_saw_cb230aa13c5d26cc859860c08f7f2bba716cfc9778bfbc861fb97ab305fdb37c1d3"/>
+    <hector:perQuantity rdf:nodeID="commodity_saw_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_saw_cb1af4791121201ca7369bbe018ec8adbcf7f74b3ac580bbf9452d3c03fc4b399de"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1022 (transcribed by Stuart Jenks): 'Sawes voc’ two handsawes the dosen' 6s 8d</hector:sourceText>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_saw_cb28720b1cc710bb1eb54b19731d2c0c2f56cefd7080bedbcc6942874bb24ac3dd9">
-    <crm:P190_has_symbolic_content>sarrae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sare</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_saw_cb108a6915dbe9c3b50bf23a4668d9e415543fc3d630870ce34c66b2044fb2fd558">
-    <crm:P190_has_symbolic_content>sawez</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sauez</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_saw_cb257c8d59482ae37dd77665318982f931a97883fda429cf9d064f8c39317159508">
+  <rdf:Description rdf:nodeID="commodity_saw_cb36fe671936285ef564add605989ea21b3413f6702468a01d439a64ddec4a69386">
     <crm:P190_has_symbolic_content>saw</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -95,64 +65,25 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_saw_cb1a68ad58fc57e314f6aeb96db727372faceeb53c962d047fdf2804684ebf7f6f4">
-    <crm:P190_has_symbolic_content>sawe</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_saw_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_saw_cb2b511a31174cf5c095e3a3703013e371e57ce89552c0345ae427d6c215ef8c6a0">
+    <crm:P190_has_symbolic_content>sarrys</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sauə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+    <hector:phoneticKey>saris</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_saw_cb368438ac5b64f6a74d55450fed76c89d095feefafcdff9b740f6542b1fa254d7">
+  <rdf:Description rdf:nodeID="commodity_saw_cb18e1fddbba95a7ba8160e817bb9cfcecdc0c758639b92f30c391a77d8d3653fc0">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/saw">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cb103056a261b27ff713ad93df29d6ff4538e30fb49c38d9309f96a5519c559f7f2"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cb108a6915dbe9c3b50bf23a4668d9e415543fc3d630870ce34c66b2044fb2fd558"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cb1241482d7a4f108da44f22fc8ce7d774a36ddda846f2c8d4c27ed2c0504d002c6"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cb14f29da1dbdd67cf20c70163848b49ef0a894a86e3b744bffb9753765f9c82191"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cb1502fcb765c63698ff9b1fb17d5a2c379404f9912b35a1f94a29cd9c9b90303b6"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cb1a68ad58fc57e314f6aeb96db727372faceeb53c962d047fdf2804684ebf7f6f4"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cb1a8097d8cc1886e9d2d2698869bc694372b8bbe59e607c1406ccc1e0ed54e7f76"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cb21de3e67cc977cf3f891bb3c5aec9256528a1ddf9982297ce7ac5de242d2b5923"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cb257c8d59482ae37dd77665318982f931a97883fda429cf9d064f8c39317159508"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cb28720b1cc710bb1eb54b19731d2c0c2f56cefd7080bedbcc6942874bb24ac3dd9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cb296006e0fa1a5a5d07c9c93f4650d45f5b78fdcb287fd80ec053d07a03ba18517"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cb2b351962820b45169c41496098fda79427f8686a5e4b5e0a17573d630dcb08086"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cbd6c425ea4d3cc34091ebcfba876243203e89f82327121116b94846abf0d5b852"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_saw_cb540bdb9445e9cf2c9121c6a8857eac4d40575c111251217312e72f8abbf3f6b1"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>saw</rdfs:label>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/saw"/>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300024671"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67</hector:attestationCount>
-    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/saw#rate-1545-inward-700"/>
-    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/saw#rate-1558-inward-1021"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_saw_cb183f3860e7194532b7b0fbe1b25a974fe84acffcb1e3aba864c036180238edf54">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>2s 6d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_saw_cb145a121f6c9bc67002f1f37313a9a3bc23e29ee9937864bc01bbb8d5e9d688956">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>12s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">144</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/pecia">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>pecia</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_saw_cb1241482d7a4f108da44f22fc8ce7d774a36ddda846f2c8d4c27ed2c0504d002c6">
+  <rdf:Description rdf:nodeID="commodity_saw_cb2238d66752c81607d599e04ae075aa0fe518877bd7014ba0b2fb6474120ec6d54">
     <crm:P190_has_symbolic_content>saws</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -160,20 +91,34 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_saw_cb540bdb9445e9cf2c9121c6a8857eac4d40575c111251217312e72f8abbf3f6b1">
-    <crm:P190_has_symbolic_content>Cutting tools having thin, flat metal blades, bands, or stiff plates with cutting teeth along the edges. Used to cut wood, metal, or other materials. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_saw_cb103056a261b27ff713ad93df29d6ff4538e30fb49c38d9309f96a5519c559f7f2">
-    <crm:P190_has_symbolic_content>sawis</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_saw_cb23cf51b7e9ca185786ab956d44afa168dc8e08a9c3c285c90b80642a550829aac">
+    <crm:P190_has_symbolic_content>sarra</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sauis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+    <hector:phoneticKey>sara</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_saw_cb2b351962820b45169c41496098fda79427f8686a5e4b5e0a17573d630dcb08086">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/saw#rate-1558-inward-1021">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Sawes voc’ whype sawes the pece 2s 6d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_saw_cb2b70c536e4f9a5946b1e24392cc9d206d7adec33f9b72d2159c29f19cef2c9db6"/>
+    <hector:perQuantity rdf:nodeID="commodity_saw_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_saw_cb1594416d017f5d997b361897c534fbbdd1f92b382830fe18b69acfe8cf5e56f87"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1021 (transcribed by Stuart Jenks): 'Sawes voc’ whype sawes the pece' 2s 6d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/saw#rate-1545-inward-700">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Sawes the dossen great 12s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_saw_cb299a4a7b721aa26945142bc5a54aaa50ae8077b272edb0d3a23ab3386dcccf4b8"/>
+    <hector:perQuantity rdf:nodeID="commodity_saw_cb18e1fddbba95a7ba8160e817bb9cfcecdc0c758639b92f30c391a77d8d3653fc0"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 700 (transcribed by Stuart Jenks): 'Sawes the dossen great' 12s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_saw_cb2d262cb29f3de07a2a5b239182c0b6a6b1fc5334888bba563b2b43ab20007c20f">
     <crm:P190_has_symbolic_content>sarr</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -181,33 +126,148 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_saw_cbe83c2e9ec84fb4f68570e54e805c59fec0c8a0886a332fb2d030e1b61035b109">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300024671">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>saws</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_saw_cb1a8097d8cc1886e9d2d2698869bc694372b8bbe59e607c1406ccc1e0ed54e7f76">
-    <crm:P190_has_symbolic_content>sarris</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_saw_cb20e2c80c5acb95cd19e9d98c63d699c1ed512355850258acd6376e8e7d9357b70">
+    <crm:P190_has_symbolic_content>sawez</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>saris</hector:phoneticKey>
+    <hector:phoneticKey>sauez</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_saw_cb15183e260c0f6c3981919ed05ebb92df4826653cc867bfd153f70591ea8e104c9">
+    <crm:P190_has_symbolic_content>Cutting tools having thin, flat metal blades, bands, or stiff plates with cutting teeth along the edges. Used to cut wood, metal, or other materials. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_saw_cbd6c425ea4d3cc34091ebcfba876243203e89f82327121116b94846abf0d5b852">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/saw">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cb13e3388514b1d2c09e8beca440a3f6219f713267a6990dfb611cfb504e147d222"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cb1bc485fa0c6671475f699cd71b78a67aa98793dad67d9a57fafbf0a65c9963392"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cb1c71ab28e94b224d60ec43b9537f7855fcbca6afc8a0d8602aa0c828ff8a5c0ff"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cb1c8370b20cd09582590299d7e05dbd9c7a23af07642c9c30ee2c8a6c93bf9882d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cb20e2c80c5acb95cd19e9d98c63d699c1ed512355850258acd6376e8e7d9357b70"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cb2238d66752c81607d599e04ae075aa0fe518877bd7014ba0b2fb6474120ec6d54"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cb22dd6daf445c7eaa1593f31a648ee69d4c2d918dfad4e5aaa31c8248747288a0d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cb23cf51b7e9ca185786ab956d44afa168dc8e08a9c3c285c90b80642a550829aac"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cb2a631e6ce44356824364f3a406ef1b41e0d2e83aaaff38188d168d93c48037f62"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cb2b511a31174cf5c095e3a3703013e371e57ce89552c0345ae427d6c215ef8c6a0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cb2d262cb29f3de07a2a5b239182c0b6a6b1fc5334888bba563b2b43ab20007c20f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cb36fe671936285ef564add605989ea21b3413f6702468a01d439a64ddec4a69386"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_saw_cbf5d55aec20667979738972c923933448dec8a4c5cb17d5d8f688ab2d142cf9db"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_saw_cb15183e260c0f6c3981919ed05ebb92df4826653cc867bfd153f70591ea8e104c9"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>saw</rdfs:label>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/saw"/>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300024671"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/saw#rate-1545-inward-700"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/saw#rate-1558-inward-1020"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/saw#rate-1558-inward-1021"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/saw#rate-1558-inward-1022"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_saw_cb13e3388514b1d2c09e8beca440a3f6219f713267a6990dfb611cfb504e147d222">
+    <crm:P190_has_symbolic_content>sawis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sauis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_saw_cb31ebfcefcff45b7a91bfbca2ef46ea5bd4ee1d8d15b99e340cd92c432800832c8">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>3s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_saw_cbf5d55aec20667979738972c923933448dec8a4c5cb17d5d8f688ab2d142cf9db">
     <crm:P190_has_symbolic_content>sarrarum</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>sararum</hector:phoneticKey>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pecia">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pecia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_saw_cb1bc485fa0c6671475f699cd71b78a67aa98793dad67d9a57fafbf0a65c9963392">
+    <crm:P190_has_symbolic_content>sawes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sauəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_saw_cb22dd6daf445c7eaa1593f31a648ee69d4c2d918dfad4e5aaa31c8248747288a0d">
+    <crm:P190_has_symbolic_content>sawe</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sauə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_saw_cb2a631e6ce44356824364f3a406ef1b41e0d2e83aaaff38188d168d93c48037f62">
+    <crm:P190_has_symbolic_content>sarrae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sare</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300024671">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>saws</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_saw_cb1f6b075195c31e47a380c0670c22b6bb345fb1faf970d7b0445672894a833f0dc">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>carpenters called handsawes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_saw_cb1c71ab28e94b224d60ec43b9537f7855fcbca6afc8a0d8602aa0c828ff8a5c0ff">
+    <crm:P190_has_symbolic_content>sarris</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>saris</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_saw_cb299a4a7b721aa26945142bc5a54aaa50ae8077b272edb0d3a23ab3386dcccf4b8">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>12s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">144</hector:valueInPence>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/mlca/glossary/saw">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>saw (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_saw_cb230aa13c5d26cc859860c08f7f2bba716cfc9778bfbc861fb97ab305fdb37c1d3">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_saw_cb1af4791121201ca7369bbe018ec8adbcf7f74b3ac580bbf9452d3c03fc4b399de">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>two handsawes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_saw_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

@@ -361,5 +361,80 @@
     }
   ],
   "attestationCount": 46,
-  "modified": "2026-10-03"
+  "modified": "2026-10-03",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/halberd#rate-1558-inward-594",
+      "type": "Rate",
+      "_label": "1558 inward: Halberdes unguilte the pece 20d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "20",
+        "lsd": "20d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 594 (transcribed by Stuart Jenks): 'Halberdes unguilte the pece' 20d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "ungilt"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/halberd#rate-1558-inward-595",
+      "type": "Rate",
+      "_label": "1558 inward: Halberdes guilte the pece 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 595 (transcribed by Stuart Jenks): 'Halberdes guilte the pece' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "gilt",
+          "equivalent": [
+            {
+              "id": "aat:300379350",
+              "type": "Type",
+              "_label": "gilding (material)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

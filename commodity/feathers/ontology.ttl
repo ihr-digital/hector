@@ -185,6 +185,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundredweight> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "beddes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1507, line 85 (transcribed by Stuart Jenks): 'Fethers for beddes the C wayte' 10s" ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
@@ -198,6 +201,8 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/tufte> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "ostrich" ] ;
     hector:sourceText "Book of Rates 1545, inward, line 252 (transcribed by Stuart Jenks): 'Esteryche fethers the tufte or bonde' 20d" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
@@ -211,6 +216,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 100 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "beddes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1545, inward, line 280 (transcribed by Stuart Jenks): 'Fethers for beddes the 100 pounde' 10s" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
@@ -224,6 +232,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 100 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "beddes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 417 (transcribed by Stuart Jenks): 'Fethers for beddes the C lb. cont’ 112 lb' 30s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -237,6 +248,8 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/tufte> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "ostrich" ] ;
     hector:sourceText "Book of Rates 1558, inward, line 453 (transcribed by Stuart Jenks): 'Fethers voc’ estrege fethers the tufte' 5s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -250,6 +263,10 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "undresed" ],
+        [ a crm:E55_Type ;
+            rdfs:label "ostrich" ] ;
     hector:sourceText "Book of Rates 1558, inward, line 464 (transcribed by Stuart Jenks): 'Fethers voc’ estredge undressed the pounde' 5s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .

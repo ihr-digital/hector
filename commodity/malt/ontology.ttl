@@ -66,7 +66,8 @@
     la:equivalent wd:Q152024 ;
     hector:attestationCount 20 ;
     hector:taxation <https://w3id.org/hector/commodity/malt#rate-1545-outward-24>,
-        <https://w3id.org/hector/commodity/malt#rate-1558-outward-40> .
+        <https://w3id.org/hector/commodity/malt#rate-1558-outward-40>,
+        <https://w3id.org/hector/commodity/malt#rate-1558-outward-41> .
 
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
@@ -103,6 +104,22 @@ wd:Q152024 a crm:E55_Type ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/quarter> ] ;
     hector:sourceText "Book of Rates 1558, outward, line 40 (transcribed by Stuart Jenks): 'Malte the quarter' 6s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/malt#rate-1558-outward-41> a hector:Rate ;
+    rdfs:label "1558 outward: Malte mustye the quarter 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/quarter> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "mustye" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, outward, line 41 (transcribed by Stuart Jenks): 'Malte mustye the quarter' 6s 8d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 

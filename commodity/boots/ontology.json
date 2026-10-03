@@ -142,7 +142,20 @@
       },
       "validFrom": "1507",
       "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 198 (transcribed by Stuart Jenks): 'Orrys for bottes the C' 40s"
+      "sourceText": "Book of Rates 1507, line 198 (transcribed by Stuart Jenks): 'Orrys for bottes the C' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Orrys",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -269,7 +269,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, outward, line 38 (transcribed by Stuart Jenks): 'Lynnen shreddes voc’ ragges, the maunde or fatte' 26s 8d"
+      "sourceText": "Book of Rates 1558, outward, line 38 (transcribed by Stuart Jenks): 'Lynnen shreddes voc’ ragges, the maunde or fatte' 26s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "shreddes voc ragges",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

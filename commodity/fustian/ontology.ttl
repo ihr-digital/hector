@@ -5,6 +5,7 @@
 @prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/hector/commodity/fustian> a crm:E55_Type ;
@@ -141,10 +142,14 @@
     hector:taxation <https://w3id.org/hector/commodity/fustian#rate-1507-none-87>,
         <https://w3id.org/hector/commodity/fustian#rate-1507-none-88>,
         <https://w3id.org/hector/commodity/fustian#rate-1545-inward-271>,
+        <https://w3id.org/hector/commodity/fustian#rate-1545-inward-272>,
         <https://w3id.org/hector/commodity/fustian#rate-1545-inward-273>,
         <https://w3id.org/hector/commodity/fustian#rate-1558-inward-439>,
         <https://w3id.org/hector/commodity/fustian#rate-1558-inward-440>,
-        <https://w3id.org/hector/commodity/fustian#rate-1558-inward-441> .
+        <https://w3id.org/hector/commodity/fustian#rate-1558-inward-441>,
+        <https://w3id.org/hector/commodity/fustian#rate-1558-inward-442>,
+        <https://w3id.org/hector/commodity/fustian#rate-1558-inward-632>,
+        <https://w3id.org/hector/commodity/fustian#rate-1558-inward-726> .
 
 aat:300132887 a crm:E55_Type ;
     rdfs:label "fustian" .
@@ -154,6 +159,9 @@ aat:300404670 a crm:E55_Type ;
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
+
+wd:Q2634 a crm:E53_Place ;
+    rdfs:label "Naples" .
 
 <https://w3id.org/hector/commodity/anaparte> a crm:E55_Type ;
     rdfs:label "anaparte" .
@@ -194,6 +202,22 @@ aat:300435416 a crm:E55_Type ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/bale> ] ;
     hector:sourceText "Book of Rates 1545, inward, line 271 (transcribed by Stuart Jenks): 'Fustyan the balle' £10" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/fustian#rate-1545-inward-272> a hector:Rate ;
+    rdfs:label "1545 inward: Fustian anapels the pece 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "anapels" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 272 (transcribed by Stuart Jenks): 'Fustian anapels the pece' 10s" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
@@ -246,6 +270,54 @@ aat:300435416 a crm:E55_Type ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
     hector:sourceText "Book of Rates 1558, inward, line 441 (transcribed by Stuart Jenks): 'Fustian thole pece' 15s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/fustian#rate-1558-inward-442> a hector:Rate ;
+    rdfs:label "1558 inward: Fustian of Naples the pece 30s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "30s" ;
+            hector:valueInPence 360.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Naples" ;
+            hector:originPlace wd:Q2634 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 442 (transcribed by Stuart Jenks): 'Fustian of Naples the pece' 30s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/fustian#rate-1558-inward-632> a hector:Rate ;
+    rdfs:label "1558 inward: Jane fustian thole pece 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Jane" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 632 (transcribed by Stuart Jenks): 'Jane fustian thole pece' 13s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/fustian#rate-1558-inward-726> a hector:Rate ;
+    rdfs:label "1558 inward: Millayn fustian the whole pyece 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Millayn" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 726 (transcribed by Stuart Jenks): 'Millayn fustian the whole pyece' 20s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 

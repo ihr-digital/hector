@@ -8,26 +8,31 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_button_cb368438ac5b64f6a74d55450fed76c89d095feefafcdff9b740f6542b1fa254d7">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  <rdf:Description rdf:nodeID="commodity_button_cb22fca5254808429f9a4667b09b6ff828b12cb8a3ad66f75b1e2809154aa8813b0">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>5s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/botenet">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>botenet</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/button">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-29</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_button_cb0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_button_cb132f66f6da7f6415254c8b898bb2c77ad6bb369bbd815de2e559898211475832f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_button_cb195448555f30fe22ab0b086a543652c3c03a473c6ba99db7c90400a046a32b433"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_button_cb1b6d932291cf14782685dbd13c9884f686b030c33c3d44cd287d929158b787019"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_button_cb21e486ec41402aa6e21a292b1cd820ad4ed8e9bb0e2bd96970987ca7e86d24b13"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_button_cb261f45dbc813afdd4f81f58ff258d750f6aa048d80380e334530e143b27608404"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_button_cb274891d2d6e8d354b667a4668096979b59094bf38caec841168f7eaaa6a32b803"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_button_cb28056272072bc87ace2d732fccacb027fa0c2fefb45ba9eacdb9d303fbbf6031b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_button_cb2bf983b7e65075957593dcea51e177fee9e81ea88c833cfdab67b6e5dba536fe3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_button_cb2da923041130f50e147edf21de5db93a52590251aa783aa754541c15e5d656849"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_button_cb538aedeeadd1739734d93cfe6c410e534388bd9ba8b8d011a87e45d8ba0155cb"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_button_cb55af14a2f5e2f47d6d0be0f82a5472a73b4f3ab339dbde96942a1401a0c6769c"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_button_cb4ba0dff2543807eb792a3409c0d1fe88b7ac11ba1280874d8005ccbbb773c8d0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_button_cb1208b56727570ba5cb3c04fd46351e1895f9ceb05813c2ade76e8576d141c23b7"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_button_cb15207a46f7b1ff78b36665ba7575d68d60bf2165e7c1ba2f092d8fca237ccc4b8"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_button_cb1b455ba57c6399863924e29b3df961d64a3e320695e9fa03ecd806e858d89f5bc"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_button_cb1d5ea672af01afdbb49fb602265b940910b41b8d667da1194c5198d96aecfb1a2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_button_cb23d59a3c5e72c60a7034035c069b2fbfd8dcd485386c35b5946c82effaa298c9c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_button_cb2810592be5464b40dd9bcfc0dc1be66380adef57aa786a7f6904e78bc4ab7c58d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_button_cb2939a522f41b6eb844817e976a59a6ade30d36bdb6ef248d3a6384f2b8d89f98c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_button_cb2dea9708038310f903adb71b3ba4871173ec0972b6c39949cf3bbd2deddaab16c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_button_cb2df5ee5b4fb6e2cf465df437bf0b360d320ab11366088d557836e02d79f8ffd75"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_button_cb2f9a36542e639071a298b952c820c84cdc5ced1bd4b896f37828225df80bca9d2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_button_cb729c22f080fb29d01676e00d0871ff7be3c76a3e4cbe94d3e5beaa59dd589754"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_button_cb74c049a4c90caab64ea98406c68563cfdb8de755dde1a358d16a7882c41db825"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_button_cb14918e6becf44fc5701225a67270c802ff9bb097586ab62efac8ef64fa460d6e8"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>button</rdfs:label>
     <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/button"/>
@@ -35,19 +40,41 @@
     <skos:related rdf:resource="https://w3id.org/hector/commodity/silk"/>
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300239261"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/button#rate-1558-inward-145"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/button#rate-1558-inward-146"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/button#rate-1558-inward-149"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/button#rate-1558-inward-170"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/botenet">
+  <rdf:Description rdf:nodeID="commodity_button_cb17440debe057cbfa60189ee2ad69ee2ac4aca410fba13990068e2e128d73984d5">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>botenet</rdfs:label>
+    <rdfs:label>latten</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300198675"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_button_cb195448555f30fe22ab0b086a543652c3c03a473c6ba99db7c90400a046a32b433">
-    <crm:P190_has_symbolic_content>botton</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_button_cb15207a46f7b1ff78b36665ba7575d68d60bf2165e7c1ba2f092d8fca237ccc4b8">
+    <crm:P190_has_symbolic_content>noduli</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>boton</hector:phoneticKey>
+    <hector:phoneticKey>noduli</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_button_cb28056272072bc87ace2d732fccacb027fa0c2fefb45ba9eacdb9d303fbbf6031b">
+  <rdf:Description rdf:nodeID="commodity_button_cb32b3c6103b3686842d1c491bab5d99c996890d87f2311cb606b38928937c1df43">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s 6d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_button_cb23d59a3c5e72c60a7034035c069b2fbfd8dcd485386c35b5946c82effaa298c9c">
+    <crm:P190_has_symbolic_content>buttons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>butons</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_button_cb2df5ee5b4fb6e2cf465df437bf0b360d320ab11366088d557836e02d79f8ffd75">
     <crm:P190_has_symbolic_content>button</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -56,53 +83,19 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_button_cb2bf983b7e65075957593dcea51e177fee9e81ea88c833cfdab67b6e5dba536fe3">
-    <crm:P190_has_symbolic_content>botouns</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>botuːns</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/button#rate-1558-inward-170">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Buttons fyne Damaskyn worke the dosen 5s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_button_cb22fca5254808429f9a4667b09b6ff828b12cb8a3ad66f75b1e2809154aa8813b0"/>
+    <hector:perQuantity rdf:nodeID="commodity_button_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_button_cb1b30fe9588420976d79fa1eda5671a6699f88129274eb2ce27e046808870009c1"/>
+    <hector:qualifier rdf:nodeID="commodity_button_cb1c8f7689c9589f480b8be7e00991c8ecbdb6e939284ef1f003d61e8bbf1b99330"/>
+    <hector:qualifier rdf:nodeID="commodity_button_cbfcd3ae64bb685021223d68cc575a25308623ddd4bd674e65712b77c956c28a4e"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 170 (transcribed by Stuart Jenks): 'Buttons fyne Damaskyn worke the dosen' 5s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_button_cb21e486ec41402aa6e21a292b1cd820ad4ed8e9bb0e2bd96970987ca7e86d24b13">
-    <crm:P190_has_symbolic_content>buttons</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>butons</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300239261">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>buttons (fasteners)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>dozen</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_button_cb2da923041130f50e147edf21de5db93a52590251aa783aa754541c15e5d656849">
-    <crm:P190_has_symbolic_content>botten</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>boten</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_button_cb132f66f6da7f6415254c8b898bb2c77ad6bb369bbd815de2e559898211475832f">
-    <crm:P190_has_symbolic_content>noduli</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>noduli</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_button_cb1b6d932291cf14782685dbd13c9884f686b030c33c3d44cd287d929158b787019">
+  <rdf:Description rdf:nodeID="commodity_button_cb1d5ea672af01afdbb49fb602265b940910b41b8d667da1194c5198d96aecfb1a2">
     <crm:P190_has_symbolic_content>boton</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -110,7 +103,37 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_button_cb261f45dbc813afdd4f81f58ff258d750f6aa048d80380e334530e143b27608404">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300243428">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>silk (textile)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_button_cb1b30fe9588420976d79fa1eda5671a6699f88129274eb2ce27e046808870009c1">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Damaskyn</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_button_cb26a75508829d013cce5bc1b2db191d24f5a023296a1de6f76144df9196dc83438">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/button#rate-1558-inward-146">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Buttons of silke the great grosse cont’ 24 small grosse 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_button_cb26a75508829d013cce5bc1b2db191d24f5a023296a1de6f76144df9196dc83438"/>
+    <hector:perQuantity rdf:nodeID="commodity_button_cb18b4ef3d050742e4bc86c67fb4388c4121b138649b9de857fe511cad2d8101917"/>
+    <hector:qualifier rdf:nodeID="commodity_button_cb1691576d736607a779066a24e35d85d4a68b92157d07c782f569f8bcb532b8298"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 146 (transcribed by Stuart Jenks): 'Buttons of silke the great grosse cont’ 24 small grosse' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_button_cb1baa68a97ea63ced816d42a3d1b01aeb8abd78f9745f0460f10cdacc2b6ce1e9d">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>coper</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300011020"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_button_cb2810592be5464b40dd9bcfc0dc1be66380adef57aa786a7f6904e78bc4ab7c58d">
     <crm:P190_has_symbolic_content>botoun</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -118,31 +141,49 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_button_cb4ba0dff2543807eb792a3409c0d1fe88b7ac11ba1280874d8005ccbbb773c8d0">
-    <crm:P190_has_symbolic_content>Disks, balls, or devices of other shape having holes or a shank by which they are sewn or secured to an article and that are used as fasteners by passing through a buttonhole or loop or a trimming. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  <rdf:Description rdf:nodeID="commodity_button_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/button#rate-1558-inward-170">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/button#rate-1558-inward-145">
     <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Buttons fyne Damaskyn worke the dosen 5s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_button_cbfcb184f4a27e23de6d93f592100bd71c1c99c6c659375e22925a0137deea554e"/>
-    <hector:perQuantity rdf:nodeID="commodity_button_cb368438ac5b64f6a74d55450fed76c89d095feefafcdff9b740f6542b1fa254d7"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 170 (transcribed by Stuart Jenks): 'Buttons fyne Damaskyn worke the dosen' 5s</hector:sourceText>
+    <rdfs:label>1558 inward: Buttons of threde the great grosse cont’ 24 small grosse 2s 6d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_button_cb32b3c6103b3686842d1c491bab5d99c996890d87f2311cb606b38928937c1df43"/>
+    <hector:perQuantity rdf:nodeID="commodity_button_cb1c33bbdb37f7b601ace1ee85c5bf8adc7668bd8cf755f4eb78b600fedc53436cf"/>
+    <hector:qualifier rdf:nodeID="commodity_button_cb2c38b01f66d7573fa5a54b28406ba2dae27fc1eac1c03a4dcfd0821cef23ef96b"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 145 (transcribed by Stuart Jenks): 'Buttons of threde the great grosse cont’ 24 small grosse' 2s 6d</hector:sourceText>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_button_cbfcb184f4a27e23de6d93f592100bd71c1c99c6c659375e22925a0137deea554e">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>5s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</hector:valueInPence>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/button#rate-1558-inward-149">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Buttons of stele, coper, tynne or laten for jerkyns the grosse 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_button_cb317b9bdad67b94de8f1f8c41b814818b7bbc0ca13535fb0745764685728ac77b7"/>
+    <hector:perQuantity rdf:nodeID="commodity_button_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50"/>
+    <hector:qualifier rdf:nodeID="commodity_button_cb17440debe057cbfa60189ee2ad69ee2ac4aca410fba13990068e2e128d73984d5"/>
+    <hector:qualifier rdf:nodeID="commodity_button_cb1a3c479cc3c9cfe9d911e907d6d5b0beac47c34283ec6cec645213ec76530e10b"/>
+    <hector:qualifier rdf:nodeID="commodity_button_cb1baa68a97ea63ced816d42a3d1b01aeb8abd78f9745f0460f10cdacc2b6ce1e9d"/>
+    <hector:qualifier rdf:nodeID="commodity_button_cb26b1420590b3408bb5f8f5489d600460b39a44e79687c470d08fa09d416860117"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 149 (transcribed by Stuart Jenks): 'Buttons of stele, coper, tynne or laten for jerkyns the grosse' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_button_cb274891d2d6e8d354b667a4668096979b59094bf38caec841168f7eaaa6a32b803">
+  <rdf:Description rdf:nodeID="commodity_button_cb1208b56727570ba5cb3c04fd46351e1895f9ceb05813c2ade76e8576d141c23b7">
+    <crm:P190_has_symbolic_content>nodulus</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>nodulus</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_button_cb2dea9708038310f903adb71b3ba4871173ec0972b6c39949cf3bbd2deddaab16c">
+    <crm:P190_has_symbolic_content>botouns</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>botuːns</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_button_cb2939a522f41b6eb844817e976a59a6ade30d36bdb6ef248d3a6384f2b8d89f98c">
     <crm:P190_has_symbolic_content>bottens</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -150,17 +191,46 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_button_cb18b4ef3d050742e4bc86c67fb4388c4121b138649b9de857fe511cad2d8101917">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1728</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_button_cb538aedeeadd1739734d93cfe6c410e534388bd9ba8b8d011a87e45d8ba0155cb">
-    <crm:P190_has_symbolic_content>bottons</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_button_cb14918e6becf44fc5701225a67270c802ff9bb097586ab62efac8ef64fa460d6e8">
+    <crm:P190_has_symbolic_content>Disks, balls, or devices of other shape having holes or a shank by which they are sewn or secured to an article and that are used as fasteners by passing through a buttonhole or loop or a trimming. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_button_cb1b455ba57c6399863924e29b3df961d64a3e320695e9fa03ecd806e858d89f5bc">
+    <crm:P190_has_symbolic_content>botton</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>botons</hector:phoneticKey>
+    <hector:phoneticKey>boton</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_button_cb55af14a2f5e2f47d6d0be0f82a5472a73b4f3ab339dbde96942a1401a0c6769c">
+  <rdf:Description rdf:nodeID="commodity_button_cbfcd3ae64bb685021223d68cc575a25308623ddd4bd674e65712b77c956c28a4e">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>fine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300133748">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tin (metal)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_button_cb317b9bdad67b94de8f1f8c41b814818b7bbc0ca13535fb0745764685728ac77b7">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_button_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_button_cb74c049a4c90caab64ea98406c68563cfdb8de755dde1a358d16a7882c41db825">
     <crm:P190_has_symbolic_content>botons</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -168,18 +238,82 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/mlca/glossary/button">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>button (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_button_cb0">
-    <crm:P190_has_symbolic_content>nodulus</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_button_cb1691576d736607a779066a24e35d85d4a68b92157d07c782f569f8bcb532b8298">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>silk</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300243428"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_button_cb2f9a36542e639071a298b952c820c84cdc5ced1bd4b896f37828225df80bca9d2">
+    <crm:P190_has_symbolic_content>botten</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>nodulus</hector:phoneticKey>
+    <hector:phoneticKey>boten</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>gross</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_button_cb1c8f7689c9589f480b8be7e00991c8ecbdb6e939284ef1f003d61e8bbf1b99330">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>worked</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300198675">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>latten</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_button_cb2c38b01f66d7573fa5a54b28406ba2dae27fc1eac1c03a4dcfd0821cef23ef96b">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>file</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_button_cb26b1420590b3408bb5f8f5489d600460b39a44e79687c470d08fa09d416860117">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>tin</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300133748"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_button_cb729c22f080fb29d01676e00d0871ff7be3c76a3e4cbe94d3e5beaa59dd589754">
+    <crm:P190_has_symbolic_content>bottons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>botons</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_button_cb1a3c479cc3c9cfe9d911e907d6d5b0beac47c34283ec6cec645213ec76530e10b">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>jerkyns</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/silk">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>silk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_button_cb1c33bbdb37f7b601ace1ee85c5bf8adc7668bd8cf755f4eb78b600fedc53436cf">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1728</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300011020">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>copper (metal)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300239261">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>buttons (fasteners)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

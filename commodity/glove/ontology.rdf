@@ -8,111 +8,49 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_glove_cb107c9c528fb19924f746bd77a6324d0439a9170ba29d3ce47c97d3025e8cbaffe">
-    <crm:P190_has_symbolic_content>ciroteca</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>siroteka</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb2fdeeb4abc76a12ddb3ceb20f905bba463ec8e770aa90c6d06a56d6f787efe866">
-    <crm:P190_has_symbolic_content>seroteca</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>seroteka</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb2b445e74e9eca1b3e5ad216874578ac08d8801b44166afca2a543907b1a9d8a0f">
-    <crm:P190_has_symbolic_content>ciroticae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sirotike</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb191c992dd77a0ec7361c405421549bcbaccc8dd8a3f7b0d96e692a9e1514ffd29">
-    <crm:P190_has_symbolic_content>gloves</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>glovəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb2d7afa2b0b306952e8de9fc7b98e3ef03d761a20d205de43d7b0d434ac2b16c5a">
-    <crm:P190_has_symbolic_content>cirotheca</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>siroθeka</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb29c6fcfccbf06627728c572f4de922cb422188db0b8e43f88c35dbcc7b5d7c5ac">
-    <crm:P190_has_symbolic_content>glovae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>glove</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb296491034a463bfa23f6f57c03590a0b08368866fc199410d22d62ae0d02debd3">
-    <crm:P190_has_symbolic_content>glovys</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>glovis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb120a115814de5f2cebd3adccc787bb124a6581a0bc22b7fcf3b7a8bc5173fad1d">
+  <rdf:Description rdf:nodeID="commodity_glove_cb119943a9198cf328083c94d302934373e92c4417924c326533e84f5dfbb4e18a7">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb2396fec9e566aad53691636f2161dce9ae7495653a605afca1b84b0d8b7671e2c">
-    <crm:P190_has_symbolic_content>glowis</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_glove_cb2c3011bf1a9cb0a709b10cd8f4921c6c73a8e3c1ea943eae3f84c94460611fcb6">
+    <crm:P190_has_symbolic_content>serotecae</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>gluːis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+    <hector:phoneticKey>seroteke</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb27234e1edc4fd6dae7ebdf0a634d9ded9b97d1005f1c805d0bb882de8cab98ff3">
-    <crm:P190_has_symbolic_content>glowe</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>gluːə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_glove_cb1dcb02885336b317ca1a181c2cfda718f60e0f1af967ef7fd3a28403306b1f071">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>26s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</hector:valueInPence>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb18907180d05145f0f274623efdf182052f9b84ce2eb32a571267665d75ddf5901">
-    <crm:P190_has_symbolic_content>cirotecae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>siroteke</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/glove#rate-1558-inward-492">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Gloves of Venis, Millen and Canarie wrought with golde, sylke or silver the dosen 30s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_glove_cb24e39fcd56de90adcd32527f40e310d9a3e58a91c7736b29e7202ad59097287e0"/>
+    <hector:perQuantity rdf:nodeID="commodity_glove_cb137266fce54ba1b2491c971ee8717ad1ffaea3d57d3a6a95344c4b838cb8b06e1"/>
+    <hector:qualifier rdf:nodeID="commodity_glove_cb19501b4f39dce2d4f4943e57da170bc47e651b9b5bdec2102e3a33b350f31fff4"/>
+    <hector:qualifier rdf:nodeID="commodity_glove_cb1a0d11c399ea58c0a3a5e6a301d30524d118f6e39bac963cc5234429247edc633"/>
+    <hector:qualifier rdf:nodeID="commodity_glove_cb1b1c2a6945adbb1640e8c6a79372363769fb0c1456c2da490b46fde24c55bc710"/>
+    <hector:qualifier rdf:nodeID="commodity_glove_cb200b30dfefdcf061362b645e2807483ce8444e0746f3c0a9d38f69f82e67bd6cb"/>
+    <hector:qualifier rdf:nodeID="commodity_glove_cb210705b9336d28b8f046aa37d78348e7cf8a263e13e914d3de333a5eed4e0fa86"/>
+    <hector:qualifier rdf:nodeID="commodity_glove_cb28499a3e4630037b48c292ffa20ab3faeb31c356e6e34d0fa6e72ff81a6f73a73"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 492 (transcribed by Stuart Jenks): 'Gloves of Venis, Millen and Canarie wrought with golde, sylke or silver the dosen' 30s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cbfb78168e3e56a45b0a4e1bbbd00691e83a8ca8a7e38f91dbb64ecca29f71784c">
-    <crm:P190_has_symbolic_content>glov</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>glov</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb1ea8b42a63724d3b3d4a200f25b5307ab70d9169bbfff230f41662efbf4891fa8">
-    <crm:P190_has_symbolic_content>glove</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>glovə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/glove#rate-1545-inward-56">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Brydges gloves þe groce 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_glove_cb35eef0db14e5df60d243a2ddf6d33045807facacee0ccafed1e9db6464875344d"/>
+    <hector:perQuantity rdf:nodeID="commodity_glove_cb107bbaa420dbfa70f91af110387167bacbeb5d1f3c978272cec6d68d8e34e1717"/>
+    <hector:qualifier rdf:nodeID="commodity_glove_cb2c148c5b402c428e041d64025f0e808e867b19869852135dd591000763aa86d30"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 56 (transcribed by Stuart Jenks): 'Brydges gloves þe groce' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/glove">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
@@ -162,226 +100,34 @@
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300148821"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">405</hector:attestationCount>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/glove#rate-1507-none-114"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/glove#rate-1545-inward-491"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/glove#rate-1545-inward-56"/>
     <hector:taxation rdf:resource="https://w3id.org/hector/commodity/glove#rate-1558-inward-487"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/glove#rate-1558-inward-488"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/glove#rate-1558-inward-489"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/glove#rate-1558-inward-490"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/glove#rate-1558-inward-491"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/glove#rate-1558-inward-492"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/glove#rate-1558-inward-518"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+  <rdf:Description rdf:nodeID="commodity_glove_cb1a0d11c399ea58c0a3a5e6a301d30524d118f6e39bac963cc5234429247edc633">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
+    <rdfs:label>silk</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300243428"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb13f8bb03da03ba3b399a99fe30cc085defc5b00e5761d8879dc2f52a0444c9dd6">
-    <crm:P190_has_symbolic_content>serotika</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>serotika</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb1e4ee41888e0cb6216c489f376b37ffb7208823646fd0796a5e7ca2aa9b727758">
-    <crm:P190_has_symbolic_content>cyrotecae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>siroteke</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb1bc23df3cf3f0f047b8949503d949cf788c6472c0a6712a33b53e6d568714891a">
-    <crm:P190_has_symbolic_content>cirotecarum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sirotekarum</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb18daa236cfbe8206a2fd90fd3f23676c9a0f71493a1300bd3cd938e0a5f6fad0d">
-    <crm:P190_has_symbolic_content>sirotecarum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sirotekarum</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb187b8b52268a46964a573d35fd8d74160020d6f44f8052d8179fa155633c5cb2c">
-    <crm:P190_has_symbolic_content>glowez</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>gluːez</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb243b37407fdc12550c54fb0b76f9d31d0fb710df859962416157b51f86c37e34c">
-    <crm:P190_has_symbolic_content>glovez</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>glovez</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb18f216be72cb28c8b76d7c25e2eb02e87fe7a79e595ee53e9ad4454b32761a47d">
-    <crm:P190_has_symbolic_content>glova</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>glova</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/glove#rate-1558-inward-487">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Gloves the grosse of Spanishe making 48s</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_glove_cb304874f50387ac2af94ba80a9dca1c3019e86966696651505acf5cc66257f8b16"/>
-    <hector:perQuantity rdf:nodeID="commodity_glove_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 487 (transcribed by Stuart Jenks): 'Gloves the grosse of Spanishe making' 48s</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb2412b7049951845b2b9e78d5e8d8f06b11467625a0a8391307edc7d3ca9892ff1">
-    <crm:P190_has_symbolic_content>soroticae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sorotike</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb133f79a8605141d63339d7a23eab8d9d430295ca66d63f7f1cb95e17f3fa97dec">
-    <crm:P190_has_symbolic_content>cerotecarum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>serotekarum</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/gauntlet">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>gauntlet</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
-    <rdfs:label>gross</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb17ddb411c5b4bb14cb9ff79e91c0b927c01c21a29896158d16006f04b261ff355">
-    <crm:P190_has_symbolic_content>serotikae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>serotike</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cbe7513f97dacdcac34e62c793425ec5195677eb4eefc2f32f98cc7aaa5a816937">
-    <crm:P190_has_symbolic_content>cyroteca</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_glove_cb107c9c528fb19924f746bd77a6324d0439a9170ba29d3ce47c97d3025e8cbaffe">
+    <crm:P190_has_symbolic_content>ciroteca</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>siroteka</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb220522dbd22327bca6cf222e3d9c5179c2ab580b567e51e46667e6c23e06925bd">
-    <crm:P190_has_symbolic_content>sorotica</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sorotika</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb2a41e550b702bc8f4880292cbdafb5f1b652bbe4025b33552be48540f599f1982">
-    <crm:P190_has_symbolic_content>siroteca</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>siroteka</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb27c9a06db0756ab004749b1f80dd60a44202fc5a843577467750bc90f5a4c427e">
-    <crm:P190_has_symbolic_content>cirotica</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sirotika</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb1f8c6fe4d72a1245df140a2cbcc1b38b220237efabe3e444204a38fc1164019cb">
-    <crm:P190_has_symbolic_content>Coverings for the hand enclosing each finger separately, sometimes extending over the wrist and arm. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb202e95e9d424268c1814352ebd853788ae6af29a6595158702f62b658b787fc81">
-    <crm:P190_has_symbolic_content>cereticae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>seretike</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb3005238a69cac6cf4a6d86a5c6e289e83748152b40959bbd6be3e3086c758cd4e">
-    <crm:P190_has_symbolic_content>cirothecae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>siroθeke</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb2c3011bf1a9cb0a709b10cd8f4921c6c73a8e3c1ea943eae3f84c94460611fcb6">
-    <crm:P190_has_symbolic_content>serotecae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>seroteke</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb375f9fd05cf93a5c2fa49e1f019d43b78567190dd18a867a41629ff637248248d">
+  <rdf:Description rdf:nodeID="commodity_glove_cb357af5b28a69d96e65abd9befe044ce22927f9ed25187306eafe4f6ca917aaed1">
     <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>13s 4d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb304874f50387ac2af94ba80a9dca1c3019e86966696651505acf5cc66257f8b16">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>48s</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">576</hector:valueInPence>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/glovers-shreds">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>glover’s shreds</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb177351a0d8eea54cf3b8b6685dc433dd77dbf9534d1c8acb1b7159031891b4fd5">
-    <crm:P190_has_symbolic_content>glovis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>glovis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/mittes">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>mittes</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/glove#rate-1507-none-114">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1507: Gloves the grosse 13s 4d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_glove_cb375f9fd05cf93a5c2fa49e1f019d43b78567190dd18a867a41629ff637248248d"/>
-    <hector:perQuantity rdf:nodeID="commodity_glove_cb120a115814de5f2cebd3adccc787bb124a6581a0bc22b7fcf3b7a8bc5173fad1d"/>
-    <hector:sourceText>Book of Rates 1507, line 114 (transcribed by Stuart Jenks): 'Gloves the grosse' 13s 4d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb18456803b04bc5cea7ac0ffb7435400b7ecd1593352eadf56e95a02d8b8a2d8cc">
-    <crm:P190_has_symbolic_content>serotecarum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>serotekarum</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cb376a8cd0d39f56fd57ab7f00fa892f54d17c26a542220592320d80415b4b6ee67">
-    <crm:P190_has_symbolic_content>cerotecae</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>seroteke</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/glove">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>glove (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300148821">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>gloves</rdfs:label>
+    <hector:lsd>16s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">192</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_glove_cb1ea9d2a57f6fca10d5d2c7d06d4af4d2cca42a60b0fcfd2d8122219812652038c">
     <crm:P190_has_symbolic_content>glow</crm:P190_has_symbolic_content>
@@ -399,6 +145,57 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb228e960addfc9662b758487f96e326f46d77e048658a1292a6db2ffa2010e8ce7">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>24s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">288</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb1dd275086fac96e91c7dde601470cbe6027b5aa42307080dfe59861af2afd0ad9">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>knitted</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb28499a3e4630037b48c292ffa20ab3faeb31c356e6e34d0fa6e72ff81a6f73a73">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Milan</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q490"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/glove#rate-1558-inward-489">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Gloves voc’ Canarie gloves unwrought the grosse 16s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_glove_cb357af5b28a69d96e65abd9befe044ce22927f9ed25187306eafe4f6ca917aaed1"/>
+    <hector:perQuantity rdf:nodeID="commodity_glove_cb10304108020964f68490a711f845335768bf266cc210d5acbc0c06323cd74cbd2"/>
+    <hector:qualifier rdf:nodeID="commodity_glove_cb180ca126b28085a55c019f0987636500560e3cb282ce7ab0c1c2dfdcc091f32a5"/>
+    <hector:qualifier rdf:nodeID="commodity_glove_cb193790c6d37bfc41c6c4a3170786fc7291e6a12af8e8969d2af41cb0f2dafba5d"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 489 (transcribed by Stuart Jenks): 'Gloves voc’ Canarie gloves unwrought the grosse' 16s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb1bc23df3cf3f0f047b8949503d949cf788c6472c0a6712a33b53e6d568714891a">
+    <crm:P190_has_symbolic_content>cirotecarum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sirotekarum</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/glove#rate-1558-inward-490">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Gloves voc’ Millen gloves unwrought the dosen 8s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_glove_cb2adb57b078420eb685f889cfaee1f35dfa5dd004cb0c1c1e00b197a5c9f218efb"/>
+    <hector:perQuantity rdf:nodeID="commodity_glove_cbfdd3497dce5d7da46ce241a8436f5a4f12ee2abfdaffe1592278e3ea16be88f0"/>
+    <hector:qualifier rdf:nodeID="commodity_glove_cb1f0f18cc7e8e21a4308d863303fc50e8e2275e26c9c7682ac1f93095db53e8eea"/>
+    <hector:qualifier rdf:nodeID="commodity_glove_cb2cdda81b69e5cbae19f8d6cd4bcc61ad131ba169deb1d73dd174f0067287341b1"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 490 (transcribed by Stuart Jenks): 'Gloves voc’ Millen gloves unwrought the dosen' 8s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_glove_cb18d0c533417480ed7b668ce2a0ae9a2752a66c52b9b685094252fca061a7ba5ff">
     <crm:P190_has_symbolic_content>ceretica</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -406,6 +203,400 @@
     <hector:phoneticKey>seretika</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/mittes">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>mittes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300243428">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>silk (textile)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb2adb57b078420eb685f889cfaee1f35dfa5dd004cb0c1c1e00b197a5c9f218efb">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>8s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb22574a990c4927ab700fd951c92a0b9d9f3f05b21be7c043be7db69853242ad10">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>unwrought</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb19501b4f39dce2d4f4943e57da170bc47e651b9b5bdec2102e3a33b350f31fff4">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Canarie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb220522dbd22327bca6cf222e3d9c5179c2ab580b567e51e46667e6c23e06925bd">
+    <crm:P190_has_symbolic_content>sorotica</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sorotika</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300011029">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>silver (metal)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb1691576d736607a779066a24e35d85d4a68b92157d07c782f569f8bcb532b8298">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>silk</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300243428"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb1e4ee41888e0cb6216c489f376b37ffb7208823646fd0796a5e7ca2aa9b727758">
+    <crm:P190_has_symbolic_content>cyrotecae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>siroteke</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb26324c68b87be8444d74a08d45e55046e35af125569936989bef0e6e84bf079bb">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Spain</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q29"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb27234e1edc4fd6dae7ebdf0a634d9ded9b97d1005f1c805d0bb882de8cab98ff3">
+    <crm:P190_has_symbolic_content>glowe</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>gluːə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb1b1c2a6945adbb1640e8c6a79372363769fb0c1456c2da490b46fde24c55bc710">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>silver</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300011029"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb17ddb411c5b4bb14cb9ff79e91c0b927c01c21a29896158d16006f04b261ff355">
+    <crm:P190_has_symbolic_content>serotikae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>serotike</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb2cdda81b69e5cbae19f8d6cd4bcc61ad131ba169deb1d73dd174f0067287341b1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Milan</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q490"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb202e95e9d424268c1814352ebd853788ae6af29a6595158702f62b658b787fc81">
+    <crm:P190_has_symbolic_content>cereticae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>seretike</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb24e39fcd56de90adcd32527f40e310d9a3e58a91c7736b29e7202ad59097287e0">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>30s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb1ea8b42a63724d3b3d4a200f25b5307ab70d9169bbfff230f41662efbf4891fa8">
+    <crm:P190_has_symbolic_content>glove</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>glovə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb187b8b52268a46964a573d35fd8d74160020d6f44f8052d8179fa155633c5cb2c">
+    <crm:P190_has_symbolic_content>glowez</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>gluːez</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb2c148c5b402c428e041d64025f0e808e867b19869852135dd591000763aa86d30">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Bruges</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q12994"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cbe7513f97dacdcac34e62c793425ec5195677eb4eefc2f32f98cc7aaa5a816937">
+    <crm:P190_has_symbolic_content>cyroteca</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>siroteka</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/glove#rate-1558-inward-487">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Gloves the grosse of Spanishe making 48s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_glove_cb33cc5385ce5812c781c79eaf88228ea17a381b283603d7629ff72226b9d81456b"/>
+    <hector:perQuantity rdf:nodeID="commodity_glove_cb119943a9198cf328083c94d302934373e92c4417924c326533e84f5dfbb4e18a7"/>
+    <hector:qualifier rdf:nodeID="commodity_glove_cb26324c68b87be8444d74a08d45e55046e35af125569936989bef0e6e84bf079bb"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 487 (transcribed by Stuart Jenks): 'Gloves the grosse of Spanishe making' 48s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb376a8cd0d39f56fd57ab7f00fa892f54d17c26a542220592320d80415b4b6ee67">
+    <crm:P190_has_symbolic_content>cerotecae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>seroteke</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb243b37407fdc12550c54fb0b76f9d31d0fb710df859962416157b51f86c37e34c">
+    <crm:P190_has_symbolic_content>glovez</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>glovez</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb133f79a8605141d63339d7a23eab8d9d430295ca66d63f7f1cb95e17f3fa97dec">
+    <crm:P190_has_symbolic_content>cerotecarum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>serotekarum</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb203fa34b60dd02b529b51c7c6eb5d712901feea4abb4b174aa0e638659d996a84">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>France</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q142"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb2a2c4e580afe9ebfa47235213ed9e50ba5e50961ad55cd99f09e23ff91dfa728d">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Bruges</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q12994"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb29c6fcfccbf06627728c572f4de922cb422188db0b8e43f88c35dbcc7b5d7c5ac">
+    <crm:P190_has_symbolic_content>glovae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>glove</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb193790c6d37bfc41c6c4a3170786fc7291e6a12af8e8969d2af41cb0f2dafba5d">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>unwrought</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb2396fec9e566aad53691636f2161dce9ae7495653a605afca1b84b0d8b7671e2c">
+    <crm:P190_has_symbolic_content>glowis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>gluːis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb191c992dd77a0ec7361c405421549bcbaccc8dd8a3f7b0d96e692a9e1514ffd29">
+    <crm:P190_has_symbolic_content>gloves</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>glovəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb18907180d05145f0f274623efdf182052f9b84ce2eb32a571267665d75ddf5901">
+    <crm:P190_has_symbolic_content>cirotecae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>siroteke</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb120a115814de5f2cebd3adccc787bb124a6581a0bc22b7fcf3b7a8bc5173fad1d">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb22e37129e8be98c5851368f9ef6310bdc19692f67029ee25985dcd77450911d06">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>8s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb2412b7049951845b2b9e78d5e8d8f06b11467625a0a8391307edc7d3ca9892ff1">
+    <crm:P190_has_symbolic_content>soroticae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sorotike</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb20ff999c6bfd4f448abca3d2a3db2a7873e2439be4a4f2b722894cbb61ba7c479">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Millin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb2a41e550b702bc8f4880292cbdafb5f1b652bbe4025b33552be48540f599f1982">
+    <crm:P190_has_symbolic_content>siroteca</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>siroteka</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/gauntlet">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gauntlet</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/glove#rate-1558-inward-518">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Gloves knytte of silke the dosen 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_glove_cb2fa4d8aadaeb2964caea9c860acc68102e34f9534ccec8b96275b3405af38b68e"/>
+    <hector:perQuantity rdf:nodeID="commodity_glove_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_glove_cb1691576d736607a779066a24e35d85d4a68b92157d07c782f569f8bcb532b8298"/>
+    <hector:qualifier rdf:nodeID="commodity_glove_cb1dd275086fac96e91c7dde601470cbe6027b5aa42307080dfe59861af2afd0ad9"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 518 (transcribed by Stuart Jenks): 'Gloves knytte of silke the dosen' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb35eef0db14e5df60d243a2ddf6d33045807facacee0ccafed1e9db6464875344d">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/glove#rate-1507-none-114">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Gloves the grosse 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_glove_cb375f9fd05cf93a5c2fa49e1f019d43b78567190dd18a867a41629ff637248248d"/>
+    <hector:perQuantity rdf:nodeID="commodity_glove_cb120a115814de5f2cebd3adccc787bb124a6581a0bc22b7fcf3b7a8bc5173fad1d"/>
+    <hector:sourceText>Book of Rates 1507, line 114 (transcribed by Stuart Jenks): 'Gloves the grosse' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cbfb78168e3e56a45b0a4e1bbbd00691e83a8ca8a7e38f91dbb64ecca29f71784c">
+    <crm:P190_has_symbolic_content>glov</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>glov</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/glove#rate-1545-inward-491">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Millin gloves or Canary the groce 26s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_glove_cb1dcb02885336b317ca1a181c2cfda718f60e0f1af967ef7fd3a28403306b1f071"/>
+    <hector:perQuantity rdf:nodeID="commodity_glove_cb159cdb12538ffc9dace0fca64ea83d969eec92002a4fed479d8eff9fd611d82c1"/>
+    <hector:qualifier rdf:nodeID="commodity_glove_cb20ff999c6bfd4f448abca3d2a3db2a7873e2439be4a4f2b722894cbb61ba7c479"/>
+    <hector:qualifier rdf:nodeID="commodity_glove_cb25fb9a583f22b16e49031d104f4c1ec2aa9ad73aa68d7536ac58c2bbaddbb97fb"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 491 (transcribed by Stuart Jenks): 'Millin gloves or Canary the groce' 26s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb3005238a69cac6cf4a6d86a5c6e289e83748152b40959bbd6be3e3086c758cd4e">
+    <crm:P190_has_symbolic_content>cirothecae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>siroθeke</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q142">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>France</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb2fa4d8aadaeb2964caea9c860acc68102e34f9534ccec8b96275b3405af38b68e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/glove#rate-1558-inward-491">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Gloves voc’ Venis gloves unwrought the dosen 8s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_glove_cb22e37129e8be98c5851368f9ef6310bdc19692f67029ee25985dcd77450911d06"/>
+    <hector:perQuantity rdf:nodeID="commodity_glove_cb1544761d9d4941d9a3d70acfd418e7469094fdc698129fe77cc0218a94b19499a"/>
+    <hector:qualifier rdf:nodeID="commodity_glove_cb22574a990c4927ab700fd951c92a0b9d9f3f05b21be7c043be7db69853242ad10"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 491 (transcribed by Stuart Jenks): 'Gloves voc’ Venis gloves unwrought the dosen' 8s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/glove">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>glove (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q29">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Spain</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb177351a0d8eea54cf3b8b6685dc433dd77dbf9534d1c8acb1b7159031891b4fd5">
+    <crm:P190_has_symbolic_content>glovis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>glovis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb27c9a06db0756ab004749b1f80dd60a44202fc5a843577467750bc90f5a4c427e">
+    <crm:P190_has_symbolic_content>cirotica</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sirotika</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb210705b9336d28b8f046aa37d78348e7cf8a263e13e914d3de333a5eed4e0fa86">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gold</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300011021"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb2fdeeb4abc76a12ddb3ceb20f905bba463ec8e770aa90c6d06a56d6f787efe866">
+    <crm:P190_has_symbolic_content>seroteca</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>seroteka</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb2d7afa2b0b306952e8de9fc7b98e3ef03d761a20d205de43d7b0d434ac2b16c5a">
+    <crm:P190_has_symbolic_content>cirotheca</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>siroθeka</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300011021">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gold (metal)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb10304108020964f68490a711f845335768bf266cc210d5acbc0c06323cd74cbd2">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb107bbaa420dbfa70f91af110387167bacbeb5d1f3c978272cec6d68d8e34e1717">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb296491034a463bfa23f6f57c03590a0b08368866fc199410d22d62ae0d02debd3">
+    <crm:P190_has_symbolic_content>glovys</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>glovis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb25fb9a583f22b16e49031d104f4c1ec2aa9ad73aa68d7536ac58c2bbaddbb97fb">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Canary Islands</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q5813"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb18f216be72cb28c8b76d7c25e2eb02e87fe7a79e595ee53e9ad4454b32761a47d">
+    <crm:P190_has_symbolic_content>glova</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>glova</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1442</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:nodeID="commodity_glove_cb2d64d76996be6f8600388ff53a773d92910e1fb419ba0cd8b1d82b054f7cd6296">
     <crm:P190_has_symbolic_content>ceroteca</crm:P190_has_symbolic_content>
@@ -415,13 +606,135 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_glove_cb2b445e74e9eca1b3e5ad216874578ac08d8801b44166afca2a543907b1a9d8a0f">
+    <crm:P190_has_symbolic_content>ciroticae</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sirotike</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_glove_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50">
+  <rdf:Description rdf:nodeID="commodity_glove_cb1544761d9d4941d9a3d70acfd418e7469094fdc698129fe77cc0218a94b19499a">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb18456803b04bc5cea7ac0ffb7435400b7ecd1593352eadf56e95a02d8b8a2d8cc">
+    <crm:P190_has_symbolic_content>serotecarum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>serotekarum</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>gross</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q490">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Milan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb1f0f18cc7e8e21a4308d863303fc50e8e2275e26c9c7682ac1f93095db53e8eea">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>unwrought</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/glove#rate-1558-inward-488">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Gloves voc’ Bridges and Frenche gloves the grosse 24s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_glove_cb228e960addfc9662b758487f96e326f46d77e048658a1292a6db2ffa2010e8ce7"/>
+    <hector:perQuantity rdf:nodeID="commodity_glove_cb17fe4b61a654afd3b2ace78379bdbf97d3d6511045033c82a2c2f69499b525113"/>
+    <hector:qualifier rdf:nodeID="commodity_glove_cb203fa34b60dd02b529b51c7c6eb5d712901feea4abb4b174aa0e638659d996a84"/>
+    <hector:qualifier rdf:nodeID="commodity_glove_cb2a2c4e580afe9ebfa47235213ed9e50ba5e50961ad55cd99f09e23ff91dfa728d"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 488 (transcribed by Stuart Jenks): 'Gloves voc’ Bridges and Frenche gloves the grosse' 24s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/glovers-shreds">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>glover’s shreds</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb375f9fd05cf93a5c2fa49e1f019d43b78567190dd18a867a41629ff637248248d">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300148821">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>gloves</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb13f8bb03da03ba3b399a99fe30cc085defc5b00e5761d8879dc2f52a0444c9dd6">
+    <crm:P190_has_symbolic_content>serotika</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>serotika</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1380</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1385</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb1f8c6fe4d72a1245df140a2cbcc1b38b220237efabe3e444204a38fc1164019cb">
+    <crm:P190_has_symbolic_content>Coverings for the hand enclosing each finger separately, sometimes extending over the wrist and arm. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb33cc5385ce5812c781c79eaf88228ea17a381b283603d7629ff72226b9d81456b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>48s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">576</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb180ca126b28085a55c019f0987636500560e3cb282ce7ab0c1c2dfdcc091f32a5">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Canarie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb159cdb12538ffc9dace0fca64ea83d969eec92002a4fed479d8eff9fd611d82c1">
     <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
     <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb18daa236cfbe8206a2fd90fd3f23676c9a0f71493a1300bd3cd938e0a5f6fad0d">
+    <crm:P190_has_symbolic_content>sirotecarum</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sirotekarum</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb200b30dfefdcf061362b645e2807483ce8444e0746f3c0a9d38f69f82e67bd6cb">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>worked</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb17fe4b61a654afd3b2ace78379bdbf97d3d6511045033c82a2c2f69499b525113">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cb137266fce54ba1b2491c971ee8717ad1ffaea3d57d3a6a95344c4b838cb8b06e1">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_glove_cbfdd3497dce5d7da46ce241a8436f5a4f12ee2abfdaffe1592278e3ea16be88f0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5813">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Canary Islands</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q12994">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Bruges</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

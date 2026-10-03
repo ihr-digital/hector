@@ -313,9 +313,15 @@
     skos:exactMatch <https://w3id.org/mlca/glossary/stockfish> ;
     skos:related <https://w3id.org/hector/commodity/titling> ;
     hector:attestationCount 626 ;
-    hector:taxation <https://w3id.org/hector/commodity/stockfish#rate-1545-inward-681>,
+    hector:taxation <https://w3id.org/hector/commodity/stockfish#rate-1545-inward-680>,
+        <https://w3id.org/hector/commodity/stockfish#rate-1545-inward-681>,
+        <https://w3id.org/hector/commodity/stockfish#rate-1545-inward-682>,
         <https://w3id.org/hector/commodity/stockfish#rate-1545-inward-683>,
-        <https://w3id.org/hector/commodity/stockfish#rate-1545-inward-685> .
+        <https://w3id.org/hector/commodity/stockfish#rate-1545-inward-684>,
+        <https://w3id.org/hector/commodity/stockfish#rate-1545-inward-685>,
+        <https://w3id.org/hector/commodity/stockfish#rate-1558-inward-988>,
+        <https://w3id.org/hector/commodity/stockfish#rate-1558-inward-990>,
+        <https://w3id.org/hector/commodity/stockfish#rate-1558-inward-991> .
 
 aat:300389825 a crm:E55_Type ;
     rdfs:label "fish (meat)" .
@@ -325,6 +331,22 @@ aat:300404670 a crm:E55_Type ;
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
+
+<https://w3id.org/hector/commodity/stockfish#rate-1545-inward-680> a hector:Rate ;
+    rdfs:label "1545 inward: Stokfyshe called lubfysh the last £10" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£10" ;
+            hector:valueInPence 2400.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "lubfysh" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 680 (transcribed by Stuart Jenks): 'Stokfyshe called lubfysh the last' £10" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/stockfish#rate-1545-inward-681> a hector:Rate ;
     rdfs:label "1545 inward: Stokfysshe the hundreth 20s" ;
@@ -336,6 +358,22 @@ aat:300435416 a crm:E55_Type ;
             crm:P90_has_value 100 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
     hector:sourceText "Book of Rates 1545, inward, line 681 (transcribed by Stuart Jenks): 'Stokfysshe the hundreth' 20s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/stockfish#rate-1545-inward-682> a hector:Rate ;
+    rdfs:label "1545 inward: Stokfish called cropling the last £5" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£5" ;
+            hector:valueInPence 1200.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "cropling" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 682 (transcribed by Stuart Jenks): 'Stokfish called cropling the last' £5" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
@@ -352,6 +390,22 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/stockfish#rate-1545-inward-684> a hector:Rate ;
+    rdfs:label "1545 inward: Stokfysshe called tytling the last 50s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "50s" ;
+            hector:valueInPence 600.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "tytling" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 684 (transcribed by Stuart Jenks): 'Stokfysshe called tytling the last' 50s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/stockfish#rate-1545-inward-685> a hector:Rate ;
     rdfs:label "1545 inward: Stokfysshe the hundreth 5s" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -365,17 +419,68 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/stockfish#rate-1558-inward-988> a hector:Rate ;
+    rdfs:label "1558 inward: Stokfysshe voc’ cropelynges the C cont’ 6 score 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "cropelynges" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 988 (transcribed by Stuart Jenks): 'Stokfysshe voc’ cropelynges the C cont’ 6 score' 13s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/stockfish#rate-1558-inward-990> a hector:Rate ;
+    rdfs:label "1558 inward: Stokfysshe voc’ tytlynges the C cont’ 6 score 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "tytlynges" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 990 (transcribed by Stuart Jenks): 'Stokfysshe voc’ tytlynges the C cont’ 6 score' 6s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/stockfish#rate-1558-inward-991> a hector:Rate ;
+    rdfs:label "1558 inward: Stokfysshe voc’ tytlynges the last 66s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "66s 8d" ;
+            hector:valueInPence 800.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "tytlynges" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 991 (transcribed by Stuart Jenks): 'Stokfysshe voc’ tytlynges the last' 66s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/titling> a crm:E55_Type ;
     rdfs:label "titling" .
 
 <https://w3id.org/mlca/glossary/stockfish> a crm:E55_Type ;
     rdfs:label "stockfish (London Customs Accounts glossary)" .
 
-aat:300411998 a crm:E98_Currency ;
-    rdfs:label "pound sterling (system of money)" .
+<https://w3id.org/hector/unit/last> a crm:E58_Measurement_Unit ;
+    rdfs:label "last" .
 
 <https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
     rdfs:label "hundred" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

@@ -796,7 +796,20 @@
       },
       "validFrom": "1507",
       "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 86 (transcribed by Stuart Jenks): 'Fetherbed tekes the dossen of all sortes' 36s"
+      "sourceText": "Book of Rates 1507, line 86 (transcribed by Stuart Jenks): 'Fetherbed tekes the dossen of all sortes' 36s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "tekes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/featherbed#rate-1558-inward-418",
@@ -823,7 +836,17 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 418 (transcribed by Stuart Jenks): 'Fether beddes olde or newe the pece' 13s 4d"
+      "sourceText": "Book of Rates 1558, inward, line 418 (transcribed by Stuart Jenks): 'Fether beddes olde or newe the pece' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "old"
+        },
+        {
+          "type": "Type",
+          "_label": "new"
+        }
+      ]
     }
   ]
 }

@@ -103,8 +103,16 @@
     skos:related <https://w3id.org/hector/commodity/grill> ;
     la:equivalent aat:300261263 ;
     hector:attestationCount 350 ;
-    hector:taxation <https://w3id.org/hector/commodity/salmon#rate-1558-inward-931>,
-        <https://w3id.org/hector/commodity/salmon#rate-1558-inward-932> .
+    hector:taxation <https://w3id.org/hector/commodity/salmon#rate-1507-none-244>,
+        <https://w3id.org/hector/commodity/salmon#rate-1507-none-245>,
+        <https://w3id.org/hector/commodity/salmon#rate-1507-none-246>,
+        <https://w3id.org/hector/commodity/salmon#rate-1558-inward-931>,
+        <https://w3id.org/hector/commodity/salmon#rate-1558-inward-932>,
+        <https://w3id.org/hector/commodity/salmon#rate-1558-inward-933>,
+        <https://w3id.org/hector/commodity/salmon#rate-1558-inward-934> .
+
+aat:300073768 a crm:E55_Type ;
+    rdfs:label "small" .
 
 aat:300261263 a crm:E55_Type ;
     rdfs:label "salmon (fish)" .
@@ -120,6 +128,54 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/hector/commodity/grill> a crm:E55_Type ;
     rdfs:label "grill" .
+
+<https://w3id.org/hector/commodity/salmon#rate-1507-none-244> a hector:Rate ;
+    rdfs:label "1507: Samond of the grette band the last £11" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£11" ;
+            hector:valueInPence 2640.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "grette" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 244 (transcribed by Stuart Jenks): 'Samond of the grette band the last' £11" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/salmon#rate-1507-none-245> a hector:Rate ;
+    rdfs:label "1507: Samon of the smalle bande the laste £9" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£9" ;
+            hector:valueInPence 2160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "small" ;
+            la:equivalent aat:300073768 ] ;
+    hector:sourceText "Book of Rates 1507, line 245 (transcribed by Stuart Jenks): 'Samon of the smalle bande the laste' £9" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/salmon#rate-1507-none-246> a hector:Rate ;
+    rdfs:label "1507: Samon grylles the last £6" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£6" ;
+            hector:valueInPence 1440.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "grylles" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 246 (transcribed by Stuart Jenks): 'Samon grylles the last' £6" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/salmon#rate-1558-inward-931> a hector:Rate ;
     rdfs:label "1558 inward: Salmon the barrell 30s" ;
@@ -147,14 +203,46 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/salmon#rate-1558-inward-933> a hector:Rate ;
+    rdfs:label "1558 inward: Salmon gyrles the barrell 15s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "15s" ;
+            hector:valueInPence 180.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/barrel> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "gyrles" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 933 (transcribed by Stuart Jenks): 'Salmon gyrles the barrell' 15s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/salmon#rate-1558-inward-934> a hector:Rate ;
+    rdfs:label "1558 inward: Salmon gyrles the laste £9" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£9" ;
+            hector:valueInPence 2160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/last> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "gyrles" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 934 (transcribed by Stuart Jenks): 'Salmon gyrles the laste' £9" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/mlca/glossary/salmon> a crm:E55_Type ;
+    rdfs:label "salmon (London Customs Accounts glossary)" .
+
 <https://w3id.org/hector/unit/barrel> a crm:E58_Measurement_Unit ;
     rdfs:label "barrel" .
 
 <https://w3id.org/hector/unit/last> a crm:E58_Measurement_Unit ;
     rdfs:label "last" .
-
-<https://w3id.org/mlca/glossary/salmon> a crm:E55_Type ;
-    rdfs:label "salmon (London Customs Accounts glossary)" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

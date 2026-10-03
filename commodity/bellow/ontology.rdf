@@ -8,7 +8,7 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_bellow_cb1064ff556ea96272309922cea696eb374980d1e5de82b070b4ca8b229a74114cf">
+  <rdf:Description rdf:nodeID="commodity_bellow_cb125612a58bdbfdd5beb2fcff9059fa49d384bcb008c30cbcd89e916aaca985658">
     <crm:P190_has_symbolic_content>bellowez</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -16,55 +16,79 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bellow_cb1d0858a884ee4ab6419660bb553de8162c531c31fd6079ae4d4149fa4baa10d1e">
-    <crm:P190_has_symbolic_content>uter</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_bellow_cb2158bb238e6e18e6130a6a685c487335e91b8c7c7fab30858c5469e0df08b3b1a">
+    <crm:P190_has_symbolic_content>uteroris</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>uter</hector:phoneticKey>
+    <hector:phoneticKey>uteroris</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bellow_cb1b4848de615bfe4d03751aa9bf4258713d4717fb3b4c245b18c2d7d6450b355cd">
-    <crm:P190_has_symbolic_content>belle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>belə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bellow#rate-1545-inward-784">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Whisteling bellowes the groce 8s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bellow_cb3271780f2a71910532ad48977e1ac4c09a777410e81a12aacc5d5e5292a9adc74"/>
+    <hector:perQuantity rdf:nodeID="commodity_bellow_cb1409975fae6af76470f6bc1001db2803a15335720e12abaf5018fbd9c5e8d3f33"/>
+    <hector:qualifier rdf:nodeID="commodity_bellow_cb1fd716bf3f71a2b3b11ca55b0f02cb75cad4c89e4e29da35f4c60c70e4ecd8b67"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 784 (transcribed by Stuart Jenks): 'Whisteling bellowes the groce' 8s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bellow_cb1aa11594d40ba431c9e1aa168a61ae68a2f892d66ea4245f4253f4762b6eddc4a">
-    <crm:P190_has_symbolic_content>blowers</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>bluːers</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bellow_cb23b35979b7011a64c27cfe99b3538f5b38a916fba474152da5c8bd5dbf6876eac">
-    <crm:P190_has_symbolic_content>bellowes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>beluːəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300024643">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>bellows (fire controlling equipment)</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/bellow">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>bellow (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bellow_cb216ca95f118a057a4bebfa80d73b3667d0e30adbd8dfb5153d5e3dbe109c71bc2">
-    <crm:P190_has_symbolic_content>beli</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_bellow_cb30edd0e02251710ddfefadcd4d712d59d5919accada6b2b8e37e6a2311fbca241">
+    <crm:P190_has_symbolic_content>belows</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>beli</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
+    <hector:phoneticKey>beluːs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bellow_cb283ec052a51f6e5974a725cd3723050292d2fffc27e7827a82e234658195f94e1">
+  <rdf:Description rdf:nodeID="commodity_bellow_cb2602848d498e8660d257c364550994830e46e322964e5d7ef468afce13216df4a">
+    <crm:P190_has_symbolic_content>beliez</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>beliːz</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bellow">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb125612a58bdbfdd5beb2fcff9059fa49d384bcb008c30cbcd89e916aaca985658"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb1605596f0ba781b6737cdc5a4994081b90dcde6199f2d4476772a24f77bbebdd8"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb18604ea6760ea54a58a011959cb1d9df3230c7b727734bd22d0e2b2df1839f8cd"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb1c9228e4f13e3f9557fb84477424bd7b2cfc7da098e480ab6627fabe3da451dd3"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb1d395c2e7e8e99b0918ef4daa9056783c74b02c5658c80a73c96de1e5740a9756"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb1ef96bf8a220e619cfb03aec3f00f728b65706fc27a0d5fa711550425ddf84ea7"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb2158bb238e6e18e6130a6a685c487335e91b8c7c7fab30858c5469e0df08b3b1a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb2270e03e2c2e854ba6eccccd04e86e920edc1f9e9dd7ba7d5ab449706e512bcf2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb235dbcaf2ebca0ddda05d4b1c0fe457a5ae6f5a6032011616132440622d1e5d4b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb25a46cc9d433b5c85096d8ca9d169e6dc2ad01c5ceb47179c99cc3a5d19deb035"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb2602848d498e8660d257c364550994830e46e322964e5d7ef468afce13216df4a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb27319e58bdc417f612890dec8b89c31b68935d68d600467d82d108fd7105547e7"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb27aff5e5efcc7fc6d57f247d9e432eb4d124b632768cbbcc1fc11ccfc1753e891"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb28e89abcfa01ab6afab220a2266e6324bf1b4fb73e2e6546c95ae0b66b05e6017"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb2961dc36b552a9469f292f60ef97d347aed5beed43864482a88ad151c5e77823e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb2a2fd3a2c25209bd02c0fffe20e614151cd6eac65227dec6a6b63aad93cb6d66a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb2d340d3d24d8c8b69699dbc2bd014352bbecdab62227267cdf554088ad4f52b80"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb30edd0e02251710ddfefadcd4d712d59d5919accada6b2b8e37e6a2311fbca241"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_bellow_cb1640c33ec3896c5f5f7ce2bbab9f9208cacc82b2685923c9c92be1019d8778c8e"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>bellow</rdfs:label>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/bellow"/>
+    <skos:related rdf:resource="https://w3id.org/hector/commodity/belyborde"/>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300024643"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bellow#rate-1545-inward-784"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bellow#rate-1558-inward-1145"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bellow_cb2a2fd3a2c25209bd02c0fffe20e614151cd6eac65227dec6a6b63aad93cb6d66a">
     <crm:P190_has_symbolic_content>bely</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -72,7 +96,96 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bellow_cb2371504d6cc78ef226f8ae58fd394d6276d73dc991d96117fe0dc42847add87e4">
+  <rdf:Description rdf:nodeID="commodity_bellow_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bellow_cb235dbcaf2ebca0ddda05d4b1c0fe457a5ae6f5a6032011616132440622d1e5d4b">
+    <crm:P190_has_symbolic_content>beli</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>beli</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bellow_cb1c9228e4f13e3f9557fb84477424bd7b2cfc7da098e480ab6627fabe3da451dd3">
+    <crm:P190_has_symbolic_content>blowers</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>bluːers</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bellow_cb25a46cc9d433b5c85096d8ca9d169e6dc2ad01c5ceb47179c99cc3a5d19deb035">
+    <crm:P190_has_symbolic_content>bellowes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>beluːəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bellow_cb1605596f0ba781b6737cdc5a4994081b90dcde6199f2d4476772a24f77bbebdd8">
+    <crm:P190_has_symbolic_content>belowes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>beluːəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bellow_cb278b9ef56a7c26d1b65f1bca8e18de731345bb20db4be634f6be21d7b690647b8">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>12s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">144</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bellow_cb3271780f2a71910532ad48977e1ac4c09a777410e81a12aacc5d5e5292a9adc74">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>8s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bellow_cb1d395c2e7e8e99b0918ef4daa9056783c74b02c5658c80a73c96de1e5740a9756">
+    <crm:P190_has_symbolic_content>belle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>belə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bellow_cb28e89abcfa01ab6afab220a2266e6324bf1b4fb73e2e6546c95ae0b66b05e6017">
+    <crm:P190_has_symbolic_content>belles</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>beləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bellow_cb18604ea6760ea54a58a011959cb1d9df3230c7b727734bd22d0e2b2df1839f8cd">
+    <crm:P190_has_symbolic_content>belowys</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>beluːis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bellow_cb2270e03e2c2e854ba6eccccd04e86e920edc1f9e9dd7ba7d5ab449706e512bcf2">
+    <crm:P190_has_symbolic_content>belyes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>belies</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bellow_cb27aff5e5efcc7fc6d57f247d9e432eb4d124b632768cbbcc1fc11ccfc1753e891">
+    <crm:P190_has_symbolic_content>belies</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>beliːs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bellow_cb2961dc36b552a9469f292f60ef97d347aed5beed43864482a88ad151c5e77823e">
     <crm:P190_has_symbolic_content>bellow</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -81,79 +194,7 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bellow">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb1064ff556ea96272309922cea696eb374980d1e5de82b070b4ca8b229a74114cf"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb1414461eee74e652e56302295fd0f90906d8f3976fb277fb439e9c07658677c4f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb166f3b5658dc09e6ca863764b2eecacca82cdcecfd32ef86093a24e5df4e2b744"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb1aa11594d40ba431c9e1aa168a61ae68a2f892d66ea4245f4253f4762b6eddc4a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb1b4848de615bfe4d03751aa9bf4258713d4717fb3b4c245b18c2d7d6450b355cd"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb1d0858a884ee4ab6419660bb553de8162c531c31fd6079ae4d4149fa4baa10d1e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb207fccee0efbe9e818d2f29c1b255f7f84d834d473975e3136e043285c1bb7b69"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb216ca95f118a057a4bebfa80d73b3667d0e30adbd8dfb5153d5e3dbe109c71bc2"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb2371504d6cc78ef226f8ae58fd394d6276d73dc991d96117fe0dc42847add87e4"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb23b35979b7011a64c27cfe99b3538f5b38a916fba474152da5c8bd5dbf6876eac"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb2411713d2c5beafd443de9336b4685708442f8586c0e0132d094a98600ebf9dc1"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb25408b08a0917c92846f33bba1c6b408de8f729eabbfea315efd02b55ecfe065e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb25bee295d299e46347654a4cb4801fa24720cb684c4c5f7ffbed1687af3fca708"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb26f7876cdccf10076c9846713cab5412351764ed13ee08faa586da6e58d071e8e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb283ec052a51f6e5974a725cd3723050292d2fffc27e7827a82e234658195f94e1"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb2b42f9ed07a62d5308800191d33e344031e8efebf7e6ca30bb813a409b19de9f7"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cb2efcbd90051ed5aa51d5d39c63ae1e474b8db0028366566cbfaa63daffc6560b8"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bellow_cbd648546055b47deb61f66b563df4bc92a7d1d07fe4f684b3cb38980b5651e477"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_bellow_cb66942d1fbd89d18a6fd6055d53be9ee56ab9336b116760fa6634e685eb8a7e76"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>bellow</rdfs:label>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/bellow"/>
-    <skos:related rdf:resource="https://w3id.org/hector/commodity/belyborde"/>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300024643"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</hector:attestationCount>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300024643">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>bellows (fire controlling equipment)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bellow_cbd648546055b47deb61f66b563df4bc92a7d1d07fe4f684b3cb38980b5651e477">
-    <crm:P190_has_symbolic_content>uteroris</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>uteroris</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bellow_cb1414461eee74e652e56302295fd0f90906d8f3976fb277fb439e9c07658677c4f">
-    <crm:P190_has_symbolic_content>belowes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>beluːəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bellow_cb2efcbd90051ed5aa51d5d39c63ae1e474b8db0028366566cbfaa63daffc6560b8">
-    <crm:P190_has_symbolic_content>belows</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>beluːs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bellow_cb166f3b5658dc09e6ca863764b2eecacca82cdcecfd32ef86093a24e5df4e2b744">
-    <crm:P190_has_symbolic_content>belowys</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>beluːis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bellow_cb25408b08a0917c92846f33bba1c6b408de8f729eabbfea315efd02b55ecfe065e">
+  <rdf:Description rdf:nodeID="commodity_bellow_cb27319e58bdc417f612890dec8b89c31b68935d68d600467d82d108fd7105547e7">
     <crm:P190_has_symbolic_content>below</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -161,28 +202,31 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1502</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1503</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bellow_cb66942d1fbd89d18a6fd6055d53be9ee56ab9336b116760fa6634e685eb8a7e76">
-    <crm:P190_has_symbolic_content>Instruments or machines that produce a strong current of air by expansion or contraction of an air chamber, usually used to fan a fire in a hearth. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  <rdf:Description rdf:nodeID="commodity_bellow_cb1409975fae6af76470f6bc1001db2803a15335720e12abaf5018fbd9c5e8d3f33">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bellow_cb25bee295d299e46347654a4cb4801fa24720cb684c4c5f7ffbed1687af3fca708">
-    <crm:P190_has_symbolic_content>belies</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_bellow_cb1fd716bf3f71a2b3b11ca55b0f02cb75cad4c89e4e29da35f4c60c70e4ecd8b67">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>beliːs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Whisteling</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bellow_cb207fccee0efbe9e818d2f29c1b255f7f84d834d473975e3136e043285c1bb7b69">
-    <crm:P190_has_symbolic_content>belyes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>belies</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bellow#rate-1558-inward-1145">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Whystlinge bellowes the grosse 12s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bellow_cb278b9ef56a7c26d1b65f1bca8e18de731345bb20db4be634f6be21d7b690647b8"/>
+    <hector:perQuantity rdf:nodeID="commodity_bellow_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50"/>
+    <hector:qualifier rdf:nodeID="commodity_bellow_cb103209614d696572cb4f7670d7452e33e6e6bd69afe33184cf2a701f2974491d7"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1145 (transcribed by Stuart Jenks): 'Whystlinge bellowes the grosse' 12s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bellow_cb2b42f9ed07a62d5308800191d33e344031e8efebf7e6ca30bb813a409b19de9f7">
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bellow_cb2d340d3d24d8c8b69699dbc2bd014352bbecdab62227267cdf554088ad4f52b80">
     <crm:P190_has_symbolic_content>bellys</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -190,24 +234,42 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bellow_cb26f7876cdccf10076c9846713cab5412351764ed13ee08faa586da6e58d071e8e">
-    <crm:P190_has_symbolic_content>belles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>beləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>gross</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bellow_cb2411713d2c5beafd443de9336b4685708442f8586c0e0132d094a98600ebf9dc1">
-    <crm:P190_has_symbolic_content>beliez</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>beliːz</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_bellow_cb1640c33ec3896c5f5f7ce2bbab9f9208cacc82b2685923c9c92be1019d8778c8e">
+    <crm:P190_has_symbolic_content>Instruments or machines that produce a strong current of air by expansion or contraction of an air chamber, usually used to fan a fire in a hearth. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/belyborde">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>belyborde</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bellow_cb1ef96bf8a220e619cfb03aec3f00f728b65706fc27a0d5fa711550425ddf84ea7">
+    <crm:P190_has_symbolic_content>uter</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>uter</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1412</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1427</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/bellow">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>bellow (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bellow_cb103209614d696572cb4f7670d7452e33e6e6bd69afe33184cf2a701f2974491d7">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Whystlinge</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

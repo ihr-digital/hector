@@ -8,15 +8,139 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_napkin_cbef6a1fbbf0b7ed0808d60704350bade032ced234bb214e16a2ae931da174540a">
-    <crm:P190_has_symbolic_content>napkynes</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_napkin_cb31ca278ec725e478296d447d26ab42a333667d960f8fc280a85817c6b44d607e9">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_napkin_cb16fe626a1d8ebf91558b92ef31908c1e9999377b295e45c743532d17541899c2a">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_napkin_cb1b057cc19c994b5f0e99662be8bdd1dad5509c727914f226fd396459d9df88d3e">
+    <crm:P190_has_symbolic_content>napkyns</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>napkinəs</hector:phoneticKey>
+    <hector:phoneticKey>napkins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q142">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>France</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_napkin_cb1659bd918cd601f01f6bb6968f2fdeb3026c4562681dcc4847763e02f39ebc758">
+    <crm:P190_has_symbolic_content>napkyn</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>napkin</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_napkin_cb1ba8d94a8dd2efa609da39b28e7964f2d8be33760e1a5dd80e6f97a8ea4702ead">
+  <rdf:Description rdf:nodeID="commodity_napkin_cb1c301b00b2d6846777a00721b2ec09fb6b3b98dc402a3f1d783c3ae5dba7ee785">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_napkin_cb1543c7b1531038cfe7795fab092a653e68f127f091b94596abce0620bf3384f9c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>coarse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_napkin_cb148c101cdb39e605fcb6216a0ce00fd0cf2cb0312fc22718dffca240d7455329e">
+    <crm:P190_has_symbolic_content>Relatively small pieces of cloth or paper used for wiping the mouth and hands and protecting clothes while dining.  [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_napkin_cb13257a1c5fec3c5554c91f194c0bdf5c7e0f322903a9c5d90622681ce0b83b062">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/napkin#rate-1558-inward-736">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Napkens voc’ Frenche napkens the dosen 4s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_napkin_cb1c301b00b2d6846777a00721b2ec09fb6b3b98dc402a3f1d783c3ae5dba7ee785"/>
+    <hector:perQuantity rdf:nodeID="commodity_napkin_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_napkin_cb1dcf571c377b5e4262d5045c92ee4c76de22c3a89d7cd282762d22abde4d9070a"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 736 (transcribed by Stuart Jenks): 'Napkens voc’ Frenche napkens the dosen' 4s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/napkin#rate-1545-inward-504">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Napkyns of the Frenche makyng the dosen 2s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_napkin_cb31ca278ec725e478296d447d26ab42a333667d960f8fc280a85817c6b44d607e9"/>
+    <hector:perQuantity rdf:nodeID="commodity_napkin_cb1389dcc2668690e92beeecb5a0273262116613f83883b6e21293405540f22f57f"/>
+    <hector:qualifier rdf:nodeID="commodity_napkin_cb16f38a142be1bfc2bee74f662e22cbfc959b598ffa4a56e2ba3f2c20b3d886019"/>
+    <hector:qualifier rdf:nodeID="commodity_napkin_cb256054780614be30495509549e96b8464387ce760f9b8e8d5334b80c3b710c14a"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 504 (transcribed by Stuart Jenks): 'Napkyns of the Frenche makyng the dosen' 2s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_napkin_cb28f3ecf925ea723f9547876041d0b60a3a3db0c03ade68b2bc72390c7dd4a653a">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>damask</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300163295"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_napkin_cb1f9b4ceb3d547a5d5f234a9fafabb3d191be12e826aeea4c3e0dac0535a7a74bd">
+    <crm:P190_has_symbolic_content>napken</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>napken</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/napkin">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_napkin_cb134750731a13591961e0a2b68aeb020db4ac0053f0a9f481b0ba63757d7f8b002"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_napkin_cb1659bd918cd601f01f6bb6968f2fdeb3026c4562681dcc4847763e02f39ebc758"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_napkin_cb1b057cc19c994b5f0e99662be8bdd1dad5509c727914f226fd396459d9df88d3e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_napkin_cb1c50af6fbbc52de16b35fbb130fc2d33e73fcc24ed36b133120094130d7db2ae1"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_napkin_cb1d99ec9aab058b0997f413e3783c740562c21e40385aba2432439df0fc7c77036"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_napkin_cb1f9b4ceb3d547a5d5f234a9fafabb3d191be12e826aeea4c3e0dac0535a7a74bd"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_napkin_cb27c7f61ee748fe43fd8e9a6abd275c66706fdb1a6983d10f50a1ca45cd910a343"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_napkin_cb148c101cdb39e605fcb6216a0ce00fd0cf2cb0312fc22718dffca240d7455329e"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>napkin</rdfs:label>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/napkin"/>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300216644"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">208</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/napkin#rate-1545-inward-237"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/napkin#rate-1545-inward-238"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/napkin#rate-1545-inward-504"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/napkin#rate-1558-inward-362"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/napkin#rate-1558-inward-736"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/napkin#rate-1545-inward-237">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Dioper napkyns cours the dossen 4s or 5s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_napkin_cb21fda352cb960a52f48e5fc701012293533da4925d04e670dd75bd170dfdf7182"/>
+    <hector:perQuantity rdf:nodeID="commodity_napkin_cb1e2b622d5d46e1948393e30116a327038a719857ee644548d858ba578f54f77e1"/>
+    <hector:qualifier rdf:nodeID="commodity_napkin_cb1543c7b1531038cfe7795fab092a653e68f127f091b94596abce0620bf3384f9c"/>
+    <hector:qualifier rdf:nodeID="commodity_napkin_cb21f9ce2152c3bad2b6e5a1f9100a72027bfc613d0e464c4f0199fa9db8a2ddf71"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 237 (transcribed by Stuart Jenks): 'Dioper napkyns cours the dossen' 4s or 5s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_napkin_cb12c8d01b9b4c8815d11d033b8e8dada9f8c35b47ca7f0527897f2210f604ea82e">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>warke</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_napkin_cb21fda352cb960a52f48e5fc701012293533da4925d04e670dd75bd170dfdf7182">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>4s or 5s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_napkin_cb1d99ec9aab058b0997f413e3783c740562c21e40385aba2432439df0fc7c77036">
     <crm:P190_has_symbolic_content>napkens</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -24,31 +148,64 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_napkin_cb1389dcc2668690e92beeecb5a0273262116613f83883b6e21293405540f22f57f">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/napkin">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_napkin_cb1ba8d94a8dd2efa609da39b28e7964f2d8be33760e1a5dd80e6f97a8ea4702ead"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_napkin_cb1daa399b2021def9d109706ec5e8a4bf07ba281dfc6e8e001a39a5bd237233334"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_napkin_cbb0d1922a46a514a3de6b41705c6b0a4f6dc683e40fd766bd3fe0c244f3d6089f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_napkin_cbc589b71df7d2d9840e4b8b2a0e77f262c3f340d2bf5124abafea210efac85a80"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_napkin_cbd56c489d1883ec4e9b021ae988c7c287cad7f303efd1117063d564bff45eb5a8"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_napkin_cbef6a1fbbf0b7ed0808d60704350bade032ced234bb214e16a2ae931da174540a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_napkin_cbf7fc99f9cb713a166bf3f341dec3b0d67b1654128ebcb8c1bc00678c82634931"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_napkin_cb4b48fb0138916bf44369f04367c67b65b0bc0b5787f795ebd340fa7987682486"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>napkin</rdfs:label>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/napkin"/>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300216644"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">208</hector:attestationCount>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/napkin#rate-1545-inward-238">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Dioper napkyns damaske warke the dosen 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_napkin_cb30a4c4a5f39d443eadd2a890ba73a378e02f49705d18568038d3102408d3c3b60"/>
+    <hector:perQuantity rdf:nodeID="commodity_napkin_cb16fe626a1d8ebf91558b92ef31908c1e9999377b295e45c743532d17541899c2a"/>
+    <hector:qualifier rdf:nodeID="commodity_napkin_cb12c8d01b9b4c8815d11d033b8e8dada9f8c35b47ca7f0527897f2210f604ea82e"/>
+    <hector:qualifier rdf:nodeID="commodity_napkin_cb202fd9879097a8ceeeda5682ebccfb1abf1a621febed1ee269b2c8605f72ddf1a"/>
+    <hector:qualifier rdf:nodeID="commodity_napkin_cb28f3ecf925ea723f9547876041d0b60a3a3db0c03ade68b2bc72390c7dd4a653a"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 238 (transcribed by Stuart Jenks): 'Dioper napkyns damaske warke the dosen' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300216644">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>napkins (culinary textile)</rdfs:label>
+  <rdf:Description rdf:nodeID="commodity_napkin_cb1c50af6fbbc52de16b35fbb130fc2d33e73fcc24ed36b133120094130d7db2ae1">
+    <crm:P190_has_symbolic_content>napkins</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>napkins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1509</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1510</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_napkin_cbd56c489d1883ec4e9b021ae988c7c287cad7f303efd1117063d564bff45eb5a8">
+  <rdf:Description rdf:nodeID="commodity_napkin_cb27c7f61ee748fe43fd8e9a6abd275c66706fdb1a6983d10f50a1ca45cd910a343">
+    <crm:P190_has_symbolic_content>napkynes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>napkinəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/napkin#rate-1558-inward-362">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Dyapor napkyns the dossen 8s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_napkin_cb2ae9d0d350fe2164cc6701ab8007e07f709af14a16b8a70d41b739b27b79a660e"/>
+    <hector:perQuantity rdf:nodeID="commodity_napkin_cb13257a1c5fec3c5554c91f194c0bdf5c7e0f322903a9c5d90622681ce0b83b062"/>
+    <hector:qualifier rdf:nodeID="commodity_napkin_cb209081e113481025ecf5963f64406830e5cd23a05c496cfa60ae148c67ae21857"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 362 (transcribed by Stuart Jenks): 'Dyapor napkyns the dossen' 8s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_napkin_cb256054780614be30495509549e96b8464387ce760f9b8e8d5334b80c3b710c14a">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>France</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q142"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_napkin_cb21f9ce2152c3bad2b6e5a1f9100a72027bfc613d0e464c4f0199fa9db8a2ddf71">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Dioper</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_napkin_cb134750731a13591961e0a2b68aeb020db4ac0053f0a9f481b0ba63757d7f8b002">
     <crm:P190_has_symbolic_content>napkin</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -57,53 +214,70 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1509</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1510</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/napkin">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>napkin (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_napkin_cbf7fc99f9cb713a166bf3f341dec3b0d67b1654128ebcb8c1bc00678c82634931">
-    <crm:P190_has_symbolic_content>napkyn</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>napkin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_napkin_cb4b48fb0138916bf44369f04367c67b65b0bc0b5787f795ebd340fa7987682486">
-    <crm:P190_has_symbolic_content>Relatively small pieces of cloth or paper used for wiping the mouth and hands and protecting clothes while dining.  [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  <rdf:Description rdf:nodeID="commodity_napkin_cb2ae9d0d350fe2164cc6701ab8007e07f709af14a16b8a70d41b739b27b79a660e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>8s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96</hector:valueInPence>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>attested variant</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_napkin_cbc589b71df7d2d9840e4b8b2a0e77f262c3f340d2bf5124abafea210efac85a80">
-    <crm:P190_has_symbolic_content>napkins</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>napkins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1509</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1510</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_napkin_cb1e2b622d5d46e1948393e30116a327038a719857ee644548d858ba578f54f77e1">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_napkin_cb1daa399b2021def9d109706ec5e8a4bf07ba281dfc6e8e001a39a5bd237233334">
-    <crm:P190_has_symbolic_content>napken</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_napkin_cb202fd9879097a8ceeeda5682ebccfb1abf1a621febed1ee269b2c8605f72ddf1a">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>napken</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Dioper</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_napkin_cbb0d1922a46a514a3de6b41705c6b0a4f6dc683e40fd766bd3fe0c244f3d6089f">
-    <crm:P190_has_symbolic_content>napkyns</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300163295">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>damask</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_napkin_cb1dcf571c377b5e4262d5045c92ee4c76de22c3a89d7cd282762d22abde4d9070a">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>France</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q142"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_napkin_cb209081e113481025ecf5963f64406830e5cd23a05c496cfa60ae148c67ae21857">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>napkins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Dyapor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300216644">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>napkins (culinary textile)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_napkin_cb30a4c4a5f39d443eadd2a890ba73a378e02f49705d18568038d3102408d3c3b60">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_napkin_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/napkin">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>napkin (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_napkin_cb16f38a142be1bfc2bee74f662e22cbfc959b598ffa4a56e2ba3f2c20b3d886019">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>makyng</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

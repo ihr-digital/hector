@@ -306,7 +306,31 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 395 (transcribed by Stuart Jenks): 'Iron called Lukes yron the 100 lb' 3s 4d"
+      "sourceText": "Book of Rates 1545, inward, line 395 (transcribed by Stuart Jenks): 'Iron called Lukes yron the 100 lb' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Iron",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "Lucca",
+          "originPlace": [
+            {
+              "id": "wd:Q13373",
+              "type": "Place",
+              "_label": "Lucca"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/iron#rate-1545-inward-398",
@@ -333,7 +357,20 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 398 (transcribed by Stuart Jenks): 'Iron called faggot yron the bonde' 6s 8d"
+      "sourceText": "Book of Rates 1545, inward, line 398 (transcribed by Stuart Jenks): 'Iron called faggot yron the bonde' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Iron",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/iron#rate-1545-inward-399",
@@ -360,7 +397,20 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 399 (transcribed by Stuart Jenks): 'Iron called faggot yron the hundreth pounde' 3s 4d"
+      "sourceText": "Book of Rates 1545, inward, line 399 (transcribed by Stuart Jenks): 'Iron called faggot yron the hundreth pounde' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Iron",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/iron#rate-1558-inward-1111",
@@ -387,7 +437,31 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 1111 (transcribed by Stuart Jenks): 'Touche boxes of yron or other mettall guylt the dossen' 10s"
+      "sourceText": "Book of Rates 1558, inward, line 1111 (transcribed by Stuart Jenks): 'Touche boxes of yron or other mettall guylt the dossen' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Touche",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "other mettall guylt",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/iron#rate-1558-inward-368",
@@ -414,7 +488,31 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 368 (transcribed by Stuart Jenks): 'Doble yron plates vocat’ dobles the shock cont’ 6 bundelles' 40s"
+      "sourceText": "Book of Rates 1558, inward, line 368 (transcribed by Stuart Jenks): 'Doble yron plates vocat’ dobles the shock cont’ 6 bundelles' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Doble",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "plates vocat dobles",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/iron#rate-1558-inward-612",
@@ -468,7 +566,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 856 (transcribed by Stuart Jenks): 'Pulleys of yron the grosse' 50s"
+      "sourceText": "Book of Rates 1558, inward, line 856 (transcribed by Stuart Jenks): 'Pulleys of yron the grosse' 50s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Pulleys",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

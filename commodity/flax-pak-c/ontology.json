@@ -5,7 +5,9 @@
   ],
   "id": "https://w3id.org/hector/commodity/flax-pak-c",
   "type": "Type",
-  "_label": "flax (pak c)",
+  "_label": "flax (withdrawn record)",
+  "deprecated": true,
+  "modified": "2026-10-03",
   "referred_to_by": [
     {
       "type": "LinguisticObject",
@@ -16,81 +18,11 @@
           "_label": "brief texts"
         }
       ],
-      "content": "flax, qualified as ‘pak c’: a commodity as the Books of Rates price it separately (HECTOR decision 2, 29 Sep 2026)."
+      "content": "Withdrawn 3 Oct 2026. This record stood for the commodity as one Book of Rates entry qualifies it; the rates are now on the commodity itself, each naming its qualifier."
     }
   ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "content": "flax (pak c)",
-      "classified_as": [
-        {
-          "id": "aat:300404670",
-          "type": "Type",
-          "_label": "preferred terms"
-        }
-      ],
-      "phoneticKey": [
-        "flaks pak k"
-      ]
-    },
-    {
-      "type": "Name",
-      "content": "Flexe the pake containing 20 C",
-      "classified_as": [
-        {
-          "id": "hector:AttestedVariant",
-          "type": "Type",
-          "_label": "attested variant"
-        }
-      ],
-      "phoneticKey": [
-        "fleksə θe pakə kontainiŋ k"
-      ]
-    }
-  ],
-  "broader": [
-    {
-      "id": "https://w3id.org/hector/commodity/flax",
-      "type": "Type",
-      "_label": "flax"
-    }
-  ],
-  "compoundOf": [
-    {
-      "id": "https://w3id.org/hector/commodity/flax",
-      "type": "Type",
-      "_label": "flax"
-    }
-  ],
-  "modified": "2026-10-03",
-  "taxation": [
-    {
-      "id": "https://w3id.org/hector/commodity/flax-pak-c#rate-1507-none-99",
-      "type": "Rate",
-      "_label": "1507: Flexe the pake containing 20 C lb £6 13s 4d",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "1600",
-        "lsd": "£6 13s 4d"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 1,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/pound",
-          "type": "MeasurementUnit",
-          "_label": "pound"
-        }
-      },
-      "validFrom": "1507",
-      "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 99 (transcribed by Stuart Jenks): 'Flexe the pake containing 20 C lb' £6 13s 4d"
-    }
-  ]
+  "isReplacedBy": {
+    "id": "https://w3id.org/hector/commodity/flax",
+    "type": "Type"
+  }
 }

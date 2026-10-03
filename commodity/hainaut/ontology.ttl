@@ -19,6 +19,10 @@
             crm:P2_has_type aat:300404670 ;
             hector:phoneticKey "hainaut" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "henoud" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "henuːd" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "hainault" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "hainault" ],
@@ -30,6 +34,10 @@
             crm:P190_has_symbolic_content "hennaud" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "henaud" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "henoudes" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "henuːdəs" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "henego" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -59,17 +67,9 @@
             hector:validFrom "1553"^^xsd:gYear ;
             hector:validThrough "1555"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "henoud" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "henuːd" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "henege" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "henedʒə" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "henoudes" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "henuːdəs" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "henawde" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -119,6 +119,8 @@ wd:Q309460 a crm:E53_Place ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "long" ] ;
     hector:sourceText "Book of Rates 1558, inward, line 565 (transcribed by Stuart Jenks): 'Henego cloth in long ploye the pece' 24s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .

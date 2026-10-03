@@ -43,6 +43,10 @@
             hector:validFrom "1519"^^xsd:gYear ;
             hector:validThrough "1520"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "haft for awles" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "haft for auləs" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "allehaftes" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "alehaftəs" ;
@@ -118,11 +122,7 @@
             crm:P190_has_symbolic_content "awl haft" ;
             crm:P2_has_type aat:300404670,
                 hector:AttestedVariant ;
-            hector:phoneticKey "aul haft" ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "haft for awles" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "haft for auləs" ] ;
+            hector:phoneticKey "aul haft" ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "the (non-metallic) handle of an awl | the wooden part of an awl | the wooden part, handle of an awl (Cobb 175)" ;
             crm:P2_has_type aat:300435416 ] ;
@@ -131,7 +131,8 @@
         <https://w3id.org/hector/commodity/awl-pieces> ;
     la:equivalent aat:300024970 ;
     hector:attestationCount 29 ;
-    hector:taxation <https://w3id.org/hector/commodity/awl-haft#rate-1545-inward-20> .
+    hector:taxation <https://w3id.org/hector/commodity/awl-haft#rate-1545-inward-20>,
+        <https://w3id.org/hector/commodity/awl-haft#rate-1558-inward-9> .
 
 aat:300011914 a crm:E57_Material ;
     rdfs:label "wood (plant material)" .
@@ -141,9 +142,6 @@ aat:300024970 a crm:E55_Type ;
 
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
-
-aat:300411998 a crm:E98_Currency ;
-    rdfs:label "pound sterling (system of money)" .
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
@@ -164,14 +162,33 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/awl-haft#rate-1558-inward-9> a hector:Rate ;
+    rdfs:label "1558 inward: Alhaftes voc’ haftes for awles the thousande 8s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "8s" ;
+            hector:valueInPence 96.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1000 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/thousand> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "haftes for awles" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 9 (transcribed by Stuart Jenks): 'Alhaftes voc’ haftes for awles the thousande' 8s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/awl-pieces> a crm:E55_Type ;
     rdfs:label "awl pieces" .
 
-<https://w3id.org/hector/unit/thousand> a crm:E58_Measurement_Unit ;
-    rdfs:label "thousand" .
-
 <https://w3id.org/mlca/glossary/awl%20haft> a crm:E55_Type ;
     rdfs:label "awl haft (London Customs Accounts glossary)" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
+<https://w3id.org/hector/unit/thousand> a crm:E58_Measurement_Unit ;
+    rdfs:label "thousand" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

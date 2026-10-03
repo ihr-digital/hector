@@ -268,7 +268,140 @@
       },
       "validFrom": "1507",
       "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 142 (transcribed by Stuart Jenks): 'Iryne wyer the hoggeshed' 50s"
+      "sourceText": "Book of Rates 1507, line 142 (transcribed by Stuart Jenks): 'Iryne wyer the hoggeshed' 50s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Iryne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/wire#rate-1507-none-211",
+      "type": "Rate",
+      "_label": "1507: Pyrlyng wyer the dossen lb 4s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "48",
+        "lsd": "4s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 211 (transcribed by Stuart Jenks): 'Pyrlyng wyer the dossen lb' 4s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Pyrlyng",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/wire#rate-1545-inward-550",
+      "type": "Rate",
+      "_label": "1545 inward: Purlynge wyer the dossen pounde 4s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "48",
+        "lsd": "4s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 550 (transcribed by Stuart Jenks): 'Purlynge wyer the dossen pounde' 4s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Purlynge",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/wire#rate-1545-inward-789",
+      "type": "Rate",
+      "_label": "1545 inward: Wyer for clarycordes the pound 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "4",
+        "lsd": "4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 789 (transcribed by Stuart Jenks): 'Wyer for clarycordes the pound' 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "clarycordes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/wire#rate-1545-inward-794",
@@ -296,6 +429,86 @@
       "validFrom": "1545",
       "validThrough": "1558",
       "sourceText": "Book of Rates 1545, inward, line 794 (transcribed by Stuart Jenks): 'Wyer the 100' 20s"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/wire#rate-1558-inward-1130",
+      "type": "Rate",
+      "_label": "1558 inward: Wyer for clerycordes the pounde 12d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "12",
+        "lsd": "12d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pound",
+          "type": "MeasurementUnit",
+          "_label": "pound"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1130 (transcribed by Stuart Jenks): 'Wyer for clerycordes the pounde' 12d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "clerycordes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/wire#rate-1558-inward-833",
+      "type": "Rate",
+      "_label": "1558 inward: Purlynge wyer the dossen pounde 8s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "96",
+        "lsd": "8s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 833 (transcribed by Stuart Jenks): 'Purlynge wyer the dossen pounde' 8s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Purlynge",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

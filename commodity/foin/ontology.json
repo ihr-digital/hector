@@ -248,6 +248,219 @@
       "sourceText": "Book of Rates 1507, line 89 (transcribed by Stuart Jenks): 'Foynes the pane' 13s 4d"
     },
     {
+      "id": "https://w3id.org/hector/commodity/foin#rate-1507-none-90",
+      "type": "Rate",
+      "_label": "1507: Foynes stages or foynes wombys the pane 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pane",
+          "type": "MeasurementUnit",
+          "_label": "pane"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 90 (transcribed by Stuart Jenks): 'Foynes stages or foynes wombys the pane' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "out of season"
+        },
+        {
+          "type": "Type",
+          "_label": "womb"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/foin#rate-1545-inward-297",
+      "type": "Rate",
+      "_label": "1545 inward: Foyne wombes the pane 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pane",
+          "type": "MeasurementUnit",
+          "_label": "pane"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 297 (transcribed by Stuart Jenks): 'Foyne wombes the pane' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "womb"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/foin#rate-1545-inward-298",
+      "type": "Rate",
+      "_label": "1545 inward: Foyne stagge the pane 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pane",
+          "type": "MeasurementUnit",
+          "_label": "pane"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 298 (transcribed by Stuart Jenks): 'Foyne stagge the pane' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "out of season"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/foin#rate-1558-inward-435",
+      "type": "Rate",
+      "_label": "1558 inward: Foyne wombes the pane 16s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "192",
+        "lsd": "16s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pane",
+          "type": "MeasurementUnit",
+          "_label": "pane"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 435 (transcribed by Stuart Jenks): 'Foyne wombes the pane' 16s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "womb"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/foin#rate-1558-inward-436",
+      "type": "Rate",
+      "_label": "1558 inward: Foyne tailes the pane 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pane",
+          "type": "MeasurementUnit",
+          "_label": "pane"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 436 (transcribed by Stuart Jenks): 'Foyne tailes the pane' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "tailes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/foin#rate-1558-inward-437",
+      "type": "Rate",
+      "_label": "1558 inward: Foyne wombes stage the pane 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pane",
+          "type": "MeasurementUnit",
+          "_label": "pane"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 437 (transcribed by Stuart Jenks): 'Foyne wombes stage the pane' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "womb"
+        },
+        {
+          "type": "Type",
+          "_label": "out of season"
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/foin#rate-1558-inward-438",
       "type": "Rate",
       "_label": "1558 inward: Foyne backes the dosen 6s 8d",
@@ -272,7 +485,13 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 438 (transcribed by Stuart Jenks): 'Foyne backes the dosen' 6s 8d"
+      "sourceText": "Book of Rates 1558, inward, line 438 (transcribed by Stuart Jenks): 'Foyne backes the dosen' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "back"
+        }
+      ]
     }
   ]
 }

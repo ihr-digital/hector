@@ -190,7 +190,57 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 1067 (transcribed by Stuart Jenks): 'Sleves for women wrought with sylke, golde or sylver the payre' 40s"
+      "sourceText": "Book of Rates 1558, inward, line 1067 (transcribed by Stuart Jenks): 'Sleves for women wrought with sylke, golde or sylver the payre' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "women",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "worked"
+        },
+        {
+          "type": "Type",
+          "_label": "silk",
+          "equivalent": [
+            {
+              "id": "aat:300243428",
+              "type": "Type",
+              "_label": "silk (textile)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "gold",
+          "equivalent": [
+            {
+              "id": "aat:300011021",
+              "type": "Type",
+              "_label": "gold (metal)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "sylver",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

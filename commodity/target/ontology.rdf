@@ -8,7 +8,161 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_target_cb221e9b151421327d0a51e9769773b792836af18b5f98f0b165d29db78e6848f79">
+  <rdf:Description rdf:nodeID="commodity_target_cb1f1d8349c7219d497aa946aa772f610051dea919ccdade959a59b509db548a8ff">
+    <crm:P190_has_symbolic_content>targette</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tardʒetə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_target_cb2c38bfe63cdf9a3084e9417843fa80acf88d2dd81d0c22c1b69e6a303857f60c4">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_target_cb28ccb726c4f1e13b99cb7bc45baecd1976a7f9124b846c8f3ab4d10b3aaf1b53d">
+    <crm:P190_has_symbolic_content>tergates</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tergatəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_target_cb219dc90d093a497b2b4fa40915cccfbdfb75c8c68e0a439a6bc6ef14d1c6a17d4">
+    <crm:P190_has_symbolic_content>targett</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tardʒet</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/target">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_target_cb165197eee179b54def75765e243c6af49831641e9a66bc8ff781d99ac1b22c8ad"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_target_cb1df1d1c8bc09898dd371b828b38b12c54996adb48efbdaec6e4f8b0c20030af20"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_target_cb1e21c1af14f692d30bc2cebc2b2b5385353461485ed5cadd0abb04399e5591d77"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_target_cb1ea52c2efe44b1b1697fe4fbf4415777ab4685e1a197b936e8dcd1df63d55c7fa"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_target_cb1f1d8349c7219d497aa946aa772f610051dea919ccdade959a59b509db548a8ff"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_target_cb219dc90d093a497b2b4fa40915cccfbdfb75c8c68e0a439a6bc6ef14d1c6a17d4"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_target_cb2243f2e3402f9c0bc11964d8d8b117fbee95df44d6f99d78f3d12383b4801076f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_target_cb2256dbe87be39bf7d772b09e0507810b96dcfe0a6ccb30384f87c4927e5e23b98"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_target_cb240fae653153cde0986bc3a78136c6a50d6edc5589d94cfd89a6a3ffa09dbd102"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_target_cb28ccb726c4f1e13b99cb7bc45baecd1976a7f9124b846c8f3ab4d10b3aaf1b53d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_target_cb28d04922ba127e702a0c6420cb08c1c96e1e66570cd29e46927ecbb7e0a411f0b"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_target_cb1108450c5884e06f1aa09b5eb361c0e13b5fb5d8aaffcc35a9c5d10a242c8691e"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>target</rdfs:label>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/target"/>
+    <skos:related rdf:resource="https://w3id.org/hector/commodity/buckler"/>
+    <skos:related rdf:resource="https://w3id.org/hector/commodity/shield"/>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300036879"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/target#rate-1558-inward-1113"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/target#rate-1558-inward-1114"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_target_cb165197eee179b54def75765e243c6af49831641e9a66bc8ff781d99ac1b22c8ad">
+    <crm:P190_has_symbolic_content>targattes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>targatəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/target#rate-1558-inward-1113">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Targettes course the pece 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_target_cb2c38bfe63cdf9a3084e9417843fa80acf88d2dd81d0c22c1b69e6a303857f60c4"/>
+    <hector:perQuantity rdf:nodeID="commodity_target_cb1dc3113a4c65baf5ff1ab0d4215259a26741bf20dd260957b02923820613761ae"/>
+    <hector:qualifier rdf:nodeID="commodity_target_cb18c45c613e1e4d6ab98b5f6a4aaeb9f72ba7622a3ef7a9456940ed268e2f66ab4"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1113 (transcribed by Stuart Jenks): 'Targettes course the pece' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_target_cb28d04922ba127e702a0c6420cb08c1c96e1e66570cd29e46927ecbb7e0a411f0b">
+    <crm:P190_has_symbolic_content>targetes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tardʒetəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_target_cb1df1d1c8bc09898dd371b828b38b12c54996adb48efbdaec6e4f8b0c20030af20">
+    <crm:P190_has_symbolic_content>targade</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>targadə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/target#rate-1558-inward-1114">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Targettes fyne the pece 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_target_cb2fa4d8aadaeb2964caea9c860acc68102e34f9534ccec8b96275b3405af38b68e"/>
+    <hector:perQuantity rdf:nodeID="commodity_target_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:qualifier rdf:nodeID="commodity_target_cbfcd3ae64bb685021223d68cc575a25308623ddd4bd674e65712b77c956c28a4e"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 1114 (transcribed by Stuart Jenks): 'Targettes fyne the pece' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_target_cbfcd3ae64bb685021223d68cc575a25308623ddd4bd674e65712b77c956c28a4e">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>fine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_target_cb2fa4d8aadaeb2964caea9c860acc68102e34f9534ccec8b96275b3405af38b68e">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_target_cb2256dbe87be39bf7d772b09e0507810b96dcfe0a6ccb30384f87c4927e5e23b98">
+    <crm:P190_has_symbolic_content>tergate</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tergatə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/shield">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>shield</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_target_cb1dc3113a4c65baf5ff1ab0d4215259a26741bf20dd260957b02923820613761ae">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_target_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pecia">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pecia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_target_cb1e21c1af14f692d30bc2cebc2b2b5385353461485ed5cadd0abb04399e5591d77">
+    <crm:P190_has_symbolic_content>targades</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>targadəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_target_cb2243f2e3402f9c0bc11964d8d8b117fbee95df44d6f99d78f3d12383b4801076f">
+    <crm:P190_has_symbolic_content>targettes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>tardʒetəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_target_cb240fae653153cde0986bc3a78136c6a50d6edc5589d94cfd89a6a3ffa09dbd102">
     <crm:P190_has_symbolic_content>targatte</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -16,7 +170,7 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_target_cb18b4a045b5b9975cf14f63f401e2d192734804bdefead5cc3e5fc4b5e59bbcda0">
+  <rdf:Description rdf:nodeID="commodity_target_cb1ea52c2efe44b1b1697fe4fbf4415777ab4685e1a197b936e8dcd1df63d55c7fa">
     <crm:P190_has_symbolic_content>target</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -25,131 +179,37 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_target_cb1460849ec44719ea615b9c2d3a795be20e2d795470266043d3add352af7cb8724">
-    <crm:P190_has_symbolic_content>targattes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>targatəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_target_cb1c30ae5ef7c3f76f7da8f48b41684472ab30767e34956e90e6e6fdf18c201dbee">
-    <crm:P190_has_symbolic_content>targades</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>targadəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_target_cb26df35d29cdfe30c9bf289efe145b2b6e41a7b8ce29241fa6eaac56fce6e9dd82">
-    <crm:P190_has_symbolic_content>targetes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tardʒetəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_target_cb11850962aff9faa6d4754b11b971487cb98103c0949b7eab4a42f8fbc11167352">
-    <crm:P190_has_symbolic_content>tergate</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tergatə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/target">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>target (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/target">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_target_cb106f276518a5b14ab68307d12830277f89e41a4d2c3805bfcec67855958071293"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_target_cb11850962aff9faa6d4754b11b971487cb98103c0949b7eab4a42f8fbc11167352"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_target_cb1460849ec44719ea615b9c2d3a795be20e2d795470266043d3add352af7cb8724"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_target_cb18b4a045b5b9975cf14f63f401e2d192734804bdefead5cc3e5fc4b5e59bbcda0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_target_cb1c00be789ed6ee2a4557ddf7c9c803b2bf92c2ea64bb7ea04a7b84c40dcd96d97"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_target_cb1c30ae5ef7c3f76f7da8f48b41684472ab30767e34956e90e6e6fdf18c201dbee"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_target_cb1d2c6ff9a9ef01e5ec8f6c798d6c51edc7dabe4fa29a82497685aec1c91f16776"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_target_cb1facb5bcec07ae179d35c9d82c09c0ab7171ddfc63c9e74e47f2e8ccbf912d64b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_target_cb2052df9322fd00a832ff8aa7eeee08e96491f47aacb9412ccffd1d3ba24a9c5e6"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_target_cb221e9b151421327d0a51e9769773b792836af18b5f98f0b165d29db78e6848f79"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_target_cb26df35d29cdfe30c9bf289efe145b2b6e41a7b8ce29241fa6eaac56fce6e9dd82"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_target_cb130c49f90d41128622118f8dcfe18c6c73ec65cf3bd1e7b86fd3e70e55db5b06"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>target</rdfs:label>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/target"/>
-    <skos:related rdf:resource="https://w3id.org/hector/commodity/buckler"/>
-    <skos:related rdf:resource="https://w3id.org/hector/commodity/shield"/>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300036879"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</hector:attestationCount>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_target_cb2052df9322fd00a832ff8aa7eeee08e96491f47aacb9412ccffd1d3ba24a9c5e6">
-    <crm:P190_has_symbolic_content>targettes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tardʒetəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_target_cb1d2c6ff9a9ef01e5ec8f6c798d6c51edc7dabe4fa29a82497685aec1c91f16776">
-    <crm:P190_has_symbolic_content>targette</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tardʒetə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_target_cb1c00be789ed6ee2a4557ddf7c9c803b2bf92c2ea64bb7ea04a7b84c40dcd96d97">
-    <crm:P190_has_symbolic_content>targade</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>targadə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_target_cb130c49f90d41128622118f8dcfe18c6c73ec65cf3bd1e7b86fd3e70e55db5b06">
-    <crm:P190_has_symbolic_content>a light round shield or buckler; a small targe (OED s.v. target n.1 1) | a light round shield or buckler; a small targe (OED s.v. target n.^1 1), here of low quality</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>attested variant</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_target_cb106f276518a5b14ab68307d12830277f89e41a4d2c3805bfcec67855958071293">
-    <crm:P190_has_symbolic_content>tergates</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tergatəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_target_cb18c45c613e1e4d6ab98b5f6a4aaeb9f72ba7622a3ef7a9456940ed268e2f66ab4">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>coarse</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300036879">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>targets (shields)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_target_cb1facb5bcec07ae179d35c9d82c09c0ab7171ddfc63c9e74e47f2e8ccbf912d64b">
-    <crm:P190_has_symbolic_content>targett</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>tardʒet</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1547</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_target_cb1108450c5884e06f1aa09b5eb361c0e13b5fb5d8aaffcc35a9c5d10a242c8691e">
+    <crm:P190_has_symbolic_content>a light round shield or buckler; a small targe (OED s.v. target n.1 1) | a light round shield or buckler; a small targe (OED s.v. target n.^1 1), here of low quality</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/shield">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>shield</rdfs:label>
+    <rdfs:label>preferred terms</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/buckler">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>buckler</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/target">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>target (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

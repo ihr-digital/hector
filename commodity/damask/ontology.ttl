@@ -11,12 +11,6 @@
     rdfs:label "damask" ;
     dcterms:modified "2026-10-03"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "towelyng damask" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "tuːeliŋ damask" ;
-            hector:validFrom "1545"^^xsd:gYear ;
-            hector:validThrough "1547"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "damasce" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "damasə" ],
@@ -51,24 +45,30 @@
             hector:validFrom "1519"^^xsd:gYear ;
             hector:validThrough "1520"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "damask" ;
-            crm:P2_has_type aat:300404670,
-                hector:AttestedVariant ;
-            hector:phoneticKey "damask" ;
-            hector:validFrom "1400"^^xsd:gYear ;
-            hector:validThrough "1421"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "damaske" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "damaskə" ;
             hector:validFrom "1505"^^xsd:gYear ;
             hector:validThrough "1506"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "towelyng damask" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "tuːeliŋ damask" ;
+            hector:validFrom "1545"^^xsd:gYear ;
+            hector:validThrough "1547"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "damaskei" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "damaskei" ;
             hector:validFrom "1531"^^xsd:gYear ;
             hector:validThrough "1533"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "damask" ;
+            crm:P2_has_type aat:300404670,
+                hector:AttestedVariant ;
+            hector:phoneticKey "damask" ;
+            hector:validFrom "1400"^^xsd:gYear ;
+            hector:validThrough "1421"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "damascens" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -88,6 +88,12 @@
             hector:validFrom "1548"^^xsd:gYear ;
             hector:validThrough "1550"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "towelyng work" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "tuːeliŋ work" ;
+            hector:validFrom "1545"^^xsd:gYear ;
+            hector:validThrough "1547"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "damasci" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "damasi" ;
@@ -98,32 +104,81 @@
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "tabeliŋ damaskə" ;
             hector:validFrom "1550"^^xsd:gYear ;
-            hector:validThrough "1553"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "towelyng work" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "tuːeliŋ work" ;
-            hector:validFrom "1545"^^xsd:gYear ;
-            hector:validThrough "1547"^^xsd:gYear ] ;
+            hector:validThrough "1553"^^xsd:gYear ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "Woven figured textile with one warp and one weft in which the pattern is formed by a contrast of binding systems, and appears on the face and the back in reverse positions. [Source: Getty AAT]" ;
             crm:P2_has_type aat:300435416 ] ;
     skos:exactMatch <https://w3id.org/mlca/glossary/damask> ;
     la:equivalent aat:300163295 ;
     hector:attestationCount 501 ;
-    hector:taxation <https://w3id.org/hector/commodity/damask#rate-1545-inward-239> .
+    hector:taxation <https://w3id.org/hector/commodity/damask#rate-1507-none-71>,
+        <https://w3id.org/hector/commodity/damask#rate-1545-inward-234>,
+        <https://w3id.org/hector/commodity/damask#rate-1545-inward-236>,
+        <https://w3id.org/hector/commodity/damask#rate-1545-inward-239>,
+        <https://w3id.org/hector/commodity/damask#rate-1545-inward-240>,
+        <https://w3id.org/hector/commodity/damask#rate-1558-inward-347>,
+        <https://w3id.org/hector/commodity/damask#rate-1558-inward-348>,
+        <https://w3id.org/hector/commodity/damask#rate-1558-inward-349>,
+        <https://w3id.org/hector/commodity/damask#rate-1558-inward-350>,
+        <https://w3id.org/hector/commodity/damask#rate-1558-inward-351>,
+        <https://w3id.org/hector/commodity/damask#rate-1558-inward-352>,
+        <https://w3id.org/hector/commodity/damask#rate-1558-inward-353> .
 
-aat:300163295 a crm:E55_Type ;
-    rdfs:label "damask" .
+aat:300130257 a crm:E55_Type ;
+    rdfs:label "purple (color)" .
 
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
 
-aat:300411998 a crm:E98_Currency ;
-    rdfs:label "pound sterling (system of money)" .
-
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
+
+<https://w3id.org/hector/commodity/damask#rate-1507-none-71> a hector:Rate ;
+    rdfs:label "1507: Damaske of all manare of colowres þe yarde on with another 4s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4s" ;
+            hector:valueInPence 48.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/yard> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "colowres" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 71 (transcribed by Stuart Jenks): 'Damaske of all manare of colowres þe yarde on with another' 4s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/damask#rate-1545-inward-234> a hector:Rate ;
+    rdfs:label "1545 inward: Damaske warke the pece 40s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "40s" ;
+            hector:valueInPence 480.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "warke" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 234 (transcribed by Stuart Jenks): 'Damaske warke the pece' 40s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/damask#rate-1545-inward-236> a hector:Rate ;
+    rdfs:label "1545 inward: Damask wark the pece 26s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "26s 8d" ;
+            hector:valueInPence 320.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "worked" ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 236 (transcribed by Stuart Jenks): 'Damask wark the pece' 26s 8d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/damask#rate-1545-inward-239> a hector:Rate ;
     rdfs:label "1545 inward: Damaske the yarde 4s" ;
@@ -138,11 +193,169 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
-<https://w3id.org/hector/unit/yard> a crm:E58_Measurement_Unit ;
-    rdfs:label "yard" .
+<https://w3id.org/hector/commodity/damask#rate-1545-inward-240> a hector:Rate ;
+    rdfs:label "1545 inward: Damaske crymsyn or purpele the yard 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/yard> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "crimson" ;
+            la:equivalent aat:300311345 ],
+        [ a crm:E55_Type ;
+            rdfs:label "purpele" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 240 (transcribed by Stuart Jenks): 'Damaske crymsyn or purpele the yard' 6s 8d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/damask#rate-1558-inward-347> a hector:Rate ;
+    rdfs:label "1558 inward: Damask and Caffa damaske the yeard 8s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "8s" ;
+            hector:valueInPence 96.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/yard> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Caffa" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "damask" ;
+            la:equivalent aat:300163295 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 347 (transcribed by Stuart Jenks): 'Damask and Caffa damaske the yeard' 8s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/damask#rate-1558-inward-348> a hector:Rate ;
+    rdfs:label "1558 inward: Damask and Caffa damaske crymson or purple the yearde 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/yard> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "crimson" ;
+            la:equivalent aat:300311345 ],
+        [ a crm:E55_Type ;
+            rdfs:label "purple" ;
+            la:equivalent aat:300130257 ],
+        [ a crm:E55_Type ;
+            rdfs:label "Caffa" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "damask" ;
+            la:equivalent aat:300163295 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 348 (transcribed by Stuart Jenks): 'Damask and Caffa damaske crymson or purple the yearde' 13s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/damask#rate-1558-inward-349> a hector:Rate ;
+    rdfs:label "1558 inward: Damask napkyns the dossen 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "napkyns" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 349 (transcribed by Stuart Jenks): 'Damask napkyns the dossen' 13s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/damask#rate-1558-inward-350> a hector:Rate ;
+    rdfs:label "1558 inward: Damask towellyng the pece 40s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "40s" ;
+            hector:valueInPence 480.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "towellyng" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 350 (transcribed by Stuart Jenks): 'Damask towellyng the pece' 40s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/damask#rate-1558-inward-351> a hector:Rate ;
+    rdfs:label "1558 inward: Damaske table clothe the pece cont’ 20 yerdes 66s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "66s 8d" ;
+            hector:valueInPence 800.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pecia> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "table" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 351 (transcribed by Stuart Jenks): 'Damaske table clothe the pece cont’ 20 yerdes' 66s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/damask#rate-1558-inward-352> a hector:Rate ;
+    rdfs:label "1558 inward: Damaske table clothe the yearde 3s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "3s 4d" ;
+            hector:valueInPence 40.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/yard> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "table" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 352 (transcribed by Stuart Jenks): 'Damaske table clothe the yearde' 3s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/damask#rate-1558-inward-353> a hector:Rate ;
+    rdfs:label "1558 inward: Damaske lether tawed the dossen 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "lether tawed" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 353 (transcribed by Stuart Jenks): 'Damaske lether tawed the dossen' 20s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/mlca/glossary/damask> a crm:E55_Type ;
     rdfs:label "damask (London Customs Accounts glossary)" .
+
+aat:300311345 a crm:E55_Type ;
+    rdfs:label "crimson (color)" .
+
+<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
+    rdfs:label "dozen" .
+
+aat:300163295 a crm:E55_Type ;
+    rdfs:label "damask" .
+
+<https://w3id.org/hector/unit/pecia> a crm:E58_Measurement_Unit ;
+    rdfs:label "pecia" .
+
+<https://w3id.org/hector/unit/yard> a crm:E58_Measurement_Unit ;
+    rdfs:label "yard" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

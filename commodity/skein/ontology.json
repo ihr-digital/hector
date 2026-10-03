@@ -311,7 +311,120 @@
       },
       "validFrom": "1507",
       "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 300 (transcribed by Stuart Jenks): 'Tredon called long skayne thred the C wayte' 33s 4d"
+      "sourceText": "Book of Rates 1507, line 300 (transcribed by Stuart Jenks): 'Tredon called long skayne thred the C wayte' 33s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Tredon",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "long"
+        },
+        {
+          "type": "Type",
+          "_label": "file"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/skein#rate-1545-inward-448",
+      "type": "Rate",
+      "_label": "1545 inward: Longe skayne whyte the hundreth pounde 33s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "400",
+        "lsd": "33s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 448 (transcribed by Stuart Jenks): 'Longe skayne whyte the hundreth pounde' 33s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "long"
+        },
+        {
+          "type": "Type",
+          "_label": "white",
+          "equivalent": [
+            {
+              "id": "aat:300129784",
+              "type": "Type",
+              "_label": "white (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/skein#rate-1558-inward-670",
+      "type": "Rate",
+      "_label": "1558 inward: Long skayne white thred the C lb. cont’ 100 lb £3 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "800",
+        "lsd": "£3 6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 670 (transcribed by Stuart Jenks): 'Long skayne white thred the C lb. cont’ 100 lb' £3 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "long"
+        },
+        {
+          "type": "Type",
+          "_label": "white",
+          "equivalent": [
+            {
+              "id": "aat:300129784",
+              "type": "Type",
+              "_label": "white (color)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "file"
+        }
+      ]
     }
   ]
 }

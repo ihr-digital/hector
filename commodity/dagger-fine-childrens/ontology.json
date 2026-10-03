@@ -5,7 +5,9 @@
   ],
   "id": "https://w3id.org/hector/commodity/dagger-fine-childrens",
   "type": "Type",
-  "_label": "dagger (fine childrens)",
+  "_label": "dagger (withdrawn record)",
+  "deprecated": true,
+  "modified": "2026-10-03",
   "referred_to_by": [
     {
       "type": "LinguisticObject",
@@ -16,81 +18,11 @@
           "_label": "brief texts"
         }
       ],
-      "content": "dagger, qualified as ‘fine childrens’: a commodity as the Books of Rates price it separately (HECTOR decision 2, 29 Sep 2026)."
+      "content": "Withdrawn 3 Oct 2026. This record stood for the commodity as one Book of Rates entry qualifies it; the rates are now on the commodity itself, each naming its qualifier."
     }
   ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "content": "dagger (fine childrens)",
-      "classified_as": [
-        {
-          "id": "aat:300404670",
-          "type": "Type",
-          "_label": "preferred terms"
-        }
-      ],
-      "phoneticKey": [
-        "dager finə tʃildrens"
-      ]
-    },
-    {
-      "type": "Name",
-      "content": "Daggers fyne for children",
-      "classified_as": [
-        {
-          "id": "hector:AttestedVariant",
-          "type": "Type",
-          "_label": "attested variant"
-        }
-      ],
-      "phoneticKey": [
-        "dagers finə for tʃildren"
-      ]
-    }
-  ],
-  "broader": [
-    {
-      "id": "https://w3id.org/hector/commodity/dagger",
-      "type": "Type",
-      "_label": "dagger"
-    }
-  ],
-  "compoundOf": [
-    {
-      "id": "https://w3id.org/hector/commodity/dagger",
-      "type": "Type",
-      "_label": "dagger"
-    }
-  ],
-  "modified": "2026-10-03",
-  "taxation": [
-    {
-      "id": "https://w3id.org/hector/commodity/dagger-fine-childrens#rate-1558-inward-380",
-      "type": "Rate",
-      "_label": "1558 inward: Daggers fyne for children the dossen 2s",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "24",
-        "lsd": "2s"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 12,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/dozen",
-          "type": "MeasurementUnit",
-          "_label": "dozen"
-        }
-      },
-      "validFrom": "1558",
-      "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 380 (transcribed by Stuart Jenks): 'Daggers fyne for children the dossen' 2s"
-    }
-  ]
+  "isReplacedBy": {
+    "id": "https://w3id.org/hector/commodity/dagger",
+    "type": "Type"
+  }
 }

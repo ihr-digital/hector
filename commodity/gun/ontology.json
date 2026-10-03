@@ -306,7 +306,13 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 324 (transcribed by Stuart Jenks): 'Gonne pouder the 100 pounde' 20s"
+      "sourceText": "Book of Rates 1545, inward, line 324 (transcribed by Stuart Jenks): 'Gonne pouder the 100 pounde' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "powdered"
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/gun#rate-1558-inward-517",
@@ -333,7 +339,35 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 517 (transcribed by Stuart Jenks): 'Gonnes voc’ handgonnes or half hakes the pece' 5s"
+      "sourceText": "Book of Rates 1558, inward, line 517 (transcribed by Stuart Jenks): 'Gonnes voc’ handgonnes or half hakes the pece' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "handgonnes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "half"
+        },
+        {
+          "type": "Type",
+          "_label": "hakes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

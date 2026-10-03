@@ -177,7 +177,8 @@
     skos:exactMatch <https://w3id.org/mlca/glossary/fig> ;
     la:equivalent aat:300448624 ;
     hector:attestationCount 475 ;
-    hector:taxation <https://w3id.org/hector/commodity/fig#rate-1507-none-83>,
+    hector:taxation <https://w3id.org/hector/commodity/fig#rate-1507-none-82>,
+        <https://w3id.org/hector/commodity/fig#rate-1507-none-83>,
         <https://w3id.org/hector/commodity/fig#rate-1545-inward-274>,
         <https://w3id.org/hector/commodity/fig#rate-1545-inward-275>,
         <https://w3id.org/hector/commodity/fig#rate-1558-inward-419>,
@@ -192,6 +193,19 @@ aat:300435416 a crm:E55_Type ;
 
 aat:300448624 a crm:E55_Type ;
     rdfs:label "figs (fruits)" .
+
+<https://w3id.org/hector/commodity/fig#rate-1507-none-82> a hector:Rate ;
+    rdfs:label "1507: Fygges the sortte þat ys to saye 3 frayles for the sorte 4s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4s" ;
+            hector:valueInPence 48.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/sort> ] ;
+    hector:sourceText "Book of Rates 1507, line 82 (transcribed by Stuart Jenks): 'Fygges the sortte þat ys to saye 3 frayles for the sorte' 4s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/fig#rate-1507-none-83> a hector:Rate ;
     rdfs:label "1507: Fygges the tunne that ys to say 10 sorte for the tunne 40s" ;
@@ -267,6 +281,9 @@ aat:300448624 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/tapnet> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Algava" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 422 (transcribed by Stuart Jenks): 'Fygges of Algava the topnet cont’ 2 lb' 8d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .

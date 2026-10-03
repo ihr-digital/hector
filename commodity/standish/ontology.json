@@ -341,6 +341,61 @@
       "sourceText": "Book of Rates 1545, inward, line 710 (transcribed by Stuart Jenks): 'Standysshes the pece' 2d"
     },
     {
+      "id": "https://w3id.org/hector/commodity/standish#rate-1558-inward-1012",
+      "type": "Rate",
+      "_label": "1558 inward: Standysshes coveryd wyth lether, gylt or ungylt, the pece 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "40",
+        "lsd": "3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 1012 (transcribed by Stuart Jenks): 'Standysshes coveryd wyth lether, gylt or ungylt, the pece' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "coveryd wyth lether",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "gilt",
+          "equivalent": [
+            {
+              "id": "aat:300379350",
+              "type": "Type",
+              "_label": "gilding (material)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "ungilt"
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/standish#rate-1558-inward-975",
       "type": "Rate",
       "_label": "1558 inward: Standysshes the dosen 6s",

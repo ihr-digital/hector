@@ -7,85 +7,236 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
+  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb15fbb2d88404b029ee41e87079b590a3959bb8b153ecb0175382809c3b5403091">
+    <crm:P190_has_symbolic_content>brabant</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>brabant</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb2008bee45690ede13b790de3fc5e7ba1649b504ffd382d191bf7e227abd058c2b">
+    <crm:P190_has_symbolic_content>brabant cloth</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>brabant kloθ</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb3660335cd1e0013ea658ec2f2764c7ee51d6c0f5de88f7064a711ef4ce5da00ef">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/brabant-cloth">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brabant_cloth_cb0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brabant_cloth_cb118c1c95071b2c2e74c2f3a3073e2d686ceee23ecc7da8609a4f6fc035edbafe0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brabant_cloth_cb12d5be284a18760cf1da5f4404e82a12a282d1a90505faed77ba0a5b888fe3749"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brabant_cloth_cb140a9f8866d214c660280e3f8ff281910b97cde729ac53cb2fae7a54291e8ef08"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brabant_cloth_cb1a1832fb0e05d38cc3488cdc09fff5bc2c9ccf2c4b8b49ae717ad4fe2d96b91d1"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_brabant_cloth_cb494d693d69845fa8b153e19d81381a00c0e85cd4dd58afa461f4a30d16ba9ee6"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_brabant_cloth_cbb57a53f4ed3c066d34668aa3a718c0ce8ecc8eab9aab0a57906bbfdb4bbe104"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brabant_cloth_cb107c1eaa922d7dac040050b6cb7ef2aa8ad92c97669b7f143293f3a0a7b544776"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brabant_cloth_cb137d2fe5244dc79202dccdd3f1013c7af6f2cd08f6be04acbe23760848232f169"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brabant_cloth_cb14c6d178674b11707ff43974eeab39252c86bc732f4657399b8e10a39ac5578d2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brabant_cloth_cb15fbb2d88404b029ee41e87079b590a3959bb8b153ecb0175382809c3b5403091"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brabant_cloth_cb2008bee45690ede13b790de3fc5e7ba1649b504ffd382d191bf7e227abd058c2b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_brabant_cloth_cb685e9e3f3cae15e192f184ac1d690b2961270977815e74669f35078e3a11e06f"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_brabant_cloth_cb108cfac0bc9e0b4d25b3e8f07a0ac0db42afbc0a62dd58c47a58fe591a1a8ef1c"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>brabant cloth</rdfs:label>
     <skos:broader rdf:resource="http://vocab.getty.edu/aat/300162391"/>
     <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/brabant%20cloth"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">389</hector:attestationCount>
     <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q159856"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/brabant-cloth#rate-1507-none-152"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/brabant-cloth#rate-1545-inward-36"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/brabant-cloth#rate-1545-inward-37"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/brabant-cloth#rate-1558-inward-121"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/brabant-cloth#rate-1558-inward-122"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb494d693d69845fa8b153e19d81381a00c0e85cd4dd58afa461f4a30d16ba9ee6">
-    <crm:P190_has_symbolic_content>braband</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb1dbfeb9033662316dcce2a73b52e3d3f2f9c6f85ec59a58a233a6eacaacb40ba9">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb1a93e24b1fadb913edc74ef28a1a1c70211f5d7e97cadf0f76363e65858dfcbb3">
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>braband</hector:phoneticKey>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>lawne or myffyll wether</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/brabant-cloth#rate-1545-inward-37">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Brabande clothe the halfe pece 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_brabant_cloth_cb300734aa8b7fc0c7284b4c6f585c5bc26f1532b857fae62b1ce481fd3ba119386"/>
+    <hector:perQuantity rdf:nodeID="commodity_brabant_cloth_cb1dbfeb9033662316dcce2a73b52e3d3f2f9c6f85ec59a58a233a6eacaacb40ba9"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 37 (transcribed by Stuart Jenks): 'Brabande clothe the halfe pece' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/brabant-cloth#rate-1558-inward-122">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Brabant clothe the di’ pece 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_brabant_cloth_cb317b9bdad67b94de8f1f8c41b814818b7bbc0ca13535fb0745764685728ac77b7"/>
+    <hector:perQuantity rdf:nodeID="commodity_brabant_cloth_cb12abb7dc09049a029f34b0fa68d4bc565cda82028fd0233d24a0c46258f3acf4b"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 122 (transcribed by Stuart Jenks): 'Brabant clothe the di’ pece' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/brabant-cloth#rate-1545-inward-36">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Brabande clothe the hole pece 13s 4d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_brabant_cloth_cb3660335cd1e0013ea658ec2f2764c7ee51d6c0f5de88f7064a711ef4ce5da00ef"/>
+    <hector:perQuantity rdf:nodeID="commodity_brabant_cloth_cb29bb75cfced2fce2c02614b3b1fbba515023451b744793a23d74e5e9528e8352e"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 36 (transcribed by Stuart Jenks): 'Brabande clothe the hole pece' 13s 4d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300162391">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>cloth</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb138df804271f0b9e5bf883c8232e66dfe8e906c2e84d55d133830e2d373b5005b">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
+    <rdfs:label>coarse</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb0">
-    <crm:P190_has_symbolic_content>de brabande</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>de brabandə</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb140a9f8866d214c660280e3f8ff281910b97cde729ac53cb2fae7a54291e8ef08">
-    <crm:P190_has_symbolic_content>brabant</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>brabant</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb1a1832fb0e05d38cc3488cdc09fff5bc2c9ccf2c4b8b49ae717ad4fe2d96b91d1">
-    <crm:P190_has_symbolic_content>brabant cloth</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>brabant kloθ</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb12d5be284a18760cf1da5f4404e82a12a282d1a90505faed77ba0a5b888fe3749">
+  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb14c6d178674b11707ff43974eeab39252c86bc732f4657399b8e10a39ac5578d2">
     <crm:P190_has_symbolic_content>brabande</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>brabandə</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb118c1c95071b2c2e74c2f3a3073e2d686ceee23ecc7da8609a4f6fc035edbafe0">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/brabant-cloth#rate-1507-none-152">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1507: Braband clothe and all other clothe that ys follden lyke Holond clothe, þe pece lawne or myffyll wether ytt be fyne or corsse the pece 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_brabant_cloth_cb31c80068300e98e1516be8cb127503c8f4f180e59f938260189d806e5a4040365"/>
+    <hector:perQuantity rdf:nodeID="commodity_brabant_cloth_cb2476cc823fe0ad75eadf2c2eb27d3ffdd824fca27aa63cba26b1b305d17d2df55"/>
+    <hector:qualifier rdf:nodeID="commodity_brabant_cloth_cb117456063d26016c95cf6cd5e1462078d03a1ca652d6fbf4fd4da9274b32f84d0"/>
+    <hector:qualifier rdf:nodeID="commodity_brabant_cloth_cb12c0cf28794ad913a8281c7b319115ba5e036b531e275aa7a8152d2143cf1a5a9"/>
+    <hector:qualifier rdf:nodeID="commodity_brabant_cloth_cb12ccbce546f45577b5cb3ece57ca49132e7541080ad760a1b2118db3724a41155"/>
+    <hector:qualifier rdf:nodeID="commodity_brabant_cloth_cb138df804271f0b9e5bf883c8232e66dfe8e906c2e84d55d133830e2d373b5005b"/>
+    <hector:qualifier rdf:nodeID="commodity_brabant_cloth_cb1a93e24b1fadb913edc74ef28a1a1c70211f5d7e97cadf0f76363e65858dfcbb3"/>
+    <hector:qualifier rdf:nodeID="commodity_brabant_cloth_cb29ead4b88365c81ebf96cf6c2053bc48ac00a5d689bbfa63a2994704312368a1c"/>
+    <hector:sourceText>Book of Rates 1507, line 152 (transcribed by Stuart Jenks): 'Braband clothe and all other clothe that ys follden lyke Holond clothe, þe pece lawne or myffyll wether ytt be fyne or corsse the pece' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1507</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb2476cc823fe0ad75eadf2c2eb27d3ffdd824fca27aa63cba26b1b305d17d2df55">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb685e9e3f3cae15e192f184ac1d690b2961270977815e74669f35078e3a11e06f">
+    <crm:P190_has_symbolic_content>braband</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>braband</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb117456063d26016c95cf6cd5e1462078d03a1ca652d6fbf4fd4da9274b32f84d0">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>follden lyke</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb31c80068300e98e1516be8cb127503c8f4f180e59f938260189d806e5a4040365">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb29bb75cfced2fce2c02614b3b1fbba515023451b744793a23d74e5e9528e8352e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/brabant-cloth#rate-1558-inward-121">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Brabant clothe the hole pece 26s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_brabant_cloth_cb1cdf89e6582d3560b10a5b849c35b262a83a7d9f534be869b384f10326b362a37"/>
+    <hector:perQuantity rdf:nodeID="commodity_brabant_cloth_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 121 (transcribed by Stuart Jenks): 'Brabant clothe the hole pece' 26s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/pecia">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>pecia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb108cfac0bc9e0b4d25b3e8f07a0ac0db42afbc0a62dd58c47a58fe591a1a8ef1c">
+    <crm:P190_has_symbolic_content>Brabant cloth (tela Brabande): linen cloth from the Duchy of Brabant, measured in ells</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb317b9bdad67b94de8f1f8c41b814818b7bbc0ca13535fb0745764685728ac77b7">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>13s 4d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb29ead4b88365c81ebf96cf6c2053bc48ac00a5d689bbfa63a2994704312368a1c">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Holland</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q762943"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb1cdf89e6582d3560b10a5b849c35b262a83a7d9f534be869b384f10326b362a37">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>26s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb12c0cf28794ad913a8281c7b319115ba5e036b531e275aa7a8152d2143cf1a5a9">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>other</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb1ae7d68c6a4594a5849df0cb1ff16bf6cbc4a0befaaffba325cf70545401b89a0">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb137d2fe5244dc79202dccdd3f1013c7af6f2cd08f6be04acbe23760848232f169">
     <crm:P190_has_symbolic_content>brabandes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>brabandəs</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q159856">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-    <rdfs:label>Duchy of Brabant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cbb57a53f4ed3c066d34668aa3a718c0ce8ecc8eab9aab0a57906bbfdb4bbe104">
-    <crm:P190_has_symbolic_content>Brabant cloth (tela Brabande): linen cloth from the Duchy of Brabant, measured in ells</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb107c1eaa922d7dac040050b6cb7ef2aa8ad92c97669b7f143293f3a0a7b544776">
+    <crm:P190_has_symbolic_content>de brabande</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>de brabandə</hector:phoneticKey>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>attested variant</rdfs:label>
   </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q762943">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>County of Holland</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q159856">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>Duchy of Brabant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb12abb7dc09049a029f34b0fa68d4bc565cda82028fd0233d24a0c46258f3acf4b">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/pecia"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb12ccbce546f45577b5cb3ece57ca49132e7541080ad760a1b2118db3724a41155">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>fine</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/mlca/glossary/brabant%20cloth">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>brabant cloth (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_brabant_cloth_cb300734aa8b7fc0c7284b4c6f585c5bc26f1532b857fae62b1ce481fd3ba119386">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

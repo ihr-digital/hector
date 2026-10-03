@@ -5,7 +5,9 @@
   ],
   "id": "https://w3id.org/hector/commodity/crewel-girdels",
   "type": "Type",
-  "_label": "crewel (girdels)",
+  "_label": "crewel (withdrawn record)",
+  "deprecated": true,
+  "modified": "2026-10-03",
   "referred_to_by": [
     {
       "type": "LinguisticObject",
@@ -16,81 +18,11 @@
           "_label": "brief texts"
         }
       ],
-      "content": "crewel, qualified as ‘girdels’: a commodity as the Books of Rates price it separately (HECTOR decision 2, 29 Sep 2026)."
+      "content": "Withdrawn 3 Oct 2026. This record stood for the commodity as one Book of Rates entry qualifies it; the rates are now on the commodity itself, each naming its qualifier."
     }
   ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "content": "crewel (girdels)",
-      "classified_as": [
-        {
-          "id": "aat:300404670",
-          "type": "Type",
-          "_label": "preferred terms"
-        }
-      ],
-      "phoneticKey": [
-        "kreuel dʒirdels"
-      ]
-    },
-    {
-      "type": "Name",
-      "content": "Crewell girdels",
-      "classified_as": [
-        {
-          "id": "hector:AttestedVariant",
-          "type": "Type",
-          "_label": "attested variant"
-        }
-      ],
-      "phoneticKey": [
-        "kreuel dʒirdels"
-      ]
-    }
-  ],
-  "broader": [
-    {
-      "id": "https://w3id.org/hector/commodity/crewel",
-      "type": "Type",
-      "_label": "crewel"
-    }
-  ],
-  "compoundOf": [
-    {
-      "id": "https://w3id.org/hector/commodity/crewel",
-      "type": "Type",
-      "_label": "crewel"
-    }
-  ],
-  "modified": "2026-10-03",
-  "taxation": [
-    {
-      "id": "https://w3id.org/hector/commodity/crewel-girdels#rate-1545-inward-176",
-      "type": "Rate",
-      "_label": "1545 inward: Crewell girdels the groce 4s",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "48",
-        "lsd": "4s"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 144,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/gross",
-          "type": "MeasurementUnit",
-          "_label": "gross"
-        }
-      },
-      "validFrom": "1545",
-      "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 176 (transcribed by Stuart Jenks): 'Crewell girdels the groce' 4s"
-    }
-  ]
+  "isReplacedBy": {
+    "id": "https://w3id.org/hector/commodity/crewel",
+    "type": "Type"
+  }
 }

@@ -231,6 +231,126 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/ashes#rate-1507-none-5",
+      "type": "Rate",
+      "_label": "1507: Asshes called woode asshes the last 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/last",
+          "type": "MeasurementUnit",
+          "_label": "last"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 5 (transcribed by Stuart Jenks): 'Asshes called woode asshes the last' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "woode",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/ashes#rate-1545-inward-16",
+      "type": "Rate",
+      "_label": "1545 inward: Asshes called woad asshes the laste 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/last",
+          "type": "MeasurementUnit",
+          "_label": "last"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 16 (transcribed by Stuart Jenks): 'Asshes called woad asshes the laste' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "woad",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/ashes#rate-1545-inward-17",
+      "type": "Rate",
+      "_label": "1545 inward: Asshes called sope asshes the laste 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/last",
+          "type": "MeasurementUnit",
+          "_label": "last"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 17 (transcribed by Stuart Jenks): 'Asshes called sope asshes the laste' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "sope",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/ashes#rate-1545-inward-18",
       "type": "Rate",
       "_label": "1545 inward: Ashes called pot asshes the barell 6s",
@@ -255,7 +375,53 @@
       },
       "validFrom": "1545",
       "validThrough": "1558",
-      "sourceText": "Book of Rates 1545, inward, line 18 (transcribed by Stuart Jenks): 'Ashes called pot asshes the barell' 6s"
+      "sourceText": "Book of Rates 1545, inward, line 18 (transcribed by Stuart Jenks): 'Ashes called pot asshes the barell' 6s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "soap-ashes"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/ashes#rate-1558-outward-3",
+      "type": "Rate",
+      "_label": "1558 outward: Asshes Englysshe þe laste cont’ 12 barrelles 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/last",
+          "type": "MeasurementUnit",
+          "_label": "last"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, outward, line 3 (transcribed by Stuart Jenks): 'Asshes Englysshe þe laste cont’ 12 barrelles' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Kingdom of England",
+          "originPlace": [
+            {
+              "id": "wd:Q179876",
+              "type": "Place",
+              "_label": "Kingdom of England"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

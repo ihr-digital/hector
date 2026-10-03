@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://linked.art/ns/v1/linked-art.json",
+    "https://w3id.org/hector/context"
+  ],
+  "id": "https://w3id.org/hector/commodity/cloth-brabant-other-folden-lik-holland-pec-laun-mifil-uether-fine-coarse",
+  "type": "Type",
+  "_label": "cloth (withdrawn record)",
+  "deprecated": true,
+  "modified": "2026-10-03",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "aat:300418049",
+          "type": "Type",
+          "_label": "brief texts"
+        }
+      ],
+      "content": "Withdrawn 3 Oct 2026. This record stood for the commodity as one Book of Rates entry qualifies it; the rates are now on the commodity itself, each naming its qualifier."
+    }
+  ],
+  "isReplacedBy": {
+    "id": "https://w3id.org/hector/commodity/cloth",
+    "type": "Type"
+  }
+}

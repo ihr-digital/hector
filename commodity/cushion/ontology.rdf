@@ -8,556 +8,96 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_cushion_cb21e86e21b66140a2e48e09b6dfaa5a537638934ef7e81eaf274074ca5e0b70128">
-    <crm:P190_has_symbolic_content>qwisson</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwison</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1500baa8a11c5e6a799460503b05f1a5754cc32193b341ef78083f090c3c04b73">
-    <crm:P190_has_symbolic_content>quisshon</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiʃon</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb14b3cf8cf146c0b961968d88f87216572ae427808910a1d9f69017ae349b42c37">
-    <crm:P190_has_symbolic_content>quysshyn</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiʃin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/commodity/cushion">
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1084dbf88bf21877cdca98307063f2bbaa22f4755b48becb6bf5ceeb71d80225b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb111e4db206e615a35998d336a10843fff174def97948223e2d34d15190474f1e3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb114c9f4595ec09e2d6a3194cad05bbdbdefb7156d9920a63b72196c5726219812"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb11b543497f5c656a5a2fd1144a9a8783cf04ae7a6d544bdb5fc5959dfa199c18c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1224be0a62f3dc70ad2a9395ebd93131f376654213f928ea866c26dcd4f784025"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1256b30d12fb1f67b68519fbcf4aa95778837d07f793ad6986b3903a089bf0737"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb133c6996f8609d9486c62156de15886eaea6e5e5285397afb1b225f015eb5ec58"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1381246a5e156c71733c8afe53d3bc77c18597abf290e65e816ca308d8770c359"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb143474e4f4868a3759406b462c961c01d2ceb1c87551626260d4e84606ae92ea0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb146ed2c485d5b1c419d88711d6463ad81babe867902c00b9b8c4c48da505ab7c1"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb14aa07a795118d3e43de11ef0bade021004e8773e680a1bcc0dee5488d017c95f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb14b3cf8cf146c0b961968d88f87216572ae427808910a1d9f69017ae349b42c37"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb14c09a02889c504083ad3b864e6394ccadabb5968259e685ed9ec29a76c27cb9c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb14d3d719d1ab9f9f9a6f32067ddf025c5772c98608c7e787c2469e61a52a1e900"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1500baa8a11c5e6a799460503b05f1a5754cc32193b341ef78083f090c3c04b73"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb152a3cde64f8e4a4f280b78523c746c9a9bd034134e34c37df1d59c1ecf0f70bd"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb15a564e10fac44834d13deae7897422fa58888f2070c6860c3f7a7e785c2a7aaf"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb15ae72e447cf087182cb7924a1540a4250d1532902854aedc54bf84d55e02aff0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb15ba824130003d27cfd6b53891259e360d4cc49b796a8468ae90d7d91da84fa98"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1616611dec813867c4d56bfea1ab28d526e6c5bcf7fd0c3d0384aea9e33d52435"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb16298c8cb594f5d17be6402d27360c37e78307634eb85eb738509eb4b8cf1a36f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb16945624532e423261d9952c711d851634bb891484e7b03f65600264f0299bf22"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb17ad94aeac084125539640239fccc15ba0ec502bdbea3e040b961280c6b24b81a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1807964dd8c7b1eb642a8617c2e9863f37b62fa0de22dd5f5aa5723726448a65e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1913bb8e3e5d8292bf59c8fe81973636956a4b70d623da0f312ec073ca06513cb"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb193135af44badc64314dfd145f95eb33620432b74a3706bab4a771ef0442fefc7"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb193c40d84728365a67858dfea4a79897d1cb8f07ad0d3a447c2137c56568703a2"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb19fb2bae407b5e4ffaea4685a74acd6dbead7808dffa650f75f3529053f80b0d6"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1a063700effe478ddb6bffc3294f4cbb9eb9cf9e00bd8f8cd80c996a3b1042c06"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1a5143bd0c4f35f3cd72d20efbff97b45cf26edad4445d1569438ce88c8682d87"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1a626e128f8d16f65f7d1d4e26db1dc31baad8e76bbfddda6e8e7f1676dbb8f29"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1a62a503b878e7dc5052d348d98b8498e3dc87d5cabcebf54678ea8ce3747571f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1a652e389fd87d4cb92ee29c38dd7be508ba45b417cc90ab2efd66d51c604b19d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1a9cedd1b1560aa6fe30eecb27f4dc1f30de4ef4aacea7d35fff87f29d0c9a024"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1ab3fc3c55f07fb865f7b8affc3a9056eb68095becbe14622ecd0add7117d1c04"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1ad4b8ac835f5f74711af23e84ea640e9b5d31e61c43c2e67360c7a5ab6590921"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1bc18e1e448c5eb8e7d23cf3f5bf1349fcb3787359423d405b61501430b6d312a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1c5fc279ced673ff41150d444a3fc6d97ef317504d356b6ba19966493e5cc2868"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1c722f18c470959d3c0fd1dedb270da5b33c424a181966f36895782b9ff68a9ea"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1d8ce2d2cb07fe78395624629f03e2c0202b1b75e80f4e6d5e2aedcda945004a1"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1d8e19a6d12a36361eaff712b465d635f108547738d63827e0c5daef430185ded"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1dff62722bd4c4ea805ad8f86bd97282b886773c4a0af6c4a6521b2d25e5dc5cd"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1e023e1906e659479be1b51486d09725612f030c034df1ec48b01564115a9970d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1e616ac45fa299d61c57011bcd2014055c77a20c4c0326d76a875232f74640def"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1f3eac5e48e6c0f66f2885deb7425d0ea3a7f5a475cd0039e2cc2a74859123057"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1f5baca1a123bd6c406412dd3c558f8fb70b7cdf29c477d480aec9b96a674fee9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb21e86e21b66140a2e48e09b6dfaa5a537638934ef7e81eaf274074ca5e0b70128"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb21f1462794eacece50c47ba81082234102f1a8680ed909c1e6d41d1e864fc93a4"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb221c9362c731660f4862028ce7ecca05297f566bfa37aa3e4bfa81a8575c918e6"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb234e01df0890ea472a8efe368a3d01f769f17f20dcc7c6253159c5c10310d97c6"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb244c95a5da2bed93d51a7a2cff5e53545788beabdfe361b318822632aa346625b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb247a3f20e49a50e76395518aacf075f324a93dfe173dd64dd00668b6a3e858713"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb249c21fdafb0d9902b8c184976452dd5902845da1ddf0575740a6a82fc8608ee1"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb253a008eff38e8bd3e68e52f63c4ecef2e0338f0798491660d1762f3e8a1e5670"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb25ac0447256ed9c59a117472a5d8c8930188548a82574c2e1e5ca1a5edf0234a4"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb26096ecd3cfaf8fd4a21fd15f31980659cacdd44dcb517970a9171615ccf8a73c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb2696e5f7c15158bfc5da7dd54f054237fa939eafb4ec28e0befce1acad1d6a205"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb26d7242122e64bccf381e121e5294e12dd0f015505193b0d5487b085eaea05f6a"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb2754be015c80fb5e675bd773dc20cb88e22902186387187fc60314eb494992b62"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb278a44112b7285fd38221d8b7b6b2ad351792defd123beec7186ea220f45dada0"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb28285c5b89682149cf261f67b3ef6f15d0f97bc276828b3884c2c30b1ad2b731c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb2b81b08324da362adafb5da1dab9bb9ce948d910d51c9737a0bf74359136042f1"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb2bd1a8ab2ef7f3f1df423c99c648348c73d814a694ce16a906885fde1c3ac298c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb2ca9f7677300519b4d465e4b4fdab0f31913e52631a00ba51cf00234546bc1e4d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb2e9b3b499ba7e31f4f26919e4088445d89b5539a57bb302cb38d5269c3b959db3"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb2fc485ac68373bcc50d929c09c6c0362bf47fedb293e7a9c0a855f15f68e787ad"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb30ca7f1262d1fe58d011af8f318b253aa4d9dc2adce4568d83eb25c328e8e5506"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb3177085189632172017411b401c4f4a6f17c9f007a84d7d958f39bffb8075f0e5"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb32f8618af9cba0611ecbece86d9f2cc88c1a6494b51ccacaf81fdf1d9dd49fd2"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb356bab120981c3a01eaac6e0905c2f1161147da3630bfe43820a39970bbadb527"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb7d6e00ca3ede6fdfa80528c1070f3bab5ce1630d91cbbbcfa894c004d6bec5d1"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb81688508ca2d552b2b20283536dfddbf0c88686ea10e68ab1eeddbc215ce85ae"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb86a12c5d89df04a7387af04fca4c85ea265acfd79bd59db62e17cba9193cdb7d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cbc4a8e54c5267d4453da4c34afc6c48e30f79074f58a7a9fdaa4824f3498d5d4b"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cbd7b8d1d056516ccbb82716e97d652c7b00f5526cc675211fe6a8ef9c5df455e0"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_cushion_cbf18ea96ddcb8c1f2d7409c8314879590b89bae57b5c555b20870ecefcadaf49a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb124a40026e3f11f85ce9baa5aed6b3d93c3cd9436f60e3913d7aa449bc068ae1e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1275ef48a924b3db5be472615a2701ce3426df3f85891b178fc9d533840d763e4"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb130f61022418b106e7b2ad678acb53127b78c9c3a3887e8a5108d799a27cc336c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb133db295b31ea54664bcf37d96c8caee68ff5c2103d266afdaf59d0d84978d99b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb13a656999c8f00cde849ab45345d9696590899449794a82783999be60c4f10315"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1415d15a802677d43b446dc6d59c40447d7a500c3e398536aa402d24e72cf81ae"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1447c65d302dbacb449ef42cb90db86a028767d221d409b5aa8796821ad1648c0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb152d7ce7159338f814dffb87c7d8978138aad0af5293f3fbd5862c382820d2de1"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb157237ba7b4807d50156652f3d96cb8a4b8982761cd142aaa540a950eaac804e2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1625883511b9259ae75a457716592b145cd29c929f91beae84a8ee8e18e407029"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb165fe614a3084d27a7f26142c00949eaa5afd331ba6c5d05dc98cad5b73b1f94a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb169b1af7b24428a1d1f7ec1ff570ef338a52723e10c0fe08e4b2eb909f36f0ae8"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb16a4e2dd0e795c1cefb067b9e2352569b4e8124ab350fe261a641df646d0b6dc0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb16b1ad52a5ceeba411c715b73826a3df37afa060ac9a42d21172c8e288f7f0d25"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb16c4ea69eede3b0328890c3767a2116ee176b450330843d3e61aa4a9b75f92a89"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb16f1cdf8be4ef9ce07ae3a8124c900b7ff50adebbdf39e3b9bdc45511e7178cfc"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb179678312cdedfe6db2db8df625a51422f8c73bc314cc4ace7cbae2f97f81bc38"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb179f86346501a3d510e553558b171954dad53df32cc5a739e91ffe9568159f179"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb17ab95914d32d88b5df08f697ae8ad489750af65a3aae0b4d264de212fddc3c21"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1807746e09b3d3cb52ef462f8b6e37e7b0eab087223d68892758b4f1f572c65be"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb181a9fdcd2c791350a001a5e10f91b4a7186f22d78f8bb035c24a4fccb048e4f8"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb188569747060dd95eff36f5d5ae09428bebf73deaf280c8b893408ad025f100ab"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1943e59d90c87a58d75792a8cfe9f7ef83ee7ff9d61945620900ab70d2f76ab95"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb199ea7fec93adc88e1b01a54898fd06e2af03af6062a9a502f6a18c8d8e7bf9a3"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb19f8a99df5fa4d4ef2446048acac9551c1ba1a6b086339ab7e79787f3879fe7e7"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1b04cede5b901df64d73a32f6b5a45491f6e363b0064365b5502c6bbdc3bc5554"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1b2d5428645ad1bdf59f682f8e6aa7aa5bcf79d1d74d96909ff53e0d779de452b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1bec3efe5dadf9b3890420b6910ddc8048b162d30a3ac15b99c758d8662d7f25f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1bf74a510d30e2f16985d9f413125bce28bdba682afdebd8fbe09fb24d45b6d8f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1c42570d2981d1575b8cac3fe5c2a6c6e6f659a4fe84b9618d1793309ebbf6f10"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1c53b853d5ab833fde6cad79c34e93ab6de0729ff4fd48416a4cf0d4f5a9e98a8"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1c8e0121ce88a60a8c4ac8fc11b7eb31bae239bed50f041f83d38e3aaf420e1ad"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1ca50f8c73231b1bf41192e0e5fd9f69756bf42616fe70ae52a11125834d45d8d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1cc5cbfca091fad7ff34cc6f6ead732125611cb046841f329734cdedbd9b04aaa"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1d5c1996ac813dc452fa086ed76e0bda88f296e09587b4b4ab08e137af953bfc7"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1db2a16e61befa1c75ec1724df82225c86b7633d8382998c7f35565c42ec472b3"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1e50d5c9ec090f62cf2ee7753402d5ec08f7021a7775c7b7c56d6c915092369f1"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1eb37682c0e4e9e991b8b7339cbc90e13864b15d6a336d14c7dac840206caf608"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1eb68eb14a3dcf136df2c33e6c7f3056e54933901ec953cac571ae41253ec9d74"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1f7df622e83a99dbc76ffe9388c6f1d2aa2f0640124faab981fef415bb7a7462a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1ff075c24907604e0e74b329559c8195428a6206744b5310ca262175381b50756"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb1ff351692418f4ab29fb8f457093a637eb32edd62d8e4e386c841bac23900d896"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb20527e147cd53539aa70db4cb6e32317e67b8cd6764383238e5b587b097bb4f78"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb2055ba21e86397a1315f63a42b3c01ca40b8c6d7c9797415d97a73fe9a99eabf7"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb214cbff1be5658cfce7ded0e26189ea2410f67a95404d420a482d0017c9cc4072"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb23d98171d393dc0672a7e3e7c96d6966003c7e1922287afb4b147b127040e42b1"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb23e25977b21d6a31dede55d8fa4532538cf593323919660e0aa8236698853d52d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb240da6b2e4640172d67bdcbdd1afd917b38341362478068a6fce87f0699205a6f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb24ff0cda439a97a787ecd0a1c000468f7a1a1be66f1b2ac16439f4ab5dac19d68"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb253f152f25c385aab8a8d86774001109f3f569eb07082271552dcc0915464d94f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb263da8f5f75e88f76334545de9216266e18ca9760a23bdff3c562c7abc69da3e4"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb266b527101ccec4af1af2bbb96b38505aead28c8417e3299f3da6efeb61dcc89c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb268d354dcce374f3b9a5f27a60083ce81a2c30a4481f61c197de70cb0ebb7d06a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb272b13df1c6b8420cc82bf604d87fc01b80723baa3c4edb230eb693bfad7597f9"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb279d179742a17529282b4ea38f9bd7a58b8c3f54ac97a87a4230a7ee00259762d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb27fa821d5a2d9460d83bd746dcdc8f7826b0c80f06f573e32e6577a96f04fe8c5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb2887f947de83f42353f4580638c8514a84978979df2c852ce2d0e7f4bf52de38e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb28c837714018e730819bbb52ceec5d256712ec1f2f599759785bb6cdfd1f7a0f3"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb2945d15179b396c1f575b1a4c5e3da9b6c2cece28dc774cbe9d71b335b7f06ceb"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb297b576148a52160c63bf7bc652e39e5db7d18b9fb641b38955af06a217b4ef29"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb29e81bac3b5af4f902d9d1780f8b4718de994bc560626381be1aa9bc142859938"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb2a196faba69abcad5d3ff9989db27e285afd668ca0c2e784a896c9532d082b4a5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb2b81958adf6bc07bdd27de872e1494a1fb2abd76172594916c9a76c9e22be1535"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb2d72c3d3420cd18e691537d2c47ccaaf734cc3daff5cf383c4937a7da36b7847a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb2dc2bbfb4c2a8f556d5c16cab00b439efddbff70bf0e72f52a5c66262e7036b15"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb2e9b0ab79032ecfedb60387c399dc005a317cff05be067f140c4087c66a135fd6"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb308c4e99b8da7e82dd406bcf2a4b537013b93e6481fb8c78d76158b1d5eecdf3c"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb31b598fc8569d72fdef303f1862f1275494be9a5537ed6e82e59655e08c3ec936"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb32bb9262800499bc5e2b89c01b4e344d2eddc6f50724b2d9a7bf2c0b3b1e5968f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb33681ba1a695bcd58f8debe4eb8803b97b8089caa4c534257cc7a247ca3cd326e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb375cbe6226b45f03acc4a1117a1f3e23eb18686d8d4c5a8fa5de3fdf1df04f6b0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cb5209968cccf5569a00698ff709d01df12c59113759228f8d3560439ec12be15b"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cba5b2615f5d08bae01a18935e667d7712c6997c7a3fdb62786b58302a3c941d06"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cbe261a5bc9e2da3d34631b080972c9e83145b25f149fff7a1740d7f5731b6bc73"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_cushion_cbe3ba1a4e25918a7e1f426659989d3a0bafb7b3f1fcad6ebfe78889746ce49ed4"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_cushion_cb1ef06b03a57c5b65e5f38c2e07ac21737faaaa61329f0315434fa1683b7c802b2"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>cushion</rdfs:label>
     <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/cushion"/>
     <skos:related rdf:resource="https://w3id.org/hector/commodity/cushion-cloth"/>
     <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300236073"/>
     <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">169</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cushion#rate-1545-inward-180"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cushion#rate-1545-inward-181"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cushion#rate-1558-inward-264"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/cushion#rate-1558-inward-265"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb152a3cde64f8e4a4f280b78523c746c9a9bd034134e34c37df1d59c1ecf0f70bd">
-    <crm:P190_has_symbolic_content>qwyshene</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiʃenə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1c5fc279ced673ff41150d444a3fc6d97ef317504d356b6ba19966493e5cc2868">
-    <crm:P190_has_symbolic_content>quesshon</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kweʃon</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb2754be015c80fb5e675bd773dc20cb88e22902186387187fc60314eb494992b62">
-    <crm:P190_has_symbolic_content>cusshon</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kuʃon</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1ad4b8ac835f5f74711af23e84ea640e9b5d31e61c43c2e67360c7a5ab6590921">
-    <crm:P190_has_symbolic_content>cousshons</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kuːʃons</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb111e4db206e615a35998d336a10843fff174def97948223e2d34d15190474f1e3">
-    <crm:P190_has_symbolic_content>quischin</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiʃin</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb19fb2bae407b5e4ffaea4685a74acd6dbead7808dffa650f75f3529053f80b0d6">
-    <crm:P190_has_symbolic_content>quyshyn cloth</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiʃin kloθ</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb2696e5f7c15158bfc5da7dd54f054237fa939eafb4ec28e0befce1acad1d6a205">
-    <crm:P190_has_symbolic_content>quissyn</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwisin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb11b543497f5c656a5a2fd1144a9a8783cf04ae7a6d544bdb5fc5959dfa199c18c">
-    <crm:P190_has_symbolic_content>quyshen cloth</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiʃen kloθ</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb16298c8cb594f5d17be6402d27360c37e78307634eb85eb738509eb4b8cf1a36f">
-    <crm:P190_has_symbolic_content>quyshin</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiʃin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb2bd1a8ab2ef7f3f1df423c99c648348c73d814a694ce16a906885fde1c3ac298c">
-    <crm:P190_has_symbolic_content>cuschons</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kuʃons</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb7d6e00ca3ede6fdfa80528c1070f3bab5ce1630d91cbbbcfa894c004d6bec5d1">
-    <crm:P190_has_symbolic_content>qwyssin</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwisin</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1807964dd8c7b1eb642a8617c2e9863f37b62fa0de22dd5f5aa5723726448a65e">
-    <crm:P190_has_symbolic_content>cushin</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kuʃin</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1a62a503b878e7dc5052d348d98b8498e3dc87d5cabcebf54678ea8ce3747571f">
-    <crm:P190_has_symbolic_content>quishon</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiʃon</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1483</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1485</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb253a008eff38e8bd3e68e52f63c4ecef2e0338f0798491660d1762f3e8a1e5670">
-    <crm:P190_has_symbolic_content>quissyns</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwisins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb249c21fdafb0d9902b8c184976452dd5902845da1ddf0575740a6a82fc8608ee1">
-    <crm:P190_has_symbolic_content>cusshen</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kuʃen</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb2ca9f7677300519b4d465e4b4fdab0f31913e52631a00ba51cf00234546bc1e4d">
-    <crm:P190_has_symbolic_content>cosshyns</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>koʃins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb133c6996f8609d9486c62156de15886eaea6e5e5285397afb1b225f015eb5ec58">
-    <crm:P190_has_symbolic_content>quyshines</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiʃinəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb2e9b3b499ba7e31f4f26919e4088445d89b5539a57bb302cb38d5269c3b959db3">
-    <crm:P190_has_symbolic_content>cuschon</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kuʃon</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb17ad94aeac084125539640239fccc15ba0ec502bdbea3e040b961280c6b24b81a">
-    <crm:P190_has_symbolic_content>quyshon</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiʃon</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1d8e19a6d12a36361eaff712b465d635f108547738d63827e0c5daef430185ded">
-    <crm:P190_has_symbolic_content>qwyssones</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwisonəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1224be0a62f3dc70ad2a9395ebd93131f376654213f928ea866c26dcd4f784025">
-    <crm:P190_has_symbolic_content>cuschen</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kuʃen</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb193135af44badc64314dfd145f95eb33620432b74a3706bab4a771ef0442fefc7">
-    <crm:P190_has_symbolic_content>qwyssons</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwisons</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1450</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb81688508ca2d552b2b20283536dfddbf0c88686ea10e68ab1eeddbc215ce85ae">
-    <crm:P190_has_symbolic_content>qwyshen</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiʃen</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1bc18e1e448c5eb8e7d23cf3f5bf1349fcb3787359423d405b61501430b6d312a">
-    <crm:P190_has_symbolic_content>quisshons</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiʃons</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb114c9f4595ec09e2d6a3194cad05bbdbdefb7156d9920a63b72196c5726219812">
-    <crm:P190_has_symbolic_content>cusshyns</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kuʃins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb278a44112b7285fd38221d8b7b6b2ad351792defd123beec7186ea220f45dada0">
-    <crm:P190_has_symbolic_content>cosshens</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>koʃens</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb26d7242122e64bccf381e121e5294e12dd0f015505193b0d5487b085eaea05f6a">
-    <crm:P190_has_symbolic_content>coschen</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>koʃen</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1084dbf88bf21877cdca98307063f2bbaa22f4755b48becb6bf5ceeb71d80225b">
-    <crm:P190_has_symbolic_content>quysshen</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiʃen</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb3177085189632172017411b401c4f4a6f17c9f007a84d7d958f39bffb8075f0e5">
-    <crm:P190_has_symbolic_content>cusshons</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kuʃons</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1913bb8e3e5d8292bf59c8fe81973636956a4b70d623da0f312ec073ca06513cb">
-    <crm:P190_has_symbolic_content>cosshon</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>koʃon</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb356bab120981c3a01eaac6e0905c2f1161147da3630bfe43820a39970bbadb527">
-    <crm:P190_has_symbolic_content>cosshyn</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>koʃin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300236073">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>cushions</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb15a564e10fac44834d13deae7897422fa58888f2070c6860c3f7a7e785c2a7aaf">
-    <crm:P190_has_symbolic_content>quyschen</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiʃen</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1a652e389fd87d4cb92ee29c38dd7be508ba45b417cc90ab2efd66d51c604b19d">
-    <crm:P190_has_symbolic_content>cushion</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kuʃion</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1d8ce2d2cb07fe78395624629f03e2c0202b1b75e80f4e6d5e2aedcda945004a1">
-    <crm:P190_has_symbolic_content>coschens</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>koʃens</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1a063700effe478ddb6bffc3294f4cbb9eb9cf9e00bd8f8cd80c996a3b1042c06">
-    <crm:P190_has_symbolic_content>cusshenes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kuʃenəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb193c40d84728365a67858dfea4a79897d1cb8f07ad0d3a447c2137c56568703a2">
-    <crm:P190_has_symbolic_content>cushyn</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kuʃin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1541</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1c722f18c470959d3c0fd1dedb270da5b33c424a181966f36895782b9ff68a9ea">
-    <crm:P190_has_symbolic_content>qwysshon</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiʃon</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb14c09a02889c504083ad3b864e6394ccadabb5968259e685ed9ec29a76c27cb9c">
-    <crm:P190_has_symbolic_content>quysshyns</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiʃins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb143474e4f4868a3759406b462c961c01d2ceb1c87551626260d4e84606ae92ea0">
-    <crm:P190_has_symbolic_content>quishin</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiʃin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1f5baca1a123bd6c406412dd3c558f8fb70b7cdf29c477d480aec9b96a674fee9">
-    <crm:P190_has_symbolic_content>cousshon</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kuːʃon</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb15ba824130003d27cfd6b53891259e360d4cc49b796a8468ae90d7d91da84fa98">
-    <crm:P190_has_symbolic_content>coysshon clothes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>koiʃon kloθəs</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb14aa07a795118d3e43de11ef0bade021004e8773e680a1bcc0dee5488d017c95f">
-    <crm:P190_has_symbolic_content>quesshons</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kweʃons</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cbf18ea96ddcb8c1f2d7409c8314879590b89bae57b5c555b20870ecefcadaf49a">
-    <crm:P190_has_symbolic_content>Bags or similar containers made typically of cloth, leather, or rubber stuffed with a resilient material and used to give support or ease to the body while sitting, reclining, or kneeling. [Source: Getty AAT]</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb16945624532e423261d9952c711d851634bb891484e7b03f65600264f0299bf22">
-    <crm:P190_has_symbolic_content>cowshen clothes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kuːʃen kloθəs</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1a5143bd0c4f35f3cd72d20efbff97b45cf26edad4445d1569438ce88c8682d87">
-    <crm:P190_has_symbolic_content>quoysshen</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwoiʃen</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb28285c5b89682149cf261f67b3ef6f15d0f97bc276828b3884c2c30b1ad2b731c">
-    <crm:P190_has_symbolic_content>quischyns</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiʃins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1dff62722bd4c4ea805ad8f86bd97282b886773c4a0af6c4a6521b2d25e5dc5cd">
-    <crm:P190_has_symbolic_content>quysen</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwisen</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1381246a5e156c71733c8afe53d3bc77c18597abf290e65e816ca308d8770c359">
-    <crm:P190_has_symbolic_content>cusshyn</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kuʃin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb247a3f20e49a50e76395518aacf075f324a93dfe173dd64dd00668b6a3e858713">
-    <crm:P190_has_symbolic_content>coschyn</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>koʃin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1a626e128f8d16f65f7d1d4e26db1dc31baad8e76bbfddda6e8e7f1676dbb8f29">
-    <crm:P190_has_symbolic_content>qwysson</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwison</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/cushion">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>cushion (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb234e01df0890ea472a8efe368a3d01f769f17f20dcc7c6253159c5c10310d97c6">
-    <crm:P190_has_symbolic_content>cusshin</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kuʃin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cbd7b8d1d056516ccbb82716e97d652c7b00f5526cc675211fe6a8ef9c5df455e0">
-    <crm:P190_has_symbolic_content>qwyshon</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiʃon</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1f3eac5e48e6c0f66f2885deb7425d0ea3a7f5a475cd0039e2cc2a74859123057">
-    <crm:P190_has_symbolic_content>qwysshons</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiʃons</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb21f1462794eacece50c47ba81082234102f1a8680ed909c1e6d41d1e864fc93a4">
-    <crm:P190_has_symbolic_content>cusshins</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kuʃins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb86a12c5d89df04a7387af04fca4c85ea265acfd79bd59db62e17cba9193cdb7d">
-    <crm:P190_has_symbolic_content>quyshen</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiʃen</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb25ac0447256ed9c59a117472a5d8c8930188548a82574c2e1e5ca1a5edf0234a4">
-    <crm:P190_has_symbolic_content>quysshon</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiʃon</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1483</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1485</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1616611dec813867c4d56bfea1ab28d526e6c5bcf7fd0c3d0384aea9e33d52435">
-    <crm:P190_has_symbolic_content>coschons</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>koʃons</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb14d3d719d1ab9f9f9a6f32067ddf025c5772c98608c7e787c2469e61a52a1e900">
+  <rdf:Description rdf:nodeID="commodity_cushion_cb16c4ea69eede3b0328890c3767a2116ee176b450330843d3e61aa4a9b75f92a89">
     <crm:P190_has_symbolic_content>quyschens</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -565,55 +105,61 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb15ae72e447cf087182cb7924a1540a4250d1532902854aedc54bf84d55e02aff0">
-    <crm:P190_has_symbolic_content>quyshyn</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb266b527101ccec4af1af2bbb96b38505aead28c8417e3299f3da6efeb61dcc89c">
+    <crm:P190_has_symbolic_content>coschyn</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiʃin</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+    <hector:phoneticKey>koʃin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb32f8618af9cba0611ecbece86d9f2cc88c1a6494b51ccacaf81fdf1d9dd49fd2">
-    <crm:P190_has_symbolic_content>quisshin</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb2055ba21e86397a1315f63a42b3c01ca40b8c6d7c9797415d97a73fe9a99eabf7">
+    <crm:P190_has_symbolic_content>cushion</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiʃin</hector:phoneticKey>
+    <hector:phoneticKey>kuʃion</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1e616ac45fa299d61c57011bcd2014055c77a20c4c0326d76a875232f74640def">
-    <crm:P190_has_symbolic_content>coschon</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>koʃon</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb244c95a5da2bed93d51a7a2cff5e53545788beabdfe361b318822632aa346625b">
-    <crm:P190_has_symbolic_content>quishons</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1db2a16e61befa1c75ec1724df82225c86b7633d8382998c7f35565c42ec472b3">
+    <crm:P190_has_symbolic_content>quisshons</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>kwiʃons</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1483</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1485</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cushion-cloth">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>cushion-cloth</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1a9cedd1b1560aa6fe30eecb27f4dc1f30de4ef4aacea7d35fff87f29d0c9a024">
-    <crm:P190_has_symbolic_content>cusshens</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb179678312cdedfe6db2db8df625a51422f8c73bc314cc4ace7cbae2f97f81bc38">
+    <crm:P190_has_symbolic_content>quyschen</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kuʃens</hector:phoneticKey>
+    <hector:phoneticKey>kwiʃen</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1536</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1540</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb2945d15179b396c1f575b1a4c5e3da9b6c2cece28dc774cbe9d71b335b7f06ceb">
+    <crm:P190_has_symbolic_content>cusshon</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kuʃon</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb268d354dcce374f3b9a5f27a60083ce81a2c30a4481f61c197de70cb0ebb7d06a">
+    <crm:P190_has_symbolic_content>cusshen</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kuʃen</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cbc4a8e54c5267d4453da4c34afc6c48e30f79074f58a7a9fdaa4824f3498d5d4b">
-    <crm:P190_has_symbolic_content>qwisshons</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwiʃons</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb26096ecd3cfaf8fd4a21fd15f31980659cacdd44dcb517970a9171615ccf8a73c">
+  <rdf:Description rdf:nodeID="commodity_cushion_cb27fa821d5a2d9460d83bd746dcdc8f7826b0c80f06f573e32e6577a96f04fe8c5">
     <crm:P190_has_symbolic_content>cusshene</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -621,39 +167,29 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1e023e1906e659479be1b51486d09725612f030c034df1ec48b01564115a9970d">
-    <crm:P190_has_symbolic_content>cosshons</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb157237ba7b4807d50156652f3d96cb8a4b8982761cd142aaa540a950eaac804e2">
+    <crm:P190_has_symbolic_content>cusshyn</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>koʃons</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+    <hector:phoneticKey>kuʃin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb221c9362c731660f4862028ce7ecca05297f566bfa37aa3e4bfa81a8575c918e6">
-    <crm:P190_has_symbolic_content>quysson</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb28c837714018e730819bbb52ceec5d256712ec1f2f599759785bb6cdfd1f7a0f3">
+    <crm:P190_has_symbolic_content>coschen</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwison</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validThrough>
+    <hector:phoneticKey>koʃen</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb2b81b08324da362adafb5da1dab9bb9ce948d910d51c9737a0bf74359136042f1">
-    <crm:P190_has_symbolic_content>quyssons</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb188569747060dd95eff36f5d5ae09428bebf73deaf280c8b893408ad025f100ab">
+    <crm:P190_has_symbolic_content>cowshen clothes</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kwisons</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
+    <hector:phoneticKey>kuːʃen kloθəs</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb146ed2c485d5b1c419d88711d6463ad81babe867902c00b9b8c4c48da505ab7c1">
-    <crm:P190_has_symbolic_content>cushyns</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kuʃins</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1541</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb30ca7f1262d1fe58d011af8f318b253aa4d9dc2adce4568d83eb25c328e8e5506">
+  <rdf:Description rdf:nodeID="commodity_cushion_cb32bb9262800499bc5e2b89c01b4e344d2eddc6f50724b2d9a7bf2c0b3b1e5968f">
     <crm:P190_has_symbolic_content>cosshen</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -661,13 +197,449 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1256b30d12fb1f67b68519fbcf4aa95778837d07f793ad6986b3903a089bf0737">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cushion#rate-1558-inward-265">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Cusshen clothes of Holland makyng the dossen 30s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cushion_cb1559642a96dce9cbecc814feabb0e5870f4a7690d5fb3b8688995cb98cc9b79b2"/>
+    <hector:perQuantity rdf:nodeID="commodity_cushion_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:qualifier rdf:nodeID="commodity_cushion_cb1c9ccaaffb393b60adcfedfa994f642e1e739f329a7cd29ff60109b71bf75ded6"/>
+    <hector:qualifier rdf:nodeID="commodity_cushion_cb26eb52b98827f7a91bef672a8dff158885eda2abcabb0ea8479a70cd544550315"/>
+    <hector:qualifier rdf:nodeID="commodity_cushion_cbf628cb85d485fd4d8674a6e227a602d30364ec2882b9ad7dd3796c056b50a5d9"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 265 (transcribed by Stuart Jenks): 'Cusshen clothes of Holland makyng the dossen' 30s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1275ef48a924b3db5be472615a2701ce3426df3f85891b178fc9d533840d763e4">
+    <crm:P190_has_symbolic_content>quysshen</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwiʃen</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb263da8f5f75e88f76334545de9216266e18ca9760a23bdff3c562c7abc69da3e4">
+    <crm:P190_has_symbolic_content>quishons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwiʃons</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1483</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1485</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cbe261a5bc9e2da3d34631b080972c9e83145b25f149fff7a1740d7f5731b6bc73">
+    <crm:P190_has_symbolic_content>qwyssin</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwisin</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb29e81bac3b5af4f902d9d1780f8b4718de994bc560626381be1aa9bc142859938">
+    <crm:P190_has_symbolic_content>qwysshons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwiʃons</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb240da6b2e4640172d67bdcbdd1afd917b38341362478068a6fce87f0699205a6f">
+    <crm:P190_has_symbolic_content>quysson</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwison</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1c8e0121ce88a60a8c4ac8fc11b7eb31bae239bed50f041f83d38e3aaf420e1ad">
+    <crm:P190_has_symbolic_content>cusshens</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kuʃens</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1b2d5428645ad1bdf59f682f8e6aa7aa5bcf79d1d74d96909ff53e0d779de452b">
+    <crm:P190_has_symbolic_content>cushyn</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kuʃin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1541</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1d5c1996ac813dc452fa086ed76e0bda88f296e09587b4b4ab08e137af953bfc7">
+    <crm:P190_has_symbolic_content>qwyssons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwisons</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1450</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cba5b2615f5d08bae01a18935e667d7712c6997c7a3fdb62786b58302a3c941d06">
+    <crm:P190_has_symbolic_content>quyshen</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwiʃen</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb2a196faba69abcad5d3ff9989db27e285afd668ca0c2e784a896c9532d082b4a5">
+    <crm:P190_has_symbolic_content>quischyns</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwiʃins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1f7df622e83a99dbc76ffe9388c6f1d2aa2f0640124faab981fef415bb7a7462a">
+    <crm:P190_has_symbolic_content>coschens</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>koʃens</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1479</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb29b969739c57351c70f16b53457db5c16f9429d05486b2808f9e7c0cd50e971ed">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>6s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb133db295b31ea54664bcf37d96c8caee68ff5c2103d266afdaf59d0d84978d99b">
+    <crm:P190_has_symbolic_content>cusshyns</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kuʃins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1b04cede5b901df64d73a32f6b5a45491f6e363b0064365b5502c6bbdc3bc5554">
+    <crm:P190_has_symbolic_content>cosshon</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>koʃon</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb19f8a99df5fa4d4ef2446048acac9551c1ba1a6b086339ab7e79787f3879fe7e7">
+    <crm:P190_has_symbolic_content>cushin</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kuʃin</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb308c4e99b8da7e82dd406bcf2a4b537013b93e6481fb8c78d76158b1d5eecdf3c">
+    <crm:P190_has_symbolic_content>cuschon</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kuʃon</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb2d72c3d3420cd18e691537d2c47ccaaf734cc3daff5cf383c4937a7da36b7847a">
+    <crm:P190_has_symbolic_content>quyssons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwisons</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1807746e09b3d3cb52ef462f8b6e37e7b0eab087223d68892758b4f1f572c65be">
+    <crm:P190_has_symbolic_content>coschons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>koʃons</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb279d179742a17529282b4ea38f9bd7a58b8c3f54ac97a87a4230a7ee00259762d">
+    <crm:P190_has_symbolic_content>quysshon</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwiʃon</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1483</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1485</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb2e9b0ab79032ecfedb60387c399dc005a317cff05be067f140c4087c66a135fd6">
+    <crm:P190_has_symbolic_content>cosshyns</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>koʃins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1943e59d90c87a58d75792a8cfe9f7ef83ee7ff9d61945620900ab70d2f76ab95">
+    <crm:P190_has_symbolic_content>qwyshen</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwiʃen</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb5209968cccf5569a00698ff709d01df12c59113759228f8d3560439ec12be15b">
+    <crm:P190_has_symbolic_content>quisshin</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwiʃin</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb152d7ce7159338f814dffb87c7d8978138aad0af5293f3fbd5862c382820d2de1">
+    <crm:P190_has_symbolic_content>quyshines</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwiʃinəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cushion#rate-1545-inward-181">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Cosshen clothes of Hollande makinge the dossen 6s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cushion_cb29b969739c57351c70f16b53457db5c16f9429d05486b2808f9e7c0cd50e971ed"/>
+    <hector:perQuantity rdf:nodeID="commodity_cushion_cb1c63c5ce8a3656e81b35b86fcdeed098eb6b33e9c8c40c23a9113fcd739739a9e"/>
+    <hector:qualifier rdf:nodeID="commodity_cushion_cb1c0944ce9389c724452fe558377e91653ce0141241350ae0eff1cbff4c24ec9fb"/>
+    <hector:qualifier rdf:nodeID="commodity_cushion_cb1f2ae35ef5af6b666c0ad190fe2da7c8d81e361bb34b04aa807628c2de8c4d4b9"/>
+    <hector:qualifier rdf:nodeID="commodity_cushion_cb29796b68829e27aeda2a4ac0f2dd59233f983994e38940b2d20f8fd916da3f8f8"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 181 (transcribed by Stuart Jenks): 'Cosshen clothes of Hollande makinge the dossen' 6s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb2dc2bbfb4c2a8f556d5c16cab00b439efddbff70bf0e72f52a5c66262e7036b15">
+    <crm:P190_has_symbolic_content>cuschons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kuʃons</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1428</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1430</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb179f86346501a3d510e553558b171954dad53df32cc5a739e91ffe9568159f179">
+    <crm:P190_has_symbolic_content>quyshyn</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwiʃin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1f2ae35ef5af6b666c0ad190fe2da7c8d81e361bb34b04aa807628c2de8c4d4b9">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>clothes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1eb68eb14a3dcf136df2c33e6c7f3056e54933901ec953cac571ae41253ec9d74">
+    <crm:P190_has_symbolic_content>qwysshon</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwiʃon</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb181a9fdcd2c791350a001a5e10f91b4a7186f22d78f8bb035c24a4fccb048e4f8">
+    <crm:P190_has_symbolic_content>quyshin</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwiʃin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1c53b853d5ab833fde6cad79c34e93ab6de0729ff4fd48416a4cf0d4f5a9e98a8">
+    <crm:P190_has_symbolic_content>quishon</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwiʃon</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1483</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1485</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb253f152f25c385aab8a8d86774001109f3f569eb07082271552dcc0915464d94f">
+    <crm:P190_has_symbolic_content>cusshin</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kuʃin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb16f1cdf8be4ef9ce07ae3a8124c900b7ff50adebbdf39e3b9bdc45511e7178cfc">
+    <crm:P190_has_symbolic_content>quisshon</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwiʃon</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb23e25977b21d6a31dede55d8fa4532538cf593323919660e0aa8236698853d52d">
+    <crm:P190_has_symbolic_content>cusshins</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kuʃins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q762943">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label>County of Holland</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cushion-cloth">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>cushion-cloth</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1bec3efe5dadf9b3890420b6910ddc8048b162d30a3ac15b99c758d8662d7f25f">
+    <crm:P190_has_symbolic_content>quyshyn cloth</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwiʃin kloθ</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1eb37682c0e4e9e991b8b7339cbc90e13864b15d6a336d14c7dac840206caf608">
+    <crm:P190_has_symbolic_content>qwysson</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwison</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cbf628cb85d485fd4d8674a6e227a602d30364ec2882b9ad7dd3796c056b50a5d9">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>makyng</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb297b576148a52160c63bf7bc652e39e5db7d18b9fb641b38955af06a217b4ef29">
+    <crm:P190_has_symbolic_content>cosshens</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>koʃens</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1512</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb124a40026e3f11f85ce9baa5aed6b3d93c3cd9436f60e3913d7aa449bc068ae1e">
+    <crm:P190_has_symbolic_content>qwyshon</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwiʃon</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb375cbe6226b45f03acc4a1117a1f3e23eb18686d8d4c5a8fa5de3fdf1df04f6b0">
+    <crm:P190_has_symbolic_content>cosshyn</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>koʃin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1477</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1625883511b9259ae75a457716592b145cd29c929f91beae84a8ee8e18e407029">
+    <crm:P190_has_symbolic_content>quishin</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwiʃin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb13a656999c8f00cde849ab45345d9696590899449794a82783999be60c4f10315">
+    <crm:P190_has_symbolic_content>quyshen cloth</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwiʃen kloθ</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1524</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb17ab95914d32d88b5df08f697ae8ad489750af65a3aae0b4d264de212fddc3c21">
+    <crm:P190_has_symbolic_content>coysshon clothes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>koiʃon kloθəs</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cushion#rate-1545-inward-180">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Cosshen clothes the dossen 2s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cushion_cb2bfbaf8759b06c986a339f21cd9853202f4d47b6c0af2fe08d0342902170b53e8"/>
+    <hector:perQuantity rdf:nodeID="commodity_cushion_cb1fcb1151ed7757bbd0f2a59a514e39037df8755073ce420f959354a13f59c8bad"/>
+    <hector:qualifier rdf:nodeID="commodity_cushion_cb23a8733ba8f8ca73d5b8fd7516a71d4deea32330678ccadecaa63d6a9657d836b"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 180 (transcribed by Stuart Jenks): 'Cosshen clothes the dossen' 2s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb169b1af7b24428a1d1f7ec1ff570ef338a52723e10c0fe08e4b2eb909f36f0ae8">
+    <crm:P190_has_symbolic_content>quesshons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kweʃons</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb165fe614a3084d27a7f26142c00949eaa5afd331ba6c5d05dc98cad5b73b1f94a">
+    <crm:P190_has_symbolic_content>cushyns</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kuʃins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1541</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb2b81958adf6bc07bdd27de872e1494a1fb2abd76172594916c9a76c9e22be1535">
+    <crm:P190_has_symbolic_content>qwyssones</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwisonəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb20527e147cd53539aa70db4cb6e32317e67b8cd6764383238e5b587b097bb4f78">
+    <crm:P190_has_symbolic_content>coschon</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>koʃon</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1c9ccaaffb393b60adcfedfa994f642e1e739f329a7cd29ff60109b71bf75ded6">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>clothes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1447c65d302dbacb449ef42cb90db86a028767d221d409b5aa8796821ad1648c0">
     <crm:P190_has_symbolic_content>quishyn</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>kwiʃin</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb2fc485ac68373bcc50d929c09c6c0362bf47fedb293e7a9c0a855f15f68e787ad">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/cushion#rate-1558-inward-264">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Cusshen clothes course the dossen 24s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_cushion_cb2085fec71290ac290f28d338672613be6e3002254bb0d007b5f1c471562d97ba0"/>
+    <hector:perQuantity rdf:nodeID="commodity_cushion_cb133bd087b62a7fb9ffb614ea930382bf548f6b86af2446593fdf0277b15020e41"/>
+    <hector:qualifier rdf:nodeID="commodity_cushion_cb122cb04ee01cce535d3fd469d66aa25d7765afb72d56eb1fc7c46a44b894a941c"/>
+    <hector:qualifier rdf:nodeID="commodity_cushion_cb1e3b04f9af74ce8b52bea6dddee0466bd3034b519e8753a9e5413c057a2ecf99e"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 264 (transcribed by Stuart Jenks): 'Cusshen clothes course the dossen' 24s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb24ff0cda439a97a787ecd0a1c000468f7a1a1be66f1b2ac16439f4ab5dac19d68">
+    <crm:P190_has_symbolic_content>qwyshene</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwiʃenə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1445</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1446</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1e3b04f9af74ce8b52bea6dddee0466bd3034b519e8753a9e5413c057a2ecf99e">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>clothes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1ff075c24907604e0e74b329559c8195428a6206744b5310ca262175381b50756">
+    <crm:P190_has_symbolic_content>quysen</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwisen</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb130f61022418b106e7b2ad678acb53127b78c9c3a3887e8a5108d799a27cc336c">
+    <crm:P190_has_symbolic_content>quischin</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwiʃin</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1c0944ce9389c724452fe558377e91653ce0141241350ae0eff1cbff4c24ec9fb">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>makinge</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb16b1ad52a5ceeba411c715b73826a3df37afa060ac9a42d21172c8e288f7f0d25">
+    <crm:P190_has_symbolic_content>quysshyns</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwiʃins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb31b598fc8569d72fdef303f1862f1275494be9a5537ed6e82e59655e08c3ec936">
     <crm:P190_has_symbolic_content>quischyn</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -675,7 +647,93 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_cushion_cb1ab3fc3c55f07fb865f7b8affc3a9056eb68095becbe14622ecd0add7117d1c04">
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1c42570d2981d1575b8cac3fe5c2a6c6e6f659a4fe84b9618d1793309ebbf6f10">
+    <crm:P190_has_symbolic_content>quoysshen</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwoiʃen</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1e50d5c9ec090f62cf2ee7753402d5ec08f7021a7775c7b7c56d6c915092369f1">
+    <crm:P190_has_symbolic_content>quesshon</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kweʃon</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb2887f947de83f42353f4580638c8514a84978979df2c852ce2d0e7f4bf52de38e">
+    <crm:P190_has_symbolic_content>quissyn</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwisin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb33681ba1a695bcd58f8debe4eb8803b97b8089caa4c534257cc7a247ca3cd326e">
+    <crm:P190_has_symbolic_content>cusshons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kuʃons</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1ef06b03a57c5b65e5f38c2e07ac21737faaaa61329f0315434fa1683b7c802b2">
+    <crm:P190_has_symbolic_content>Bags or similar containers made typically of cloth, leather, or rubber stuffed with a resilient material and used to give support or ease to the body while sitting, reclining, or kneeling. [Source: Getty AAT]</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1cc5cbfca091fad7ff34cc6f6ead732125611cb046841f329734cdedbd9b04aaa">
+    <crm:P190_has_symbolic_content>cousshons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kuːʃons</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb214cbff1be5658cfce7ded0e26189ea2410f67a95404d420a482d0017c9cc4072">
+    <crm:P190_has_symbolic_content>cousshon</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kuːʃon</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1c63c5ce8a3656e81b35b86fcdeed098eb6b33e9c8c40c23a9113fcd739739a9e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cbe3ba1a4e25918a7e1f426659989d3a0bafb7b3f1fcad6ebfe78889746ce49ed4">
+    <crm:P190_has_symbolic_content>qwisshons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwiʃons</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>dozen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb26eb52b98827f7a91bef672a8dff158885eda2abcabb0ea8479a70cd544550315">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Holland</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q762943"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb133bd087b62a7fb9ffb614ea930382bf548f6b86af2446593fdf0277b15020e41">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1415d15a802677d43b446dc6d59c40447d7a500c3e398536aa402d24e72cf81ae">
+    <crm:P190_has_symbolic_content>cuschen</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kuʃen</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1ca50f8c73231b1bf41192e0e5fd9f69756bf42616fe70ae52a11125834d45d8d">
     <crm:P190_has_symbolic_content>quysshons</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -683,8 +741,99 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1483</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1485</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1ff351692418f4ab29fb8f457093a637eb32edd62d8e4e386c841bac23900d896">
+    <crm:P190_has_symbolic_content>cosshons</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>koʃons</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1fcb1151ed7757bbd0f2a59a514e39037df8755073ce420f959354a13f59c8bad">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1bf74a510d30e2f16985d9f413125bce28bdba682afdebd8fbe09fb24d45b6d8f">
+    <crm:P190_has_symbolic_content>cusshenes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kuʃenəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1513</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1514</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb1559642a96dce9cbecc814feabb0e5870f4a7690d5fb3b8688995cb98cc9b79b2">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>30s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb272b13df1c6b8420cc82bf604d87fc01b80723baa3c4edb230eb693bfad7597f9">
+    <crm:P190_has_symbolic_content>quissyns</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwisins</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1398</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb2bfbaf8759b06c986a339f21cd9853202f4d47b6c0af2fe08d0342902170b53e8">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>2s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb122cb04ee01cce535d3fd469d66aa25d7765afb72d56eb1fc7c46a44b894a941c">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
+    <rdfs:label>coarse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb23d98171d393dc0672a7e3e7c96d6966003c7e1922287afb4b147b127040e42b1">
+    <crm:P190_has_symbolic_content>qwisson</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwison</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1431</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1433</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb16a4e2dd0e795c1cefb067b9e2352569b4e8124ab350fe261a641df646d0b6dc0">
+    <crm:P190_has_symbolic_content>quysshyn</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwiʃin</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb23a8733ba8f8ca73d5b8fd7516a71d4deea32330678ccadecaa63d6a9657d836b">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>clothes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb2085fec71290ac290f28d338672613be6e3002254bb0d007b5f1c471562d97ba0">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>24s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">288</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300236073">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>cushions</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb199ea7fec93adc88e1b01a54898fd06e2af03af6062a9a502f6a18c8d8e7bf9a3">
+    <crm:P190_has_symbolic_content>quyshon</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kwiʃon</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_cushion_cb29796b68829e27aeda2a4ac0f2dd59233f983994e38940b2d20f8fd916da3f8f8">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>Holland</rdfs:label>
+    <hector:originPlace rdf:resource="http://www.wikidata.org/entity/Q762943"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/cushion">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>cushion (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

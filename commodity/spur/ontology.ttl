@@ -122,10 +122,21 @@
     la:equivalent aat:300036923 ;
     hector:attestationCount 263 ;
     hector:taxation <https://w3id.org/hector/commodity/spur#rate-1507-none-255>,
-        <https://w3id.org/hector/commodity/spur#rate-1545-inward-669> .
+        <https://w3id.org/hector/commodity/spur#rate-1545-inward-669>,
+        <https://w3id.org/hector/commodity/spur#rate-1558-inward-1059>,
+        <https://w3id.org/hector/commodity/spur#rate-1558-inward-1060> .
 
 aat:300036923 a crm:E55_Type ;
     rdfs:label "spurs (costume accessories)" .
+
+aat:300130920 a crm:E55_Type ;
+    rdfs:label "black (color)" .
+
+aat:300133711 a crm:E55_Type ;
+    rdfs:label "velvet (fabric weave)" .
+
+aat:300379350 a crm:E55_Type ;
+    rdfs:label "gilding (material)" .
 
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
@@ -159,14 +170,55 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/spur#rate-1558-inward-1059> a hector:Rate ;
+    rdfs:label "1558 inward: Spurres blacke with velved the payre 20d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20d" ;
+            hector:valueInPence 20.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pair> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "velved" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "black" ;
+            la:equivalent aat:300130920 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 1059 (transcribed by Stuart Jenks): 'Spurres blacke with velved the payre' 20d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/spur#rate-1558-inward-1060> a hector:Rate ;
+    rdfs:label "1558 inward: Spurres gylt with velvet the payre 5s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "5s" ;
+            hector:valueInPence 60.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pair> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "velvet" ;
+            la:equivalent aat:300133711 ],
+        [ a crm:E55_Type ;
+            rdfs:label "gilt" ;
+            la:equivalent aat:300379350 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 1060 (transcribed by Stuart Jenks): 'Spurres gylt with velvet the payre' 5s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/mlca/glossary/spur> a crm:E55_Type ;
     rdfs:label "spur (London Customs Accounts glossary)" .
 
-aat:300411998 a crm:E98_Currency ;
-    rdfs:label "pound sterling (system of money)" .
-
 <https://w3id.org/hector/unit/gross> a crm:E58_Measurement_Unit ;
     rdfs:label "gross" .
+
+<https://w3id.org/hector/unit/pair> a crm:E58_Measurement_Unit ;
+    rdfs:label "pair" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

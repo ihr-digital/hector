@@ -366,7 +366,31 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 396 (transcribed by Stuart Jenks): 'Eles voc’ shafte, kyve or dole eles the barrell of either' 30s"
+      "sourceText": "Book of Rates 1558, inward, line 396 (transcribed by Stuart Jenks): 'Eles voc’ shafte, kyve or dole eles the barrell of either' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "shafte",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "dole",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

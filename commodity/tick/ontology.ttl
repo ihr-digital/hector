@@ -257,7 +257,9 @@
     hector:attestationCount 647 ;
     hector:taxation <https://w3id.org/hector/commodity/tick#rate-1545-inward-143>,
         <https://w3id.org/hector/commodity/tick#rate-1545-inward-720>,
+        <https://w3id.org/hector/commodity/tick#rate-1545-inward-725>,
         <https://w3id.org/hector/commodity/tick#rate-1545-inward-726>,
+        <https://w3id.org/hector/commodity/tick#rate-1558-inward-1089>,
         <https://w3id.org/hector/commodity/tick#rate-1558-inward-1090> .
 
 aat:300244387 a crm:E55_Type ;
@@ -278,6 +280,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1000 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/thousand> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Corke" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1545, inward, line 143 (transcribed by Stuart Jenks): 'Corke takkes the thousande' 10s" ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
@@ -295,6 +300,22 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/tick#rate-1545-inward-725> a hector:Rate ;
+    rdfs:label "1545 inward: Tikes for beddes the dossen 36s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "36s" ;
+            hector:valueInPence 432.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "beddes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 725 (transcribed by Stuart Jenks): 'Tikes for beddes the dossen' 36s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/tick#rate-1545-inward-726> a hector:Rate ;
     rdfs:label "1545 inward: Tikes the pece 3s" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -308,6 +329,22 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/tick#rate-1558-inward-1089> a hector:Rate ;
+    rdfs:label "1558 inward: Tikes voc’ Turney tykes for beddes the dossen £4" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£4" ;
+            hector:valueInPence 960.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Turney tykes for beddes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 1089 (transcribed by Stuart Jenks): 'Tikes voc’ Turney tykes for beddes the dossen' £4" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/tick#rate-1558-inward-1090> a hector:Rate ;
     rdfs:label "1558 inward: Tikes voc’ Bryssell tykes the tyke 13s 4d" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -317,6 +354,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/each> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Bryssell tykes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 1090 (transcribed by Stuart Jenks): 'Tikes voc’ Bryssell tykes the tyke' 13s 4d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -329,6 +369,9 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/mlca/glossary/tick> a crm:E55_Type ;
     rdfs:label "tick (London Customs Accounts glossary)" .
+
+<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
+    rdfs:label "dozen" .
 
 <https://w3id.org/hector/unit/pecia> a crm:E58_Measurement_Unit ;
     rdfs:label "pecia" .

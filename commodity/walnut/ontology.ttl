@@ -116,8 +116,10 @@
     skos:related <https://w3id.org/hector/commodity/nut> ;
     la:equivalent aat:300266426 ;
     hector:attestationCount 72 ;
-    hector:taxation <https://w3id.org/hector/commodity/walnut#rate-1545-inward-787>,
-        <https://w3id.org/hector/commodity/walnut#rate-1545-inward-788> .
+    hector:taxation <https://w3id.org/hector/commodity/walnut#rate-1545-inward-500>,
+        <https://w3id.org/hector/commodity/walnut#rate-1545-inward-787>,
+        <https://w3id.org/hector/commodity/walnut#rate-1545-inward-788>,
+        <https://w3id.org/hector/commodity/walnut#rate-1558-inward-741> .
 
 aat:300266426 a crm:E55_Type ;
     rdfs:label "walnuts (nuts)" .
@@ -130,6 +132,22 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/hector/commodity/nut> a crm:E55_Type ;
     rdfs:label "nut" .
+
+<https://w3id.org/hector/commodity/walnut#rate-1545-inward-500> a hector:Rate ;
+    rdfs:label "1545 inward: Nuttes called walnuttes the barrell 20d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20d" ;
+            hector:valueInPence 20.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/barrel> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Nuttes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 500 (transcribed by Stuart Jenks): 'Nuttes called walnuttes the barrell' 20d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/walnut#rate-1545-inward-787> a hector:Rate ;
     rdfs:label "1545 inward: Walnuttes the pype 10s" ;
@@ -157,14 +175,30 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
-<https://w3id.org/hector/unit/barrel> a crm:E58_Measurement_Unit ;
-    rdfs:label "barrel" .
+<https://w3id.org/hector/commodity/walnut#rate-1558-inward-741> a hector:Rate ;
+    rdfs:label "1558 inward: Nuttes voc’ walnuttes the barrell 3s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "3s 4d" ;
+            hector:valueInPence 40.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/barrel> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Nuttes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 741 (transcribed by Stuart Jenks): 'Nuttes voc’ walnuttes the barrell' 3s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/hector/unit/pipe> a crm:E58_Measurement_Unit ;
     rdfs:label "pipe" .
 
 <https://w3id.org/mlca/glossary/walnut> a crm:E55_Type ;
     rdfs:label "walnut (London Customs Accounts glossary)" .
+
+<https://w3id.org/hector/unit/barrel> a crm:E58_Measurement_Unit ;
+    rdfs:label "barrel" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

@@ -636,7 +636,20 @@
       },
       "validFrom": "1507",
       "validThrough": "1545",
-      "sourceText": "Book of Rates 1507, line 191 (transcribed by Stuart Jenks): 'Onyons sede the C wayte' 20s"
+      "sourceText": "Book of Rates 1507, line 191 (transcribed by Stuart Jenks): 'Onyons sede the C wayte' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "sede",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/onion#rate-1545-inward-523",

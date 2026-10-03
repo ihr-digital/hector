@@ -226,6 +226,46 @@
       "validFrom": "1545",
       "validThrough": "1558",
       "sourceText": "Book of Rates 1545, inward, line 579 (transcribed by Stuart Jenks): 'Pynsens the dossen' 20d"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/pincers#rate-1558-inward-850",
+      "type": "Rate",
+      "_label": "1558 inward: Pynsons or pynsers the dossen 2s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "24",
+        "lsd": "2s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 850 (transcribed by Stuart Jenks): 'Pynsons or pynsers the dossen' 2s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "pynsers",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

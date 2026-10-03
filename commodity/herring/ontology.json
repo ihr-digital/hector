@@ -509,6 +509,225 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/herring#rate-1507-none-126",
+      "type": "Rate",
+      "_label": "1507: Herynge fulle the laste £4",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "960",
+        "lsd": "£4"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/last",
+          "type": "MeasurementUnit",
+          "_label": "last"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 126 (transcribed by Stuart Jenks): 'Herynge fulle the laste' £4",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "fulle",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/herring#rate-1507-none-127",
+      "type": "Rate",
+      "_label": "1507: Herynge shotton the laste 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/last",
+          "type": "MeasurementUnit",
+          "_label": "last"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 127 (transcribed by Stuart Jenks): 'Herynge shotton the laste' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "shotten"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/herring#rate-1545-inward-373",
+      "type": "Rate",
+      "_label": "1545 inward: Heryng full the laste £4",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "960",
+        "lsd": "£4"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/last",
+          "type": "MeasurementUnit",
+          "_label": "last"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 373 (transcribed by Stuart Jenks): 'Heryng full the laste' £4",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "full"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/herring#rate-1545-inward-374",
+      "type": "Rate",
+      "_label": "1545 inward: Heryng shotten the last 40s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "480",
+        "lsd": "40s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/last",
+          "type": "MeasurementUnit",
+          "_label": "last"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 374 (transcribed by Stuart Jenks): 'Heryng shotten the last' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "shotten"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/herring#rate-1545-inward-375",
+      "type": "Rate",
+      "_label": "1545 inward: Herynge redde the laste conteynynge 20,000 [b.v] heryng or 20 cades £4",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "960",
+        "lsd": "£4"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/last",
+          "type": "MeasurementUnit",
+          "_label": "last"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 375 (transcribed by Stuart Jenks): 'Herynge redde the laste conteynynge 20,000 [b.v] heryng or 20 cades' £4",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "red",
+          "equivalent": [
+            {
+              "id": "aat:300126225",
+              "type": "Type",
+              "_label": "red (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/herring#rate-1545-inward-376",
+      "type": "Rate",
+      "_label": "1545 inward: Heryng redde the 1000 4s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "48",
+        "lsd": "4s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1000,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/thousand",
+          "type": "MeasurementUnit",
+          "_label": "thousand"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 376 (transcribed by Stuart Jenks): 'Heryng redde the 1000' 4s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "red",
+          "equivalent": [
+            {
+              "id": "aat:300126225",
+              "type": "Type",
+              "_label": "red (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/herring#rate-1545-inward-622",
       "type": "Rate",
       "_label": "1545 inward: Redde herynge the cade 4s",
@@ -588,6 +807,152 @@
       "validFrom": "1545",
       "validThrough": "1558",
       "sourceText": "Book of Rates 1545, inward, line 624 (transcribed by Stuart Jenks): 'Redde herynge the 1000' 8s"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/herring#rate-1558-inward-560",
+      "type": "Rate",
+      "_label": "1558 inward: Heringe full the laste cont’ 12 barrelles £6",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "1440",
+        "lsd": "£6"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/last",
+          "type": "MeasurementUnit",
+          "_label": "last"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 560 (transcribed by Stuart Jenks): 'Heringe full the laste cont’ 12 barrelles' £6",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "full"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/herring#rate-1558-inward-561",
+      "type": "Rate",
+      "_label": "1558 inward: Heringe shotten the laste cont’ 12 barrelles £3",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "720",
+        "lsd": "£3"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/last",
+          "type": "MeasurementUnit",
+          "_label": "last"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 561 (transcribed by Stuart Jenks): 'Heringe shotten the laste cont’ 12 barrelles' £3",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "shotten"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/herring#rate-1558-inward-562",
+      "type": "Rate",
+      "_label": "1558 inward: Heringe redde the last cont’ 20 cade or 20 thowsand heringe £8",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "1920",
+        "lsd": "£8"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/last",
+          "type": "MeasurementUnit",
+          "_label": "last"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 562 (transcribed by Stuart Jenks): 'Heringe redde the last cont’ 20 cade or 20 thowsand heringe' £8",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "red",
+          "equivalent": [
+            {
+              "id": "aat:300126225",
+              "type": "Type",
+              "_label": "red (color)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/herring#rate-1558-inward-563",
+      "type": "Rate",
+      "_label": "1558 inward: Heringe redde the cade or thowsand 8s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "96",
+        "lsd": "8s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/cade",
+          "type": "MeasurementUnit",
+          "_label": "cade"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 563 (transcribed by Stuart Jenks): 'Heringe redde the cade or thowsand' 8s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "red",
+          "equivalent": [
+            {
+              "id": "aat:300126225",
+              "type": "Type",
+              "_label": "red (color)"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

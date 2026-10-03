@@ -183,5 +183,269 @@
     }
   ],
   "attestationCount": 117,
-  "modified": "2026-10-03"
+  "modified": "2026-10-03",
+  "taxation": [
+    {
+      "id": "https://w3id.org/hector/commodity/crewel#rate-1545-inward-136",
+      "type": "Rate",
+      "_label": "1545 inward: Cruell or worsted yarne the dosen pounde 9s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "108",
+        "lsd": "9s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 136 (transcribed by Stuart Jenks): 'Cruell or worsted yarne the dosen pounde' 9s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "worsted",
+          "equivalent": [
+            {
+              "id": "aat:300227943",
+              "type": "Type",
+              "_label": "worsted"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "yarne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/crewel#rate-1545-inward-175",
+      "type": "Rate",
+      "_label": "1545 inward: Crewell ribbonde the dossen peces 4s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "48",
+        "lsd": "4s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 175 (transcribed by Stuart Jenks): 'Crewell ribbonde the dossen peces' 4s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "ribbonde",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/crewel#rate-1545-inward-176",
+      "type": "Rate",
+      "_label": "1545 inward: Crewell girdels the groce 4s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "48",
+        "lsd": "4s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 176 (transcribed by Stuart Jenks): 'Crewell girdels the groce' 4s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "girdels",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/crewel#rate-1558-inward-268",
+      "type": "Rate",
+      "_label": "1558 inward: Cruell voc’ worsted yarne the dossen pounde 16s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "200",
+        "lsd": "16s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 268 (transcribed by Stuart Jenks): 'Cruell voc’ worsted yarne the dossen pounde' 16s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "worsted",
+          "equivalent": [
+            {
+              "id": "aat:300227943",
+              "type": "Type",
+              "_label": "worsted"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "yarne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/crewel#rate-1558-inward-269",
+      "type": "Rate",
+      "_label": "1558 inward: Cruell or caddas rybande the dossen peces 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 269 (transcribed by Stuart Jenks): 'Cruell or caddas rybande the dossen peces' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "caddas rybande",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/crewel#rate-1558-inward-270",
+      "type": "Rate",
+      "_label": "1558 inward: Cruell gyrdelles the grosse 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 270 (transcribed by Stuart Jenks): 'Cruell gyrdelles the grosse' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "gyrdelles",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

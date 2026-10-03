@@ -2,6 +2,7 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix hector: <https://w3id.org/hector/ontology#> .
+@prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -10,9 +11,9 @@
     rdfs:label "nightcap" ;
     dcterms:modified "2026-09-29"^^xsd:date ;
     crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "nyght caps" ;
+            crm:P190_has_symbolic_content "nyght cap" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "nixt kaps" ;
+            hector:phoneticKey "nixt kap" ;
             hector:validFrom "1519"^^xsd:gYear ;
             hector:validThrough "1520"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
@@ -21,23 +22,11 @@
                 hector:AttestedVariant ;
             hector:phoneticKey "nixtkap" ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "nyght cappes" ;
+            crm:P190_has_symbolic_content "night cappes" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "nixt kapəs" ;
-            hector:validFrom "1548"^^xsd:gYear ;
-            hector:validThrough "1550"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "nyght cappae" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "nixt kape" ;
-            hector:validFrom "1412"^^xsd:gYear ;
-            hector:validThrough "1427"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "nyghtcap" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "nixtkap" ;
-            hector:validFrom "1533"^^xsd:gYear ;
-            hector:validThrough "1535"^^xsd:gYear ],
+            hector:validFrom "1545"^^xsd:gYear ;
+            hector:validThrough "1547"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "nygth cappe" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -45,29 +34,11 @@
             hector:validFrom "1536"^^xsd:gYear ;
             hector:validThrough "1540"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "nyghtcappe" ;
+            crm:P190_has_symbolic_content "nyght caps" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "nixtkapə" ;
-            hector:validFrom "1533"^^xsd:gYear ;
-            hector:validThrough "1535"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "nyght cappa" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "nixt kapa" ;
-            hector:validFrom "1412"^^xsd:gYear ;
-            hector:validThrough "1427"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "night cappes" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "nixt kapəs" ;
-            hector:validFrom "1545"^^xsd:gYear ;
-            hector:validThrough "1547"^^xsd:gYear ],
-        [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "nygth cappes" ;
-            crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "nigθ kapəs" ;
-            hector:validFrom "1536"^^xsd:gYear ;
-            hector:validThrough "1540"^^xsd:gYear ],
+            hector:phoneticKey "nixt kaps" ;
+            hector:validFrom "1519"^^xsd:gYear ;
+            hector:validThrough "1520"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "nyghtcaps" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -81,11 +52,35 @@
             hector:validFrom "1545"^^xsd:gYear ;
             hector:validThrough "1547"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "nyght cappe" ;
+            crm:P190_has_symbolic_content "nyght cappa" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "nixt kapə" ;
+            hector:phoneticKey "nixt kapa" ;
+            hector:validFrom "1412"^^xsd:gYear ;
+            hector:validThrough "1427"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "nyghtcappe" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "nixtkapə" ;
+            hector:validFrom "1533"^^xsd:gYear ;
+            hector:validThrough "1535"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "nygth cappes" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "nigθ kapəs" ;
+            hector:validFrom "1536"^^xsd:gYear ;
+            hector:validThrough "1540"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "nyght cappes" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "nixt kapəs" ;
             hector:validFrom "1548"^^xsd:gYear ;
             hector:validThrough "1550"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "nyght cappae" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "nixt kape" ;
+            hector:validFrom "1412"^^xsd:gYear ;
+            hector:validThrough "1427"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "night capp" ;
             crm:P2_has_type hector:AttestedVariant ;
@@ -93,17 +88,23 @@
             hector:validFrom "1545"^^xsd:gYear ;
             hector:validThrough "1547"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "nyght cappe" ;
+            crm:P2_has_type hector:AttestedVariant ;
+            hector:phoneticKey "nixt kapə" ;
+            hector:validFrom "1548"^^xsd:gYear ;
+            hector:validThrough "1550"^^xsd:gYear ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
             crm:P190_has_symbolic_content "nyghtcappes" ;
             crm:P2_has_type hector:AttestedVariant ;
             hector:phoneticKey "nixtkapəs" ;
             hector:validFrom "1533"^^xsd:gYear ;
             hector:validThrough "1535"^^xsd:gYear ],
         [ a crm:E33_E41_Linguistic_Appellation ;
-            crm:P190_has_symbolic_content "nyght cap" ;
+            crm:P190_has_symbolic_content "nyghtcap" ;
             crm:P2_has_type hector:AttestedVariant ;
-            hector:phoneticKey "nixt kap" ;
-            hector:validFrom "1519"^^xsd:gYear ;
-            hector:validThrough "1520"^^xsd:gYear ] ;
+            hector:phoneticKey "nixtkap" ;
+            hector:validFrom "1533"^^xsd:gYear ;
+            hector:validThrough "1535"^^xsd:gYear ] ;
     crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
             crm:P190_has_symbolic_content "night cap | unlined night cap | night-cap (see also cappa pro noctibus)" ;
             crm:P2_has_type aat:300435416 ] ;
@@ -111,16 +112,31 @@
     skos:exactMatch <https://w3id.org/mlca/glossary/nightcap> ;
     skos:related <https://w3id.org/hector/commodity/nyght-coyve> ;
     hector:attestationCount 10 ;
-    hector:taxation <https://w3id.org/hector/commodity/nightcap#rate-1545-inward-493> .
+    hector:taxation <https://w3id.org/hector/commodity/nightcap#rate-1545-inward-493>,
+        <https://w3id.org/hector/commodity/nightcap#rate-1545-inward-494>,
+        <https://w3id.org/hector/commodity/nightcap#rate-1558-inward-739>,
+        <https://w3id.org/hector/commodity/nightcap#rate-1558-inward-745>,
+        <https://w3id.org/hector/commodity/nightcap#rate-1558-inward-746>,
+        <https://w3id.org/hector/commodity/nightcap#rate-1558-inward-747>,
+        <https://w3id.org/hector/commodity/nightcap#rate-1558-inward-748> .
 
 aat:300046094 a crm:E55_Type ;
     rdfs:label "caps (headgear)" .
 
+aat:300126225 a crm:E55_Type ;
+    rdfs:label "red (color)" .
+
+aat:300133711 a crm:E55_Type ;
+    rdfs:label "velvet (fabric weave)" .
+
+aat:300243428 a crm:E55_Type ;
+    rdfs:label "silk (textile)" .
+
+aat:300243430 a crm:E55_Type ;
+    rdfs:label "wool (textile)" .
+
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
-
-aat:300411998 a crm:E98_Currency ;
-    rdfs:label "pound sterling (system of money)" .
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
@@ -138,14 +154,115 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1545"^^xsd:gYear ;
     hector:validThrough "1558"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/nightcap#rate-1545-inward-494> a hector:Rate ;
+    rdfs:label "1545 inward: Night cappes of skarlet the dossen 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "scarlet" ;
+            la:equivalent aat:300126225 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 494 (transcribed by Stuart Jenks): 'Night cappes of skarlet the dossen' 10s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/nightcap#rate-1558-inward-739> a hector:Rate ;
+    rdfs:label "1558 inward: Night cappes of wollen the dosen 10s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10s" ;
+            hector:valueInPence 120.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "wool" ;
+            la:equivalent aat:300243430 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 739 (transcribed by Stuart Jenks): 'Night cappes of wollen the dosen' 10s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/nightcap#rate-1558-inward-745> a hector:Rate ;
+    rdfs:label "1558 inward: Night cappes of vellet the dosen 30s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "30s" ;
+            hector:valueInPence 360.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "velvet" ;
+            la:equivalent aat:300133711 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 745 (transcribed by Stuart Jenks): 'Night cappes of vellet the dosen' 30s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/nightcap#rate-1558-inward-746> a hector:Rate ;
+    rdfs:label "1558 inward: Night cappes of satten the dosen 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "satten" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 746 (transcribed by Stuart Jenks): 'Night cappes of satten the dosen' 20s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/nightcap#rate-1558-inward-747> a hector:Rate ;
+    rdfs:label "1558 inward: Night cappes knyt of sylk the dosen 40s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "40s" ;
+            hector:valueInPence 480.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "silk" ;
+            la:equivalent aat:300243428 ],
+        [ a crm:E55_Type ;
+            rdfs:label "knitted" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 747 (transcribed by Stuart Jenks): 'Night cappes knyt of sylk the dosen' 40s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/nightcap#rate-1558-inward-748> a hector:Rate ;
+    rdfs:label "1558 inward: Night cappes of lynnen the dosen 4s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4s" ;
+            hector:valueInPence 48.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "lynnen" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 748 (transcribed by Stuart Jenks): 'Night cappes of lynnen the dosen' 4s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/nyght-coyve> a crm:E55_Type ;
     rdfs:label "nyght coyve" .
 
-<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
-    rdfs:label "dozen" .
-
 <https://w3id.org/mlca/glossary/nightcap> a crm:E55_Type ;
     rdfs:label "nightcap (London Customs Accounts glossary)" .
+
+aat:300411998 a crm:E98_Currency ;
+    rdfs:label "pound sterling (system of money)" .
+
+<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
+    rdfs:label "dozen" .
 
 hector:AttestedVariant a crm:E55_Type ;
     rdfs:label "attested variant" .

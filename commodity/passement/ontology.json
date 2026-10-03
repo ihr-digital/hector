@@ -269,6 +269,90 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/passement#rate-1558-inward-870",
+      "type": "Rate",
+      "_label": "1558 inward: Passemyn lace of sylke the grosse cont’ 12 dosen yardes 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 870 (transcribed by Stuart Jenks): 'Passemyn lace of sylke the grosse cont’ 12 dosen yardes' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "silk",
+          "equivalent": [
+            {
+              "id": "aat:300243428",
+              "type": "Type",
+              "_label": "silk (textile)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/passement#rate-1558-inward-871",
+      "type": "Rate",
+      "_label": "1558 inward: Passemyn lace of silke and threde the grosse 12s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "144",
+        "lsd": "12s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 144,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/gross",
+          "type": "MeasurementUnit",
+          "_label": "gross"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 871 (transcribed by Stuart Jenks): 'Passemyn lace of silke and threde the grosse' 12s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "silk",
+          "equivalent": [
+            {
+              "id": "aat:300243428",
+              "type": "Type",
+              "_label": "silk (textile)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "file"
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/passement#rate-1558-inward-873",
       "type": "Rate",
       "_label": "1558 inward: Passemyn lace of golde or sylver the lb. cont’ 12 oz £5",
@@ -293,7 +377,31 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 873 (transcribed by Stuart Jenks): 'Passemyn lace of golde or sylver the lb. cont’ 12 oz' £5"
+      "sourceText": "Book of Rates 1558, inward, line 873 (transcribed by Stuart Jenks): 'Passemyn lace of golde or sylver the lb. cont’ 12 oz' £5",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "gold",
+          "equivalent": [
+            {
+              "id": "aat:300011021",
+              "type": "Type",
+              "_label": "gold (metal)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "sylver",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/passement#rate-1558-inward-874",
@@ -320,7 +428,13 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 874 (transcribed by Stuart Jenks): 'Passemyn lace of cruell the dosen' 13s 4d"
+      "sourceText": "Book of Rates 1558, inward, line 874 (transcribed by Stuart Jenks): 'Passemyn lace of cruell the dosen' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "crul"
+        }
+      ]
     }
   ]
 }

@@ -5,7 +5,9 @@
   ],
   "id": "https://w3id.org/hector/commodity/comb-cases-decorated-uoden",
   "type": "Type",
-  "_label": "comb (cases decorated uoden)",
+  "_label": "comb (withdrawn record)",
+  "deprecated": true,
+  "modified": "2026-10-03",
   "referred_to_by": [
     {
       "type": "LinguisticObject",
@@ -16,81 +18,11 @@
           "_label": "brief texts"
         }
       ],
-      "content": "comb, qualified as ‘cases decorated uoden’: a commodity as the Books of Rates price it separately (HECTOR decision 2, 29 Sep 2026)."
+      "content": "Withdrawn 3 Oct 2026. This record stood for the commodity as one Book of Rates entry qualifies it; the rates are now on the commodity itself, each naming its qualifier."
     }
   ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "content": "comb (cases decorated uoden)",
-      "classified_as": [
-        {
-          "id": "aat:300404670",
-          "type": "Type",
-          "_label": "preferred terms"
-        }
-      ],
-      "phoneticKey": [
-        "komb kasəs dekorated uoden"
-      ]
-    },
-    {
-      "type": "Name",
-      "content": "Casses garnyshed with woodden combes",
-      "classified_as": [
-        {
-          "id": "hector:AttestedVariant",
-          "type": "Type",
-          "_label": "attested variant"
-        }
-      ],
-      "phoneticKey": [
-        "kasəs garniʃed wiθ woːden kombəs"
-      ]
-    }
-  ],
-  "broader": [
-    {
-      "id": "https://w3id.org/hector/commodity/comb",
-      "type": "Type",
-      "_label": "comb"
-    }
-  ],
-  "compoundOf": [
-    {
-      "id": "https://w3id.org/hector/commodity/comb",
-      "type": "Type",
-      "_label": "comb"
-    }
-  ],
-  "modified": "2026-10-03",
-  "taxation": [
-    {
-      "id": "https://w3id.org/hector/commodity/comb-cases-decorated-uoden#rate-1558-inward-307",
-      "type": "Rate",
-      "_label": "1558 inward: Casses garnyshed with woodden combes the dossen 10s",
-      "amount": {
-        "type": "MonetaryAmount",
-        "currency": {
-          "id": "aat:300411998",
-          "type": "Currency",
-          "_label": "pound sterling (system of money)"
-        },
-        "valueInPence": "120",
-        "lsd": "10s"
-      },
-      "perQuantity": {
-        "type": "Dimension",
-        "value": 12,
-        "unit": {
-          "id": "https://w3id.org/hector/unit/dozen",
-          "type": "MeasurementUnit",
-          "_label": "dozen"
-        }
-      },
-      "validFrom": "1558",
-      "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 307 (transcribed by Stuart Jenks): 'Casses garnyshed with woodden combes the dossen' 10s"
-    }
-  ]
+  "isReplacedBy": {
+    "id": "https://w3id.org/hector/commodity/comb",
+    "type": "Type"
+  }
 }

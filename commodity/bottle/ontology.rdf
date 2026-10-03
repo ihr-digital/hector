@@ -8,7 +8,7 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_bottle_cb10b34358924e8dfa65239bff7d7787e9231c795217b56f0bcb74cbfc2b81df4e6">
+  <rdf:Description rdf:nodeID="commodity_bottle_cb1a40ac9d9db9e13c631d3a0b94749c7a6d1d9c33dce871a812a774bf2ded168ac">
     <crm:P190_has_symbolic_content>bottelles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -16,23 +16,88 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb1a4e74d091c20206c7e924f521ff32ba3ebb725c40b0cc9d9ec6d07ef9dd759bb">
-    <crm:P190_has_symbolic_content>bottels</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bottle#rate-1545-inward-117">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Bottels of wyckers the dossen 16d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bottle_cb2dbeb28233fe5f8f948f7760c55d1c080c6801828f8563c69ef63585ed6bbdffb"/>
+    <hector:perQuantity rdf:nodeID="commodity_bottle_cb13a7ce085e97ecda3eacb90dae93df77f16704274e19a4dbda125555a1a8b9a05"/>
+    <hector:qualifier rdf:nodeID="commodity_bottle_cb18adbb8c5ba4d03f06078e16aaab4f19554ee94a02131ed6bdf0972fd51f13f8c"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 117 (transcribed by Stuart Jenks): 'Bottels of wyckers the dossen' 16d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bottle">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb16f57b81517b55c432e2f73e091384c2587832c299fb7cd1ed9066661c53d552d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb19407df94f08d4bb0881eed13f2e8cd74f63b44429e1e2b34c6ea5dcb4ca8f8b9"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb19af08500d1e01bd884ff4fe199b0668e4fbd0ea32b524069cfb78acbb439629f"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb1a40ac9d9db9e13c631d3a0b94749c7a6d1d9c33dce871a812a774bf2ded168ac"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb1d272272d2f0f048726cbc6b9448404673df397e68a7a8d8b7571b6e7a7834e09"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb1dd71845c7bf4e9af91283ff0226d124e2728ca71f73f80bfb3196815552f0c33"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb1e0f93ce2d433f50039a04d1f2d75f9bd741b20fcfcc271e580aeb3c5660fcebb"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb1e7e72d1d88ae041beebe30dc9289f167152af1b8cdb633f2108691a2233b9291"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb1eaa3a478db4225181e3770bdcc361e82f96524c79f6348e33c13fcdf7f3afbc1"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb1fae7bfc180a9313447da89f545c7ea070c0e24b6741eef7842ea4c5cf787acfc"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb20160628b87af3e840be6b4130264f346c62b89319c4b2c18bc26a0bf99148ca0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb205ef0706fbe49a816c1ef66118851dd33580b901c7bcd6e0018fc59a8b262153"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb206c124cc150dce8381108a16c6408741e14fbdace1fe658c0053607e6c0b7aa0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb2247da3e40f12fb168d2d1a2ae73a22d1e3d3d41360c8a72e14731997bc3a2ad5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb226672f3be90e6e0398109d45aa1d8f16d6702da7127ee91ca9d687aab5bffed8"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb2320391102d32e927a7e1e77dd9b0e6b24b8fc741976c73502a4b919a988cd516"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb24166b6fd053baf86ae4b7a258b424138a046e1707f7074d173b18cd7968d5237"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb248ef36d43796366898b37cd496b417ee844525b128b86980f69764e9b6013533"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb254bcb1e7a382a7cc37b6a255e1d37f330d655121b1713236b2ca0ac1dd06c0bb"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb25de57a49fcd4de0c9cf16ee8d96efde483a9c5dad0f61541b23945e06d2bc4e1"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb25f02ebe1fc3c32b7abfe4b79619a46a7436dc97fb21eee25ffd4a20896a8f490"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb26765f598717a69d63fb6d9c45ef4eb5f8075cb357f14d77359aec6ec8fbc08fd"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb268ade06df2321b3ac85fabefe11efccd2e1aa65a297a53e9f252ccf39cd04fd2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb2a5ee61c25bd79fcc3c4cca441fcf675d2b5a323e1da5c3c9f60294858d499e10"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb2aff2222fd6d66eb4b9d60ebe82e2720b6c1bd67349858337d3c3cf908d422c56"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb2bd7a23381adc55105b1af0b98f175d22a4fbb78de38be8af49e54268caf5cd3a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb2c982b05615301445db548e3fb4b86700ea2fdb45ff1f942df8c35b60f94db4c7"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_bottle_cb16062ac0dc28ba266e0c8b5616a4bdfa2ff72237ac5c91ae6482c82f4f4f7a041"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>bottle</rdfs:label>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/bottle"/>
+    <skos:related rdf:resource="https://w3id.org/hector/commodity/wicker-bottle"/>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300045627"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">241</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bottle#rate-1545-inward-117"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bottle#rate-1558-inward-142"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bottle#rate-1558-inward-143"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bottle#rate-1558-inward-169"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bottle#rate-1558-inward-98"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb21697f7718c5abbfa7e320ef1516605ec7df5933894327488b930007e8f98fbb9">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>leather</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300011845"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bottle#rate-1558-inward-143">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Bottelles of glasse the dosen covered 20s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bottle_cb32f330414939cecc3e73be2763adc1f6ff1060b68f1666db38e1a3acbbebf87af"/>
+    <hector:perQuantity rdf:nodeID="commodity_bottle_cb11e5b5f13d8f31b445ede2ca35f2b334a311b714a884b13ab9cc1ec7470be6978"/>
+    <hector:qualifier rdf:nodeID="commodity_bottle_cb1dbb4d7770d437087eb04c43ffd887bf9f81abe3fb04d390a0692873374fb198d"/>
+    <hector:qualifier rdf:nodeID="commodity_bottle_cb287d8220a033970572e941262209605fee2f2c649b9fa8a09ada1d74ce1d8a5f1"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 143 (transcribed by Stuart Jenks): 'Bottelles of glasse the dosen covered' 20s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb174a51b4fa45f51f949704454bf9558e1c20d448005d742701770a449135a7c9b">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb2a5ee61c25bd79fcc3c4cca441fcf675d2b5a323e1da5c3c9f60294858d499e10">
+    <crm:P190_has_symbolic_content>botelli</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>botels</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+    <hector:phoneticKey>boteli</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb1cb926f7708186edf3c99cdaf30052d5a59267824fb5d8420fed3985e5be3ba38">
-    <crm:P190_has_symbolic_content>botle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>botlə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb235ab7ce5d058f1935618ff4745a28e0a6d26a47f0d6b6d747589a640b9af7f32">
+  <rdf:Description rdf:nodeID="commodity_bottle_cb254bcb1e7a382a7cc37b6a255e1d37f330d655121b1713236b2ca0ac1dd06c0bb">
     <crm:P190_has_symbolic_content>botels</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -40,61 +105,16 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1553</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bottle">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb10b34358924e8dfa65239bff7d7787e9231c795217b56f0bcb74cbfc2b81df4e6"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb1152fe6367cf8042ae76f45377aecd8c5ccbbb7f57c4791eedfb83a509e4d860d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb150468313448ba60a4c91d0d1f5075afce7447f86fbb2085c9bc601e0a1e613a4"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb174f6aa931d639577a6814a0556b7dc4c55fc979ffa18667289a9f94a2951b730"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb17bdf4ffefeb6659fa361acd2fd7f7565af7e6200874c7ba79277264a90e22116"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb1969e9c93bc5f2adc3eb94b6cb267ec9e96a02e71f5d53c1437adfe48be011ab6"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb1a4e74d091c20206c7e924f521ff32ba3ebb725c40b0cc9d9ec6d07ef9dd759bb"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb1affee6285577c83c09969ea69386e7d1390d40cca98b2d7e96d6fb434d5f86d9"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb1b1835812c9d051031d110ab4cfd4e9e9b76aa0b14dced62582f83fa8f9384ef7"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb1be604f5aa8cb3376af8a9ce1863c212586ea1dcf5339bbfd75d9039431d7caaa"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb1c1e807e1010a3ec75802aa1091450894d3dc745a58bcad23436e4f4442b88d32"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb1c6104cbd9314f67ff57bf73577f70c7fe8c647eafba91d22c18a012cae340fde"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb1c8d5f81bb5844de30d208dcdf659003e74ec451629b06f2fd3462d20ffe45108"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb1cb926f7708186edf3c99cdaf30052d5a59267824fb5d8420fed3985e5be3ba38"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb1dbd68abfad7f7afb663ce6e6a996f8de6bcf7813d0192ab605a9e7dbd4306b73"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb1dc28b3be92c3db8cbd3aeea2432bb7163249b14599d5962b2d5289673cf3a3d2"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb1e6ddd20528bae4488a8153527c542caa95420c5f23b7121dc44f611967cedfca"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb1e7afefca41e4184a9f72e7082a0f96194111110a3df8a0c9c312fbfd48b43917"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb2056c6ee23be944ddab8f771c4b0931a943952770bcc2e26bd732b51698e2e94c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb235ab7ce5d058f1935618ff4745a28e0a6d26a47f0d6b6d747589a640b9af7f32"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb23ed4454829ab27d3bb53cbda3d3e0cbbe36b19382cf0507f74f8e15f49d48358"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb23ff1b6e029127c7eca60a86ac569557ea32f1cdd0e192963c2943d877351b307"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb24854c0969e50b39d5e1936b5c2c3fa36e0371e92db0f12b11c6e626b6c64c774"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb286dd2cc088ade9935aaf2735839e76348b1b859b799fff07b8c2300469f25c87"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb290e0ed2e03acb87bd8386bafe6b180e2cbdd29d0a57fbe7596836b0f69eaeacd"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cb2aa717b5442065e0cf9b6eb31188775d849f12ea35b19cf6bbb82f6dfd5f6733e"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_bottle_cbf95796aee3ef3028f5a58c94894becf7e76ca8a4d8c3d8a8d89986c5a8785187"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_bottle_cb62eaa541477eadfb58d08f0404115dfbbd632bbf519e3f441ba35961080a9229"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>bottle</rdfs:label>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/bottle"/>
-    <skos:related rdf:resource="https://w3id.org/hector/commodity/wicker-bottle"/>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300045627"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">241</hector:attestationCount>
-    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/bottle#rate-1558-inward-98"/>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bottle#rate-1558-inward-98">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Bottelles the dosen 20d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bottle_cb2a3555746937617b49b8890e3e97543ba5e8b906252e38ed19ac637ef39d9e195"/>
+    <hector:perQuantity rdf:nodeID="commodity_bottle_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 98 (transcribed by Stuart Jenks): 'Bottelles the dosen' 20d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb290e0ed2e03acb87bd8386bafe6b180e2cbdd29d0a57fbe7596836b0f69eaeacd">
-    <crm:P190_has_symbolic_content>botele</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>botelə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1440</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb17bdf4ffefeb6659fa361acd2fd7f7565af7e6200874c7ba79277264a90e22116">
-    <crm:P190_has_symbolic_content>botel</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>botel</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cbf95796aee3ef3028f5a58c94894becf7e76ca8a4d8c3d8a8d89986c5a8785187">
+  <rdf:Description rdf:nodeID="commodity_bottle_cb1d272272d2f0f048726cbc6b9448404673df397e68a7a8d8b7571b6e7a7834e09">
     <crm:P190_has_symbolic_content>botteles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -102,93 +122,54 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb150468313448ba60a4c91d0d1f5075afce7447f86fbb2085c9bc601e0a1e613a4">
-    <crm:P190_has_symbolic_content>botelles</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb1e0f93ce2d433f50039a04d1f2d75f9bd741b20fcfcc271e580aeb3c5660fcebb">
+    <crm:P190_has_symbolic_content>botella</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>boteləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+    <hector:phoneticKey>botela</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+  <rdf:Description rdf:nodeID="commodity_bottle_cb212e90ec4e93e70d5c39c834a36ac096174c1607e3d0ad682f38cfe27df2e4901">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>descriptive note</rdfs:label>
+    <rdfs:label>glass</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300010797"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/hector/unit/dozen">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
     <rdfs:label>dozen</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb1e7afefca41e4184a9f72e7082a0f96194111110a3df8a0c9c312fbfd48b43917">
-    <crm:P190_has_symbolic_content>bottel</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300010797">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>glass (material)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb1eaa3a478db4225181e3770bdcc361e82f96524c79f6348e33c13fcdf7f3afbc1">
+    <crm:P190_has_symbolic_content>botle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>botlə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb20214ad646a361b8d8aff313c78f25e089ccc6f2d45f6343027bc4ae7cb5cabc3">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>18d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300011845">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>leather</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb20160628b87af3e840be6b4130264f346c62b89319c4b2c18bc26a0bf99148ca0">
+    <crm:P190_has_symbolic_content>bottell</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>botel</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb2aa717b5442065e0cf9b6eb31188775d849f12ea35b19cf6bbb82f6dfd5f6733e">
-    <crm:P190_has_symbolic_content>botellus</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>botelus</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb1b1835812c9d051031d110ab4cfd4e9e9b76aa0b14dced62582f83fa8f9384ef7">
-    <crm:P190_has_symbolic_content>bottele</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>botelə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb174f6aa931d639577a6814a0556b7dc4c55fc979ffa18667289a9f94a2951b730">
-    <crm:P190_has_symbolic_content>botles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>botləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb1969e9c93bc5f2adc3eb94b6cb267ec9e96a02e71f5d53c1437adfe48be011ab6">
-    <crm:P190_has_symbolic_content>bottelle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>botelə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb1e6ddd20528bae4488a8153527c542caa95420c5f23b7121dc44f611967cedfca">
-    <crm:P190_has_symbolic_content>botelle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>botelə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bottle#rate-1558-inward-98">
-    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
-    <rdfs:label>1558 inward: Bottelles the dosen 20d</rdfs:label>
-    <hector:amount rdf:nodeID="commodity_bottle_cb1703c89e6b570119964b60b6c4281984b6859ccedd5ab77424a9fa7d26e3c2333"/>
-    <hector:perQuantity rdf:nodeID="commodity_bottle_cb368438ac5b64f6a74d55450fed76c89d095feefafcdff9b740f6542b1fa254d7"/>
-    <hector:sourceText>Book of Rates 1558, inward, line 98 (transcribed by Stuart Jenks): 'Bottelles the dosen' 20d</hector:sourceText>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/bottle">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>bottle (London Customs Accounts glossary)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb368438ac5b64f6a74d55450fed76c89d095feefafcdff9b740f6542b1fa254d7">
-    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
-    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb1affee6285577c83c09969ea69386e7d1390d40cca98b2d7e96d6fb434d5f86d9">
+  <rdf:Description rdf:nodeID="commodity_bottle_cb2320391102d32e927a7e1e77dd9b0e6b24b8fc741976c73502a4b919a988cd516">
     <crm:P190_has_symbolic_content>bottle</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -197,7 +178,69 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb24854c0969e50b39d5e1936b5c2c3fa36e0371e92db0f12b11c6e626b6c64c774">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bottle#rate-1558-inward-169">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Botles of glasse with vices, covered with leather þe dosen 30s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bottle_cb202a2a288d1fc0e8cb2c55fa58c76de381447bbbdd38324c0a5afa943d3f7e8a1"/>
+    <hector:perQuantity rdf:nodeID="commodity_bottle_cb12b8cf300407098cd10760a405325a78927e887ea2cea9613309e6dd507a98f3e"/>
+    <hector:qualifier rdf:nodeID="commodity_bottle_cb166c5c431f3487106800d3528139e7f5c89e95874335d85834c7dae0e7250bc9d"/>
+    <hector:qualifier rdf:nodeID="commodity_bottle_cb17772a363f57accc4906db7ea8308e090e54611be8f48dc07f84488a15ea10b43"/>
+    <hector:qualifier rdf:nodeID="commodity_bottle_cb212e90ec4e93e70d5c39c834a36ac096174c1607e3d0ad682f38cfe27df2e4901"/>
+    <hector:qualifier rdf:nodeID="commodity_bottle_cb21697f7718c5abbfa7e320ef1516605ec7df5933894327488b930007e8f98fbb9"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 169 (transcribed by Stuart Jenks): 'Botles of glasse with vices, covered with leather þe dosen' 30s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb19af08500d1e01bd884ff4fe199b0668e4fbd0ea32b524069cfb78acbb439629f">
+    <crm:P190_has_symbolic_content>botel</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>botel</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb205ef0706fbe49a816c1ef66118851dd33580b901c7bcd6e0018fc59a8b262153">
+    <crm:P190_has_symbolic_content>botelle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>botelə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb268ade06df2321b3ac85fabefe11efccd2e1aa65a297a53e9f252ccf39cd04fd2">
+    <crm:P190_has_symbolic_content>bottele</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>botelə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb11e5b5f13d8f31b445ede2ca35f2b334a311b714a884b13ab9cc1ec7470be6978">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb206c124cc150dce8381108a16c6408741e14fbdace1fe658c0053607e6c0b7aa0">
+    <crm:P190_has_symbolic_content>bottel</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>botel</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb16f57b81517b55c432e2f73e091384c2587832c299fb7cd1ed9066661c53d552d">
+    <crm:P190_has_symbolic_content>botelles</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>boteləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb26765f598717a69d63fb6d9c45ef4eb5f8075cb357f14d77359aec6ec8fbc08fd">
     <crm:P190_has_symbolic_content>botellae</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -205,27 +248,33 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/bottle#rate-1558-inward-142">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Bottelles of glasse uncovered the dosen 18d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_bottle_cb20214ad646a361b8d8aff313c78f25e089ccc6f2d45f6343027bc4ae7cb5cabc3"/>
+    <hector:perQuantity rdf:nodeID="commodity_bottle_cb174a51b4fa45f51f949704454bf9558e1c20d448005d742701770a449135a7c9b"/>
+    <hector:qualifier rdf:nodeID="commodity_bottle_cb243ded5b95d6e7161439ad12cdc5f90a147985963de1b1b713d7033ae45f70d87"/>
+    <hector:qualifier rdf:nodeID="commodity_bottle_cb26eafb5dc80dbf4f7d278be35cb97c47b684132fcc2823f54dfd67106b435e1bb"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 142 (transcribed by Stuart Jenks): 'Bottelles of glasse uncovered the dosen' 18d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb17772a363f57accc4906db7ea8308e090e54611be8f48dc07f84488a15ea10b43">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
+    <rdfs:label>vices</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb1dbd68abfad7f7afb663ce6e6a996f8de6bcf7813d0192ab605a9e7dbd4306b73">
-    <crm:P190_has_symbolic_content>bottalles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>botaləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb13a7ce085e97ecda3eacb90dae93df77f16704274e19a4dbda125555a1a8b9a05">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb1c1e807e1010a3ec75802aa1091450894d3dc745a58bcad23436e4f4442b88d32">
-    <crm:P190_has_symbolic_content>botella</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>botela</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1400</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1421</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_bottle_cbfcc572d4376e8c0911c36c736c312e0b04e15a623dac8436cdbc77ba4f882d6e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb23ff1b6e029127c7eca60a86ac569557ea32f1cdd0e192963c2943d877351b307">
+  <rdf:Description rdf:nodeID="commodity_bottle_cb25f02ebe1fc3c32b7abfe4b79619a46a7436dc97fb21eee25ffd4a20896a8f490">
     <crm:P190_has_symbolic_content>boteles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -233,7 +282,15 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1440</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb23ed4454829ab27d3bb53cbda3d3e0cbbe36b19382cf0507f74f8e15f49d48358">
+  <rdf:Description rdf:nodeID="commodity_bottle_cb2c982b05615301445db548e3fb4b86700ea2fdb45ff1f942df8c35b60f94db4c7">
+    <crm:P190_has_symbolic_content>botellus</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>botelus</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb25de57a49fcd4de0c9cf16ee8d96efde483a9c5dad0f61541b23945e06d2bc4e1">
     <crm:P190_has_symbolic_content>botelli corii</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -241,15 +298,53 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb1c8d5f81bb5844de30d208dcdf659003e74ec451629b06f2fd3462d20ffe45108">
-    <crm:P190_has_symbolic_content>botellus corii</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/wicker-bottle">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>wicker bottle</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb26eafb5dc80dbf4f7d278be35cb97c47b684132fcc2823f54dfd67106b435e1bb">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>uncovered</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb19407df94f08d4bb0881eed13f2e8cd74f63b44429e1e2b34c6ea5dcb4ca8f8b9">
+    <crm:P190_has_symbolic_content>botles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>botelus kori</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+    <hector:phoneticKey>botləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1556</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1559</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb1dc28b3be92c3db8cbd3aeea2432bb7163249b14599d5962b2d5289673cf3a3d2">
+  <rdf:Description rdf:nodeID="commodity_bottle_cb2bd7a23381adc55105b1af0b98f175d22a4fbb78de38be8af49e54268caf5cd3a">
+    <crm:P190_has_symbolic_content>bottels</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>botels</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb202a2a288d1fc0e8cb2c55fa58c76de381447bbbdd38324c0a5afa943d3f7e8a1">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>30s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">360</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb2dbeb28233fe5f8f948f7760c55d1c080c6801828f8563c69ef63585ed6bbdffb">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>16d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb32f330414939cecc3e73be2763adc1f6ff1060b68f1666db38e1a3acbbebf87af">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb226672f3be90e6e0398109d45aa1d8f16d6702da7127ee91ca9d687aab5bffed8">
     <crm:P190_has_symbolic_content>bottellez</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -257,31 +352,35 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1495</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb2056c6ee23be944ddab8f771c4b0931a943952770bcc2e26bd732b51698e2e94c">
-    <crm:P190_has_symbolic_content>botell</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb2a3555746937617b49b8890e3e97543ba5e8b906252e38ed19ac637ef39d9e195">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>20d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb1dd71845c7bf4e9af91283ff0226d124e2728ca71f73f80bfb3196815552f0c33">
+    <crm:P190_has_symbolic_content>botellorum</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>botel</hector:phoneticKey>
+    <hector:phoneticKey>botelorum</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb24166b6fd053baf86ae4b7a258b424138a046e1707f7074d173b18cd7968d5237">
+    <crm:P190_has_symbolic_content>bottelle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>botelə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1505</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1506</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb1fae7bfc180a9313447da89f545c7ea070c0e24b6741eef7842ea4c5cf787acfc">
+    <crm:P190_has_symbolic_content>bottalles</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>botaləs</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb1152fe6367cf8042ae76f45377aecd8c5ccbbb7f57c4791eedfb83a509e4d860d">
-    <crm:P190_has_symbolic_content>bottell</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>botel</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
-    <rdfs:label>pound sterling (system of money)</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/wicker-bottle">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>wicker bottle</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb1c6104cbd9314f67ff57bf73577f70c7fe8c647eafba91d22c18a012cae340fde">
+  <rdf:Description rdf:nodeID="commodity_bottle_cb248ef36d43796366898b37cd496b417ee844525b128b86980f69764e9b6013533">
     <crm:P190_has_symbolic_content>bottles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -289,33 +388,77 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1548</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1550</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb1703c89e6b570119964b60b6c4281984b6859ccedd5ab77424a9fa7d26e3c2333">
-    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
-    <hector:lsd>20d</hector:lsd>
-    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</hector:valueInPence>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb2aff2222fd6d66eb4b9d60ebe82e2720b6c1bd67349858337d3c3cf908d422c56">
+    <crm:P190_has_symbolic_content>botele</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>botelə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1439</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1440</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb62eaa541477eadfb58d08f0404115dfbbd632bbf519e3f441ba35961080a9229">
+  <rdf:Description rdf:nodeID="commodity_bottle_cb2247da3e40f12fb168d2d1a2ae73a22d1e3d3d41360c8a72e14731997bc3a2ad5">
+    <crm:P190_has_symbolic_content>botell</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>botel</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1519</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1520</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb1e7e72d1d88ae041beebe30dc9289f167152af1b8cdb633f2108691a2233b9291">
+    <crm:P190_has_symbolic_content>botellus corii</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>botelus kori</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1472</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb18adbb8c5ba4d03f06078e16aaab4f19554ee94a02131ed6bdf0972fd51f13f8c">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>wyckers</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb12b8cf300407098cd10760a405325a78927e887ea2cea9613309e6dd507a98f3e">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/dozen"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb16062ac0dc28ba266e0c8b5616a4bdfa2ff72237ac5c91ae6482c82f4f4f7a041">
     <crm:P190_has_symbolic_content>Vessels having a neck and mouth considerably narrower than the body, used for packaging and containing liquid and dry preparations. For vessels having wider necks and mouths, use "jars." [Source: Getty AAT]</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb286dd2cc088ade9935aaf2735839e76348b1b859b799fff07b8c2300469f25c87">
-    <crm:P190_has_symbolic_content>botelli</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>boteli</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1390</hector:validThrough>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb287d8220a033970572e941262209605fee2f2c649b9fa8a09ada1d74ce1d8a5f1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>glass</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300010797"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_bottle_cb1be604f5aa8cb3376af8a9ce1863c212586ea1dcf5339bbfd75d9039431d7caaa">
-    <crm:P190_has_symbolic_content>botellorum</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>botelorum</hector:phoneticKey>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb1dbb4d7770d437087eb04c43ffd887bf9f81abe3fb04d390a0692873374fb198d">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>covered</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300045627">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>bottles</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/mlca/glossary/bottle">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>bottle (London Customs Accounts glossary)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb243ded5b95d6e7161439ad12cdc5f90a147985963de1b1b713d7033ae45f70d87">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>glass</rdfs:label>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300010797"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>descriptive note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_bottle_cb166c5c431f3487106800d3528139e7f5c89e95874335d85834c7dae0e7250bc9d">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>covered</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

@@ -467,6 +467,126 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/hemp#rate-1545-inward-169",
+      "type": "Rate",
+      "_label": "1545 inward: Collayne hempe the sacke 30s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "360",
+        "lsd": "30s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/sack",
+          "type": "MeasurementUnit",
+          "_label": "sack"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 169 (transcribed by Stuart Jenks): 'Collayne hempe the sacke' 30s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Collayne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/hemp#rate-1545-inward-170",
+      "type": "Rate",
+      "_label": "1545 inward: Collayne hempe the hundreth 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 170 (transcribed by Stuart Jenks): 'Collayne hempe the hundreth' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Collayne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/hemp#rate-1545-inward-171",
+      "type": "Rate",
+      "_label": "1545 inward: Collayne hempe the dossen 12d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "12",
+        "lsd": "12d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 171 (transcribed by Stuart Jenks): 'Collayne hempe the dossen' 12d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Collayne",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/hemp#rate-1545-inward-384",
       "type": "Rate",
       "_label": "1545 inward: Hempe the 100 pounde 10s",
@@ -546,6 +666,126 @@
       "validFrom": "1545",
       "validThrough": "1558",
       "sourceText": "Book of Rates 1545, inward, line 386 (transcribed by Stuart Jenks): 'Hempe the sack' 30s"
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/hemp#rate-1558-inward-260",
+      "type": "Rate",
+      "_label": "1558 inward: Cullen hempe the sacke cont’ 3 C [lb.] £3",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "720",
+        "lsd": "£3"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/sack",
+          "type": "MeasurementUnit",
+          "_label": "sack"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 260 (transcribed by Stuart Jenks): 'Cullen hempe the sacke cont’ 3 C [lb.]' £3",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Cologne",
+          "originPlace": [
+            {
+              "id": "wd:Q365",
+              "type": "Place",
+              "_label": "Cologne"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/hemp#rate-1558-inward-261",
+      "type": "Rate",
+      "_label": "1558 inward: Cullen hempe the C lb. cont’ 112 lb 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 100,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/hundred",
+          "type": "MeasurementUnit",
+          "_label": "hundred"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 261 (transcribed by Stuart Jenks): 'Cullen hempe the C lb. cont’ 112 lb' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Cologne",
+          "originPlace": [
+            {
+              "id": "wd:Q365",
+              "type": "Place",
+              "_label": "Cologne"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/hemp#rate-1558-inward-263",
+      "type": "Rate",
+      "_label": "1558 inward: Cullen hempe the dossen pounde 2s 6d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "30",
+        "lsd": "2s 6d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 12,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/dozen",
+          "type": "MeasurementUnit",
+          "_label": "dozen"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 263 (transcribed by Stuart Jenks): 'Cullen hempe the dossen pounde' 2s 6d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Cologne",
+          "originPlace": [
+            {
+              "id": "wd:Q365",
+              "type": "Place",
+              "_label": "Cologne"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/hemp#rate-1558-inward-557",

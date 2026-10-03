@@ -8,140 +8,11 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:nodeID="commodity_spoon_cb1606def1300a58bcab3ccceb66b26900ff79bda6cb3004e456f554b59f799f205">
-    <crm:P190_has_symbolic_content>coclearis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>koklɛːris</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_spoon_cb18f83290db79b61f8fb3a3243f0edaf8a7ede18a92a385b77f5a6a3c014500e8d">
-    <crm:P190_has_symbolic_content>spon</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>spon</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_spoon_cbdeb85736d2be25eb7e5bff021768ed192c0bacd04f88921da52cdbcc6c996b22">
-    <crm:P190_has_symbolic_content>spoun</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>spuːn</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
-  </rdf:Description>
   <rdf:Description rdf:about="http://vocab.getty.edu/aat/300435416">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>descriptive note</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_spoon_cb1a0a90bfe9b3e0dc3850ce06042e607479866c59d0fad1e1954e403423335cd51">
-    <crm:P190_has_symbolic_content>sponys</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sponis</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/commodity/spoon">
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb128bb3c5ba5de8c1e9eae7a9b5f11ca8beb2992ad0a13fa4715ee8d449dcbf7ce"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb1544415b6c883d166bad40bbe7fe4df2b79285c0e28e1459a3dfa7ba5f3dd6900"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb1606def1300a58bcab3ccceb66b26900ff79bda6cb3004e456f554b59f799f205"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb1740b8b160d2a6bbb8e84c6934499cf9b0fe5e7a12ee4afd36e7cdd8dd49bcd26"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb18f83290db79b61f8fb3a3243f0edaf8a7ede18a92a385b77f5a6a3c014500e8d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb1a0a90bfe9b3e0dc3850ce06042e607479866c59d0fad1e1954e403423335cd51"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb1df36feca8de5a52b7f0a4bcc236b83301278bf28a336dcbdc3c02a8f33581139"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb1eb0e56fa0d66123197f75189ab606c9626c19d2e48e7074d1f038c3e91cd2cbc"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb200d81cd38efffc6d49429005c486903e54d4aec98b30dec2a57e3da471295fca"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb2397deb141ca152e6d418e6adef775a2cda7a92a12170b55149ed2481f8ebf0a4"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb25b83c0267698188e7935c259c6fb9cfc5fd634f05fabdeccade7eb2165ea07ff"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb2aa29d213e18abb0658d64d650e69ea62eaea5d3cd2501ca3e1b4ad42e065074c"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb2ad6d84a8a5aac767ba52aa2125a298160789ec4f52544c0b4cd3e8fb2fdf22cf"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb2bd0cecf18f1ab071f00af5759025d87b5127fd0676b324185aca5039a3534dcc"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb307acd8cd5acefa8b9af935c5eeb40ac0c84a2cce427c59f154324fd92b9fecd1"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb34e57b8e7f8f6b8c1c8b4657a5fc6e7b4220d0e815759c328d34d5b1f5d2c6b50"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb4276a04574f0677a37c75869750085445c083ab3cd0d1d3902c199ab40c7a81d"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cbb0d1922a46a514a3de6b41705c6b0a4f6dc683e40fd766bd3fe0c244f3d6089f"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cbdeb85736d2be25eb7e5bff021768ed192c0bacd04f88921da52cdbcc6c996b22"/>
-    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cbe92dfb087ade26535b1f371c97f370597219bf40560b54663a378405c42af7ff"/>
-    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_spoon_cb0"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>spoon</rdfs:label>
-    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/spoon"/>
-    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300043149"/>
-    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</hector:attestationCount>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_spoon_cb34e57b8e7f8f6b8c1c8b4657a5fc6e7b4220d0e815759c328d34d5b1f5d2c6b50">
-    <crm:P190_has_symbolic_content>cokliaris</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kokliaris</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_spoon_cb4276a04574f0677a37c75869750085445c083ab3cd0d1d3902c199ab40c7a81d">
-    <crm:P190_has_symbolic_content>cocleari</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>koklɛːri</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_spoon_cbb0d1922a46a514a3de6b41705c6b0a4f6dc683e40fd766bd3fe0c244f3d6089f">
-    <crm:P190_has_symbolic_content>spounes</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>spuːnəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_spoon_cb2397deb141ca152e6d418e6adef775a2cda7a92a12170b55149ed2481f8ebf0a4">
-    <crm:P190_has_symbolic_content>lepulles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>lepuləs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_spoon_cb1544415b6c883d166bad40bbe7fe4df2b79285c0e28e1459a3dfa7ba5f3dd6900">
-    <crm:P190_has_symbolic_content>spones</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sponəs</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>preferred terms</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_spoon_cb307acd8cd5acefa8b9af935c5eeb40ac0c84a2cce427c59f154324fd92b9fecd1">
-    <crm:P190_has_symbolic_content>cocliar</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kokliar</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_spoon_cb128bb3c5ba5de8c1e9eae7a9b5f11ca8beb2992ad0a13fa4715ee8d449dcbf7ce">
-    <crm:P190_has_symbolic_content>sponis</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sponis</hector:phoneticKey>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_spoon_cb2bd0cecf18f1ab071f00af5759025d87b5127fd0676b324185aca5039a3534dcc">
-    <crm:P190_has_symbolic_content>lepulle</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>lepulə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>attested variant</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_spoon_cb1df36feca8de5a52b7f0a4bcc236b83301278bf28a336dcbdc3c02a8f33581139">
+  <rdf:Description rdf:nodeID="commodity_spoon_cb1fe4833cc610f5b6460a7eedabf9c7458b2b76bcb473ca18001008f1056af52c2">
     <crm:P190_has_symbolic_content>coclear</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -149,7 +20,164 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_spoon_cbe92dfb087ade26535b1f371c97f370597219bf40560b54663a378405c42af7ff">
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/spoon#rate-1558-inward-986">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1558 inward: Spones of alcumye the grosse 16s 8d</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_spoon_cb27cefdf239a8eaa849d9e84302f7848398db7b12c2bd0796acb6508f575f1e28b"/>
+    <hector:perQuantity rdf:nodeID="commodity_spoon_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50"/>
+    <hector:qualifier rdf:nodeID="commodity_spoon_cb13a6779ebadc2a90935d24f247faa7e783ee12b913cbeb40d0db9132d216b1962"/>
+    <hector:sourceText>Book of Rates 1558, inward, line 986 (transcribed by Stuart Jenks): 'Spones of alcumye the grosse' 16s 8d</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1604</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_spoon_cb15bdf5b06987a2128e2e0e4b9a56a726a0ce6e901c2178296fe194bd520d54365">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/spoon">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-10-03</dcterms:modified>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb147cc715d79084257804c1da9fb42bbb48b683f4fae19bf09532ef1c5c1233957"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb173554ab89bad879f9c71aecd1c15d054196708b0cce70a5c7b3ae0271734aa89"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb17f7f2414d3cf4203956a71c50757813897da870f57061307ac95afdb1af1338e"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb1931cc017e05421f4702269a1e0cac0c3b0249443d2ea7495abbd420ef7f30eaf"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb1a4210a8e46f232c2d01b6b3761e74070d64fa0870afa67530530b176a813d2d0"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb1ae945e0f8ac51831dcd7d5528d1ea0b31f1cc54bce3e203a32e7084137a75016"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb1bfba41006e67c3fc66aa836edf16f87038a5723fb3b2e2db922467c3568d0eda"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb1fe4833cc610f5b6460a7eedabf9c7458b2b76bcb473ca18001008f1056af52c2"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb20a1f8bfbe08fc86a7994f49847915dbec70049d0ececcc0f5c43f0bfb5246e45"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb21cfa6a852917cb7e62e265976b37c9a28f9b87bcabc7c216688509aa2602b353"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb21fe951d56229b2a62ae0331460b78166f5135b6c2f36a384e2bea2259480a153"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb2546fba7f20264b334a2c71f7b4e49f5af1633797dfb5e9230f91c9c73b7422a9"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb2588f2015efcb091fb5b689bc8ba84b557ab93f43c5767a13872d89031c43322d"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb27a94f52849c1cec75ad36568632c8e250014e19303b1a38eeb284fa289414988"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb2c93b0715b4b4713f3a73f073aa9adb8b8b2909df7655e1661ef511c403bc48d5"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb2cc7eb9aa78d47da09bf04d2fc1d3893ea7c898f1f65a10cd8a144d7c53366458"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb2dc1e21f3624466aad1a898842c56c9a3f166a9a91ab8e8da980ab4bac6aa8f55"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb326be0dcf2df8b0c47c96d8d48ae4fbe96888d970e6821eb39172b45a4ef72e5a"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb36d68ede9cc206efaaa520888fbf7d8dcc24bbb23fb5f87eb108dbfa08083acd9"/>
+    <crm:P1_is_identified_by rdf:nodeID="commodity_spoon_cb6187d547481a1db31964fb781131766cfc46e7567112e1fb4001fe2c641ee9a6"/>
+    <crm:P67i_is_referred_to_by rdf:nodeID="commodity_spoon_cb1af7ee3e28331641beb818bf63683381523f7b2876d4f17f2e41551ee0e82b10d"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>spoon</rdfs:label>
+    <skos:exactMatch rdf:resource="https://w3id.org/mlca/glossary/spoon"/>
+    <la:equivalent rdf:resource="http://vocab.getty.edu/aat/300043149"/>
+    <hector:attestationCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</hector:attestationCount>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/spoon#rate-1545-inward-697"/>
+    <hector:taxation rdf:resource="https://w3id.org/hector/commodity/spoon#rate-1558-inward-986"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_spoon_cb2546fba7f20264b334a2c71f7b4e49f5af1633797dfb5e9230f91c9c73b7422a9">
+    <crm:P190_has_symbolic_content>spounes</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>spuːnəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_spoon_cb21fe951d56229b2a62ae0331460b78166f5135b6c2f36a384e2bea2259480a153">
+    <crm:P190_has_symbolic_content>spone</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sponə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_spoon_cb36d68ede9cc206efaaa520888fbf7d8dcc24bbb23fb5f87eb108dbfa08083acd9">
+    <crm:P190_has_symbolic_content>cokliaris</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kokliaris</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_spoon_cb27cefdf239a8eaa849d9e84302f7848398db7b12c2bd0796acb6508f575f1e28b">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>16s 8d</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_spoon_cb13a6779ebadc2a90935d24f247faa7e783ee12b913cbeb40d0db9132d216b1962">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>alchemy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_spoon_cb27a94f52849c1cec75ad36568632c8e250014e19303b1a38eeb284fa289414988">
+    <crm:P190_has_symbolic_content>lepilles</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>lepiləs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_spoon_cb1bfba41006e67c3fc66aa836edf16f87038a5723fb3b2e2db922467c3568d0eda">
+    <crm:P190_has_symbolic_content>sponys</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sponis</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_spoon_cb2c93b0715b4b4713f3a73f073aa9adb8b8b2909df7655e1661ef511c403bc48d5">
+    <crm:P190_has_symbolic_content>cocliaris</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kokliaris</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_spoon_cb2cc7eb9aa78d47da09bf04d2fc1d3893ea7c898f1f65a10cd8a144d7c53366458">
+    <crm:P190_has_symbolic_content>cokliar</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kokliar</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/commodity/spoon#rate-1545-inward-697">
+    <rdf:type rdf:resource="https://w3id.org/hector/ontology#Rate"/>
+    <rdfs:label>1545 inward: Spones of aulcamyn the groce 10s</rdfs:label>
+    <hector:amount rdf:nodeID="commodity_spoon_cb31a5c9390e96ec8ea6bfffa3f518aba4d952b34d17f2fdc31b081df31ea194397"/>
+    <hector:perQuantity rdf:nodeID="commodity_spoon_cb15bdf5b06987a2128e2e0e4b9a56a726a0ce6e901c2178296fe194bd520d54365"/>
+    <hector:qualifier rdf:nodeID="commodity_spoon_cb2855f1e5f7d7a89116c82b2bc85c376e2ed3c2c9bc727ea09d9e3d95a0bb22a4c"/>
+    <hector:sourceText>Book of Rates 1545, inward, line 697 (transcribed by Stuart Jenks): 'Spones of aulcamyn the groce' 10s</hector:sourceText>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1545</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1558</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_spoon_cb1af7ee3e28331641beb818bf63683381523f7b2876d4f17f2e41551ee0e82b10d">
+    <crm:P190_has_symbolic_content>wooden spoon | spoon (MNW s.v. lepel) | tin spoon | spoon, made of box-wood | (spoone of alkemie, spones of aulcamyn) alchemy: a substance produced by alchemy; specifically any of various metal alloys made in imitation of gold or resembling it in color, as varieties of brass or latten, sometimes containing arsenic compounds (OED s.v. alchemy 2), especially quote of 1773: J. Buchanan in J. Milton Paradise Lost (new ed.) 128 (note) Alchemy is a mixture of metals of which spoons, &amp;c. are made | silver spoon | spoon, made of latten</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_spoon_cb326be0dcf2df8b0c47c96d8d48ae4fbe96888d970e6821eb39172b45a4ef72e5a">
+    <crm:P190_has_symbolic_content>cocliar</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>kokliar</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_spoon_cb1ae945e0f8ac51831dcd7d5528d1ea0b31f1cc54bce3e203a32e7084137a75016">
+    <crm:P190_has_symbolic_content>spon</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>spon</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_spoon_cb31a5c9390e96ec8ea6bfffa3f518aba4d952b34d17f2fdc31b081df31ea194397">
+    <crm:P180_has_currency rdf:resource="http://vocab.getty.edu/aat/300411998"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount"/>
+    <hector:lsd>10s</hector:lsd>
+    <hector:valueInPence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</hector:valueInPence>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_spoon_cb1a4210a8e46f232c2d01b6b3761e74070d64fa0870afa67530530b176a813d2d0">
+    <crm:P190_has_symbolic_content>spoun</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>spuːn</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1434</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1438</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_spoon_cb21cfa6a852917cb7e62e265976b37c9a28f9b87bcabc7c216688509aa2602b353">
     <crm:P190_has_symbolic_content>spoon</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300404670"/>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
@@ -160,28 +188,47 @@
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
     <rdfs:label>spoon (London Customs Accounts glossary)</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_spoon_cb0">
-    <crm:P190_has_symbolic_content>wooden spoon | spoon (MNW s.v. lepel) | tin spoon | spoon, made of box-wood | (spoone of alkemie, spones of aulcamyn) alchemy: a substance produced by alchemy; specifically any of various metal alloys made in imitation of gold or resembling it in color, as varieties of brass or latten, sometimes containing arsenic compounds (OED s.v. alchemy 2), especially quote of 1773: J. Buchanan in J. Milton Paradise Lost (new ed.) 128 (note) Alchemy is a mixture of metals of which spoons, &amp;c. are made | silver spoon | spoon, made of latten</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="http://vocab.getty.edu/aat/300435416"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+  <rdf:Description rdf:nodeID="commodity_spoon_cb2855f1e5f7d7a89116c82b2bc85c376e2ed3c2c9bc727ea09d9e3d95a0bb22a4c">
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>aulcamyn</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_spoon_cb200d81cd38efffc6d49429005c486903e54d4aec98b30dec2a57e3da471295fca">
-    <crm:P190_has_symbolic_content>spone</crm:P190_has_symbolic_content>
+  <rdf:Description rdf:nodeID="commodity_spoon_cbfe09119c411d60e23a8ef3f6216b3b7b47b4ee474b58845307ca3517da2a3c50">
+    <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</crm:P90_has_value>
+    <crm:P91_has_unit rdf:resource="https://w3id.org/hector/unit/gross"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/hector/ontology#AttestedVariant">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>attested variant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_spoon_cb2588f2015efcb091fb5b689bc8ba84b557ab93f43c5767a13872d89031c43322d">
+    <crm:P190_has_symbolic_content>lepulles</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>sponə</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_spoon_cb25b83c0267698188e7935c259c6fb9cfc5fd634f05fabdeccade7eb2165ea07ff">
-    <crm:P190_has_symbolic_content>lepilles</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>lepiləs</hector:phoneticKey>
+    <hector:phoneticKey>lepuləs</hector:phoneticKey>
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_spoon_cb1eb0e56fa0d66123197f75189ab606c9626c19d2e48e7074d1f038c3e91cd2cbc">
+  <rdf:Description rdf:nodeID="commodity_spoon_cb6187d547481a1db31964fb781131766cfc46e7567112e1fb4001fe2c641ee9a6">
+    <crm:P190_has_symbolic_content>cocleari</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>koklɛːri</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300043149">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label>spoons</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_spoon_cb173554ab89bad879f9c71aecd1c15d054196708b0cce70a5c7b3ae0271734aa89">
+    <crm:P190_has_symbolic_content>spones</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sponəs</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1531</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1533</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_spoon_cb20a1f8bfbe08fc86a7994f49847915dbec70049d0ececcc0f5c43f0bfb5246e45">
     <crm:P190_has_symbolic_content>lepille</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
@@ -189,30 +236,44 @@
     <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
     <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_spoon_cb1740b8b160d2a6bbb8e84c6934499cf9b0fe5e7a12ee4afd36e7cdd8dd49bcd26">
+  <rdf:Description rdf:about="https://w3id.org/hector/unit/gross">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit"/>
+    <rdfs:label>gross</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_spoon_cb2dc1e21f3624466aad1a898842c56c9a3f166a9a91ab8e8da980ab4bac6aa8f55">
+    <crm:P190_has_symbolic_content>lepulle</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>lepulə</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1461</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_spoon_cb147cc715d79084257804c1da9fb42bbb48b683f4fae19bf09532ef1c5c1233957">
+    <crm:P190_has_symbolic_content>sponis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>sponis</hector:phoneticKey>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_spoon_cb17f7f2414d3cf4203956a71c50757813897da870f57061307ac95afdb1af1338e">
+    <crm:P190_has_symbolic_content>coclearis</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
+    <hector:phoneticKey>koklɛːris</hector:phoneticKey>
+    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</hector:validFrom>
+    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1481</hector:validThrough>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="commodity_spoon_cb1931cc017e05421f4702269a1e0cac0c3b0249443d2ea7495abbd420ef7f30eaf">
     <crm:P190_has_symbolic_content>cocliarium</crm:P190_has_symbolic_content>
     <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
     <hector:phoneticKey>kokliarium</hector:phoneticKey>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_spoon_cb2aa29d213e18abb0658d64d650e69ea62eaea5d3cd2501ca3e1b4ad42e065074c">
-    <crm:P190_has_symbolic_content>cocliaris</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kokliaris</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="commodity_spoon_cb2ad6d84a8a5aac767ba52aa2125a298160789ec4f52544c0b4cd3e8fb2fdf22cf">
-    <crm:P190_has_symbolic_content>cokliar</crm:P190_has_symbolic_content>
-    <crm:P2_has_type rdf:resource="https://w3id.org/hector/ontology#AttestedVariant"/>
-    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation"/>
-    <hector:phoneticKey>kokliar</hector:phoneticKey>
-    <hector:validFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1487</hector:validFrom>
-    <hector:validThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1490</hector:validThrough>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300043149">
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300404670">
     <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:label>spoons</rdfs:label>
+    <rdfs:label>preferred terms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300411998">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E98_Currency"/>
+    <rdfs:label>pound sterling (system of money)</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

@@ -464,6 +464,486 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/eel#rate-1507-none-75",
+      "type": "Rate",
+      "_label": "1507: Elys called stowbe elys the last £20",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "4800",
+        "lsd": "£20"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/last",
+          "type": "MeasurementUnit",
+          "_label": "last"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 75 (transcribed by Stuart Jenks): 'Elys called stowbe elys the last' £20",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "stowbe",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/eel#rate-1507-none-76",
+      "type": "Rate",
+      "_label": "1507: Elys called stube elys the barylle 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/barrel",
+          "type": "MeasurementUnit",
+          "_label": "barrel"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 76 (transcribed by Stuart Jenks): 'Elys called stube elys the barylle' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "stube",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/eel#rate-1507-none-77",
+      "type": "Rate",
+      "_label": "1507: Elys called chaffte elles the laste £12",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "2880",
+        "lsd": "£12"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/last",
+          "type": "MeasurementUnit",
+          "_label": "last"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 77 (transcribed by Stuart Jenks): 'Elys called chaffte elles the laste' £12",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "chaffte",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/eel#rate-1507-none-78",
+      "type": "Rate",
+      "_label": "1507: Elys called chaffte ellys the barylle 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/barrel",
+          "type": "MeasurementUnit",
+          "_label": "barrel"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 78 (transcribed by Stuart Jenks): 'Elys called chaffte ellys the barylle' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "chaffte ellys",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/eel#rate-1507-none-79",
+      "type": "Rate",
+      "_label": "1507: Elys called pymper elles the laste £8",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "1920",
+        "lsd": "£8"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/last",
+          "type": "MeasurementUnit",
+          "_label": "last"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 79 (transcribed by Stuart Jenks): 'Elys called pymper elles the laste' £8",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "pymper",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/eel#rate-1507-none-80",
+      "type": "Rate",
+      "_label": "1507: Elys called pymper eles the barelle 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/barrel",
+          "type": "MeasurementUnit",
+          "_label": "barrel"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 80 (transcribed by Stuart Jenks): 'Elys called pymper eles the barelle' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "pymper",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/eel#rate-1545-inward-254",
+      "type": "Rate",
+      "_label": "1545 inward: Elis called stubbe elis the barell [b.i dorse] 33s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "400",
+        "lsd": "33s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/barrel",
+          "type": "MeasurementUnit",
+          "_label": "barrel"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 254 (transcribed by Stuart Jenks): 'Elis called stubbe elis the barell [b.i dorse]' 33s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "stubbe",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/eel#rate-1545-inward-255",
+      "type": "Rate",
+      "_label": "1545 inward: Elis called stubbe elis the laste £20",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "4800",
+        "lsd": "£20"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/last",
+          "type": "MeasurementUnit",
+          "_label": "last"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 255 (transcribed by Stuart Jenks): 'Elis called stubbe elis the laste' £20",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "stubbe",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/eel#rate-1545-inward-256",
+      "type": "Rate",
+      "_label": "1545 inward: Elis called shaft, kyve or dole elis, the barel of eyther 20s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "240",
+        "lsd": "20s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/barrel",
+          "type": "MeasurementUnit",
+          "_label": "barrel"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 256 (transcribed by Stuart Jenks): 'Elis called shaft, kyve or dole elis, the barel of eyther' 20s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "shaft kyve or dole",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/eel#rate-1545-inward-257",
+      "type": "Rate",
+      "_label": "1545 inward: Elis called shafte, kyve or dole elis, the laste of eyther £12",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "2880",
+        "lsd": "£12"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/last",
+          "type": "MeasurementUnit",
+          "_label": "last"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 257 (transcribed by Stuart Jenks): 'Elis called shafte, kyve or dole elis, the laste of eyther' £12",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "shafte kyve or dole",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/eel#rate-1545-inward-258",
+      "type": "Rate",
+      "_label": "1545 inward: Elis called pymper elis the barrel 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/barrel",
+          "type": "MeasurementUnit",
+          "_label": "barrel"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 258 (transcribed by Stuart Jenks): 'Elis called pymper elis the barrel' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "pymper",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/eel#rate-1545-inward-259",
+      "type": "Rate",
+      "_label": "1545 inward: Elis called pymper elis þe laste £8",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "1920",
+        "lsd": "£8"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/last",
+          "type": "MeasurementUnit",
+          "_label": "last"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 259 (transcribed by Stuart Jenks): 'Elis called pymper elis þe laste' £8",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "pymper",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/eel#rate-1545-inward-260",
       "type": "Rate",
       "_label": "1545 inward: Elys of all sortes the barrel 20s",

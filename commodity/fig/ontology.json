@@ -484,6 +484,33 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/fig#rate-1507-none-82",
+      "type": "Rate",
+      "_label": "1507: Fygges the sortte þat ys to saye 3 frayles for the sorte 4s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "48",
+        "lsd": "4s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/sort",
+          "type": "MeasurementUnit",
+          "_label": "sort"
+        }
+      },
+      "validFrom": "1507",
+      "validThrough": "1545",
+      "sourceText": "Book of Rates 1507, line 82 (transcribed by Stuart Jenks): 'Fygges the sortte þat ys to saye 3 frayles for the sorte' 4s"
+    },
+    {
       "id": "https://w3id.org/hector/commodity/fig#rate-1507-none-83",
       "type": "Rate",
       "_label": "1507: Fygges the tunne that ys to say 10 sorte for the tunne 40s",
@@ -643,7 +670,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 422 (transcribed by Stuart Jenks): 'Fygges of Algava the topnet cont’ 2 lb' 8d"
+      "sourceText": "Book of Rates 1558, inward, line 422 (transcribed by Stuart Jenks): 'Fygges of Algava the topnet cont’ 2 lb' 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Algava",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

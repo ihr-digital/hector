@@ -263,6 +263,392 @@
   "modified": "2026-10-03",
   "taxation": [
     {
+      "id": "https://w3id.org/hector/commodity/dornick#rate-1545-inward-228",
+      "type": "Rate",
+      "_label": "1545 inward: Dornix with silke þe pece 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 228 (transcribed by Stuart Jenks): 'Dornix with silke þe pece' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "silk",
+          "equivalent": [
+            {
+              "id": "aat:300243428",
+              "type": "Type",
+              "_label": "silk (textile)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/dornick#rate-1545-inward-229",
+      "type": "Rate",
+      "_label": "1545 inward: Dornix without sylke or caddas the pece 5s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "60",
+        "lsd": "5s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 229 (transcribed by Stuart Jenks): 'Dornix without sylke or caddas the pece' 5s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "without",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "silk",
+          "equivalent": [
+            {
+              "id": "aat:300243428",
+              "type": "Type",
+              "_label": "silk (textile)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "caddas",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/dornick#rate-1545-inward-230",
+      "type": "Rate",
+      "_label": "1545 inward: Dornix of wool the pece 3s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "40",
+        "lsd": "3s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 230 (transcribed by Stuart Jenks): 'Dornix of wool the pece' 3s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "wool",
+          "equivalent": [
+            {
+              "id": "aat:300243430",
+              "type": "Type",
+              "_label": "wool (textile)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/dornick#rate-1545-inward-231",
+      "type": "Rate",
+      "_label": "1545 inward: Dornix thriden the pece 2s 6d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "30",
+        "lsd": "2s 6d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1545",
+      "validThrough": "1558",
+      "sourceText": "Book of Rates 1545, inward, line 231 (transcribed by Stuart Jenks): 'Dornix thriden the pece' 2s 6d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "thriden",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/dornick#rate-1558-inward-364",
+      "type": "Rate",
+      "_label": "1558 inward: Dornyckes with silke the pece cont’ 15 yerdes 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 364 (transcribed by Stuart Jenks): 'Dornyckes with silke the pece cont’ 15 yerdes' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "silk",
+          "equivalent": [
+            {
+              "id": "aat:300243428",
+              "type": "Type",
+              "_label": "silk (textile)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/dornick#rate-1558-inward-365",
+      "type": "Rate",
+      "_label": "1558 inward: Dornyx with caddas the pece cont’ 15 yerdes 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 365 (transcribed by Stuart Jenks): 'Dornyx with caddas the pece cont’ 15 yerdes' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "caddas",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/dornick#rate-1558-inward-366",
+      "type": "Rate",
+      "_label": "1558 inward: Dornyx with woll the pece cont’ 15 yerdes 10s",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "120",
+        "lsd": "10s"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 366 (transcribed by Stuart Jenks): 'Dornyx with woll the pece cont’ 15 yerdes' 10s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "woll",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/dornick#rate-1558-inward-367",
+      "type": "Rate",
+      "_label": "1558 inward: Dornyx with thredd the peace cont’ 15 yerdes 6s 8d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "80",
+        "lsd": "6s 8d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 367 (transcribed by Stuart Jenks): 'Dornyx with thredd the peace cont’ 15 yerdes' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "file"
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/hector/commodity/dornick#rate-1558-inward-378",
+      "type": "Rate",
+      "_label": "1558 inward: Dornix voc’ grene Dornyx the pece cont’ thirtie yeardes 13s 4d",
+      "amount": {
+        "type": "MonetaryAmount",
+        "currency": {
+          "id": "aat:300411998",
+          "type": "Currency",
+          "_label": "pound sterling (system of money)"
+        },
+        "valueInPence": "160",
+        "lsd": "13s 4d"
+      },
+      "perQuantity": {
+        "type": "Dimension",
+        "value": 1,
+        "unit": {
+          "id": "https://w3id.org/hector/unit/pecia",
+          "type": "MeasurementUnit",
+          "_label": "pecia"
+        }
+      },
+      "validFrom": "1558",
+      "validThrough": "1604",
+      "sourceText": "Book of Rates 1558, inward, line 378 (transcribed by Stuart Jenks): 'Dornix voc’ grene Dornyx the pece cont’ thirtie yeardes' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "green",
+          "equivalent": [
+            {
+              "id": "aat:300128438",
+              "type": "Type",
+              "_label": "green (color)"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "Tournai",
+          "originPlace": [
+            {
+              "id": "wd:Q173219",
+              "type": "Place",
+              "_label": "Tournai"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://w3id.org/hector/commodity/dornick#rate-1558-inward-383",
       "type": "Rate",
       "_label": "1558 inward: Dornyx voc’ Frenche Dornix the ell 15d",
@@ -287,7 +673,31 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 383 (transcribed by Stuart Jenks): 'Dornyx voc’ Frenche Dornix the ell' 15d"
+      "sourceText": "Book of Rates 1558, inward, line 383 (transcribed by Stuart Jenks): 'Dornyx voc’ Frenche Dornix the ell' 15d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "France",
+          "originPlace": [
+            {
+              "id": "wd:Q142",
+              "type": "Place",
+              "_label": "France"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "Tournai",
+          "originPlace": [
+            {
+              "id": "wd:Q173219",
+              "type": "Place",
+              "_label": "Tournai"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/dornick#rate-1558-inward-384",
@@ -314,7 +724,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 384 (transcribed by Stuart Jenks): 'Dornix voc’ Frenche Dornix the yerde' 12d"
+      "sourceText": "Book of Rates 1558, inward, line 384 (transcribed by Stuart Jenks): 'Dornix voc’ Frenche Dornix the yerde' 12d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "France",
+          "originPlace": [
+            {
+              "id": "wd:Q142",
+              "type": "Place",
+              "_label": "France"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

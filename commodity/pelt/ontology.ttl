@@ -5,6 +5,7 @@
 @prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/hector/commodity/pelt> a crm:E55_Type ;
@@ -187,9 +188,20 @@
     la:equivalent aat:300395532 ;
     hector:attestationCount 2254 ;
     hector:taxation <https://w3id.org/hector/commodity/pelt#rate-1507-none-115>,
+        <https://w3id.org/hector/commodity/pelt#rate-1507-none-234>,
+        <https://w3id.org/hector/commodity/pelt#rate-1558-inward-1153>,
         <https://w3id.org/hector/commodity/pelt#rate-1558-inward-159>,
         <https://w3id.org/hector/commodity/pelt#rate-1558-inward-160>,
         <https://w3id.org/hector/commodity/pelt#rate-1558-outward-32> .
+
+aat:300011021 a crm:E55_Type ;
+    rdfs:label "gold (metal)" .
+
+aat:300126225 a crm:E55_Type ;
+    rdfs:label "red (color)" .
+
+aat:300130920 a crm:E55_Type ;
+    rdfs:label "black (color)" .
 
 aat:300193371 a crm:E55_Type ;
     rdfs:label "pelt (animal material)" .
@@ -203,6 +215,9 @@ aat:300404670 a crm:E55_Type ;
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
 
+wd:Q918723 a crm:E53_Place ;
+    rdfs:label "Prussia" .
+
 <https://w3id.org/hector/commodity/pelt#rate-1507-none-115> a hector:Rate ;
     rdfs:label "1507: Golde skynes the kyppe 13s 4d" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -212,9 +227,44 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/kip> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "gold" ;
+            la:equivalent aat:300011021 ] ;
     hector:sourceText "Book of Rates 1507, line 115 (transcribed by Stuart Jenks): 'Golde skynes the kyppe' 13s 4d" ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/pelt#rate-1507-none-234> a hector:Rate ;
+    rdfs:label "1507: Russe skynes the dossen 20d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20d" ;
+            hector:valueInPence 20.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Prussia" ;
+            hector:originPlace wd:Q918723 ] ;
+    hector:sourceText "Book of Rates 1507, line 234 (transcribed by Stuart Jenks): 'Russe skynes the dossen' 20d" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/pelt#rate-1558-inward-1153> a hector:Rate ;
+    rdfs:label "1558 inward: Wesylls skynns the dossyn 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4d" ;
+            hector:valueInPence 4.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Wesylls" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 1153 (transcribed by Stuart Jenks): 'Wesylls skynns the dossyn' 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
 
 <https://w3id.org/hector/commodity/pelt#rate-1558-inward-159> a hector:Rate ;
     rdfs:label "1558 inward: Beares skynne redde the skynne 16s" ;
@@ -225,6 +275,12 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/each> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Beares" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "red" ;
+            la:equivalent aat:300126225 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 159 (transcribed by Stuart Jenks): 'Beares skynne redde the skynne' 16s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -238,6 +294,12 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/each> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Beares" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "black" ;
+            la:equivalent aat:300130920 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 160 (transcribed by Stuart Jenks): 'Beares skynne blacke the skynne' 16s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -251,6 +313,13 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 100 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "skin" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Kydde" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "broken" ] ;
     hector:sourceText "Book of Rates 1558, outward, line 32 (transcribed by Stuart Jenks): 'Kydde skynnes or broken felles the C cont’ 5 score' 10s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -263,6 +332,9 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/mlca/glossary/pelt> a crm:E55_Type ;
     rdfs:label "pelt (London Customs Accounts glossary)" .
+
+<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
+    rdfs:label "dozen" .
 
 <https://w3id.org/hector/unit/each> a crm:E58_Measurement_Unit ;
     rdfs:label "each" .

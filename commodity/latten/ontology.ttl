@@ -84,7 +84,30 @@
     la:equivalent aat:300198675 ;
     hector:attestationCount 447 ;
     hector:taxation <https://w3id.org/hector/commodity/latten#rate-1507-none-156>,
-        <https://w3id.org/hector/commodity/latten#rate-1507-none-157> .
+        <https://w3id.org/hector/commodity/latten#rate-1507-none-157>,
+        <https://w3id.org/hector/commodity/latten#rate-1507-none-158>,
+        <https://w3id.org/hector/commodity/latten#rate-1507-none-159>,
+        <https://w3id.org/hector/commodity/latten#rate-1507-none-22>,
+        <https://w3id.org/hector/commodity/latten#rate-1545-inward-164>,
+        <https://w3id.org/hector/commodity/latten#rate-1545-inward-439>,
+        <https://w3id.org/hector/commodity/latten#rate-1545-inward-440>,
+        <https://w3id.org/hector/commodity/latten#rate-1545-inward-441>,
+        <https://w3id.org/hector/commodity/latten#rate-1545-inward-442>,
+        <https://w3id.org/hector/commodity/latten#rate-1545-inward-443>,
+        <https://w3id.org/hector/commodity/latten#rate-1545-inward-86>,
+        <https://w3id.org/hector/commodity/latten#rate-1558-inward-134>,
+        <https://w3id.org/hector/commodity/latten#rate-1558-inward-238>,
+        <https://w3id.org/hector/commodity/latten#rate-1558-inward-344>,
+        <https://w3id.org/hector/commodity/latten#rate-1558-inward-646>,
+        <https://w3id.org/hector/commodity/latten#rate-1558-inward-647>,
+        <https://w3id.org/hector/commodity/latten#rate-1558-inward-648>,
+        <https://w3id.org/hector/commodity/latten#rate-1558-inward-683> .
+
+aat:300073756 a crm:E55_Type ;
+    rdfs:label "large" .
+
+aat:300073768 a crm:E55_Type ;
+    rdfs:label "small" .
 
 aat:300198675 a crm:E55_Type ;
     rdfs:label "latten" .
@@ -121,14 +144,309 @@ aat:300435416 a crm:E55_Type ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
 
+<https://w3id.org/hector/commodity/latten#rate-1507-none-158> a hector:Rate ;
+    rdfs:label "1507: Lattyn wyer the C wayte 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundredweight> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "wyer" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 158 (transcribed by Stuart Jenks): 'Lattyn wyer the C wayte' 20s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/latten#rate-1507-none-159> a hector:Rate ;
+    rdfs:label "1507: Lattyn plate the C wayte 33s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "33s 4d" ;
+            hector:valueInPence 400.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundredweight> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "plate" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 159 (transcribed by Stuart Jenks): 'Lattyn plate the C wayte' 33s 4d" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/latten#rate-1507-none-22> a hector:Rate ;
+    rdfs:label "1507: Blake latten rowles the C 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "black" ;
+            la:equivalent aat:300130920 ] ;
+    hector:sourceText "Book of Rates 1507, line 22 (transcribed by Stuart Jenks): 'Blake latten rowles the C' 20s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/latten#rate-1545-inward-164> a hector:Rate ;
+    rdfs:label "1545 inward: Counters of laten the pound 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4d" ;
+            hector:valueInPence 4.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Counters" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 164 (transcribed by Stuart Jenks): 'Counters of laten the pound' 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/latten#rate-1545-inward-439> a hector:Rate ;
+    rdfs:label "1545 inward: Latten shaven the barrell £6" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£6" ;
+            hector:valueInPence 1440.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/barrel> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "shaven" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 439 (transcribed by Stuart Jenks): 'Latten shaven the barrell' £6" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/latten#rate-1545-inward-440> a hector:Rate ;
+    rdfs:label "1545 inward: Latten basons the hundreth pounde 33s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "33s 4d" ;
+            hector:valueInPence 400.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "basons" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 440 (transcribed by Stuart Jenks): 'Latten basons the hundreth pounde' 33s 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/latten#rate-1545-inward-441> a hector:Rate ;
+    rdfs:label "1545 inward: Latten wyer the 100 pounde 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "wyer" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 441 (transcribed by Stuart Jenks): 'Latten wyer the 100 pounde' 20s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/latten#rate-1545-inward-442> a hector:Rate ;
+    rdfs:label "1545 inward: Latten candylsteckes of the smal sorte [b.vii] the dossen 2s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "2s" ;
+            hector:valueInPence 24.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "candylsteckes" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "vii" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "small" ;
+            la:equivalent aat:300073768 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 442 (transcribed by Stuart Jenks): 'Latten candylsteckes of the smal sorte [b.vii] the dossen' 2s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/latten#rate-1545-inward-443> a hector:Rate ;
+    rdfs:label "1545 inward: Latten candelstickes of the great sort the dossen 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "large" ;
+            la:equivalent aat:300073756 ],
+        [ a crm:E55_Type ;
+            rdfs:label "candelstickes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 443 (transcribed by Stuart Jenks): 'Latten candelstickes of the great sort the dossen' 6s 8d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/latten#rate-1545-inward-86> a hector:Rate ;
+    rdfs:label "1545 inward: Blacke latten rolles the 100 pound 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "black" ;
+            la:equivalent aat:300130920 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 86 (transcribed by Stuart Jenks): 'Blacke latten rolles the 100 pound' 20s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/latten#rate-1558-inward-134> a hector:Rate ;
+    rdfs:label "1558 inward: Blacke latten rolles the C lb. cont’ 112 lb. 30s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "30s" ;
+            hector:valueInPence 360.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "black" ;
+            la:equivalent aat:300130920 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 134 (transcribed by Stuart Jenks): 'Blacke latten rolles the C lb. cont’ 112 lb.' 30s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/latten#rate-1558-inward-238> a hector:Rate ;
+    rdfs:label "1558 inward: Counters of latten the pounde 10d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "10d" ;
+            hector:valueInPence 10.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Counters" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 238 (transcribed by Stuart Jenks): 'Counters of latten the pounde' 10d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/latten#rate-1558-inward-344> a hector:Rate ;
+    rdfs:label "1558 inward: Cesternes of latten for cupperdes the lb 6d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6d" ;
+            hector:valueInPence 6.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Cesternes" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "cupperdes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 344 (transcribed by Stuart Jenks): 'Cesternes of latten for cupperdes the lb' 6d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/latten#rate-1558-inward-646> a hector:Rate ;
+    rdfs:label "1558 inward: Latten shaven the barrell cont’ 6 C [lb.] at 112 lb £12" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "£12" ;
+            hector:valueInPence 2880.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/barrel> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "shaven" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 646 (transcribed by Stuart Jenks): 'Latten shaven the barrell cont’ 6 C [lb.] at 112 lb' £12" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/latten#rate-1558-inward-647> a hector:Rate ;
+    rdfs:label "1558 inward: Latten wier the C lb. cont’ 112 lb 40s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "40s" ;
+            hector:valueInPence 480.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "wier" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 647 (transcribed by Stuart Jenks): 'Latten wier the C lb. cont’ 112 lb' 40s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/latten#rate-1558-inward-648> a hector:Rate ;
+    rdfs:label "1558 inward: Latten basens the C lb. cont’ 112 lb. 50s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "50s" ;
+            hector:valueInPence 600.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 100 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/hundred> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "basan" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 648 (transcribed by Stuart Jenks): 'Latten basens the C lb. cont’ 112 lb.' 50s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/latten#rate-1558-inward-683> a hector:Rate ;
+    rdfs:label "1558 inward: Laten shoyng hornes the dosen 3s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "3s 4d" ;
+            hector:valueInPence 40.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 12 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "shoyng hornes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 683 (transcribed by Stuart Jenks): 'Laten shoyng hornes the dosen' 3s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/mlca/glossary/latten> a crm:E55_Type ;
+    rdfs:label "latten (London Customs Accounts glossary)" .
+
+aat:300130920 a crm:E55_Type ;
+    rdfs:label "black (color)" .
+
 <https://w3id.org/hector/unit/barrel> a crm:E58_Measurement_Unit ;
     rdfs:label "barrel" .
+
+<https://w3id.org/hector/unit/dozen> a crm:E58_Measurement_Unit ;
+    rdfs:label "dozen" .
 
 <https://w3id.org/hector/unit/hundredweight> a crm:E58_Measurement_Unit ;
     rdfs:label "hundredweight" .
 
-<https://w3id.org/mlca/glossary/latten> a crm:E55_Type ;
-    rdfs:label "latten (London Customs Accounts glossary)" .
+<https://w3id.org/hector/unit/pound> a crm:E58_Measurement_Unit ;
+    rdfs:label "pound" .
+
+<https://w3id.org/hector/unit/hundred> a crm:E58_Measurement_Unit ;
+    rdfs:label "hundred" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

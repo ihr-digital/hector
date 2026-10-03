@@ -291,7 +291,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 102 (transcribed by Stuart Jenks): 'Bookes unbounde the maunde' £4"
+      "sourceText": "Book of Rates 1558, inward, line 102 (transcribed by Stuart Jenks): 'Bookes unbounde the maunde' £4",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "unbounde",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/book#rate-1558-inward-103",
@@ -318,7 +331,20 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 103 (transcribed by Stuart Jenks): 'Bookes unbounde the di’ maunde' 40s"
+      "sourceText": "Book of Rates 1558, inward, line 103 (transcribed by Stuart Jenks): 'Bookes unbounde the di’ maunde' 40s",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "unbounde",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/book#rate-1558-inward-118",
@@ -345,7 +371,35 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 118 (transcribed by Stuart Jenks): 'Bordes for bookes voc’ paste bordes the thousande' 6s 8d"
+      "sourceText": "Book of Rates 1558, inward, line 118 (transcribed by Stuart Jenks): 'Bordes for bookes voc’ paste bordes the thousande' 6s 8d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "Bordes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "paste"
+        },
+        {
+          "type": "Type",
+          "_label": "bordes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/book#rate-1558-outward-51",
@@ -372,7 +426,13 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, outward, line 51 (transcribed by Stuart Jenks): 'Paynted bookes the fatt' £4"
+      "sourceText": "Book of Rates 1558, outward, line 51 (transcribed by Stuart Jenks): 'Paynted bookes the fatt' £4",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "painted"
+        }
+      ]
     }
   ]
 }

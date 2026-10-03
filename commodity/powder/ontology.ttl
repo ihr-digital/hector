@@ -45,6 +45,14 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 144 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "dobylle the pryse Gyrdelles" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "Grayne" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "file" ] ;
     hector:sourceText "Book of Rates 1507, line 113 (transcribed by Stuart Jenks): 'Grayne that ys in powder ys dobylle the pryse Gyrdelles of thred the grosse' 4s" ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
@@ -58,6 +66,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Grayne" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 506 (transcribed by Stuart Jenks): 'Grayne powder the pounde' 6s 8d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -67,9 +78,6 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/hector/commodity/pulver-violet> a crm:E55_Type ;
     rdfs:label "pulver violet" .
-
-hector:AttestedVariant a crm:E55_Type ;
-    rdfs:label "attested variant" .
 
 <https://w3id.org/hector/unit/gross> a crm:E58_Measurement_Unit ;
     rdfs:label "gross" .
@@ -82,4 +90,7 @@ hector:AttestedVariant a crm:E55_Type ;
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .
+
+hector:AttestedVariant a crm:E55_Type ;
+    rdfs:label "attested variant" .
 

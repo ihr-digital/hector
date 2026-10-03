@@ -117,6 +117,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/maund> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "unbounde" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 102 (transcribed by Stuart Jenks): 'Bookes unbounde the maunde' £4" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -130,6 +133,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 5e-01 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/maund> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "unbounde" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 103 (transcribed by Stuart Jenks): 'Bookes unbounde the di’ maunde' 40s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -143,6 +149,14 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1000 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/thousand> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "bordes" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "paste" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Bordes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 118 (transcribed by Stuart Jenks): 'Bordes for bookes voc’ paste bordes the thousande' 6s 8d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -156,6 +170,8 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/vat> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "painted" ] ;
     hector:sourceText "Book of Rates 1558, outward, line 51 (transcribed by Stuart Jenks): 'Paynted bookes the fatt' £4" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .

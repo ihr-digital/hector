@@ -118,6 +118,9 @@ aat:300404670 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pack> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Torche" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1507, line 318 (transcribed by Stuart Jenks): 'Torche waxe the pack wyche contains' 4d" ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .

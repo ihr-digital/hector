@@ -50,16 +50,19 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/hundredweight> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "vesselle" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1507, line 223 (transcribed by Stuart Jenks): 'Pewter vesselle the C wayte' 33s 4d" ;
     hector:validFrom "1507"^^xsd:gYear ;
     hector:validThrough "1545"^^xsd:gYear .
-
-hector:AttestedVariant a crm:E55_Type ;
-    rdfs:label "attested variant" .
 
 <https://w3id.org/hector/unit/hundredweight> a crm:E58_Measurement_Unit ;
     rdfs:label "hundredweight" .
 
 <https://w3id.org/mlca/glossary/pewter> a crm:E55_Type ;
     rdfs:label "pewter (London Customs Accounts glossary)" .
+
+hector:AttestedVariant a crm:E55_Type ;
+    rdfs:label "attested variant" .
 

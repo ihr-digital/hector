@@ -5,6 +5,7 @@
 @prefix la: <https://linked.art/ns/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/hector/commodity/silk> a crm:E55_Type ;
@@ -193,20 +194,57 @@
         <https://w3id.org/hector/commodity/taffeta> ;
     la:equivalent aat:300014072 ;
     hector:attestationCount 2024 ;
-    hector:taxation <https://w3id.org/hector/commodity/silk#rate-1558-inward-256>,
+    hector:taxation <https://w3id.org/hector/commodity/silk#rate-1507-none-288>,
+        <https://w3id.org/hector/commodity/silk#rate-1507-none-289>,
+        <https://w3id.org/hector/commodity/silk#rate-1507-none-290>,
+        <https://w3id.org/hector/commodity/silk#rate-1507-none-291>,
+        <https://w3id.org/hector/commodity/silk#rate-1507-none-292>,
+        <https://w3id.org/hector/commodity/silk#rate-1545-inward-134>,
+        <https://w3id.org/hector/commodity/silk#rate-1545-inward-639>,
+        <https://w3id.org/hector/commodity/silk#rate-1545-inward-640>,
+        <https://w3id.org/hector/commodity/silk#rate-1545-inward-641>,
+        <https://w3id.org/hector/commodity/silk#rate-1545-inward-642>,
+        <https://w3id.org/hector/commodity/silk#rate-1545-inward-704>,
+        <https://w3id.org/hector/commodity/silk#rate-1545-inward-727>,
+        <https://w3id.org/hector/commodity/silk#rate-1545-inward-730>,
+        <https://w3id.org/hector/commodity/silk#rate-1558-inward-1045>,
+        <https://w3id.org/hector/commodity/silk#rate-1558-inward-1055>,
+        <https://w3id.org/hector/commodity/silk#rate-1558-inward-1056>,
+        <https://w3id.org/hector/commodity/silk#rate-1558-inward-1057>,
+        <https://w3id.org/hector/commodity/silk#rate-1558-inward-1058>,
+        <https://w3id.org/hector/commodity/silk#rate-1558-inward-1070>,
+        <https://w3id.org/hector/commodity/silk#rate-1558-inward-256>,
         <https://w3id.org/hector/commodity/silk#rate-1558-inward-300>,
         <https://w3id.org/hector/commodity/silk#rate-1558-inward-302>,
         <https://w3id.org/hector/commodity/silk#rate-1558-inward-872>,
-        <https://w3id.org/hector/commodity/silk#rate-1558-inward-957> .
+        <https://w3id.org/hector/commodity/silk#rate-1558-inward-950>,
+        <https://w3id.org/hector/commodity/silk#rate-1558-inward-951>,
+        <https://w3id.org/hector/commodity/silk#rate-1558-inward-952>,
+        <https://w3id.org/hector/commodity/silk#rate-1558-inward-953>,
+        <https://w3id.org/hector/commodity/silk#rate-1558-inward-954>,
+        <https://w3id.org/hector/commodity/silk#rate-1558-inward-955>,
+        <https://w3id.org/hector/commodity/silk#rate-1558-inward-956>,
+        <https://w3id.org/hector/commodity/silk#rate-1558-inward-957>,
+        <https://w3id.org/hector/commodity/silk#rate-1558-inward-958>,
+        <https://w3id.org/hector/commodity/silk#rate-1558-inward-964> .
 
 aat:300014072 a crm:E55_Type ;
     rdfs:label "silk (silkworm material)" .
+
+aat:300130920 a crm:E55_Type ;
+    rdfs:label "black (color)" .
 
 aat:300404670 a crm:E55_Type ;
     rdfs:label "preferred terms" .
 
 aat:300435416 a crm:E55_Type ;
     rdfs:label "descriptive note" .
+
+wd:Q29 a crm:E53_Place ;
+    rdfs:label "Spain" .
+
+wd:Q90 a crm:E53_Place ;
+    rdfs:label "Paris" .
 
 <https://w3id.org/hector/commodity/button> a crm:E55_Type ;
     rdfs:label "button" .
@@ -235,6 +273,330 @@ aat:300435416 a crm:E55_Type ;
 <https://w3id.org/hector/commodity/say> a crm:E55_Type ;
     rdfs:label "say" .
 
+<https://w3id.org/hector/commodity/silk#rate-1507-none-288> a hector:Rate ;
+    rdfs:label "1507: Sylke called rawe sylke of the best the lb 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "best" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "raw" ;
+            la:equivalent aat:300221288 ] ;
+    hector:sourceText "Book of Rates 1507, line 288 (transcribed by Stuart Jenks): 'Sylke called rawe sylke of the best the lb' 6s 8d" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1507-none-289> a hector:Rate ;
+    rdfs:label "1507: Sylke called rawe cades the lb 4s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4s" ;
+            hector:valueInPence 48.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "raw" ;
+            la:equivalent aat:300221288 ] ;
+    hector:sourceText "Book of Rates 1507, line 289 (transcribed by Stuart Jenks): 'Sylke called rawe cades the lb' 4s" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1507-none-290> a hector:Rate ;
+    rdfs:label "1507: Sylke of all manner off the best that ys to throwyn þe lb 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "off the best that ys to throwyn" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 290 (transcribed by Stuart Jenks): 'Sylke of all manner off the best that ys to throwyn þe lb' 13s 4d" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1507-none-291> a hector:Rate ;
+    rdfs:label "1507: Sylke called Callon sylke the lb. 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Callon" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1507, line 291 (transcribed by Stuart Jenks): 'Sylke called Callon sylke the lb.' 13s 4d" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1507-none-292> a hector:Rate ;
+    rdfs:label "1507: Sylke called Colen sylke the lb 16s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "16s 8d" ;
+            hector:valueInPence 200.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Cologne" ;
+            hector:originPlace wd:Q365 ] ;
+    hector:sourceText "Book of Rates 1507, line 292 (transcribed by Stuart Jenks): 'Sylke called Colen sylke the lb' 16s 8d" ;
+    hector:validFrom "1507"^^xsd:gYear ;
+    hector:validThrough "1545"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1545-inward-134> a hector:Rate ;
+    rdfs:label "1545 inward: Collaine sylke the cloute pound’ foure pounde 53s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "53s 4d" ;
+            hector:valueInPence 640.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "foure" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "Collaine" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 134 (transcribed by Stuart Jenks): 'Collaine sylke the cloute pound’ foure pounde' 53s 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1545-inward-639> a hector:Rate ;
+    rdfs:label "1545 inward: Sylke throwne the lb 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "throwne" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 639 (transcribed by Stuart Jenks): 'Sylke throwne the lb' 13s 4d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1545-inward-640> a hector:Rate ;
+    rdfs:label "1545 inward: Sylke rawe and died the pounde 8s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "8s" ;
+            hector:valueInPence 96.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "dye" ],
+        [ a crm:E55_Type ;
+            rdfs:label "raw" ;
+            la:equivalent aat:300221288 ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 640 (transcribed by Stuart Jenks): 'Sylke rawe and died the pounde' 8s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1545-inward-641> a hector:Rate ;
+    rdfs:label "1545 inward: Sylke longe, videlicet twelve ounces to the pounde 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "twelve" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "long" ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 641 (transcribed by Stuart Jenks): 'Sylke longe, videlicet twelve ounces to the pounde' 6s 8d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1545-inward-642> a hector:Rate ;
+    rdfs:label "1545 inward: Sylke shorte, videlicet twelve ounces to the pounde 4s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4s" ;
+            hector:valueInPence 48.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "short" ],
+        [ a crm:E55_Type ;
+            rdfs:label "twelve" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 642 (transcribed by Stuart Jenks): 'Sylke shorte, videlicet twelve ounces to the pounde' 4s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1545-inward-704> a hector:Rate ;
+    rdfs:label "1545 inward: Sylke sayes the yarde 5s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "5s" ;
+            hector:valueInPence 60.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/yard> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "sayes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 704 (transcribed by Stuart Jenks): 'Sylke sayes the yarde' 5s" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1545-inward-727> a hector:Rate ;
+    rdfs:label "1545 inward: Tapistry wyth sylke the ell 20d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20d" ;
+            hector:valueInPence 20.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/ell> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Tapistry" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 727 (transcribed by Stuart Jenks): 'Tapistry wyth sylke the ell' 20d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1545-inward-730> a hector:Rate ;
+    rdfs:label "1545 inward: Tapistry wythout sylke, caddas or woll the elle 6d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6d" ;
+            hector:valueInPence 6.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/ell> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "caddas or woll" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "Tapistry wythout" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1545, inward, line 730 (transcribed by Stuart Jenks): 'Tapistry wythout sylke, caddas or woll the elle' 6d" ;
+    hector:validFrom "1545"^^xsd:gYear ;
+    hector:validThrough "1558"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1558-inward-1045> a hector:Rate ;
+    rdfs:label "1558 inward: Sackclothe of sylke the yarde 3s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "3s 4d" ;
+            hector:valueInPence 40.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/yard> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Sackclothe" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 1045 (transcribed by Stuart Jenks): 'Sackclothe of sylke the yarde' 3s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1558-inward-1055> a hector:Rate ;
+    rdfs:label "1558 inward: Silke of Granado coloured the pounde conteynynge sixtene ounces 26s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "26s 8d" ;
+            hector:valueInPence 320.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "dye" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Granado" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 1055 (transcribed by Stuart Jenks): 'Silke of Granado coloured the pounde conteynynge sixtene ounces' 26s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1558-inward-1056> a hector:Rate ;
+    rdfs:label "1558 inward: Silke of Granado blacke the pounde 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Granado" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "black" ;
+            la:equivalent aat:300130920 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 1056 (transcribed by Stuart Jenks): 'Silke of Granado blacke the pounde' 20s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1558-inward-1057> a hector:Rate ;
+    rdfs:label "1558 inward: Silke vocat’ ferret silke the pounde 8s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "8s 4d" ;
+            hector:valueInPence 100.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "ferret" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 1057 (transcribed by Stuart Jenks): 'Silke vocat’ ferret silke the pounde' 8s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1558-inward-1058> a hector:Rate ;
+    rdfs:label "1558 inward: Silke throwen undyed the pounde conteyninge sixtene ounces 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "throwen undyed" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 1058 (transcribed by Stuart Jenks): 'Silke throwen undyed the pounde conteyninge sixtene ounces' 13s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1558-inward-1070> a hector:Rate ;
+    rdfs:label "1558 inward: Sylke chamblet the yarde 4s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "4s" ;
+            hector:valueInPence 48.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/yard> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "chamblet" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 1070 (transcribed by Stuart Jenks): 'Sylke chamblet the yarde' 4s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
 <https://w3id.org/hector/commodity/silk#rate-1558-inward-256> a hector:Rate ;
     rdfs:label "1558 inward: Coollen sylke the clowte cont’ 4 pounde £3" ;
     hector:amount [ a crm:E97_Monetary_Amount ;
@@ -244,6 +606,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/clout> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Cologne" ;
+            hector:originPlace wd:Q365 ] ;
     hector:sourceText "Book of Rates 1558, inward, line 256 (transcribed by Stuart Jenks): 'Coollen sylke the clowte cont’ 4 pounde' £3" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -257,6 +622,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 12 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/dozen> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Crippen parttelettes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 300 (transcribed by Stuart Jenks): 'Crippen parttelettes with sylke the dossen' £4" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -270,6 +638,9 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/pair> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Crippen sleaves" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 302 (transcribed by Stuart Jenks): 'Crippen sleaves with sylke the payre' 10s" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
@@ -283,7 +654,124 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 144 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/gross> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Pomett lace" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 872 (transcribed by Stuart Jenks): 'Pomett lace of sylke the grosse' 8s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1558-inward-950> a hector:Rate ;
+    rdfs:label "1558 inward: Sylke throme the pounde cont’ 16 oz 15s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "15s" ;
+            hector:valueInPence 180.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "thrum" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 950 (transcribed by Stuart Jenks): 'Sylke throme the pounde cont’ 16 oz' 15s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1558-inward-951> a hector:Rate ;
+    rdfs:label "1558 inward: Sylke rawe and died the pounde cont’ 16 oz 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "dye" ],
+        [ a crm:E55_Type ;
+            rdfs:label "raw" ;
+            la:equivalent aat:300221288 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 951 (transcribed by Stuart Jenks): 'Sylke rawe and died the pounde cont’ 16 oz' 6s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1558-inward-952> a hector:Rate ;
+    rdfs:label "1558 inward: Sylke longe, twentie one ounce the pounde 13s 4d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "13s 4d" ;
+            hector:valueInPence 160.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "twentie" ;
+            crm:P2_has_type hector:AttestedVariant ],
+        [ a crm:E55_Type ;
+            rdfs:label "long" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 952 (transcribed by Stuart Jenks): 'Sylke longe, twentie one ounce the pounde' 13s 4d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1558-inward-953> a hector:Rate ;
+    rdfs:label "1558 inward: Sylke shorte, 21 ounces the pounde 5s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "5s" ;
+            hector:valueInPence 60.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "short" ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 953 (transcribed by Stuart Jenks): 'Sylke shorte, 21 ounces the pounde' 5s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1558-inward-954> a hector:Rate ;
+    rdfs:label "1558 inward: Sylke voc’ Parrys sylke the pounde cont’ 16 oz 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Paris" ;
+            hector:originPlace wd:Q90 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 954 (transcribed by Stuart Jenks): 'Sylke voc’ Parrys sylke the pounde cont’ 16 oz' 6s 8d" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1558-inward-955> a hector:Rate ;
+    rdfs:label "1558 inward: Sylke voc’ sattyn sylke the pounde cont’ 16 oz. 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "sattyn" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 955 (transcribed by Stuart Jenks): 'Sylke voc’ sattyn sylke the pounde cont’ 16 oz.' 20s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1558-inward-956> a hector:Rate ;
+    rdfs:label "1558 inward: Sylke voc’ nobbes of sylke the pounde 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "8d" ;
+            hector:valueInPence 8.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "nobbes" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 956 (transcribed by Stuart Jenks): 'Sylke voc’ nobbes of sylke the pounde' 8d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
@@ -296,7 +784,42 @@ aat:300435416 a crm:E55_Type ;
     hector:perQuantity [ a crm:E54_Dimension ;
             crm:P90_has_value 1 ;
             crm:P91_has_unit <https://w3id.org/hector/unit/paper> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "caule" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
     hector:sourceText "Book of Rates 1558, inward, line 957 (transcribed by Stuart Jenks): 'Sylke voc’ caule sylke the paper cont’ 2 lb.' 25s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1558-inward-958> a hector:Rate ;
+    rdfs:label "1558 inward: Sylke voc’ Spanyshe sylke the pounde cont’ 16 oz 20s" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "20s" ;
+            hector:valueInPence 240.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/pound> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "Spain" ;
+            hector:originPlace wd:Q29 ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 958 (transcribed by Stuart Jenks): 'Sylke voc’ Spanyshe sylke the pounde cont’ 16 oz' 20s" ;
+    hector:validFrom "1558"^^xsd:gYear ;
+    hector:validThrough "1604"^^xsd:gYear .
+
+<https://w3id.org/hector/commodity/silk#rate-1558-inward-964> a hector:Rate ;
+    rdfs:label "1558 inward: Sylke saies the yarde 6s 8d" ;
+    hector:amount [ a crm:E97_Monetary_Amount ;
+            crm:P180_has_currency aat:300411998 ;
+            hector:lsd "6s 8d" ;
+            hector:valueInPence 80.0 ] ;
+    hector:perQuantity [ a crm:E54_Dimension ;
+            crm:P90_has_value 1 ;
+            crm:P91_has_unit <https://w3id.org/hector/unit/yard> ] ;
+    hector:qualifier [ a crm:E55_Type ;
+            rdfs:label "saies" ;
+            crm:P2_has_type hector:AttestedVariant ] ;
+    hector:sourceText "Book of Rates 1558, inward, line 964 (transcribed by Stuart Jenks): 'Sylke saies the yarde' 6s 8d" ;
     hector:validFrom "1558"^^xsd:gYear ;
     hector:validThrough "1604"^^xsd:gYear .
 
@@ -320,6 +843,21 @@ aat:300435416 a crm:E55_Type ;
 
 <https://w3id.org/mlca/glossary/silk> a crm:E55_Type ;
     rdfs:label "silk (London Customs Accounts glossary)" .
+
+wd:Q365 a crm:E53_Place ;
+    rdfs:label "Cologne" .
+
+<https://w3id.org/hector/unit/ell> a crm:E58_Measurement_Unit ;
+    rdfs:label "ell" .
+
+aat:300221288 a crm:E55_Type ;
+    rdfs:label "unfinished" .
+
+<https://w3id.org/hector/unit/yard> a crm:E58_Measurement_Unit ;
+    rdfs:label "yard" .
+
+<https://w3id.org/hector/unit/pound> a crm:E58_Measurement_Unit ;
+    rdfs:label "pound" .
 
 aat:300411998 a crm:E98_Currency ;
     rdfs:label "pound sterling (system of money)" .

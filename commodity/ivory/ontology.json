@@ -288,7 +288,35 @@
       },
       "validFrom": "1558",
       "validThrough": "1604",
-      "sourceText": "Book of Rates 1558, inward, line 308 (transcribed by Stuart Jenks): 'Casses garnyshed with ivory combes smale the dossen' 13s 4d"
+      "sourceText": "Book of Rates 1558, inward, line 308 (transcribed by Stuart Jenks): 'Casses garnyshed with ivory combes smale the dossen' 13s 4d",
+      "qualifier": [
+        {
+          "type": "Type",
+          "_label": "decorated"
+        },
+        {
+          "type": "Type",
+          "_label": "combes",
+          "classified_as": [
+            {
+              "id": "hector:AttestedVariant",
+              "type": "Type",
+              "_label": "attested variant"
+            }
+          ]
+        },
+        {
+          "type": "Type",
+          "_label": "small",
+          "equivalent": [
+            {
+              "id": "aat:300073768",
+              "type": "Type",
+              "_label": "small"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "https://w3id.org/hector/commodity/ivory#rate-1558-inward-625",
