@@ -84,8 +84,8 @@ from publication until accepted); (3) extend the loader filter to SPELLINGS whos
 Then link and publish the 1,644 rows of 1604 rates.
 
 **Next** (no decision needed unless marked):
-1. **27**: w3id content negotiation for Turtle / RDF/XML (PR to perma-id/w3id.org), designed to
-   cover the site's other foreseeable needs.
+1. ~~**27**: w3id content negotiation for Turtle / RDF/XML~~ **DONE 4 Oct 2026**:
+   perma-id/w3id.org#6802 merged (replacing #6801 after the move to ihr-digital); verified live.
 2. ~~**17 / D6**: the 1604 Book of Rates~~ **DEFERRED (Stephen, 3 Oct): a version upgrade after
    the first release**, not part of v1. See "1604, when it comes" below.
 3. The 314 rate spellings that match no glossary form, to LCA's curators (`build/rates/link-report.md`).
@@ -189,7 +189,7 @@ Phase 0 complete 2026-09-18.
 | 22 [E] | Contribution route: PR template, validation on PR | **done 3 Oct 2026**: CONTRIBUTING.md (records are generated: corrections by issue, reaching the source), a correction issue form (record URI pre-filled from each record page), a PR template; CI already validates every PR |
 | 23 [E] | UI for thousands of entities (Dexie + Fuse phonetic search, as `index.html` promises) | **largely done 3 Oct 2026**, without Dexie or Fuse: `index.html` + `js/hector.js` give a search over every attested spelling (`search/index.json`, `tools/site/build_search_index.py`) and a readable view of every record (w3id sends every HTML request there). Similar-spelling search added 3 Oct: LCA's character bi-encoder (`js/fuzzy_encoder.js`, weights `search/encoder.json.gz`, vectors by `tools/site/build_fuzzy.mjs`), chosen over Symphonym v8 by Stephen on LCA's measurement (0.881 vs 0.853 top-1, 2,825 held-out spellings); CI checks parity with the Python model and that the vectors are current |
 | 26 [E] | Turtle and RDF/XML | **done 3 Oct 2026**: `tools/site/build_rdf.py`, `ontology.ttl` / `ontology.rdf` beside every record + `dump/hector.ttl.gz`; deterministic, and CI checks they are current |
-| 27 [X] | Content negotiation for Turtle and RDF/XML at the URIs | PR to `perma-id/w3id.org` (`ids/hector/.htaccess`), to be designed to cover the site's other foreseeable needs (dump, files, trailing slashes, root) |
+| 27 [X] | Content negotiation for Turtle and RDF/XML at the URIs | **done 4 Oct 2026**: perma-id/w3id.org#6802 merged (`ids/hector/.htaccess`; targets on ihr-digital.github.io/hector): JSON-LD, Turtle, RDF/XML, file pass-through, `/dump`, `/context`, `/about`, trailing slashes, root. Tested on Apache 2.4 (27 cases) before the PR, and live after the merge |
 | 24 [C] | Credits and licence pages for every source | **done 3 Oct 2026**: CREDITS.md (Jenks, LCA project and glossary, AAT with Getty's ODC-By credit line, Wikidata, QUDT, Linked Art/CIDOC-CRM, w3id, the LCA encoder, quoted dictionaries); the site's credits link and AAT credit line |
 | 25 [E] | Deposit + DOI (Zenodo via a GitHub release) | todo |
 
