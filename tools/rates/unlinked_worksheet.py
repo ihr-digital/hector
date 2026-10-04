@@ -3,10 +3,12 @@
 
     .venv/bin/python -m tools.rates.unlinked_worksheet --out ~/Downloads/books-of-rates-unlinked.xlsx
 
-Uses link_rates' own matching (link, form_index) and preconditions, so it lists exactly what the
-linker leaves out for want of a commodity: rows with a price and a unit whose goods match either
-NO glossary spelling, or only a spelling two or more concepts share (ambiguous). Rows lacking a
-price or a unit are not a curator's question and are left out.
+Uses link_rates' own matching (link, form_index, LINK_OVERRIDES) and preconditions, so it lists
+exactly what the linker leaves out for want of a commodity: rows with a price and a unit whose
+goods match NO glossary spelling; or only a spelling two or more concepts share (ambiguous); or
+only a word naming the material, purpose or container ("Saddels of stele"), which is never taken
+for the goods; or that were read by hand and found to have no concept yet (LINK_OVERRIDES None).
+Rows lacking a price or a unit are not a curator's question and are left out.
 
 One row per distinct goods phrase (an entry repeated across the books needs one decision), with
 every book and line it occurs in, and suggestions: for an ambiguous phrase, the concepts that
@@ -64,7 +66,13 @@ def build(out: Path):
         if r["book"] not in L.LINKED_BOOKS or not r.get("pence") or join.get(r.get("unit") or "") not in units:
             continue
         text = r.get("commodity_text") or r.get("commodity_raw") or ""
-        key, _sp, _q, why = L.link(text, idx, max_len)
+        ov = (r["book"], r["direction"], str(r["source_line"]))
+        if ov in L.LINK_OVERRIDES:
+            if L.LINK_OVERRIDES[ov]:
+                continue                                     # linked, by hand
+            key, why = None, "no concept yet: read by hand"
+        else:
+            key, _sp, _q, why = L.link(text, idx, max_len)
         if key:
             continue
         kind = why.split(":")[0]
@@ -84,6 +92,14 @@ def build(out: Path):
             words = [w.strip() for w in g["why"].split(":", 1)[1].split(",")]
             cands = [(k, w) for w in words for k in sorted(idx.get(w, ()))][:3]
             problem = f"'{', '.join(words)}' is a spelling of more than one concept"
+        elif g["kind"] == "only a material, purpose or container":
+            words = [w.strip() for w in g["why"].split(":", 1)[1].split(",")]
+            cands = suggestions(g["text"], idx, spellings, entries)
+            problem = (f"only '{', '.join(words)}' matched, which names what the goods are made of, for or "
+                       "packed in, not the goods themselves")
+        elif g["kind"] == "no concept yet":
+            cands = suggestions(g["text"], idx, spellings, entries)
+            problem = "read by hand: the automatic link was wrong, and no concept was found for the goods by name (a suggestion may still fit)"
         else:
             cands = suggestions(g["text"], idx, spellings, entries)
             problem = "no glossary spelling"
@@ -116,11 +132,17 @@ def build(out: Path):
         "  new         if the glossary has no concept for it (give a name in 'note');",
         "  not goods   if the entry is not a commodity at all.",
         "",
-        "'problem' says why it did not link: no spelling in the glossary, or a spelling two concepts share",
-        "(e.g. 'grayne' is both a grain and grain the dyestuff). For those, say which concept is meant here.",
+        "'problem' says why it did not link:",
+        "  no glossary spelling: no spelling of the goods is in the glossary;",
+        "  a spelling of more than one concept (e.g. 'grayne' is both a grain and grain the dyestuff): say which is meant here;",
+        "  only a material, purpose or container matched ('Saddels of stele': steel is what the saddles are made of):",
+        "     the goods themselves (saddles) have no glossary spelling;",
+        "  read by hand: the automatic link was wrong, and no concept was found for the goods by name; a suggestion may",
+        "     still fit ('Playne yrones for carpenters': planing iron?), otherwise 'new'.",
         "",
-        f"{counts['no glossary spelling']} entries with no glossary spelling and {counts['ambiguous']} ambiguous ones, "
-        f"in {len(groups)} distinct phrases (Books of Rates 1507, 1545, 1558).",
+        f"{counts['no glossary spelling']} entries with no glossary spelling, {counts['ambiguous']} ambiguous, "
+        f"{counts['only a material, purpose or container']} with only a material, purpose or container, and "
+        f"{counts['no concept yet']} read by hand, in {len(groups)} distinct phrases (Books of Rates 1507, 1545, 1558).",
         "Suggestions are by closeness of spelling only and will often be wrong: please check every one.",
     ]:
         notes.append([line])
