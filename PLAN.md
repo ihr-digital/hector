@@ -90,12 +90,14 @@ Then link and publish the 1,644 rows of 1604 rates.
    the first release**, not part of v1. See "1604, when it comes" below.
 3. The 314 rate spellings that match no glossary form, to LCA's curators (`build/rates/link-report.md`).
 4. **D4 on the LCA side**: LCA's JSON-LD emits `skos:exactMatch` to HECTOR URIs, now the ledger is public.
+   Sent to the LCA session `london-customs-accounts-35` on 5 Oct 2026; awaiting its reply.
 5. **25**: first tagged release + Zenodo DOI, which ends the alpha and freezes the ledger
    (docs/uri-policy.md §0) [D: when]. Prepared 3 Oct: CITATION.cff (validated), .zenodo.json,
    CRediT roles in CREDITS.md, CHANGELOG.md, and the step-by-step docs/release.md. The alpha
    pre-release v2026.10-alpha.1 published 3 Oct (no DOI). **Admin on `ihr-digital/hector`
    granted 5 Oct 2026** (Justin Colson), so Zenodo's integration can now be switched on; do so
    only when the last alpha is out (docs/release.md: Zenodo archives pre-releases too).
+   Zenodo already lists the repository (checked by Stephen, 5 Oct); its switch is left off.
 6. ~~19~~ dropped (D7); ~~22, 24~~ done 3 Oct.
 
 
