@@ -7,8 +7,9 @@ stable and the ledgers are frozen. Prepared 3 October 2026; nothing here has bee
 
 `vYYYY.MM-alpha.N`, published as a GitHub **pre-release**: a snapshot for discussion that
 promises nothing persistent. No DOI: switch Zenodo's integration on only once the alphas are
-done, because it is not established that Zenodo ignores a GitHub pre-release (check its current
-behaviour before relying on that). Nothing frozen, alpha notices left in place. Bump
+done, because **Zenodo does not ignore a GitHub pre-release**: its receiver (inveniosoftware/
+invenio-github, `receivers.py`, read 5 Oct 2026) skips only *draft* releases, so with the
+integration on, every published alpha would be deposited and given a DOI. Nothing frozen, alpha notices left in place. Bump
 `version` and `date-released` in CITATION.cff and `owl:versionInfo`, add a CHANGELOG entry, tag.
 First: v2026.10-alpha.1, 3 Oct 2026.
 
@@ -34,8 +35,9 @@ First: v2026.10-alpha.1, 3 Oct 2026.
 ## Tagging and the DOI
 
 7. **Zenodo**: in Zenodo, enable the GitHub integration for `ihr-digital/hector` (once). Zenodo lists
-   only repositories its user can administer, and the transfer to `ihr-digital` left the maintainer
-   with write access only: an organisation owner must first grant admin on `hector`.
+   only repositories its user can administer; admin on `hector` was granted by an organisation
+   owner on 5 Oct 2026 (after the transfer to `ihr-digital` had left write access only). Enable it
+   after the last alpha and before step 8, and publish no pre-release while it is on.
    A GitHub *release* (not just a tag) then triggers a deposit and mints a DOI.
 8. Create the release `vYYYY.MM` on GitHub with the CHANGELOG entry as its notes.
 9. When Zenodo has minted the DOI: add it to CITATION.cff (`doi`, and an `identifiers` entry),
