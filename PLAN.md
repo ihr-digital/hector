@@ -89,8 +89,11 @@ Then link and publish the 1,644 rows of 1604 rates.
 2. ~~**17 / D6**: the 1604 Book of Rates~~ **DEFERRED (Stephen, 3 Oct): a version upgrade after
    the first release**, not part of v1. See "1604, when it comes" below.
 3. The 314 rate spellings that match no glossary form, to LCA's curators (`build/rates/link-report.md`).
-4. **D4 on the LCA side**: LCA's JSON-LD emits `skos:exactMatch` to HECTOR URIs, now the ledger is public.
-   Sent to the LCA session `london-customs-accounts-35` on 5 Oct 2026; awaiting its reply.
+4. ~~**D4 on the LCA side**~~ **DONE 3 Oct 2026** (LCA 6705ee9a; found 5 Oct): every glossary
+   entry's JSON-LD has `skos:exactMatch` to its HECTOR commodity URI (2,455 of 2,455), units also
+   `rdfs:seeAlso` to `unit/<slug>`. Slugs come from LCA's committed copy of the ledgers,
+   `docs/data/hector/`, synced by `process/sync_hector_ledger.py`. A fix to follow `replaced_by`
+   for retired rows (LCA 6e76c018) was still local on 5 Oct.
 5. **25**: first tagged release + Zenodo DOI, which ends the alpha and freezes the ledger
    (docs/uri-policy.md §0) [D: when]. Prepared 3 Oct: CITATION.cff (validated), .zenodo.json,
    CRediT roles in CREDITS.md, CHANGELOG.md, and the step-by-step docs/release.md. The alpha

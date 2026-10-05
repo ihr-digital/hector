@@ -47,4 +47,6 @@ First: v2026.10-alpha.1, 3 Oct 2026.
 ## After
 
 10. Tell the London Customs Accounts project the DOI, so its documentation can cite HECTOR.
+    It must also re-sync its copy of the ledgers (`python -m process.sync_hector_ledger`, then
+    commit `docs/data/hector/`), so its `skos:exactMatch` links follow the frozen ledger.
 11. Announce on issue #2 and close what the release settles.
