@@ -83,6 +83,28 @@ from publication until accepted); (3) extend the loader filter to SPELLINGS whos
 1604, so stage 1 cannot change a London reading, and prove it with LCA's re-annotation check.
 Then link and publish the 1,644 rows of 1604 rates.
 
+**Sources Eliot Benbow offered, 7 Oct 2026 (for after v1; nothing ingested yet).**
+- *1604 units are not the 1558 units.* 1604 changes the measure of some goods, in a few cases
+  from the short hundred to the long hundred (Eliot, writing the IHR wiki handlist on the long
+  and short hundred). A 1604 rate must not inherit a 1558 conversion: per D7(c), each reading
+  of "hundred" is a sourced statement scoped to its book. Ask Eliot for the handlist's list of
+  goods that changed when 1604 is linked.
+- *The 1604 book itself:* TNA E 122/173/3, a presentation copy signed by James I. Eliot's scans,
+  three PDFs (ff. 1r-14v, 15r-29v, 30r-41r; 91 MB; the third file is named "E 190-173-3", a slip
+  for E 122), are in Stephen's `~/Downloads/wetransfer_e-122-173-3-copy-of-1604-bor_2026-10-05_1233.zip`.
+  Not put in any repository: size, and the TNA image licence is not established. For checking
+  Jenks's 1604 transcription where it is doubtful.
+- *T. S. Willan, A Tudor Book of Rates (1962)*: an edition of the 1582 printing of the 1558 book,
+  which adds a few commodities from the revisions attempted in the 1560s and 1580s (Stuart
+  Jenks called it "nonofficial"), with Willan's glosses on the commodities. Internet Archive
+  lending copy `tudorbookofrates0000grea`. In copyright: cite its glosses in descriptions, do
+  not ingest its text.
+- *Richard Arnold's list of "Spycery"* (Arnold's Chronicle, "The customs of London", 1811 ed.,
+  pp. 234-237; Internet Archive `b33520069`): sometimes called a proto-Book of Rates, though
+  the consensus now is that it is not one. Arnold, a London haberdasher (Justin Colson is
+  working on him), appears in the LCA. Public domain: a source of c.1500 commodity names and
+  spellings, not of rates.
+
 **Next** (no decision needed unless marked):
 1. ~~**27**: w3id content negotiation for Turtle / RDF/XML~~ **DONE 4 Oct 2026**:
    perma-id/w3id.org#6802 merged (replacing #6801 after the move to ihr-digital); verified live.
