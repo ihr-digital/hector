@@ -4,6 +4,7 @@
  * go straight to <path>/ontology.json), so this one page is also the human view of each record.
  * No libraries: records are fetched from the same site, and search/index.json (built by
  * tools/site/build_search_index.py) holds every record's label and attested spellings.
+ * ?path=commodity and ?path=unit (no record lives there) browse every live record of that kind.
  */
 (() => {
     "use strict";
@@ -80,9 +81,9 @@
         const label = d._label || path;
         document.title = `${label} · HECTOR`;
         const isUnit = d.type === "MeasurementUnit";
-        const kind = isUnit ? "Unit" : "Commodity";
+        const kind = path.startsWith("unit/") ? "unit" : "commodity";
         const h = [];
-        h.push(`<p class="crumb"><a href="./">HECTOR</a> › ${esc(kind)}</p>`);
+        h.push(`<p class="crumb"><a href="./">HECTOR</a> › <a href="?path=${kind}">${BROWSE[kind].title}</a></p>`);
         h.push(`<h1>${esc(label)}</h1>`);
         h.push(`<p class="uri"><code>${esc(uri)}</code> <button type="button" class="copy" data-copy="${esc(uri)}">Copy URI</button>
                  <a class="json" href="./${esc(path)}/ontology.json">JSON-LD</a>
@@ -161,9 +162,19 @@
                 <tbody>${rows}</tbody></table></div></section>`);
         }
 
+        if (path.startsWith("unit/dimension/")) h.push(`<section id="dimension-units"></section>`);
         h.push(`<details class="raw"><summary>Show the JSON-LD</summary><pre><code>${esc(JSON.stringify(d, null, 2))}</code></pre></details>`);
         el.innerHTML = h.join("");
         wireCopy(el);
+        if (path.startsWith("unit/dimension/")) dimensionUnits($("#dimension-units"), path.split("/").pop());
+    }
+
+    /** On a dimension's page, the units measuring that kind of quantity. */
+    async function dimensionUnits(el, dim) {
+        try {
+            const units = sortByLabel((await loadIndex()).filter((r) => r.kind === "u" && !r.dep && r.dims.includes(dim)));
+            if (units.length) el.innerHTML = `<h2>Units of this kind <span class="count">${units.length}</span></h2>${browseList(units)}`;
+        } catch { /* the record itself is shown; the list is a convenience */ }
     }
 
     function renderVocabulary(el, doc) {
@@ -187,6 +198,78 @@
             catch { b.textContent = "Copy failed"; }
             setTimeout(() => (b.textContent = "Copy URI"), 1500);
         }));
+    }
+
+    /* ------------------------------------------------------------------ browse */
+
+    const BROWSE = {
+        commodity: {title: "Commodities", kind: "c"},
+        unit: {title: "Units", kind: "u"},
+    };
+    // the order units are grouped in; any dimension not named here follows, then units with none
+    const DIMENSIONS = ["mass", "volume", "length", "count", "package"];
+
+    const sortByLabel = (rows) => rows.slice().sort((a, b) => a.label.localeCompare(b.label, "en", {sensitivity: "base"}));
+    const browseList = (rows) => `<ul class="browse">${rows.map((r) =>
+        `<li><a href="?path=${encodeURIComponent(r.path)}">${esc(r.label)}</a></li>`).join("")}</ul>`;
+
+    async function showBrowse(which) {
+        const {title, kind} = BROWSE[which];
+        const el = $("#record");
+        el.hidden = false;
+        document.title = `${title} · HECTOR`;
+        el.innerHTML = `<p class="muted">Loading…</p>`;
+        let index;
+        try { index = await loadIndex(); } catch {
+            el.innerHTML = `<h1>${title}</h1><p>The list could not be loaded. <a href="./">Search HECTOR</a></p>`;
+            return;
+        }
+        const live = sortByLabel(index.filter((r) => r.kind === kind && !r.dep));
+        const retired = index.filter((r) => r.kind === kind && r.dep).length;
+        const ledger = which === "unit" ? "units" : "commodities";
+        el.innerHTML = `<p class="crumb"><a href="./">HECTOR</a> › ${title}</p>
+            <h1>${title} <span class="count">${live.length.toLocaleString("en-GB")}</span></h1>
+            <p class="muted small">Every current record, by its preferred label. ${retired ? `${retired.toLocaleString("en-GB")} retired
+                record${retired === 1 ? " is" : "s are"} left out: their URIs still resolve, and the
+                <a href="./ledger/${ledger}.tsv">ledger</a> says what replaced each. ` : ""}To find a record by another
+                spelling, <a href="./">search</a>.</p>
+            <div id="browse-body"></div>`;
+        (which === "unit" ? browseUnits : browseCommodities)($("#browse-body"), live);
+        if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
+    }
+
+    /** Commodities A–Z, optionally only those with customs rates. */
+    function browseCommodities(el, live) {
+        const initial = (r) => { const c = normalise(r.label).charAt(0).toUpperCase(); return /[A-Z]/.test(c) ? c : "#"; };
+        el.innerHTML = `<div class="browse-bar">
+                <nav class="letters" aria-label="Jump to letter"></nav>
+                <label class="small"><input type="checkbox" id="rated-only"> Only those with customs rates</label>
+            </div><div id="browse-list"></div>`;
+        const draw = () => {
+            const rows = $("#rated-only").checked ? live.filter((r) => r.rates) : live;
+            const groups = new Map();
+            rows.forEach((r) => { const k = initial(r); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(r); });
+            const keys = [...groups.keys()].sort();
+            $(".letters", el).innerHTML = [..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"].concat(groups.has("#") ? ["#"] : [])
+                .map((k) => groups.has(k) ? `<a href="#letter-${k}">${k}</a>` : `<span aria-hidden="true">${k}</span>`).join("");
+            $("#browse-list").innerHTML = keys.map((k) => `<section><h2 id="letter-${k}">${k} <span class="count">${groups.get(k).length}</span></h2>
+                ${browseList(groups.get(k))}</section>`).join("");
+        };
+        $("#rated-only").addEventListener("change", draw);
+        draw();
+    }
+
+    /** Units grouped by the kind of quantity they measure; a unit with several kinds is listed under each. */
+    function browseUnits(el, live) {
+        const seen = [...new Set(live.flatMap((r) => r.dims))];
+        const order = DIMENSIONS.filter((d) => seen.includes(d)).concat(seen.filter((d) => !DIMENSIONS.includes(d)).sort());
+        const none = live.filter((r) => !r.dims.length);
+        const section = (id, head, rows) => `<section><h2 id="${id}">${head} <span class="count">${rows.length}</span></h2>${browseList(rows)}</section>`;
+        el.innerHTML = `<nav class="letters wide" aria-label="Jump to kind of quantity">${order.map((d) => `<a href="#dim-${esc(d)}">${esc(d)}</a>`).join("")}
+                ${none.length ? `<a href="#dim-none">other</a>` : ""}</nav>`
+            + order.map((d) => section(`dim-${esc(d)}`, `<a href="?path=unit/dimension/${encodeURIComponent(d)}">${esc(d[0].toUpperCase() + d.slice(1))}</a>`,
+                live.filter((r) => r.dims.includes(d)))).join("")
+            + (none.length ? section("dim-none", "Other", none) : "");
     }
 
     /* ------------------------------------------------------------------ landing + search */
@@ -246,8 +329,8 @@
         if (INDEX) return INDEX;
         const res = await fetch(new URL("search/index.json", BASE));
         if (!res.ok) throw new Error(res.status);
-        INDEX = (await res.json()).map(([path, label, kind, names, dep, rates]) => ({
-            path, label, kind, names, dep, rates: rates || 0, keys: [label, ...names].map(normalise),
+        INDEX = (await res.json()).map(([path, label, kind, names, dep, rates, dims]) => ({
+            path, label, kind, names, dep, rates: rates || 0, dims: dims || [], keys: [label, ...names].map(normalise),
         }));
         return INDEX;
     }
@@ -327,5 +410,5 @@
     }
 
     const path = (new URLSearchParams(location.search).get("path") || "").replace(/^\/+|\/+$/g, "");
-    if (path) showRecord(path); else showLanding();
+    if (BROWSE[path]) showBrowse(path); else if (path) showRecord(path); else showLanding();
 })();

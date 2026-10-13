@@ -34,6 +34,10 @@ release. Validation 3,395 docs, 0 errors online and offline; 117 tests.
   view of every record, honest "not yet" list; favicon. Turtle and RDF/XML for every record and a
   Turtle dump (task 26). README rewritten to match what is published.
 - Issue #2 is the original assessment (15-18 Sep) and is kept as such; a comment there points here.
+- 13 Oct 2026, the site: browse without searching. `?path=commodity` lists every current commodity
+  A–Z (optionally only those with rates), `?path=unit` the units grouped by dimension, and each
+  dimension page lists its units; header links on every page, record breadcrumbs point there.
+  `search/index.json` rows gained a 7th column (a unit's dimensions), so fuzzy.json.gz was rebuilt.
 
 **Scope and stewardship (Stephen, 3 Oct 2026).** HECTOR is meant to extend beyond London to the
 commodities of other trades, places and languages, so its public text describes a vocabulary of

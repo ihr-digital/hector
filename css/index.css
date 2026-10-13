@@ -34,6 +34,7 @@ header.site { border-bottom: 1px solid var(--rule); background: var(--surface); 
 header.site .wrap { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.25rem 1rem; padding-top: 0.9rem; padding-bottom: 0.9rem; }
 .brand { font-weight: 700; font-size: 1.35rem; letter-spacing: 0.06em; color: var(--ink); text-decoration: none; }
 .tagline { color: var(--muted); font-size: 0.95rem; }
+.sitenav { margin-left: auto; display: flex; gap: 1rem; font-size: 0.95rem; }
 .notice { background: var(--notice); color: var(--notice-ink); font-size: 0.95rem; }
 .notice .wrap { padding-top: 0.6rem; padding-bottom: 0.6rem; }
 .notice a { color: inherit; }
@@ -63,6 +64,20 @@ h2 { font-size: 1.12rem; margin: 1.6rem 0 0.5rem; }
 .kind, .via { font-size: 0.82rem; color: var(--muted); }
 .via { font-style: italic; }
 .results li.near-head { font-weight: 600; color: var(--muted); font-size: 0.85rem; border-bottom: none; padding-top: 1rem; }
+
+.browse-bar {
+    position: sticky; top: 0; z-index: 1; background: var(--bg); border-bottom: 1px solid var(--rule);
+    padding: 0.5rem 0; display: flex; flex-wrap: wrap; gap: 0.4rem 1.5rem; align-items: center;
+}
+.letters { display: flex; flex-wrap: wrap; gap: 0.1rem; }
+.letters a, .letters span { min-width: 1.6rem; padding: 0.15rem 0.3rem; text-align: center; border-radius: 4px; font-weight: 600; }
+.letters a { text-decoration: none; }
+.letters a:hover { background: var(--tag); }
+.letters span { color: var(--rule); }
+.letters.wide { gap: 0.4rem 1rem; margin: 0.5rem 0; }
+.browse { list-style: none; padding: 0; margin: 0; columns: 13rem; column-gap: 1.5rem; }
+.browse li { padding: 0.12rem 0; break-inside: avoid; }
+[id^="letter-"], [id^="dim-"] { scroll-margin-top: 3.5rem; }
 
 .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); gap: 0 2.5rem; }
 .stats { list-style: none; padding: 0; margin: 0; }
